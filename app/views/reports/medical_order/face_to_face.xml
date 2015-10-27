@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<medical-order>
+  <attachment-type-id type="integer" nil="true"/>
+  <created-user-id type="integer">295</created-user-id>
+  <field-staff-id type="integer" nil="true"/>
+  <id type="integer">970</id>
+  <lock-version type="integer">43</lock-version>
+  <mo-editable type="boolean">true</mo-editable>
+  <order-content>dcd</order-content>
+  <order-date type="date">2014-03-24</order-date>
+  <order-reference>561</order-reference>
+  <order-status type="symbol">ready_to_send</order-status>
+  <order-type-id type="integer">175</order-type-id>
+  <os-sign-date type="date">2014-03-27</os-sign-date>
+  <physician-id type="integer">1903</physician-id>
+  <printable-order-content-type>application/pdf</printable-order-content-type>
+  <printable-order-file-name>1395900531.808132-276371.pdf</printable-order-file-name>
+  <printable-order-file-size type="integer">3288</printable-order-file-size>
+  <printable-order-updated-at type="datetime">2014-03-27T11:38:51+05:30</printable-order-updated-at>
+  <signed-order-content-type nil="true"/>
+  <signed-order-file-name nil="true"/>
+  <signed-order-file-size type="integer" nil="true"/>
+  <signed-order-updated-at type="datetime" nil="true"/>
+  <signed-user-id type="integer">295</signed-user-id>
+  <treatment-episode-id type="integer">457</treatment-episode-id>
+  <treatment-id type="integer">313</treatment-id>
+  <treatment-visit-id type="integer" nil="true"/>
+  <created-user-name>Mariam Zakharyan</created-user-name>
+  <order-type-display>Face To Face</order-type-display>
+  <created-user-signature-path>/home/msuser1/workspace/git_repos/fasternotes/public/system/org_staffs/signatures/000/000/295/original/signature20140327-5846-ju1baw.png</created-user-signature-path>
+  <field-staff-name nil="true"/>
+  <order-date-display>03/24/2014</order-date-display>
+  <os-sign-date-display>03/27/2014</os-sign-date-display>
+  <patient-mr-number>30</patient-mr-number>
+  <physician-phone-number>Phone: (310) 206-9799</physician-phone-number>
+  <physician-fax-number>Fax: (310) 206-9819</physician-fax-number>
+  <agency-name>Metropolitan Healthcare, Inc.</agency-name>
+  <agency-address>4929 Wilshire Blvd., Suite 945, Los Angeles, CA 90010</agency-address>
+  <agency-phone-number>(323) 960-2533</agency-phone-number>
+  <agency-fax-number>(323) 421-9163</agency-fax-number>
+  <patient-name>George Alexander</patient-name>
+  <episode-display>03/03/14 - 05/01/14</episode-display>
+  <physician-name>Jeff Bronstein, MD</physician-name>
+  <physician-address-line1>710 Westwood Plaza, Suite A153</physician-address-line1>
+  <physician-address-line2>Los Angeles, CA 90095</physician-address-line2>
+  <patient-details>&lt;b&gt;GEORGE ALEXANDER&lt;/b&gt; (Male) &lt;b&gt;MR&lt;/b&gt; 30</patient-details>
+  <patient-contact>&lt;b&gt;DOB&lt;/b&gt; 10/01/1948  &lt;b&gt;Tel&lt;/b&gt; (818) 445-3425</patient-contact>
+  <patient-address>5416 Ventura Canyon Aves., Suite 123, Los Angeles CA 90013</patient-address>
+  <medicare-number>263923952A</medicare-number>
+  <provider-name>METROPOLITAN HEALTHCARE, INC.</provider-name>
+  <provider-contact>&lt;b&gt;Tel&lt;/b&gt; (323) 960-2533, &lt;b&gt;Fax&lt;/b&gt; (323) 421-9163</provider-contact>
+  <provider-full-address> 4929 Wilshire Blvd., Suite 945  Los Angeles, CA 90010</provider-full-address>
+  <physician-full-address>710 Westwood Plaza, Suite A153, Los Angeles, CA 90095</physician-full-address>
+  <physician-short-info>JEFF BRONSTEIN, MD &lt;b&gt;Tel&lt;/b&gt; (310) 206-9799</physician-short-info>
+  <physician-contact>&lt;b&gt;Tel&lt;/b&gt; (310) 206-9799, &lt;b&gt;Fax&lt;/b&gt; (310) 206-9819</physician-contact>
+</medical-order>

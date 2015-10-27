@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report1" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="e8a6c4c4-d367-4aa3-8046-740018b9213e">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/patients/patient]]>
+	</queryString>
+	<field name="patient-name" class="java.lang.String">
+		<fieldDescription><![CDATA[patient-name]]></fieldDescription>
+	</field>
+	<field name="patient-mr-num" class="java.lang.String">
+		<fieldDescription><![CDATA[patient-mr-num]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="79" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="35" splitType="Stretch"/>
+	</pageHeader>
+	<columnHeader>
+		<band height="61" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="77e4bed3-23c7-4dc1-b71b-c09b745f9960" x="54" y="2" width="100" height="20"/>
+				<textElement/>
+				<text><![CDATA[patient/patient-name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="f0234154-80e6-455a-8e67-c1e808fc2fa3" x="255" y="2" width="100" height="20"/>
+				<textElement/>
+				<text><![CDATA[patient/patient-mr-num]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="125" splitType="Stretch">
+			<textField>
+				<reportElement uuid="7c3ac4c9-cbb7-4efd-a8fb-c38f15c9c047" x="54" y="23" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{patient-name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="d2da7b3e-ec4a-4508-a828-857c527b0d85" x="255" y="32" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{patient-mr-num}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

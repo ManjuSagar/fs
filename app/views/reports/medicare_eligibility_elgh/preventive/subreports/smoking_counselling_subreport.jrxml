@@ -1,0 +1,122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="smoking_counselling_subreport" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="ca8ffb57-aee2-4154-b23f-8706648fe57e">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/elgh-response/smoking-cessation/counselling-sessions/session]]>
+	</queryString>
+	<field name="hcpcs" class="java.lang.String">
+		<fieldDescription><![CDATA[hcpcs]]></fieldDescription>
+	</field>
+	<field name="from-date" class="java.lang.String">
+		<fieldDescription><![CDATA[from-date]]></fieldDescription>
+	</field>
+	<field name="to-date" class="java.lang.String">
+		<fieldDescription><![CDATA[to-date]]></fieldDescription>
+	</field>
+	<field name="period" class="java.lang.String">
+		<fieldDescription><![CDATA[period]]></fieldDescription>
+	</field>
+	<field name="quantity" class="java.lang.String">
+		<fieldDescription><![CDATA[quantity]]></fieldDescription>
+	</field>
+	<field name="type" class="java.lang.String">
+		<fieldDescription><![CDATA[type]]></fieldDescription>
+	</field>
+	<field name="next-session-date" class="java.lang.String">
+		<fieldDescription><![CDATA[next-session-date]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="19">
+			<printWhenExpression><![CDATA[$F{hcpcs}!=null ||
+$F{from-date}!=null ||
+$F{to-date}!=null ||
+$F{period}!=null ||
+$F{quantity}!=null ||
+$F{type}!=null ||
+$F{next-session-date}!=null]]></printWhenExpression>
+			<staticText>
+				<reportElement uuid="208b2504-c14d-42c2-a7b1-22333406a9f5" mode="Opaque" x="0" y="3" width="555" height="15" backcolor="#F0ECEC"/>
+				<textElement>
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Counselling Sessions]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="34" splitType="Stretch">
+			<printWhenExpression><![CDATA[$F{hcpcs}!=null ||
+$F{from-date}!=null ||
+$F{to-date}!=null ||
+$F{period}!=null ||
+$F{quantity}!=null ||
+$F{type}!=null ||
+$F{next-session-date}!=null]]></printWhenExpression>
+			<staticText>
+				<reportElement uuid="79bd4572-907a-4f60-8728-366f6fa982b7" x="5" y="0" width="50" height="15"/>
+				<textElement/>
+				<text><![CDATA[HCPCS:]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="e6231634-a176-4d8b-af7b-3e625e4366bf" x="55" y="0" width="70" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{hcpcs}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="3b1d8d54-9470-440b-8ffc-7e0fb2d1773b" x="175" y="0" width="54" height="15"/>
+				<textElement/>
+				<text><![CDATA[From Date:]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="fc5c2d8a-c372-474b-b74f-4dcfe53bdc95" x="229" y="0" width="71" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{from-date}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="4c3bcaa6-5851-4865-aaaa-6441af1fff04" x="345" y="0" width="46" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement/>
+				<text><![CDATA[To Date:]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="98b66803-ebad-441a-b3be-03b61697648a" x="391" y="0" width="70" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{to-date}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="fbdc1f13-8019-4de0-82ac-9c9f2b4be0b0" x="5" y="18" width="50" height="15"/>
+				<textElement/>
+				<text><![CDATA[Period:]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="cbd5c8fe-28dd-423c-8036-bfda71c1be35" x="55" y="18" width="70" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{period}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="69f60aa1-83e3-4b49-ae96-ccb0f882133b" x="175" y="18" width="54" height="15"/>
+				<textElement/>
+				<text><![CDATA[Quantity:]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="bb0b2f16-0003-45ce-873d-58691e4c968d" x="231" y="18" width="69" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{quantity}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="70eb5d62-6462-4d37-a3d1-d744c708c2c2" x="345" y="18" width="46" height="15"/>
+				<textElement/>
+				<text><![CDATA[Type:]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="4e714b81-2856-4acc-810a-b75b5dc4dc94" x="391" y="18" width="70" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{type}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<preventive>
+  <sub-report-url>/home/msuser1/workspace/git_repos/fasternotes/app/views/reports/medicare_eligibility/</sub-report-url>
+  <smoking-cessations>
+    <smoking-cessation>
+      <sessions-remaining>2</sessions-remaining>
+      <next-session-date>05/20/2014</next-session-date>
+    </smoking-cessation>
+  </smoking-cessations>
+  <preventives>
+    <preventive>
+      <hcpcs-code>1AFKS</hcpcs-code>
+      <next-professional-date>05/18/2014</next-professional-date>
+      <next-technical-date>05/20/2014</next-technical-date>>
+    </preventive>
+    <preventive>
+      <hcpcs-code>2BGKS</hcpcs-code>
+      <next-professional-date>07/18/2014</next-professional-date>
+      <next-technical-date>08/18/2014</next-technical-date>
+    </preventive>
+  </preventives>
+</preventive>

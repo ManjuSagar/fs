@@ -1,0 +1,248 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="patients_and_visits_by_principal_diagnosis_table2" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="3dcc0836-1de5-40bb-9069-f72b36a6e144">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="35"/>
+	<queryString language="xPath">
+		<![CDATA[/alirts/patient-and-visits-by-hiv-alzeimers/patient-and-visits-by-hiv-alzeimer]]>
+	</queryString>
+	<field name="line-number" class="java.lang.String">
+		<fieldDescription><![CDATA[line-number]]></fieldDescription>
+	</field>
+	<field name="disease-name" class="java.lang.String">
+		<fieldDescription><![CDATA[disease-name]]></fieldDescription>
+	</field>
+	<field name="patient-count" class="java.lang.String">
+		<fieldDescription><![CDATA[patient-count]]></fieldDescription>
+	</field>
+	<field name="visit-count" class="java.lang.String">
+		<fieldDescription><![CDATA[visit-count]]></fieldDescription>
+	</field>
+	<columnHeader>
+		<band height="104" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="48ca199a-171d-4206-8f0e-7bfb6ecac6ca" x="11" y="79" width="60" height="25"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Line
+No.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="829d3df0-c506-4532-9f1a-bbb468fe08d8" x="71" y="79" width="249" height="25"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement/>
+				<text><![CDATA[]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="82811008-8699-4212-8043-004121a3db91" x="320" y="79" width="103" height="25"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[(Column 1)
+Patients]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="98721d07-323b-40b0-97f4-e0de81b32e9a" x="423" y="79" width="100" height="25"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[(Column 2)
+Visits]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="ab2c3084-9fdb-45a3-b19c-6b16f4d562f2" x="11" y="0" width="512" height="79"/>
+				<textElement/>
+				<text><![CDATA[How many of the patients you reported in Section 3 "Patients and Visits by Age" Table had  primary or secondary diagnosis of HIV (AIDS/ARC) or Alzheimer's Disease and how many health care visits were made to them? The primary condition for which an HIV or Alzeimer's patient was visited may have been a fracture, a skin infection, cancer, or any number of primary conditions. What we are asking relates to the number of HIV or Alzeimer's patients among your total patient load, regardless of the nature of the treatment received or the primary condition of the patient.]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="20">
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="75f109cb-5406-4e4f-a777-7e92da9238d2" x="11" y="0" width="60" height="20"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{line-number}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="61dab26f-e413-4a94-88d8-cad3742b6fee" x="71" y="0" width="249" height="20"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<paragraph leftIndent="4"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{disease-name}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="6570fed0-2424-4de2-8eb6-442ec28a009c" x="320" y="0" width="103" height="20"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<paragraph rightIndent="4"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{patient-count}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="c6dfda43-5e1a-47a1-9508-9b3002309a4c" x="423" y="0" width="100" height="20"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<paragraph rightIndent="4"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{visit-count}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<summary>
+		<band height="443">
+			<staticText>
+				<reportElement uuid="6d5557e2-3fa9-4059-8de1-b5bdd2ce91c1" x="11" y="10" width="100" height="15"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Instructions]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="02e7febb-927c-4e11-94ef-c7674720e846" x="71" y="40" width="125" height="15"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Column 1: Patients]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="91b80122-d89b-4932-b57b-d1bc71ad0d6f" x="36" y="25" width="487" height="15"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Lines 1 through 34: Patients and Visits By Principal Diagnosis For Which Care Was Given]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="7152d591-e6ad-421d-9e6d-718bff0fea05" x="71" y="55" width="452" height="36"/>
+				<textElement/>
+				<text><![CDATA[Enter on lines 1 through 34 the total duplicated patients of the agency for each principle diagnosis. Be sure to report each patient only once for each principle diagnosis under which care was given.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="478cef59-9125-419e-8e10-a0e4018d18af" x="71" y="91" width="125" height="15"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Column 2: Visits]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="2547e9df-c7c3-41b7-b520-06362441625f" x="71" y="106" width="452" height="26"/>
+				<textElement/>
+				<text><![CDATA[Enter on lines 1 through 34 the total visits by the agency to patients with each listed principle diagnosis.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="42a1e0de-9f4d-4558-9142-f596b88f7638" x="36" y="135" width="100" height="17"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Line 51: HIV]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="37307b1e-b42d-4e08-bd30-6060115bfc39" x="71" y="152" width="145" height="15"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Column 1: Patients]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="a04155c3-a284-4e91-b66b-bf9b34543205" x="71" y="167" width="452" height="24"/>
+				<textElement/>
+				<text><![CDATA[Enter on line 51 the total duplicated patients of the agency who were given the principle diagnosis of HIV.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="80d7df5a-65d2-4c9a-ab59-4c734f5045b7" x="72" y="194" width="100" height="15"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Column 2: Visits]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="9b65b2b0-394e-4d85-b4cd-ffe15e9a6a3c" x="71" y="209" width="452" height="27"/>
+				<textElement/>
+				<text><![CDATA[Enter on line 51 the total number of visits by the agency to patients who had the principle diagnosis of HIV.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="0384e417-398f-49eb-b232-d732985c096b" x="37" y="242" width="199" height="13"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Line 52: Alzheimer's Disease]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="6b9e2f10-0b12-418e-ab2b-8efd6841afde" x="71" y="255" width="145" height="12"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Column 1: Patients]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="e26efb80-ee28-468b-8acd-e9ae774a922f" x="71" y="267" width="452" height="27"/>
+				<textElement/>
+				<text><![CDATA[Enter on line 52 the total duplicated patients of the agency who were given the principle diagnosis of Alzheimer's disease.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="6a8bab2a-ee2d-4c0e-9e21-edc83f2d0366" x="71" y="294" width="100" height="15"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Column 2: Visits]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="0952d205-2936-455e-bb10-5d40557b2975" x="37" y="341" width="486" height="37"/>
+				<textElement/>
+				<text><![CDATA[Line ***: Is a Synergy generated line to show all patients that have visits with in the reporting year, but do not have a primary diagnosis associated with the visits. Used for purposes of correcting statistical information.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="e26efb80-ee28-468b-8acd-e9ae774a922f" x="71" y="309" width="452" height="27"/>
+				<textElement/>
+				<text><![CDATA[Enter on line 52 the toal number of visits by the agency to patients who had the principle diagnosis of Alzheimer's disease.]]></text>
+			</staticText>
+		</band>
+	</summary>
+</jasperReport>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<patient>
+  <approved type="boolean">true</approved>
+  <city>Los Angeles</city>
+  <created-at type="datetime">2013-11-09T20:15:12+05:30</created-at>
+  <draft-status type="boolean">false</draft-status>
+  <email>3yobdy@fasternotes.com</email>
+  <encrypted-sign-password nil="true"/>
+  <ethnicity nil="true"/>
+  <fax-number nil="true"/>
+  <first-name>George</first-name>
+  <gender>M</gender>
+  <id type="integer">2869</id>
+  <last-name>Alexander</last-name>
+  <lock-version type="integer">3</lock-version>
+  <middle-initials>W</middle-initials>
+  <phone-number>(818) 445-3425</phone-number>
+  <phone-number-2>(818) 667-4248</phone-number-2>
+  <signature-content-type nil="true"/>
+  <signature-file-name nil="true"/>
+  <signature-file-size type="integer" nil="true"/>
+  <signature-updated-at type="datetime" nil="true"/>
+  <state>CA</state>
+  <street-address>5416 Ventura Canyon Ave.</street-address>
+  <suffix nil="true"/>
+  <suite-number nil="true"/>
+  <updated-at type="datetime">2014-04-29T17:52:09+05:30</updated-at>
+  <zip-code>90013</zip-code>
+  <full-name>George Alexander</full-name>
+  <patient-reference>30</patient-reference>
+  <dob-string>10/01/1948</dob-string>
+  <phone-number-2>(818) 667-4248</phone-number-2>
+  <ssn>263-92-3952</ssn>
+  <gender-description>Male</gender-description>
+  <agency-name>Metropolitan Healthcare, Inc.</agency-name>
+  <agency-address>4929 Wilshire Blvd., Suite 945 Los Angeles, CA 90010</agency-address>
+  <agency-phone-number>(323) 960-2533</agency-phone-number>
+  <agency-fax-number>(323) 421-9163</agency-fax-number>
+  <printed-date>05/31/14 12:15:06PM</printed-date>
+  <soc-date>01/02/2014</soc-date>
+  <referral-date>01/02/2014</referral-date>
+  <staffs type="array">
+    <staff>
+      <discipline-name>Skilled Nursing</discipline-name>
+      <visit-type nil="true"/>
+      <name>Jasmine Petrosyan, RN</name>
+      <phone>(818) 216-4828</phone>
+    </staff>
+    <staff>
+      <discipline-name>Skilled Nursing</discipline-name>
+      <visit-type nil="true"/>
+      <name nil="true"/>
+      <phone nil="true"/>
+    </staff>
+    <staff>
+      <discipline-name>Skilled Nursing</discipline-name>
+      <visit-type nil="true"/>
+      <name>Suzanne Naoumovitch, RN</name>
+      <phone>(323) 333-3673</phone>
+    </staff>
+    <staff>
+      <discipline-name>Physical Therapy</discipline-name>
+      <visit-type nil="true"/>
+      <name>Roger Federer, PT</name>
+      <phone>(323) 445-7845</phone>
+    </staff>
+    <staff>
+      <discipline-name>Physical Therapy</discipline-name>
+      <visit-type nil="true"/>
+      <name>Therapeutic Touch, Inc.</name>
+      <phone>(323) 467-1800</phone>
+    </staff>
+    <staff>
+      <discipline-name>Occupational Therapy</discipline-name>
+      <visit-type nil="true"/>
+      <name>Therapeutic Touch, Inc.</name>
+      <phone>(323) 467-1800</phone>
+    </staff>
+    <staff>
+      <discipline-name>Home Health Aide</discipline-name>
+      <visit-type nil="true"/>
+      <name>Ruzanna Ohanyan, CHHA</name>
+      <phone>(818) 424-0515</phone>
+    </staff>
+  </staffs>
+  <secondary-insurance></secondary-insurance>
+  <secondary-insured-name></secondary-insured-name>
+  <seondary-insurance-hicn></seondary-insurance-hicn>
+  <primary-physician-address>710 Westwood Plaza, A153, Los Angeles, CA, 90095</primary-physician-address>
+  <primary-physician-info>&lt;b&gt;Name : &lt;/b&gt;Jeff Bronstein, MD, &lt;b&gt;NPI : &lt;/b&gt;1114940731, &lt;b&gt;Phone : &lt;/b&gt;(310) 206-9799, &lt;b&gt;Fax : &lt;/b&gt;(310) 206-9819</primary-physician-info>
+  <patient-special-instructions>Suggested: Allergies; ASPIRIN
+Pharmacy: Optum Rx (877) 889-5802</patient-special-instructions>
+  <patient-known-allergies>Aspirin
+
+</patient-known-allergies>
+  <patient-known-languages>English</patient-known-languages>
+  <physicians type="array">
+    <physician>
+      <name>Jeff Bronstein, MD</name>
+      <address>710 Westwood Plaza, A153, Los Angeles, CA, 90095</address>
+      <phone>(310) 206-9799</phone>
+      <fax>(310) 206-9819</fax>
+      <npi>1114940731</npi>
+    </physician>
+  </physicians>
+  <dnr-dni-display>No/No</dnr-dni-display>
+  <acuity-level-display>&lt;b&gt;Medium:&lt;/b&gt; Patients with recent exacerbation of disease process; patients
+      requiring moderate level of skilled care that should be provided that day;
+      patients with essential untrained family/caregivers not prepared to provide
+      needed care. In case of an emergency, these patients must be seen
+      within 48 hours, or based on the requirements of the patient's condition.</acuity-level-display>
+  <advanced-directives-display>No</advanced-directives-display>
+  <physicians-sub-report-url>/home/msuser1/workspace/git_repos/fasternotes/app/views/reports/face_sheet/physicians.jasper</physicians-sub-report-url>
+  <field-staff-sub-report-url>/home/msuser1/workspace/git_repos/fasternotes/app/views/reports/face_sheet/fs_list.jasper</field-staff-sub-report-url>
+  <insurance-companies-display type="array">
+    <insurance-companies-display>
+      <name>Medicare Health Insurance</name>
+      <insured-name>Self</insured-name>
+      <hicn-number>263923952A</hicn-number>
+      <insurance-case-manager nil="true"/>
+      <case-manager-phone-number nil="true"/>
+    </insurance-companies-display>
+  </insurance-companies-display>
+  <insurance-companies-sub-report-url>/home/msuser1/workspace/git_repos/fasternotes/app/views/reports/face_sheet/insurance_list.jasper</insurance-companies-sub-report-url>
+  <insurance-case-manager nil="true"/>
+  <case-manager-phone-number nil="true"/>
+  <caregivers-list type="array">
+    <caregivers-list>
+      <name>Virginia .</name>
+      <relation-to-patient>Wife</relation-to-patient>
+      <phone-number>(818) 445-3425</phone-number>
+    </caregivers-list>
+  </caregivers-list>
+  <caregivers-sub-report-url>/home/msuser1/workspace/git_repos/fasternotes/app/views/reports/face_sheet/caregivers_list.jasper</caregivers-sub-report-url>
+</patient>

@@ -1,0 +1,93 @@
+{
+    "type": "container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyContainer",
+        "designer|initialView": true,
+        "height": 786,
+        "width": 1024,
+        "layout": "fit"
+    },
+    "id": "ExtBox1-ext-gen3775",
+    "designerId": "7091f778-d513-4dd9-b43f-ff042bbb84d0",
+    "cn": [
+        {
+            "type": "form",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyForm",
+                "border": 0,
+                "layout": "border",
+                "bodyPadding": 10,
+                "title": null
+            },
+            "designerId": "476c1cc4-5b08-4d8a-925e-f8e185a9338a",
+            "cn": [
+                {
+                    "type": "panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|region": "north",
+                        "container|align": "middle",
+                        "designer|userClassName": "MyPanel",
+                        "border": 0,
+                        "height": null,
+                        "margin": "5px",
+                        "layout": "hbox",
+                        "title": null
+                    },
+                    "designerId": "062e88ae-4827-4683-b96a-d4aa02c47936",
+                    "cn": [
+                        {
+                            "type": "textfield",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "layout|flex": 1,
+                                "designer|userClassName": "MyTextField",
+                                "width": null,
+                                "fieldLabel": "Title"
+                            },
+                            "designerId": "5a4b29a4-46f5-4e1e-9530-95df63a3b052"
+                        }
+                    ]
+                },
+                {
+                    "type": "htmleditor",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|region": "center",
+                        "designer|userClassName": "MyHTMLEditor",
+                        "margin": "5px",
+                        "style": [
+                            "background-color: white;"
+                        ],
+                        "enableFont": false,
+                        "name": "description",
+                        "fieldLabel": "Description"
+                    },
+                    "designerId": "fabb7f97-86c5-4ce7-b55f-13ebc822fbd3"
+                }
+            ]
+        }
+    ]
+}

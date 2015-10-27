@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<msp-details>
+  <sub-report-url>/home/msuser1/workspace/git_repo/fasternotes/app/views/reports/medicare_eligibility/</sub-report-url>
+  <msp-detail>
+    <effective-date>01/10/2013</effective-date>
+    <termination-date>02/20/2013</termination-date>
+    <insurer-name>Johnson Smith</insurer-name>
+    <policy-number>6579012B</policy-number>
+    <address-line-1>4929 Wilshire Blvd.</address-line-1>
+    <address-line-2>suite 123</address-line-2>
+    <city>Los Angeles</city>
+    <state>CA</state>
+    <zip-code>90013</zip-code>
+  </msp-detail>
+</msp-details>

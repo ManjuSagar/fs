@@ -1,0 +1,1 @@
+OasisExport.where(:export_status => "R").update_all(:exported_date_time => nil)

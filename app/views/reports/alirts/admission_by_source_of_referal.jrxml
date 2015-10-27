@@ -1,0 +1,255 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="admission_by_source_of_referal" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="cd5483a5-c41d-4756-b37f-71ad617d5ee3">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/alirts/source-of-referral-admissions/source-of-referral-admission]]>
+	</queryString>
+	<field name="line-number" class="java.lang.String">
+		<fieldDescription><![CDATA[line-number]]></fieldDescription>
+	</field>
+	<field name="admissions" class="java.lang.Float">
+		<fieldDescription><![CDATA[admissions]]></fieldDescription>
+	</field>
+	<field name="source-of-referral" class="java.lang.String">
+		<fieldDescription><![CDATA[source-of-referral]]></fieldDescription>
+	</field>
+	<field name="total-admissions" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/source-of-referral-admissions/total-admissions]]></fieldDescription>
+	</field>
+	<field name="agency-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/agency-name]]></fieldDescription>
+	</field>
+	<field name="agency-street-address" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/agency-street-address]]></fieldDescription>
+	</field>
+	<field name="agency-suite-number" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/agency-suite-number]]></fieldDescription>
+	</field>
+	<field name="agency-city-state-phone" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/agency-city-state-phone]]></fieldDescription>
+	</field>
+	<field name="fiscal-period-from-date" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/fiscal-period-from-date]]></fieldDescription>
+	</field>
+	<field name="fiscal-period-to-date" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/fiscal-period-to-date]]></fieldDescription>
+	</field>
+	<field name="current-date" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/current-date]]></fieldDescription>
+	</field>
+	<field name="current-time" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/current-time]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="10" splitType="Stretch"/>
+	</title>
+	<pageHeader>
+		<band height="115" splitType="Stretch">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="3091c03c-a245-4b7a-9a85-b3addace6ee0" x="0" y="2" width="316" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{agency-name}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="769848b6-267a-49c4-836d-b217ec63535a" x="3" y="17" width="313" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{agency-street-address}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="a0a4736c-2fb7-43b7-ba3b-01e99744fcc3" x="3" y="32" width="313" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{agency-city-state-phone}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="2d234e40-75b4-4fee-9021-e031ebed9c33" x="150" y="52" width="334" height="15"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[ADMISSIONS BY SOURCE OF REFERRAL (Table 5)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="9cf04f8f-2185-4ba6-b364-1ee54d10f108" x="161" y="69" width="83" height="15"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Fiscal Period]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="37fb9c15-42be-4103-b517-1a72fd02fbc2" x="244" y="69" width="309" height="15"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{fiscal-period-from-date}+ "    "+"To"+"   "+$F{fiscal-period-to-date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="dcc08e49-69bc-44b6-9a32-89ee64a5fa35" x="463" y="2" width="80" height="15"/>
+				<textElement textAlignment="Left">
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement uuid="e21941e1-d650-48d6-91f1-a5a0347580e6" x="518" y="2" width="40" height="15"/>
+				<textElement textAlignment="Left">
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="2bc82145-26bd-42fe-bab4-cbfdbac5137b" x="250" y="84" width="100" height="15"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Errors Prooflist]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="60b1e314-3384-424a-b852-c93950a078e6" x="253" y="99" width="100" height="15"/>
+				<textElement/>
+				<text><![CDATA[For All Offices]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="6143eb5b-e1c1-4304-a91f-1b66daaa61e5" x="463" y="17" width="86" height="15"/>
+				<textElement textAlignment="Left"/>
+				<textFieldExpression><![CDATA[$F{current-date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="1e244061-0ce1-41e8-b6c4-036d5ad5568b" x="463" y="32" width="86" height="15"/>
+				<textElement textAlignment="Left"/>
+				<textFieldExpression><![CDATA[$F{current-time}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="51" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="8bc2fbac-5c4b-45cf-a10f-69b0b67472a3" x="0" y="26" width="62" height="25"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Line
+No.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="bce10e1e-17f6-4fee-a44e-93276757dc93" x="2" y="11" width="304" height="15"/>
+				<textElement verticalAlignment="Bottom">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[ADMISSIONS BY SOURCE OF REFERRAL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d08129f0-a25c-418e-84c3-16c5680c21c8" x="62" y="26" width="308" height="25"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Source of Referral]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="c90a40f8-df86-4726-b03c-8c721850d4dc" x="370" y="26" width="170" height="25"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[(Column 1)
+Admissions]]></text>
+			</staticText>
+			<frame>
+				<reportElement uuid="58d15886-d9e7-47e1-9176-0fe9c3340f74" x="0" y="11" width="540" height="15"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+			</frame>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="20">
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="dbc7a46d-e57a-49ad-8acc-496f9b297e75" x="0" y="0" width="62" height="20"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{line-number}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="19e11753-2e3c-4965-a8f8-cf98b60aa4c9" x="62" y="0" width="308" height="20"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement verticalAlignment="Middle" markup="html">
+					<paragraph leftIndent="4"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{source-of-referral}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,###" isBlankWhenNull="true">
+				<reportElement uuid="968e2c89-5cdf-4ed6-80d8-50b3c449326f" x="370" y="0" width="170" height="20"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Right" markup="none">
+					<paragraph rightIndent="4"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{admissions}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<summary>
+		<band height="82" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="e40ea829-3811-4a5b-abca-9b03e792c7ed" x="3" y="19" width="100" height="15"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Instructions]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="19e2f5ba-cdd5-4b96-87ee-c1d60aa731d0" x="50" y="37" width="461" height="15"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Lines 21 through 34: Admission by Source of Referral]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="59b0c77f-3a0c-420c-ad47-8960b8104636" x="50" y="54" width="492" height="26"/>
+				<textElement/>
+				<text><![CDATA[Enter on lines 21 through 34 the number of patients referred by each of the listed sources. See glossary for definitions.]]></text>
+			</staticText>
+		</band>
+	</summary>
+</jasperReport>

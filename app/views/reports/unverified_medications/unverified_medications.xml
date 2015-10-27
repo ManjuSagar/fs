@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<unverified-medications>
+  <agency-name>Metro</agency-name>
+  <medications>
+    <medication>
+      <patient-mr-number>42</patient-mr-number>
+      <patient-name>Yelena Estrina</patient-name>
+      <patient-home-number>(323) 655-8676</patient-home-number>
+      <patient-mobile-number>(323) 655-8686</patient-mobile-number>
+      <soc-date>07/26/2013</soc-date>
+      <patient-acuity>Medium</patient-acuity>
+      <treatment-status>AC</treatment-status>
+      <allergies>Flour, Peanuts, Tylenol, Codeine</allergies>
+      <physician-name>Aviva Iofel</physician-name>
+      <physician-phone-number>(323) 465-1111</physician-phone-number>
+      <assessment-date>10/21/2013</assessment-date>
+      <medication-name>ASPIRIN (81 MG) - TABLET; ORAL - 1 tablet, once daily</medication-name>
+      <medication-reporter>Padma</medication-reporter>
+      <medication-reason>fever</medication-reason>
+    </medication>
+    <medication>
+      <patient-mr-number>96</patient-mr-number>
+      <patient-name>Anderson, Frank</patient-name>
+      <patient-home-number>(323) 467-1800</patient-home-number>
+      <patient-mobile-number>(310) 467-1954</patient-mobile-number>
+      <soc-date>10/13/2013</soc-date>
+      <patient-acuity>High</patient-acuity>
+      <treatment-status>AC</treatment-status>
+      <allergies>Flour, Peanuts, Tylenol, Codeine</allergies>
+      <physician-name>Mark Barats</physician-name>
+      <physician-phone-number>(323) 297-2345</physician-phone-number>
+      <assessment-date>03/04/2014</assessment-date>
+      <medication-name>8-HOUR BAYER (650MG) - TABLET, EXTENDED RELEASE; ORAL - once daily - (N)</medication-name>
+      <medication-reporter>Herta Minard, RN (323) 464-1525</medication-reporter>
+      <medication-reason>Pain</medication-reason>
+    </medication>
+  </medications>
+</unverified-medications>

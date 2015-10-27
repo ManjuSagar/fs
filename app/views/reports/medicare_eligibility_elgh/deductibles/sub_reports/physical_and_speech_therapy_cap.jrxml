@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="physical_and_speech_therapy_cap" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="30dc8907-1191-41ae-ab3d-35e300f71a5e">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/elgh-response/beneficiary-information/physical-and-speech-therapy-caps/physical-and-speech-therapy-cap]]>
+	</queryString>
+	<field name="deductible-year" class="java.lang.String">
+		<fieldDescription><![CDATA[deductible-year]]></fieldDescription>
+	</field>
+	<field name="physical-therapy-remaining" class="java.lang.Float">
+		<fieldDescription><![CDATA[physical-therapy-remaining]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="36" splitType="Stretch">
+			<printWhenExpression><![CDATA[$F{deductible-year}!=null ||
+$F{physical-therapy-remaining}!=null]]></printWhenExpression>
+			<staticText>
+				<reportElement uuid="efc48d51-5c25-4bd8-9f37-6d9b8a1ed242" mode="Opaque" x="345" y="21" width="198" height="15" backcolor="#F0ECEC"/>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Used Amount]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b8c9c0ea-f7a3-41bc-8ad5-fa799e6dbce3" mode="Opaque" x="5" y="21" width="340" height="15" backcolor="#F0ECEC"/>
+				<textElement>
+					<font size="10" isBold="true"/>
+					<paragraph firstLineIndent="1"/>
+				</textElement>
+				<text><![CDATA[Calendar Year]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="ac3c7755-bb2c-4310-b508-302fc51b02c5" mode="Opaque" x="0" y="2" width="555" height="15" backcolor="#DFD4D4"/>
+				<textElement>
+					<font size="10" isBold="true"/>
+					<paragraph firstLineIndent="1"/>
+				</textElement>
+				<text><![CDATA[Physical And Speech Therapy Cap]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="16" splitType="Stretch">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="c4a18bc4-6171-495b-aa3f-8768988abc49" x="5" y="1" width="140" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement>
+					<font size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{deductible-year}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" pattern="$#,##0.00" isBlankWhenNull="true">
+				<reportElement uuid="a4627fa7-f810-4dbb-93d4-c8443bfd9029" x="345" y="1" width="198" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{physical-therapy-remaining}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

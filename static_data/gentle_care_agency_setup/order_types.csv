@@ -1,0 +1,12 @@
+Code,Description, System Required
+SOC,SOC,FALSE
+MISSED_VISIT,Missed Visit,FALSE
+EXTRA_VISIT,Extra Visit,FALSE
+FREQ_CLAR,Frequency Clarification,FALSE
+WOUND_CARE,Wound Care,FALSE
+LAB,Lab, FALSE
+DME,DME,FALSE
+IV,IV,FALSE
+MEDICATION,Medication,FALSE
+
+

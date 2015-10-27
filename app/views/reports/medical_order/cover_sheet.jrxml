@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="cover_sheet" pageWidth="595" pageHeight="842" columnWidth="575" leftMargin="10" rightMargin="10" topMargin="30" bottomMargin="30" uuid="85912ff5-1142-40a7-b70e-d3435aedc0bd">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="medical_order_cover_sheet"/>
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/medical-order]]>
+	</queryString>
+	<field name="agency-name" class="java.lang.String">
+		<fieldDescription><![CDATA[agency-name]]></fieldDescription>
+	</field>
+	<field name="agency-address" class="java.lang.String">
+		<fieldDescription><![CDATA[agency-address]]></fieldDescription>
+	</field>
+	<field name="field-staff-name" class="java.lang.String">
+		<fieldDescription><![CDATA[field-staff-name]]></fieldDescription>
+	</field>
+	<field name="agency-phone-number" class="java.lang.String">
+		<fieldDescription><![CDATA[agency-phone-number]]></fieldDescription>
+	</field>
+	<field name="agency-fax-number" class="java.lang.String">
+		<fieldDescription><![CDATA[agency-fax-number]]></fieldDescription>
+	</field>
+	<field name="physician-name" class="java.lang.String">
+		<fieldDescription><![CDATA[physician-name]]></fieldDescription>
+	</field>
+	<field name="physician-fax-number" class="java.lang.String">
+		<fieldDescription><![CDATA[physician-fax-number]]></fieldDescription>
+	</field>
+	<field name="physician-address-line1" class="java.lang.String">
+		<fieldDescription><![CDATA[physician-address-line1]]></fieldDescription>
+	</field>
+	<field name="physician-address-line2" class="java.lang.String">
+		<fieldDescription><![CDATA[physician-address-line2]]></fieldDescription>
+	</field>
+	<field name="agency-email" class="java.lang.String">
+		<fieldDescription><![CDATA[agency-email]]></fieldDescription>
+	</field>
+	<field name="agency-contact-info" class="java.lang.String">
+		<fieldDescription><![CDATA[agency-contact-info]]></fieldDescription>
+	</field>
+	<field name="created-user-signature-path" class="java.lang.String">
+		<fieldDescription><![CDATA[created-user-signature-path]]></fieldDescription>
+	</field>
+	<field name="created-user-name" class="java.lang.String">
+		<fieldDescription><![CDATA[created-user-name]]></fieldDescription>
+	</field>
+	<field name="physician-last-name" class="java.lang.String">
+		<fieldDescription><![CDATA[physician-last-name]]></fieldDescription>
+	</field>
+	<field name="no-of-pages-including-cover" class="java.lang.String">
+		<fieldDescription><![CDATA[no-of-pages-including-cover]]></fieldDescription>
+	</field>
+	<field name="cover-sheet-print-date" class="java.lang.String">
+		<fieldDescription><![CDATA[cover-sheet-print-date]]></fieldDescription>
+	</field>
+	<field name="batch-medical-order-activity-doer-name" class="java.lang.String">
+		<fieldDescription><![CDATA[batch-medical-order-activity-doer-name]]></fieldDescription>
+	</field>
+	<field name="batch-medical-order-activity-doer-signature-path" class="java.lang.String">
+		<fieldDescription><![CDATA[batch-medical-order-activity-doer-signature-path]]></fieldDescription>
+	</field>
+	<field name="agency-address-line1" class="java.lang.String">
+		<fieldDescription><![CDATA[agency-address-line1]]></fieldDescription>
+	</field>
+	<field name="agency-address-line2" class="java.lang.String">
+		<fieldDescription><![CDATA[agency-address-line2]]></fieldDescription>
+	</field>
+	<field name="ins-agency-name" class="java.lang.String">
+		<fieldDescription><![CDATA[ins-agency-name]]></fieldDescription>
+	</field>
+	<field name="ins-agency-address" class="java.lang.String">
+		<fieldDescription><![CDATA[ins-agency-address]]></fieldDescription>
+	</field>
+	<field name="ins-agency-phone-fax-number" class="java.lang.String">
+		<fieldDescription><![CDATA[ins-agency-phone-fax-number]]></fieldDescription>
+	</field>
+	<field name="agency-contact-info_1" class="java.lang.String">
+		<fieldDescription><![CDATA[agency-contact-info]]></fieldDescription>
+	</field>
+	<field name="agency-email_1" class="java.lang.String">
+		<fieldDescription><![CDATA[agency-email]]></fieldDescription>
+	</field>
+	<field name="ins-agency-address-line1" class="java.lang.String">
+		<fieldDescription><![CDATA[ins-agency-address-line1]]></fieldDescription>
+	</field>
+	<field name="ins-agency-address-line2" class="java.lang.String">
+		<fieldDescription><![CDATA[ins-agency-address-line2]]></fieldDescription>
+	</field>
+	<field name="ins-phone" class="java.lang.String">
+		<fieldDescription><![CDATA[ins-phone]]></fieldDescription>
+	</field>
+	<field name="ins-fax" class="java.lang.String">
+		<fieldDescription><![CDATA[ins-fax]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="253" splitType="Stretch">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="3a6ed35a-b8fa-461c-9d45-a00b8d8fb406" x="0" y="33" width="265" height="19"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{ins-agency-name}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="ef7c731c-8d42-435b-9730-c09c92f6c92d" x="276" y="48" width="300" height="145"/>
+				<box>
+					<leftPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Justified" verticalAlignment="Top">
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[The documents in this package contain confidential information that may be legally privileged and protected by federal and state law. This information is intended for use only by the individual to whom it is addressed. The authorized recipient is obligated to maintain the information in a safe, secure, and confidential manner.
+If you are in  possession of this protected health information, and are not the intended recipient, you are hereby notified that any improper disclosure, copying, or distribution of the contents of this information is strictly prohibited. Please notify the owner of this information immediately and arrange for its return or destruction. ]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="14799341-29ac-4b1a-8bcb-720bbca047c7" x="1" y="82" width="158" height="15"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{agency-phone-number}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="ec90e97c-9d9e-405b-ac39-598f84347bd4" x="0" y="53" width="265" height="15"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{ins-agency-address-line1}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="5010e112-46fe-4381-85c2-955d98b98dac" x="1" y="96" width="158" height="15" isRemoveLineWhenBlank="true"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{agency-fax-number}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="01cb4ba8-d036-49f0-8c28-2d6bb076b91a" positionType="Float" stretchType="RelativeToTallestObject" x="0" y="175" width="265" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{physician-fax-number}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="74dd70ec-616e-4e55-aca7-703f9c6dbcb5" positionType="Float" stretchType="RelativeToTallestObject" x="0" y="160" width="265" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{physician-address-line2}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="deede0a5-b54b-4575-aa43-6ca6b3c90315" x="0" y="130" width="265" height="15"/>
+				<textElement>
+					<font size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{physician-name}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="84946b45-1255-4f43-8eab-5e8fa024ef25" positionType="Float" stretchType="RelativeToTallestObject" x="0" y="145" width="265" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{physician-address-line1}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="fcc97aa9-5b56-4d76-9ded-af65a50266d3" x="276" y="33" width="300" height="15"/>
+				<box>
+					<leftPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Center">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[HIPPA PRIVACY STATEMENT]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="483b9813-5df4-4c83-991a-aa3391cdaa7e" mode="Opaque" x="0" y="0" width="575" height="15" backcolor="#F0ECEC"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[COVER SHEET]]></text>
+			</staticText>
+			<line>
+				<reportElement uuid="ff447a38-3be4-4e74-a074-9fb961246a61" mode="Transparent" x="0" y="0" width="575" height="1" forecolor="#947F7F" backcolor="#FFFFFF"/>
+			</line>
+			<line>
+				<reportElement uuid="ff447a38-3be4-4e74-a074-9fb961246a61" mode="Transparent" x="0" y="15" width="575" height="1" forecolor="#947F7F"/>
+			</line>
+			<staticText>
+				<reportElement uuid="854b9159-b5fd-442a-b20e-f9b86d8f1213" x="1" y="215" width="166" height="15"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Number of Pages Including Cover: ]]></text>
+			</staticText>
+			<line>
+				<reportElement uuid="e16d2c33-7e1e-4da1-ad3b-37105e8d4f0f" x="-20" y="247" width="45" height="1"/>
+			</line>
+			<staticText>
+				<reportElement uuid="8c3db0f6-97cf-4d97-a15b-95b7ef4538cc" x="25" y="242" width="31" height="11"/>
+				<textElement textAlignment="Center">
+					<font size="7" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[fold ]]></text>
+			</staticText>
+			<line>
+				<reportElement uuid="e16d2c33-7e1e-4da1-ad3b-37105e8d4f0f" x="56" y="247" width="45" height="1"/>
+			</line>
+			<line>
+				<reportElement uuid="e16d2c33-7e1e-4da1-ad3b-37105e8d4f0f" x="464" y="247" width="45" height="1"/>
+			</line>
+			<staticText>
+				<reportElement uuid="8c3db0f6-97cf-4d97-a15b-95b7ef4538cc" x="509" y="242" width="31" height="11"/>
+				<textElement textAlignment="Center">
+					<font size="7" isItalic="true"/>
+				</textElement>
+				<text><![CDATA[fold]]></text>
+			</staticText>
+			<line>
+				<reportElement uuid="e16d2c33-7e1e-4da1-ad3b-37105e8d4f0f" x="540" y="247" width="45" height="1"/>
+			</line>
+			<staticText>
+				<reportElement uuid="1b7d8ea1-9f1a-4e4c-9ed1-a3e44026cce7" x="479" y="215" width="35" height="15"/>
+				<textElement textAlignment="Right">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Date:]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="8e00b703-d8c5-432b-b662-1a1129e9fb23" x="514" y="215" width="62" height="15"/>
+				<textElement textAlignment="Center" markup="none"/>
+				<textFieldExpression><![CDATA[$F{cover-sheet-print-date}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="666cf987-efdf-4ebe-ae9b-57f46b70ed66" x="167" y="215" width="18" height="15"/>
+				<textElement textAlignment="Left"/>
+				<textFieldExpression><![CDATA[$F{no-of-pages-including-cover}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="ec90e97c-9d9e-405b-ac39-598f84347bd4" x="0" y="67" width="265" height="15"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{ins-agency-address-line2}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="425" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="cd613ce0-a95a-4cb6-9897-fd67611a847a" x="1" y="20" width="27" height="15"/>
+				<textElement/>
+				<text><![CDATA[Dear]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b9bcad71-644c-4268-9776-99c2cafe5501" x="1" y="44" width="575" height="30"/>
+				<textElement/>
+				<text><![CDATA[Please find the attached orders for your signature. Please sign and send these back to us as soon as possible via any of the methods below:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="87506eca-f18c-4b57-a3a3-901a768f5093" x="74" y="81" width="35" height="15"/>
+				<textElement textAlignment="Left">
+					<font isStrikeThrough="false"/>
+					<paragraph rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[Fax :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="87506eca-f18c-4b57-a3a3-901a768f5093" x="74" y="96" width="35" height="15"/>
+				<textElement textAlignment="Left">
+					<font isStrikeThrough="false"/>
+					<paragraph rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[Email :]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="87506eca-f18c-4b57-a3a3-901a768f5093" x="74" y="111" width="35" height="15"/>
+				<textElement textAlignment="Left">
+					<font isStrikeThrough="false"/>
+					<paragraph rightIndent="2"/>
+				</textElement>
+				<text><![CDATA[Mail :]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="5010e112-46fe-4381-85c2-955d98b98dac" x="109" y="81" width="225" height="15" isRemoveLineWhenBlank="true"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{agency-fax-number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="ec90e97c-9d9e-405b-ac39-598f84347bd4" x="109" y="111" width="395" height="15"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{ins-agency-address}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="b330bfa3-a041-4b22-98f6-510f02f9407b" x="109" y="96" width="225" height="15" isRemoveLineWhenBlank="true"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{agency-email}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="1c8fd47b-9eae-4f97-a289-f1e19b710243" x="43" y="20" width="100" height="15"/>
+				<textElement markup="html">
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{physician-last-name} + ","]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="366b5aff-ab82-44f0-acb5-1dce2001d7cf" x="0" y="377" width="350" height="15"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{ins-agency-name}]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement uuid="c1dd9333-a573-4557-95a8-7e2301e59eed" x="11" y="310" width="150" height="49">
+					<printWhenExpression><![CDATA[$F{batch-medical-order-activity-doer-signature-path}!=null]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[new File($F{batch-medical-order-activity-doer-signature-path})]]></imageExpression>
+			</image>
+			<textField>
+				<reportElement uuid="cac77530-124d-4797-b6f4-d146ea8fa69e" x="0" y="392" width="350" height="15"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{ins-agency-address}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="7943f0bd-214b-4ed5-a038-50b32340193c" x="0" y="408" width="464" height="15"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{agency-contact-info}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="931d11a0-4d9b-4921-acf5-d5b101a0f546" x="2" y="295" width="322" height="15"/>
+				<textElement markup="html"/>
+				<text><![CDATA[Thank you for your business!]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="deede0a5-b54b-4575-aa43-6ca6b3c90315" x="0" y="362" width="350" height="15">
+					<printWhenExpression><![CDATA[$F{batch-medical-order-activity-doer-name}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{batch-medical-order-activity-doer-name}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="cd613ce0-a95a-4cb6-9897-fd67611a847a" x="27" y="20" width="15" height="15"/>
+				<textElement markup="html">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Dr.]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

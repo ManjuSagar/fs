@@ -1,0 +1,11 @@
+Server: <%= raw(if @request.url.include?("staging")
+                  "http://staging.fasternotes.net"
+                elsif @request.url.include?("apps")
+                  "https://apps.fasternotes.net"
+                else
+                  "localhost"
+                end)
+%>
+<% not_singin_rquest = (not @request.url.include?("signin")) %>
+Organiztion: <%= (not_singin_rquest and Org.current) ? "Name => " + Org.current.org_name + "***ID => " + Org.current.id.to_s : nil%>
+User: <%= (not_singin_rquest and User.current) ? "Name => " + User.current.full_name + "***ID => " + User.current.id.to_s : nil %>

@@ -1,0 +1,254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="plan_coverage_subreport" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="4f61095f-d5f7-4b61-81fb-a004f13eebb1">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/elgh-response/plan-information/hmo-plans/hmo-plan]]>
+	</queryString>
+	<field name="type" class="java.lang.String">
+		<fieldDescription><![CDATA[type]]></fieldDescription>
+	</field>
+	<field name="plan-name" class="java.lang.String">
+		<fieldDescription><![CDATA[plan-name]]></fieldDescription>
+	</field>
+	<field name="option-code" class="java.lang.String">
+		<fieldDescription><![CDATA[option-code]]></fieldDescription>
+	</field>
+	<field name="effective-date" class="java.lang.String">
+		<fieldDescription><![CDATA[effective-date]]></fieldDescription>
+	</field>
+	<field name="termination-date" class="java.lang.String">
+		<fieldDescription><![CDATA[termination-date]]></fieldDescription>
+	</field>
+	<field name="contract-website-address" class="java.lang.String">
+		<fieldDescription><![CDATA[contract-website-address]]></fieldDescription>
+	</field>
+	<field name="phone-number" class="java.lang.String">
+		<fieldDescription><![CDATA[phone-number]]></fieldDescription>
+	</field>
+	<field name="address-line-1" class="java.lang.String">
+		<fieldDescription><![CDATA[address-line-1]]></fieldDescription>
+	</field>
+	<field name="address-line-2" class="java.lang.String">
+		<fieldDescription><![CDATA[address-line-2]]></fieldDescription>
+	</field>
+	<field name="city" class="java.lang.String">
+		<fieldDescription><![CDATA[city]]></fieldDescription>
+	</field>
+	<field name="state" class="java.lang.String">
+		<fieldDescription><![CDATA[state]]></fieldDescription>
+	</field>
+	<field name="zip-code" class="java.lang.String">
+		<fieldDescription><![CDATA[zip-code]]></fieldDescription>
+	</field>
+	<field name="id-code-and-contractor-number" class="java.lang.String">
+		<fieldDescription><![CDATA[id-code-and-contractor-number]]></fieldDescription>
+	</field>
+	<group name="Type" isReprintHeaderOnEachPage="true">
+		<groupExpression><![CDATA[$F{type}]]></groupExpression>
+		<groupHeader>
+			<band height="22" splitType="Stretch">
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement uuid="f285c78b-b996-40b1-9681-5a007ec133e7" mode="Opaque" x="0" y="5" width="555" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" backcolor="#DFD4D4"/>
+					<textElement>
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{type}]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupHeader>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="113" splitType="Stretch">
+			<printWhenExpression><![CDATA[$F{type}!=null ||
+$F{plan-name}!=null ||
+$F{option-code}!=null ||
+$F{effective-date}!=null ||
+$F{termination-date}!=null ||
+$F{contract-website-address}!=null ||
+$F{phone-number}!=null ||
+$F{address-line-1}!=null ||
+$F{address-line-2}!=null ||
+$F{city}!=null ||
+$F{state}!=null ||
+$F{zip-code}!=null]]></printWhenExpression>
+			<staticText>
+				<reportElement uuid="4e453ebe-6161-489d-8dcc-7b7c8b1fcdd8" x="22" y="3" width="88" height="15"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Enrollment Date: ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="aa9731b9-d023-4ff2-a0c1-c8b61a6d9fe3" x="316" y="3" width="110" height="15"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Disenrollment Date:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="1eba2617-d472-4b9c-af04-b232e67db211" x="22" y="18" width="207" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement markup="none">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Contract Number/Plan Benefit Package ID:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="cffe6e7f-5e3d-43b6-8176-2041a49e7ac2" x="317" y="33" width="135" height="15"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Contract Website Address:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="5eb5a60c-0fb0-4aca-a3dd-6c2dacf651fb" x="22" y="33" width="115" height="15" isRemoveLineWhenBlank="true"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[MCO Bill Option Code:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="5949937f-1a10-4cab-b9eb-926ad04730e2" x="22" y="48" width="65" height="15"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Plan Name:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="ad2b1e42-6a01-409f-8b9a-96abfd48f3e3" x="22" y="63" width="80" height="15"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Address Line 1:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b4dd5250-6ec7-44a1-9414-99c821c835f4" x="317" y="63" width="85" height="15"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Phone Number:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="3112122a-9c2f-4cb3-924a-3d4687e2728e" x="22" y="78" width="80" height="15"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Address Line 2:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="4d37ecc3-bcf2-4f4a-a720-8aef64cb8185" x="317" y="78" width="28" height="15"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[City:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="09f765ac-80ea-4654-ab1a-a715eb308935" x="22" y="93" width="35" height="15"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[State:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="54b02fb4-aee6-453f-ab58-df3e7150a8ad" x="317" y="93" width="48" height="15"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Zip Code:]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="af151288-331b-4f98-bf0a-13f7810eb5a3" x="110" y="3" width="137" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{effective-date}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="826eaa87-dfc2-4271-9172-e18a28de159d" x="427" y="3" width="122" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{termination-date}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="795a28a0-fd79-475d-aeb7-b515b921e09f" x="449" y="33" width="105" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{contract-website-address}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="8d5c0c98-5c7b-43ce-a7fb-eba560a42b3c" x="137" y="33" width="161" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{type} != "Pharmacy - Part D"]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{option-code}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="bfa05adc-33b0-4b81-9706-40ef5d1206aa" x="86" y="48" width="484" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{plan-name}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="fd613bd3-460e-45fe-988c-a589498581a5" x="100" y="63" width="216" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{address-line-1}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="5a71c41d-eff3-44ab-a7e6-64325604b220" x="100" y="78" width="217" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{address-line-2}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="e6543153-d4f3-427a-a05c-a1ee85e13a5c" x="400" y="63" width="100" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{phone-number}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="016ec7ad-bb4e-45ba-8604-a54c30579f61" x="55" y="93" width="192" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{state}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="aab51699-4d74-4a83-90b4-e497eae887ca" x="368" y="93" width="100" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{zip-code}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="0a244013-e1d5-46fe-abb9-a37b4f6c38b9" x="344" y="78" width="210" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{city}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="4f9967ad-3678-42e6-a759-c5b543c92fe6" x="229" y="18" width="336" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{id-code-and-contractor-number}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="c44cbb87-db92-4c1f-8afa-87e0dda24f02" x="2" y="3" width="20" height="15"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$V{REPORT_COUNT}+'.']]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

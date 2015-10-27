@@ -1,0 +1,39 @@
+<expired-and-expiring-raps>
+  <agency-name>Metro</agency-name>
+  <raps>
+    <rap>
+      <patient-name-and-mr-number>Smith, Bob (54)</patient-name-and-mr-number>
+      <soc-date>12/12/2013</soc-date>
+      <episode>12/12/2013 - 02/10/2014</episode>
+      <treatment-status>AC</treatment-status>
+      <sent-date>04/12/14</sent-date>
+      <is-expired type="Boolean">true</is-expired>
+      <expires>06/11/14</expires>
+      <total-visits>6</total-visits>
+      <rap-amount>1200</rap-amount>
+    </rap>
+    <rap>
+      <patient-name-and-mr-number>Smith, James54</patient-name-and-mr-number>
+      <soc-date>12/12/2013</soc-date>
+      <episode>12/12/2013 - 02/10/2014</episode>
+      <treatment-status>AC</treatment-status>
+      <sent-date>04/12/14</sent-date>
+      <is-expired type="Boolean">false</is-expired>
+      <expires>06/11/14</expires>
+      <total-visits>6</total-visits>
+      <rap-amount>1200</rap-amount>
+    </rap>
+    <rap>
+      <patient-name-and-mr-number>Smith, James54</patient-name-and-mr-number>
+      <soc-date>12/12/2013</soc-date>
+      <episode>12/12/2013 - 02/10/2014</episode>
+      <treatment-status>AC</treatment-status>
+      <sent-date>04/12/14</sent-date>
+      <is-expired type="Boolean">false</is-expired>
+      <expires>06/11/14</expires>
+      <total-visits>6</total-visits>
+      <rap-amount>2200</rap-amount>
+    </rap>
+  </raps>
+</expired-and-expiring-raps>
+

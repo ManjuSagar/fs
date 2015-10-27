@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="preventive" language="groovy" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="47e14b11-2233-4adb-8c9a-0ed4574a5af9">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["/home/msuser1/workspace/git_repos/fasternotes/app/views/reports/medicare_eligibility/preventive/subreports/"]]></defaultValueExpression>
+	</parameter>
+	<queryString language="xPath">
+		<![CDATA[/elgh-response]]>
+	</queryString>
+	<field name="sub-report-url" class="java.lang.String">
+		<fieldDescription><![CDATA[sub-report-url]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="24" splitType="Stretch">
+			<subreport>
+				<reportElement uuid="f81d9631-6aa1-4e23-8801-2d9440b9763e" positionType="Float" stretchType="RelativeToBandHeight" x="0" y="3" width="595" height="20" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportExpression><![CDATA[$F{sub-report-url} + "preventive/subreports/smoking_cessation_subreport.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+		<band height="23" splitType="Stretch">
+			<subreport>
+				<reportElement uuid="96990f33-3011-4849-b428-6f2a0a93d14a" positionType="Float" stretchType="RelativeToBandHeight" x="0" y="2" width="595" height="20" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportExpression><![CDATA[$F{sub-report-url} + "preventive/subreports/smoking_counselling_subreport.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+		<band height="24" splitType="Stretch">
+			<subreport>
+				<reportElement uuid="4ef8e505-764d-40f4-99e7-ce85cdd5d301" positionType="Float" stretchType="RelativeToBandHeight" x="0" y="2" width="595" height="20" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportExpression><![CDATA[$F{sub-report-url} + "preventive/subreports/preventive_subreport.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+	</detail>
+</jasperReport>

@@ -1,0 +1,36 @@
+{
+    "type": "arraystore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "model": "Session",
+        "storeId": "SessionStore",
+        "designer|userClassName": "SessionStore"
+    },
+    "designerId": "4d4409dd-c8cf-453a-a8c7-cb4f462d4b84",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Memory",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "designerId": "8cd4ac8c-75d3-43a5-929a-d3a1b747a498",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Array",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "designerId": "5e2ea609-346f-44b8-b18c-8f3bc603b883"
+                }
+            ]
+        }
+    ]
+}

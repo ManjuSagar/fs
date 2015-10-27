@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<communication-note>
+  <created-user-id type="integer">254</created-user-id>
+  <created-user-sign-date type="date">2013-10-24</created-user-sign-date>
+  <field-staff-id type="integer">257</field-staff-id>
+  <id type="integer">9</id>
+  <lock-version type="integer">3</lock-version>
+  <medical-order-id type="integer" nil="true"/>
+  <note-content>dfsdfsdfsfd</note-content>
+  <note-date-time type="datetime">2013-05-05T17:56:00+05:30</note-date-time>
+  <note-status type="symbol">completed</note-status>
+  <note-type-id type="integer">24</note-type-id>
+  <physician-id type="integer">309</physician-id>
+  <printable-content-content-type>application/pdf</printable-content-content-type>
+  <printable-content-file-name>note_content20131024-3210-1v83845.pdf</printable-content-file-name>
+  <printable-content-file-size type="integer">6380</printable-content-file-size>
+  <printable-content-updated-at type="datetime">2013-10-24T17:56:33+05:30</printable-content-updated-at>
+  <treatment-episode-id type="integer">68</treatment-episode-id>
+  <treatment-id type="integer">68</treatment-id>
+  <patient-name>James Smith</patient-name>
+  <physician-name>Andrew Dice, MD</physician-name>
+  <episode-display>04/26/13 - 06/25/13</episode-display>
+  <created-user-name>John Doe</created-user-name>
+  <created-user-signature-path>/home/msuser1/workspace/fasternotes_git/fasternotes/public/system/org_staffs/signatures/000/000/254/original/signature20131024-3210-1c922i4.png</created-user-signature-path>
+  <field-staff-name>Steffi Graf, PT</field-staff-name>
+  <note-date-display>05/05/2013</note-date-display>
+  <note-type-display>Discharge a Discipline/Patient</note-type-display>
+  <agency-name>GoodHealth Home Care</agency-name>
+  <agency-address>North Center Dr., Suite 113 New York, NY 11203</agency-address>
+  <agency-phone-number>Phone: (212) 403-4212  Fax: (526) 683-5328</agency-phone-number>
+  <patient-mr-number>26</patient-mr-number>
+  <os-sign-date-display>10/24/2013</os-sign-date-display>
+</communication-note>

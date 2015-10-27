@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<electronic-route-sheet>
+  <created-at type="datetime">2013-01-21T06:25:37Z</created-at>
+  <id type="integer">28</id>
+  <location-latitude>12.9923614</location-latitude>
+  <location-longitude>77.6669671</location-longitude>
+  <signature-content-type>image/png</signature-content-type>
+  <signature-file-name>signature20130121-16796-7cvjmu.png</signature-file-name>
+  <signature-file-size type="integer">3911</signature-file-size>
+  <signature-updated-at type="datetime">2013-01-21T06:25:37Z</signature-updated-at>
+  <status>A</status>
+  <updated-at type="datetime">2013-01-21T06:25:37Z</updated-at>
+  <visit-id type="integer">313</visit-id>
+</electronic-route-sheet>

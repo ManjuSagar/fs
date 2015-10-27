@@ -1,0 +1,263 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="discharge_by_reason" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="6dc655e2-30b2-4dc4-aec4-009d94482e24">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/alirts/discharge-reasons/discharge-reason]]>
+	</queryString>
+	<field name="line-number" class="java.lang.String">
+		<fieldDescription><![CDATA[line-number]]></fieldDescription>
+	</field>
+	<field name="reason" class="java.lang.String">
+		<fieldDescription><![CDATA[reason]]></fieldDescription>
+	</field>
+	<field name="discharges-count" class="java.lang.Float">
+		<fieldDescription><![CDATA[discharges-count]]></fieldDescription>
+	</field>
+	<field name="total-discharges-count" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/discharge-reasons/total-discharges-count]]></fieldDescription>
+	</field>
+	<field name="agency-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/agency-name]]></fieldDescription>
+	</field>
+	<field name="agency-street-address" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/agency-street-address]]></fieldDescription>
+	</field>
+	<field name="agency-suite-number" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/agency-suite-number]]></fieldDescription>
+	</field>
+	<field name="agency-city-state-phone" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/agency-city-state-phone]]></fieldDescription>
+	</field>
+	<field name="fiscal-period-from-date" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/fiscal-period-from-date]]></fieldDescription>
+	</field>
+	<field name="fiscal-period-to-date" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/fiscal-period-to-date]]></fieldDescription>
+	</field>
+	<field name="current-date" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/current-date]]></fieldDescription>
+	</field>
+	<field name="current-time" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/current-time]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="123">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="69fcda18-a175-48d1-b118-89cdd9789b06" x="0" y="3" width="337" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{agency-name}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{agency-name}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="f9dfa10d-e2a8-4f7d-a012-7a89c01149bf" x="3" y="18" width="334" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{agency-street-address}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{agency-street-address}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="01618419-1c89-486f-a3db-9225867798cf" x="3" y="33" width="334" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{agency-city-state-phone}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{agency-city-state-phone}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="4215b9ea-a8fc-4f6e-8bf3-a18b18bc4369" x="167" y="58" width="257" height="15"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[DISCHARGES BY REASON (Table 2)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="f18f85b7-ac58-44ab-a560-aa098d90ae8d" x="167" y="74" width="84" height="15"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Fiscal Period]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d142cf5d-5608-4ee5-acf6-03f9b147ce33" x="254" y="90" width="100" height="15"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Errors Prooflist]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="2cb980e7-95c5-474e-915a-c05ad4b12506" x="254" y="105" width="100" height="15"/>
+				<textElement/>
+				<text><![CDATA[For All Offices]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="c4c8cc4a-6143-4523-9485-0a18ba7971a8" x="254" y="74" width="305" height="15"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{fiscal-period-from-date}+ "     " + "To" +"     " +$F{fiscal-period-to-date}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="52b52426-212c-4bf3-9fb8-8cb7449babbb" x="468" y="3" width="80" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Left">
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" evaluationTime="Report">
+				<reportElement uuid="9133ca6d-103b-471c-a0be-5012594439b1" x="520" y="3" width="32" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Left">
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="097cbde2-d42b-4921-ac56-6e881232dae1" x="467" y="18" width="86" height="15"/>
+				<textElement textAlignment="Left"/>
+				<textFieldExpression><![CDATA[$F{current-date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="27f79eeb-1905-46db-b321-19e43e0dbdf2" x="467" y="33" width="87" height="15"/>
+				<textElement textAlignment="Left"/>
+				<textFieldExpression><![CDATA[$F{current-time}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="41">
+			<staticText>
+				<reportElement uuid="7cbbc916-c6d5-44de-b743-63c12d4c5d96" x="406" y="16" width="134" height="25"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[(Column 1)
+Discharges]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="574e5ccc-74d9-4337-a9ec-93a4f8d50f58" x="84" y="16" width="322" height="25"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<paragraph tabStopWidth="40"/>
+				</textElement>
+				<text><![CDATA[Reason for Discharge]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="48fccfe0-ee67-4b4e-93ee-a712eb4d9494" x="10" y="16" width="74" height="25"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Line
+No.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="a8700377-5708-42e3-a43d-e0e10b7959e4" x="12" y="1" width="230" height="15"/>
+				<textElement verticalAlignment="Middle">
+					<font isBold="true"/>
+					<paragraph leftIndent="4"/>
+				</textElement>
+				<text><![CDATA[DISCHARGES BY REASON]]></text>
+			</staticText>
+			<frame>
+				<reportElement uuid="5cbc376d-4630-461b-ad12-9b8affe7f82d" x="10" y="1" width="530" height="15"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+			</frame>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="20" splitType="Stretch">
+			<textField isStretchWithOverflow="true" pattern="#,###" isBlankWhenNull="true">
+				<reportElement uuid="7dda30e9-33c4-4e5b-bc73-c24923156fa5" x="406" y="0" width="134" height="20" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<paragraph rightIndent="4"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{discharges-count}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="9a34fbdc-faa2-49c6-83a9-c441bf1a15a1" x="84" y="0" width="322" height="20" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement verticalAlignment="Middle" markup="html">
+					<paragraph leftIndent="4"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{reason}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="70e9cfb9-f734-494e-b165-33e4c650880d" x="10" y="0" width="74" height="20" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{line-number}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<summary>
+		<band height="71" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="3a51a510-f722-41f6-b8f0-d3523de84458" x="10" y="8" width="100" height="20"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Instructions]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b8306b9d-4d79-40b1-a7cf-ed1f35f3e461" x="23" y="28" width="288" height="14"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Lines 41 through 59: Discharges By Reason]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="6d2befa5-7b84-4e45-99bc-c432ff28db48" x="23" y="42" width="517" height="24"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Enter on lines 41 through 59 the total number of discharges associated with each of the listed reasons for discharge.]]></text>
+			</staticText>
+		</band>
+	</summary>
+</jasperReport>

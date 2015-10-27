@@ -1,0 +1,8 @@
+Code,Description,System Required
+SOC,SOC,FALSE
+REHAB_EVAL,Rehab Evaluation,FALSE
+EXTRA_VISIT,Extra Visit,FALSE
+WOUND,Wound Care,FALSE
+LAB,Lab,FALSE
+DME,DME,FALSE
+IV,IV,FALSE

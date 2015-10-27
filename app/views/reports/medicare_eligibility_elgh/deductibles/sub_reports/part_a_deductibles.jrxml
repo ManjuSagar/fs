@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="part_a_deductibles" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="c0037840-9333-4ba7-ae3a-9ffffc94adb2">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/elgh-response/beneficiary-information/part-a-deductibles/part-a-deductible]]>
+	</queryString>
+	<field name="deductible-year" class="java.lang.String">
+		<fieldDescription><![CDATA[deductible-year]]></fieldDescription>
+	</field>
+	<field name="cash-deductible-remaining" class="java.lang.String">
+		<fieldDescription><![CDATA[cash-deductible-remaining]]></fieldDescription>
+	</field>
+	<field name="base-amount-deductible-for-year" class="java.lang.Float">
+		<fieldDescription><![CDATA[base-amount-deductible-for-year]]></fieldDescription>
+	</field>
+	<field name="doeba" class="java.lang.String">
+		<fieldDescription><![CDATA[doeba]]></fieldDescription>
+	</field>
+	<field name="dolba" class="java.lang.String">
+		<fieldDescription><![CDATA[dolba]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="40" splitType="Stretch">
+			<printWhenExpression><![CDATA[$F{deductible-year}!=null ||
+$F{cash-deductible-remaining}!=null ||
+$F{doeba}!=null ||
+$F{base-amount-deductible-for-year}!=null||
+$F{dolba}!=null]]></printWhenExpression>
+			<staticText>
+				<reportElement uuid="5686f3fe-b2c7-4d33-b4a8-54c189e070a8" mode="Opaque" x="5" y="25" width="143" height="15" backcolor="#F0ECEC"/>
+				<textElement textAlignment="Left">
+					<font size="10" isBold="true"/>
+					<paragraph leftIndent="1"/>
+				</textElement>
+				<text><![CDATA[Deductible Year ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="af9b01a6-54f5-4a92-a78e-65d502d6b035" mode="Opaque" x="234" y="25" width="164" height="15" backcolor="#F0ECEC"/>
+				<textElement textAlignment="Left" verticalAlignment="Top">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Remaining Deductible Amount ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="0242dcb1-7f8a-4ad6-bcbd-f32e17d0e734" mode="Opaque" x="0" y="5" width="555" height="15" backcolor="#DFD4D4"/>
+				<textElement>
+					<font size="10" isBold="true"/>
+					<paragraph leftIndent="1"/>
+				</textElement>
+				<text><![CDATA[Part A Deductible]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="11bd9c95-32f3-4f50-b161-53d96656b503" mode="Opaque" x="148" y="25" width="86" height="15" backcolor="#F0ECEC"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Base Amount]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="e389f9f5-00b5-4fe7-b3ba-79bc62a05764" mode="Opaque" x="398" y="25" width="74" height="15" backcolor="#F0ECEC"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[DOEBA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="fd64cc72-b5f2-4964-ac51-3b2f15727649" mode="Opaque" x="472" y="25" width="70" height="15" backcolor="#F0ECEC"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[DOLBA]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="17" splitType="Stretch">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="4b6f6135-0508-47b9-afb5-f05db8e828d3" x="5" y="2" width="140" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Left">
+					<font size="10" isBold="false"/>
+					<paragraph leftIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{deductible-year}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="de66ca08-b454-4b45-869c-2dc2e9f19401" x="234" y="2" width="159" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{cash-deductible-remaining}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" pattern="$#,##0.00" isBlankWhenNull="true">
+				<reportElement uuid="08b0d077-a2b6-4c9e-8bf6-c839ec4be545" x="148" y="2" width="80" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{base-amount-deductible-for-year}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="d00516b3-f8db-4735-b0d4-bbeea02c4a0d" x="398" y="2" width="70" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{doeba}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="c74c0d91-92de-419f-873d-3fbbea990fb1" x="472" y="2" width="70" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{dolba}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

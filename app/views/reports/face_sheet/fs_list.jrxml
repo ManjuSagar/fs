@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="fs_list" language="groovy" pageWidth="595" pageHeight="792" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="10" bottomMargin="0" uuid="8ae6e43e-bad3-4ef3-962c-abe5b9c753f9">
+	<property name="ireport.zoom" value="1.2100000000000006"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/patient/staffs/staff]]>
+	</queryString>
+	<field name="discipline-name" class="java.lang.String">
+		<fieldDescription><![CDATA[discipline-name]]></fieldDescription>
+	</field>
+	<field name="visit-type" class="java.lang.String">
+		<fieldDescription><![CDATA[visit-type]]></fieldDescription>
+	</field>
+	<field name="name" class="java.lang.String">
+		<fieldDescription><![CDATA[name]]></fieldDescription>
+	</field>
+	<field name="phone" class="java.lang.String">
+		<fieldDescription><![CDATA[phone]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="29" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="8a6eac6f-cb7d-40ca-865d-01553530b991" x="3" y="16" width="140" height="12"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Discipline]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="836b0bca-4da9-49c6-bc83-64ab45475d90" x="144" y="16" width="166" height="12"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Visits]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="922882f0-2ef7-48d4-94e7-483719760767" x="314" y="16" width="140" height="12"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Staff]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="91aa16ea-f3af-4fe4-9a43-5d17864a12df" x="455" y="16" width="100" height="12"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Phone]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d7091f38-384a-416e-8f24-90abf9bbc1aa" x="209" y="0" width="137" height="12"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[FIELD STAFF]]></text>
+			</staticText>
+			<line>
+				<reportElement uuid="dd9eebce-9d13-473c-986b-46550e0f8b8a" x="3" y="13" width="550" height="1"/>
+			</line>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="15" splitType="Stretch">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="465f9d18-400e-4800-8c58-29fa8c90785e" x="3" y="1" width="140" height="12"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{discipline-name}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="37099767-4b39-4e37-9480-410b42e28538" x="144" y="1" width="166" height="12"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{visit-type}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="84240ba2-563b-4687-bba9-79ccef0bb51e" x="314" y="1" width="140" height="12"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="dc183a3f-0987-4efb-9738-0355e7b45062" x="455" y="1" width="100" height="12"/>
+				<textElement>
+					<paragraph rightIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{phone}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="3">
+			<line>
+				<reportElement uuid="dd9eebce-9d13-473c-986b-46550e0f8b8a" x="3" y="1" width="551" height="1"/>
+			</line>
+		</band>
+	</columnFooter>
+</jasperReport>

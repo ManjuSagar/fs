@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<patient>
+  <approved type="boolean">true</approved>
+  <city>New Jersy</city>
+  <created-at type="datetime">2013-06-10T13:04:11+05:30</created-at>
+  <email>JamesBondtow8lo@fasternotes.com</email>
+  <encrypted-sign-password nil="true"/>
+  <ethnicity nil="true"/>
+  <fax-number nil="true"/>
+  <first-name>James</first-name>
+  <gender>M</gender>
+  <id type="integer">30</id>
+  <last-name>Bond</last-name>
+  <lock-version type="integer">0</lock-version>
+  <middle-initials nil="true"/>
+  <phone-number>(666) 666-6666</phone-number>
+  <phone-number-2>(555) 555-5555</phone-number-2>
+  <signature-content-type nil="true"/>
+  <signature-file-name nil="true"/>
+  <signature-file-size type="integer" nil="true"/>
+  <signature-updated-at type="datetime" nil="true"/>
+  <state>NJ</state>
+  <street-address>James Street</street-address>
+  <suffix nil="true"/>
+  <suite-number>645</suite-number>
+  <updated-at type="datetime">2013-06-10T13:04:11+05:30</updated-at>
+  <zip-code>78676</zip-code>
+  <full-name>James Bond</full-name>
+  <patient-reference>5</patient-reference>
+  <dob-string>05/20/1999</dob-string>
+  <phone-number-2>(555) 555-5555</phone-number-2>
+  <ssn>222-22-2222</ssn>
+  <gender-description>Male</gender-description>
+  <primary-caregiver-name>smith s</primary-caregiver-name>
+  <primary-caregiver-phone-number>(555) 555-5555</primary-caregiver-phone-number>
+  <primary-caregiver-relationship>Father</primary-caregiver-relationship>
+  <secondary-caregiver-name>adam s</secondary-caregiver-name>
+  <secondary-caregiver-phone-number>(666) 666-6666</secondary-caregiver-phone-number>
+  <secondary-caregiver-relationship>Mother</secondary-caregiver-relationship>
+  <agency-name>GoodHealth Home Care</agency-name>
+  <agency-address>North Center Dr., 113, New York, NY, 11203</agency-address>
+  <agency-phone-number>(212) 403-4212</agency-phone-number>
+  <agency-fax-number>(212) 403-4213</agency-fax-number>
+  <printed-date>07/02/13 17:40:12PM</printed-date>
+  <soc-date>06/10/2013</soc-date>
+  <referral-date>06/10/2013</referral-date>
+  <staffs type="array">
+    <staff>
+      <discipline-name>Skilled Nursing</discipline-name>
+      <visit-type>Followup</visit-type>
+      <name>Mike Tyson, SN</name>
+      <phone>(222) 222-2222</phone>
+    </staff>
+    <staff>
+      <discipline-name>Skilled Nursing</discipline-name>
+      <visit-type>Wound</visit-type>
+      <name>Mike Tyson, SN</name>
+      <phone>(222) 222-2222</phone>
+    </staff>
+    <staff>
+      <discipline-name>Physical Therapy</discipline-name>
+      <visit-type>Evaluation</visit-type>
+      <name>James s, PT</name>
+      <phone nil="true"/>
+    </staff>
+    <staff>
+      <discipline-name>Physical Therapy</discipline-name>
+      <visit-type>Followup</visit-type>
+      <name>Roger Federer, PT</name>
+      <phone nil="true"/>
+    </staff>
+    <staff>
+      <discipline-name>Occupational Therapy</discipline-name>
+      <visit-type nil="true"/>
+      <name>Andy Roddick, OT</name>
+      <phone nil="true"/>
+    </staff>
+    <staff>
+      <discipline-name>Speech Therapy</discipline-name>
+      <visit-type nil="true"/>
+      <name>st meccalam, ST</name>
+      <phone>(555) 555-5555</phone>
+    </staff>
+    <staff>
+      <discipline-name>Social Worker</discipline-name>
+      <visit-type nil="true"/>
+      <name>msw fs, MSW</name>
+      <phone>(677) 788-8888</phone>
+    </staff>
+    <staff>
+      <discipline-name>Certified Home Health Agency</discipline-name>
+      <visit-type nil="true"/>
+      <name>chha fs, CHHA</name>
+      <phone>(444) 444-4444</phone>
+    </staff>
+  </staffs>
+  <insurance-company-display>Medicare Health Insurance</insurance-company-display>
+  <insured-name>Self</insured-name>
+  <hicn-number>123456789A</hicn-number>
+  <secondary-insurance/>
+  <secondary-insured-name/>
+  <seondary-insurance-hicn/>
+  <primary-physician-address>Manhut , 234 , NY, NY, 52345</primary-physician-address>
+  <primary-physician-info>&lt;b&gt;Name : &lt;/b&gt;Brendan Braun, &lt;b&gt;NPI : &lt;/b&gt;123456, &lt;b&gt;Phone : &lt;/b&gt;(888) 415-9370</primary-physician-info>
+  <patient-special-instructions nil="true"/>
+  <patient-known-allergies>1. Pencilin
+2. Injection
+3. Anesthesia</patient-known-allergies>
+  <patient-restrictions nil="true"/>
+  <patient-known-languages>Armenian, English, French, Italian, Japanese, Spanish, Tagalog</patient-known-languages>
+  <patient-ethnicities/>
+  <dnr-dni-display>Yes/Yes</dnr-dni-display>
+  <physicians type="array">
+    <physician>
+      <name>Brendan Braun</name>
+      <address>Manhut , 234 , NY, NY, 52345</address>
+      <phone>(888) 415-9370</phone>
+      <fax nil="true"/>
+      <npi>123456</npi>
+    </physician>
+    <physician>
+      <name>Tommie Becker</name>
+      <address>Miller , 236 , WT, WT, 51341</address>
+      <phone>(831) 366-1234</phone>
+      <fax nil="true"/>
+      <npi>123456</npi>
+    </physician>
+  </physicians>
+  <acuity-level-display>&lt;b&gt;Low:&lt;/b&gt; Patients who can safely forego care or a scheduled visit without a
+     high probability of harm or deleterious effects; this category may include
+     homemaker patients, routine supervisory visits, evaluation visits, patients
+     with frequencies of one (1) or two (2) times a week, if health status
+     permits, or if a competent family member/caregiver is present. In case of
+     an emergency, these patients must be seen or contacted via telephone
+     within 72 hours, or based on the requirements of the patient's condition.</acuity-level-display>
+  <advanced-directives-display>NA</advanced-directives-display>
+</patient>

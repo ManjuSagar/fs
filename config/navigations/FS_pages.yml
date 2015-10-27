@@ -1,0 +1,70 @@
+default: FieldStaffPatientListExplorer
+pages:
+  -
+    text: Productivity
+    children:
+      -
+        text: To Do
+        class_name: FsWorkQueue
+        icon: user
+      -
+        text: Staffing Requests
+        class_name: FieldStaffStaffingRequestList
+        icon: user
+  -
+    text: Patients
+    children:
+      -
+        text: Patients List
+        class_name: FieldStaffPatientListExplorer
+        icon: user
+
+  -
+    text: Network
+    children:
+      -
+        text: HHAs
+        class_name: FieldStaffAgenciesInfo
+        icon: user_suit
+
+  -
+    text: Financial
+    children:
+      -
+        text: Payroll
+        class_name: Payrolls
+
+  -
+    text: Document
+    children:
+      -
+        text: Uploads
+        class_name: FormLibrary
+        icon: user_suit
+      -
+        text: Templates
+        class_name: FreeFormTemplateList
+        icon: user_suit
+
+
+  -
+    text: Clinical
+
+  -
+    text: Admin 
+    children:
+      -
+        text: Settings
+        class_name: FieldStaffProfile
+        icon: user_suit
+      -
+        text: Credentials
+        class_name: FieldStaffCredentials
+        icon: user
+
+  -
+    text: Reports
+  -
+    text: Help
+    url: "http://www.help-fasternotes.com/field-help"
+    icon: user_suit

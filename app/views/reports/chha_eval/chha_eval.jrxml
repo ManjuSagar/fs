@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.0.1.final using JasperReports Library version 6.0.0  -->
+<!-- 2015-06-04T19:26:34 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report17" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="d15075c8-d13f-4b62-8bbe-439259943cd2">
+	<property name="ireport.zoom" value="1.2396694214876052"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="One Empty Record"/>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["/home/msuser1/workspace/fasternotes/trunk/app/views/reports/tinetti_assessment_tool/"]]></defaultValueExpression>
+	</parameter>
+	<queryString language="xPath">
+		<![CDATA[/chha-care-plan/performs/perform]]>
+	</queryString>
+	<field name="frequency" class="java.lang.String">
+		<fieldDescription><![CDATA[frequency]]></fieldDescription>
+	</field>
+	<field name="assist" class="java.lang.String">
+		<fieldDescription><![CDATA[assist]]></fieldDescription>
+	</field>
+	<field name="vital-sign-temperature" class="java.lang.String">
+		<fieldDescription><![CDATA[/chha-care-plan/vital-sign-temperature]]></fieldDescription>
+	</field>
+	<field name="vital-sign-pulse" class="java.lang.String">
+		<fieldDescription><![CDATA[/chha-care-plan/vital-sign-pulse]]></fieldDescription>
+	</field>
+	<field name="vital-sign-respiration-rate" class="java.lang.String">
+		<fieldDescription><![CDATA[/chha-care-plan/vital-sign-respiration-rate]]></fieldDescription>
+	</field>
+	<field name="vital-sign-systolic-bp" class="java.lang.String">
+		<fieldDescription><![CDATA[/chha-care-plan/vital-sign-systolic-bp]]></fieldDescription>
+	</field>
+	<field name="vital-sign-diastolic-bp" class="java.lang.String">
+		<fieldDescription><![CDATA[/chha-care-plan/vital-sign-diastolic-bp]]></fieldDescription>
+	</field>
+	<field name="agency-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/chha-care-plan/agency-name]]></fieldDescription>
+	</field>
+	<field name="supervised-user-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/chha-care-plan/supervised-user-name]]></fieldDescription>
+	</field>
+	<field name="supervised-user-signature" class="java.lang.String">
+		<fieldDescription><![CDATA[/chha-care-plan/supervised-user-signature]]></fieldDescription>
+	</field>
+	<field name="patient-problems-display" class="java.lang.String">
+		<fieldDescription><![CDATA[/chha-care-plan/patient-problems-display]]></fieldDescription>
+	</field>
+	<field name="goals-display" class="java.lang.String">
+		<fieldDescription><![CDATA[/chha-care-plan/goals-display]]></fieldDescription>
+	</field>
+	<field name="notify-nurse-display" class="java.lang.String">
+		<fieldDescription><![CDATA[/chha-care-plan/notify-nurse-display]]></fieldDescription>
+	</field>
+	<field name="visited-staff-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/chha-care-plan/visited-staff-name]]></fieldDescription>
+	</field>
+	<field name="field-staff-signature" class="java.lang.String">
+		<fieldDescription><![CDATA[/chha-care-plan/field-staff-signature]]></fieldDescription>
+	</field>
+	<field name="patient-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/chha-care-plan/data/patient-name]]></fieldDescription>
+	</field>
+	<field name="mr" class="java.lang.String">
+		<fieldDescription><![CDATA[/chha-care-plan/data/mr]]></fieldDescription>
+	</field>
+	<field name="approved-date" class="java.lang.String">
+		<fieldDescription><![CDATA[/chha-care-plan/data/approved-date]]></fieldDescription>
+	</field>
+	<field name="visit-frequency" class="java.lang.String">
+		<fieldDescription><![CDATA[/chha-care-plan/visit-frequency]]></fieldDescription>
+	</field>
+	<field name="fs-signed-date-display" class="java.lang.String">
+		<fieldDescription><![CDATA[/chha-care-plan/fs-signed-date-display]]></fieldDescription>
+	</field>
+	<field name="field-staff-signed" class="java.lang.String">
+		<fieldDescription><![CDATA[/chha-care-plan/field-staff-signed]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="107" splitType="Stretch">
+			<staticText>
+				<reportElement x="143" y="16" width="411" height="14" uuid="ce8c43de-c5b3-4d67-b285-c8654dde012b"/>
+				<textElement textAlignment="Right">
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[HOME HEALTH AIDE ASSIGNMENT/ PLAN OF CARE
+]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="488" y="29" width="66" height="12" uuid="71b9d4bf-5cea-4293-bc3c-9577b6982a06"/>
+				<textFieldExpression><![CDATA[$F{approved-date}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="454" y="29" width="35" height="12" uuid="53ba5896-586d-4007-83e7-eabb49d6c9a0">
+					<printWhenExpression><![CDATA[$F{approved-date} !=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Date:]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="190" y="0" width="364" height="17" uuid="e92471bd-c61f-4a6b-ac0a-6b2c499e4416"/>
+				<textElement textAlignment="Right">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{agency-name}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="203" y="29" width="47" height="12" uuid="3900885b-fe03-4c74-850f-3f118416d2a8"/>
+				<textFieldExpression><![CDATA[$F{mr}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="81" y="29" width="88" height="12" isPrintWhenDetailOverflows="true" uuid="5eb09340-1706-410f-b453-3714f2d06329"/>
+				<textElement>
+					<font isStrikeThrough="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{patient-name}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="1" y="29" width="82" height="12" uuid="ce9f6b87-279a-46e7-899c-e4e07388cc8b"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Patient Name: ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="169" y="29" width="34" height="12" uuid="53ba5896-586d-4007-83e7-eabb49d6c9a0">
+					<printWhenExpression><![CDATA[$F{mr}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[MR #:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="0" y="41" width="179" height="50" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="921df22d-fab8-49a4-a0c8-c1853eeeb93e"/>
+				<box>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement>
+					<font size="9"/>
+					<paragraph lineSpacing="Single" leftIndent="4" spacingBefore="2"/>
+				</textElement>
+				<text><![CDATA[Please report any significant changes in the patient’s condition OR if vital signs are out of normal following ranges to the Agency.
+]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" pattern="" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="179" y="41" width="75" height="50" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="d71ad65b-b471-4820-ae6e-e5bf6c856968"/>
+				<box>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement markup="html">
+					<font size="9" isBold="false"/>
+					<paragraph lineSpacing="Single" leftIndent="4" spacingBefore="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>Temp</b><br>" + $F{vital-sign-temperature}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="254" y="41" width="75" height="50" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="080f3d74-e54f-478e-8a0f-12a734b540d5"/>
+				<box>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement markup="html">
+					<font size="9"/>
+					<paragraph lineSpacing="Single" leftIndent="4" spacingBefore="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>Pulse</b><br>" +
+$F{vital-sign-pulse}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="329" y="41" width="75" height="50" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="0bf69876-835b-4cae-9e02-c1e54e502a21"/>
+				<box>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement markup="html">
+					<font size="9"/>
+					<paragraph lineSpacing="Single" leftIndent="4" spacingBefore="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>Resp</b><br>" +
+$F{vital-sign-respiration-rate}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="479" y="41" width="75" height="50" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="a37e6c6a-ae33-42b2-90de-4d89c0e08783"/>
+				<box>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement markup="html">
+					<font size="9"/>
+					<paragraph lineSpacing="Single" leftIndent="4" spacingBefore="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>DBP</b><br>" +
+$F{vital-sign-diastolic-bp}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="404" y="41" width="75" height="50" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="2fe61dcf-a9a9-40ea-9fd2-17cc5c8f00ca"/>
+				<box>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement markup="html">
+					<font size="9"/>
+					<paragraph lineSpacing="Single" leftIndent="4" spacingBefore="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>SBP</b><br>" +
+$F{vital-sign-systolic-bp}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="0" y="92" width="100" height="13" isPrintInFirstWholeBand="true" isPrintWhenDetailOverflows="true" uuid="b4c5eeae-3d3a-43d1-8940-732310ba362c"/>
+				<textElement>
+					<font size="8" isBold="true"/>
+					<paragraph leftIndent="4" spacingBefore="2"/>
+				</textElement>
+				<text><![CDATA[FREQUENCY]]></text>
+			</staticText>
+			<staticText>
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="256" y="92" width="126" height="13" isPrintInFirstWholeBand="true" isPrintWhenDetailOverflows="true" uuid="b4c5eeae-3d3a-43d1-8940-732310ba362c"/>
+				<textElement>
+					<font size="8" isBold="true"/>
+					<paragraph leftIndent="4" spacingBefore="2"/>
+				</textElement>
+				<text><![CDATA[ASSIST WITH/PERFORM]]></text>
+			</staticText>
+			<line>
+				<reportElement x="0" y="105" width="554" height="1" uuid="f7e14734-60ff-47de-ad65-8c633c955f70"/>
+			</line>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="250" y="29" width="170" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="10dac0ee-f235-4dd9-a4da-c2deafc77d84">
+					<printWhenExpression><![CDATA[$F{visit-frequency}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement markup="html"/>
+				<textFieldExpression><![CDATA["<b>Frequency:</b> "+ $F{visit-frequency}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="14">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="0" y="0" width="252" height="11" isPrintInFirstWholeBand="true" isPrintWhenDetailOverflows="true" uuid="8a4f619d-d011-48fe-9190-ba47ba39ef72"/>
+				<textElement>
+					<font size="9"/>
+					<paragraph leftIndent="4"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{frequency}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="257" y="0" width="296" height="11" uuid="aaefdfdb-34df-4544-9df7-26d294f3d398"/>
+				<textElement>
+					<font size="9"/>
+					<paragraph leftIndent="4"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{assist}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="0" y="11" width="554" height="1" uuid="e794e6b8-e318-4ae1-98bc-24299a5f2ad7"/>
+			</line>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="100">
+			<staticText>
+				<reportElement x="2" y="5" width="161" height="15" uuid="2a5b3296-eb0d-4936-9117-3b7c007c0a62">
+					<printWhenExpression><![CDATA[$F{visited-staff-name}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Field Staff Signature]]></text>
+			</staticText>
+			<image>
+				<reportElement x="1" y="21" width="162" height="34" uuid="9ead10f3-19b0-4c3d-8d51-c21d020f2abb"/>
+				<imageExpression><![CDATA[new File($F{field-staff-signature})]]></imageExpression>
+			</image>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="1" y="54" width="210" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="deede0a5-b54b-4575-aa43-6ca6b3c90315">
+					<printWhenExpression><![CDATA[$F{visited-staff-name}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement markup="html">
+					<font isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{field-staff-signed})=="true" ? ("<b>(" + $F{visited-staff-name} + ")</b>") : ("Electronically Signed by "+ $F{visited-staff-name})]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="1" y="80" width="160" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="550c4239-a2a9-4e8c-9778-4cefc1a6644c">
+					<printWhenExpression><![CDATA[$F{fs-signed-date-display}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement markup="html"/>
+				<textFieldExpression><![CDATA["<b>Date: </b>"+$F{fs-signed-date-display}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="41" splitType="Stretch">
+			<textField>
+				<reportElement x="1" y="6" width="168" height="15" uuid="5764ff9e-de03-471b-bcc6-ec114ebe4953"/>
+				<textElement verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{patient-name}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="151" y="6" width="252" height="15" uuid="ce8c43de-c5b3-4d67-b285-c8654dde012b"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="false"/>
+				</textElement>
+				<text><![CDATA[HOME HEALTH AIDE ASSIGNMENT/ PLAN OF CARE
+]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement x="454" y="6" width="100" height="15" uuid="4dd37f19-1562-4b30-afc3-bd81a4fd2e05"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA[$F{approved-date}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="219" y="24" width="117" height="12" uuid="1accbe2c-2531-4640-8d72-7f6dcb5a34b1"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[www.fasternotes.com]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="448" y="24" width="80" height="12" uuid="c2eaf1e2-583e-4bc5-a78d-23d360f3f826"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement x="528" y="24" width="27" height="12" uuid="72fa9484-f746-4bdb-9378-080b50365892"/>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+</jasperReport>

@@ -1,0 +1,186 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report5" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="af6764ba-4e1e-4e17-8dec-13bb551bc79c">
+	<property name="ireport.zoom" value="1.1269722013523664"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["/home/msuser1/workspace/reports/"]]></defaultValueExpression>
+	</parameter>
+	<queryString language="xPath">
+		<![CDATA[/patients-visit-by-age]]>
+	</queryString>
+	<field name="sub-report-url" class="java.lang.String">
+		<fieldDescription><![CDATA[sub-report-url]]></fieldDescription>
+	</field>
+	<field name="agency-name" class="java.lang.String">
+		<fieldDescription><![CDATA[agency-name]]></fieldDescription>
+	</field>
+	<field name="address" class="java.lang.String">
+		<fieldDescription><![CDATA[address]]></fieldDescription>
+	</field>
+	<field name="suite" class="java.lang.String">
+		<fieldDescription><![CDATA[suite]]></fieldDescription>
+	</field>
+	<field name="fiscal-period-from" class="java.lang.String">
+		<fieldDescription><![CDATA[fiscal-period-from]]></fieldDescription>
+	</field>
+	<field name="fiscal-period-to" class="java.lang.String">
+		<fieldDescription><![CDATA[fiscal-period-to]]></fieldDescription>
+	</field>
+	<field name="patient-count" class="java.lang.String">
+		<fieldDescription><![CDATA[patient-count]]></fieldDescription>
+	</field>
+	<field name="patient-visits" class="java.lang.String">
+		<fieldDescription><![CDATA[patient-visits]]></fieldDescription>
+	</field>
+	<field name="address2" class="java.lang.String">
+		<fieldDescription><![CDATA[address2]]></fieldDescription>
+	</field>
+	<pageHeader>
+		<band height="139" splitType="Stretch">
+			<textField>
+				<reportElement uuid="68fc2187-ba7f-41c1-8f54-61e6f4ebcafc" x="0" y="0" width="207" height="15"/>
+				<textElement>
+					<font size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{agency-name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="09038b2d-4693-4bbf-9e20-5f4399aea8e2" x="0" y="15" width="143" height="15"/>
+				<textElement>
+					<font size="10"/>
+					<paragraph leftIndent="4"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{address}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="f9593b6e-9a14-4a2f-bc07-c22e856c7c63" x="0" y="30" width="143" height="15"/>
+				<textElement>
+					<font size="10"/>
+					<paragraph leftIndent="4"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{suite}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="f03bf135-3c69-4ad6-be6b-0f66dca713ed" x="172" y="57" width="345" height="20"/>
+				<textElement>
+					<font size="13" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PATIENTS AND VISITS BY AGE (Table 1)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="299b64ec-6cc3-477c-ad88-af47a0af4d0e" x="172" y="77" width="81" height="15"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Fiscal Period]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="a4923bd8-ea25-4b95-b3b0-adedf6ff71cb" x="334" y="77" width="71" height="15"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[To]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="6d9049a0-0c70-44e8-a6a2-34983a3c5d03" x="256" y="77" width="78" height="15"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{fiscal-period-from}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="572fcf26-a416-4970-88c3-64a98645bf55" x="368" y="77" width="68" height="15"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{fiscal-period-to}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="66561b82-44fb-4e1d-ad09-f48fb86e68ee" x="234" y="92" width="100" height="15"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Errors Prooflist]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d72939e8-721c-47e6-895e-659851223bf3" x="234" y="107" width="100" height="15"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[For Visits Only]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="3e875335-9fbd-4a88-9c5e-29134c390564" x="234" y="122" width="100" height="15"/>
+				<textElement>
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[For All Offices]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="080fd988-fc65-4c14-9f7f-79dad1ba4d0c" x="462" y="0" width="80" height="15"/>
+				<textElement textAlignment="Right">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement uuid="7067abcc-0431-4d6a-b011-75aaf62e6a37" x="531" y="0" width="24" height="15"/>
+				<textElement textAlignment="Right">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField pattern="dd/MM/yyyy">
+				<reportElement uuid="f8a2fa8e-28dc-47e0-ba2f-7da74df73601" x="455" y="15" width="100" height="15"/>
+				<textElement textAlignment="Right">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<textField pattern="h.mm.ss a">
+				<reportElement uuid="40423e8a-e6f2-4446-90fc-5a52f12084e2" x="455" y="31" width="100" height="15"/>
+				<textElement textAlignment="Right">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[new java.util.Date()]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="7169fdbf-8af7-48e9-9797-addcfa987aec" x="0" y="44" width="266" height="15"/>
+				<textElement>
+					<paragraph leftIndent="4"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{address2}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="39" splitType="Stretch">
+			<subreport>
+				<reportElement uuid="2650ce45-3a8d-4f42-8a87-c2a135ff7da3" x="0" y="0" width="555" height="37"/>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportExpression><![CDATA[$P{SUBREPORT_DIR} + "visits_not_covered_by_poc.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+		<band height="61">
+			<subreport>
+				<reportElement uuid="e454c396-2350-4453-942b-f264b1d6cc09" x="3" y="7" width="539" height="44"/>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportExpression><![CDATA[$F{sub-report-url} + "group_by_patient_age.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="45" splitType="Stretch"/>
+	</columnFooter>
+	<pageFooter>
+		<band height="54" splitType="Stretch"/>
+	</pageFooter>
+	<summary>
+		<band height="42" splitType="Stretch"/>
+	</summary>
+</jasperReport>

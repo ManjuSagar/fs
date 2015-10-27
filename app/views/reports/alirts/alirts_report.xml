@@ -1,0 +1,1827 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<alirts>
+  <sub-report-url>/home/msuser1/workspace/git_repo/fasternotes/app/views/reports/alirts/</sub-report-url>
+  <agency-name>Noho Home Health Care, Inc.</agency-name>
+  <agency-street-address>6422 1/2 Coldwater Canyon Ave.</agency-street-address>
+  <agency-suite-number nil="true"/>
+  <agency-city-state-phone>North Hollywood CA, (818) 908-9943</agency-city-state-phone>
+  <fiscal-period-from-date>01-01-2014</fiscal-period-from-date>
+  <fiscal-period-to-date>12-31-2014</fiscal-period-to-date>
+  <current-date>08/09/2014</current-date>
+  <current-time>12:34:57 AM</current-time>
+  <patients type="array">
+    <patient>
+      <visits type="integer">9</visits>
+      <soc type="date">2014-06-12</soc>
+      <period>2014-06-13 - 2014-07-26</period>
+      <patient-mr-num>367</patient-mr-num>
+      <patient-name>Manuel, Henrietto</patient-name>
+      <dob type="date">1939-03-29</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">19</visits>
+      <soc type="date">2014-06-11</soc>
+      <period>2014-06-12 - 2014-08-09</period>
+      <patient-mr-num>369</patient-mr-num>
+      <patient-name>Nadiryan, Yekaterina</patient-name>
+      <dob type="date">1930-05-03</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">16</visits>
+      <soc type="date">2014-06-04</soc>
+      <period>2014-06-04 - 2014-07-17</period>
+      <patient-mr-num>370</patient-mr-num>
+      <patient-name>Rendon, Arturo</patient-name>
+      <dob type="date">1943-10-27</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">27</visits>
+      <soc type="date">2014-06-05</soc>
+      <period>2014-06-05 - 2014-09-21</period>
+      <patient-mr-num>371</patient-mr-num>
+      <patient-name>Bertlizyan, Avetis</patient-name>
+      <dob type="date">1953-12-23</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">18</visits>
+      <soc type="date">2014-05-19</soc>
+      <period>2014-05-19 - 2014-07-08</period>
+      <patient-mr-num>355</patient-mr-num>
+      <patient-name>Trandafilova, Minatura</patient-name>
+      <dob type="date">1933-12-16</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">28</visits>
+      <soc type="date">2014-05-23</soc>
+      <period>2014-05-24 - 2014-08-29</period>
+      <patient-mr-num>357</patient-mr-num>
+      <patient-name>Khokazian, Aram</patient-name>
+      <dob type="date">1943-01-01</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">16</visits>
+      <soc type="date">2014-05-21</soc>
+      <period>2014-05-22 - 2014-07-11</period>
+      <patient-mr-num>356</patient-mr-num>
+      <patient-name>Adamyan, Emma</patient-name>
+      <dob type="date">1939-11-11</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">19</visits>
+      <soc type="date">2014-05-31</soc>
+      <period>2014-05-31 - 2014-07-30</period>
+      <patient-mr-num>362</patient-mr-num>
+      <patient-name>Yagdjian, Janeta</patient-name>
+      <dob type="date">1935-09-21</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">18</visits>
+      <soc type="date">2014-05-30</soc>
+      <period>2014-05-31 - 2014-07-23</period>
+      <patient-mr-num>360</patient-mr-num>
+      <patient-name>Kostereva, Riva</patient-name>
+      <dob type="date">1924-09-10</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">10</visits>
+      <soc type="date">2014-05-31</soc>
+      <period>2014-05-31 - 2014-07-22</period>
+      <patient-mr-num>361</patient-mr-num>
+      <patient-name>Kasperova, Svitlana</patient-name>
+      <dob type="date">1939-11-07</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">17</visits>
+      <soc type="date">2014-06-04</soc>
+      <period>2014-06-04 - 2014-07-08</period>
+      <patient-mr-num>372</patient-mr-num>
+      <patient-name>Palomares, Maria</patient-name>
+      <dob type="date">1919-05-09</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">25</visits>
+      <soc type="date">2014-06-06</soc>
+      <period>2014-06-07 - 2014-09-22</period>
+      <patient-mr-num>363</patient-mr-num>
+      <patient-name>Tarakhchyan, Nver</patient-name>
+      <dob type="date">1939-08-20</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">29</visits>
+      <soc type="date">2014-06-06</soc>
+      <period>2014-06-06 - 2014-09-10</period>
+      <patient-mr-num>364</patient-mr-num>
+      <patient-name>Kirakosyan, Julietta</patient-name>
+      <dob type="date">1955-08-17</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">19</visits>
+      <soc type="date">2014-05-19</soc>
+      <period>2014-05-19 - 2014-06-15</period>
+      <patient-mr-num>354</patient-mr-num>
+      <patient-name>Deyirmencian, Nigogos</patient-name>
+      <dob type="date">1928-02-29</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">23</visits>
+      <soc type="date">2014-06-10</soc>
+      <period>2014-06-11 - 2014-09-25</period>
+      <patient-mr-num>368</patient-mr-num>
+      <patient-name>Garshina, Tamara</patient-name>
+      <dob type="date">1954-05-17</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">19</visits>
+      <soc type="date">2014-06-12</soc>
+      <period>2014-06-12 - 2014-07-16</period>
+      <patient-mr-num>366</patient-mr-num>
+      <patient-name>Arceo, Maria</patient-name>
+      <dob type="date">1942-05-03</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">18</visits>
+      <soc type="date">2014-05-28</soc>
+      <period>2014-05-28 - 2014-07-24</period>
+      <patient-mr-num>359</patient-mr-num>
+      <patient-name>Shalimova, Maral</patient-name>
+      <dob type="date">1930-05-17</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">16</visits>
+      <soc type="date">2014-06-19</soc>
+      <period>2014-06-19 - 2014-07-31</period>
+      <patient-mr-num>373</patient-mr-num>
+      <patient-name>Ochoa, Pedro</patient-name>
+      <dob type="date">1924-06-15</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">29</visits>
+      <soc type="date">2014-05-24</soc>
+      <period>2014-05-25 - 2014-09-08</period>
+      <patient-mr-num>358</patient-mr-num>
+      <patient-name>Fridman, Ester</patient-name>
+      <dob type="date">1922-10-05</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">28</visits>
+      <soc type="date">2014-06-20</soc>
+      <period>2014-06-21 - 2014-10-06</period>
+      <patient-mr-num>374</patient-mr-num>
+      <patient-name>Mirzoyan, Petros</patient-name>
+      <dob type="date">1944-12-22</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">8</visits>
+      <soc type="date">2014-06-04</soc>
+      <period>2014-06-04 - 2014-06-27</period>
+      <patient-mr-num>365</patient-mr-num>
+      <patient-name>Rojas De Tataje, Victoria</patient-name>
+      <dob type="date">1928-05-08</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">20</visits>
+      <soc type="date">2014-06-21</soc>
+      <period>2014-06-21 - 2014-08-18</period>
+      <patient-mr-num>376</patient-mr-num>
+      <patient-name>Avetisian, Ruben</patient-name>
+      <dob type="date">1948-03-26</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">35</visits>
+      <soc type="date">2014-06-24</soc>
+      <period>2014-06-24 - 2014-10-02</period>
+      <patient-mr-num>377</patient-mr-num>
+      <patient-name>Sirotina, Elena</patient-name>
+      <dob type="date">1932-03-11</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">27</visits>
+      <soc type="date">2014-07-08</soc>
+      <period>2014-07-09 - 2014-09-05</period>
+      <patient-mr-num>382</patient-mr-num>
+      <patient-name>Oros, Alberto</patient-name>
+      <dob type="date">1955-09-20</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">38</visits>
+      <soc type="date">2014-07-01</soc>
+      <period>2014-07-01 - 2014-10-23</period>
+      <patient-mr-num>384</patient-mr-num>
+      <patient-name>Itchmelian, Iskui</patient-name>
+      <dob type="date">1938-10-20</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">18</visits>
+      <soc type="date">2014-06-28</soc>
+      <period>2014-06-29 - 2014-08-21</period>
+      <patient-mr-num>385</patient-mr-num>
+      <patient-name>Melikian, Janna</patient-name>
+      <dob type="date">1937-02-25</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">18</visits>
+      <soc type="date">2014-06-27</soc>
+      <period>2014-06-28 - 2014-08-11</period>
+      <patient-mr-num>387</patient-mr-num>
+      <patient-name>Estis, James</patient-name>
+      <dob type="date">1964-06-21</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">16</visits>
+      <soc type="date">2014-07-01</soc>
+      <period>2014-07-02 - 2014-08-14</period>
+      <patient-mr-num>390</patient-mr-num>
+      <patient-name>Shapovalova, Svetlana</patient-name>
+      <dob type="date">1938-12-16</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">11</visits>
+      <soc type="date">2014-07-09</soc>
+      <period>2014-07-10 - 2014-08-27</period>
+      <patient-mr-num>383</patient-mr-num>
+      <patient-name>Malycheva, Tamara</patient-name>
+      <dob type="date">1939-01-09</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">21</visits>
+      <soc type="date">2014-06-20</soc>
+      <period>2014-06-21 - 2014-08-19</period>
+      <patient-mr-num>378</patient-mr-num>
+      <patient-name>Vaysleb, Ninel</patient-name>
+      <dob type="date">1937-10-20</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">17</visits>
+      <soc type="date">2014-06-27</soc>
+      <period>2014-06-27 - 2014-07-31</period>
+      <patient-mr-num>379</patient-mr-num>
+      <patient-name>Figueroa, Jose</patient-name>
+      <dob type="date">1940-10-14</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">13</visits>
+      <soc type="date">2014-08-04</soc>
+      <period>2014-08-04 - 2014-10-03</period>
+      <patient-mr-num>396</patient-mr-num>
+      <patient-name>Moran, Alicia</patient-name>
+      <dob type="date">1934-02-09</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">19</visits>
+      <soc type="date">2014-07-16</soc>
+      <period>2014-07-16 - 2014-09-04</period>
+      <patient-mr-num>391</patient-mr-num>
+      <patient-name>Zakaryan, Shushanik</patient-name>
+      <dob type="date">1935-05-01</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">10</visits>
+      <soc type="date">2014-07-25</soc>
+      <period>2014-07-25 - 2014-09-11</period>
+      <patient-mr-num>400</patient-mr-num>
+      <patient-name>Rainey, Robert</patient-name>
+      <dob type="date">1943-04-10</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">18</visits>
+      <soc type="date">2014-08-04</soc>
+      <period>2014-08-05 - 2014-10-03</period>
+      <patient-mr-num>407</patient-mr-num>
+      <patient-name>Kopylova, Alla</patient-name>
+      <dob type="date">1942-05-17</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">22</visits>
+      <soc type="date">2014-08-25</soc>
+      <period>2014-08-25 - 2014-09-22</period>
+      <patient-mr-num>419</patient-mr-num>
+      <patient-name>Merritt, Lorenzo</patient-name>
+      <dob type="date">1931-10-01</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">22</visits>
+      <soc type="date">2014-07-16</soc>
+      <period>2014-07-17 - 2014-09-05</period>
+      <patient-mr-num>381</patient-mr-num>
+      <patient-name>Vardanyan, Zhenya</patient-name>
+      <dob type="date">1935-09-15</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">1</visits>
+      <soc type="date">2014-08-12</soc>
+      <period>2014-08-12 - 2014-08-12</period>
+      <patient-mr-num>408</patient-mr-num>
+      <patient-name>Charito, Cruz</patient-name>
+      <dob type="date">1954-01-22</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">11</visits>
+      <soc type="date">2014-07-30</soc>
+      <period>2014-07-30 - 2014-09-27</period>
+      <patient-mr-num>398</patient-mr-num>
+      <patient-name>Casillas, Maria</patient-name>
+      <dob type="date">1943-11-29</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">118</visits>
+      <soc type="date">2014-08-05</soc>
+      <period>2014-08-06 - 2014-10-03</period>
+      <patient-mr-num>397</patient-mr-num>
+      <patient-name>Karpilovsky, Nikolay</patient-name>
+      <dob type="date">1936-05-30</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">11</visits>
+      <soc type="date">2014-08-10</soc>
+      <period>2014-08-11 - 2014-10-08</period>
+      <patient-mr-num>410</patient-mr-num>
+      <patient-name>De Galvan, Vita</patient-name>
+      <dob type="date">1949-06-15</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">26</visits>
+      <soc type="date">2014-08-07</soc>
+      <period>2014-08-08 - 2014-10-29</period>
+      <patient-mr-num>404</patient-mr-num>
+      <patient-name>Vahradyan, Hagop</patient-name>
+      <dob type="date">1946-03-16</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">19</visits>
+      <soc type="date">2014-08-18</soc>
+      <period>2014-08-19 - 2014-10-16</period>
+      <patient-mr-num>406</patient-mr-num>
+      <patient-name>Paz, Juan</patient-name>
+      <dob type="date">1939-09-02</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">21</visits>
+      <soc type="date">2014-08-15</soc>
+      <period>2014-08-15 - 2014-10-16</period>
+      <patient-mr-num>411</patient-mr-num>
+      <patient-name>Javellana, Lourdes</patient-name>
+      <dob type="date">1920-02-11</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">12</visits>
+      <soc type="date">2014-08-09</soc>
+      <period>2014-08-09 - 2014-10-05</period>
+      <patient-mr-num>403</patient-mr-num>
+      <patient-name>Raya, Kadowskaya</patient-name>
+      <dob type="date">1932-03-08</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">21</visits>
+      <soc type="date">2014-08-23</soc>
+      <period>2014-08-23 - 2014-10-23</period>
+      <patient-mr-num>421</patient-mr-num>
+      <patient-name>Jahangirian, Tamara</patient-name>
+      <dob type="date">1939-10-18</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">24</visits>
+      <soc type="date">2014-08-23</soc>
+      <period>2014-08-23 - 2014-10-23</period>
+      <patient-mr-num>420</patient-mr-num>
+      <patient-name>Hadjinian, Manasar</patient-name>
+      <dob type="date">1940-02-16</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">8</visits>
+      <soc type="date">2014-08-20</soc>
+      <period>2014-08-21 - 2014-09-12</period>
+      <patient-mr-num>416</patient-mr-num>
+      <patient-name>Doroteo, Filimon</patient-name>
+      <dob type="date">1929-03-21</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">36</visits>
+      <soc type="date">2014-07-18</soc>
+      <period>2014-07-19 - 2014-10-29</period>
+      <patient-mr-num>393</patient-mr-num>
+      <patient-name>Simirjyan, Araksi</patient-name>
+      <dob type="date">1936-02-15</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">12</visits>
+      <soc type="date">2014-07-23</soc>
+      <period>2014-07-23 - 2014-10-17</period>
+      <patient-mr-num>392</patient-mr-num>
+      <patient-name>Flores, Carmen</patient-name>
+      <dob type="date">1934-03-06</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">18</visits>
+      <soc type="date">2014-08-07</soc>
+      <period>2014-08-08 - 2014-10-04</period>
+      <patient-mr-num>405</patient-mr-num>
+      <patient-name>Stupnitskiy, Vladimir</patient-name>
+      <dob type="date">1938-02-10</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">159</visits>
+      <soc type="date">2014-07-22</soc>
+      <period>2014-07-22 - 2014-11-04</period>
+      <patient-mr-num>395</patient-mr-num>
+      <patient-name>Anesyan, Robert</patient-name>
+      <dob type="date">1956-03-21</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">19</visits>
+      <soc type="date">2014-08-08</soc>
+      <period>2014-08-08 - 2014-10-25</period>
+      <patient-mr-num>401</patient-mr-num>
+      <patient-name>Ventura, Silvano</patient-name>
+      <dob type="date">1945-02-20</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">19</visits>
+      <soc type="date">2014-09-10</soc>
+      <period>2014-09-10 - 2014-11-05</period>
+      <patient-mr-num>429</patient-mr-num>
+      <patient-name>Marquez Banuelos, Salvador</patient-name>
+      <dob type="date">1933-04-06</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">20</visits>
+      <soc type="date">2014-08-07</soc>
+      <period>2014-08-08 - 2014-10-07</period>
+      <patient-mr-num>402</patient-mr-num>
+      <patient-name>Adler, Sigbirt</patient-name>
+      <dob type="date">1927-06-23</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">20</visits>
+      <soc type="date">2014-08-19</soc>
+      <period>2014-08-20 - 2014-09-23</period>
+      <patient-mr-num>415</patient-mr-num>
+      <patient-name>Yefim, Vernyy</patient-name>
+      <dob type="date">1924-09-05</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">28</visits>
+      <soc type="date">2014-08-19</soc>
+      <period>2014-08-19 - 2014-10-15</period>
+      <patient-mr-num>409</patient-mr-num>
+      <patient-name>Satanovsky, Yakov</patient-name>
+      <dob type="date">1951-01-26</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">19</visits>
+      <soc type="date">2014-08-15</soc>
+      <period>2014-08-15 - 2014-10-14</period>
+      <patient-mr-num>412</patient-mr-num>
+      <patient-name>Alamillo, Luis</patient-name>
+      <dob type="date">1933-08-19</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">18</visits>
+      <soc type="date">2014-09-09</soc>
+      <period>2014-09-10 - 2014-11-04</period>
+      <patient-mr-num>428</patient-mr-num>
+      <patient-name>Kazaryan, Roza</patient-name>
+      <dob type="date">1946-05-01</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">10</visits>
+      <soc type="date">2014-08-19</soc>
+      <period>2014-08-20 - 2014-10-06</period>
+      <patient-mr-num>414</patient-mr-num>
+      <patient-name>Starchikova, Raisa</patient-name>
+      <dob type="date">1935-04-17</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">13</visits>
+      <soc type="date">2014-08-28</soc>
+      <period>2014-08-28 - 2014-11-01</period>
+      <patient-mr-num>422</patient-mr-num>
+      <patient-name>Apikian, Souad</patient-name>
+      <dob type="date">1946-11-01</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">18</visits>
+      <soc type="date">2014-09-05</soc>
+      <period>2014-09-06 - 2014-11-01</period>
+      <patient-mr-num>424</patient-mr-num>
+      <patient-name>Tavidian, Oski</patient-name>
+      <dob type="date">1935-02-07</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">19</visits>
+      <soc type="date">2014-07-11</soc>
+      <period>2014-07-12 - 2014-09-10</period>
+      <patient-mr-num>388</patient-mr-num>
+      <patient-name>Stolpner, Ilya</patient-name>
+      <dob type="date">1929-02-02</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">1</visits>
+      <soc type="date">2014-09-12</soc>
+      <period>2014-09-13 - 2014-09-13</period>
+      <patient-mr-num>432</patient-mr-num>
+      <patient-name>Hanna, Madlin</patient-name>
+      <dob type="date">1940-02-02</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">1</visits>
+      <soc type="date">2014-09-12</soc>
+      <period>2014-09-13 - 2014-09-13</period>
+      <patient-mr-num>433</patient-mr-num>
+      <patient-name>Malki, Iskandar</patient-name>
+      <dob type="date">1932-02-22</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">18</visits>
+      <soc type="date">2014-09-12</soc>
+      <period>2014-09-13 - 2014-11-08</period>
+      <patient-mr-num>434</patient-mr-num>
+      <patient-name>Shtilman, Bronislava</patient-name>
+      <dob type="date">1939-03-18</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">22</visits>
+      <soc type="date">2014-09-28</soc>
+      <period>2014-09-29 - 2014-11-21</period>
+      <patient-mr-num>443</patient-mr-num>
+      <patient-name>Trandafilova, Minatura</patient-name>
+      <dob type="date">1933-12-16</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">1</visits>
+      <soc type="date">2014-09-26</soc>
+      <period>2014-09-26 - 2014-09-26</period>
+      <patient-mr-num>442</patient-mr-num>
+      <patient-name>Linares, Olivia</patient-name>
+      <dob type="date">1931-06-03</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">2</visits>
+      <soc type="date">2014-09-24</soc>
+      <period>2014-09-25 - 2014-09-27</period>
+      <patient-mr-num>440</patient-mr-num>
+      <patient-name>Talavera De Alvarez, Anastacia</patient-name>
+      <dob type="date">1948-05-22</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">1</visits>
+      <soc type="date">2014-09-30</soc>
+      <period>2014-10-01 - 2014-10-01</period>
+      <patient-mr-num>441</patient-mr-num>
+      <patient-name>Esqueda, Manuel</patient-name>
+      <dob type="date">1949-01-10</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">14</visits>
+      <soc type="date">2014-09-08</soc>
+      <period>2014-09-09 - 2014-10-18</period>
+      <patient-mr-num>427</patient-mr-num>
+      <patient-name>Arambula, Sabino</patient-name>
+      <dob type="date">1923-12-21</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">11</visits>
+      <soc type="date">2014-09-05</soc>
+      <period>2014-09-06 - 2014-11-01</period>
+      <patient-mr-num>425</patient-mr-num>
+      <patient-name>Kaz, Eugenia</patient-name>
+      <dob type="date">1936-09-20</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">19</visits>
+      <soc type="date">2014-09-10</soc>
+      <period>2014-09-10 - 2014-10-30</period>
+      <patient-mr-num>426</patient-mr-num>
+      <patient-name>Harutyunyan, Ervand</patient-name>
+      <dob type="date">1949-08-20</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">19</visits>
+      <soc type="date">2014-08-15</soc>
+      <period>2014-08-16 - 2014-10-14</period>
+      <patient-mr-num>413</patient-mr-num>
+      <patient-name>Alamillo, Sanjuana</patient-name>
+      <dob type="date">1929-07-26</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">1</visits>
+      <soc type="date">2014-10-03</soc>
+      <period>2014-10-04 - 2014-10-04</period>
+      <patient-mr-num>445</patient-mr-num>
+      <patient-name>Avedians, Anahid</patient-name>
+      <dob type="date">1933-02-03</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">1</visits>
+      <soc type="date">2014-10-03</soc>
+      <period>2014-10-04 - 2014-10-04</period>
+      <patient-mr-num>446</patient-mr-num>
+      <patient-name>Kasem, Nichola</patient-name>
+      <dob type="date">1938-06-17</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">5</visits>
+      <soc type="date">2014-09-19</soc>
+      <period>2014-09-20 - 2014-10-04</period>
+      <patient-mr-num>438</patient-mr-num>
+      <patient-name>Lamas, Maria</patient-name>
+      <dob type="date">1937-08-21</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">13</visits>
+      <soc type="date">2014-09-25</soc>
+      <period>2014-09-26 - 2014-11-15</period>
+      <patient-mr-num>439</patient-mr-num>
+      <patient-name>Khamistos, Mariam</patient-name>
+      <dob type="date">1927-10-28</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">23</visits>
+      <soc type="date">2014-10-05</soc>
+      <period>2014-10-06 - 2014-10-28</period>
+      <patient-mr-num>448</patient-mr-num>
+      <patient-name>Shahinyan, Levon</patient-name>
+      <dob type="date">1948-04-22</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">6</visits>
+      <soc type="date">2014-08-28</soc>
+      <period>2014-08-29 - 2014-10-19</period>
+      <patient-mr-num>386</patient-mr-num>
+      <patient-name>Cintora Gutierez, Rafael</patient-name>
+      <dob type="date">1946-12-05</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">1</visits>
+      <soc type="date">2014-10-09</soc>
+      <period>2014-10-10 - 2014-10-10</period>
+      <patient-mr-num>449</patient-mr-num>
+      <patient-name>Shamis, Naum</patient-name>
+      <dob type="date">1932-09-15</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">17</visits>
+      <soc type="date">2014-10-07</soc>
+      <period>2014-10-08 - 2014-11-23</period>
+      <patient-mr-num>447</patient-mr-num>
+      <patient-name>Tarshis, Meri</patient-name>
+      <dob type="date">1937-04-16</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">1</visits>
+      <soc type="date">2014-10-02</soc>
+      <period>2014-10-03 - 2014-10-03</period>
+      <patient-mr-num>444</patient-mr-num>
+      <patient-name>Sanchez, Alberto</patient-name>
+      <dob type="date">1957-05-21</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">4</visits>
+      <soc type="date">2014-10-15</soc>
+      <period>2014-10-16 - 2014-11-01</period>
+      <patient-mr-num>454</patient-mr-num>
+      <patient-name>Ramos, Francisco</patient-name>
+      <dob type="date">1954-10-04</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">5</visits>
+      <soc type="date">2014-10-10</soc>
+      <period>2014-10-10 - 2014-10-31</period>
+      <patient-mr-num>450</patient-mr-num>
+      <patient-name>Mnatsakanyan, Grachik</patient-name>
+      <dob type="date">1946-04-05</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">7</visits>
+      <soc type="date">2014-10-15</soc>
+      <period>2014-10-15 - 2014-11-05</period>
+      <patient-mr-num>451</patient-mr-num>
+      <patient-name>Alvarado, Jesus</patient-name>
+      <dob type="date">1943-04-29</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">6</visits>
+      <soc type="date">2014-09-19</soc>
+      <period>2014-09-20 - 2014-10-05</period>
+      <patient-mr-num>437</patient-mr-num>
+      <patient-name>Frankel, Marvin</patient-name>
+      <dob type="date">1931-05-28</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">1</visits>
+      <soc type="date">2014-10-18</soc>
+      <period>2014-10-18 - 2014-10-18</period>
+      <patient-mr-num>455</patient-mr-num>
+      <patient-name>Yelizarova, Larisa</patient-name>
+      <dob type="date">1926-06-15</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">2</visits>
+      <soc type="date">2014-10-29</soc>
+      <period>2014-10-29 - 2014-10-30</period>
+      <patient-mr-num>457</patient-mr-num>
+      <patient-name>Blackman, Gloria</patient-name>
+      <dob type="date">1934-02-08</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">1</visits>
+      <soc type="date">2014-10-16</soc>
+      <period>2014-10-17 - 2014-10-17</period>
+      <patient-mr-num>456</patient-mr-num>
+      <patient-name>Ioussim, Anatoli</patient-name>
+      <dob type="date">1920-02-23</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">23</visits>
+      <soc type="date">2014-09-18</soc>
+      <period>2014-09-18 - 2014-11-18</period>
+      <patient-mr-num>436</patient-mr-num>
+      <patient-name>Fradkina, Rita</patient-name>
+      <dob type="date">1938-04-21</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">5</visits>
+      <soc type="date">2014-10-08</soc>
+      <period>2014-10-09 - 2014-11-04</period>
+      <patient-mr-num>452</patient-mr-num>
+      <patient-name>Pattavina-Cook, Norma</patient-name>
+      <dob type="date">1927-07-31</dob>
+      <status type="symbol">on_hold</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">1</visits>
+      <soc type="date">2014-10-15</soc>
+      <period>2014-10-15 - 2014-10-15</period>
+      <patient-mr-num>453</patient-mr-num>
+      <patient-name>Shamis, Rakhil</patient-name>
+      <dob type="date">1944-08-25</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">18</visits>
+      <soc type="date">2014-09-18</soc>
+      <period>2014-09-18 - 2014-10-29</period>
+      <patient-mr-num>435</patient-mr-num>
+      <patient-name>Silva, Julia</patient-name>
+      <dob type="date">1959-08-13</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">10</visits>
+      <soc type="date">2014-09-16</soc>
+      <period>2014-09-17 - 2014-11-07</period>
+      <patient-mr-num>431</patient-mr-num>
+      <patient-name>Gorochovski, Leonid</patient-name>
+      <dob type="date">1946-06-17</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">23</visits>
+      <soc type="date">2014-09-12</soc>
+      <period>2014-09-13 - 2014-11-12</period>
+      <patient-mr-num>430</patient-mr-num>
+      <patient-name>Minanian, Atanesiya</patient-name>
+      <dob type="date">1911-03-02</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">2</visits>
+      <soc type="date">2014-10-30</soc>
+      <period>2014-10-31 - 2014-11-06</period>
+      <patient-mr-num>459</patient-mr-num>
+      <patient-name>Torres, Maria</patient-name>
+      <dob type="date">1936-04-01</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">2</visits>
+      <soc type="date">2014-10-30</soc>
+      <period>2014-10-31 - 2014-11-06</period>
+      <patient-mr-num>460</patient-mr-num>
+      <patient-name>Lopez, Donaciano</patient-name>
+      <dob type="date">1956-12-26</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">1</visits>
+      <soc type="date">2014-11-04</soc>
+      <period>2014-11-06 - 2014-11-06</period>
+      <patient-mr-num>462</patient-mr-num>
+      <patient-name>Eremeev, Iouri</patient-name>
+      <dob type="date">1936-07-20</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">1</visits>
+      <soc type="date">2014-10-30</soc>
+      <period>2014-10-31 - 2014-10-31</period>
+      <patient-mr-num>458</patient-mr-num>
+      <patient-name>Sullivan, Earl</patient-name>
+      <dob type="date">1936-01-06</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">1</visits>
+      <soc type="date">2014-11-05</soc>
+      <period>2014-11-06 - 2014-11-06</period>
+      <patient-mr-num>466</patient-mr-num>
+      <patient-name>Espinosa, Jesus</patient-name>
+      <dob type="date">1960-03-09</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">1</visits>
+      <soc type="date">2014-11-05</soc>
+      <period>2014-11-06 - 2014-11-06</period>
+      <patient-mr-num>463</patient-mr-num>
+      <patient-name>Rozenblat, Leonid</patient-name>
+      <dob type="date">1937-06-20</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">1</visits>
+      <soc type="date">2014-11-05</soc>
+      <period>2014-11-05 - 2014-11-05</period>
+      <patient-mr-num>464</patient-mr-num>
+      <patient-name>Gale, Yrineo</patient-name>
+      <dob type="date">1947-04-21</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">1</visits>
+      <soc type="date">2014-11-07</soc>
+      <period>2014-11-08 - 2014-11-08</period>
+      <patient-mr-num>470</patient-mr-num>
+      <patient-name>Lyubarsky, Kimmel</patient-name>
+      <dob type="date">1929-10-10</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">1</visits>
+      <soc type="date">2014-11-04</soc>
+      <period>2014-11-05 - 2014-11-05</period>
+      <patient-mr-num>465</patient-mr-num>
+      <patient-name>Tyutyunnik, Sofya</patient-name>
+      <dob type="date">1938-11-07</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">1</visits>
+      <soc type="date">2014-11-07</soc>
+      <period>2014-11-08 - 2014-11-08</period>
+      <patient-mr-num>469</patient-mr-num>
+      <patient-name>Gutgarts, Lyubov</patient-name>
+      <dob type="date">1937-09-05</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">6</visits>
+      <soc type="date">2014-08-03</soc>
+      <period>2014-08-04 - 2014-08-20</period>
+      <patient-mr-num>394</patient-mr-num>
+      <patient-name>Shahinyan, Levon</patient-name>
+      <dob type="date">1948-04-22</dob>
+      <status type="symbol">discharged</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">1</visits>
+      <soc type="date">2014-10-29</soc>
+      <period>2014-10-30 - 2014-10-30</period>
+      <patient-mr-num>467</patient-mr-num>
+      <patient-name>Vardanyan, Ofelia</patient-name>
+      <dob type="date">1922-09-27</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">1</visits>
+      <soc type="date">2014-11-13</soc>
+      <period>2014-11-14 - 2014-11-14</period>
+      <patient-mr-num>471</patient-mr-num>
+      <patient-name>Rhone, Lola</patient-name>
+      <dob type="date">1932-12-21</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">1</visits>
+      <soc type="date">2014-11-19</soc>
+      <period>2014-11-20 - 2014-11-20</period>
+      <patient-mr-num>472</patient-mr-num>
+      <patient-name>Dolashyan, Taguhi</patient-name>
+      <dob type="date">1949-07-18</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">1</visits>
+      <soc type="date">2014-11-20</soc>
+      <period>2014-11-20 - 2014-11-20</period>
+      <patient-mr-num>461</patient-mr-num>
+      <patient-name>Rostomian, Nargis</patient-name>
+      <dob type="date">1939-07-01</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">1</visits>
+      <soc type="date">2014-11-20</soc>
+      <period>2014-11-21 - 2014-11-21</period>
+      <patient-mr-num>468</patient-mr-num>
+      <patient-name>De Rivera, Olaya</patient-name>
+      <dob type="date">1944-06-10</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+    <patient>
+      <visits type="integer">1</visits>
+      <soc type="date">2014-11-20</soc>
+      <period>2014-11-21 - 2014-11-21</period>
+      <patient-mr-num>473</patient-mr-num>
+      <patient-name>Vardanyan, Hakob</patient-name>
+      <dob type="date">1948-06-15</dob>
+      <status type="symbol">active</status>
+      <icd-9></icd-9>
+      <insurance-carrier></insurance-carrier>
+    </patient>
+  </patients>
+  <non-covered-patients-count type="integer">113</non-covered-patients-count>
+  <non-covered-visits-count type="integer">1743</non-covered-visits-count>
+  <patients-and-visits-by-ages type="array">
+    <patients-and-visits-by-age>
+      <line-number type="integer">1</line-number>
+      <age>0 - 10 Years</age>
+      <patients-count type="integer">0</patients-count>
+      <visits-count type="integer">0</visits-count>
+    </patients-and-visits-by-age>
+    <patients-and-visits-by-age>
+      <line-number type="integer">2</line-number>
+      <age>11 - 20 Years</age>
+      <patients-count type="integer">0</patients-count>
+      <visits-count type="integer">0</visits-count>
+    </patients-and-visits-by-age>
+    <patients-and-visits-by-age>
+      <line-number type="integer">3</line-number>
+      <age>21 - 30 Years</age>
+      <patients-count type="integer">0</patients-count>
+      <visits-count type="integer">0</visits-count>
+    </patients-and-visits-by-age>
+    <patients-and-visits-by-age>
+      <line-number type="integer">4</line-number>
+      <age>31 - 40 Years</age>
+      <patients-count type="integer">0</patients-count>
+      <visits-count type="integer">0</visits-count>
+    </patients-and-visits-by-age>
+    <patients-and-visits-by-age>
+      <line-number type="integer">5</line-number>
+      <age>41 - 50 Years</age>
+      <patients-count type="integer">1</patients-count>
+      <visits-count type="integer">1</visits-count>
+    </patients-and-visits-by-age>
+    <patients-and-visits-by-age>
+      <line-number type="integer">6</line-number>
+      <age>51 - 60 Years</age>
+      <patients-count type="integer">11</patients-count>
+      <visits-count type="integer">10</visits-count>
+    </patients-and-visits-by-age>
+    <patients-and-visits-by-age>
+      <line-number type="integer">7</line-number>
+      <age>61-70 Years</age>
+      <patients-count type="integer">22</patients-count>
+      <visits-count type="integer">22</visits-count>
+    </patients-and-visits-by-age>
+    <patients-and-visits-by-age>
+      <line-number type="integer">8</line-number>
+      <age>71 - 80 Years</age>
+      <patients-count type="integer">48</patients-count>
+      <visits-count type="integer">46</visits-count>
+    </patients-and-visits-by-age>
+    <patients-and-visits-by-age>
+      <line-number type="integer">9</line-number>
+      <age>91 Years and Older</age>
+      <patients-count type="integer">29</patients-count>
+      <visits-count type="integer">28</visits-count>
+    </patients-and-visits-by-age>
+    <patients-and-visits-by-age>
+      <line-number>**</line-number>
+      <age>Non covered visits</age>
+      <patients-count type="integer">113</patients-count>
+      <visits-count type="integer">1743</visits-count>
+    </patients-and-visits-by-age>
+    <patients-and-visits-by-age>
+      <line-number type="integer">15</line-number>
+      <age>&lt;b&gt;TOTAL&lt;/b&gt;</age>
+      <patients-count type="integer">224</patients-count>
+      <visits-count type="integer">1850</visits-count>
+    </patients-and-visits-by-age>
+  </patients-and-visits-by-ages>
+  <discharge-reasons type="array">
+    <discharge-reason>
+      <line-number type="integer">41</line-number>
+      <reason>Admitted to Hospital</reason>
+      <discharges-count type="integer">0</discharges-count>
+    </discharge-reason>
+    <discharge-reason>
+      <line-number type="integer">42</line-number>
+      <reason>Admitted to SN/IC Facility</reason>
+      <discharges-count type="integer">0</discharges-count>
+    </discharge-reason>
+    <discharge-reason>
+      <line-number type="integer">43</line-number>
+      <reason>Death</reason>
+      <discharges-count type="integer">0</discharges-count>
+    </discharge-reason>
+    <discharge-reason>
+      <line-number type="integer">44</line-number>
+      <reason>No Further Home Health Care Needed</reason>
+      <discharges-count type="integer">53</discharges-count>
+    </discharge-reason>
+    <discharge-reason>
+      <line-number type="integer">45</line-number>
+      <reason>Transferred to Another HHA</reason>
+      <discharges-count type="integer">1</discharges-count>
+    </discharge-reason>
+    <discharge-reason>
+      <line-number type="integer">46</line-number>
+      <reason>Transferred to Home Care (Personal Care)</reason>
+      <discharges-count type="integer">0</discharges-count>
+    </discharge-reason>
+    <discharge-reason>
+      <line-number type="integer">47</line-number>
+      <reason>Transferred to Hospice</reason>
+      <discharges-count type="integer">0</discharges-count>
+    </discharge-reason>
+    <discharge-reason>
+      <line-number type="integer">48</line-number>
+      <reason>Lack of Funds</reason>
+      <discharges-count type="integer">0</discharges-count>
+    </discharge-reason>
+    <discharge-reason>
+      <line-number type="integer">49</line-number>
+      <reason>Lack of Progress</reason>
+      <discharges-count type="integer">0</discharges-count>
+    </discharge-reason>
+    <discharge-reason>
+      <line-number type="integer">50</line-number>
+      <reason>Family/Friends Assummed Responsibility</reason>
+      <discharges-count type="integer">0</discharges-count>
+    </discharge-reason>
+    <discharge-reason>
+      <line-number type="integer">51</line-number>
+      <reason>Patient Moved out of Area</reason>
+      <discharges-count type="integer">0</discharges-count>
+    </discharge-reason>
+    <discharge-reason>
+      <line-number type="integer">52</line-number>
+      <reason>Patient Refused Service</reason>
+      <discharges-count type="integer">0</discharges-count>
+    </discharge-reason>
+    <discharge-reason>
+      <line-number type="integer">53</line-number>
+      <reason>Physician Request</reason>
+      <discharges-count type="integer">0</discharges-count>
+    </discharge-reason>
+    <discharge-reason>
+      <line-number type="integer">54</line-number>
+      <reason>Transferred to Outpatient Rehabilitation</reason>
+      <discharges-count type="integer">0</discharges-count>
+    </discharge-reason>
+    <discharge-reason>
+      <line-number type="integer">59</line-number>
+      <reason>Other, Specify:</reason>
+      <discharges-count type="integer">60</discharges-count>
+    </discharge-reason>
+    <discharge-reason>
+      <line-number type="integer">66</line-number>
+      <reason>&lt;b&gt;TOTAL&lt;/b&gt;</reason>
+      <discharges-count type="integer">114</discharges-count>
+    </discharge-reason>
+  </discharge-reasons>
+  <primary-source-of-payments type="array">
+    <primary-source-of-payment>
+      <line-number type="integer">91</line-number>
+      <reimbursement-source>Medicare</reimbursement-source>
+      <payment-visits-count type="integer">1745</payment-visits-count>
+    </primary-source-of-payment>
+    <primary-source-of-payment>
+      <line-number type="integer">92</line-number>
+      <reimbursement-source>Medi-Cal</reimbursement-source>
+      <payment-visits-count type="integer">0</payment-visits-count>
+    </primary-source-of-payment>
+    <primary-source-of-payment>
+      <line-number type="integer">93</line-number>
+      <reimbursement-source>TRICARE (CHAMPUS)</reimbursement-source>
+      <payment-visits-count type="integer">0</payment-visits-count>
+    </primary-source-of-payment>
+    <primary-source-of-payment>
+      <line-number type="integer">94</line-number>
+      <reimbursement-source>Other Third Party (Insurance., etc)</reimbursement-source>
+      <payment-visits-count type="integer">0</payment-visits-count>
+    </primary-source-of-payment>
+    <primary-source-of-payment>
+      <line-number type="integer">95</line-number>
+      <reimbursement-source>Private (Self Pay)</reimbursement-source>
+      <payment-visits-count type="integer">0</payment-visits-count>
+    </primary-source-of-payment>
+    <primary-source-of-payment>
+      <line-number type="integer">96</line-number>
+      <reimbursement-source>HMO/PPO (Includes Medicare and Medi-Cal HMOs)</reimbursement-source>
+      <payment-visits-count type="integer">0</payment-visits-count>
+    </primary-source-of-payment>
+    <primary-source-of-payment>
+      <line-number type="integer">97</line-number>
+      <reimbursement-source>No Reimbursement</reimbursement-source>
+      <payment-visits-count type="integer">0</payment-visits-count>
+    </primary-source-of-payment>
+    <primary-source-of-payment>
+      <line-number type="integer">99</line-number>
+      <reimbursement-source>Other (Incl., MSSP)</reimbursement-source>
+      <payment-visits-count type="integer">0</payment-visits-count>
+    </primary-source-of-payment>
+    <primary-source-of-payment>
+      <line-number>**</line-number>
+      <reimbursement-source>Non covered visits</reimbursement-source>
+      <payment-visits-count type="integer">1743</payment-visits-count>
+    </primary-source-of-payment>
+    <primary-source-of-payment>
+      <line-number type="integer">100</line-number>
+      <reimbursement-source>TOTAL</reimbursement-source>
+      <payment-visits-count type="integer">3488</payment-visits-count>
+    </primary-source-of-payment>
+  </primary-source-of-payments>
+  <discipline-visits type="array">
+    <discipline-visit>
+      <line-number type="integer">71</line-number>
+      <discipline>Home Health Aide</discipline>
+      <discipline-visits-count type="integer">27</discipline-visits-count>
+    </discipline-visit>
+    <discipline-visit>
+      <line-number type="integer">72</line-number>
+      <discipline>Nutritionist (Diet Counseling)</discipline>
+      <discipline-visits-count type="integer">0</discipline-visits-count>
+    </discipline-visit>
+    <discipline-visit>
+      <line-number type="integer">73</line-number>
+      <discipline>Occuptational Therapist</discipline>
+      <discipline-visits-count type="integer">14</discipline-visits-count>
+    </discipline-visit>
+    <discipline-visit>
+      <line-number type="integer">74</line-number>
+      <discipline>Physical Therapist</discipline>
+      <discipline-visits-count type="integer">423</discipline-visits-count>
+    </discipline-visit>
+    <discipline-visit>
+      <line-number type="integer">75</line-number>
+      <discipline>Physician</discipline>
+      <discipline-visits-count type="integer">0</discipline-visits-count>
+    </discipline-visit>
+    <discipline-visit>
+      <line-number type="integer">76</line-number>
+      <discipline>Skilled Nursing</discipline>
+      <discipline-visits-count type="integer">1266</discipline-visits-count>
+    </discipline-visit>
+    <discipline-visit>
+      <line-number type="integer">77</line-number>
+      <discipline>Social Worker</discipline>
+      <discipline-visits-count type="integer">14</discipline-visits-count>
+    </discipline-visit>
+    <discipline-visit>
+      <line-number type="integer">78</line-number>
+      <discipline>Speech Pathologist/Audiologist</discipline>
+      <discipline-visits-count type="integer">1</discipline-visits-count>
+    </discipline-visit>
+    <discipline-visit>
+      <line-number type="integer">79</line-number>
+      <discipline>Spiritual and Pastoral Care</discipline>
+      <discipline-visits-count type="integer">0</discipline-visits-count>
+    </discipline-visit>
+    <discipline-visit>
+      <line-number type="integer">84</line-number>
+      <discipline>Other, Specify:</discipline>
+      <discipline-visits-count type="integer">0</discipline-visits-count>
+    </discipline-visit>
+    <discipline-visit>
+      <line-number>**</line-number>
+      <discipline>Visits not covered by a plan of care</discipline>
+      <discipline-visits-count type="integer">1743</discipline-visits-count>
+    </discipline-visit>
+    <discipline-visit>
+      <line-number type="integer">85</line-number>
+      <discipline>TOTAL</discipline>
+      <discipline-visits-count type="integer">3488</discipline-visits-count>
+    </discipline-visit>
+  </discipline-visits>
+  <source-of-referral-admissions type="array">
+    <source-of-referral-admission>
+      <line-number type="integer">21</line-number>
+      <source-of-referral>Another Home Health Agency</source-of-referral>
+      <admissions type="integer">7</admissions>
+    </source-of-referral-admission>
+    <source-of-referral-admission>
+      <line-number type="integer">22</line-number>
+      <source-of-referral>Clinic</source-of-referral>
+      <admissions type="integer">4</admissions>
+    </source-of-referral-admission>
+    <source-of-referral-admission>
+      <line-number type="integer">23</line-number>
+      <source-of-referral>Family/Friend</source-of-referral>
+      <admissions type="integer">0</admissions>
+    </source-of-referral-admission>
+    <source-of-referral-admission>
+      <line-number type="integer">24</line-number>
+      <source-of-referral>Hospice</source-of-referral>
+      <admissions type="integer">3</admissions>
+    </source-of-referral-admission>
+    <source-of-referral-admission>
+      <line-number type="integer">25</line-number>
+      <source-of-referral>Hospital (Discharge Planner, etc)</source-of-referral>
+      <admissions type="integer">31</admissions>
+    </source-of-referral-admission>
+    <source-of-referral-admission>
+      <line-number type="integer">26</line-number>
+      <source-of-referral>Local Health Department</source-of-referral>
+      <admissions type="integer">0</admissions>
+    </source-of-referral-admission>
+    <source-of-referral-admission>
+      <line-number type="integer">27</line-number>
+      <source-of-referral>Long Term Care Facility (SN/IC)</source-of-referral>
+      <admissions type="integer">5</admissions>
+    </source-of-referral-admission>
+    <source-of-referral-admission>
+      <line-number type="integer">28</line-number>
+      <source-of-referral>MSSP</source-of-referral>
+      <admissions type="integer">0</admissions>
+    </source-of-referral-admission>
+    <source-of-referral-admission>
+      <line-number type="integer">29</line-number>
+      <source-of-referral>Payor (Insurer, HMO, etc)</source-of-referral>
+      <admissions type="integer">2</admissions>
+    </source-of-referral-admission>
+    <source-of-referral-admission>
+      <line-number type="integer">30</line-number>
+      <source-of-referral>Physician</source-of-referral>
+      <admissions type="integer">355</admissions>
+    </source-of-referral-admission>
+    <source-of-referral-admission>
+      <line-number type="integer">31</line-number>
+      <source-of-referral>Self</source-of-referral>
+      <admissions type="integer">0</admissions>
+    </source-of-referral-admission>
+    <source-of-referral-admission>
+      <line-number type="integer">32</line-number>
+      <source-of-referral>Social Service Agency</source-of-referral>
+      <admissions type="integer">0</admissions>
+    </source-of-referral-admission>
+    <source-of-referral-admission>
+      <line-number type="integer">34</line-number>
+      <source-of-referral>Other, Specify:</source-of-referral>
+      <admissions type="integer">5</admissions>
+    </source-of-referral-admission>
+    <source-of-referral-admission>
+      <line-number type="integer">35</line-number>
+      <source-of-referral>&lt;b&gt;TOTAL&lt;/b&gt;</source-of-referral>
+      <admissions type="integer">412</admissions>
+    </source-of-referral-admission>
+  </source-of-referral-admissions>
+  <patient-and-visits-by-icd-codes type="array">
+    <patient-and-visits-by-icd-code>
+      <line-number type="integer">1</line-number>
+      <principal-diagnosis>Infectious and parasitic diseases (exclude HIV)</principal-diagnosis>
+      <patients-count type="integer">6</patients-count>
+      <icd-code-visits-count type="integer">54</icd-code-visits-count>
+    </patient-and-visits-by-icd-code>
+    <patient-and-visits-by-icd-code>
+      <line-number type="integer">2</line-number>
+      <principal-diagnosis>HIV infections (includes AIDS, ARC, HIV)</principal-diagnosis>
+      <patients-count type="integer">112</patients-count>
+      <icd-code-visits-count type="integer">1744</icd-code-visits-count>
+    </patient-and-visits-by-icd-code>
+    <patient-and-visits-by-icd-code>
+      <line-number type="integer">3</line-number>
+      <principal-diagnosis>Malignant neoplasms: Lung</principal-diagnosis>
+      <patients-count type="integer">0</patients-count>
+      <icd-code-visits-count type="integer">0</icd-code-visits-count>
+    </patient-and-visits-by-icd-code>
+    <patient-and-visits-by-icd-code>
+      <line-number type="integer">4</line-number>
+      <principal-diagnosis>Malignant neoplasms: Breast</principal-diagnosis>
+      <patients-count type="integer">0</patients-count>
+      <icd-code-visits-count type="integer">0</icd-code-visits-count>
+    </patient-and-visits-by-icd-code>
+    <patient-and-visits-by-icd-code>
+      <line-number type="integer">5</line-number>
+      <principal-diagnosis>Malignant neoplasms: Intestines</principal-diagnosis>
+      <patients-count type="integer">0</patients-count>
+      <icd-code-visits-count type="integer">0</icd-code-visits-count>
+    </patient-and-visits-by-icd-code>
+    <patient-and-visits-by-icd-code>
+      <line-number type="integer">6</line-number>
+      <principal-diagnosis>Malignant neoplasms: All other sites, excluding those in lung, breast and intestines</principal-diagnosis>
+      <patients-count type="integer">1</patients-count>
+      <icd-code-visits-count type="integer">9</icd-code-visits-count>
+    </patient-and-visits-by-icd-code>
+    <patient-and-visits-by-icd-code>
+      <line-number type="integer">7</line-number>
+      <principal-diagnosis>Non-malignant neoplasms: All sites</principal-diagnosis>
+      <patients-count type="integer">0</patients-count>
+      <icd-code-visits-count type="integer">0</icd-code-visits-count>
+    </patient-and-visits-by-icd-code>
+    <patient-and-visits-by-icd-code>
+      <line-number type="integer">8</line-number>
+      <principal-diagnosis>Diabetes mellitus</principal-diagnosis>
+      <patients-count type="integer">45</patients-count>
+      <icd-code-visits-count type="integer">869</icd-code-visits-count>
+    </patient-and-visits-by-icd-code>
+    <patient-and-visits-by-icd-code>
+      <line-number type="integer">9</line-number>
+      <principal-diagnosis>Endocrine, metabolic, and nutritional diseases; Immunity disorders</principal-diagnosis>
+      <patients-count type="integer">45</patients-count>
+      <icd-code-visits-count type="integer">703</icd-code-visits-count>
+    </patient-and-visits-by-icd-code>
+    <patient-and-visits-by-icd-code>
+      <line-number type="integer">10</line-number>
+      <principal-diagnosis>Diseases of blood and blood forming organs</principal-diagnosis>
+      <patients-count type="integer">4</patients-count>
+      <icd-code-visits-count type="integer">33</icd-code-visits-count>
+    </patient-and-visits-by-icd-code>
+    <patient-and-visits-by-icd-code>
+      <line-number type="integer">11</line-number>
+      <principal-diagnosis>Mental disorder</principal-diagnosis>
+      <patients-count type="integer">19</patients-count>
+      <icd-code-visits-count type="integer">216</icd-code-visits-count>
+    </patient-and-visits-by-icd-code>
+    <patient-and-visits-by-icd-code>
+      <line-number type="integer">12</line-number>
+      <principal-diagnosis>Alzheimer's disease</principal-diagnosis>
+      <patients-count type="integer">3</patients-count>
+      <icd-code-visits-count type="integer">43</icd-code-visits-count>
+    </patient-and-visits-by-icd-code>
+    <patient-and-visits-by-icd-code>
+      <line-number type="integer">13</line-number>
+      <principal-diagnosis>Diseases of nervous system and sense organs</principal-diagnosis>
+      <patients-count type="integer">15</patients-count>
+      <icd-code-visits-count type="integer">178</icd-code-visits-count>
+    </patient-and-visits-by-icd-code>
+    <patient-and-visits-by-icd-code>
+      <line-number type="integer">14</line-number>
+      <principal-diagnosis>Diseases of cardiovascular system</principal-diagnosis>
+      <patients-count type="integer">107</patients-count>
+      <icd-code-visits-count type="integer">1590</icd-code-visits-count>
+    </patient-and-visits-by-icd-code>
+    <patient-and-visits-by-icd-code>
+      <line-number type="integer">15</line-number>
+      <principal-diagnosis>Diseases of cerebrovascular system</principal-diagnosis>
+      <patients-count type="integer">0</patients-count>
+      <icd-code-visits-count type="integer">0</icd-code-visits-count>
+    </patient-and-visits-by-icd-code>
+    <patient-and-visits-by-icd-code>
+      <line-number type="integer">16</line-number>
+      <principal-diagnosis>Diseases of all other circulatory system</principal-diagnosis>
+      <patients-count type="integer">10</patients-count>
+      <icd-code-visits-count type="integer">319</icd-code-visits-count>
+    </patient-and-visits-by-icd-code>
+    <patient-and-visits-by-icd-code>
+      <line-number type="integer">17</line-number>
+      <principal-diagnosis>Diseases of respiratory system</principal-diagnosis>
+      <patients-count type="integer">22</patients-count>
+      <icd-code-visits-count type="integer">472</icd-code-visits-count>
+    </patient-and-visits-by-icd-code>
+    <patient-and-visits-by-icd-code>
+      <line-number type="integer">18</line-number>
+      <principal-diagnosis>Diseases of digestive system</principal-diagnosis>
+      <patients-count type="integer">47</patients-count>
+      <icd-code-visits-count type="integer">696</icd-code-visits-count>
+    </patient-and-visits-by-icd-code>
+    <patient-and-visits-by-icd-code>
+      <line-number type="integer">19</line-number>
+      <principal-diagnosis>Diseases of genitourinary system</principal-diagnosis>
+      <patients-count type="integer">9</patients-count>
+      <icd-code-visits-count type="integer">119</icd-code-visits-count>
+    </patient-and-visits-by-icd-code>
+    <patient-and-visits-by-icd-code>
+      <line-number type="integer">20</line-number>
+      <principal-diagnosis>Diseases of breast</principal-diagnosis>
+      <patients-count type="integer">0</patients-count>
+      <icd-code-visits-count type="integer">0</icd-code-visits-count>
+    </patient-and-visits-by-icd-code>
+    <patient-and-visits-by-icd-code>
+      <line-number type="integer">21</line-number>
+      <principal-diagnosis>Complications of pregnancy, childbirth, and the puerperium</principal-diagnosis>
+      <patients-count type="integer">0</patients-count>
+      <icd-code-visits-count type="integer">0</icd-code-visits-count>
+    </patient-and-visits-by-icd-code>
+    <patient-and-visits-by-icd-code>
+      <line-number type="integer">22</line-number>
+      <principal-diagnosis>Diseases of skin and subcutaneous tissue</principal-diagnosis>
+      <patients-count type="integer">5</patients-count>
+      <icd-code-visits-count type="integer">48</icd-code-visits-count>
+    </patient-and-visits-by-icd-code>
+    <patient-and-visits-by-icd-code>
+      <line-number type="integer">23</line-number>
+      <principal-diagnosis>Diseases of musculoskeletal system and connective tissue (include pathological fx, malunion fx, and nonunion fx)</principal-diagnosis>
+      <patients-count type="integer">106</patients-count>
+      <icd-code-visits-count type="integer">1673</icd-code-visits-count>
+    </patient-and-visits-by-icd-code>
+    <patient-and-visits-by-icd-code>
+      <line-number type="integer">24</line-number>
+      <principal-diagnosis>Congenital anomalies and perinatal conditions (include birth fractures)</principal-diagnosis>
+      <patients-count type="integer">1</patients-count>
+      <icd-code-visits-count type="integer">13</icd-code-visits-count>
+    </patient-and-visits-by-icd-code>
+    <patient-and-visits-by-icd-code>
+      <line-number type="integer">25</line-number>
+      <principal-diagnosis>Symptoms, signs, and ill-defined conditions (exclude HIV positive test)</principal-diagnosis>
+      <patients-count type="integer">30</patients-count>
+      <icd-code-visits-count type="integer">462</icd-code-visits-count>
+    </patient-and-visits-by-icd-code>
+    <patient-and-visits-by-icd-code>
+      <line-number type="integer">26</line-number>
+      <principal-diagnosis>Fractures (exclude birth fx, pathological fx, malunion fx, nonunion fx)</principal-diagnosis>
+      <patients-count type="integer">0</patients-count>
+      <icd-code-visits-count type="integer">0</icd-code-visits-count>
+    </patient-and-visits-by-icd-code>
+    <patient-and-visits-by-icd-code>
+      <line-number type="integer">27</line-number>
+      <principal-diagnosis>All other injuries</principal-diagnosis>
+      <patients-count type="integer">1</patients-count>
+      <icd-code-visits-count type="integer">13</icd-code-visits-count>
+    </patient-and-visits-by-icd-code>
+    <patient-and-visits-by-icd-code>
+      <line-number type="integer">28</line-number>
+      <principal-diagnosis>Poisonings and adverse effects of external causes</principal-diagnosis>
+      <patients-count type="integer">1</patients-count>
+      <icd-code-visits-count type="integer">5</icd-code-visits-count>
+    </patient-and-visits-by-icd-code>
+    <patient-and-visits-by-icd-code>
+      <line-number type="integer">29</line-number>
+      <principal-diagnosis>Complications of surgical and medical care</principal-diagnosis>
+      <patients-count type="integer">0</patients-count>
+      <icd-code-visits-count type="integer">0</icd-code-visits-count>
+    </patient-and-visits-by-icd-code>
+    <patient-and-visits-by-icd-code>
+      <line-number type="integer">30</line-number>
+      <principal-diagnosis>Health services related to reproduction and development</principal-diagnosis>
+      <patients-count type="integer">0</patients-count>
+      <icd-code-visits-count type="integer">0</icd-code-visits-count>
+    </patient-and-visits-by-icd-code>
+    <patient-and-visits-by-icd-code>
+      <line-number type="integer">31</line-number>
+      <principal-diagnosis>Infants born outside hospital (infant care)</principal-diagnosis>
+      <patients-count type="integer">0</patients-count>
+      <icd-code-visits-count type="integer">0</icd-code-visits-count>
+    </patient-and-visits-by-icd-code>
+    <patient-and-visits-by-icd-code>
+      <line-number type="integer">32</line-number>
+      <principal-diagnosis>Health hazards related to communicable diseases</principal-diagnosis>
+      <patients-count type="integer">6</patients-count>
+      <icd-code-visits-count type="integer">76</icd-code-visits-count>
+    </patient-and-visits-by-icd-code>
+    <patient-and-visits-by-icd-code>
+      <line-number type="integer">33</line-number>
+      <principal-diagnosis>Other health services for specific procedures and aftercare</principal-diagnosis>
+      <patients-count type="integer">11</patients-count>
+      <icd-code-visits-count type="integer">387</icd-code-visits-count>
+    </patient-and-visits-by-icd-code>
+    <patient-and-visits-by-icd-code>
+      <line-number type="integer">34</line-number>
+      <principal-diagnosis>Visits for Evaluation and Assessment</principal-diagnosis>
+      <patients-count type="integer">0</patients-count>
+      <icd-code-visits-count type="integer">0</icd-code-visits-count>
+    </patient-and-visits-by-icd-code>
+    <patient-and-visits-by-icd-code>
+      <line-number>**</line-number>
+      <disease-name>Visits not covered by a plan of care</disease-name>
+      <patients-count type="integer">113</patients-count>
+      <icd-code-visits-count type="integer">1743</icd-code-visits-count>
+    </patient-and-visits-by-icd-code>
+    <patient-and-visits-by-icd-code>
+      <line-number type="integer">45</line-number>
+      <principal-diagnosis>TOTAL</principal-diagnosis>
+      <total-icd-code-patient-count type="integer">719</total-icd-code-patient-count>
+      <total-icd-code-visits-count type="integer">11465</total-icd-code-visits-count>
+    </patient-and-visits-by-icd-code>
+  </patient-and-visits-by-icd-codes>
+  <patient-and-visits-by-hiv-alzeimers type="array">
+    <patient-and-visits-by-hiv-alzeimer>
+      <line-number type="integer">51</line-number>
+      <disease-name>HIV</disease-name>
+      <patient-count type="integer">0</patient-count>
+      <visit-count type="float">0.0</visit-count>
+    </patient-and-visits-by-hiv-alzeimer>
+    <patient-and-visits-by-hiv-alzeimer>
+      <line-number type="integer">52</line-number>
+      <disease-name>Alzheimer's Disease</disease-name>
+      <patient-count type="integer">0</patient-count>
+      <visit-count type="float">0.0</visit-count>
+    </patient-and-visits-by-hiv-alzeimer>
+  </patient-and-visits-by-hiv-alzeimers>
+</alirts>

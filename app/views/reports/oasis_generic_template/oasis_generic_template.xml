@@ -1,0 +1,726 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+  <agency-approved-user-id type="integer">263</agency-approved-user-id>
+  <created-user-id type="integer">263</created-user-id>
+  <data>
+    <valid type="boolean">true</valid>
+    <m0100-assmt-reason>01</m0100-assmt-reason>
+    <treatment-episode-id type="integer">454</treatment-episode-id>
+    <field-staff-id type="integer">279</field-staff-id>
+    <supervised-user-id nil="true"/>
+    <m0010-ccn>123456</m0010-ccn>
+    <m0014-branch-state>CA</m0014-branch-state>
+    <m0016-branch-id>P</m0016-branch-id>
+    <m0018-physician-id>1295766426</m0018-physician-id>
+    <m0018-physician-uk nil="true"/>
+    <m0020-pat-id>92</m0020-pat-id>
+    <m0030-start-care-dt>02/04/2014</m0030-start-care-dt>
+    <m0032-roc-dt nil="true"/>
+    <m0032-roc-dt-na>1</m0032-roc-dt-na>
+    <m0040-pat-fname>Fitzgerald</m0040-pat-fname>
+    <m0040-pat-mi nil="true"/>
+    <m0040-pat-lname>Grant</m0040-pat-lname>
+    <m0040-pat-suffix nil="true"/>
+    <m0050-pat-st>CA</m0050-pat-st>
+    <m0060-pat-zip>90028</m0060-pat-zip>
+    <m0063-medicare-num>004111111A</m0063-medicare-num>
+    <m0063-medicare-na nil="true"/>
+    <m0064-ssn>004111111</m0064-ssn>
+    <m0064-ssn-uk nil="true"/>
+    <m0065-medicaid-num nil="true"/>
+    <m0065-medicaid-na>1</m0065-medicaid-na>
+    <m0066-pat-birth-dt>03/03/1936</m0066-pat-birth-dt>
+    <m0069-pat-gender type="integer">1</m0069-pat-gender>
+    <m0140-ethnic-ai-an nil="true"/>
+    <m0140-ethnic-asian nil="true"/>
+    <m0140-ethnic-black nil="true"/>
+    <m0140-ethnic-hisp nil="true"/>
+    <m0140-ethnic-nh-pi nil="true"/>
+    <m0140-ethnic-white>1</m0140-ethnic-white>
+    <m0150-cpay-none nil="true"/>
+    <m0150-cpay-mcare-ffs>1</m0150-cpay-mcare-ffs>
+    <m0150-cpay-mcare-hmo nil="true"/>
+    <m0150-cpay-mcaid-ffs nil="true"/>
+    <m0150-cpay-mcaid-hmo nil="true"/>
+    <m0150-cpay-wrkcomp nil="true"/>
+    <m0150-cpay-titlepgms nil="true"/>
+    <m0150-cpay-oth-govt nil="true"/>
+    <m0150-cpay-priv-ins nil="true"/>
+    <m0150-cpay-priv-hmo nil="true"/>
+    <m0150-cpay-selfpay nil="true"/>
+    <m0150-cpay-other nil="true"/>
+    <m0150-cpay-uk nil="true"/>
+    <m0150-other-cpay nil="true"/>
+    <m0080-assessor-discipline>01</m0080-assessor-discipline>
+    <m0090-info-completed-dt>02/04/2014</m0090-info-completed-dt>
+    <m0102-physn-ordrd-socroc-dt nil="true"/>
+    <m0102-physn-ordrd-socroc-dt-na>1</m0102-physn-ordrd-socroc-dt-na>
+    <m0104-physn-rfrl-dt>02/03/2014</m0104-physn-rfrl-dt>
+    <m0110-episode-timing>01</m0110-episode-timing>
+    <m1000-dc-ltc-14-da nil="true"/>
+    <m1000-dc-snf-14-da nil="true"/>
+    <m1000-dc-ipps-14-da nil="true"/>
+    <m1000-dc-ltch-14-da nil="true"/>
+    <m1000-dc-irf-14-da nil="true"/>
+    <m1000-dc-psych-14-da nil="true"/>
+    <m1000-dc-oth-14-da nil="true"/>
+    <m1000-dc-none-14-da>1</m1000-dc-none-14-da>
+    <m1000-other-dc nil="true"/>
+    <m1005-inp-discharge-dt nil="true"/>
+    <m1005-inp-dschg-unknown nil="true"/>
+    <m1010-14-day-inp1-icd nil="true"/>
+    <m1010-14-day-inp3-icd nil="true"/>
+    <m1010-14-day-inp5-icd nil="true"/>
+    <m1010-14-day-inp2-icd nil="true"/>
+    <m1010-14-day-inp4-icd nil="true"/>
+    <m1010-14-day-inp6-icd nil="true"/>
+    <m1012-inp-prcdr1-icd nil="true"/>
+    <m1012-inp-prcdr3-icd nil="true"/>
+    <m1012-inp-na-icd nil="true"/>
+    <m1012-inp-prcdr2-icd nil="true"/>
+    <m1012-inp-prcdr4-icd nil="true"/>
+    <m1012-inp-uk-icd nil="true"/>
+    <m1016-chgreg-icd1>707.06</m1016-chgreg-icd1>
+    <m1016-chgreg-icd2>707.23</m1016-chgreg-icd2>
+    <m1016-chgreg-icd3 nil="true"/>
+    <m1016-chgreg-icd4 nil="true"/>
+    <m1016-chgreg-icd5 nil="true"/>
+    <m1016-chgreg-icd6 nil="true"/>
+    <m1016-chgreg-icd-na nil="true"/>
+    <m1018-prior-ur-incon>1</m1018-prior-ur-incon>
+    <m1018-prior-cath nil="true"/>
+    <m1018-prior-intract-pain nil="true"/>
+    <m1018-prior-impr-decsn nil="true"/>
+    <m1018-prior-disruptive nil="true"/>
+    <m1018-prior-mem-loss nil="true"/>
+    <m1018-prior-none nil="true"/>
+    <m1018-prior-nochg-14d nil="true"/>
+    <m1018-prior-unknown nil="true"/>
+    <m1020-primary-diag-icd>707.06</m1020-primary-diag-icd>
+    <m1020-primary-diag-severity>03</m1020-primary-diag-severity>
+    <m1024-pmt-diag-icd-a3 nil="true"/>
+    <m1024-pmt-diag-icd-a4 nil="true"/>
+    <m1022-oth-diag1-icd>707.23</m1022-oth-diag1-icd>
+    <m1022-oth-diag1-severity>03</m1022-oth-diag1-severity>
+    <m1024-pmt-diag-icd-b3 nil="true"/>
+    <m1024-pmt-diag-icd-b4 nil="true"/>
+    <m1022-oth-diag2-icd>332.0</m1022-oth-diag2-icd>
+    <m1022-oth-diag2-severity>02</m1022-oth-diag2-severity>
+    <m1024-pmt-diag-icd-c3 nil="true"/>
+    <m1024-pmt-diag-icd-c4 nil="true"/>
+    <m1022-oth-diag3-icd>344.9</m1022-oth-diag3-icd>
+    <m1022-oth-diag3-severity>02</m1022-oth-diag3-severity>
+    <m1024-pmt-diag-icd-d3 nil="true"/>
+    <m1024-pmt-diag-icd-d4 nil="true"/>
+    <m1022-oth-diag4-icd>787.20</m1022-oth-diag4-icd>
+    <m1022-oth-diag4-severity>02</m1022-oth-diag4-severity>
+    <m1024-pmt-diag-icd-e3 nil="true"/>
+    <m1024-pmt-diag-icd-e4 nil="true"/>
+    <m1022-oth-diag5-icd>V55.1</m1022-oth-diag5-icd>
+    <m1024-pmt-diag-icd-f3 nil="true"/>
+    <m1024-pmt-diag-icd-f4 nil="true"/>
+    <m1030-thh-iv-infusion nil="true"/>
+    <m1030-thh-par-nutrition nil="true"/>
+    <m1030-thh-ent-nutrition>1</m1030-thh-ent-nutrition>
+    <m1030-thh-none-above nil="true"/>
+    <m1032-hosp-risk-rcnt-dcln nil="true"/>
+    <m1032-hosp-risk-mltpl-hospztn nil="true"/>
+    <m1032-hosp-risk-hstry-falls>1</m1032-hosp-risk-hstry-falls>
+    <m1032-hosp-risk-5plus-mdctn nil="true"/>
+    <m1032-hosp-risk-frailty nil="true"/>
+    <m1032-hosp-risk-othr nil="true"/>
+    <m1032-hosp-risk-none-above nil="true"/>
+    <m1034-ptnt-ovral-stus>01</m1034-ptnt-ovral-stus>
+    <m1036-rsk-smoking nil="true"/>
+    <m1036-rsk-obesity nil="true"/>
+    <m1036-rsk-alcoholism nil="true"/>
+    <m1036-rsk-drugs nil="true"/>
+    <m1036-rsk-none>1</m1036-rsk-none>
+    <m1036-rsk-unknown nil="true"/>
+    <m1100-ptnt-lvg-stutn>06</m1100-ptnt-lvg-stutn>
+    <m1200-vision>01</m1200-vision>
+    <m1210-hearg-ablty>01</m1210-hearg-ablty>
+    <m1220-undrstg-verbal-cntnt>01</m1220-undrstg-verbal-cntnt>
+    <m1230-speech>04</m1230-speech>
+    <m1240-frml-pain-asmt>01</m1240-frml-pain-asmt>
+    <m1242-pain-freq-actvty-mvmt>03</m1242-pain-freq-actvty-mvmt>
+    <m1300-prsr-ulcr-risk-asmt>01</m1300-prsr-ulcr-risk-asmt>
+    <m1302-risk-of-prsr-ulcr>1</m1302-risk-of-prsr-ulcr>
+    <m1306-unhld-stg2-prsr-ulcr>1</m1306-unhld-stg2-prsr-ulcr>
+    <m1308-nbr-prsulc-stg2>0</m1308-nbr-prsulc-stg2>
+    <m1308-nbr-prsulc-stg3>1</m1308-nbr-prsulc-stg3>
+    <m1308-nbr-prsulc-stg4>0</m1308-nbr-prsulc-stg4>
+    <m1308-nstg-drsg>0</m1308-nstg-drsg>
+    <m1308-nstg-cvrg>0</m1308-nstg-cvrg>
+    <m1308-nstg-deep-tisue>0</m1308-nstg-deep-tisue>
+    <m1310-prsr-ulcr-lngth>2.5</m1310-prsr-ulcr-lngth>
+    <m1312-prsr-ulcr-wdth>2.3</m1312-prsr-ulcr-wdth>
+    <m1314-prsr-ulcr-depth>0.3</m1314-prsr-ulcr-depth>
+    <m1410-resptx-oxygen nil="true"/>
+    <m1410-resptx-ventilator nil="true"/>
+    <m1410-resptx-airpress nil="true"/>
+    <m1410-resptx-none>1</m1410-resptx-none>
+    <m1740-bd-mem-deficit nil="true"/>
+    <m1740-bd-imp-decisn nil="true"/>
+    <m1740-bd-verbal nil="true"/>
+    <m1740-bd-physical nil="true"/>
+    <m1740-bd-soc-inappro nil="true"/>
+    <m1740-bd-delusions nil="true"/>
+    <m1740-bd-none>1</m1740-bd-none>
+    <m2200-ther-need-num>9</m2200-ther-need-num>
+    <m2200-ther-need-na nil="true"/>
+    <m1022-oth-diag5-severity nil="true"/>
+    <m1320-stus-prblm-prsr-ulcr>03</m1320-stus-prblm-prsr-ulcr>
+    <m1322-nbr-prsulc-stg1>00</m1322-nbr-prsulc-stg1>
+    <m1324-stg-prblm-ulcer>03</m1324-stg-prblm-ulcer>
+    <m1330-stas-ulcr-prsnt>00</m1330-stas-ulcr-prsnt>
+    <m1340-srgcl-wnd-prsnt>00</m1340-srgcl-wnd-prsnt>
+    <m1350-lesion-open-wnd>0</m1350-lesion-open-wnd>
+    <m1400-when-dyspneic>02</m1400-when-dyspneic>
+    <m1600-uti>00</m1600-uti>
+    <m1610-ur-incont>01</m1610-ur-incont>
+    <m1615-incntnt-timing>04</m1615-incntnt-timing>
+    <m1620-bwl-incont>00</m1620-bwl-incont>
+    <m1630-ostomy>00</m1630-ostomy>
+    <m1700-cog-function>02</m1700-cog-function>
+    <m1710-when-confused>02</m1710-when-confused>
+    <m1720-when-anxious>01</m1720-when-anxious>
+    <m1730-stdz-dprsn-scrng>01</m1730-stdz-dprsn-scrng>
+    <m1730-phq2-lack-intrst>00</m1730-phq2-lack-intrst>
+    <m1730-phq2-dprsn>00</m1730-phq2-dprsn>
+    <m1745-beh-prob-freq>00</m1745-beh-prob-freq>
+    <m1750-rec-psych-nurs>0</m1750-rec-psych-nurs>
+    <m1800-cur-grooming>03</m1800-cur-grooming>
+    <m1810-cur-dress-upper>03</m1810-cur-dress-upper>
+    <m1820-cur-dress-lower>03</m1820-cur-dress-lower>
+    <m1830-crnt-bathg>06</m1830-crnt-bathg>
+    <m1840-cur-toiltg>04</m1840-cur-toiltg>
+    <m1845-cur-toiltg-hygn>03</m1845-cur-toiltg-hygn>
+    <m1850-cur-trnsfrng>05</m1850-cur-trnsfrng>
+    <m1860-crnt-ambltn>05</m1860-crnt-ambltn>
+    <m1870-cur-feeding>04</m1870-cur-feeding>
+    <m1880-cur-prep-lt-meals>02</m1880-cur-prep-lt-meals>
+    <m1890-cur-phone-use>05</m1890-cur-phone-use>
+    <m1900-prior-adliadl-self>02</m1900-prior-adliadl-self>
+    <m1900-prior-adliadl-ambltn>02</m1900-prior-adliadl-ambltn>
+    <m1900-prior-adliadl-trnsfr>02</m1900-prior-adliadl-trnsfr>
+    <m1900-prior-adliadl-hsehold>02</m1900-prior-adliadl-hsehold>
+    <m1910-mlt-fctr-fall-risk-asmt>02</m1910-mlt-fctr-fall-risk-asmt>
+    <m2000-drug-rgmn-rvw>02</m2000-drug-rgmn-rvw>
+    <m2002-mdctn-flwp>1</m2002-mdctn-flwp>
+    <m2010-high-risk-drug-edctn>NA</m2010-high-risk-drug-edctn>
+    <m2020-crnt-mgmt-oral-mdctn>NA</m2020-crnt-mgmt-oral-mdctn>
+    <m2030-crnt-mgmt-injctn-mdctn>NA</m2030-crnt-mgmt-injctn-mdctn>
+    <m2040-prior-mgmt-oral-mdctn>NA</m2040-prior-mgmt-oral-mdctn>
+    <m2040-prior-mgmt-injctn-mdctn>NA</m2040-prior-mgmt-injctn-mdctn>
+    <m2100-care-type-src-adl>02</m2100-care-type-src-adl>
+    <m2100-care-type-src-iadl>01</m2100-care-type-src-iadl>
+    <m2100-care-type-src-mdctn>01</m2100-care-type-src-mdctn>
+    <m2100-care-type-src-prcdr>02</m2100-care-type-src-prcdr>
+    <m2100-care-type-src-equip>00</m2100-care-type-src-equip>
+    <m2100-care-type-src-sprvsn>01</m2100-care-type-src-sprvsn>
+    <m2100-care-type-src-advcy>01</m2100-care-type-src-advcy>
+    <m2110-adl-iadl-astnc-freq>01</m2110-adl-iadl-astnc-freq>
+    <m2250-plan-smry-ptnt-specf>01</m2250-plan-smry-ptnt-specf>
+    <m2250-plan-smry-dbts-ft-care>NA</m2250-plan-smry-dbts-ft-care>
+    <m2250-plan-smry-fall-prvnt>01</m2250-plan-smry-fall-prvnt>
+    <m2250-plan-smry-dprsn-intrvtn>NA</m2250-plan-smry-dprsn-intrvtn>
+    <m2250-plan-smry-pain-intrvtn>01</m2250-plan-smry-pain-intrvtn>
+    <m2250-plan-smry-prsulc-prvnt>01</m2250-plan-smry-prsulc-prvnt>
+    <m2250-plan-smry-prsulc-trtmt>01</m2250-plan-smry-prsulc-trtmt>
+    <m1332-num-stas-ulcr nil="true"/>
+    <m1334-stus-prblm-stas-ulcr nil="true"/>
+    <m1342-stus-prblm-srgcl-wnd nil="true"/>
+    <subm-hipps-code>1CHMV</subm-hipps-code>
+    <subm-hipps-version>V3414</subm-hipps-version>
+    <patient-name>Fitzgerald Grant</patient-name>
+    <mr>92</mr>
+  </data>
+  <document-date type="date">2014-02-04</document-date>
+  <document-definition-id type="integer">681</document-definition-id>
+  <document-form-template-id type="integer">112</document-form-template-id>
+  <field-staff-id type="integer">279</field-staff-id>
+  <fs-sign-date type="date">2014-02-04</fs-sign-date>
+  <fs-sign-required type="boolean">false</fs-sign-required>
+  <id type="integer">972</id>
+  <lock-version type="integer">7</lock-version>
+  <os-sign-date type="date">2014-02-04</os-sign-date>
+  <os-sign-required type="boolean">false</os-sign-required>
+  <physician-id type="integer">2160</physician-id>
+  <status type="symbol">completed</status>
+  <supervised-user-id type="integer" nil="true"/>
+  <supervised-user-sign-date type="date" nil="true"/>
+  <supervisor-sign-required type="boolean">false</supervisor-sign-required>
+  <treatment-episode-id type="integer">454</treatment-episode-id>
+  <treatment-id type="integer">357</treatment-id>
+  <visit-id type="integer" nil="true"/>
+  <provider-name>ABC HOME HEALTH CARE, INC.</provider-name>
+  <provider-contact>&lt;b&gt;Tel&lt;/b&gt; (323) 222-2222, &lt;b&gt;Fax&lt;/b&gt; (323) 333-3333</provider-contact>
+  <provider-full-address> 1680 N. Vine St., Suite 123  Los Angeles, CA 90028</provider-full-address>
+  <start-of-care-date-details>&lt;b&gt;SOC&lt;/b&gt; 02/04/2014 &lt;b&gt;Episode&lt;/b&gt; 02/04/2014 04/04/2014</start-of-care-date-details>
+  <patient-details>&lt;b&gt;FITZGERALD GRANT&lt;/b&gt; (Male) &lt;b&gt;MR&lt;/b&gt; 92</patient-details>
+  <patient-contact>&lt;b&gt;DOB&lt;/b&gt; 03/03/1936  &lt;b&gt;Tel&lt;/b&gt; (323) 555-5555</patient-contact>
+  <patient-address>1600 Pennsylvania Ave., Los Angeles CA 90028</patient-address>
+  <field-staff-details>Jillian Michaels, RN (222) 212-3244</field-staff-details>
+  <field-sub-report-url>/home/msuser1/workspace/git_repos/fasternotes/app/views/reports/oasis_generic_template/fields.jasper</field-sub-report-url>
+  <icd-codes-sub-report-url>/home/msuser1/workspace/git_repos/fasternotes/app/views/reports/oasis_generic_template/icd_codes.jasper</icd-codes-sub-report-url>
+  <icd-codes-display type="array">
+    <icd-codes-display>
+      <field>M1016</field>
+      <display-value>a.</display-value>
+      <code>707.06</code>
+      <description>Pressure ulcer, ankle</description>
+      <severity></severity>
+    </icd-codes-display>
+    <icd-codes-display>
+      <field>M1016</field>
+      <display-value>b.</display-value>
+      <code>707.23</code>
+      <description>Pressure ulcer, stage III d csdc sdc sd cs c vfd v vdf df vd vd efvve v rev re vv v</description>
+      <severity></severity>
+    </icd-codes-display>
+    <icd-codes-display>
+      <field>M1020</field>
+      <display-value>a1.</display-value>
+      <code>707.06</code>
+      <description>Pressure ulcer, ankle</description>
+      <severity>03</severity>
+    </icd-codes-display>
+    <icd-codes-display>
+      <field>M1022</field>
+      <display-value>b1.</display-value>
+      <code>707.23</code>
+      <description>Pressure ulcer, stage III</description>
+      <severity>03</severity>
+    </icd-codes-display>
+    <icd-codes-display>
+      <field>M1022</field>
+      <display-value>c1.</display-value>
+      <code>332.0</code>
+      <description>Paralysis agitans</description>
+      <severity>02</severity>
+    </icd-codes-display>
+    <icd-codes-display>
+      <field>M1022</field>
+      <display-value>d1.</display-value>
+      <code>344.9</code>
+      <description>Paralysis, unspecified</description>
+      <severity>02</severity>
+    </icd-codes-display>
+    <icd-codes-display>
+      <field>M1022</field>
+      <display-value>e1.</display-value>
+      <code>787.20</code>
+      <description>Dysphagia, unspecified</description>
+      <severity>02</severity>
+    </icd-codes-display>
+    <icd-codes-display>
+      <field>M1022</field>
+      <display-value>f1.</display-value>
+      <code>V55.1</code>
+      <description>Attention to gastrostomy</description>
+      <severity nil="true"/>
+    </icd-codes-display>
+  </icd-codes-display>
+  <oasis-soc-list type="array">
+    <oasis-soc-list>
+      <field-name>M0010</field-name>
+      <value>123456</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M0014</field-name>
+      <value>CA</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M0016</field-name>
+      <value>P</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M0018</field-name>
+      <value>1295766426</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M0032</field-name>
+      <value>NA</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M0063</field-name>
+      <value>004111111A</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M0064</field-name>
+      <value>004111111</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M0065</field-name>
+      <value>NA</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M0080</field-name>
+      <value>01</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M0090</field-name>
+      <value>02/04/2014</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M0100</field-name>
+      <value>01</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M0102</field-name>
+      <value>NA</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M0104</field-name>
+      <value>02/03/2014</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M0110</field-name>
+      <value>01</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M0140</field-name>
+      <value>6</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M0150</field-name>
+      <value>1</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1000</field-name>
+      <value>NA</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1018</field-name>
+      <value>1</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1030</field-name>
+      <value>3</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1032</field-name>
+      <value>3</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1034</field-name>
+      <value>01</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1036</field-name>
+      <value>5</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1100</field-name>
+      <value>06</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1200</field-name>
+      <value>01</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1210</field-name>
+      <value>01</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1220</field-name>
+      <value>01</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1230</field-name>
+      <value>04</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1240</field-name>
+      <value>01</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1242</field-name>
+      <value>03</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1300</field-name>
+      <value>01</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1302</field-name>
+      <value>1</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1308</field-name>
+      <value>a. 0,b. 1,c. 0,d1. 0,d2. 0,d3. 0</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1310</field-name>
+      <value>2.5</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1312</field-name>
+      <value>2.3</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1314</field-name>
+      <value>0.3</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1320</field-name>
+      <value>03</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1322</field-name>
+      <value>00</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1324</field-name>
+      <value>03</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1330</field-name>
+      <value>00</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1340</field-name>
+      <value>00</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1350</field-name>
+      <value>0</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1400</field-name>
+      <value>02</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1410</field-name>
+      <value>4</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1600</field-name>
+      <value>00</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1610</field-name>
+      <value>01</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1615</field-name>
+      <value>04</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1620</field-name>
+      <value>00</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1630</field-name>
+      <value>00</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1700</field-name>
+      <value>02</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1710</field-name>
+      <value>02</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1720</field-name>
+      <value>01</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1730</field-name>
+      <value> 01,a. 00,b. 00</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1740</field-name>
+      <value>7</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1745</field-name>
+      <value>00</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1750</field-name>
+      <value>0</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1800</field-name>
+      <value>03</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1810</field-name>
+      <value>03</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1820</field-name>
+      <value>03</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1830</field-name>
+      <value>06</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1840</field-name>
+      <value>04</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1845</field-name>
+      <value>03</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1850</field-name>
+      <value>05</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1860</field-name>
+      <value>05</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1870</field-name>
+      <value>04</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1880</field-name>
+      <value>02</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1890</field-name>
+      <value>05</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1900</field-name>
+      <value>a. 02,b. 02,c. 02,d. 02</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M1910</field-name>
+      <value>02</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M2000</field-name>
+      <value>02</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M2002</field-name>
+      <value>1</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M2010</field-name>
+      <value>NA</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M2020</field-name>
+      <value>NA</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M2030</field-name>
+      <value>NA</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M2040</field-name>
+      <value>a. NA,b. NA</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M2100</field-name>
+      <value>a. 02,b. 01,c. 01,d. 02,e. 00,f. 01,g. 01</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M2110</field-name>
+      <value>01</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M2200</field-name>
+      <value>9</value>
+    </oasis-soc-list>
+    <oasis-soc-list>
+      <field-name>M2250</field-name>
+      <value>a. 01,b. NA,c. 01,d. NA,e. 01,f. 01,g. 01</value>
+    </oasis-soc-list>
+  </oasis-soc-list>
+  <physician-short-info>CATHERINE CHANG, MD &lt;b&gt;Tel&lt;/b&gt; (949) 717-6755</physician-short-info>
+  <report-title>SOC OASIS SUMMARY</report-title>
+  <vitals-display></vitals-display>
+  <fs-signed-date-display>02/04/2014</fs-signed-date-display>
+  <detail2-label nil="true"/>
+  <detail2-value nil="true"/>
+  <detail3-label nil="true"/>
+  <detail3-value nil="true"/>
+  <detail4-label nil="true"/>
+  <detail4-value nil="true"/>
+  <detail5-label nil="true"/>
+  <detail5-value nil="true"/>
+  <detail6-label nil="true"/>
+  <detail6-value nil="true"/>
+  <detail7-label nil="true"/>
+  <detail7-value nil="true"/>
+  <detail8-label nil="true"/>
+  <detail8-value nil="true"/>
+  <detail9-label nil="true"/>
+  <detail9-value nil="true"/>
+  <detail10-label nil="true"/>
+  <detail10-value nil="true"/>
+  <detail11-label nil="true"/>
+  <detail11-value nil="true"/>
+  <detail12-label nil="true"/>
+  <detail12-value nil="true"/>
+  <detail13-label nil="true"/>
+  <detail13-value nil="true"/>
+  <detail14-label nil="true"/>
+  <detail14-value nil="true"/>
+  <detail15-label nil="true"/>
+  <detail15-value nil="true"/>
+  <detail28-label nil="true"/>
+  <detail28-value nil="true"/>
+  <detail29-label nil="true"/>
+  <detail29-value nil="true"/>
+  <show-physician nil="true"/>
+  <field-staff-signature>/home/msuser1/workspace/git_repos/fasternotes/public/system/field_staffs/signatures/000/000/279/original/signature20130415-26649-1h5chh3.png</field-staff-signature>
+  <field-staff-signed type="boolean">false</field-staff-signed>
+  <supervisor-signed type="boolean">false</supervisor-signed>
+  <visited-staff-name>Jillian Michaels, RN</visited-staff-name>
+  <systolic-bp nil="true"/>
+  <diastolic-bp nil="true"/>
+  <bp-read-location nil="true"/>
+  <bp-read-position nil="true"/>
+  <heart-rate nil="true"/>
+  <respiration-rate nil="true"/>
+  <temperature-in-fht nil="true"/>
+  <blood-sugar nil="true"/>
+  <sugar-read-period nil="true"/>
+  <weight-gain-loss-in-lbs nil="true"/>
+  <oxygen-saturation nil="true"/>
+  <agency-name>ABC Home Health Care, Inc.</agency-name>
+  <frequency-display nil="true"/>
+  <office-staff-signature>/home/msuser1/workspace/git_repos/fasternotes/public/system/org_staffs/signatures/000/000/263/original/signature20140124-6485-1t80vja.png</office-staff-signature>
+  <office-staff-name>John Doe</office-staff-name>
+  <supervised-user-signature nil="true"/>
+  <supervised-user-name nil="true"/>
+  <pain-section-display></pain-section-display>
+  <os-signed-date-display type="date">2014-02-04</os-signed-date-display>
+  <supervised-user-signed-date-display nil="true"/>
+  <pain nil="true"/>
+  <detail16-label nil="true"/>
+  <detail16-value nil="true"/>
+  <detail17-label nil="true"/>
+  <detail17-value nil="true"/>
+  <detail18-label nil="true"/>
+  <detail18-value nil="true"/>
+  <detail19-label nil="true"/>
+  <detail19-value nil="true"/>
+  <detail20-label nil="true"/>
+  <detail20-value nil="true"/>
+  <detail21-label nil="true"/>
+  <detail21-value nil="true"/>
+  <detail22-label nil="true"/>
+  <detail22-value nil="true"/>
+  <detail23-label nil="true"/>
+  <detail23-value nil="true"/>
+  <detail24-label nil="true"/>
+  <detail24-value nil="true"/>
+  <detail25-label nil="true"/>
+  <detail25-value nil="true"/>
+  <detail26-label nil="true"/>
+  <detail26-value nil="true"/>
+  <detail27-label nil="true"/>
+  <detail27-value nil="true"/>
+  <therapist-name-display>&lt;b&gt;Therapist Name: &lt;/b&gt; Jillian Michaels, RN</therapist-name-display>
+</document>

@@ -1,0 +1,1250 @@
+---
+valid: true
+m0100_assmt_reason: '01'
+patient_name: christiano ronaldo
+mr: '237'
+treatment_episode_id: 973
+field_staff_id: 4096
+supervised_user_id: 
+field_signature_not_required: true
+m0010_ccn: '123456'
+m0014_branch_state: 
+m0016_branch_id: P
+m0018_physician_id: '1881627362'
+m0018_physician_uk: 
+m0020_pat_id: '237'
+m0030_start_care_dt: 01/01/2015
+m0032_roc_dt: 
+m0032_roc_dt_na: '1'
+m0040_pat_fname: christiano
+m0040_pat_mi: 
+m0040_pat_lname: ronaldo
+m0040_pat_suffix: 
+m0050_pat_st: CA
+m0060_pat_zip: '90078'
+m0063_medicare_num: 534343434M
+m0063_medicare_na: 
+m0064_ssn: '534343434'
+m0064_ssn_uk: 
+m0065_medicaid_num: 
+m0065_medicaid_na: '1'
+m0066_pat_birth_dt: 07/02/1981
+m0069_pat_gender: '1'
+m0140_ethnic_ai_an: '1'
+m0140_ethnic_asian: 
+m0140_ethnic_black: 
+m0140_ethnic_hisp: 
+m0140_ethnic_nh_pi: 
+m0140_ethnic_white: 
+m0150_cpay_none: 
+m0150_cpay_mcare_ffs: '1'
+m0150_cpay_mcare_hmo: 
+m0150_cpay_mcaid_ffs: 
+m0150_cpay_mcaid_hmo: 
+m0150_cpay_wrkcomp: 
+m0150_cpay_titlepgms: 
+m0150_cpay_oth_govt: 
+m0150_cpay_priv_ins: 
+m0150_cpay_priv_hmo: 
+m0150_cpay_selfpay: 
+m0150_cpay_other: 
+m0150_cpay_uk: 
+m0150_other_cpay: 
+m0080_assessor_discipline: '03'
+m0090_info_completed_dt: 01/01/2015
+m0102_physn_ordrd_socroc_dt: 01/01/2015
+m0102_physn_ordrd_socroc_dt_na: 
+m0104_physn_rfrl_dt: 
+m0110_episode_timing: '02'
+m1000_dc_ltc_14_da: 
+m1000_dc_snf_14_da: 
+m1000_dc_ipps_14_da: 
+m1000_dc_ltch_14_da: '1'
+m1000_dc_irf_14_da: 
+m1000_dc_psych_14_da: 
+m1000_dc_oth_14_da: 
+m1000_dc_none_14_da: 
+m1000_other_dc: 
+m1005_inp_discharge_dt: 01/01/2015
+m1005_inp_dschg_unknown: 
+m1010_14_day_inp1_icd: '300.02'
+m1010_14_day_inp3_icd: 
+m1010_14_day_inp5_icd: 
+m1010_14_day_inp2_icd: '200.00'
+m1010_14_day_inp4_icd: 
+m1010_14_day_inp6_icd: 
+m1016_chgreg_icd1: 
+m1016_chgreg_icd2: 
+m1016_chgreg_icd3: 
+m1016_chgreg_icd4: 
+m1016_chgreg_icd5: 
+m1016_chgreg_icd6: 
+m1016_chgreg_icd_na: '1'
+m1018_prior_ur_incon: 
+m1018_prior_cath: 
+m1018_prior_intract_pain: 
+m1018_prior_impr_decsn: '1'
+m1018_prior_disruptive: 
+m1018_prior_mem_loss: 
+m1018_prior_none: 
+m1018_prior_nochg_14d: 
+m1018_prior_unknown: 
+date_last_contacted: 
+date_last_visited: 
+primary_reason_for_home_health: 
+homebound_reason:
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+homebound_reason_other: 
+pertinent_history_and_outcomes:
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+cancer_site: 
+surgeries_type: 
+pertinent_history_and_outcomes_other: 
+influenza: 
+immunization_guidelines:
+- false
+- false
+- false
+- ''
+needs:
+- ''
+- ''
+number_of_times: 
+reasons: 
+m1020_primary_diag_icd: '100.89'
+m1020_primary_diag_severity: '02'
+m1024_pmt_diag_icd_a3: 
+m1024_pmt_diag_icd_a4: 
+m1022_oth_diag1_icd: 
+m1024_pmt_diag_icd_b3: 
+m1024_pmt_diag_icd_b4: 
+m1022_oth_diag2_icd: 
+m1024_pmt_diag_icd_c3: 
+m1024_pmt_diag_icd_c4: 
+m1022_oth_diag3_icd: 
+m1024_pmt_diag_icd_d3: 
+m1024_pmt_diag_icd_d4: 
+m1022_oth_diag4_icd: 
+m1024_pmt_diag_icd_e3: 
+m1024_pmt_diag_icd_e4: 
+m1022_oth_diag5_icd: 
+m1024_pmt_diag_icd_f3: 
+m1024_pmt_diag_icd_f4: 
+m1030_thh_iv_infusion: 
+m1030_thh_par_nutrition: '1'
+m1030_thh_ent_nutrition: 
+m1030_thh_none_above: 
+m1033_hosp_risk_hstry_falls: 
+m1033_hosp_risk_weight_loss: 
+m1033_hosp_risk_mltpl_hospztn: '1'
+m1033_hosp_risk_mltpl_ed_visit: 
+m1033_hosp_risk_mntl_bhv_dcln: 
+m1033_hosp_risk_compliance: 
+m1033_hosp_risk_5plus_mdctn: 
+m1033_hosp_risk_crnt_exhstn: 
+m1033_hosp_risk_othr_risk: 
+m1033_hosp_risk_none_above: 
+m1034_ptnt_ovral_stus: '01'
+m1036_rsk_smoking: '1'
+m1036_rsk_obesity: 
+m1036_rsk_alcoholism: 
+m1036_rsk_drugs: 
+m1036_rsk_none: 
+m1036_rsk_unknown: 
+m1100_ptnt_lvg_stutn: '07'
+living_arrangement_caregiver_name: 
+living_arrangement_caregiver_phone_number: 
+living_arrangement_relationship: 
+living_arrangement_other_caregivers: 
+living_arrangement_safely_care:
+- false
+- false
+living_arrangement_comments: 
+living_arrangement_other_agencies: 
+safety_measures:
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+other_safety_measures: 
+living_arrangement_oxygen_backup:
+- false
+- false
+- false
+oxygen_use_plan_comments: 
+m1200_vision: '01'
+m1210_hearg_ablty: '02'
+m1220_undrstg_verbal_cntnt: '01'
+m1230_speech: '02'
+eyes:
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+eyes_contacts:
+- false
+- false
+eyes_prosthesis:
+- false
+- false
+eyes_blind:
+- false
+- false
+eyes_other: 
+infections_text: 
+cataract_surgery_site: 
+cataract_surgery_date: 
+impaired_vision: 
+nose:
+- false
+- false
+- false
+- false
+- false
+- false
+nose_other: 
+throat:
+- false
+- false
+- false
+- false
+- false
+- false
+other_throat: 
+mouth:
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+dentures:
+- false
+- false
+- false
+mouth_other: 
+ears:
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+hoh:
+- false
+- false
+deaf:
+- false
+- false
+hearing_aid:
+- false
+- false
+tinnitus:
+- false
+- false
+ears_other: 
+m1240_frml_pain_asmt: '01'
+m1242_pain_freq_actvty_mvmt: '01'
+pain_scale: 0
+intensity_scale:
+- false
+- false
+patient_pain:
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+other_patient_pain: 
+implications_patient_pain: 
+pain_interfere: 
+pain_location1: 
+pain_onset1: 
+pain_intensity1: "/10"
+pain_worst1: "/10"
+pain_best1: "/10"
+pain_description1: 
+pain_aggravating_factors1: 
+pain_relieving_factors1: 
+pain_location2: 
+pain_onset2: 
+pain_intensity2: "/10"
+pain_worst2: "/10"
+pain_best2: "/10"
+pain_description2: 
+pain_aggravating_factors2: 
+pain_relieving_factors2: 
+pain_location3: 
+pain_onset3: 
+pain_intensity3: "/10"
+pain_worst3: "/10"
+pain_best3: "/10"
+pain_description3: 
+pain_aggravating_factors3: 
+pain_relieving_factors3: 
+pain_location4: 
+pain_onset4: 
+pain_intensity4: "/10"
+pain_worst4: "/10"
+pain_best4: "/10"
+pain_description4: 
+pain_aggravating_factors4: 
+pain_relieving_factors4: 
+pain_location5: 
+pain_onset5: 
+pain_intensity5: "/10"
+pain_worst5: "/10"
+pain_best5: "/10"
+pain_description5: 
+pain_aggravating_factors5: 
+pain_relieving_factors5: 
+pain_location6: 
+pain_onset6: 
+pain_intensity6: "/10"
+pain_worst6: "/10"
+pain_best6: "/10"
+pain_description6: 
+pain_aggravating_factors6: 
+pain_relieving_factors6: 
+pain_frequency:
+- false
+- false
+- false
+pain_better:
+- false
+- false
+- false
+- false
+pain_better_other: 
+pain_pattern: 
+medication_needed:
+- false
+- false
+- false
+- false
+pain_radiate:
+- false
+- false
+- false
+comment: 
+notified_by:
+- false
+- false
+outcome: 
+m1300_prsr_ulcr_risk_asmt: '01'
+m1302_risk_of_prsr_ulcr: '1'
+m1306_unhld_stg2_prsr_ulcr: '1'
+integumentary:
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+other_integumentary: 
+wound_care_location: 
+soiled_dressing_cargiver: 
+other_soiled_dressing: 
+wound_care_technique:
+- false
+- false
+wound_cleaned: 
+wound_cleaned_with: 
+wound_irrigated: 
+wound_irrigated_with: 
+wound_packed: 
+wound_packed_with: 
+wound_dressing: 
+wound_dressing_applied: 
+wound_care_comments: 
+foot_diabetic_exam: 
+care_giver_name: 
+other_done_by: 
+integument_findings: 
+pedal_pulses:
+- false
+- false
+warm_pedal_pulses:
+- false
+- false
+absent:
+- false
+- false
+- false
+- false
+diabetic_comments: 
+loss_of_sense:
+- false
+- false
+loss_of_sense_warm:
+- false
+- false
+loss_of_sense_cold:
+- false
+- false
+loss_of_sense_comments: 
+neuropathy:
+- false
+- false
+tingling:
+- false
+- false
+burning:
+- false
+- false
+leg_hair:
+- false
+- false
+present:
+- false
+- false
+wound_care_dme:
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+kerlix_size: 
+other_wound_care_dme: 
+endocrine:
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+diabetes_date: 
+other_diet_control: 
+insulin_dose_frequency: 
+insulin_since: 
+endocrine_administered_by_other: 
+hyperglycemia:
+- false
+- false
+- false
+hypoglycemia:
+- false
+- false
+- false
+- false
+- false
+a1c: 
+a1c_found:
+- false
+- false
+- false
+bs_weight: mg/dL
+bs_date: 
+bs:
+- false
+- false
+- false
+- false
+blood_sugar_ranges: 
+other_monitored_by: 
+frequency_of_monitoring: 
+competency: 
+disease_mgmt_text: 
+disease_effect:
+- false
+- false
+- false
+other_disease_effect: 
+other_anaemia: 
+secondary:
+- false
+- false
+- false
+- false
+- false
+- false
+secondary_other: 
+diabetic_supplies:
+- false
+- false
+- false
+other_diabetic_supplies: 
+m1308_nbr_prsulc_stg2: '0'
+m1308_nbr_prsulc_stg3: '1'
+m1308_nbr_prsulc_stg4: '1'
+m1308_nstg_drsg: '2'
+m1308_nstg_cvrg: '1'
+m1308_nstg_deep_tisue: '1'
+m1320_stus_prblm_prsr_ulcr: '01'
+m1322_nbr_prsulc_stg1: '01'
+m1324_stg_prblm_ulcer: '01'
+date_of_accident: 
+surgical_procedure: 
+surgical_procedure_date: 
+other_wound_type: 
+wound_type_: 
+wound_age_: 
+wound_location_: 
+wound_debridement_date_: 
+wound_debridement_type_: 
+wound_measurement_date_: 
+wound_length_: 
+wound_width_: 
+wound_depth_: 
+wound_appearance_of_wound_: 
+wound_exudate_: 
+wound_undermining_location1_: 
+wound_undermining_location2_: 
+wound_tunneling_location1_: 
+wound_tunneling_location2_: 
+total_wound_panels: '0'
+m1330_stas_ulcr_prsnt: '02'
+m1332_nbr_stas_ulcr: '02'
+m1334_stus_prblm_stas_ulcr: '02'
+m1340_srgcl_wnd_prsnt: '01'
+m1342_stus_prblm_srgcl_wnd: '01'
+m1350_lesion_open_wnd: '0'
+m1400_when_dyspneic: '01'
+m1410_resptx_oxygen: 
+m1410_resptx_ventilator: '1'
+m1410_resptx_airpress: 
+m1410_resptx_none: 
+breath_sounds:
+- false
+- false
+- false
+anterior_right: 
+anterior_left: 
+posterior_right_upper: 
+posterior_right_lower: 
+posterior_left_upper: 
+posterior_left_lower: 
+oxygen_lpm: 
+oxygen_saturation: 
+trach_size: 
+who_manages_text: 
+intermittent_treatments_explain: 
+productive_describe: 
+dyspnea:
+- false
+- false
+dyspnea_comments: 
+positioning_describe: 
+heart_sounds:
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+pacemaker_date: 
+pacemaker_type: 
+pacemaker_last_date_checked: 
+chest_pain:
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+associated_with:
+- false
+- false
+- false
+- false
+- false
+associated_with_frequency: 
+associated_with_how_relieved: 
+edema:
+- false
+- false
+- false
+pedal:
+- false
+- false
+edema_dependent: 
+pitting:
+- false
+- false
+- false
+- false
+edema_site: 
+disease_management_explain: 
+m1600_uti: '01'
+m1610_ur_incont: '01'
+m1615_incntnt_timing: '02'
+m1620_bwl_incont: '01'
+m1630_ostomy: '00'
+genitourinary_no_problem: 
+genitourinary:
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+incontinence_details: 
+other_genitourinary: 
+urinary_catheter_type: 
+urinary_catheter_date: 
+foly_inserted_date: 
+french: 
+inflated_balloon_with: 
+irrigation_solution_type: 
+irrigation_solution_amount: 
+irrigation_solution_frequency: 
+irrigation_solution_returns: 
+genitourinary_color_other: 
+urostomy: 
+genitourinary_urostomy: 
+ostomy_care_managed_by: 
+other_ostomy_care_managed_by: 
+urinary_ostomy_supplies:
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+ostomy_pouch_size: 
+ostomy_wafer_size: 
+other_urinary_ostomy_supplies: 
+miscellaneous:
+- false
+- false
+- false
+- false
+- false
+- false
+feeding_tube_type: 
+feeding_tube_size: 
+other_miscellaneous: 
+foley_supplies:
+- false
+- false
+- false
+- false
+- false
+- false
+catheter_kit: 
+other_foley_supplies: 
+nutritional_status_no_problem: 
+nutritional_status:
+- false
+- false
+- false
+- false
+- false
+- false
+nutritional_status_other: 
+nutritional_requirements_diet: 
+nutritional_fluids_amt: 
+restrict_fluids_amt: 
+appetite:
+- false
+- false
+- false
+vomiting_frequency: 
+vomiting_amount: 
+appetite_other: 
+heart_burn:
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+nutritional_status_total: 
+risk_intervention_and_plan: 
+enteral_feedings_no_problem: 
+enteral_feedings:
+- false
+- false
+- false
+- false
+- false
+enteral_feedings_other: 
+enteral_feedings_pump: 
+feedings_type_rate: 
+flush_protocol: 
+enteral_feeding_performed_by_other: 
+dressing_site_care: 
+enteral_feedings_interventions: 
+abdomen_no_problem: 
+abdomen:
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+girth: 
+abdomen_other: 
+bowel_sounds_x_quadrants: 
+bowel_sounds_other: 
+bowel_sounds_other_text: 
+elimination_no_problem: 
+elimination:
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+elimination_last_bm: 
+frequency_of_stools: 
+bowel_regime_program: 
+other_laxative_enema_use: 
+elimination_incontinence: 
+elimination_diapers: 
+skin_arround_stoma: 
+elimination_ostomy_care_other: 
+genitalia_no_problem: 
+genitalia:
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+discharge_drainage: 
+prostate_problem:
+- false
+- false
+bph_turp_date: 
+self_testicular_exam_freq: 
+hysterectomy_date: 
+hysterectomy_last_date: 
+hysterectomy_results: 
+breast_self_exam_freq: 
+genitalia_discharge:
+- false
+- false
+mastectomy:
+- false
+- false
+mastectomy_date: 
+genitalia_other: 
+m1700_cog_function: '01'
+m1710_when_confused: '01'
+m1720_when_anxious: '00'
+m1730_stdz_dprsn_scrng: '02'
+neuro_emotional_behaviour:
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+headache_location: 
+headache_frequency: 
+un_equal_pupils:
+- false
+- false
+aphasia:
+- false
+- false
+motor_change:
+- false
+- false
+motor_change_site: 
+dominant_side:
+- false
+- false
+weakness_ue_le:
+- false
+- false
+weakness_location: 
+tremors:
+- false
+- false
+- false
+termors_site: 
+stuporous:
+- false
+- false
+hand_grips_equal_or_unequal: 
+hand_grips_strong_or_weak: 
+psychotropic_drug: 
+dose_frequency: 
+neuro_emotional_behaviour_other: 
+m1740_bd_mem_deficit: 
+m1740_bd_imp_decisn: '1'
+m1740_bd_verbal: 
+m1740_bd_physical: 
+m1740_bd_soc_inappro: 
+m1740_bd_delusions: 
+m1740_bd_none: 
+m1745_beh_prob_freq: '01'
+m1750_rec_psych_nurs: '0'
+mental_status:
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+other_mental_status: 
+psychosocial_primary_language: 
+psychosocial:
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+psychosocial_interpreter: 
+learning_barrier:
+- false
+- false
+- false
+- false
+psychosocial_education_level: 
+spiritual_cultural_explain: 
+spiritual_resource: 
+psychosocial_phone_number: 
+sleep_rest_explain: 
+inappropriate_responses:
+- false
+- false
+psychosocial_treatment: 
+inability_to_cope:
+- false
+- false
+- false
+- false
+evidence:
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+psychosocial_describe: 
+psychosocial_comments: 
+m1800_crnt_grooming: '01'
+m1810_crnt_dress_upper: '01'
+m1820_crnt_dress_lower: '00'
+m1830_crnt_bathg: '01'
+m1840_crnt_toiltg: '01'
+m1845_crnt_toiltg_hygn: '01'
+m1850_crnt_trnsfrng: '03'
+m1860_crnt_ambltn: '02'
+m1870_crnt_feeding: '02'
+m1880_crnt_prep_lt_meals: '01'
+m1890_crnt_phone_use: '01'
+m1900_prior_adliadl_self: '00'
+m1900_prior_adliadl_ambltn: '01'
+m1900_prior_adliadl_trnsfr: '02'
+m1900_prior_adliadl_hsehold: '01'
+m1910_mlt_fctr_fall_risk_asmt: '01'
+musculoskeletal:
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+fracture: 
+antrophy: 
+paresthesia: 
+contractures_joint: 
+contractures_location: 
+musculoskeletal_other: 
+swollon_painful_joints: 
+decreased_rom: 
+weakness: 
+amputation:
+- false
+- false
+- false
+- false
+- false
+amputation_specify: 
+activities_permitted:
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+other_activities_permitted: 
+supplies_equipment:
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+special_mattress_overlay: 
+pressure_relieving_device: 
+other_supplies_equipment: 
+functional_limitations:
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+functional_limitations_other: 
+age: 
+diagnosis: 
+position: 
+incontinence: 
+visual_impairment: 
+impaired_functional_mobility: 
+environmental_hazards: 
+poly_pharmacy: 
+pain_affecting_level: 
+cognitive_impairment: 
+fall_risk_assessment_total: 
+m2000_drug_rgmn_rvw: NA
+allergies:
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+other_allergies: 
+infusion:
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+infusion_type: 
+infusion_length: 
+insertion_site: 
+insertion_site_date: 
+flush_solution_frequency: 
+injection_frequency: 
+dressing_change_frequency: 
+dressing_frequency:
+- false
+- false
+other_performed_by: 
+site_skin_condition: 
+external_catheter_length: 
+other_infusion: 
+purpose_of_intravenous_access:
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+purpose_of_intravenous_access_other: 
+infusion_care_provided_during_visit: 
+interventions: 
+circumference_of_arm: 
+huber_gauge_length: 
+accessed_date: 
+epidural_site_skin_condition: 
+infusion_solution: 
+dressing: 
+other_epidural_intrathecal_access: 
+name_of_drug: 
+dose: 
+route: 
+frequency: 
+therapy_duration: 
+name_of_drug1: 
+dose1: 
+route1: 
+frequency1: 
+therapy_duration1: 
+pump_type: 
+administered_by_other: 
+iv_supplies:
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+angiocatheter_size: 
+batteries_size: 
+syringes_size: 
+other_iv_supplies: 
+identification:
+- false
+- false
+- false
+- false
+- false
+- false
+msw_referral_comment: 
+m2040_prior_mgmt_oral_mdctn: '00'
+m2040_prior_mgmt_injctn_mdctn: '01'
+m2102_care_type_src_adl: '00'
+m2102_care_type_src_iadl: '01'
+m2102_care_type_src_mdctn: '02'
+m2102_care_type_src_prcdr: '03'
+m2102_care_type_src_equip: '04'
+m2102_care_type_src_sprvsn: '03'
+m2102_care_type_src_advcy: '03'
+source_of_assistance:
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+brace_orthotics: 
+prosthesis:
+- false
+- false
+- false
+- false
+- false
+prosthesis_other: 
+grab_bars:
+- false
+- false
+grab_bars_other: 
+hospital_bed:
+- false
+- false
+- false
+hospital_bed_text: 
+medical_alert: 
+oxygen_hme_co: 
+oxygen_hme_rep: 
+oxygen_phone: 
+organizations_providing_equipment: 
+m2110_adl_iadl_astnc_freq: '02'
+m2200_ther_need_nbr: '7'
+m2200_ther_need_na: 
+m2250_plan_smry_ptnt_specf: '00'
+m2250_plan_smry_dbts_ft_care: '01'
+m2250_plan_smry_fall_prvnt: '00'
+m2250_plan_smry_dprsn_intrvtn: NA
+m2250_plan_smry_pain_intrvtn: '01'
+m2250_plan_smry_prsulc_prvnt: '00'
+m2250_plan_smry_prsulc_trtmt: '01'
+care_coordination:
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+other_care_coordination: 
+care_coord_referral_date: 
+referral_comment: 
+verbal_order_date: 
+care_plan: 
+discharge_plans:
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+- false
+other_discharge_plans: 
+extended_oasis: true
+bs_time: 
+wound_undermining_from1_: 
+wound_undermining_to1_: 
+wound_undermining_from2_: 
+wound_undermining_to2_: 
+wound_tunneling_from1_: 
+wound_tunneling_to1_: 
+wound_tunneling_from2_: 
+wound_tunneling_to2_: 
+m1730_phq2_lack_intrst: 
+m1730_phq2_dprsn: 
+m2002_mdctn_flwp: 
+m2010_high_risk_drug_edctn: 
+m2020_crnt_mgmt_oral_mdctn: 
+m2030_crnt_mgmt_injctn_mdctn: 
+subm_hipps_code: 3CFMX
+subm_hipps_version: V4115
+treatment_authorization_code: 15AA15AA12LMZEZHZB

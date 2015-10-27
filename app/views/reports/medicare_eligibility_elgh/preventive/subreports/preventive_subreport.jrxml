@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="preventive_subreport" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="7006c5c8-3786-441c-859a-b83ae7f89203">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/elgh-response/preventive-services/preventive-service]]>
+	</queryString>
+	<field name="category" class="java.lang.String">
+		<fieldDescription><![CDATA[category]]></fieldDescription>
+	</field>
+	<field name="hcpcs" class="java.lang.String">
+		<fieldDescription><![CDATA[hcpcs]]></fieldDescription>
+	</field>
+	<field name="technical-date" class="java.lang.String">
+		<fieldDescription><![CDATA[technical-date]]></fieldDescription>
+	</field>
+	<field name="professional-date" class="java.lang.String">
+		<fieldDescription><![CDATA[professional-date]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="36" splitType="Stretch">
+			<printWhenExpression><![CDATA[$F{category}!=null ||
+$F{hcpcs}!=null ||
+$F{technical-date}!=null ||
+$F{professional-date}!=null]]></printWhenExpression>
+			<staticText>
+				<reportElement uuid="7d7b598e-8880-4063-8b43-247333836719" mode="Opaque" x="4" y="21" width="317" height="15" backcolor="#F0ECEC"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[HCPCS Code]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="405c2c1e-8233-4f19-bf1c-c6ed28480daa" mode="Opaque" x="321" y="21" width="122" height="15" backcolor="#F0ECEC"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Next Professional Date]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="c3b01307-e542-4101-963d-2881656566b8" mode="Opaque" x="443" y="21" width="111" height="15" backcolor="#F0ECEC"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Next Technical Date]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="208b2504-c14d-42c2-a7b1-22333406a9f5" mode="Opaque" x="0" y="0" width="555" height="15" backcolor="#DFD4D4"/>
+				<textElement>
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Preventive]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="17" splitType="Stretch">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="1fed22c4-3ae9-4efa-b844-50e4fef3a67b" x="4" y="0" width="317" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Left"/>
+				<textFieldExpression><![CDATA[$F{hcpcs}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="aafa8bcb-bf7d-4a8f-8d8c-a2f00cc285fe" x="321" y="0" width="122" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{professional-date}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="840fa205-2b42-488c-8faf-6f09ec619e04" x="443" y="0" width="111" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{technical-date}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

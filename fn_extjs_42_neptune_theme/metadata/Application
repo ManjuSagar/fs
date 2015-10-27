@@ -1,0 +1,23 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "MyModel"
+        ],
+        "name": "MyApp",
+        "stores": [
+            "MyArrayStore"
+        ],
+        "views": [
+            "TopContainer",
+            "MyWindow",
+            "MyTabPanel1"
+        ]
+    },
+    "designerId": "application"
+}

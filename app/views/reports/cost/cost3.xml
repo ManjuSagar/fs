@@ -1,0 +1,961 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<health-agency>
+  <branch-id nil="true"/>
+  <city>Los Angeles</city>
+  <created-at type="datetime">2013-02-25T11:48:38+05:30</created-at>
+  <email>fnidemo@gmail.com</email>
+  <fax-number>(323) 333-3333</fax-number>
+  <fed-tax-number>352316686</fed-tax-number>
+  <id type="integer">26</id>
+  <lock-version type="integer">0</lock-version>
+  <notes nil="true"/>
+  <npi-number>123456789</npi-number>
+  <org-name>ABC Home Health Care, Inc.</org-name>
+  <org-package>P</org-package>
+  <phone-number>(323) 222-2222</phone-number>
+  <preferred-alert-mode>E</preferred-alert-mode>
+  <state>CA</state>
+  <street-address>1680 N. Vine St.</street-address>
+  <suite-number>123</suite-number>
+  <updated-at type="datetime">2013-02-25T11:48:38+05:30</updated-at>
+  <week-start-day>SUN</week-start-day>
+  <zip-code>90028</zip-code>
+  <office-staff-name>Larry Treystman</office-staff-name>
+  <credential-generation-date>06/25/2013</credential-generation-date>
+  <contact-details>Tel (323) 222-2222 Fax (323) 333-3333</contact-details>
+  <to-s>ABC Home Health Care, Inc.</to-s>
+  <address-string>1680 N. Vine St. 123, Los Angeles, CA, 90028</address-string>
+  <field-staff-credentials type="array">
+    <field-staff-credential>
+      <field-staff>Andrew Anderson, LVN</field-staff>
+      <title>LVN</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>Competency</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>F</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>Boris Becker, PTA</field-staff>
+      <title>PTA</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>Driver License</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>F</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>Boris Becker, PTA</field-staff>
+      <title>PTA</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>Auto Insurance</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>Boris Becker, PTA</field-staff>
+      <title>PTA</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>Professional License</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>Boris Becker, PTA</field-staff>
+      <title>PTA</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>MalPractice Insurance</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>Boris Becker, PTA</field-staff>
+      <title>PTA</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>Physical</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>Boris Becker, PTA</field-staff>
+      <title>PTA</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>PPD or Chest X-Ray</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>Adam Bishop, PTA</field-staff>
+      <title>PTA</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>Auto Insurance</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>F</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>Adam Bishop, PTA</field-staff>
+      <title>PTA</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>Professional License</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>Adam Bishop, PTA</field-staff>
+      <title>PTA</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>MalPractice Insurance</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>Adam Bishop, PTA</field-staff>
+      <title>PTA</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>Physical</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>Adam Bishop, PTA</field-staff>
+      <title>PTA</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>PPD or Chest X-Ray</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>Portia Di Rossi, OT</field-staff>
+      <title>OT</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>CPR</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>F</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>Roger Federer, PT</field-staff>
+      <title>PT</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>Auto Insurance</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Expired - 04/25/2013</status>
+      <aging>61 day(s)</aging>
+      <repeating-fs>F</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>Roger Federer, PT</field-staff>
+      <title>PT</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>Professional License</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Expired - 06/22/2013</status>
+      <aging>3 day(s)</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>Roger Federer, PT</field-staff>
+      <title>PT</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>Physical</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Expiring - 07/14/2013</status>
+      <aging>19 day(s)</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>Roger Federer, PT</field-staff>
+      <title>PT</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>PPD or Chest X-Ray</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Expiring - 07/14/2013</status>
+      <aging>19 day(s)</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>Steffi Graf, PT</field-staff>
+      <title>PT</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>Driver License</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>F</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>Steffi Graf, PT</field-staff>
+      <title>PT</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>Auto Insurance</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>Steffi Graf, PT</field-staff>
+      <title>PT</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>Professional License</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>Steffi Graf, PT</field-staff>
+      <title>PT</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>MalPractice Insurance</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>Steffi Graf, PT</field-staff>
+      <title>PT</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>Physical</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>Steffi Graf, PT</field-staff>
+      <title>PT</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>PPD or Chest X-Ray</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>Herta Minard, RN</field-staff>
+      <title>RN</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>Competency</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>F</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>Porter Robinson, LVN</field-staff>
+      <title>LVN</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>Competency</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>F</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>Andy Roddick, OT</field-staff>
+      <title>OT</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>CPR</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>F</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>Joe Blanks, PT</field-staff>
+      <title>PT</title>
+      <agency-name>Blue Water Therapy Staffing</agency-name>
+      <Credential>Auto Insurance</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>F</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>Joe Blanks, PT</field-staff>
+      <title>PT</title>
+      <agency-name>Blue Water Therapy Staffing</agency-name>
+      <Credential>Professional License</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>Joe Blanks, PT</field-staff>
+      <title>PT</title>
+      <agency-name>Blue Water Therapy Staffing</agency-name>
+      <Credential>MalPractice Insurance</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>Joe Blanks, PT</field-staff>
+      <title>PT</title>
+      <agency-name>Blue Water Therapy Staffing</agency-name>
+      <Credential>Physical</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>Joe Blanks, PT</field-staff>
+      <title>PT</title>
+      <agency-name>Blue Water Therapy Staffing</agency-name>
+      <Credential>PPD or Chest X-Ray</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>Joe Blanks, PT</field-staff>
+      <title>PT</title>
+      <agency-name>Blue Water Therapy Staffing</agency-name>
+      <Credential>Driver License</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Expired - 05/20/2013</status>
+      <aging>36 day(s)</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+  </field-staff-credentials>
+  <staffing-company-credentials type="array">
+    <staffing-company-credential>
+      <field-staff>Joe Blanks, PT</field-staff>
+      <title>PT</title>
+      <agency-name>Blue Water Therapy Staffing</agency-name>
+      <Credential>Auto Insurance</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <staffing-company>Blue Water Therapy Staffing</staffing-company>
+    </staffing-company-credential>
+    <staffing-company-credential>
+      <field-staff>Joe Blanks, PT</field-staff>
+      <title>PT</title>
+      <agency-name>Blue Water Therapy Staffing</agency-name>
+      <Credential>Professional License</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <staffing-company>Blue Water Therapy Staffing</staffing-company>
+    </staffing-company-credential>
+    <staffing-company-credential>
+      <field-staff>Joe Blanks, PT</field-staff>
+      <title>PT</title>
+      <agency-name>Blue Water Therapy Staffing</agency-name>
+      <Credential>MalPractice Insurance</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <staffing-company>Blue Water Therapy Staffing</staffing-company>
+    </staffing-company-credential>
+    <staffing-company-credential>
+      <field-staff>Joe Blanks, PT</field-staff>
+      <title>PT</title>
+      <agency-name>Blue Water Therapy Staffing</agency-name>
+      <Credential>Physical</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <staffing-company>Blue Water Therapy Staffing</staffing-company>
+    </staffing-company-credential>
+    <staffing-company-credential>
+      <field-staff>Joe Blanks, PT</field-staff>
+      <title>PT</title>
+      <agency-name>Blue Water Therapy Staffing</agency-name>
+      <Credential>PPD or Chest X-Ray</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <staffing-company>Blue Water Therapy Staffing</staffing-company>
+    </staffing-company-credential>
+    <staffing-company-credential>
+      <field-staff>Joe Blanks, PT</field-staff>
+      <title>PT</title>
+      <agency-name>Blue Water Therapy Staffing</agency-name>
+      <Credential>Driver License</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Expired - 05/20/2013</status>
+      <aging>36 day(s)</aging>
+      <staffing-company>Blue Water Therapy Staffing</staffing-company>
+    </staffing-company-credential>
+  </staffing-company-credentials>
+  <individual-fs-credentials type="array">
+    <individual-fs-credential>
+      <field-staff>Andrew Anderson, LVN</field-staff>
+      <title>LVN</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>Competency</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+    </individual-fs-credential>
+    <individual-fs-credential>
+      <field-staff>Boris Becker, PTA</field-staff>
+      <title>PTA</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>Driver License</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+    </individual-fs-credential>
+    <individual-fs-credential>
+      <field-staff>Boris Becker, PTA</field-staff>
+      <title>PTA</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>Auto Insurance</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+    </individual-fs-credential>
+    <individual-fs-credential>
+      <field-staff>Boris Becker, PTA</field-staff>
+      <title>PTA</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>Professional License</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+    </individual-fs-credential>
+    <individual-fs-credential>
+      <field-staff>Boris Becker, PTA</field-staff>
+      <title>PTA</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>MalPractice Insurance</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+    </individual-fs-credential>
+    <individual-fs-credential>
+      <field-staff>Boris Becker, PTA</field-staff>
+      <title>PTA</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>Physical</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+    </individual-fs-credential>
+    <individual-fs-credential>
+      <field-staff>Boris Becker, PTA</field-staff>
+      <title>PTA</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>PPD or Chest X-Ray</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+    </individual-fs-credential>
+    <individual-fs-credential>
+      <field-staff>Adam Bishop, PTA</field-staff>
+      <title>PTA</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>Auto Insurance</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+    </individual-fs-credential>
+    <individual-fs-credential>
+      <field-staff>Adam Bishop, PTA</field-staff>
+      <title>PTA</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>Professional License</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+    </individual-fs-credential>
+    <individual-fs-credential>
+      <field-staff>Adam Bishop, PTA</field-staff>
+      <title>PTA</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>MalPractice Insurance</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+    </individual-fs-credential>
+    <individual-fs-credential>
+      <field-staff>Adam Bishop, PTA</field-staff>
+      <title>PTA</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>Physical</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+    </individual-fs-credential>
+    <individual-fs-credential>
+      <field-staff>Adam Bishop, PTA</field-staff>
+      <title>PTA</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>PPD or Chest X-Ray</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+    </individual-fs-credential>
+    <individual-fs-credential>
+      <field-staff>Portia Di Rossi, OT</field-staff>
+      <title>OT</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>CPR</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+    </individual-fs-credential>
+    <individual-fs-credential>
+      <field-staff>Roger Federer, PT</field-staff>
+      <title>PT</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>Auto Insurance</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Expired - 04/25/2013</status>
+      <aging>61 day(s)</aging>
+    </individual-fs-credential>
+    <individual-fs-credential>
+      <field-staff>Roger Federer, PT</field-staff>
+      <title>PT</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>Professional License</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Expired - 06/22/2013</status>
+      <aging>3 day(s)</aging>
+    </individual-fs-credential>
+    <individual-fs-credential>
+      <field-staff>Roger Federer, PT</field-staff>
+      <title>PT</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>Physical</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Expiring - 07/14/2013</status>
+      <aging>19 day(s)</aging>
+    </individual-fs-credential>
+    <individual-fs-credential>
+      <field-staff>Roger Federer, PT</field-staff>
+      <title>PT</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>PPD or Chest X-Ray</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Expiring - 07/14/2013</status>
+      <aging>19 day(s)</aging>
+    </individual-fs-credential>
+    <individual-fs-credential>
+      <field-staff>Steffi Graf, PT</field-staff>
+      <title>PT</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>Driver License</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+    </individual-fs-credential>
+    <individual-fs-credential>
+      <field-staff>Steffi Graf, PT</field-staff>
+      <title>PT</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>Auto Insurance</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+    </individual-fs-credential>
+    <individual-fs-credential>
+      <field-staff>Steffi Graf, PT</field-staff>
+      <title>PT</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>Professional License</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+    </individual-fs-credential>
+    <individual-fs-credential>
+      <field-staff>Steffi Graf, PT</field-staff>
+      <title>PT</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>MalPractice Insurance</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+    </individual-fs-credential>
+    <individual-fs-credential>
+      <field-staff>Steffi Graf, PT</field-staff>
+      <title>PT</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>Physical</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+    </individual-fs-credential>
+    <individual-fs-credential>
+      <field-staff>Steffi Graf, PT</field-staff>
+      <title>PT</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>PPD or Chest X-Ray</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+    </individual-fs-credential>
+    <individual-fs-credential>
+      <field-staff>Herta Minard, RN</field-staff>
+      <title>RN</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>Competency</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+    </individual-fs-credential>
+    <individual-fs-credential>
+      <field-staff>Porter Robinson, LVN</field-staff>
+      <title>LVN</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>Competency</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+    </individual-fs-credential>
+    <individual-fs-credential>
+      <field-staff>Andy Roddick, OT</field-staff>
+      <title>OT</title>
+      <agency-name>ABC Home Health Care, Inc.</agency-name>
+      <Credential>CPR</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+    </individual-fs-credential>
+  </individual-fs-credentials>
+  <period-covers-from>01/01/13</period-covers-from>
+  <period-covers-to>12/31/13</period-covers-to>
+  <agency-provider-number>123456</agency-provider-number>
+  <cost-visits type="array">
+    <cost-visit>
+      <description>Physical Therapy</description>
+      <medicare-visits>6</medicare-visits>
+      <other-visits type="integer">0</other-visits>
+      <total-visits type="integer">6</total-visits>
+      <medicare-patients>6</medicare-patients>
+      <other-patients type="integer">0</other-patients>
+      <total-patients type="integer">6</total-patients>
+    </cost-visit>
+    <cost-visit>
+      <description>Occupational Therapy</description>
+      <medicare-visits type="integer">0</medicare-visits>
+      <other-visits type="integer">0</other-visits>
+      <total-visits type="integer">0</total-visits>
+      <medicare-patients>3</medicare-patients>
+      <other-patients type="integer">0</other-patients>
+      <total-patients type="integer">3</total-patients>
+    </cost-visit>
+    <cost-visit>
+      <description>Speech Therapy</description>
+      <medicare-visits>1</medicare-visits>
+      <other-visits type="integer">0</other-visits>
+      <total-visits type="integer">1</total-visits>
+      <medicare-patients>3</medicare-patients>
+      <other-patients type="integer">0</other-patients>
+      <total-patients type="integer">3</total-patients>
+    </cost-visit>
+    <cost-visit>
+      <description>Skilled Nursing</description>
+      <medicare-visits>30</medicare-visits>
+      <other-visits type="integer">0</other-visits>
+      <total-visits type="integer">30</total-visits>
+      <medicare-patients>8</medicare-patients>
+      <other-patients type="integer">0</other-patients>
+      <total-patients type="integer">8</total-patients>
+    </cost-visit>
+    <cost-visit>
+      <description>Social Worker</description>
+      <medicare-visits type="integer">0</medicare-visits>
+      <other-visits type="integer">0</other-visits>
+      <total-visits type="integer">0</total-visits>
+      <medicare-patients>3</medicare-patients>
+      <other-patients type="integer">0</other-patients>
+      <total-patients type="integer">3</total-patients>
+    </cost-visit>
+    <cost-visit>
+      <description>Home Health Aide</description>
+      <medicare-visits type="integer">0</medicare-visits>
+      <other-visits type="integer">0</other-visits>
+      <total-visits type="integer">0</total-visits>
+      <medicare-patients>3</medicare-patients>
+      <other-patients type="integer">0</other-patients>
+      <total-patients type="integer">3</total-patients>
+    </cost-visit>
+    <cost-visit>
+      <description>Total Visists [Sum of Lines 1-7]</description>
+      <medicare-visits type="integer">37</medicare-visits>
+      <other-visits type="integer">0</other-visits>
+      <total-visits type="integer">37</total-visits>
+      <medicare-patients/>
+      <other-patients/>
+      <total-patients/>
+    </cost-visit>
+    <cost-visit>
+      <description>Home Health Aide Hours</description>
+      <medicare-visits/>
+      <other-visits/>
+      <total-visits/>
+      <medicare-patients/>
+      <other-patients/>
+      <total-patients/>
+    </cost-visit>
+    <cost-visit>
+      <description>Unduplicated Census Count - Full Cost Reporting Period</description>
+      <medicare-visits/>
+      <other-visits/>
+      <total-visits/>
+      <medicare-patients type="integer">0</medicare-patients>
+      <other-patients type="integer">0</other-patients>
+      <total-patients type="integer">0</total-patients>
+    </cost-visit>
+  </cost-visits>
+  <period-covers-string>Period Covers From Jan 01, 2013 To Dec 31, 2013</period-covers-string>
+  <street-address-string>STREET: 1680 N. Vine St. suite 123</street-address-string>
+  <agency-address-string>1680 N. Vine St. &lt;b&gt;.&lt;/b&gt; 123 &lt;b&gt;.&lt;/b&gt; Los Angeles CA 90028</agency-address-string>
+  <printed-date>06/252013,19:24:02PM</printed-date>
+  <msa-codes-list type="array">
+    <msa-codes-list>
+      <msa-code>5200</msa-code>
+      <repeating-county>F</repeating-county>
+      <msa-record-number type="integer">29</msa-record-number>
+    </msa-codes-list>
+    <msa-codes-list>
+      <msa-code>5200</msa-code>
+      <repeating-county>T</repeating-county>
+      <msa-record-number type="float">29.01</msa-record-number>
+    </msa-codes-list>
+    <msa-codes-list>
+      <msa-code>5200</msa-code>
+      <repeating-county>T</repeating-county>
+      <msa-record-number type="float">29.02</msa-record-number>
+    </msa-codes-list>
+    <msa-codes-list>
+      <msa-code>5200</msa-code>
+      <repeating-county>T</repeating-county>
+      <msa-record-number type="float">29.03</msa-record-number>
+    </msa-codes-list>
+  </msa-codes-list>
+  <medicare-services-area-count type="integer">4</medicare-services-area-count>
+  <pps-visits type="array">
+    <pps-visit>
+      <full-episode-with-out-outliers type="integer">2</full-episode-with-out-outliers>
+      <full-episode-with-outliers type="integer">0</full-episode-with-outliers>
+      <lupa-episodes type="integer">1</lupa-episodes>
+      <pep-only-episodes type="integer">0</pep-only-episodes>
+      <scic-within-a-pep type="integer">0</scic-within-a-pep>
+      <scic-only-episodes type="integer">0</scic-only-episodes>
+      <totals type="integer">3</totals>
+      <count type="integer">30</count>
+      <description>Physical Therapy visits</description>
+    </pps-visit>
+    <pps-visit>
+      <full-episode-with-out-outliers type="integer">180</full-episode-with-out-outliers>
+      <full-episode-with-outliers type="integer">0</full-episode-with-outliers>
+      <lupa-episodes type="integer">90</lupa-episodes>
+      <pep-only-episodes type="integer">0</pep-only-episodes>
+      <scic-within-a-pep type="integer">0</scic-within-a-pep>
+      <scic-only-episodes type="integer">0</scic-only-episodes>
+      <totals type="integer">270</totals>
+      <count type="integer">31</count>
+      <description>Physical Therapy charges</description>
+    </pps-visit>
+    <pps-visit>
+      <full-episode-with-out-outliers type="integer">0</full-episode-with-out-outliers>
+      <full-episode-with-outliers type="integer">0</full-episode-with-outliers>
+      <lupa-episodes type="integer">0</lupa-episodes>
+      <pep-only-episodes type="integer">0</pep-only-episodes>
+      <scic-within-a-pep type="integer">0</scic-within-a-pep>
+      <scic-only-episodes type="integer">0</scic-only-episodes>
+      <totals type="integer">0</totals>
+      <count type="integer">32</count>
+      <description>Occupational Therapy visits</description>
+    </pps-visit>
+    <pps-visit>
+      <full-episode-with-out-outliers type="integer">0</full-episode-with-out-outliers>
+      <full-episode-with-outliers type="integer">0</full-episode-with-outliers>
+      <lupa-episodes type="integer">0</lupa-episodes>
+      <pep-only-episodes type="integer">0</pep-only-episodes>
+      <scic-within-a-pep type="integer">0</scic-within-a-pep>
+      <scic-only-episodes type="integer">0</scic-only-episodes>
+      <totals type="integer">0</totals>
+      <count type="integer">33</count>
+      <description>Occupational Therapy charges</description>
+    </pps-visit>
+    <pps-visit>
+      <full-episode-with-out-outliers type="integer">0</full-episode-with-out-outliers>
+      <full-episode-with-outliers type="integer">0</full-episode-with-outliers>
+      <lupa-episodes type="integer">0</lupa-episodes>
+      <pep-only-episodes type="integer">0</pep-only-episodes>
+      <scic-within-a-pep type="integer">0</scic-within-a-pep>
+      <scic-only-episodes type="integer">0</scic-only-episodes>
+      <totals type="integer">0</totals>
+      <count type="integer">34</count>
+      <description>Speech Therapy visits</description>
+    </pps-visit>
+    <pps-visit>
+      <full-episode-with-out-outliers type="integer">0</full-episode-with-out-outliers>
+      <full-episode-with-outliers type="integer">0</full-episode-with-outliers>
+      <lupa-episodes type="integer">0</lupa-episodes>
+      <pep-only-episodes type="integer">0</pep-only-episodes>
+      <scic-within-a-pep type="integer">0</scic-within-a-pep>
+      <scic-only-episodes type="integer">0</scic-only-episodes>
+      <totals type="integer">0</totals>
+      <count type="integer">35</count>
+      <description>Speech Therapy charges</description>
+    </pps-visit>
+    <pps-visit>
+      <full-episode-with-out-outliers type="integer">17</full-episode-with-out-outliers>
+      <full-episode-with-outliers type="integer">0</full-episode-with-outliers>
+      <lupa-episodes type="integer">0</lupa-episodes>
+      <pep-only-episodes type="integer">0</pep-only-episodes>
+      <scic-within-a-pep type="integer">0</scic-within-a-pep>
+      <scic-only-episodes type="integer">0</scic-only-episodes>
+      <totals type="integer">17</totals>
+      <count type="integer">36</count>
+      <description>Skilled Nursing visits</description>
+    </pps-visit>
+    <pps-visit>
+      <full-episode-with-out-outliers type="integer">1200</full-episode-with-out-outliers>
+      <full-episode-with-outliers type="integer">0</full-episode-with-outliers>
+      <lupa-episodes type="integer">0</lupa-episodes>
+      <pep-only-episodes type="integer">0</pep-only-episodes>
+      <scic-within-a-pep type="integer">0</scic-within-a-pep>
+      <scic-only-episodes type="integer">0</scic-only-episodes>
+      <totals type="integer">1200</totals>
+      <count type="integer">37</count>
+      <description>Skilled Nursing charges</description>
+    </pps-visit>
+    <pps-visit>
+      <full-episode-with-out-outliers type="integer">0</full-episode-with-out-outliers>
+      <full-episode-with-outliers type="integer">0</full-episode-with-outliers>
+      <lupa-episodes type="integer">0</lupa-episodes>
+      <pep-only-episodes type="integer">0</pep-only-episodes>
+      <scic-within-a-pep type="integer">0</scic-within-a-pep>
+      <scic-only-episodes type="integer">0</scic-only-episodes>
+      <totals type="integer">0</totals>
+      <count type="integer">38</count>
+      <description>Social Worker visits</description>
+    </pps-visit>
+    <pps-visit>
+      <full-episode-with-out-outliers type="integer">0</full-episode-with-out-outliers>
+      <full-episode-with-outliers type="integer">0</full-episode-with-outliers>
+      <lupa-episodes type="integer">0</lupa-episodes>
+      <pep-only-episodes type="integer">0</pep-only-episodes>
+      <scic-within-a-pep type="integer">0</scic-within-a-pep>
+      <scic-only-episodes type="integer">0</scic-only-episodes>
+      <totals type="integer">0</totals>
+      <count type="integer">39</count>
+      <description>Social Worker charges</description>
+    </pps-visit>
+    <pps-visit>
+      <full-episode-with-out-outliers type="integer">0</full-episode-with-out-outliers>
+      <full-episode-with-outliers type="integer">0</full-episode-with-outliers>
+      <lupa-episodes type="integer">0</lupa-episodes>
+      <pep-only-episodes type="integer">0</pep-only-episodes>
+      <scic-within-a-pep type="integer">0</scic-within-a-pep>
+      <scic-only-episodes type="integer">0</scic-only-episodes>
+      <totals type="integer">0</totals>
+      <count type="integer">40</count>
+      <description>Home Health Aide visits</description>
+    </pps-visit>
+    <pps-visit>
+      <full-episode-with-out-outliers type="integer">0</full-episode-with-out-outliers>
+      <full-episode-with-outliers type="integer">0</full-episode-with-outliers>
+      <lupa-episodes type="integer">0</lupa-episodes>
+      <pep-only-episodes type="integer">0</pep-only-episodes>
+      <scic-within-a-pep type="integer">0</scic-within-a-pep>
+      <scic-only-episodes type="integer">0</scic-only-episodes>
+      <totals type="integer">0</totals>
+      <count type="integer">41</count>
+      <description>Home Health Aide charges</description>
+    </pps-visit>
+    <pps-visit>
+      <full-episode-with-out-outliers type="integer">19</full-episode-with-out-outliers>
+      <full-episode-with-outliers type="integer">0</full-episode-with-outliers>
+      <lupa-episodes type="integer">1</lupa-episodes>
+      <pep-only-episodes type="integer">0</pep-only-episodes>
+      <scic-within-a-pep type="integer">0</scic-within-a-pep>
+      <scic-only-episodes type="integer">0</scic-only-episodes>
+      <totals type="integer">20</totals>
+      <count type="integer">42</count>
+      <description>Total Visits (Sum of Lines 30, 32, 34, 36, 38, 40)</description>
+    </pps-visit>
+    <pps-visit>
+      <description>Other Charges</description>
+      <full-episode-with-out-outliers type="integer">0</full-episode-with-out-outliers>
+      <full-episode-with-outliers type="integer">0</full-episode-with-outliers>
+      <lupa-episodes type="integer">0</lupa-episodes>
+      <pep-only-episodes type="integer">0</pep-only-episodes>
+      <scic-within-a-pep type="integer">0</scic-within-a-pep>
+      <scic-only-episodes type="integer">0</scic-only-episodes>
+      <totals type="integer">0</totals>
+      <count type="integer">43</count>
+    </pps-visit>
+    <pps-visit>
+      <full-episode-with-out-outliers type="integer">1380</full-episode-with-out-outliers>
+      <full-episode-with-outliers type="integer">0</full-episode-with-outliers>
+      <lupa-episodes type="integer">90</lupa-episodes>
+      <pep-only-episodes type="integer">0</pep-only-episodes>
+      <scic-within-a-pep type="integer">0</scic-within-a-pep>
+      <scic-only-episodes type="integer">0</scic-only-episodes>
+      <totals type="integer">1470</totals>
+      <count type="integer">44</count>
+      <description>Total Charges (Sum of lines 31, 33, 35, 37, 39, 41, 43)</description>
+    </pps-visit>
+    <pps-visit>
+      <description>Total Number of Episodes</description>
+      <full-episode-with-out-outliers type="integer">20</full-episode-with-out-outliers>
+      <full-episode-with-outliers type="integer">0</full-episode-with-outliers>
+      <lupa-episodes type="integer">0</lupa-episodes>
+      <pep-only-episodes type="integer">0</pep-only-episodes>
+      <scic-within-a-pep type="integer">0</scic-within-a-pep>
+      <scic-only-episodes type="integer">0</scic-only-episodes>
+      <totals type="integer">0</totals>
+      <count type="integer">45</count>
+    </pps-visit>
+    <pps-visit>
+      <description>Total Number of Outlier Episodes</description>
+      <full-episode-with-out-outliers type="integer">0</full-episode-with-out-outliers>
+      <full-episode-with-outliers type="integer">0</full-episode-with-outliers>
+      <lupa-episodes type="integer">0</lupa-episodes>
+      <pep-only-episodes type="integer">0</pep-only-episodes>
+      <scic-within-a-pep type="integer">0</scic-within-a-pep>
+      <scic-only-episodes type="integer">0</scic-only-episodes>
+      <totals type="integer">0</totals>
+      <count type="integer">46</count>
+    </pps-visit>
+    <pps-visit>
+      <description>Total Non-Routine Medical Supply Charges</description>
+      <full-episode-with-out-outliers type="integer">75</full-episode-with-out-outliers>
+      <full-episode-with-outliers type="integer">0</full-episode-with-outliers>
+      <lupa-episodes type="integer">0</lupa-episodes>
+      <pep-only-episodes type="integer">0</pep-only-episodes>
+      <scic-within-a-pep type="integer">0</scic-within-a-pep>
+      <scic-only-episodes type="integer">0</scic-only-episodes>
+      <totals type="integer">0</totals>
+      <count type="integer">47</count>
+    </pps-visit>
+  </pps-visits>
+</health-agency>

@@ -1,0 +1,184 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="medications_subreport" language="groovy" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="e065c3eb-b4f3-45ce-90a8-ad3b63fb2fcb">
+	<property name="ireport.zoom" value="1.3310000000000086"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/plan-of-care/medications/medication]]>
+	</queryString>
+	<field name="name" class="java.lang.String">
+		<fieldDescription><![CDATA[name]]></fieldDescription>
+	</field>
+	<field name="frequency" class="java.lang.String">
+		<fieldDescription><![CDATA[frequency]]></fieldDescription>
+	</field>
+	<field name="code" class="java.lang.String">
+		<fieldDescription><![CDATA[code]]></fieldDescription>
+	</field>
+	<field name="start-date" class="java.lang.String">
+		<fieldDescription><![CDATA[start-date]]></fieldDescription>
+	</field>
+	<field name="dosage-form" class="java.lang.String">
+		<fieldDescription><![CDATA[dosage-form]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="15" splitType="Stretch">
+			<elementGroup>
+				<staticText>
+					<reportElement uuid="80c56fbf-b528-4af1-872d-340391b6fa15" positionType="Float" stretchType="RelativeToTallestObject" x="486" y="0" width="70" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<box>
+						<topPen lineWidth="0.25"/>
+						<bottomPen lineWidth="0.25"/>
+						<rightPen lineWidth="0.25"/>
+					</box>
+					<textElement textAlignment="Center">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="4" spacingBefore="2"/>
+					</textElement>
+					<text><![CDATA[Start Date]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="80c56fbf-b528-4af1-872d-340391b6fa15" positionType="Float" stretchType="RelativeToTallestObject" x="281" y="0" width="168" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<box>
+						<topPen lineWidth="0.25"/>
+						<bottomPen lineWidth="0.25"/>
+						<rightPen lineWidth="0.25"/>
+					</box>
+					<textElement textAlignment="Center">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="4" spacingBefore="2"/>
+					</textElement>
+					<text><![CDATA[Frequency]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="80c56fbf-b528-4af1-872d-340391b6fa15" positionType="Float" stretchType="RelativeToTallestObject" x="170" y="0" width="112" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<box>
+						<topPen lineWidth="0.25"/>
+						<bottomPen lineWidth="0.25"/>
+						<rightPen lineWidth="0.25"/>
+					</box>
+					<textElement textAlignment="Center">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="4" spacingBefore="2"/>
+					</textElement>
+					<text><![CDATA[Dosage]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="94f2a830-2b69-485b-9657-fdaa8035d80a" positionType="Float" stretchType="RelativeToTallestObject" x="0" y="0" width="22" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<box>
+						<topPen lineWidth="0.25"/>
+						<leftPen lineWidth="0.25"/>
+						<bottomPen lineWidth="0.25"/>
+					</box>
+					<textElement/>
+					<text><![CDATA[]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="80c56fbf-b528-4af1-872d-340391b6fa15" positionType="Float" stretchType="RelativeToTallestObject" x="449" y="0" width="37" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<box>
+						<topPen lineWidth="0.25"/>
+						<bottomPen lineWidth="0.25"/>
+						<rightPen lineWidth="0.25"/>
+					</box>
+					<textElement textAlignment="Center">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="4" spacingBefore="2"/>
+					</textElement>
+					<text><![CDATA[Type]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="80c56fbf-b528-4af1-872d-340391b6fa15" positionType="Float" stretchType="RelativeToTallestObject" x="22" y="0" width="148" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<box>
+						<topPen lineWidth="0.25"/>
+						<leftPen lineWidth="0.25"/>
+						<bottomPen lineWidth="0.25"/>
+						<rightPen lineWidth="0.25"/>
+					</box>
+					<textElement textAlignment="Center">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="4" spacingBefore="2"/>
+					</textElement>
+					<text><![CDATA[Medications]]></text>
+				</staticText>
+			</elementGroup>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="14" splitType="Stretch">
+			<elementGroup>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement uuid="e92f937b-8301-4e42-866f-e11aa8944a3b" positionType="Float" stretchType="RelativeToTallestObject" x="486" y="0" width="70" height="14" isPrintWhenDetailOverflows="true"/>
+					<box topPadding="2" bottomPadding="2">
+						<bottomPen lineWidth="0.25"/>
+						<rightPen lineWidth="0.25"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{start-date}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement uuid="3b1afc24-93d1-4e4b-9eb3-13c4f2ed3f68" positionType="Float" stretchType="RelativeToTallestObject" x="449" y="0" width="37" height="14" isPrintWhenDetailOverflows="true"/>
+					<box topPadding="2" bottomPadding="2">
+						<bottomPen lineWidth="0.25"/>
+						<rightPen lineWidth="0.25"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{code}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement uuid="20acde18-ee2e-49c2-9a74-d510a243b3cb" positionType="Float" stretchType="RelativeToTallestObject" x="170" y="0" width="112" height="14" isPrintWhenDetailOverflows="true"/>
+					<box topPadding="2" bottomPadding="2">
+						<bottomPen lineWidth="0.25"/>
+						<rightPen lineWidth="0.25"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{dosage-form}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement uuid="80c5fe1c-1536-448f-8f3f-eefa0da5506d" positionType="Float" stretchType="RelativeToTallestObject" x="0" y="0" width="22" height="14" isPrintWhenDetailOverflows="true"/>
+					<box topPadding="2" bottomPadding="2">
+						<leftPen lineWidth="0.25"/>
+						<bottomPen lineWidth="0.25"/>
+						<rightPen lineWidth="0.25"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle" markup="none">
+						<font isBold="true"/>
+						<paragraph leftIndent="4" spacingBefore="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{REPORT_COUNT}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement uuid="0310daf4-2358-44b9-b2ae-237bc732586a" positionType="Float" stretchType="RelativeToTallestObject" x="281" y="0" width="168" height="14" isPrintWhenDetailOverflows="true"/>
+					<box topPadding="2" bottomPadding="2">
+						<bottomPen lineWidth="0.25"/>
+						<rightPen lineWidth="0.25"/>
+					</box>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{frequency}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement uuid="5fd16549-2bfb-4862-bcdc-2ec61ade7edf" positionType="Float" stretchType="RelativeToTallestObject" x="22" y="0" width="148" height="14" isPrintWhenDetailOverflows="true"/>
+					<box topPadding="2" bottomPadding="2">
+						<bottomPen lineWidth="0.25"/>
+						<rightPen lineWidth="0.25"/>
+					</box>
+					<textElement textAlignment="Left" verticalAlignment="Middle">
+						<font size="9"/>
+						<paragraph leftIndent="4" rightIndent="1"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
+				</textField>
+			</elementGroup>
+		</band>
+	</detail>
+</jasperReport>

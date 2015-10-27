@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="preventive_subreport" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="be523264-d147-4c98-b918-d683b1255dac">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/elgh-response/smoking-cessation/counselling-periods/counselling-period]]>
+	</queryString>
+	<field name="number-of-remaining-sessions" class="java.lang.String">
+		<fieldDescription><![CDATA[number-of-remaining-sessions]]></fieldDescription>
+	</field>
+	<field name="total-sessions" class="java.lang.String">
+		<fieldDescription><![CDATA[total-sessions]]></fieldDescription>
+	</field>
+	<field name="next-session-date" class="java.lang.String">
+		<fieldDescription><![CDATA[next-session-date]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="36">
+			<printWhenExpression><![CDATA[$F{number-of-remaining-sessions}!=null ||
+$F{total-sessions}!=null ||
+$F{next-session-date}!=null]]></printWhenExpression>
+			<staticText>
+				<reportElement uuid="208b2504-c14d-42c2-a7b1-22333406a9f5" mode="Opaque" x="0" y="2" width="555" height="15" backcolor="#DFD4D4"/>
+				<textElement>
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Smoking Cessation]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="fa9693c3-662f-4cce-b1a4-7c03fa2db44f" mode="Opaque" x="4" y="21" width="171" height="15" backcolor="#F0ECEC"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Sessions Remaining]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="1e575971-e576-4584-ab99-f00ca3fedb61" mode="Opaque" x="175" y="21" width="170" height="15" backcolor="#F0ECEC"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Total Sessions]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="36f6f272-ddae-4c9e-9038-66d5ed15237b" mode="Opaque" x="345" y="21" width="198" height="15" backcolor="#F0ECEC"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Next Session Date]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="18" splitType="Stretch">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="b0520324-fd37-4cda-abaf-4b009f536194" x="175" y="2" width="170" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{total-sessions}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="577d4da0-3f18-40b0-a77a-75ecff58bd9e" x="4" y="1" width="171" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{number-of-remaining-sessions}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="a61def40-bfe3-4467-bf10-cf0cea27172f" x="345" y="1" width="198" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{next-session-date}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

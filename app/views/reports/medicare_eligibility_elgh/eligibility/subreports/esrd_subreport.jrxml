@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="esrd_subreport" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="f5f9a78a-237b-4fdb-83c0-ceb11e810b38">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/elgh-response/beneficiary-information/esrd-details/esrd-detail]]>
+	</queryString>
+	<field name="esrd-code" class="java.lang.String">
+		<fieldDescription><![CDATA[esrd-code]]></fieldDescription>
+	</field>
+	<field name="esrd-code-effective-date" class="java.lang.String">
+		<fieldDescription><![CDATA[esrd-code-effective-date]]></fieldDescription>
+	</field>
+	<field name="transplant-discharge-date" class="java.lang.String">
+		<fieldDescription><![CDATA[transplant-discharge-date]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="38" splitType="Prevent">
+			<printWhenExpression><![CDATA[$F{esrd-code}!=null ||
+$F{esrd-code-effective-date}!=null ||
+$F{transplant-discharge-date}!=null]]></printWhenExpression>
+			<staticText>
+				<reportElement uuid="dc025ff9-6628-4a13-9026-eaba73c9411e" mode="Opaque" x="5" y="23" width="143" height="15" backcolor="#F0ECEC"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Effective Date]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="e7aaec58-9f02-4265-a1a7-303bd0a47cc8" mode="Opaque" x="148" y="23" width="202" height="15" backcolor="#F0ECEC"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Description & Service Type Code]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="f6f49d53-5956-4e94-804a-81207c8c30f9" mode="Opaque" x="350" y="23" width="155" height="15" backcolor="#F0ECEC"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Transplant Discharge Date]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="208b2504-c14d-42c2-a7b1-22333406a9f5" mode="Opaque" x="0" y="1" width="555" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" backcolor="#DFD5D5"/>
+				<textElement>
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[End Stage Renal Disease(ESRD)]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="18" splitType="Prevent">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="af10fb36-8bf4-4da5-9c56-2223498f12fb" x="5" y="1" width="143" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Left"/>
+				<textFieldExpression><![CDATA[$F{esrd-code-effective-date}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="82601834-5c33-47a2-8114-e39ad8c85485" x="148" y="1" width="202" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{esrd-code}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="0d0afade-6b6d-4397-b774-f196022bb3fb" x="350" y="1" width="155" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{transplant-discharge-date}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

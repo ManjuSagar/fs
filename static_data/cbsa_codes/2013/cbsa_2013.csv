@@ -1,0 +1,3262 @@
+code,Name,State,CBSA,wage_index
+45230,Callahan, Texas  ,10180,0.8324
+45721,Jones, Texas  ,10180,0.8324
+45911,Taylor, Texas  ,10180,0.8324
+40020,Aguada, Puerto Rico  ,10380,0.3532
+40030,Aguadilla, Puerto Rico  ,10380,0.3532
+40060,Anasco, Puerto Rico  ,10380,0.3532
+40350,Isabela, Puerto Rico  ,10380,0.3532
+40400,Lares, Puerto Rico  ,10380,0.3532
+40490,Moca, Puerto Rico  ,10380,0.3532
+40580,Rincon, Puerto Rico  ,10380,0.3532
+40660,San Sebastian, Puerto Rico  ,10380,0.3532
+36680,Portage, Ohio,10420,0.8729
+36780,Summit, Ohio,10420,0.8729
+11020,Baker, Georgia  ,10500,0.8435
+11390,Dougherty, Georgia  ,10500,0.8435
+11670,Lee, Georgia  ,10500,0.8435
+11885,Terrell, Georgia  ,10500,0.8435
+11980,Worth, Georgia  ,10500,0.8435
+33000,Albany, New York  ,10580,0.8647
+33600,Rensselaer, New York  ,10580,0.8647
+33640,Saratoga, New York  ,10580,0.8647
+33650,Schenectady, New York  ,10580,0.8647
+33660,Schoharie, New York  ,10580,0.8647
+32000,Bernalillo, New Mexico  ,10740,0.9542
+32210,Sandoval, New Mexico  ,10740,0.9542
+32280,Torrance, New Mexico  ,10740,0.9542
+32300,Valencia, New Mexico  ,10740,0.9542
+19210,Grant, Louisiana  ,10780,0.7857
+19390,Rapides, Louisiana  ,10780,0.7857
+39190,Carbon, Pennsylvania  ,10900,0.9084
+39470,Lehigh, Pennsylvania  ,10900,0.9084
+39590,Northampton, Pennsylvania  ,10900,0.9084
+31390,Warren, New Jersey,10900,0.9084
+39120,Blair, Pennsylvania  ,11020,0.8898
+45050,Armstrong, Texas  ,11100,0.8506
+45251,Carson, Texas  ,11100,0.8506
+45860,Potter, Texas  ,11100,0.8506
+45871,Randall, Texas  ,11100,0.8506
+16840,Story, Iowa  ,11180,0.9595
+2020,Anchorage, Alaska  ,11260,1.2147
+2170,Matanuska, Alaska  ,11260,1.2147
+15470,Madison, Indiana  ,11300,0.9547
+42030,Anderson, S Carolina  ,11340,0.8929
+23800,Washtenaw, Michigan  ,11460,1.0115
+1070,Calhoun, Alabama  ,11500,0.7539
+52070,Calumet, Wisconsin  ,11540,0.9268
+52430,Outagamie, Wisconsin  ,11540,0.9268
+34100,Buncombe, N Carolina  ,11700,0.8555
+34430,Haywood, N Carolina  ,11700,0.8555
+34440,Henderson, N Carolina  ,11700,0.8555
+34570,Madison, N Carolina  ,11700,0.8555
+11260,Clarke, Georgia  ,12020,0.9488
+11720,Madison, Georgia  ,12020,0.9488
+11800,Oconee, Georgia  ,12020,0.9488
+11801,Oglethorpe, Georgia  ,12020,0.9488
+11050,Barrow, Georgia  ,12060,0.9517
+11060,Bartow, Georgia  ,12060,0.9517
+11160,Butts, Georgia  ,12060,0.9517
+11190,Carroll, Georgia  ,12060,0.9517
+11250,Cherokee, Georgia  ,12060,0.9517
+11280,Clayton, Georgia  ,12060,0.9517
+11290,Cobb, Georgia  ,12060,0.9517
+11320,Coweta, Georgia  ,12060,0.9517
+11350,Dawson, Georgia  ,12060,0.9517
+11370,De Kalb, Georgia  ,12060,0.9517
+11400,Douglas, Georgia  ,12060,0.9517
+11451,Fayette, Georgia  ,12060,0.9517
+11461,Forsyth, Georgia  ,12060,0.9517
+11470,Fulton, Georgia  ,12060,0.9517
+11530,Gwinnett, Georgia  ,12060,0.9517
+11570,Haralson, Georgia  ,12060,0.9517
+11590,Heard, Georgia  ,12060,0.9517
+11591,Henry, Georgia  ,12060,0.9517
+11611,Jasper, Georgia  ,12060,0.9517
+11651,Lamar, Georgia  ,12060,0.9517
+11740,Meriwether, Georgia  ,12060,0.9517
+11790,Newton, Georgia  ,12060,0.9517
+11810,Paulding, Georgia  ,12060,0.9517
+11812,Pickens, Georgia  ,12060,0.9517
+11821,Pike, Georgia  ,12060,0.9517
+11841,Rockdale, Georgia  ,12060,0.9517
+11860,Spalding, Georgia  ,12060,0.9517
+11930,Walton, Georgia  ,12060,0.9517
+31000,Atlantic, New Jersey,12100,1.1977
+1400,Lee, Alabama  ,12220,0.7437
+42010,Aiken, S Carolina  ,12260,0.9373
+11150,Burke, Georgia  ,12260,0.9373
+11310,Columbia, Georgia  ,12260,0.9373
+42180,Edgefield, S Carolina  ,12260,0.9373
+11702,Mc Duffie, Georgia  ,12260,0.9373
+11840,Richmond, Georgia  ,12260,0.9373
+45100,Bastrop, Texas  ,12420,0.9746
+45223,Caldwell, Texas  ,12420,0.9746
+45631,Hays, Texas  ,12420,0.9746
+45940,Travis, Texas  ,12420,0.9746
+45970,Williamson, Texas  ,12420,0.9746
+5140,Kern, California  ,12540,1.1611
+21010,Anne Arundel, Maryland  ,12580,1.0147
+21030,Baltimore City, Maryland  ,12580,1.0147
+21020,Baltimore, Maryland  ,12580,1.0147
+21060,Carroll, Maryland  ,12580,1.0147
+21120,Harford, Maryland  ,12580,1.0147
+21130,Howard, Maryland  ,12580,1.0147
+21170,Queen Annes, Maryland  ,12580,1.0147
+20090,Penobscot, Maine  ,12620,1.0184
+22000,Barnstable, Massachusetts  ,12700,1.2843
+19020,Ascension, Louisiana  ,12940,0.8147
+19160,East Baton Rouge, Louisiana  ,12940,0.8147
+19180,East Feliciana, Louisiana  ,12940,0.8147
+19230,Iberville, Louisiana  ,12940,0.8147
+19310,Livingston, Louisiana  ,12940,0.8147
+19380,Pointe Coupee, Louisiana  ,12940,0.8147
+19450,St Helena, Louisiana  ,12940,0.8147
+19600,West Baton Rouge, Louisiana  ,12940,0.8147
+19620,West Feliciana, Louisiana  ,12940,0.8147
+23120,Calhoun, Michigan  ,12980,0.9912
+23080,Bay, Michigan  ,13020,0.9181
+45600,Hardin, Texas  ,13140,0.8533
+45700,Jefferson, Texas  ,13140,0.8533
+45840,Orange, Texas  ,13140,0.8533
+50360,Whatcom, Washington  ,13380,1.1415
+38080,Deschutes, Oregon  ,13460,1.1119
+21100,Frederick, Maryland  ,13644,1.0374
+21150,Montgomery, Maryland  ,13644,1.0374
+27040,Carbon, Montana  ,13740,0.8737
+27550,Yellowstone, Montana  ,13740,0.8737
+33030,Broome, New York  ,13780,0.8707
+33720,Tioga, New York  ,13780,0.8707
+1030,Bibb, Alabama  ,13820,0.8516
+1040,Blount, Alabama  ,13820,0.8516
+1100,Chilton, Alabama  ,13820,0.8516
+1360,Jefferson, Alabama  ,13820,0.8516
+1580,Shelby, Alabama  ,13820,0.8516
+1570,St Clair, Alabama  ,13820,0.8516
+1630,Walker, Alabama  ,13820,0.8516
+35070,Burleigh, N Dakota  ,13900,0.7261
+35290,Morton, N Dakota  ,13900,0.7261
+49350,Giles, Virginia  ,13980,0.8348
+49600,Montgomery, Virginia  ,13980,0.8348
+49770,Pulaski, Virginia  ,13980,0.8348
+49771,Radford City, Virginia  ,13980,0.8348
+15270,Greene, Indiana  ,14020,0.8752
+15520,Monroe, Indiana  ,14020,0.8752
+15590,Owen, Indiana  ,14020,0.8752
+14650,Mclean, Illinois  ,14060,0.9502
+13000,Ada, Idaho  ,14260,0.8897
+13070,Boise, Idaho  ,14260,0.8897
+13130,Canyon, Idaho  ,14260,0.8897
+13220,Gem, Idaho  ,14260,0.8897
+13360,Owyhee, Idaho  ,14260,0.8897
+22130,Norfolk, Massachusetts  ,14484,1.2378
+22150,Plymouth, Massachusetts  ,14484,1.2378
+22160,Suffolk, Massachusetts  ,14484,1.2378
+6060,Boulder, Colorado  ,14500,1.0574
+18291,Edmonson, Kentucky,14540,0.8665
+18986,Warren, Kentucky,14540,0.8665
+50170,Kitsap, Washington  ,14740,1.0829
+7000,Fairfield, Connecticut  ,14860,1.317
+45240,Cameron, Texas  ,15180,0.8612
+11110,Brantley, Georgia  ,15260,0.8792
+11490,Glynn, Georgia  ,15260,0.8792
+11703,McIntosh, Georgia  ,15260,0.8792
+33240,Erie, New York  ,15380,0.9999
+33500,Niagara, New York  ,15380,0.9999
+34000,Alamance, N Carolina  ,15500,0.8485
+47030,Chittenden, Vermont  ,15540,0.9997
+47050,Franklin, Vermont  ,15540,0.9997
+47060,Grand Isle, Vermont  ,15540,0.9997
+22090,Middlesex, Massachusetts  ,15764,1.1262
+31150,Burlington, New Jersey,15804,1.0474
+31160,Camden, New Jersey,15804,1.0474
+31220,Gloucester, New Jersey,15804,1.0474
+36090,Carroll, Ohio,15940,0.8834
+36770,Stark, Ohio,15940,0.8834
+10350,Lee, Florida  ,15980,0.9153
+14010,Alexander, Illinois  ,16020,0.886
+26080,Bollinger, Missouri  ,16020,0.886
+26150,Cape Girardeau, Missouri  ,16020,0.886
+29120,Carson City, Nevada  ,16180,1.0559
+53120,Natrona, Wyoming  ,16220,1.0143
+16050,Benton, Iowa  ,16300,0.8944
+16520,Jones, Iowa  ,16300,0.8944
+16560,Linn, Iowa  ,16300,0.8944
+14090,Champaign, Illinois  ,16580,0.9907
+14350,Ford, Illinois  ,16580,0.9907
+14820,Piatt, Illinois  ,16580,0.9907
+51020,Boone, W Virginia  ,16620,0.805
+51070,Clay, W Virginia  ,16620,0.805
+51190,Kanawha, W Virginia  ,16620,0.805
+51210,Lincoln, W Virginia  ,16620,0.805
+51390,Putnam, W Virginia  ,16620,0.805
+42070,Berkeley, S Carolina  ,16700,0.882
+42090,Charleston, S Carolina  ,16700,0.882
+42170,Dorchester, S Carolina  ,16700,0.882
+34030,Anson, N Carolina  ,16740,0.9215
+34120,Cabarrus, N Carolina  ,16740,0.9215
+34350,Gaston, N Carolina  ,16740,0.9215
+34590,Mecklenburg, N Carolina  ,16740,0.9215
+34890,Union, N Carolina  ,16740,0.9215
+42450,York, S Carolina  ,16740,0.9215
+49010,Albemarle, Virginia  ,16820,0.9195
+49191,Charlottesville City, Virginia  ,16820,0.9195
+49320,Fluvanna, Virginia  ,16820,0.9195
+49390,Greene, Virginia  ,16820,0.9195
+49620,Nelson, Virginia  ,16820,0.9195
+11200,Catoosa, Georgia  ,16860,0.8678
+11341,Dade, Georgia  ,16860,0.8678
+44320,Hamilton, Tennessee  ,16860,0.8678
+44570,Marion, Tennessee  ,16860,0.8678
+44760,Sequatchie, Tennessee  ,16860,0.8678
+11921,Walker, Georgia  ,16860,0.8678
+53100,Laramie, Wyoming  ,16940,0.973
+14141,Cook, Illinois  ,16974,1.06
+14170,De Kalb, Illinois  ,16974,1.06
+14250,Du Page, Illinois  ,16974,1.06
+14400,Grundy, Illinois  ,16974,1.06
+14530,Kane, Illinois  ,16974,1.06
+14550,Kendall, Illinois  ,16974,1.06
+14640,Mc Henry, Illinois  ,16974,1.06
+14989,Will, Illinois  ,16974,1.06
+5030,Butte, California  ,17020,1.1197
+18070,Boone, Kentucky,17140,0.9508
+18110,Bracken, Kentucky,17140,0.9508
+36070,Brown, Ohio,17140,0.9508
+36080,Butler, Ohio,17140,0.9508
+18180,Campbell, Kentucky,17140,0.9508
+36120,Clermont, Ohio,17140,0.9508
+15140,Dearborn, Indiana  ,17140,0.9508
+15230,Franklin, Indiana  ,17140,0.9508
+18362,Gallatin, Kentucky,17140,0.9508
+18400,Grant, Kentucky,17140,0.9508
+36310,Hamilton, Ohio,17140,0.9508
+18580,Kenton, Kentucky,17140,0.9508
+15570,Ohio, Indiana  ,17140,0.9508
+18932,Pendleton, Kentucky,17140,0.9508
+36840,Warren, Ohio,17140,0.9508
+18230,Christian, Kentucky,17300,0.8082
+44620,Montgomery, Tennessee  ,17300,0.8082
+44800,Stewart, Tennessee  ,17300,0.8082
+18983,Trigg, Kentucky,17300,0.8082
+44050,Bradley, Tennessee  ,17420,0.7592
+44690,Polk, Tennessee  ,17420,0.7592
+36170,Cuyahoga, Ohio,17460,0.9082
+36280,Geauga, Ohio,17460,0.9082
+36440,Lake, Ohio,17460,0.9082
+36480,Lorain, Ohio,17460,0.9082
+36530,Medina, Ohio,17460,0.9082
+13270,Kootenai, Idaho  ,17660,0.9218
+45190,Brazos, Texas  ,17780,0.9584
+45221,Burleson, Texas  ,17780,0.9584
+45878,Robertson, Texas  ,17780,0.9584
+6200,El Paso, Colorado  ,17820,0.9364
+6590,Teller, Colorado  ,17820,0.9364
+26090,Boone, Missouri  ,17860,0.8339
+26440,Howard, Missouri  ,17860,0.8339
+42080,Calhoun, S Carolina  ,17900,0.856
+42190,Fairfield, S Carolina  ,17900,0.856
+42270,Kershaw, S Carolina  ,17900,0.856
+42310,Lexington, S Carolina  ,17900,0.856
+42390,Richland, S Carolina  ,17900,0.856
+42400,Saluda, S Carolina  ,17900,0.856
+11230,Chattahoochee, Georgia  ,17980,0.8857
+11580,Harris, Georgia  ,17980,0.8857
+11730,Marion, Georgia  ,17980,0.8857
+11780,Muscogee, Georgia  ,17980,0.8857
+1560,Russell, Alabama  ,17980,0.8857
+15020,Bartholomew, Indiana  ,18020,0.9564
+36210,Delaware, Ohio,18140,0.9763
+36230,Fairfield, Ohio,18140,0.9763
+36250,Franklin, Ohio,18140,0.9763
+36460,Licking, Ohio,18140,0.9763
+36500,Madison, Ohio,18140,0.9763
+36600,Morrow, Ohio,18140,0.9763
+36660,Pickaway, Ohio,18140,0.9763
+36810,Union, Ohio,18140,0.9763
+45030,Aransas, Texas  ,18580,0.8591
+45830,Nueces, Texas  ,18580,0.8591
+45885,San Patricio, Texas  ,18580,0.8591
+38010,Benton, Oregon  ,18700,1.0715
+10450,Okaloosa, Florida  ,18880,0.8916
+21000,Allegany, Maryland  ,19060,0.8836
+51280,Mineral, W Virginia  ,19060,0.8836
+45310,Collin, Texas  ,19124,0.9835
+45390,Dallas, Texas  ,19124,0.9835
+45400,Delta, Texas  ,19124,0.9835
+45410,Denton, Texas  ,19124,0.9835
+45470,Ellis, Texas  ,19124,0.9835
+45670,Hunt, Texas  ,19124,0.9835
+45730,Kaufman, Texas  ,19124,0.9835
+45879,Rockwall, Texas  ,19124,0.9835
+11772,Murray, Georgia  ,19140,0.8828
+11970,Whitfield, Georgia  ,19140,0.8828
+14982,Vermilion, Illinois  ,19180,0.9977
+49241,Danville City, Virginia  ,19260,0.8218
+49710,Pittsylvania, Virginia  ,19260,0.8218
+14450,Henry, Illinois  ,19340,0.9145
+14740,Mercer, Illinois  ,19340,0.9145
+14890,Rock Island, Illinois  ,19340,0.9145
+16810,Scott, Iowa  ,19340,0.9145
+36290,Greene, Ohio,19380,0.9136
+36560,Miami, Ohio,19380,0.9136
+36580,Montgomery, Ohio,19380,0.9136
+36690,Preble, Ohio,19380,0.9136
+1390,Lawrence, Alabama  ,19460,0.7261
+1510,Morgan, Alabama  ,19460,0.7261
+14660,Macon, Illinois  ,19500,0.7993
+10630,Volusia, Florida  ,19660,0.8716
+6000,Adams, Colorado  ,19740,1.0469
+6020,Arapahoe, Colorado  ,19740,1.0469
+6630,Broomfield, Colorado  ,19740,1.0469
+6090,Clear Creek, Colorado  ,19740,1.0469
+6150,Denver, Colorado  ,19740,1.0469
+6170,Douglas, Colorado  ,19740,1.0469
+6190,Elbert, Colorado  ,19740,1.0469
+6230,Gilpin, Colorado  ,19740,1.0469
+6290,Jefferson, Colorado  ,19740,1.0469
+6460,Park, Colorado  ,19740,1.0469
+16240,Dallas, Iowa  ,19780,0.9616
+16380,Guthrie, Iowa  ,19780,0.9616
+16600,Madison, Iowa  ,19780,0.9616
+16760,Polk, Iowa  ,19780,0.9616
+16900,Warren, Iowa  ,19780,0.9616
+23810,Wayne, Michigan  ,19804,0.9361
+1300,Geneva, Alabama  ,20020,0.7398
+1330,Henry, Alabama  ,20020,0.7398
+1340,Houston, Alabama  ,20020,0.7398
+8000,Kent, Delaware  ,20100,0.9893
+16300,Dubuque, Iowa  ,20220,0.8662
+24080,Carlton, Minnesota  ,20260,1.0741
+52150,Douglas, Wisconsin  ,20260,1.0741
+24680,St Louis, Minnesota  ,20260,1.0741
+34180,Chatham, N Carolina  ,20500,0.9525
+34310,Durham, N Carolina  ,20500,0.9525
+34670,Orange, N Carolina  ,20500,0.9525
+34720,Person, N Carolina  ,20500,0.9525
+52080,Chippewa, Wisconsin  ,20740,0.9705
+52170,Eau Claire, Wisconsin  ,20740,0.9705
+31270,Middlesex, New Jersey,20764,1.0806
+31290,Monmouth, New Jersey,20764,1.0806
+31310,Ocean, New Jersey,20764,1.0806
+31350,Somerset, New Jersey,20764,1.0806
+5120,Imperial, California  ,20940,0.8602
+18460,Hardin, Kentucky,21060,0.8294
+18610,Larue, Kentucky,21060,0.8294
+15190,Elkhart, Indiana  ,21140,0.9097
+33070,Chemung, New York  ,21300,0.8205
+45480,El Paso, Texas  ,21340,0.8426
+39320,Erie, Pennsylvania  ,21500,0.7823
+38190,Lane, Oregon  ,21660,1.1454
+15250,Gibson, Indiana  ,21780,0.8401
+18500,Henderson, Kentucky,21780,0.8401
+15640,Posey, Indiana  ,21780,0.8401
+15810,Vanderburgh, Indiana  ,21780,0.8401
+15860,Warrick, Indiana  ,21780,0.8401
+18989,Webster, Kentucky,21780,0.8401
+2090,Fairbanks, Alaska  ,21820,1.0816
+40180,Ceiba, Puerto Rico  ,21940,0.3663
+40260,Fajardo, Puerto Rico  ,21940,0.3663
+40440,Luquillo, Puerto Rico  ,21940,0.3663
+35080,Cass, N Dakota  ,22020,0.8108
+24130,Clay, Minnesota  ,22020,0.8108
+32220,San Juan, New Mexico  ,22140,0.9323
+34250,Cumberland, N Carolina  ,22180,0.8971
+34460,Hoke, N Carolina  ,22180,0.8971
+4030,Benton, Arkansas  ,22220,0.9288
+4430,Madison, Arkansas  ,22220,0.9288
+26590,Mc Donald, Missouri  ,22220,0.9288
+4710,Washington, Arkansas  ,22220,0.9288
+3020,Coconino, Arizona  ,22380,1.2369
+23240,Genesee, Michigan  ,22420,1.1257
+42150,Darlington, S Carolina  ,22500,0.8087
+42200,Florence, S Carolina  ,22500,0.8087
+1160,Colbert, Alabama  ,22520,0.7679
+1380,Lauderdale, Alabama  ,22520,0.7679
+52190,Fond Du Lac, Wisconsin  ,22540,0.9158
+6340,Larimer, Colorado  ,22660,0.9833
+10050,Broward, Florida  ,22744,1.0363
+4160,Crawford, Arkansas  ,22900,0.7848
+4230,Franklin, Arkansas  ,22900,0.7848
+37390,Le Flore, Oklahoma  ,22900,0.7848
+4650,Sebastian, Arkansas  ,22900,0.7848
+37670,Sequoyah, Oklahoma  ,22900,0.7848
+15010,Allen, Indiana  ,23060,0.9633
+15890,Wells, Indiana  ,23060,0.9633
+15910,Whitley, Indiana  ,23060,0.9633
+45720,Johnson, Texas  ,23104,0.9516
+45843,Parker, Texas  ,23104,0.9516
+45910,Tarrant, Texas  ,23104,0.9516
+45973,Wise, Texas  ,23104,0.9516
+5090,Fresno, California  ,23420,1.1593
+1270,Etowah, Alabama  ,23460,0.7697
+10000,Alachua, Florida  ,23540,0.9631
+10200,Gilchrist, Florida  ,23540,0.9631
+11550,Hall, Georgia  ,23580,0.9327
+15360,Jasper, Indiana  ,23844,0.9259
+15440,Lake, Indiana  ,23844,0.9259
+15550,Newton, Indiana  ,23844,0.9259
+15630,Porter, Indiana  ,23844,0.9259
+33750,Warren, New York  ,24020,0.834
+33760,Washington, New York  ,24020,0.834
+34950,Wayne, N Carolina  ,24140,0.856
+35170,Grand Forks, N Dakota  ,24220,0.725
+24590,Polk, Minnesota  ,24220,0.725
+6380,Mesa, Colorado  ,24300,0.9415
+23070,Barry, Michigan  ,24340,0.9125
+23330,Ionia, Michigan  ,24340,0.9125
+23400,Kent, Michigan  ,24340,0.9125
+23610,Newaygo, Michigan  ,24340,0.9125
+27060,Cascade, Montana  ,24500,0.7927
+6610,Weld, Colorado  ,24540,0.9593
+52040,Brown, Wisconsin  ,24580,0.9793
+52300,Kewaunee, Wisconsin  ,24580,0.9793
+52410,Oconto, Wisconsin  ,24580,0.9793
+34400,Guilford, N Carolina  ,24660,0.8638
+34750,Randolph, N Carolina  ,24660,0.8638
+34780,Rockingham, N Carolina  ,24660,0.8638
+34390,Greene, N Carolina  ,24780,0.9694
+34730,Pitt, N Carolina  ,24780,0.9694
+42220,Greenville, S Carolina  ,24860,0.9737
+42290,Laurens, S Carolina  ,24860,0.9737
+42380,Pickens, S Carolina  ,24860,0.9737
+40080,Arroyo, Puerto Rico  ,25020,0.3696
+40280,Guayama, Puerto Rico  ,25020,0.3696
+40540,Patillas, Puerto Rico  ,25020,0.3696
+25220,Hancock, Mississippi  ,25060,0.8544
+25230,Harrison, Mississippi  ,25060,0.8544
+25650,Stone, Mississippi  ,25060,0.8544
+51010,Berkeley, W Virginia  ,25180,0.9422
+51320,Morgan, W Virginia  ,25180,0.9422
+21210,Washington, Maryland  ,25180,0.9422
+5150,Kings, California  ,25260,1.0992
+39270,Cumberland, Pennsylvania  ,25420,0.9525
+39280,Dauphin, Pennsylvania  ,25420,0.9525
+39610,Perry, Pennsylvania  ,25420,0.9525
+49421,Harrisonburg City, Virginia  ,25500,0.9087
+49820,Rockingham, Virginia  ,25500,0.9087
+7010,Hartford, Connecticut  ,25540,1.0869
+7030,Middlesex, Connecticut  ,25540,1.0869
+7060,Tolland, Connecticut  ,25540,1.0869
+25170,Forrest, Mississippi  ,25620,0.8035
+25360,Lamar, Mississippi  ,25620,0.8035
+25550,Perry, Mississippi  ,25620,0.8035
+34010,Alexander, N Carolina  ,25860,0.8677
+34110,Burke, N Carolina  ,25860,0.8677
+34130,Caldwell, N Carolina  ,25860,0.8677
+34170,Catawba, N Carolina  ,25860,0.8677
+11680,Liberty, Georgia  ,25980,0.8843
+11691,Long, Georgia  ,25980,0.8843
+23690,Ottawa, Michigan  ,26100,0.8024
+12020,Honolulu, Hawaii  ,26180,1.2156
+4250,Garland, Arkansas  ,26300,0.8944
+19280,Lafourche, Louisiana  ,26380,0.7928
+19540,Terrebonne, Louisiana  ,26380,0.7928
+45070,Austin, Texas  ,26420,0.9933
+45180,Brazoria, Texas  ,26420,0.9933
+45280,Chambers, Texas  ,26420,0.9933
+45530,Fort Bend, Texas  ,26420,0.9933
+45550,Galveston, Texas  ,26420,0.9933
+45610,Harris, Texas  ,26420,0.9933
+45757,Liberty, Texas  ,26420,0.9933
+45801,Montgomery, Texas  ,26420,0.9933
+45884,San Jacinto, Texas  ,26420,0.9933
+45950,Waller, Texas  ,26420,0.9933
+18090,Boyd, Kentucky,26580,0.8635
+51050,Cabell, W Virginia  ,26580,0.8635
+18440,Greenup, Kentucky,26580,0.8635
+36450,Lawrence, Ohio,26580,0.8635
+51490,Wayne, W Virginia  ,26580,0.8635
+1410,Limestone, Alabama  ,26620,0.8667
+1440,Madison, Alabama  ,26620,0.8667
+13090,Bonneville, Idaho  ,26820,0.9114
+13250,Jefferson, Idaho  ,26820,0.9114
+15050,Boone, Indiana  ,26900,0.987
+15060,Brown, Indiana  ,26900,0.987
+15280,Hamilton, Indiana  ,26900,0.987
+15290,Hancock, Indiana  ,26900,0.987
+15310,Hendricks, Indiana  ,26900,0.987
+15400,Johnson, Indiana  ,26900,0.987
+15480,Marion, Indiana  ,26900,0.987
+15540,Morgan, Indiana  ,26900,0.987
+15660,Putnam, Indiana  ,26900,0.987
+15720,Shelby, Indiana  ,26900,0.987
+16510,Johnson, Iowa  ,26980,1.012
+16910,Washington, Iowa  ,26980,1.012
+33730,Tompkins, New York  ,27060,0.9249
+23370,Jackson, Michigan  ,27100,0.8511
+25140,Copiah, Mississippi  ,27140,0.8177
+25240,Hinds, Mississippi  ,27140,0.8177
+25440,Madison, Mississippi  ,27140,0.8177
+25600,Rankin, Mississippi  ,27140,0.8177
+25630,Simpson, Mississippi  ,27140,0.8177
+44110,Chester, Tennessee  ,27180,0.7672
+44560,Madison, Tennessee  ,27180,0.7672
+10010,Baker, Florida  ,27260,0.8883
+10090,Clay, Florida  ,27260,0.8883
+10150,Duval, Florida  ,27260,0.8883
+10440,Nassau, Florida  ,27260,0.8883
+10540,St. Johns, Florida  ,27260,0.8883
+34660,Onslow, N Carolina  ,27340,0.7957
+52520,Rock, Wisconsin  ,27500,0.9458
+26130,Callaway, Missouri  ,27620,0.8263
+26250,Cole, Missouri  ,27620,0.8263
+26670,Moniteau, Missouri  ,27620,0.8263
+26750,Osage, Missouri  ,27620,0.8263
+44090,Carter, Tennessee  ,27740,0.7359
+44850,Unicoi, Tennessee  ,27740,0.7359
+44890,Washington, Tennessee  ,27740,0.7359
+39160,Cambria, Pennsylvania  ,27780,0.8116
+4150,Craighead, Arkansas  ,27860,0.8084
+4550,Poinsett, Arkansas  ,27860,0.8084
+26480,Jasper, Missouri  ,27900,0.7828
+26720,Newton, Missouri  ,27900,0.7828
+23380,Kalamazoo, Michigan  ,28020,0.9834
+23790,Van Buren, Michigan  ,28020,0.9834
+14540,Kankakee, Illinois  ,28100,1.0127
+26060,Bates, Missouri  ,28140,0.9614
+26120,Caldwell, Missouri  ,28140,0.9614
+26180,Cass, Missouri  ,28140,0.9614
+26230,Clay, Missouri  ,28140,0.9614
+26240,Clinton, Missouri  ,28140,0.9614
+17290,Franklin, Kansas  ,28140,0.9614
+26470,Jackson, Missouri  ,28140,0.9614
+17450,Johnson, Kansas  ,28140,0.9614
+26530,Lafayette, Missouri  ,28140,0.9614
+17510,Leavenworth, Kansas  ,28140,0.9614
+17530,Linn, Kansas  ,28140,0.9614
+17600,Miami, Kansas  ,28140,0.9614
+26820,Platte, Missouri  ,28140,0.9614
+26880,Ray, Missouri  ,28140,0.9614
+17986,Wyandotte, Kansas  ,28140,0.9614
+50020,Benton, Washington  ,28420,0.9708
+50100,Franklin, Washington  ,28420,0.9708
+45120,Bell, Texas  ,28660,0.9102
+45341,Coryell, Texas  ,28660,0.9102
+45752,Lampasas, Texas  ,28660,0.9102
+49111,Bristol City, Virginia  ,28700,0.7325
+44360,Hawkins, Tennessee  ,28700,0.7325
+49840,Scott, Virginia  ,28700,0.7325
+44810,Sullivan, Tennessee  ,28700,0.7325
+49950,Washington, Virginia  ,28700,0.7325
+33740,Ulster, New York  ,28740,0.8953
+44000,Anderson, Tennessee  ,28940,0.7575
+44040,Blount, Tennessee  ,28940,0.7575
+44460,Knox, Tennessee  ,28940,0.7575
+44520,Loudon, Tennessee  ,28940,0.7575
+44860,Union, Tennessee  ,28940,0.7575
+15330,Howard, Indiana  ,29020,0.8756
+15790,Tipton, Indiana  ,29020,0.8756
+24270,Houston, Minnesota  ,29100,1.007
+52310,La Crosse, Wisconsin  ,29100,1.007
+15030,Benton, Indiana  ,29140,0.9316
+15070,Carroll, Indiana  ,29140,0.9316
+15780,Tippecanoe, Indiana  ,29140,0.9316
+19270,Lafayette, Louisiana  ,29180,0.8565
+19490,St Martin, Louisiana  ,29180,0.8565
+19090,Calcasieu, Louisiana  ,29340,0.7813
+19110,Cameron, Louisiana  ,29340,0.7813
+52290,Kenosha, Wisconsin  ,29404,1.0558
+14570,Lake, Illinois  ,29404,1.0558
+3070,Mohave, Arizona  ,29420,0.976
+10520,Polk, Florida  ,29460,0.8262
+39440,Lancaster, Pennsylvania  ,29540,0.9452
+23180,Clinton, Michigan  ,29620,1.0065
+23220,Eaton, Michigan  ,29620,1.0065
+23320,Ingham, Michigan  ,29620,1.0065
+45953,Webb, Texas  ,29700,0.7486
+32060,Dona Ana, New Mexico  ,29740,0.9044
+29010,Clark, Nevada  ,29820,1.2076
+17220,Douglas, Kansas  ,29940,0.8676
+37150,Comanche, Oklahoma  ,30020,0.8351
+39460,Lebanon, Pennsylvania  ,30140,0.7994
+50010,Asotin, Washington  ,30300,0.9326
+13340,Nez Perce, Idaho  ,30300,0.9326
+20000,Androscoggin, Maine  ,30340,0.9178
+18080,Bourbon, Kentucky,30460,0.9023
+18240,Clark, Kentucky,30460,0.9023
+18330,Fayette, Kentucky,30460,0.9023
+18560,Jessamine, Kentucky,30460,0.9023
+18977,Scott, Kentucky,30460,0.9023
+18992,Woodford, Kentucky,30460,0.9023
+36010,Allen, Ohio,30620,0.9226
+28540,Lancaster, Nebraska  ,30700,0.9726
+28790,Seward, Nebraska  ,30700,0.9726
+4220,Faulkner, Arkansas  ,30780,0.8595
+4260,Grant, Arkansas  ,30780,0.8595
+4420,Lonoke, Arkansas  ,30780,0.8595
+4520,Perry, Arkansas  ,30780,0.8595
+4590,Pulaski, Arkansas  ,30780,0.8595
+4620,Saline, Arkansas  ,30780,0.8595
+46020,Cache, Utah  ,30860,0.8456
+13200,Franklin, Idaho  ,30860,0.8456
+45570,Gregg, Texas  ,30980,0.855
+45881,Rusk, Texas  ,30980,0.855
+45943,Upshur, Texas  ,30980,0.855
+50070,Cowlitz, Washington  ,31020,1.0081
+5200,Los Angeles, California  ,31084,1.2293
+18140,Bullitt, Kentucky,31140,0.8862
+15090,Clark, Indiana  ,31140,0.8862
+15210,Floyd, Indiana  ,31140,0.8862
+15300,Harrison, Indiana  ,31140,0.8862
+18510,Henry, Kentucky,31140,0.8862
+18550,Jefferson, Kentucky,31140,0.8862
+18801,Meade, Kentucky,31140,0.8862
+18890,Nelson, Kentucky,31140,0.8862
+18920,Oldham, Kentucky,31140,0.8862
+18978,Shelby, Kentucky,31140,0.8862
+18980,Spencer, Kentucky,31140,0.8862
+18984,Trimble, Kentucky,31140,0.8862
+15870,Washington, Indiana  ,31140,0.8862
+45362,Crosby, Texas  ,31180,0.887
+45770,Lubbock, Texas  ,31180,0.887
+49040,Amherst, Virginia  ,31340,0.8615
+49050,Appomattox, Virginia  ,31340,0.8615
+49088,Bedford City, Virginia  ,31340,0.8615
+49090,Bedford, Virginia  ,31340,0.8615
+49150,Campbell, Virginia  ,31340,0.8615
+49551,Lynchburg City, Virginia  ,31340,0.8615
+11090,Bibb, Georgia  ,31420,0.8584
+11330,Crawford, Georgia  ,31420,0.8584
+11650,Jones, Georgia  ,31420,0.8584
+11760,Monroe, Georgia  ,31420,0.8584
+11912,Twiggs, Georgia  ,31420,0.8584
+5300,Madera, California  ,31460,0.805
+52100,Columbia, Wisconsin  ,31540,1.1264
+52120,Dane, Wisconsin  ,31540,1.1264
+52240,Iowa, Wisconsin  ,31540,1.1264
+30050,Hillsborough, New Hampshire  ,31700,1.0042
+17300,Geary, Kansas  ,31740,0.7839
+17740,Pottawatomie, Kansas  ,31740,0.7839
+17800,Riley, Kansas  ,31740,0.7839
+24060,Blue Earth, Minnesota  ,31860,0.9413
+24510,Nicollet, Minnesota  ,31860,0.9413
+36710,Richland, Ohio,31900,0.8993
+40330,Hormigueros, Puerto Rico  ,32420,0.3586
+40480,Mayaguez, Puerto Rico  ,32420,0.3586
+45650,Hidalgo, Texas  ,32580,0.8603
+38140,Jackson, Oregon  ,32780,1.04
+4170,Crittenden, Arkansas  ,32820,0.9049
+25160,Desoto, Mississippi  ,32820,0.9049
+44230,Fayette, Tennessee  ,32820,0.9049
+25460,Marshall, Mississippi  ,32820,0.9049
+44780,Shelby, Tennessee  ,32820,0.9049
+25680,Tate, Mississippi  ,32820,0.9049
+44830,Tipton, Tennessee  ,32820,0.9049
+25710,Tunica, Mississippi  ,32820,0.9049
+5340,Merced, California  ,32900,1.2996
+10120,Miami-Dade, Florida  ,33124,1.013
+15450,La Porte, Indiana  ,33140,0.9694
+45794,Midland, Texas  ,33260,1.064
+52390,Milwaukee, Wisconsin  ,33340,0.9931
+52440,Ozaukee, Wisconsin  ,33340,0.9931
+52650,Washington, Wisconsin  ,33340,0.9931
+52660,Waukesha, Wisconsin  ,33340,0.9931
+24010,Anoka, Minnesota  ,33460,1.1336
+24090,Carver, Minnesota  ,33460,1.1336
+24120,Chisago, Minnesota  ,33460,1.1336
+24180,Dakota, Minnesota  ,33460,1.1336
+24260,Hennepin, Minnesota  ,33460,1.1336
+24290,Isanti, Minnesota  ,33460,1.1336
+52460,Pierce, Wisconsin  ,33460,1.1336
+24610,Ramsey, Minnesota  ,33460,1.1336
+24690,Scott, Minnesota  ,33460,1.1336
+24700,Sherburne, Minnesota  ,33460,1.1336
+52540,St. Croix, Wisconsin  ,33460,1.1336
+24810,Washington, Minnesota  ,33460,1.1336
+24850,Wright, Minnesota  ,33460,1.1336
+27310,Missoula, Montana  ,33540,0.9001
+1480,Mobile, Alabama  ,33660,0.7467
+5600,Stanislaus, California  ,33700,1.2841
+19360,Ouachita, Louisiana  ,33740,0.7717
+19550,Union, Louisiana  ,33740,0.7717
+23570,Monroe, Michigan  ,33780,0.8472
+1000,Autauga, Alabama  ,33860,0.7858
+1250,Elmore, Alabama  ,33860,0.7858
+1420,Lowndes, Alabama  ,33860,0.7858
+1500,Montgomery, Alabama  ,33860,0.7858
+51300,Monongalia, W Virginia  ,34060,0.8284
+51380,Preston, W Virginia  ,34060,0.8284
+44280,Grainger, Tennessee  ,34100,0.6768
+44310,Hamblen, Tennessee  ,34100,0.6768
+44440,Jefferson, Tennessee  ,34100,0.6768
+50280,Skagit, Washington  ,34580,1.034
+15170,Delaware, Indiana  ,34620,0.8734
+23600,Muskegon, Michigan  ,34740,1.1007
+42250,Horry, S Carolina  ,34820,0.8734
+5380,Napa, California  ,34900,1.6045
+10100,Collier, Florida  ,34940,0.9265
+44070,Cannon, Tennessee  ,34980,0.9061
+44100,Cheatham, Tennessee  ,34980,0.9061
+44180,Davidson, Tennessee  ,34980,0.9061
+44210,Dickson, Tennessee  ,34980,0.9061
+44400,Hickman, Tennessee  ,34980,0.9061
+44550,Macon, Tennessee  ,34980,0.9061
+44730,Robertson, Tennessee  ,34980,0.9061
+44740,Rutherford, Tennessee  ,34980,0.9061
+44790,Smith, Tennessee  ,34980,0.9061
+44820,Sumner, Tennessee  ,34980,0.9061
+44840,Trousdale, Tennessee  ,34980,0.9061
+44930,Williamson, Tennessee  ,34980,0.9061
+44940,Wilson, Tennessee  ,34980,0.9061
+33400,Nassau, New York  ,35004,1.2698
+33700,Suffolk, New York  ,35004,1.2698
+31200,Essex, New Jersey,35084,1.1223
+31250,Hunterdon, New Jersey,35084,1.1223
+31300,Morris, New Jersey,35084,1.1223
+39630,Pike, Pennsylvania  ,35084,1.1223
+31360,Sussex, New Jersey,35084,1.1223
+31370,Union, New Jersey,35084,1.1223
+7040,New Haven, Connecticut  ,35300,1.2061
+19250,Jefferson, Louisiana  ,35380,0.8932
+19350,Orleans, Louisiana  ,35380,0.8932
+19370,Plaquemines, Louisiana  ,35380,0.8932
+19430,St. Bernard, Louisiana  ,35380,0.8932
+19440,St. Charles, Louisiana  ,35380,0.8932
+19470,St. John Baptist, Louisiana  ,35380,0.8932
+19510,St. Tammany, Louisiana  ,35380,0.8932
+31100,Bergen, New Jersey,35644,1.2914
+33020,Bronx, New York  ,35644,1.2914
+31230,Hudson, New Jersey,35644,1.2914
+33331,Kings, New York  ,35644,1.2914
+33420,New York, New York  ,35644,1.2914
+31320,Passaic, New Jersey,35644,1.2914
+33580,Putnam, New York  ,35644,1.2914
+33590,Queens, New York  ,35644,1.2914
+33610,Richmond, New York  ,35644,1.2914
+33620,Rockland, New York  ,35644,1.2914
+33800,Westchester, New York  ,35644,1.2914
+23100,Berrien, Michigan  ,35660,0.8237
+10400,Manatee, Florida  ,35840,0.9375
+10570,Sarasota, Florida  ,35840,0.9375
+7050,New London, Connecticut  ,35980,1.1376
+5000,Alameda, California  ,36084,1.6654
+5060,Contra Costa, California  ,36084,1.6654
+10410,Marion, Florida  ,36100,0.8455
+31180,Cape May, New Jersey,36140,1.0307
+45451,Ector, Texas  ,36220,0.9741
+46050,Davis, Utah  ,36260,0.9031
+46140,Morgan, Utah  ,36260,0.9031
+46280,Weber, Utah  ,36260,0.9031
+37080,Canadian, Oklahoma  ,36420,0.881
+37130,Cleveland, Oklahoma  ,36420,0.881
+37250,Grady, Oklahoma  ,36420,0.881
+37400,Lincoln, Oklahoma  ,36420,0.881
+37410,Logan, Oklahoma  ,36420,0.881
+37430,McClain, Oklahoma  ,36420,0.881
+37540,Oklahoma, Oklahoma  ,36420,0.881
+50330,Thurston, Washington  ,36500,1.1397
+28120,Cass, Nebraska  ,36540,1.0037
+28270,Douglas, Nebraska  ,36540,1.0037
+16420,Harrison, Iowa  ,36540,1.0037
+16640,Mills, Iowa  ,36540,1.0037
+16770,Pottawattamie, Iowa  ,36540,1.0037
+28760,Sarpy, Nebraska  ,36540,1.0037
+28770,Saunders, Nebraska  ,36540,1.0037
+28880,Washington, Nebraska  ,36540,1.0037
+10340,Lake, Florida  ,36740,0.9082
+10470,Orange, Florida  ,36740,0.9082
+10480,Osceola, Florida  ,36740,0.9082
+10580,Seminole, Florida  ,36740,0.9082
+52690,Winnebago, Wisconsin  ,36780,0.9433
+18290,Daviess, Kentucky,36980,0.8117
+18450,Hancock, Kentucky,36980,0.8117
+18740,McLean, Kentucky,36980,0.8117
+5660,Ventura, California  ,37100,1.3079
+10040,Brevard, Florida  ,37340,0.8838
+10170,Flagler, Florida,37380,0.988
+10020,Bay, Florida  ,37460,0.7976
+51360,Pleasants, W Virginia  ,37620,0.7487
+36850,Washington, Ohio,37620,0.7487
+51520,Wirt, W Virginia  ,37620,0.7487
+51530,Wood, W Virginia  ,37620,0.7487
+25190,George, Mississippi  ,37700,0.7662
+25290,Jackson, Mississippi  ,37700,0.7662
+22040,Essex, Massachusetts  ,37764,1.0551
+10160,Escambia, Florida  ,37860,0.7819
+10560,Santa Rosa, Florida  ,37860,0.7819
+14700,Marshall, Illinois  ,37900,0.8882
+14800,Peoria, Illinois  ,37900,0.8882
+14960,Stark, Illinois  ,37900,0.8882
+14980,Tazewell, Illinois  ,37900,0.8882
+14992,Woodford, Illinois  ,37900,0.8882
+39140,Bucks, Pennsylvania  ,37964,1.0806
+39210,Chester, Pennsylvania  ,37964,1.0806
+39290,Delaware, Pennsylvania  ,37964,1.0806
+39560,Montgomery, Pennsylvania  ,37964,1.0806
+39620,Philadelphia, Pennsylvania  ,37964,1.0806
+3060,Maricopa, Arizona  ,38060,1.0477
+3100,Pinal, Arizona  ,38060,1.0477
+4120,Cleveland, Arkansas  ,38220,0.7847
+4340,Jefferson, Arkansas  ,38220,0.7847
+4390,Lincoln, Arkansas  ,38220,0.7847
+39010,Allegheny, Pennsylvania  ,38300,0.8585
+39070,Armstrong, Pennsylvania  ,38300,0.8585
+39080,Beaver, Pennsylvania  ,38300,0.8585
+39150,Butler, Pennsylvania  ,38300,0.8585
+39330,Fayette, Pennsylvania  ,38300,0.8585
+39750,Washington, Pennsylvania  ,38300,0.8585
+39770,Westmoreland, Pennsylvania  ,38300,0.8585
+22010,Berkshire, Massachusetts  ,38340,1.0721
+13020,Bannock, Idaho  ,38540,0.9555
+13380,Power, Idaho  ,38540,0.9555
+40370,Juana Diaz, Puerto Rico  ,38660,0.4314
+40560,Ponce, Puerto Rico  ,38660,0.4314
+40750,Villalba, Puerto Rico  ,38660,0.4314
+20020,Cumberland, Maine  ,38860,0.9975
+20110,Sagadahoc, Maine  ,38860,0.9975
+20150,York, Maine  ,38860,0.9975
+38020,Clackamas, Oregon  ,38900,1.1673
+50050,Clark, Washington  ,38900,1.1673
+38040,Columbia, Oregon  ,38900,1.1673
+38250,Multnomah, Oregon  ,38900,1.1673
+50290,Skamania, Washington  ,38900,1.1673
+38330,Washington, Oregon  ,38900,1.1673
+38350,Yamhill, Oregon  ,38900,1.1673
+10420,Martin, Florida  ,38940,0.9577
+10550,St. Lucie, Florida  ,38940,0.9577
+33230,Dutchess, New York  ,39100,1.1325
+33540,Orange, New York  ,39100,1.1325
+3120,Yavapai, Arizona  ,39140,1.2009
+41000,Bristol, Rhode Island  ,39300,1.0699
+22020,Bristol, Massachusetts  ,39300,1.0699
+41010,Kent, Rhode Island  ,39300,1.0699
+41020,Newport, Rhode Island  ,39300,1.0699
+41030,Providence, Rhode Island  ,39300,1.0699
+41050,Washington, Rhode Island  ,39300,1.0699
+46110,Juab, Utah  ,39340,0.9133
+46240,Utah, Utah  ,39340,0.9133
+6500,Pueblo, Colorado  ,39380,0.8518
+10070,Charlotte, Florida  ,39460,0.859
+52500,Racine, Wisconsin  ,39540,0.9158
+34340,Franklin, N Carolina  ,39580,0.9488
+34500,Johnston, N Carolina  ,39580,0.9488
+34910,Wake, N Carolina  ,39580,0.9488
+43460,Meade, S Dakota  ,39660,0.9823
+43510,Pennington, S Dakota  ,39660,0.9823
+39110,Berks, Pennsylvania  ,39740,0.9072
+5550,Shasta, California  ,39820,1.4555
+29140,Storey, Nevada  ,39900,1.0328
+29150,Washoe, Nevada  ,39900,1.0328
+49030,Amelia, Virginia  ,40060,0.9695
+49160,Caroline, Virginia  ,40060,0.9695
+49180,Charles City, Virginia  ,40060,0.9695
+49200,Chesterfield, Virginia  ,40060,0.9695
+49212,Colonial Heights, Virginia  ,40060,0.9695
+49240,Cumberland, Virginia  ,40060,0.9695
+49260,Dinwiddie, Virginia  ,40060,0.9695
+49370,Goochland, Virginia  ,40060,0.9695
+49420,Hanover, Virginia  ,40060,0.9695
+49430,Henrico, Virginia  ,40060,0.9695
+49451,Hopewell City, Virginia  ,40060,0.9695
+49480,King And Queen, Virginia  ,40060,0.9695
+49500,King William, Virginia  ,40060,0.9695
+49540,Louisa, Virginia  ,40060,0.9695
+49621,New Kent, Virginia  ,40060,0.9695
+49701,Petersburg City, Virginia  ,40060,0.9695
+49720,Powhatan, Virginia  ,40060,0.9695
+49740,Prince George, Virginia  ,40060,0.9695
+49791,Richmond City, Virginia  ,40060,0.9695
+49910,Sussex, Virginia  ,40060,0.9695
+5430,Riverside, California  ,40140,1.1396
+5460,San Bernardino, California  ,40140,1.1396
+49110,Botetourt, Virginia  ,40220,0.9088
+49220,Craig, Virginia  ,40220,0.9088
+49330,Franklin, Virginia  ,40220,0.9088
+49801,Roanoke City, Virginia  ,40220,0.9088
+49800,Roanoke, Virginia  ,40220,0.9088
+49838,Salem City, Virginia  ,40220,0.9088
+24190,Dodge, Minnesota  ,40340,1.0708
+24540,Olmsted, Minnesota  ,40340,1.0708
+24780,Wabasha, Minnesota  ,40340,1.0708
+33350,Livingston, New York  ,40380,0.8704
+33370,Monroe, New York  ,40380,0.8704
+33530,Ontario, New York  ,40380,0.8704
+33550,Orleans, New York  ,40380,0.8704
+33770,Wayne, New York  ,40380,0.8704
+14030,Boone, Illinois  ,40420,0.9935
+14991,Winnebago, Illinois  ,40420,0.9935
+30070,Rockingham, New Hampshire  ,40484,1.0234
+30080,Strafford, New Hampshire  ,40484,1.0234
+34320,Edgecombe, N Carolina  ,40580,0.8898
+34630,Nash, N Carolina  ,40580,0.8898
+11460,Floyd, Georgia  ,40660,0.8844
+5080,El Dorado, California  ,40900,1.4752
+5410,Placer, California  ,40900,1.4752
+5440,Sacramento, California  ,40900,1.4752
+5670,Yolo, California  ,40900,1.4752
+23720,Saginaw, Michigan  ,40980,0.882
+24040,Benton, Minnesota  ,41060,1.101
+24720,Stearns, Minnesota  ,41060,1.101
+46260,Washington, Utah  ,41100,0.887
+26010,Andrew, Missouri  ,41140,0.9856
+26100,Buchanan, Missouri  ,41140,0.9856
+26310,De Kalb, Missouri  ,41140,0.9856
+17210,Doniphan, Kansas  ,41140,0.9856
+14020,Bond, Illinois  ,41180,0.942
+14060,Calhoun, Illinois  ,41180,0.942
+14130,Clinton, Illinois  ,41180,0.942
+26270,Crawford, Missouri  ,41180,0.942
+26350,Franklin, Missouri  ,41180,0.942
+26490,Jefferson, Missouri  ,41180,0.942
+14500,Jersey, Illinois  ,41180,0.942
+26560,Lincoln, Missouri  ,41180,0.942
+14670,Macoupin, Illinois  ,41180,0.942
+14680,Madison, Illinois  ,41180,0.942
+14750,Monroe, Illinois  ,41180,0.942
+26910,St. Charles, Missouri  ,41180,0.942
+14900,St. Clair, Illinois  ,41180,0.942
+26950,St. Louis City, Missouri  ,41180,0.942
+26940,St. Louis, Missouri  ,41180,0.942
+26991,Warren, Missouri  ,41180,0.942
+26992,Washington, Missouri  ,41180,0.942
+38230,Marion, Oregon  ,41420,1.1069
+38260,Polk, Oregon  ,41420,1.1069
+5370,Monterey, California  ,41500,1.6074
+21190,Somerset, Maryland  ,41540,0.926
+21220,Wicomico, Maryland  ,41540,0.926
+46170,Salt Lake, Utah  ,41620,0.9063
+46210,Summit, Utah  ,41620,0.9063
+46220,Tooele, Utah  ,41620,0.9063
+45672,Irion, Texas  ,41660,0.8221
+45930,Tom Green, Texas  ,41660,0.8221
+45060,Atascosa, Texas  ,41700,0.8936
+45090,Bandera, Texas  ,41700,0.8936
+45130,Bexar, Texas  ,41700,0.8936
+45320,Comal, Texas  ,41700,0.8936
+45581,Guadaloupe, Texas  ,41700,0.8936
+45731,Kendall, Texas  ,41700,0.8936
+45792,Medina, Texas  ,41700,0.8936
+45971,Wilson, Texas  ,41700,0.8936
+5470,San Diego, California  ,41740,1.1922
+36220,Erie, Ohio,41780,0.8347
+5310,Marin, California  ,41884,1.6327
+5480,San Francisco, California  ,41884,1.6327
+5510,San Mateo, California  ,41884,1.6327
+40120,Cabo Rojo, Puerto Rico  ,41900,0.4804
+40390,Lajas, Puerto Rico  ,41900,0.4804
+40610,Sabana Grande, Puerto Rico  ,41900,0.4804
+40630,San German, Puerto Rico  ,41900,0.4804
+5450,San Benito, California  ,41940,1.7396
+5530,Santa Clara, California  ,41940,1.7396
+40040,Aguas Buenas, Puerto Rico  ,41980,0.4318
+40050,Aibonito, Puerto Rico  ,41980,0.4318
+40070,Arecibo, Puerto Rico  ,41980,0.4318
+40090,Barceloneta, Puerto Rico  ,41980,0.4318
+40100,Barranquitas, Puerto Rico  ,41980,0.4318
+40110,Bayamon, Puerto Rico  ,41980,0.4318
+40130,Caguas, Puerto Rico  ,41980,0.4318
+40140,Camuy, Puerto Rico  ,41980,0.4318
+40145,Canovanas, Puerto Rico  ,41980,0.4318
+40150,Carolina, Puerto Rico  ,41980,0.4318
+40160,Catano, Puerto Rico  ,41980,0.4318
+40170,Cayey, Puerto Rico  ,41980,0.4318
+40190,Ciales, Puerto Rico  ,41980,0.4318
+40200,Cidra, Puerto Rico  ,41980,0.4318
+40220,Comerio, Puerto Rico  ,41980,0.4318
+40230,Corozal, Puerto Rico  ,41980,0.4318
+40250,Dorado, Puerto Rico  ,41980,0.4318
+40265,Florida, Puerto Rico  ,41980,0.4318
+40300,Guaynabo, Puerto Rico  ,41980,0.4318
+40310,Gurabo, Puerto Rico  ,41980,0.4318
+40320,Hatillo, Puerto Rico  ,41980,0.4318
+40340,Humacao, Puerto Rico  ,41980,0.4318
+40380,Juncos, Puerto Rico  ,41980,0.4318
+40420,Las Piedras, Puerto Rico  ,41980,0.4318
+40430,Loiza, Puerto Rico  ,41980,0.4318
+40450,Manati, Puerto Rico  ,41980,0.4318
+40470,Maunabo, Puerto Rico  ,41980,0.4318
+40500,Morovis, Puerto Rico  ,41980,0.4318
+40510,Naguabo, Puerto Rico  ,41980,0.4318
+40520,Naranjito, Puerto Rico  ,41980,0.4318
+40530,Orocovis, Puerto Rico  ,41980,0.4318
+40570,Quebradillas, Puerto Rico  ,41980,0.4318
+40590,Rio Grande, Puerto Rico  ,41980,0.4318
+40640,San Juan, Puerto Rico  ,41980,0.4318
+40650,San Lorenzo, Puerto Rico  ,41980,0.4318
+40680,Toa Alta, Puerto Rico  ,41980,0.4318
+40690,Toa Baja, Puerto Rico  ,41980,0.4318
+40700,Trujillo Alto, Puerto Rico  ,41980,0.4318
+40720,Vega Alta, Puerto Rico  ,41980,0.4318
+40730,Vega Baja, Puerto Rico  ,41980,0.4318
+40760,Yabucoa, Puerto Rico  ,41980,0.4318
+5500,San Luis Obispo, California  ,42020,1.3081
+5400,Orange, California  ,42044,1.2038
+5520,Santa Barbara, California  ,42060,1.267
+5540,Santa Cruz, California  ,42100,1.8062
+32240,Santa Fe, New Mexico  ,42140,1.04
+5590,Sonoma, California  ,42220,1.644
+11130,Bryan, Georgia  ,42340,0.8968
+11220,Chatham, Georgia  ,42340,0.8968
+11421,Effingham, Georgia  ,42340,0.8968
+39420,Lackawanna, Pennsylvania  ,42540,0.826
+39480,Luzerne, Pennsylvania  ,42540,0.826
+39790,Wyoming, Pennsylvania  ,42540,0.826
+50160,King, Washington  ,42644,1.1771
+50300,Snohomish, Washington  ,42644,1.1771
+10300,Sebastian-Vero Beach, Florida  ,42680,0.885
+52580,Sheboygan, Wisconsin  ,43100,0.9515
+45564,Grayson, Texas  ,43300,0.8544
+19070,Bossier, Louisiana  ,43340,0.8412
+19080,Caddo, Louisiana  ,43340,0.8412
+19150,De Soto, Louisiana  ,43340,0.8412
+28210,Dakota, Nebraska  ,43580,0.901
+28250,Dixon, Nebraska  ,43580,0.901
+43630,Union, S Dakota  ,43580,0.901
+16960,Woodbury, Iowa  ,43580,0.901
+43410,Lincoln, S Dakota  ,43620,0.8338
+43430,McCook, S Dakota  ,43620,0.8338
+43490,Minnehaha, S Dakota  ,43620,0.8338
+43620,Turner, S Dakota  ,43620,0.8338
+23130,Cass, Michigan  ,43780,0.9531
+15700,St. Joseph, Indiana  ,43780,0.9531
+42410,Spartanburg, S Carolina  ,43900,0.9186
+50310,Spokane, Washington  ,44060,1.0824
+14730,Menard, Illinois  ,44100,0.9179
+14920,Sangamon, Illinois  ,44100,0.9179
+22060,Franklin, Massachusetts  ,44140,1.0377
+22070,Hampden, Massachusetts  ,44140,1.0377
+22080,Hampshire, Massachusetts  ,44140,1.0377
+26210,Christian, Missouri  ,44180,0.8581
+26290,Dallas, Missouri  ,44180,0.8581
+26380,Greene, Missouri  ,44180,0.8581
+26821,Polk, Missouri  ,44180,0.8581
+26994,Webster, Missouri  ,44180,0.8581
+36110,Clark, Ohio,44220,0.9236
+39200,Centre, Pennsylvania  ,44300,0.951
+51040,Brooke, W Virginia  ,44600,0.764
+51140,Hancock, W Virginia  ,44600,0.764
+36420,Jefferson, Ohio,44600,0.764
+5490,San Joaquin, California  ,44700,1.3356
+42420,Sumter, S Carolina  ,44940,0.7454
+33360,Madison, New York  ,45060,0.9829
+33520,Onondaga, New York  ,45060,0.9829
+33560,Oswego, New York  ,45060,0.9829
+50260,Pierce, Washington  ,45104,1.1741
+10190,Gadsden, Florida  ,45220,0.8521
+10320,Jefferson, Florida  ,45220,0.8521
+10360,Leon, Florida  ,45220,0.8521
+10640,Wakulla, Florida  ,45220,0.8521
+10260,Hernando, Florida  ,45300,0.9032
+10280,Hillsborough, Florida  ,45300,0.9032
+10500,Pasco, Florida  ,45300,0.9032
+10510,Pinellas, Florida  ,45300,0.9032
+15100,Clay, Indiana  ,45460,0.9113
+15760,Sullivan, Indiana  ,45460,0.9113
+15820,Vermillion, Indiana  ,45460,0.9113
+15830,Vigo, Indiana  ,45460,0.9113
+45170,Bowie, Texas  ,45500,0.7967
+4450,Miller, Arkansas  ,45500,0.7967
+36260,Fulton, Ohio,45780,0.9034
+36490,Lucas, Ohio,45780,0.9034
+36630,Ottawa, Ohio,45780,0.9034
+36880,Wood, Ohio,45780,0.9034
+17420,Jackson, Kansas  ,45820,0.8969
+17430,Jefferson, Kansas  ,45820,0.8969
+17690,Osage, Kansas  ,45820,0.8969
+17880,Shawnee, Kansas  ,45820,0.8969
+17980,Wabaunsee, Kansas  ,45820,0.8969
+31260,Mercer, New Jersey,45940,1.036
+3090,Pima, Arizona  ,46060,0.9065
+37180,Creek, Oklahoma  ,46140,0.8139
+37550,Okmulgee, Oklahoma  ,46140,0.8139
+37560,Osage, Oklahoma  ,46140,0.8139
+37580,Pawnee, Oklahoma  ,46140,0.8139
+37650,Rogers, Oklahoma  ,46140,0.8139
+37710,Tulsa, Oklahoma  ,46140,0.8139
+37720,Wagoner, Oklahoma  ,46140,0.8139
+1310,Greene, Alabama  ,46220,0.8533
+1320,Hale, Alabama  ,46220,0.8533
+1620,Tuscaloosa, Alabama  ,46220,0.8533
+45892,Smith, Texas  ,46340,0.8361
+33320,Herkimer, New York  ,46540,0.8653
+33510,Oneida, New York  ,46540,0.8653
+11120,Brooks, Georgia  ,46660,0.7918
+11420,Echols, Georgia  ,46660,0.7918
+11652,Lanier, Georgia  ,46660,0.7918
+11700,Lowndes, Georgia  ,46660,0.7918
+5580,Solano, California  ,46700,1.5844
+45224,Calhoun, Texas  ,47020,0.8992
+45561,Goliad, Texas  ,47020,0.8992
+45948,Victoria, Texas  ,47020,0.8992
+31190,Cumberland, New Jersey,47220,1.0596
+49194,Chesapeake City, Virginia  ,47260,0.9208
+34251,Currituck, N Carolina  ,47260,0.9208
+49360,Gloucester, Virginia  ,47260,0.9208
+49411,Hampton City, Virginia  ,47260,0.9208
+49460,Isle Of Wight, Virginia  ,47260,0.9208
+49470,James City Co, Virginia  ,47260,0.9208
+49570,Mathews, Virginia  ,47260,0.9208
+49622,Newport News City, Virginia  ,47260,0.9208
+49641,Norfolk City, Virginia  ,47260,0.9208
+49712,Poquoson City, Virginia  ,47260,0.9208
+49711,Portsmouth City, Virginia  ,47260,0.9208
+49892,Suffolk City, Virginia  ,47260,0.9208
+49900,Surry, Virginia  ,47260,0.9208
+49921,Virginia Beach City, Virginia  ,47260,0.9208
+49961,Williamsburg City, Virginia  ,47260,0.9208
+49981,York, Virginia  ,47260,0.9208
+5640,Tulare, California  ,47300,1.0349
+45780,McLennan, Texas  ,47380,0.8458
+11600,Houston, Georgia  ,47580,0.8197
+23430,Lapeer, Michigan  ,47644,0.9543
+23460,Livingston, Michigan  ,47644,0.9543
+23490,Macomb, Michigan  ,47644,0.9543
+23620,Oakland, Michigan  ,47644,0.9543
+23730,St. Clair, Michigan  ,47644,0.9543
+49011,Alexandria City, Virginia  ,47894,1.0659
+49060,Arlington, Virginia  ,47894,1.0659
+21040,Calvert, Maryland  ,47894,1.0659
+21080,Charles, Maryland  ,47894,1.0659
+49210,Clarke, Virginia  ,47894,1.0659
+49288,Fairfax City, Virginia  ,47894,1.0659
+49290,Fairfax, Virginia  ,47894,1.0659
+49291,Falls Church City, Virginia  ,47894,1.0659
+49300,Fauquier, Virginia  ,47894,1.0659
+49342,Fredericksburg City, Virginia  ,47894,1.0659
+51180,Jefferson, W Virginia  ,47894,1.0659
+49530,Loudoun, Virginia  ,47894,1.0659
+49563,Manassas City, Virginia  ,47894,1.0659
+49565,Manassas Park City, Virginia  ,47894,1.0659
+21160,Prince George's, Maryland  ,47894,1.0659
+49750,Prince William, Virginia  ,47894,1.0659
+49880,Spotsylvania, Virginia  ,47894,1.0659
+49890,Stafford, Virginia  ,47894,1.0659
+49930,Warren, Virginia  ,47894,1.0659
+9000,Washington DC, Dist Of Col  ,47894,1.0659
+16060,Black Hawk, Iowa  ,47940,0.8422
+16080,Bremer, Iowa  ,47940,0.8422
+16370,Grundy, Iowa  ,47940,0.8422
+52360,Marathon, Wisconsin  ,48140,0.8921
+50030,Chelan, Washington  ,48300,1.0037
+50080,Douglas, Washington  ,48300,1.0037
+10490,Palm Beach, Florida  ,48424,0.9661
+36060,Belmont, Ohio,48540,0.6863
+51250,Marshall, W Virginia  ,48540,0.6863
+51340,Ohio, W Virginia  ,48540,0.6863
+17070,Butler, Kansas  ,48620,0.8681
+17390,Harvey, Kansas  ,48620,0.8681
+17860,Sedgwick, Kansas  ,48620,0.8681
+17950,Sumner, Kansas  ,48620,0.8681
+45040,Archer, Texas  ,48660,0.9048
+45291,Clay, Texas  ,48660,0.9048
+45960,Wichita, Texas  ,48660,0.9048
+39510,Lycoming, Pennsylvania  ,48700,0.823
+21070,Cecil, Maryland  ,48864,1.0687
+8010,New Castle, Delaware ,48864,1.0687
+31340,Salem, New Jersey,48864,1.0687
+34090,Brunswick, N Carolina  ,48900,0.9155
+34640,New Hanover, N Carolina  ,48900,0.9155
+34700,Pender, N Carolina  ,48900,0.9155
+49340,Frederick, Virginia  ,49020,0.9249
+51130,Hampshire, W Virginia  ,49020,0.9249
+49962,Winchester City, Virginia  ,49020,0.9249
+34290,Davie, N Carolina  ,49180,0.866
+34330,Forsyth, N Carolina  ,49180,0.866
+34840,Stokes, N Carolina  ,49180,0.866
+34980,Yadkin, N Carolina  ,49180,0.866
+22170,Worcester, Massachusetts  ,49340,1.1205
+50380,Yakima, Washington  ,49420,1.0097
+40270,Guanica, Puerto Rico  ,49500,0.4059
+40290,Guayanilla, Puerto Rico  ,49500,0.4059
+40550,Penuelas, Puerto Rico  ,49500,0.4059
+40770,Yauco, Puerto Rico  ,49500,0.4059
+39800,York, Pennsylvania  ,49620,0.9557
+36510,Mahoning, Ohio,49660,0.8283
+39530,Mercer, Pennsylvania  ,49660,0.8283
+36790,Trumbull, Ohio,49660,0.8283
+5610,Sutter, California  ,49700,1.2004
+5680,Yuba, California  ,49700,1.2004
+3130,Yuma, Arizona  ,49740,0.9517
+1010,Baldwin, Alabama  ,99901,0.7121
+1020,Barbour, Alabama  ,99901,0.7121
+1050,Bullock, Alabama  ,99901,0.7121
+1060,Butler, Alabama  ,99901,0.7121
+1080,Chambers, Alabama  ,99901,0.7121
+1090,Cherokee, Alabama  ,99901,0.7121
+1110,Choctaw, Alabama  ,99901,0.7121
+1120,Clarke, Alabama  ,99901,0.7121
+1130,Clay, Alabama  ,99901,0.7121
+1140,Cleburne, Alabama  ,99901,0.7121
+1150,Coffee, Alabama  ,99901,0.7121
+1170,Conecuh, Alabama  ,99901,0.7121
+1180,Coosa, Alabama  ,99901,0.7121
+1190,Covington, Alabama  ,99901,0.7121
+1200,Crenshaw, Alabama  ,99901,0.7121
+1210,Cullman, Alabama  ,99901,0.7121
+1220,Dale, Alabama  ,99901,0.7121
+1230,Dallas, Alabama  ,99901,0.7121
+1240,De Kalb, Alabama  ,99901,0.7121
+1260,Escambia, Alabama  ,99901,0.7121
+1280,Fayette, Alabama  ,99901,0.7121
+1290,Franklin, Alabama  ,99901,0.7121
+1350,Jackson, Alabama  ,99901,0.7121
+1370,Lamar, Alabama  ,99901,0.7121
+1430,Macon, Alabama  ,99901,0.7121
+1450,Marengo, Alabama  ,99901,0.7121
+1460,Marion, Alabama  ,99901,0.7121
+1470,Marshall, Alabama  ,99901,0.7121
+1490,Monroe, Alabama  ,99901,0.7121
+1520,Perry, Alabama  ,99901,0.7121
+1530,Pickens, Alabama  ,99901,0.7121
+1540,Pike, Alabama  ,99901,0.7121
+1550,Randolph, Alabama  ,99901,0.7121
+1590,Sumter, Alabama  ,99901,0.7121
+1600,Talladega, Alabama  ,99901,0.7121
+1610,Tallapoosa, Alabama  ,99901,0.7121
+1640,Washington, Alabama  ,99901,0.7121
+1650,Wilcox, Alabama  ,99901,0.7121
+1660,Winston, Alabama  ,99901,0.7121
+2013,Aleutians East, Alaska  ,99902,1.2807
+2016,Aleutians West, Alaska  ,99902,1.2807
+2030,Angoon, Alaska  ,99902,1.2807
+2040,Barrow-North Slope, Alaska  ,99902,1.2807
+2050,Bethel, Alaska  ,99902,1.2807
+2060,Bristol Bay Borough, Alaska  ,99902,1.2807
+2070,Bristol Bay, Alaska  ,99902,1.2807
+2080,Cordova-Mc Carthy, Alaska  ,99902,1.2807
+2068,Denali, Alaska  ,99902,1.2807
+2100,Haines, Alaska  ,99902,1.2807
+2110,Juneau, Alaska  ,99902,1.2807
+2122,Kenai Peninsula Borough, Alaska  ,99902,1.2807
+2120,Kenai-Cook Inlet, Alaska  ,99902,1.2807
+2130,Ketchikan, Alaska  ,99902,1.2807
+2140,Kobuk, Alaska  ,99902,1.2807
+2150,Kodiak, Alaska  ,99902,1.2807
+2160,Kuskokwin, Alaska  ,99902,1.2807
+2164,Lake and Peninsula Borough, Alaska  ,99902,1.2807
+2180,Nome, Alaska  ,99902,1.2807
+2185,North Slope Borough, Alaska  ,99902,1.2807
+2188,Northwest Arctic Borough, Alaska  ,99902,1.2807
+2190,Outer Ketchikan, Alaska  ,99902,1.2807
+2200,Prince Of Wales, Alaska  ,99902,1.2807
+2201,Prince of Wales-Outer Ketchikan Census Area, Alaska  ,99902,1.2807
+2210,Seward, Alaska  ,99902,1.2807
+2220,Sitka, Alaska  ,99902,1.2807
+2232,Skagway-Hoonah-Angoon Census Area, Alaska  ,99902,1.2807
+2230,Skagway-Yakutat, Alaska  ,99902,1.2807
+2231,Skagway-Yakutat-Angoon Census Area, Alaska  ,99902,1.2807
+2240,Southeast Fairbanks, Alaska  ,99902,1.2807
+2250,Upper Yukon, Alaska  ,99902,1.2807
+2261,Valdex-Cordove Census Area, Alaska  ,99902,1.2807
+2260,Valdz-Chitna-Whitier, Alaska  ,99902,1.2807
+2270,Wade Hampton, Alaska  ,99902,1.2807
+2280,Wrangell-Petersburg, Alaska  ,99902,1.2807
+2282,Yakutat Borough, Alaska  ,99902,1.2807
+2290,Yukon-Koyukuk, Alaska  ,99902,1.2807
+3000,Apache, Arizona  ,99903,0.9182
+3010,Cochise, Arizona  ,99903,0.9182
+3030,Gila, Arizona  ,99903,0.9182
+3040,Graham, Arizona  ,99903,0.9182
+3050,Greenlee, Arizona  ,99903,0.9182
+3055,La Paz, Arizona  ,99903,0.9182
+3080,Navajo, Arizona  ,99903,0.9182
+3110,Santa Cruz, Arizona  ,99903,0.9182
+4000,Arkansas, Arkansas  ,99904,0.735
+4010,Ashley, Arkansas  ,99904,0.735
+4020,Baxter, Arkansas  ,99904,0.735
+4040,Boone, Arkansas  ,99904,0.735
+4050,Bradley, Arkansas  ,99904,0.735
+4060,Calhoun, Arkansas  ,99904,0.735
+4070,Carroll, Arkansas  ,99904,0.735
+4080,Chicot, Arkansas  ,99904,0.735
+4090,Clark, Arkansas  ,99904,0.735
+4100,Clay, Arkansas  ,99904,0.735
+4110,Cleburne, Arkansas  ,99904,0.735
+4130,Columbia, Arkansas  ,99904,0.735
+4140,Conway, Arkansas  ,99904,0.735
+4180,Cross, Arkansas  ,99904,0.735
+4190,Dallas, Arkansas  ,99904,0.735
+4200,Desha, Arkansas  ,99904,0.735
+4210,Drew, Arkansas  ,99904,0.735
+4240,Fulton, Arkansas  ,99904,0.735
+4270,Greene, Arkansas  ,99904,0.735
+4280,Hempstead, Arkansas  ,99904,0.735
+4290,Hot Spring, Arkansas  ,99904,0.735
+4300,Howard, Arkansas  ,99904,0.735
+4310,Independence, Arkansas  ,99904,0.735
+4320,Izard, Arkansas  ,99904,0.735
+4330,Jackson, Arkansas  ,99904,0.735
+4350,Johnson, Arkansas  ,99904,0.735
+4360,Lafayette, Arkansas  ,99904,0.735
+4370,Lawrence, Arkansas  ,99904,0.735
+4380,Lee, Arkansas  ,99904,0.735
+4400,Little River, Arkansas  ,99904,0.735
+4410,Logan, Arkansas  ,99904,0.735
+4440,Marion, Arkansas  ,99904,0.735
+4460,Mississippi, Arkansas  ,99904,0.735
+4470,Monroe, Arkansas  ,99904,0.735
+4480,Montgomery, Arkansas  ,99904,0.735
+4490,Nevada, Arkansas  ,99904,0.735
+4500,Newton, Arkansas  ,99904,0.735
+4510,Ouachita, Arkansas  ,99904,0.735
+4530,Phillips, Arkansas  ,99904,0.735
+4540,Pike, Arkansas  ,99904,0.735
+4560,Polk, Arkansas  ,99904,0.735
+4570,Pope, Arkansas  ,99904,0.735
+4580,Prairie, Arkansas  ,99904,0.735
+4600,Randolph, Arkansas  ,99904,0.735
+4630,Scott, Arkansas  ,99904,0.735
+4640,Searcy, Arkansas  ,99904,0.735
+4660,Sevier, Arkansas  ,99904,0.735
+4670,Sharp, Arkansas  ,99904,0.735
+4610,St Francis, Arkansas  ,99904,0.735
+4680,Stone, Arkansas  ,99904,0.735
+4690,Union, Arkansas  ,99904,0.735
+4700,Van Buren, Arkansas  ,99904,0.735
+4720,White, Arkansas  ,99904,0.735
+4730,Woodruff, Arkansas  ,99904,0.735
+4740,Yell, Arkansas  ,99904,0.735
+5010,Alpine, California  ,99905,1.2567
+5020,Amador, California  ,99905,1.2567
+5040,Calaveras, California  ,99905,1.2567
+5050,Colusa, California  ,99905,1.2567
+5070,Del Norte, California  ,99905,1.2567
+5100,Glenn, California  ,99905,1.2567
+5110,Humboldt, California  ,99905,1.2567
+5130,Inyo, California  ,99905,1.2567
+5160,Lake, California  ,99905,1.2567
+5170,Lassen, California  ,99905,1.2567
+5320,Mariposa, California  ,99905,1.2567
+5330,Mendocino, California  ,99905,1.2567
+5350,Modoc, California  ,99905,1.2567
+5360,Mono, California  ,99905,1.2567
+5390,Nevada, California  ,99905,1.2567
+5420,Plumas, California  ,99905,1.2567
+5560,Sierra, California  ,99905,1.2567
+5570,Siskiyou, California  ,99905,1.2567
+5620,Tehama, California  ,99905,1.2567
+5630,Trinity, California  ,99905,1.2567
+5650,Tuolumne, California  ,99905,1.2567
+6010,Alamosa, Colorado  ,99906,1.0208
+6030,Archuleta, Colorado  ,99906,1.0208
+6040,Baca, Colorado  ,99906,1.0208
+6050,Bent, Colorado  ,99906,1.0208
+6070,Chaffee, Colorado  ,99906,1.0208
+6080,Cheyenne, Colorado  ,99906,1.0208
+6100,Conejos, Colorado  ,99906,1.0208
+6110,Costilla, Colorado  ,99906,1.0208
+6120,Crowley, Colorado  ,99906,1.0208
+6130,Custer, Colorado  ,99906,1.0208
+6140,Delta, Colorado  ,99906,1.0208
+6160,Dolores, Colorado  ,99906,1.0208
+6180,Eagle, Colorado  ,99906,1.0208
+6210,Fremont, Colorado  ,99906,1.0208
+6220,Garfield, Colorado  ,99906,1.0208
+6240,Grand, Colorado  ,99906,1.0208
+6250,Gunnison, Colorado  ,99906,1.0208
+6260,Hinsdale, Colorado  ,99906,1.0208
+6270,Huerfano, Colorado  ,99906,1.0208
+6280,Jackson, Colorado  ,99906,1.0208
+6300,Kiowa, Colorado  ,99906,1.0208
+6310,Kit Carson, Colorado  ,99906,1.0208
+6330,La Plata, Colorado  ,99906,1.0208
+6320,Lake, Colorado  ,99906,1.0208
+6350,Las Animas, Colorado  ,99906,1.0208
+6360,Lincoln, Colorado  ,99906,1.0208
+6370,Logan, Colorado  ,99906,1.0208
+6390,Mineral, Colorado  ,99906,1.0208
+6400,Moffat, Colorado  ,99906,1.0208
+6410,Montezuma, Colorado  ,99906,1.0208
+6420,Montrose, Colorado  ,99906,1.0208
+6430,Morgan, Colorado  ,99906,1.0208
+6440,Otero, Colorado  ,99906,1.0208
+6450,Ouray, Colorado  ,99906,1.0208
+6470,Phillips, Colorado  ,99906,1.0208
+6480,Pitkin, Colorado  ,99906,1.0208
+6490,Prowers, Colorado  ,99906,1.0208
+6510,Rio Blanco, Colorado  ,99906,1.0208
+6520,Rio Grande, Colorado  ,99906,1.0208
+6530,Routt, Colorado  ,99906,1.0208
+6540,Saguache, Colorado  ,99906,1.0208
+6550,San Juan, Colorado  ,99906,1.0208
+6560,San Miguel, Colorado  ,99906,1.0208
+6570,Sedgwick, Colorado  ,99906,1.0208
+6580,Summit, Colorado  ,99906,1.0208
+6600,Washington, Colorado  ,99906,1.0208
+6620,Yuma, Colorado  ,99906,1.0208
+7020,Litchfield, Connecticut  ,99907,1.1128
+7070,Windham, Connecticut  ,99907,1.1128
+8020,Sussex, Delaware  ,99908,1.0171
+10030,Bradford, Florida  ,99910,0.8062
+10060,Calhoun, Florida  ,99910,0.8062
+10080,Citrus, Florida  ,99910,0.8062
+10110,Columbia, Florida  ,99910,0.8062
+10130,De Soto, Florida  ,99910,0.8062
+10140,Dixie, Florida  ,99910,0.8062
+10180,Franklin, Florida  ,99910,0.8062
+10210,Glades, Florida  ,99910,0.8062
+10220,Gulf, Florida  ,99910,0.8062
+10230,Hamilton, Florida  ,99910,0.8062
+10240,Hardee, Florida  ,99910,0.8062
+10250,Hendry, Florida  ,99910,0.8062
+10270,Highlands, Florida  ,99910,0.8062
+10290,Holmes, Florida  ,99910,0.8062
+10310,Jackson, Florida  ,99910,0.8062
+10330,Lafayette, Florida  ,99910,0.8062
+10370,Levy, Florida  ,99910,0.8062
+10380,Liberty, Florida  ,99910,0.8062
+10390,Madison, Florida  ,99910,0.8062
+10430,Monroe, Florida  ,99910,0.8062
+10460,Okeechobee, Florida  ,99910,0.8062
+10530,Putnam, Florida  ,99910,0.8062
+10590,Sumter, Florida  ,99910,0.8062
+10600,Suwannee, Florida  ,99910,0.8062
+10610,Taylor, Florida  ,99910,0.8062
+10620,Union, Florida  ,99910,0.8062
+10650,Walton, Florida  ,99910,0.8062
+10660,Washington, Florida  ,99910,0.8062
+11000,Appling, Georgia  ,99911,0.7421
+11010,Atkinson, Georgia  ,99911,0.7421
+11011,Bacon, Georgia  ,99911,0.7421
+11030,Baldwin, Georgia  ,99911,0.7421
+11040,Banks, Georgia  ,99911,0.7421
+11070,Ben Hill, Georgia  ,99911,0.7421
+11080,Berrien, Georgia  ,99911,0.7421
+11100,Bleckley, Georgia  ,99911,0.7421
+11140,Bulloch, Georgia  ,99911,0.7421
+11161,Calhoun, Georgia  ,99911,0.7421
+11170,Camden, Georgia  ,99911,0.7421
+11180,Candler, Georgia  ,99911,0.7421
+11210,Charlton, Georgia  ,99911,0.7421
+11240,Chattooga, Georgia  ,99911,0.7421
+11270,Clay, Georgia  ,99911,0.7421
+11281,Clinch, Georgia  ,99911,0.7421
+11291,Coffee, Georgia  ,99911,0.7421
+11300,Colquitt, Georgia  ,99911,0.7421
+11311,Cook, Georgia  ,99911,0.7421
+11340,Crisp, Georgia  ,99911,0.7421
+11360,Decatur, Georgia  ,99911,0.7421
+11380,Dodge, Georgia  ,99911,0.7421
+11381,Dooly, Georgia  ,99911,0.7421
+11410,Early, Georgia  ,99911,0.7421
+11430,Elbert, Georgia  ,99911,0.7421
+11440,Emanuel, Georgia  ,99911,0.7421
+11441,Evans, Georgia  ,99911,0.7421
+11450,Fannin, Georgia  ,99911,0.7421
+11462,Franklin, Georgia  ,99911,0.7421
+11471,Gilmer, Georgia  ,99911,0.7421
+11480,Glascock, Georgia  ,99911,0.7421
+11500,Gordon, Georgia  ,99911,0.7421
+11510,Grady, Georgia  ,99911,0.7421
+11520,Greene, Georgia  ,99911,0.7421
+11540,Habersham, Georgia  ,99911,0.7421
+11560,Hancock, Georgia  ,99911,0.7421
+11581,Hart, Georgia  ,99911,0.7421
+11601,Irwin, Georgia  ,99911,0.7421
+11610,Jackson, Georgia  ,99911,0.7421
+11612,Jeff Davis, Georgia  ,99911,0.7421
+11620,Jefferson, Georgia  ,99911,0.7421
+11630,Jenkins, Georgia  ,99911,0.7421
+11640,Johnson, Georgia  ,99911,0.7421
+11660,Laurens, Georgia  ,99911,0.7421
+11690,Lincoln, Georgia  ,99911,0.7421
+11701,Lumpkin, Georgia  ,99911,0.7421
+11710,Macon, Georgia  ,99911,0.7421
+11741,Miller, Georgia  ,99911,0.7421
+11750,Mitchell, Georgia  ,99911,0.7421
+11770,Montgomery, Georgia  ,99911,0.7421
+11771,Morgan, Georgia  ,99911,0.7421
+11811,Peach, Georgia  ,99911,0.7421
+11820,Pierce, Georgia  ,99911,0.7421
+11830,Polk, Georgia  ,99911,0.7421
+11831,Pulaski, Georgia  ,99911,0.7421
+11832,Putnam, Georgia  ,99911,0.7421
+11833,Quitman, Georgia  ,99911,0.7421
+11834,Rabun, Georgia  ,99911,0.7421
+11835,Randolph, Georgia  ,99911,0.7421
+11842,Schley, Georgia  ,99911,0.7421
+11850,Screven, Georgia  ,99911,0.7421
+11851,Seminole, Georgia  ,99911,0.7421
+11861,Stephens, Georgia  ,99911,0.7421
+11862,Stewart, Georgia  ,99911,0.7421
+11870,Sumter, Georgia  ,99911,0.7421
+11880,Talbot, Georgia  ,99911,0.7421
+11881,Taliaferro, Georgia  ,99911,0.7421
+11882,Tattnall, Georgia  ,99911,0.7421
+11883,Taylor, Georgia  ,99911,0.7421
+11884,Telfair, Georgia  ,99911,0.7421
+11890,Thomas, Georgia  ,99911,0.7421
+11900,Tift, Georgia  ,99911,0.7421
+11901,Toombs, Georgia  ,99911,0.7421
+11902,Towns, Georgia  ,99911,0.7421
+11903,Treutlen, Georgia  ,99911,0.7421
+11910,Troup, Georgia  ,99911,0.7421
+11911,Turner, Georgia  ,99911,0.7421
+11913,Union, Georgia  ,99911,0.7421
+11920,Upson, Georgia  ,99911,0.7421
+11940,Ware, Georgia  ,99911,0.7421
+11941,Warren, Georgia  ,99911,0.7421
+11950,Washington, Georgia  ,99911,0.7421
+11960,Wayne, Georgia  ,99911,0.7421
+11961,Webster, Georgia  ,99911,0.7421
+11962,Wheeler, Georgia  ,99911,0.7421
+11963,White, Georgia  ,99911,0.7421
+11971,Wilcox, Georgia  ,99911,0.7421
+11972,Wilkes, Georgia  ,99911,0.7421
+11973,Wilkinson, Georgia  ,99911,0.7421
+12010,Hawaii, Hawaii  ,99912,1.0728
+12005,Kalawao, Hawaii  ,99912,1.0728
+12040,Kauai, Hawaii  ,99912,1.0728
+12050,Maui, Hawaii  ,99912,1.0728
+13010,Adams, Idaho  ,99913,0.7583
+13030,Bear Lake, Idaho  ,99913,0.7583
+13040,Benewah, Idaho  ,99913,0.7583
+13050,Bingham, Idaho  ,99913,0.7583
+13060,Blaine, Idaho  ,99913,0.7583
+13080,Bonner, Idaho  ,99913,0.7583
+13100,Boundary, Idaho  ,99913,0.7583
+13110,Butte, Idaho  ,99913,0.7583
+13120,Camas, Idaho  ,99913,0.7583
+13140,Caribou, Idaho  ,99913,0.7583
+13150,Cassia, Idaho  ,99913,0.7583
+13160,Clark, Idaho  ,99913,0.7583
+13170,Clearwater, Idaho  ,99913,0.7583
+13180,Custer, Idaho  ,99913,0.7583
+13190,Elmore, Idaho  ,99913,0.7583
+13210,Fremont, Idaho  ,99913,0.7583
+13230,Gooding, Idaho  ,99913,0.7583
+13240,Idaho, Idaho  ,99913,0.7583
+13260,Jerome, Idaho  ,99913,0.7583
+13280,Latah, Idaho  ,99913,0.7583
+13290,Lemhi, Idaho  ,99913,0.7583
+13300,Lewis, Idaho  ,99913,0.7583
+13310,Lincoln, Idaho  ,99913,0.7583
+13320,Madison, Idaho  ,99913,0.7583
+13330,Minidoka, Idaho  ,99913,0.7583
+13350,Oneida, Idaho  ,99913,0.7583
+13370,Payette, Idaho  ,99913,0.7583
+13390,Shoshone, Idaho  ,99913,0.7583
+13400,Teton, Idaho  ,99913,0.7583
+13410,Twin Falls, Idaho  ,99913,0.7583
+13420,Valley, Idaho  ,99913,0.7583
+13430,Washington, Idaho  ,99913,0.7583
+14000,Adams, Illinois  ,99914,0.8438
+14040,Brown, Illinois  ,99914,0.8438
+14050,Bureau, Illinois  ,99914,0.8438
+14070,Carroll, Illinois  ,99914,0.8438
+14080,Cass, Illinois  ,99914,0.8438
+14100,Christian, Illinois  ,99914,0.8438
+14110,Clark, Illinois  ,99914,0.8438
+14120,Clay, Illinois  ,99914,0.8438
+14140,Coles, Illinois  ,99914,0.8438
+14150,Crawford, Illinois  ,99914,0.8438
+14160,Cumberland, Illinois  ,99914,0.8438
+14180,De Witt, Illinois  ,99914,0.8438
+14190,Douglas, Illinois  ,99914,0.8438
+14310,Edgar, Illinois  ,99914,0.8438
+14320,Edwards, Illinois  ,99914,0.8438
+14330,Effingham, Illinois  ,99914,0.8438
+14340,Fayette, Illinois  ,99914,0.8438
+14360,Franklin, Illinois  ,99914,0.8438
+14370,Fulton, Illinois  ,99914,0.8438
+14380,Gallatin, Illinois  ,99914,0.8438
+14390,Greene, Illinois  ,99914,0.8438
+14410,Hamilton, Illinois  ,99914,0.8438
+14420,Hancock, Illinois  ,99914,0.8438
+14421,Hardin, Illinois  ,99914,0.8438
+14440,Henderson, Illinois  ,99914,0.8438
+14460,Iroquois, Illinois  ,99914,0.8438
+14470,Jackson, Illinois  ,99914,0.8438
+14480,Jasper, Illinois  ,99914,0.8438
+14490,Jefferson, Illinois  ,99914,0.8438
+14510,Jo Daviess, Illinois  ,99914,0.8438
+14520,Johnson, Illinois  ,99914,0.8438
+14560,Knox, Illinois  ,99914,0.8438
+14580,La Salle, Illinois  ,99914,0.8438
+14590,Lawrence, Illinois  ,99914,0.8438
+14600,Lee, Illinois  ,99914,0.8438
+14610,Livingston, Illinois  ,99914,0.8438
+14620,Logan, Illinois  ,99914,0.8438
+14690,Marion, Illinois  ,99914,0.8438
+14710,Mason, Illinois  ,99914,0.8438
+14720,Massac, Illinois  ,99914,0.8438
+14630,Mc Donough, Illinois  ,99914,0.8438
+14760,Montgomery, Illinois  ,99914,0.8438
+14770,Morgan, Illinois  ,99914,0.8438
+14780,Moultrie, Illinois  ,99914,0.8438
+14790,Ogle, Illinois  ,99914,0.8438
+14810,Perry, Illinois  ,99914,0.8438
+14830,Pike, Illinois  ,99914,0.8438
+14831,Pope, Illinois  ,99914,0.8438
+14850,Pulaski, Illinois  ,99914,0.8438
+14860,Putnam, Illinois  ,99914,0.8438
+14870,Randolph, Illinois  ,99914,0.8438
+14880,Richland, Illinois  ,99914,0.8438
+14910,Saline, Illinois  ,99914,0.8438
+14921,Schuyler, Illinois  ,99914,0.8438
+14940,Scott, Illinois  ,99914,0.8438
+14950,Shelby, Illinois  ,99914,0.8438
+14970,Stephenson, Illinois  ,99914,0.8438
+14981,Union, Illinois  ,99914,0.8438
+14983,Wabash, Illinois  ,99914,0.8438
+14984,Warren, Illinois  ,99914,0.8438
+14985,Washington, Illinois  ,99914,0.8438
+14986,Wayne, Illinois  ,99914,0.8438
+14987,White, Illinois  ,99914,0.8438
+14988,Whiteside, Illinois  ,99914,0.8438
+14990,Williamson, Illinois  ,99914,0.8438
+15000,Adams, Indiana  ,99915,0.8472
+15040,Blackford, Indiana  ,99915,0.8472
+15080,Cass, Indiana  ,99915,0.8472
+15110,Clinton, Indiana  ,99915,0.8472
+15120,Crawford, Indiana  ,99915,0.8472
+15130,Daviess, Indiana  ,99915,0.8472
+15160,De Kalb, Indiana  ,99915,0.8472
+15150,Decatur, Indiana  ,99915,0.8472
+15180,Dubois, Indiana  ,99915,0.8472
+15200,Fayette, Indiana  ,99915,0.8472
+15220,Fountain, Indiana  ,99915,0.8472
+15240,Fulton, Indiana  ,99915,0.8472
+15260,Grant, Indiana  ,99915,0.8472
+15320,Henry, Indiana  ,99915,0.8472
+15340,Huntington, Indiana  ,99915,0.8472
+15350,Jackson, Indiana  ,99915,0.8472
+15370,Jay, Indiana  ,99915,0.8472
+15380,Jefferson, Indiana  ,99915,0.8472
+15390,Jennings, Indiana  ,99915,0.8472
+15410,Knox, Indiana  ,99915,0.8472
+15420,Kosciusko, Indiana  ,99915,0.8472
+15430,Lagrange, Indiana  ,99915,0.8472
+15460,Lawrence, Indiana  ,99915,0.8472
+15490,Marshall, Indiana  ,99915,0.8472
+15500,Martin, Indiana  ,99915,0.8472
+15510,Miami, Indiana  ,99915,0.8472
+15530,Montgomery, Indiana  ,99915,0.8472
+15560,Noble, Indiana  ,99915,0.8472
+15580,Orange, Indiana  ,99915,0.8472
+15600,Parke, Indiana  ,99915,0.8472
+15610,Perry, Indiana  ,99915,0.8472
+15620,Pike, Indiana  ,99915,0.8472
+15650,Pulaski, Indiana  ,99915,0.8472
+15670,Randolph, Indiana  ,99915,0.8472
+15680,Ripley, Indiana  ,99915,0.8472
+15690,Rush, Indiana  ,99915,0.8472
+15710,Scott, Indiana  ,99915,0.8472
+15730,Spencer, Indiana  ,99915,0.8472
+15740,Starke, Indiana  ,99915,0.8472
+15750,Steuben, Indiana  ,99915,0.8472
+15770,Switzerland, Indiana  ,99915,0.8472
+15800,Union, Indiana  ,99915,0.8472
+15840,Wabash, Indiana  ,99915,0.8472
+15850,Warren, Indiana  ,99915,0.8472
+15880,Wayne, Indiana  ,99915,0.8472
+15900,White, Indiana  ,99915,0.8472
+16000,Adair, Iowa  ,99916,0.8351
+16010,Adams, Iowa  ,99916,0.8351
+16020,Allamakee, Iowa  ,99916,0.8351
+16030,Appanoose, Iowa  ,99916,0.8351
+16040,Audubon, Iowa  ,99916,0.8351
+16070,Boone, Iowa  ,99916,0.8351
+16090,Buchanan, Iowa  ,99916,0.8351
+16100,Buena Vista, Iowa  ,99916,0.8351
+16110,Butler, Iowa  ,99916,0.8351
+16120,Calhoun, Iowa  ,99916,0.8351
+16130,Carroll, Iowa  ,99916,0.8351
+16140,Cass, Iowa  ,99916,0.8351
+16150,Cedar, Iowa  ,99916,0.8351
+16160,Cerro Gordo, Iowa  ,99916,0.8351
+16170,Cherokee, Iowa  ,99916,0.8351
+16180,Chickasaw, Iowa  ,99916,0.8351
+16190,Clarke, Iowa  ,99916,0.8351
+16200,Clay, Iowa  ,99916,0.8351
+16210,Clayton, Iowa  ,99916,0.8351
+16220,Clinton, Iowa  ,99916,0.8351
+16230,Crawford, Iowa  ,99916,0.8351
+16250,Davis, Iowa  ,99916,0.8351
+16260,Decatur, Iowa  ,99916,0.8351
+16270,Delaware, Iowa  ,99916,0.8351
+16280,Des Moines, Iowa  ,99916,0.8351
+16290,Dickinson, Iowa  ,99916,0.8351
+16310,Emmet, Iowa  ,99916,0.8351
+16320,Fayette, Iowa  ,99916,0.8351
+16330,Floyd, Iowa  ,99916,0.8351
+16340,Franklin, Iowa  ,99916,0.8351
+16350,Fremont, Iowa  ,99916,0.8351
+16360,Greene, Iowa  ,99916,0.8351
+16390,Hamilton, Iowa  ,99916,0.8351
+16400,Hancock, Iowa  ,99916,0.8351
+16410,Hardin, Iowa  ,99916,0.8351
+16430,Henry, Iowa  ,99916,0.8351
+16440,Howard, Iowa  ,99916,0.8351
+16450,Humboldt, Iowa  ,99916,0.8351
+16460,Ida, Iowa  ,99916,0.8351
+16470,Iowa, Iowa  ,99916,0.8351
+16480,Jackson, Iowa  ,99916,0.8351
+16490,Jasper, Iowa  ,99916,0.8351
+16500,Jefferson, Iowa  ,99916,0.8351
+16530,Keokuk, Iowa  ,99916,0.8351
+16540,Kossuth, Iowa  ,99916,0.8351
+16550,Lee, Iowa  ,99916,0.8351
+16570,Louisa, Iowa  ,99916,0.8351
+16580,Lucas, Iowa  ,99916,0.8351
+16590,Lyon, Iowa  ,99916,0.8351
+16610,Mahaska, Iowa  ,99916,0.8351
+16620,Marion, Iowa  ,99916,0.8351
+16630,Marshall, Iowa  ,99916,0.8351
+16650,Mitchell, Iowa  ,99916,0.8351
+16660,Monona, Iowa  ,99916,0.8351
+16670,Monroe, Iowa  ,99916,0.8351
+16680,Montgomery, Iowa  ,99916,0.8351
+16690,Muscatine, Iowa  ,99916,0.8351
+16700,O Brien, Iowa  ,99916,0.8351
+16710,Osceola, Iowa  ,99916,0.8351
+16720,Page, Iowa  ,99916,0.8351
+16730,Palo Alto, Iowa  ,99916,0.8351
+16740,Plymouth, Iowa  ,99916,0.8351
+16750,Pocahontas, Iowa  ,99916,0.8351
+16780,Poweshiek, Iowa  ,99916,0.8351
+16790,Ringgold, Iowa  ,99916,0.8351
+16800,Sac, Iowa  ,99916,0.8351
+16820,Shelby, Iowa  ,99916,0.8351
+16830,Sioux, Iowa  ,99916,0.8351
+16850,Tama, Iowa  ,99916,0.8351
+16860,Taylor, Iowa  ,99916,0.8351
+16870,Union, Iowa  ,99916,0.8351
+16880,Van Buren, Iowa  ,99916,0.8351
+16890,Wapello, Iowa  ,99916,0.8351
+16920,Wayne, Iowa  ,99916,0.8351
+16930,Webster, Iowa  ,99916,0.8351
+16940,Winnebago, Iowa  ,99916,0.8351
+16950,Winneshiek, Iowa  ,99916,0.8351
+16970,Worth, Iowa  ,99916,0.8351
+16980,Wright, Iowa  ,99916,0.8351
+17000,Allen, Kansas  ,99917,0.7997
+17010,Anderson, Kansas  ,99917,0.7997
+17020,Atchison, Kansas  ,99917,0.7997
+17030,Barber, Kansas  ,99917,0.7997
+17040,Barton, Kansas  ,99917,0.7997
+17050,Bourbon, Kansas  ,99917,0.7997
+17060,Brown, Kansas  ,99917,0.7997
+17080,Chase, Kansas  ,99917,0.7997
+17090,Chautauqua, Kansas  ,99917,0.7997
+17100,Cherokee, Kansas  ,99917,0.7997
+17110,Cheyenne, Kansas  ,99917,0.7997
+17120,Clark, Kansas  ,99917,0.7997
+17130,Clay, Kansas  ,99917,0.7997
+17140,Cloud, Kansas  ,99917,0.7997
+17150,Coffey, Kansas  ,99917,0.7997
+17160,Comanche, Kansas  ,99917,0.7997
+17170,Cowley, Kansas  ,99917,0.7997
+17180,Crawford, Kansas  ,99917,0.7997
+17190,Decatur, Kansas  ,99917,0.7997
+17200,Dickinson, Kansas  ,99917,0.7997
+17230,Edwards, Kansas  ,99917,0.7997
+17240,Elk, Kansas  ,99917,0.7997
+17250,Ellis, Kansas ,99917,0.7997
+17260,Ellsworth, Kansas  ,99917,0.7997
+17270,Finney, Kansas  ,99917,0.7997
+17280,Ford, Kansas  ,99917,0.7997
+17310,Gove, Kansas  ,99917,0.7997
+17320,Graham, Kansas  ,99917,0.7997
+17330,Grant, Kansas  ,99917,0.7997
+17340,Gray, Kansas  ,99917,0.7997
+17350,Greeley, Kansas  ,99917,0.7997
+17360,Greenwood, Kansas  ,99917,0.7997
+17370,Hamilton, Kansas  ,99917,0.7997
+17380,Harper, Kansas  ,99917,0.7997
+17391,Haskell, Kansas  ,99917,0.7997
+17410,Hodgeman, Kansas  ,99917,0.7997
+17440,Jewell, Kansas  ,99917,0.7997
+17451,Kearny, Kansas  ,99917,0.7997
+17470,Kingman, Kansas  ,99917,0.7997
+17480,Kiowa, Kansas  ,99917,0.7997
+17490,Labette, Kansas  ,99917,0.7997
+17500,Lane, Kansas  ,99917,0.7997
+17520,Lincoln, Kansas  ,99917,0.7997
+17540,Logan, Kansas  ,99917,0.7997
+17550,Lyon, Kansas  ,99917,0.7997
+17570,Marion, Kansas  ,99917,0.7997
+17580,Marshall, Kansas  ,99917,0.7997
+17560,Mc Pherson, Kansas  ,99917,0.7997
+17590,Meade, Kansas  ,99917,0.7997
+17610,Mitchell, Kansas  ,99917,0.7997
+17620,Montgomery, Kansas  ,99917,0.7997
+17630,Morris, Kansas  ,99917,0.7997
+17640,Morton, Kansas  ,99917,0.7997
+17650,Nemaha, Kansas  ,99917,0.7997
+17660,Neosho, Kansas  ,99917,0.7997
+17670,Ness, Kansas  ,99917,0.7997
+17680,Norton, Kansas  ,99917,0.7997
+17700,Osborne, Kansas  ,99917,0.7997
+17710,Ottawa, Kansas  ,99917,0.7997
+17720,Pawnee, Kansas  ,99917,0.7997
+17730,Phillips, Kansas ,99917,0.7997
+17750,Pratt, Kansas  ,99917,0.7997
+17760,Rawlins, Kansas  ,99917,0.7997
+17770,Reno, Kansas  ,99917,0.7997
+17780,Republic, Kansas  ,99917,0.7997
+17790,Rice, Kansas  ,99917,0.7997
+17810,Rooks, Kansas  ,99917,0.7997
+17820,Rush, Kansas  ,99917,0.7997
+17830,Russell, Kansas  ,99917,0.7997
+17840,Saline, Kansas  ,99917,0.7997
+17841,Scott, Kansas  ,99917,0.7997
+17870,Seward, Kansas  ,99917,0.7997
+17890,Sheridan, Kansas  ,99917,0.7997
+17900,Sherman, Kansas  ,99917,0.7997
+17910,Smith, Kansas  ,99917,0.7997
+17920,Stafford, Kansas  ,99917,0.7997
+17921,Stanton, Kansas  ,99917,0.7997
+17940,Stevens, Kansas  ,99917,0.7997
+17960,Thomas, Kansas  ,99917,0.7997
+17970,Trego, Kansas  ,99917,0.7997
+17981,Wallace, Kansas ,99917,0.7997
+17982,Washington, Kansas  ,99917,0.7997
+17983,Wichita, Kansas  ,99917,0.7997
+17984,Wilson, Kansas  ,99917,0.7997
+17985,Woodson, Kansas  ,99917,0.7997
+18000,Adair, Kentucky,99918,0.7877
+18010,Allen, Kentucky,99918,0.7877
+18020,Anderson, Kentucky,99918,0.7877
+18030,Ballard, Kentucky,99918,0.7877
+18040,Barren, Kentucky,99918,0.7877
+18050,Bath, Kentucky,99918,0.7877
+18060,Bell, Kentucky,99918,0.7877
+18100,Boyle, Kentucky,99918,0.7877
+18120,Breathitt, Kentucky,99918,0.7877
+18130,Breckinridge, Kentucky,99918,0.7877
+18150,Butler, Kentucky,99918,0.7877
+18160,Caldwell, Kentucky,99918,0.7877
+18170,Calloway, Kentucky,99918,0.7877
+18190,Carlisle, Kentucky,99918,0.7877
+18191,Carroll, Kentucky,99918,0.7877
+18210,Carter, Kentucky,99918,0.7877
+18220,Casey, Kentucky,99918,0.7877
+18250,Clay, Kentucky,99918,0.7877
+18260,Clinton, Kentucky,99918,0.7877
+18270,Crittenden, Kentucky,99918,0.7877
+18271,Cumberland, Kentucky,99918,0.7877
+18310,Elliott, Kentucky,99918,0.7877
+18320,Estill, Kentucky,99918,0.7877
+18340,Fleming, Kentucky,99918,0.7877
+18350,Floyd, Kentucky,99918,0.7877
+18360,Franklin, Kentucky,99918,0.7877
+18361,Fulton, Kentucky,99918,0.7877
+18390,Garrard, Kentucky,99918,0.7877
+18410,Graves, Kentucky,99918,0.7877
+18420,Grayson, Kentucky,99918,0.7877
+18421,Green, Kentucky,99918,0.7877
+18470,Harlan, Kentucky,99918,0.7877
+18480,Harrison, Kentucky,99918,0.7877
+18490,Hart, Kentucky,99918,0.7877
+18511,Hickman, Kentucky,99918,0.7877
+18530,Hopkins, Kentucky,99918,0.7877
+18540,Jackson, Kentucky,99918,0.7877
+18570,Johnson, Kentucky,99918,0.7877
+18590,Knott, Kentucky,99918,0.7877
+18600,Knox, Kentucky,99918,0.7877
+18620,Laurel, Kentucky,99918,0.7877
+18630,Lawrence, Kentucky,99918,0.7877
+18640,Lee, Kentucky,99918,0.7877
+18650,Leslie, Kentucky,99918,0.7877
+18660,Letcher, Kentucky,99918,0.7877
+18670,Lewis, Kentucky,99918,0.7877
+18680,Lincoln, Kentucky,99918,0.7877
+18690,Livingston, Kentucky,99918,0.7877
+18700,Logan, Kentucky,99918,0.7877
+18710,Lyon, Kentucky,99918,0.7877
+18750,Madison, Kentucky,99918,0.7877
+18760,Magoffin, Kentucky,99918,0.7877
+18770,Marion, Kentucky,99918,0.7877
+18780,Marshall, Kentucky,99918,0.7877
+18790,Martin, Kentucky,99918,0.7877
+18800,Mason, Kentucky,99918,0.7877
+18720,Mc Cracken, Kentucky,99918,0.7877
+18730,Mc Creary, Kentucky,99918,0.7877
+18802,Menifee, Kentucky,99918,0.7877
+18830,Mercer, Kentucky,99918,0.7877
+18831,Metcalfe, Kentucky,99918,0.7877
+18850,Monroe, Kentucky,99918,0.7877
+18860,Montgomery, Kentucky,99918,0.7877
+18861,Morgan, Kentucky,99918,0.7877
+18880,Muhlenberg, Kentucky,99918,0.7877
+18900,Nicholas, Kentucky,99918,0.7877
+18910,Ohio, Kentucky,99918,0.7877
+18930,Owen, Kentucky,99918,0.7877
+18931,Owsley, Kentucky,99918,0.7877
+18960,Perry, Kentucky,99918,0.7877
+18970,Pike, Kentucky,99918,0.7877
+18971,Powell, Kentucky,99918,0.7877
+18972,Pulaski, Kentucky,99918,0.7877
+18973,Robertson, Kentucky,99918,0.7877
+18974,Rockcastle, Kentucky,99918,0.7877
+18975,Rowan, Kentucky,99918,0.7877
+18976,Russell, Kentucky,99918,0.7877
+18979,Simpson, Kentucky,99918,0.7877
+18981,Taylor, Kentucky,99918,0.7877
+18982,Todd, Kentucky,99918,0.7877
+18985,Union, Kentucky,99918,0.7877
+18987,Washington, Kentucky,99918,0.7877
+18988,Wayne, Kentucky,99918,0.7877
+18990,Whitley, Kentucky,99918,0.7877
+18991,Wolfe, Kentucky,99918,0.7877
+19000,Acadia, Louisiana  ,99919,0.7718
+19010,Allen, Louisiana  ,99919,0.7718
+19030,Assumption, Louisiana  ,99919,0.7718
+19040,Avoyelles, Louisiana  ,99919,0.7718
+19050,Beauregard, Louisiana  ,99919,0.7718
+19060,Bienville, Louisiana  ,99919,0.7718
+19100,Caldwell, Louisiana  ,99919,0.7718
+19120,Catahoula, Louisiana  ,99919,0.7718
+19130,Claiborne, Louisiana  ,99919,0.7718
+19140,Concordia, Louisiana  ,99919,0.7718
+19170,East Carroll, Louisiana  ,99919,0.7718
+19190,Evangeline, Louisiana  ,99919,0.7718
+19200,Franklin, Louisiana  ,99919,0.7718
+19220,Iberia, Louisiana  ,99919,0.7718
+19240,Jackson, Louisiana  ,99919,0.7718
+19260,Jefferson Davis, Louisiana  ,99919,0.7718
+19290,La Salle, Louisiana  ,99919,0.7718
+19300,Lincoln, Louisiana  ,99919,0.7718
+19320,Madison, Louisiana  ,99919,0.7718
+19330,Morehouse, Louisiana  ,99919,0.7718
+19340,Natchitoches, Louisiana  ,99919,0.7718
+19400,Red River, Louisiana  ,99919,0.7718
+19410,Richland, Louisiana  ,99919,0.7718
+19420,Sabine, Louisiana  ,99919,0.7718
+19460,St James, Louisiana  ,99919,0.7718
+19480,St Landry, Louisiana  ,99919,0.7718
+19500,St Mary, Louisiana  ,99919,0.7718
+19520,Tangipahoa, Louisiana  ,99919,0.7718
+19530,Tensas, Louisiana  ,99919,0.7718
+19560,Vermilion, Louisiana  ,99919,0.7718
+19570,Vernon, Louisiana  ,99919,0.7718
+19580,Washington, Louisiana  ,99919,0.7718
+19590,Webster, Louisiana  ,99919,0.7718
+19610,West Carroll, Louisiana  ,99919,0.7718
+19630,Winn, Louisiana  ,99919,0.7718
+20010,Aroostook, Maine  ,99920,0.83
+20030,Franklin, Maine  ,99920,0.83
+20040,Hancock, Maine  ,99920,0.83
+20050,Kennebec, Maine  ,99920,0.83
+20060,Knox, Maine  ,99920,0.83
+20070,Lincoln, Maine  ,99920,0.83
+20080,Oxford, Maine  ,99920,0.83
+20100,Piscataquis, Maine  ,99920,0.83
+20120,Somerset, Maine  ,99920,0.83
+20130,Waldo, Maine  ,99920,0.83
+20140,Washington, Maine  ,99920,0.83
+21050,Caroline, Maryland  ,99921,0.8797
+21090,Dorchester, Maryland  ,99921,0.8797
+21110,Garrett, Maryland  ,99921,0.8797
+21140,Kent, Maryland  ,99921,0.8797
+21180,St Marys, Maryland  ,99921,0.8797
+21200,Talbot, Maryland  ,99921,0.8797
+21230,Worcester, Maryland  ,99921,0.8797
+22030,Dukes, Massachusetts  ,99922,1.354
+22120,Nantucket, Massachusetts  ,99922,1.354
+23000,Alcona, Michigan  ,99923,0.8387
+23010,Alger, Michigan  ,99923,0.8387
+23020,Allegan, Michigan  ,99923,0.8387
+23030,Alpena, Michigan  ,99923,0.8387
+23040,Antrim, Michigan  ,99923,0.8387
+23050,Arenac, Michigan  ,99923,0.8387
+23060,Baraga, Michigan  ,99923,0.8387
+23090,Benzie, Michigan  ,99923,0.8387
+23110,Branch, Michigan  ,99923,0.8387
+23140,Charlevoix, Michigan  ,99923,0.8387
+23150,Cheboygan, Michigan  ,99923,0.8387
+23160,Chippewa, Michigan  ,99923,0.8387
+23170,Clare, Michigan  ,99923,0.8387
+23190,Crawford, Michigan  ,99923,0.8387
+23200,Delta, Michigan  ,99923,0.8387
+23210,Dickinson, Michigan  ,99923,0.8387
+23230,Emmet, Michigan  ,99923,0.8387
+23250,Gladwin, Michigan  ,99923,0.8387
+23260,Gogebic, Michigan  ,99923,0.8387
+23270,Grand Traverse, Michigan  ,99923,0.8387
+23280,Gratiot, Michigan  ,99923,0.8387
+23290,Hillsdale, Michigan  ,99923,0.8387
+23300,Houghton, Michigan  ,99923,0.8387
+23310,Huron, Michigan  ,99923,0.8387
+23340,Iosco, Michigan  ,99923,0.8387
+23350,Iron, Michigan  ,99923,0.8387
+23360,Isabella, Michigan  ,99923,0.8387
+23390,Kalkaska, Michigan  ,99923,0.8387
+23410,Keweenaw, Michigan  ,99923,0.8387
+23420,Lake, Michigan  ,99923,0.8387
+23440,Leelanau, Michigan  ,99923,0.8387
+23450,Lenawee, Michigan  ,99923,0.8387
+23470,Luce, Michigan  ,99923,0.8387
+23480,Mackinac, Michigan  ,99923,0.8387
+23500,Manistee, Michigan  ,99923,0.8387
+23510,Marquette, Michigan  ,99923,0.8387
+23520,Mason, Michigan  ,99923,0.8387
+23530,Mecosta, Michigan  ,99923,0.8387
+23540,Menominee, Michigan  ,99923,0.8387
+23550,Midland, Michigan  ,99923,0.8387
+23560,Missaukee, Michigan  ,99923,0.8387
+23580,Montcalm, Michigan  ,99923,0.8387
+23590,Montmorency, Michigan  ,99923,0.8387
+23630,Oceana, Michigan  ,99923,0.8387
+23640,Ogemaw, Michigan  ,99923,0.8387
+23650,Ontonagon, Michigan  ,99923,0.8387
+23660,Osceola, Michigan  ,99923,0.8387
+23670,Oscoda, Michigan  ,99923,0.8387
+23680,Otsego, Michigan  ,99923,0.8387
+23700,Presque Isle, Michigan  ,99923,0.8387
+23710,Roscommon, Michigan  ,99923,0.8387
+23750,Sanilac, Michigan  ,99923,0.8387
+23760,Schoolcraft, Michigan  ,99923,0.8387
+23770,Shiawassee, Michigan  ,99923,0.8387
+23740,St Joseph, Michigan  ,99923,0.8387
+23780,Tuscola, Michigan  ,99923,0.8387
+23830,Wexford, Michigan  ,99923,0.8387
+24000,Aitkin, Minnesota  ,99924,0.9053
+24020,Becker, Minnesota  ,99924,0.9053
+24030,Beltrami, Minnesota  ,99924,0.9053
+24050,Big Stone, Minnesota  ,99924,0.9053
+24070,Brown, Minnesota  ,99924,0.9053
+24100,Cass, Minnesota  ,99924,0.9053
+24110,Chippewa, Minnesota  ,99924,0.9053
+24140,Clearwater, Minnesota  ,99924,0.9053
+24150,Cook, Minnesota  ,99924,0.9053
+24160,Cottonwood, Minnesota  ,99924,0.9053
+24170,Crow Wing, Minnesota  ,99924,0.9053
+24200,Douglas, Minnesota  ,99924,0.9053
+24210,Faribault, Minnesota  ,99924,0.9053
+24220,Fillmore, Minnesota  ,99924,0.9053
+24230,Freeborn, Minnesota  ,99924,0.9053
+24240,Goodhue, Minnesota  ,99924,0.9053
+24250,Grant, Minnesota  ,99924,0.9053
+24280,Hubbard, Minnesota  ,99924,0.9053
+24300,Itasca, Minnesota  ,99924,0.9053
+24310,Jackson, Minnesota  ,99924,0.9053
+24320,Kanabec, Minnesota  ,99924,0.9053
+24330,Kandiyohi, Minnesota  ,99924,0.9053
+24340,Kittson, Minnesota  ,99924,0.9053
+24350,Koochiching, Minnesota  ,99924,0.9053
+24360,Lac Qui Parle, Minnesota  ,99924,0.9053
+24370,Lake, Minnesota  ,99924,0.9053
+24380,Lake Of Woods, Minnesota  ,99924,0.9053
+24390,Le Sueur, Minnesota  ,99924,0.9053
+24400,Lincoln, Minnesota  ,99924,0.9053
+24410,Lyon, Minnesota  ,99924,0.9053
+24430,Mahnomen, Minnesota  ,99924,0.9053
+24440,Marshall, Minnesota  ,99924,0.9053
+24450,Martin, Minnesota  ,99924,0.9053
+24420,Mc Leod, Minnesota  ,99924,0.9053
+24460,Meeker, Minnesota  ,99924,0.9053
+24470,Mille Lacs, Minnesota  ,99924,0.9053
+24480,Morrison, Minnesota  ,99924,0.9053
+24490,Mower, Minnesota  ,99924,0.9053
+24500,Murray, Minnesota  ,99924,0.9053
+24520,Nobles, Minnesota  ,99924,0.9053
+24530,Norman, Minnesota  ,99924,0.9053
+24550,Otter Tail, Minnesota  ,99924,0.9053
+24560,Pennington, Minnesota  ,99924,0.9053
+24570,Pine, Minnesota  ,99924,0.9053
+24580,Pipestone, Minnesota  ,99924,0.9053
+24600,Pope, Minnesota  ,99924,0.9053
+24620,Red Lake, Minnesota  ,99924,0.9053
+24630,Redwood, Minnesota  ,99924,0.9053
+24640,Renville, Minnesota  ,99924,0.9053
+24650,Rice, Minnesota  ,99924,0.9053
+24660,Rock, Minnesota  ,99924,0.9053
+24670,Roseau, Minnesota  ,99924,0.9053
+24710,Sibley, Minnesota  ,99924,0.9053
+24730,Steele, Minnesota  ,99924,0.9053
+24740,Stevens, Minnesota  ,99924,0.9053
+24750,Swift, Minnesota  ,99924,0.9053
+24760,Todd, Minnesota  ,99924,0.9053
+24770,Traverse, Minnesota  ,99924,0.9053
+24790,Wadena, Minnesota  ,99924,0.9053
+24800,Waseca, Minnesota  ,99924,0.9053
+24820,Watonwan, Minnesota  ,99924,0.9053
+24830,Wilkin, Minnesota  ,99924,0.9053
+24840,Winona, Minnesota  ,99924,0.9053
+24860,Yellow Medicine, Minnesota  ,99924,0.9053
+25000,Adams, Mississippi  ,99925,0.7537
+25010,Alcorn, Mississippi  ,99925,0.7537
+25020,Amite, Mississippi  ,99925,0.7537
+25030,Attala, Mississippi  ,99925,0.7537
+25040,Benton, Mississippi  ,99925,0.7537
+25050,Bolivar, Mississippi  ,99925,0.7537
+25060,Calhoun, Mississippi  ,99925,0.7537
+25070,Carroll, Mississippi  ,99925,0.7537
+25080,Chickasaw, Mississippi  ,99925,0.7537
+25090,Choctaw, Mississippi  ,99925,0.7537
+25100,Claiborne, Mississippi  ,99925,0.7537
+25110,Clarke, Mississippi  ,99925,0.7537
+25120,Clay, Mississippi  ,99925,0.7537
+25130,Coahoma, Mississippi  ,99925,0.7537
+25150,Covington, Mississippi  ,99925,0.7537
+25180,Franklin, Mississippi  ,99925,0.7537
+25200,Greene, Mississippi  ,99925,0.7537
+25210,Grenada, Mississippi  ,99925,0.7537
+25250,Holmes, Mississippi  ,99925,0.7537
+25260,Humphreys, Mississippi  ,99925,0.7537
+25270,Issaquena, Mississippi  ,99925,0.7537
+25280,Itawamba, Mississippi  ,99925,0.7537
+25300,Jasper, Mississippi  ,99925,0.7537
+25310,Jefferson, Mississippi  ,99925,0.7537
+25320,Jefferson Davis, Mississippi  ,99925,0.7537
+25330,Jones, Mississippi  ,99925,0.7537
+25340,Kemper, Mississippi  ,99925,0.7537
+25350,Lafayette, Mississippi  ,99925,0.7537
+25370,Lauderdale, Mississippi  ,99925,0.7537
+25380,Lawrence, Mississippi  ,99925,0.7537
+25390,Leake, Mississippi  ,99925,0.7537
+25400,Lee, Mississippi  ,99925,0.7537
+25410,Leflore, Mississippi  ,99925,0.7537
+25420,Lincoln, Mississippi  ,99925,0.7537
+25430,Lowndes, Mississippi  ,99925,0.7537
+25450,Marion, Mississippi  ,99925,0.7537
+25470,Monroe, Mississippi  ,99925,0.7537
+25480,Montgomery, Mississippi  ,99925,0.7537
+25490,Neshoba, Mississippi  ,99925,0.7537
+25500,Newton, Mississippi  ,99925,0.7537
+25510,Noxubee, Mississippi  ,99925,0.7537
+25520,Oktibbeha, Mississippi  ,99925,0.7537
+25530,Panola, Mississippi  ,99925,0.7537
+25540,Pearl River, Mississippi  ,99925,0.7537
+25560,Pike, Mississippi  ,99925,0.7537
+25570,Pontotoc, Mississippi  ,99925,0.7537
+25580,Prentiss, Mississippi  ,99925,0.7537
+25590,Quitman, Mississippi  ,99925,0.7537
+25610,Scott, Mississippi  ,99925,0.7537
+25620,Sharkey, Mississippi  ,99925,0.7537
+25640,Smith, Mississippi  ,99925,0.7537
+25660,Sunflower, Mississippi  ,99925,0.7537
+25670,Tallahatchie, Mississippi  ,99925,0.7537
+25690,Tippah, Mississippi  ,99925,0.7537
+25700,Tishomingo, Mississippi  ,99925,0.7537
+25720,Union, Mississippi  ,99925,0.7537
+25730,Walthall, Mississippi  ,99925,0.7537
+25740,Warren, Mississippi  ,99925,0.7537
+25750,Washington, Mississippi  ,99925,0.7537
+25760,Wayne, Mississippi  ,99925,0.7537
+25770,Webster, Mississippi  ,99925,0.7537
+25780,Wilkinson, Mississippi  ,99925,0.7537
+25790,Winston, Mississippi  ,99925,0.7537
+25800,Yalobusha, Mississippi  ,99925,0.7537
+25810,Yazoo, Mississippi  ,99925,0.7537
+26000,Adair, Missouri  ,99926,0.7622
+26020,Atchison, Missouri  ,99926,0.7622
+26030,Audrain, Missouri  ,99926,0.7622
+26040,Barry, Missouri  ,99926,0.7622
+26050,Barton, Missouri  ,99926,0.7622
+26070,Benton, Missouri  ,99926,0.7622
+26110,Butler, Missouri  ,99926,0.7622
+26140,Camden, Missouri  ,99926,0.7622
+26160,Carroll, Missouri  ,99926,0.7622
+26170,Carter, Missouri  ,99926,0.7622
+26190,Cedar, Missouri  ,99926,0.7622
+26200,Chariton, Missouri  ,99926,0.7622
+26220,Clark, Missouri  ,99926,0.7622
+26260,Cooper, Missouri  ,99926,0.7622
+26280,Dade, Missouri  ,99926,0.7622
+26300,Daviess, Missouri  ,99926,0.7622
+26320,Dent, Missouri  ,99926,0.7622
+26330,Douglas, Missouri  ,99926,0.7622
+26340,Dunklin, Missouri  ,99926,0.7622
+26360,Gasconade, Missouri  ,99926,0.7622
+26370,Gentry, Missouri  ,99926,0.7622
+26390,Grundy, Missouri  ,99926,0.7622
+26400,Harrison, Missouri  ,99926,0.7622
+26410,Henry, Missouri  ,99926,0.7622
+26411,Hickory, Missouri  ,99926,0.7622
+26412,Holt, Missouri  ,99926,0.7622
+26450,Howell, Missouri  ,99926,0.7622
+26460,Iron, Missouri  ,99926,0.7622
+26500,Johnson, Missouri  ,99926,0.7622
+26510,Knox, Missouri  ,99926,0.7622
+26520,Laclede, Missouri  ,99926,0.7622
+26540,Lawrence, Missouri  ,99926,0.7622
+26541,Lewis, Missouri  ,99926,0.7622
+26570,Linn, Missouri  ,99926,0.7622
+26580,Livingston, Missouri  ,99926,0.7622
+26600,Macon, Missouri  ,99926,0.7622
+26601,Madison, Missouri  ,99926,0.7622
+26620,Maries, Missouri  ,99926,0.7622
+26630,Marion, Missouri  ,99926,0.7622
+26631,Mercer, Missouri  ,99926,0.7622
+26650,Miller, Missouri  ,99926,0.7622
+26660,Mississippi, Missouri  ,99926,0.7622
+26680,Monroe, Missouri  ,99926,0.7622
+26690,Montgomery, Missouri  ,99926,0.7622
+26700,Morgan, Missouri  ,99926,0.7622
+26710,New Madrid, Missouri  ,99926,0.7622
+26730,Nodaway, Missouri  ,99926,0.7622
+26740,Oregon, Missouri  ,99926,0.7622
+26751,Ozark, Missouri  ,99926,0.7622
+26770,Pemiscot, Missouri  ,99926,0.7622
+26780,Perry, Missouri  ,99926,0.7622
+26790,Pettis, Missouri  ,99926,0.7622
+26800,Phelps, Missouri  ,99926,0.7622
+26810,Pike, Missouri  ,99926,0.7622
+26840,Pulaski, Missouri  ,99926,0.7622
+26850,Putnam, Missouri  ,99926,0.7622
+26860,Ralls, Missouri  ,99926,0.7622
+26870,Randolph, Missouri  ,99926,0.7622
+26881,Reynolds, Missouri  ,99926,0.7622
+26900,Ripley, Missouri  ,99926,0.7622
+26970,Saline, Missouri  ,99926,0.7622
+26980,Schuyler, Missouri  ,99926,0.7622
+26981,Scotland, Missouri  ,99926,0.7622
+26982,Scott, Missouri  ,99926,0.7622
+26983,Shannon, Missouri  ,99926,0.7622
+26984,Shelby, Missouri  ,99926,0.7622
+26911,St Clair, Missouri  ,99926,0.7622
+26930,St Francois, Missouri  ,99926,0.7622
+26960,Ste Genevieve, Missouri  ,99926,0.7622
+26985,Stoddard, Missouri  ,99926,0.7622
+26986,Stone, Missouri  ,99926,0.7622
+26987,Sullivan, Missouri  ,99926,0.7622
+26988,Taney, Missouri  ,99926,0.7622
+26989,Texas, Missouri  ,99926,0.7622
+26990,Vernon, Missouri  ,99926,0.7622
+26993,Wayne, Missouri  ,99926,0.7622
+26995,Worth, Missouri  ,99926,0.7622
+26996,Wright, Missouri  ,99926,0.7622
+27000,Beaverhead, Montana  ,99927,0.86
+27010,Big Horn, Montana  ,99927,0.86
+27020,Blaine, Montana  ,99927,0.86
+27030,Broadwater, Montana  ,99927,0.86
+27050,Carter, Montana  ,99927,0.86
+27070,Chouteau, Montana  ,99927,0.86
+27080,Custer, Montana  ,99927,0.86
+27090,Daniels, Montana  ,99927,0.86
+27100,Dawson, Montana  ,99927,0.86
+27110,Deer Lodge, Montana  ,99927,0.86
+27120,Fallon, Montana  ,99927,0.86
+27130,Fergus, Montana  ,99927,0.86
+27140,Flathead, Montana  ,99927,0.86
+27150,Gallatin, Montana  ,99927,0.86
+27160,Garfield, Montana  ,99927,0.86
+27170,Glacier, Montana  ,99927,0.86
+27180,Golden Valley, Montana  ,99927,0.86
+27190,Granite, Montana  ,99927,0.86
+27200,Hill, Montana  ,99927,0.86
+27210,Jefferson, Montana  ,99927,0.86
+27220,Judith Basin, Montana  ,99927,0.86
+27230,Lake, Montana  ,99927,0.86
+27240,Lewis And Clark, Montana  ,99927,0.86
+27250,Liberty, Montana  ,99927,0.86
+27260,Lincoln, Montana  ,99927,0.86
+27280,Madison, Montana  ,99927,0.86
+27270,Mc Cone, Montana  ,99927,0.86
+27290,Meagher, Montana  ,99927,0.86
+27300,Mineral, Montana  ,99927,0.86
+27320,Musselshell, Montana  ,99927,0.86
+27330,Park, Montana  ,99927,0.86
+27340,Petroleum, Montana  ,99927,0.86
+27350,Phillips, Montana  ,99927,0.86
+27360,Pondera, Montana  ,99927,0.86
+27370,Powder River, Montana  ,99927,0.86
+27380,Powell, Montana  ,99927,0.86
+27390,Prairie, Montana  ,99927,0.86
+27400,Ravalli, Montana  ,99927,0.86
+27410,Richland, Montana  ,99927,0.86
+27420,Roosevelt, Montana  ,99927,0.86
+27430,Rosebud, Montana  ,99927,0.86
+27440,Sanders, Montana  ,99927,0.86
+27450,Sheridan, Montana  ,99927,0.86
+27460,Silver Bow, Montana  ,99927,0.86
+27470,Stillwater, Montana  ,99927,0.86
+27480,Sweet Grass, Montana  ,99927,0.86
+27490,Teton, Montana  ,99927,0.86
+27500,Toole, Montana  ,99927,0.86
+27510,Treasure, Montana  ,99927,0.86
+27520,Valley, Montana  ,99927,0.86
+27530,Wheatland, Montana  ,99927,0.86
+27540,Wibaux, Montana  ,99927,0.86
+27113,Yellowstone National Park, Montana  ,99927,0.86
+28000,Adams, Nebraska  ,99928,0.8733
+28010,Antelope, Nebraska  ,99928,0.8733
+28020,Arthur, Nebraska  ,99928,0.8733
+28030,Banner, Nebraska  ,99928,0.8733
+28040,Blaine, Nebraska  ,99928,0.8733
+28050,Boone, Nebraska  ,99928,0.8733
+28060,Box Butte, Nebraska  ,99928,0.8733
+28070,Boyd, Nebraska  ,99928,0.8733
+28080,Brown, Nebraska  ,99928,0.8733
+28090,Buffalo, Nebraska  ,99928,0.8733
+28100,Burt, Nebraska  ,99928,0.8733
+28110,Butler, Nebraska  ,99928,0.8733
+28130,Cedar, Nebraska  ,99928,0.8733
+28140,Chase, Nebraska  ,99928,0.8733
+28150,Cherry, Nebraska  ,99928,0.8733
+28160,Cheyenne, Nebraska  ,99928,0.8733
+28170,Clay, Nebraska  ,99928,0.8733
+28180,Colfax, Nebraska  ,99928,0.8733
+28190,Cuming, Nebraska  ,99928,0.8733
+28200,Custer, Nebraska  ,99928,0.8733
+28220,Dawes, Nebraska  ,99928,0.8733
+28230,Dawson, Nebraska  ,99928,0.8733
+28240,Deuel, Nebraska  ,99928,0.8733
+28260,Dodge, Nebraska  ,99928,0.8733
+28280,Dundy, Nebraska  ,99928,0.8733
+28290,Fillmore, Nebraska  ,99928,0.8733
+28300,Franklin, Nebraska  ,99928,0.8733
+28310,Frontier, Nebraska  ,99928,0.8733
+28320,Furnas, Nebraska  ,99928,0.8733
+28330,Gage, Nebraska  ,99928,0.8733
+28340,Garden, Nebraska  ,99928,0.8733
+28350,Garfield, Nebraska  ,99928,0.8733
+28360,Gosper, Nebraska  ,99928,0.8733
+28370,Grant, Nebraska  ,99928,0.8733
+28380,Greeley, Nebraska  ,99928,0.8733
+28390,Hall, Nebraska  ,99928,0.8733
+28400,Hamilton, Nebraska  ,99928,0.8733
+28410,Harlan, Nebraska  ,99928,0.8733
+28420,Hayes, Nebraska  ,99928,0.8733
+28430,Hitchcock, Nebraska  ,99928,0.8733
+28440,Holt, Nebraska  ,99928,0.8733
+28450,Hooker, Nebraska  ,99928,0.8733
+28460,Howard, Nebraska  ,99928,0.8733
+28470,Jefferson, Nebraska  ,99928,0.8733
+28480,Johnson, Nebraska  ,99928,0.8733
+28490,Kearney, Nebraska  ,99928,0.8733
+28500,Keith, Nebraska  ,99928,0.8733
+28510,Keya Paha, Nebraska  ,99928,0.8733
+28520,Kimball, Nebraska  ,99928,0.8733
+28530,Knox, Nebraska  ,99928,0.8733
+28550,Lincoln, Nebraska  ,99928,0.8733
+28560,Logan, Nebraska  ,99928,0.8733
+28570,Loup, Nebraska  ,99928,0.8733
+28590,Madison, Nebraska  ,99928,0.8733
+28580,Mc Pherson, Nebraska  ,99928,0.8733
+28600,Merrick, Nebraska  ,99928,0.8733
+28610,Morrill, Nebraska  ,99928,0.8733
+28620,Nance, Nebraska  ,99928,0.8733
+28630,Nemaha, Nebraska  ,99928,0.8733
+28640,Nuckolls, Nebraska  ,99928,0.8733
+28650,Otoe, Nebraska  ,99928,0.8733
+28660,Pawnee, Nebraska  ,99928,0.8733
+28670,Perkins, Nebraska  ,99928,0.8733
+28680,Phelps, Nebraska  ,99928,0.8733
+28690,Pierce, Nebraska  ,99928,0.8733
+28700,Platte, Nebraska  ,99928,0.8733
+28710,Polk, Nebraska  ,99928,0.8733
+28720,Redwillow, Nebraska  ,99928,0.8733
+28730,Richardson, Nebraska  ,99928,0.8733
+28740,Rock, Nebraska  ,99928,0.8733
+28750,Saline, Nebraska  ,99928,0.8733
+28780,Scotts Bluff, Nebraska  ,99928,0.8733
+28800,Sheridan, Nebraska  ,99928,0.8733
+28810,Sherman, Nebraska  ,99928,0.8733
+28820,Sioux, Nebraska  ,99928,0.8733
+28830,Stanton, Nebraska  ,99928,0.8733
+28840,Thayer, Nebraska  ,99928,0.8733
+28850,Thomas, Nebraska  ,99928,0.8733
+28860,Thurston, Nebraska  ,99928,0.8733
+28870,Valley, Nebraska  ,99928,0.8733
+28890,Wayne, Nebraska  ,99928,0.8733
+28900,Webster, Nebraska  ,99928,0.8733
+28910,Wheeler, Nebraska  ,99928,0.8733
+28920,York, Nebraska  ,99928,0.8733
+29000,Churchill, Nevada  ,99929,0.9739
+29020,Douglas, Nevada  ,99929,0.9739
+29030,Elko, Nevada  ,99929,0.9739
+29040,Esmeralda, Nevada  ,99929,0.9739
+29050,Eureka, Nevada  ,99929,0.9739
+29060,Humboldt, Nevada  ,99929,0.9739
+29070,Lander, Nevada  ,99929,0.9739
+29080,Lincoln, Nevada  ,99929,0.9739
+29090,Lyon, Nevada  ,99929,0.9739
+29100,Mineral, Nevada  ,99929,0.9739
+29110,Nye, Nevada  ,99929,0.9739
+29130,Pershing, Nevada  ,99929,0.9739
+29160,White Pine, Nevada  ,99929,0.9739
+30000,Belknap, New Hampshire  ,99930,1.0372
+30010,Carroll, New Hampshire  ,99930,1.0372
+30020,Cheshire, New Hampshire  ,99930,1.0372
+30030,Coos, New Hampshire  ,99930,1.0372
+30040,Grafton, New Hampshire  ,99930,1.0372
+30060,Merrimack, New Hampshire  ,99930,1.0372
+30090,Sullivan, New Hampshire  ,99930,1.0372
+32010,Catron, New Mexico  ,99932,0.8879
+32020,Chaves, New Mexico  ,99932,0.8879
+32025,Cibola, New Mexico  ,99932,0.8879
+32030,Colfax, New Mexico  ,99932,0.8879
+32040,Curry, New Mexico  ,99932,0.8879
+32050,De Baca, New Mexico  ,99932,0.8879
+32070,Eddy, New Mexico  ,99932,0.8879
+32080,Grant, New Mexico  ,99932,0.8879
+32090,Guadalupe, New Mexico  ,99932,0.8879
+32100,Harding, New Mexico  ,99932,0.8879
+32110,Hidalgo, New Mexico  ,99932,0.8879
+32120,Lea, New Mexico  ,99932,0.8879
+32130,Lincoln, New Mexico  ,99932,0.8879
+32131,Los Alamos, New Mexico  ,99932,0.8879
+32140,Luna, New Mexico  ,99932,0.8879
+32150,Mc Kinley, New Mexico  ,99932,0.8879
+32160,Mora, New Mexico  ,99932,0.8879
+32170,Otero, New Mexico  ,99932,0.8879
+32180,Quay, New Mexico  ,99932,0.8879
+32190,Rio Arriba, New Mexico  ,99932,0.8879
+32200,Roosevelt, New Mexico  ,99932,0.8879
+32230,San Miguel, New Mexico  ,99932,0.8879
+32250,Sierra, New Mexico  ,99932,0.8879
+32260,Socorro, New Mexico  ,99932,0.8879
+32270,Taos, New Mexico  ,99932,0.8879
+32290,Union, New Mexico  ,99932,0.8879
+33010,Allegany, New York  ,99933,0.8199
+33040,Cattaraugus, New York  ,99933,0.8199
+33050,Cayuga, New York  ,99933,0.8199
+33060,Chautauqua, New York  ,99933,0.8199
+33080,Chenango, New York  ,99933,0.8199
+33090,Clinton, New York  ,99933,0.8199
+33200,Columbia, New York  ,99933,0.8199
+33210,Cortland, New York  ,99933,0.8199
+33220,Delaware, New York  ,99933,0.8199
+33260,Essex, New York  ,99933,0.8199
+33270,Franklin, New York  ,99933,0.8199
+33280,Fulton, New York  ,99933,0.8199
+33290,Genesee, New York  ,99933,0.8199
+33300,Greene, New York  ,99933,0.8199
+33310,Hamilton, New York  ,99933,0.8199
+33330,Jefferson, New York  ,99933,0.8199
+33340,Lewis, New York  ,99933,0.8199
+33380,Montgomery, New York  ,99933,0.8199
+33570,Otsego, New York  ,99933,0.8199
+33670,Schuyler, New York  ,99933,0.8199
+33680,Seneca, New York  ,99933,0.8199
+33630,St Lawrence, New York  ,99933,0.8199
+33690,Steuben, New York  ,99933,0.8199
+33710,Sullivan, New York  ,99933,0.8199
+33900,Wyoming, New York  ,99933,0.8199
+33910,Yates, New York  ,99933,0.8199
+34020,Alleghany, N Carolina  ,99934,0.8271
+34040,Ashe, N Carolina  ,99934,0.8271
+34050,Avery, N Carolina  ,99934,0.8271
+34060,Beaufort, N Carolina  ,99934,0.8271
+34070,Bertie, N Carolina  ,99934,0.8271
+34080,Bladen, N Carolina  ,99934,0.8271
+34140,Camden, N Carolina  ,99934,0.8271
+34150,Carteret, N Carolina  ,99934,0.8271
+34160,Caswell, N Carolina  ,99934,0.8271
+34190,Cherokee, N Carolina  ,99934,0.8271
+34200,Chowan, N Carolina  ,99934,0.8271
+34210,Clay, N Carolina  ,99934,0.8271
+34220,Cleveland, N Carolina  ,99934,0.8271
+34230,Columbus, N Carolina  ,99934,0.8271
+34240,Craven, N Carolina  ,99934,0.8271
+34270,Dare, N Carolina  ,99934,0.8271
+34280,Davidson, N Carolina  ,99934,0.8271
+34300,Duplin, N Carolina  ,99934,0.8271
+34360,Gates, N Carolina  ,99934,0.8271
+34370,Graham, N Carolina  ,99934,0.8271
+34380,Granville, N Carolina  ,99934,0.8271
+34410,Halifax, N Carolina  ,99934,0.8271
+34420,Harnett, N Carolina  ,99934,0.8271
+34450,Hertford, N Carolina  ,99934,0.8271
+34470,Hyde, N Carolina  ,99934,0.8271
+34480,Iredell, N Carolina  ,99934,0.8271
+34490,Jackson, N Carolina  ,99934,0.8271
+34510,Jones, N Carolina  ,99934,0.8271
+34520,Lee, N Carolina  ,99934,0.8271
+34530,Lenoir, N Carolina  ,99934,0.8271
+34540,Lincoln, N Carolina  ,99934,0.8271
+34560,Macon, N Carolina  ,99934,0.8271
+34580,Martin, N Carolina  ,99934,0.8271
+34550,Mc Dowell, N Carolina  ,99934,0.8271
+34600,Mitchell, N Carolina  ,99934,0.8271
+34610,Montgomery, N Carolina  ,99934,0.8271
+34620,Moore, N Carolina  ,99934,0.8271
+34650,Northampton, N Carolina  ,99934,0.8271
+34680,Pamlico, N Carolina  ,99934,0.8271
+34690,Pasquotank, N Carolina  ,99934,0.8271
+34710,Perquimans, N Carolina  ,99934,0.8271
+34740,Polk, N Carolina  ,99934,0.8271
+34760,Richmond, N Carolina  ,99934,0.8271
+34770,Robeson, N Carolina  ,99934,0.8271
+34790,Rowan, N Carolina  ,99934,0.8271
+34800,Rutherford, N Carolina  ,99934,0.8271
+34810,Sampson, N Carolina  ,99934,0.8271
+34820,Scotland, N Carolina  ,99934,0.8271
+34830,Stanly, N Carolina  ,99934,0.8271
+34850,Surry, N Carolina  ,99934,0.8271
+34860,Swain, N Carolina  ,99934,0.8271
+34870,Transylvania, N Carolina  ,99934,0.8271
+34880,Tyrrell, N Carolina  ,99934,0.8271
+34900,Vance, N Carolina  ,99934,0.8271
+34920,Warren, N Carolina  ,99934,0.8271
+34930,Washington, N Carolina  ,99934,0.8271
+34940,Watauga, N Carolina  ,99934,0.8271
+34960,Wilkes, N Carolina  ,99934,0.8271
+34970,Wilson, N Carolina  ,99934,0.8271
+34981,Yancey, N Carolina  ,99934,0.8271
+35000,Adams, N Dakota  ,99935,0.6891
+35010,Barnes, N Dakota  ,99935,0.6891
+35020,Benson, N Dakota  ,99935,0.6891
+35030,Billings, N Dakota  ,99935,0.6891
+35040,Bottineau, N Dakota  ,99935,0.6891
+35050,Bowman, N Dakota  ,99935,0.6891
+35060,Burke, N Dakota  ,99935,0.6891
+35090,Cavalier, N Dakota  ,99935,0.6891
+35100,Dickey, N Dakota  ,99935,0.6891
+35110,Divide, N Dakota  ,99935,0.6891
+35120,Dunn, N Dakota  ,99935,0.6891
+35130,Eddy, N Dakota  ,99935,0.6891
+35140,Emmons, N Dakota  ,99935,0.6891
+35150,Foster, N Dakota  ,99935,0.6891
+35160,Golden Valley, N Dakota  ,99935,0.6891
+35180,Grant, N Dakota  ,99935,0.6891
+35190,Griggs, N Dakota  ,99935,0.6891
+35200,Hettinger, N Dakota  ,99935,0.6891
+35210,Kidder, N Dakota  ,99935,0.6891
+35220,La Moure, N Dakota  ,99935,0.6891
+35230,Logan, N Dakota  ,99935,0.6891
+35240,Mc Henry, N Dakota  ,99935,0.6891
+35250,Mc Intosh, N Dakota  ,99935,0.6891
+35260,Mc Kenzie, N Dakota  ,99935,0.6891
+35270,Mc Lean, N Dakota  ,99935,0.6891
+35280,Mercer, N Dakota  ,99935,0.6891
+35300,Mountrail, N Dakota  ,99935,0.6891
+35310,Nelson, N Dakota  ,99935,0.6891
+35320,Oliver, N Dakota  ,99935,0.6891
+35330,Pembina, N Dakota  ,99935,0.6891
+35340,Pierce, N Dakota  ,99935,0.6891
+35350,Ramsey, N Dakota  ,99935,0.6891
+35360,Ransom, N Dakota  ,99935,0.6891
+35370,Renville, N Dakota  ,99935,0.6891
+35380,Richland, N Dakota  ,99935,0.6891
+35390,Rolette, N Dakota  ,99935,0.6891
+35400,Sargent, N Dakota  ,99935,0.6891
+35410,Sheridan, N Dakota  ,99935,0.6891
+35420,Sioux, N Dakota  ,99935,0.6891
+35430,Slope, N Dakota  ,99935,0.6891
+35440,Stark, N Dakota  ,99935,0.6891
+35450,Steele, N Dakota  ,99935,0.6891
+35460,Stutsman, N Dakota  ,99935,0.6891
+35470,Towner, N Dakota  ,99935,0.6891
+35480,Traill, N Dakota  ,99935,0.6891
+35490,Walsh, N Dakota  ,99935,0.6891
+35500,Ward, N Dakota  ,99935,0.6891
+35510,Wells, N Dakota  ,99935,0.6891
+35520,Williams, N Dakota  ,99935,0.6891
+36000,Adams, Ohio,99936,0.847
+36020,Ashland, Ohio,99936,0.847
+36030,Ashtabula, Ohio,99936,0.847
+36040,Athens, Ohio,99936,0.847
+36050,Auglaize, Ohio,99936,0.847
+36100,Champaign, Ohio,99936,0.847
+36130,Clinton, Ohio,99936,0.847
+36140,Columbiana, Ohio,99936,0.847
+36150,Coshocton, Ohio,99936,0.847
+36160,Crawford, Ohio,99936,0.847
+36190,Darke, Ohio,99936,0.847
+36200,Defiance, Ohio,99936,0.847
+36240,Fayette, Ohio,99936,0.847
+36270,Gallia, Ohio,99936,0.847
+36300,Guernsey, Ohio,99936,0.847
+36330,Hancock, Ohio,99936,0.847
+36340,Hardin, Ohio,99936,0.847
+36350,Harrison, Ohio,99936,0.847
+36360,Henry, Ohio,99936,0.847
+36370,Highland, Ohio,99936,0.847
+36380,Hocking, Ohio,99936,0.847
+36390,Holmes, Ohio,99936,0.847
+36400,Huron, Ohio,99936,0.847
+36410,Jackson, Ohio,99936,0.847
+36430,Knox, Ohio,99936,0.847
+36470,Logan, Ohio,99936,0.847
+36520,Marion, Ohio,99936,0.847
+36540,Meigs, Ohio,99936,0.847
+36550,Mercer, Ohio,99936,0.847
+36570,Monroe, Ohio,99936,0.847
+36590,Morgan, Ohio,99936,0.847
+36610,Muskingum, Ohio,99936,0.847
+36620,Noble, Ohio,99936,0.847
+36640,Paulding, Ohio,99936,0.847
+36650,Perry, Ohio,99936,0.847
+36670,Pike, Ohio,99936,0.847
+36700,Putnam, Ohio,99936,0.847
+36720,Ross, Ohio,99936,0.847
+36730,Sandusky, Ohio,99936,0.847
+36740,Scioto, Ohio,99936,0.847
+36750,Seneca, Ohio,99936,0.847
+36760,Shelby, Ohio,99936,0.847
+36800,Tuscarawas, Ohio,99936,0.847
+36820,Van Wert, Ohio,99936,0.847
+36830,Vinton, Ohio,99936,0.847
+36860,Wayne, Ohio,99936,0.847
+36870,Williams, Ohio,99936,0.847
+36890,Wyandot, Ohio,99936,0.847
+37000,Adair, Oklahoma  ,99937,0.7783
+37010,Alfalfa, Oklahoma  ,99937,0.7783
+37020,Atoka, Oklahoma  ,99937,0.7783
+37030,Beaver, Oklahoma  ,99937,0.7783
+37040,Beckham, Oklahoma  ,99937,0.7783
+37050,Blaine, Oklahoma  ,99937,0.7783
+37060,Bryan, Oklahoma  ,99937,0.7783
+37070,Caddo, Oklahoma  ,99937,0.7783
+37090,Carter, Oklahoma  ,99937,0.7783
+37100,Cherokee, Oklahoma  ,99937,0.7783
+37110,Choctaw, Oklahoma  ,99937,0.7783
+37120,Cimarron, Oklahoma  ,99937,0.7783
+37140,Coal, Oklahoma  ,99937,0.7783
+37160,Cotton, Oklahoma  ,99937,0.7783
+37170,Craig, Oklahoma  ,99937,0.7783
+37190,Custer, Oklahoma  ,99937,0.7783
+37200,Delaware, Oklahoma  ,99937,0.7783
+37210,Dewey, Oklahoma  ,99937,0.7783
+37220,Ellis, Oklahoma  ,99937,0.7783
+37230,Garfield, Oklahoma  ,99937,0.7783
+37240,Garvin, Oklahoma  ,99937,0.7783
+37260,Grant, Oklahoma  ,99937,0.7783
+37270,Greer, Oklahoma  ,99937,0.7783
+37280,Harmon, Oklahoma  ,99937,0.7783
+37290,Harper, Oklahoma  ,99937,0.7783
+37300,Haskell, Oklahoma  ,99937,0.7783
+37310,Hughes, Oklahoma  ,99937,0.7783
+37320,Jackson, Oklahoma  ,99937,0.7783
+37330,Jefferson, Oklahoma  ,99937,0.7783
+37340,Johnston, Oklahoma  ,99937,0.7783
+37350,Kay, Oklahoma  ,99937,0.7783
+37360,Kingfisher, Oklahoma  ,99937,0.7783
+37370,Kiowa, Oklahoma  ,99937,0.7783
+37380,Latimer, Oklahoma  ,99937,0.7783
+37420,Love, Oklahoma  ,99937,0.7783
+37460,Major, Oklahoma  ,99937,0.7783
+37470,Marshall, Oklahoma  ,99937,0.7783
+37480,Mayes, Oklahoma  ,99937,0.7783
+37440,Mc Curtain, Oklahoma  ,99937,0.7783
+37450,Mc Intosh, Oklahoma  ,99937,0.7783
+37490,Murray, Oklahoma  ,99937,0.7783
+37500,Muskogee, Oklahoma  ,99937,0.7783
+37510,Noble, Oklahoma  ,99937,0.7783
+37520,Nowata, Oklahoma  ,99937,0.7783
+37530,Okfuskee, Oklahoma  ,99937,0.7783
+37570,Ottawa, Oklahoma  ,99937,0.7783
+37590,Payne, Oklahoma  ,99937,0.7783
+37600,Pittsburg, Oklahoma  ,99937,0.7783
+37610,Pontotoc, Oklahoma  ,99937,0.7783
+37620,Pottawatomie, Oklahoma  ,99937,0.7783
+37630,Pushmataha, Oklahoma  ,99937,0.7783
+37640,Roger Mills, Oklahoma  ,99937,0.7783
+37660,Seminole, Oklahoma  ,99937,0.7783
+37680,Stephens, Oklahoma  ,99937,0.7783
+37690,Texas, Oklahoma  ,99937,0.7783
+37700,Tillman, Oklahoma  ,99937,0.7783
+37730,Washington, Oklahoma  ,99937,0.7783
+37740,Washita, Oklahoma  ,99937,0.7783
+37750,Woods, Oklahoma  ,99937,0.7783
+37760,Woodward, Oklahoma  ,99937,0.7783
+38000,Baker, Oregon  ,99938,0.95
+38030,Clatsop, Oregon  ,99938,0.95
+38050,Coos, Oregon  ,99938,0.95
+38060,Crook, Oregon  ,99938,0.95
+38070,Curry, Oregon  ,99938,0.95
+38090,Douglas, Oregon  ,99938,0.95
+38100,Gilliam, Oregon  ,99938,0.95
+38110,Grant, Oregon  ,99938,0.95
+38120,Harney, Oregon  ,99938,0.95
+38130,Hood River, Oregon  ,99938,0.95
+38150,Jefferson, Oregon  ,99938,0.95
+38160,Josephine, Oregon  ,99938,0.95
+38170,Klamath, Oregon  ,99938,0.95
+38180,Lake, Oregon  ,99938,0.95
+38200,Lincoln, Oregon  ,99938,0.95
+38210,Linn, Oregon  ,99938,0.95
+38220,Malheur, Oregon  ,99938,0.95
+38240,Morrow, Oregon  ,99938,0.95
+38270,Sherman, Oregon  ,99938,0.95
+38280,Tillamook, Oregon  ,99938,0.95
+38290,Umatilla, Oregon  ,99938,0.95
+38300,Union, Oregon  ,99938,0.95
+38310,Wallowa, Oregon  ,99938,0.95
+38320,Wasco, Oregon  ,99938,0.95
+38340,Wheeler, Oregon  ,99938,0.95
+39000,Adams, Pennsylvania  ,99939,0.838
+39100,Bedford, Pennsylvania  ,99939,0.838
+39130,Bradford, Pennsylvania  ,99939,0.838
+39180,Cameron, Pennsylvania  ,99939,0.838
+39220,Clarion, Pennsylvania  ,99939,0.838
+39230,Clearfield, Pennsylvania  ,99939,0.838
+39240,Clinton, Pennsylvania  ,99939,0.838
+39250,Columbia, Pennsylvania  ,99939,0.838
+39260,Crawford, Pennsylvania  ,99939,0.838
+39310,Elk, Pennsylvania  ,99939,0.838
+39340,Forest, Pennsylvania  ,99939,0.838
+39350,Franklin, Pennsylvania  ,99939,0.838
+39360,Fulton, Pennsylvania  ,99939,0.838
+39370,Greene, Pennsylvania  ,99939,0.838
+39380,Huntingdon, Pennsylvania  ,99939,0.838
+39390,Indiana, Pennsylvania  ,99939,0.838
+39400,Jefferson, Pennsylvania  ,99939,0.838
+39410,Juniata, Pennsylvania  ,99939,0.838
+39450,Lawrence, Pennsylvania  ,99939,0.838
+39520,Mc Kean, Pennsylvania  ,99939,0.838
+39540,Mifflin, Pennsylvania  ,99939,0.838
+39550,Monroe, Pennsylvania  ,99939,0.838
+39580,Montour, Pennsylvania  ,99939,0.838
+39600,Northumberland, Pennsylvania  ,99939,0.838
+39640,Potter, Pennsylvania  ,99939,0.838
+39650,Schuylkill, Pennsylvania  ,99939,0.838
+39670,Snyder, Pennsylvania  ,99939,0.838
+39680,Somerset, Pennsylvania  ,99939,0.838
+39690,Sullivan, Pennsylvania  ,99939,0.838
+39700,Susquehanna, Pennsylvania  ,99939,0.838
+39710,Tioga, Pennsylvania  ,99939,0.838
+39720,Union, Pennsylvania  ,99939,0.838
+39730,Venango, Pennsylvania  ,99939,0.838
+39740,Warren, Pennsylvania  ,99939,0.838
+39760,Wayne, Pennsylvania  ,99939,0.838
+40010,Adjuntas, Puerto Rico  ,99940,0.4047
+40210,Coamo, Puerto Rico  ,99940,0.4047
+40240,Culebra, Puerto Rico  ,99940,0.4047
+40360,Jayuya, Puerto Rico  ,99940,0.4047
+40410,Las Marias, Puerto Rico  ,99940,0.4047
+40460,Maricao, Puerto Rico  ,99940,0.4047
+40620,Salinas, Puerto Rico  ,99940,0.4047
+40670,Santa Isabel, Puerto Rico  ,99940,0.4047
+40710,Utuado, Puerto Rico  ,99940,0.4047
+40740,Vieques, Puerto Rico  ,99940,0.4047
+42000,Abbeville, S Carolina  ,99942,0.8338
+42020,Allendale, S Carolina  ,99942,0.8338
+42040,Bamberg, S Carolina  ,99942,0.8338
+42050,Barnwell, S Carolina  ,99942,0.8338
+42060,Beaufort, S Carolina  ,99942,0.8338
+42100,Cherokee, S Carolina  ,99942,0.8338
+42110,Chester, S Carolina  ,99942,0.8338
+42120,Chesterfield, S Carolina  ,99942,0.8338
+42130,Clarendon, S Carolina  ,99942,0.8338
+42140,Colleton, S Carolina  ,99942,0.8338
+42160,Dillon, S Carolina  ,99942,0.8338
+42210,Georgetown, S Carolina  ,99942,0.8338
+42230,Greenwood, S Carolina  ,99942,0.8338
+42240,Hampton, S Carolina  ,99942,0.8338
+42260,Jasper, S Carolina  ,99942,0.8338
+42280,Lancaster, S Carolina  ,99942,0.8338
+42300,Lee, S Carolina  ,99942,0.8338
+42330,Marion, S Carolina  ,99942,0.8338
+42340,Marlboro, S Carolina  ,99942,0.8338
+42320,Mc Cormick, S Carolina  ,99942,0.8338
+42350,Newberry, S Carolina  ,99942,0.8338
+42360,Oconee, S Carolina  ,99942,0.8338
+42370,Orangeburg, S Carolina  ,99942,0.8338
+42430,Union, S Carolina  ,99942,0.8338
+42440,Williamsburg, S Carolina  ,99942,0.8338
+43010,Aurora, S Dakota  ,99943,0.8124
+43020,Beadle, S Dakota  ,99943,0.8124
+43030,Bennett, S Dakota  ,99943,0.8124
+43040,Bon Homme, S Dakota  ,99943,0.8124
+43050,Brookings, S Dakota  ,99943,0.8124
+43060,Brown, S Dakota  ,99943,0.8124
+43070,Brule, S Dakota  ,99943,0.8124
+43080,Buffalo, S Dakota  ,99943,0.8124
+43090,Butte, S Dakota  ,99943,0.8124
+43100,Campbell, S Dakota  ,99943,0.8124
+43110,Charles Mix, S Dakota  ,99943,0.8124
+43120,Clark, S Dakota  ,99943,0.8124
+43130,Clay, S Dakota  ,99943,0.8124
+43140,Codington, S Dakota  ,99943,0.8124
+43150,Corson, S Dakota  ,99943,0.8124
+43160,Custer, S Dakota  ,99943,0.8124
+43170,Davison, S Dakota  ,99943,0.8124
+43180,Day, S Dakota  ,99943,0.8124
+43190,Deuel, S Dakota  ,99943,0.8124
+43200,Dewey, S Dakota  ,99943,0.8124
+43210,Douglas, S Dakota  ,99943,0.8124
+43220,Edmunds, S Dakota  ,99943,0.8124
+43230,Fall River, S Dakota  ,99943,0.8124
+43240,Faulk, S Dakota  ,99943,0.8124
+43250,Grant, S Dakota  ,99943,0.8124
+43260,Gregory, S Dakota  ,99943,0.8124
+43270,Haakon, S Dakota  ,99943,0.8124
+43280,Hamlin, S Dakota  ,99943,0.8124
+43290,Hand, S Dakota  ,99943,0.8124
+43300,Hanson, S Dakota  ,99943,0.8124
+43310,Harding, S Dakota  ,99943,0.8124
+43320,Hughes, S Dakota  ,99943,0.8124
+43330,Hutchinson, S Dakota  ,99943,0.8124
+43340,Hyde, S Dakota  ,99943,0.8124
+43350,Jackson, S Dakota  ,99943,0.8124
+43360,Jerauld, S Dakota  ,99943,0.8124
+43370,Jones, S Dakota  ,99943,0.8124
+43380,Kingsbury, S Dakota  ,99943,0.8124
+43390,Lake, S Dakota  ,99943,0.8124
+43400,Lawrence, S Dakota  ,99943,0.8124
+43420,Lyman, S Dakota  ,99943,0.8124
+43450,Marshall, S Dakota  ,99943,0.8124
+43440,Mc Pherson, S Dakota  ,99943,0.8124
+43470,Mellette, S Dakota  ,99943,0.8124
+43480,Miner, S Dakota  ,99943,0.8124
+43500,Moody, S Dakota  ,99943,0.8124
+43520,Perkins, S Dakota  ,99943,0.8124
+43530,Potter, S Dakota  ,99943,0.8124
+43540,Roberts, S Dakota  ,99943,0.8124
+43550,Sanborn, S Dakota  ,99943,0.8124
+43560,Shannon, S Dakota  ,99943,0.8124
+43570,Spink, S Dakota  ,99943,0.8124
+43580,Stanley, S Dakota  ,99943,0.8124
+43590,Sully, S Dakota  ,99943,0.8124
+43600,Todd, S Dakota  ,99943,0.8124
+43610,Tripp, S Dakota  ,99943,0.8124
+43640,Walworth, S Dakota  ,99943,0.8124
+43650,Washabaugh, S Dakota  ,99943,0.8124
+43670,Yankton, S Dakota  ,99943,0.8124
+43680,Ziebach, S Dakota  ,99943,0.8124
+44010,Bedford, Tennessee  ,99944,0.7559
+44020,Benton, Tennessee  ,99944,0.7559
+44030,Bledsoe, Tennessee  ,99944,0.7559
+44060,Campbell, Tennessee  ,99944,0.7559
+44080,Carroll, Tennessee  ,99944,0.7559
+44120,Claiborne, Tennessee  ,99944,0.7559
+44130,Clay, Tennessee  ,99944,0.7559
+44140,Cocke, Tennessee  ,99944,0.7559
+44150,Coffee, Tennessee  ,99944,0.7559
+44160,Crockett, Tennessee  ,99944,0.7559
+44170,Cumberland, Tennessee  ,99944,0.7559
+44200,De Kalb, Tennessee  ,99944,0.7559
+44190,Decatur, Tennessee  ,99944,0.7559
+44220,Dyer, Tennessee  ,99944,0.7559
+44240,Fentress, Tennessee  ,99944,0.7559
+44250,Franklin, Tennessee  ,99944,0.7559
+44260,Gibson, Tennessee  ,99944,0.7559
+44270,Giles, Tennessee  ,99944,0.7559
+44290,Greene, Tennessee  ,99944,0.7559
+44300,Grundy, Tennessee  ,99944,0.7559
+44330,Hancock, Tennessee  ,99944,0.7559
+44340,Hardeman, Tennessee  ,99944,0.7559
+44350,Hardin, Tennessee  ,99944,0.7559
+44370,Haywood, Tennessee  ,99944,0.7559
+44380,Henderson, Tennessee  ,99944,0.7559
+44390,Henry, Tennessee  ,99944,0.7559
+44410,Houston, Tennessee  ,99944,0.7559
+44420,Humphreys, Tennessee  ,99944,0.7559
+44430,Jackson, Tennessee  ,99944,0.7559
+44450,Johnson, Tennessee  ,99944,0.7559
+44470,Lake, Tennessee  ,99944,0.7559
+44480,Lauderdale, Tennessee  ,99944,0.7559
+44490,Lawrence, Tennessee  ,99944,0.7559
+44500,Lewis, Tennessee  ,99944,0.7559
+44510,Lincoln, Tennessee  ,99944,0.7559
+44580,Marshall, Tennessee  ,99944,0.7559
+44590,Maury, Tennessee  ,99944,0.7559
+44530,Mc Minn, Tennessee  ,99944,0.7559
+44540,Mc Nairy, Tennessee  ,99944,0.7559
+44600,Meigs, Tennessee  ,99944,0.7559
+44610,Monroe, Tennessee  ,99944,0.7559
+44630,Moore, Tennessee  ,99944,0.7559
+44640,Morgan, Tennessee  ,99944,0.7559
+44650,Obion, Tennessee  ,99944,0.7559
+44660,Overton, Tennessee  ,99944,0.7559
+44670,Perry, Tennessee  ,99944,0.7559
+44680,Pickett, Tennessee  ,99944,0.7559
+44700,Putnam, Tennessee  ,99944,0.7559
+44710,Rhea, Tennessee  ,99944,0.7559
+44720,Roane, Tennessee  ,99944,0.7559
+44750,Scott, Tennessee  ,99944,0.7559
+44770,Sevier, Tennessee  ,99944,0.7559
+44870,Van Buren, Tennessee  ,99944,0.7559
+44880,Warren, Tennessee  ,99944,0.7559
+44900,Wayne, Tennessee  ,99944,0.7559
+44910,Weakley, Tennessee  ,99944,0.7559
+44920,White, Tennessee  ,99944,0.7559
+45000,Anderson, Texas  ,99945,0.7978
+45010,Andrews, Texas  ,99945,0.7978
+45020,Angelina, Texas  ,99945,0.7978
+45080,Bailey, Texas  ,99945,0.7978
+45110,Baylor, Texas  ,99945,0.7978
+45113,Bee, Texas  ,99945,0.7978
+45140,Blanco, Texas  ,99945,0.7978
+45150,Borden, Texas  ,99945,0.7978
+45160,Bosque, Texas  ,99945,0.7978
+45200,Brewster, Texas  ,99945,0.7978
+45201,Briscoe, Texas  ,99945,0.7978
+45210,Brooks, Texas  ,99945,0.7978
+45220,Brown, Texas  ,99945,0.7978
+45222,Burnet, Texas  ,99945,0.7978
+45250,Camp, Texas  ,99945,0.7978
+45260,Cass, Texas  ,99945,0.7978
+45270,Castro, Texas  ,99945,0.7978
+45281,Cherokee, Texas  ,99945,0.7978
+45290,Childress, Texas  ,99945,0.7978
+45292,Cochran, Texas  ,99945,0.7978
+45300,Coke, Texas  ,99945,0.7978
+45301,Coleman, Texas  ,99945,0.7978
+45311,Collingsworth, Texas  ,99945,0.7978
+45312,Colorado, Texas  ,99945,0.7978
+45321,Comanche, Texas  ,99945,0.7978
+45330,Concho, Texas  ,99945,0.7978
+45340,Cooke, Texas  ,99945,0.7978
+45350,Cottle, Texas  ,99945,0.7978
+45360,Crane, Texas  ,99945,0.7978
+45361,Crockett, Texas  ,99945,0.7978
+45370,Culberson, Texas  ,99945,0.7978
+45380,Dallam, Texas  ,99945,0.7978
+45391,Dawson, Texas  ,99945,0.7978
+45420,De Witt, Texas  ,99945,0.7978
+45392,Deaf Smith, Texas  ,99945,0.7978
+45421,Dickens, Texas  ,99945,0.7978
+45430,Dimmit, Texas  ,99945,0.7978
+45431,Donley, Texas  ,99945,0.7978
+45440,Duval, Texas  ,99945,0.7978
+45450,Eastland, Texas  ,99945,0.7978
+45460,Edwards, Texas  ,99945,0.7978
+45490,Erath, Texas  ,99945,0.7978
+45500,Falls, Texas  ,99945,0.7978
+45510,Fannin, Texas  ,99945,0.7978
+45511,Fayette, Texas  ,99945,0.7978
+45520,Fisher, Texas  ,99945,0.7978
+45521,Floyd, Texas  ,99945,0.7978
+45522,Foard, Texas  ,99945,0.7978
+45531,Franklin, Texas  ,99945,0.7978
+45540,Freestone, Texas  ,99945,0.7978
+45541,Frio, Texas  ,99945,0.7978
+45542,Gaines, Texas  ,99945,0.7978
+45551,Garza, Texas  ,99945,0.7978
+45552,Gillespie, Texas  ,99945,0.7978
+45560,Glasscock, Texas  ,99945,0.7978
+45562,Gonzales, Texas  ,99945,0.7978
+45563,Gray, Texas  ,99945,0.7978
+45580,Grimes, Texas  ,99945,0.7978
+45582,Hale, Texas  ,99945,0.7978
+45583,Hall, Texas  ,99945,0.7978
+45590,Hamilton, Texas  ,99945,0.7978
+45591,Hansford, Texas  ,99945,0.7978
+45592,Hardeman, Texas  ,99945,0.7978
+45620,Harrison, Texas  ,99945,0.7978
+45621,Hartley, Texas  ,99945,0.7978
+45630,Haskell, Texas  ,99945,0.7978
+45632,Hemphill, Texas  ,99945,0.7978
+45640,Henderson, Texas  ,99945,0.7978
+45651,Hill, Texas  ,99945,0.7978
+45652,Hockley, Texas  ,99945,0.7978
+45653,Hood, Texas  ,99945,0.7978
+45654,Hopkins, Texas  ,99945,0.7978
+45660,Houston, Texas  ,99945,0.7978
+45661,Howard, Texas  ,99945,0.7978
+45662,Hudspeth, Texas  ,99945,0.7978
+45671,Hutchinson, Texas  ,99945,0.7978
+45680,Jack, Texas  ,99945,0.7978
+45681,Jackson, Texas  ,99945,0.7978
+45690,Jasper, Texas  ,99945,0.7978
+45691,Jeff Davis, Texas  ,99945,0.7978
+45710,Jim Hogg, Texas  ,99945,0.7978
+45711,Jim Wells, Texas  ,99945,0.7978
+45722,Karnes, Texas  ,99945,0.7978
+45732,Kenedy, Texas  ,99945,0.7978
+45733,Kent, Texas  ,99945,0.7978
+45734,Kerr, Texas  ,99945,0.7978
+45740,Kimble, Texas  ,99945,0.7978
+45741,King, Texas  ,99945,0.7978
+45742,Kinney, Texas  ,99945,0.7978
+45743,Kleberg, Texas  ,99945,0.7978
+45744,Knox, Texas  ,99945,0.7978
+45753,La Salle, Texas  ,99945,0.7978
+45750,Lamar, Texas  ,99945,0.7978
+45751,Lamb, Texas  ,99945,0.7978
+45754,Lavaca, Texas  ,99945,0.7978
+45755,Lee, Texas  ,99945,0.7978
+45756,Leon, Texas  ,99945,0.7978
+45758,Limestone, Texas  ,99945,0.7978
+45759,Lipscomb, Texas  ,99945,0.7978
+45760,Live Oak, Texas  ,99945,0.7978
+45761,Llano, Texas  ,99945,0.7978
+45762,Loving, Texas  ,99945,0.7978
+45771,Lynn, Texas  ,99945,0.7978
+45782,Madison, Texas  ,99945,0.7978
+45783,Marion, Texas  ,99945,0.7978
+45784,Martin, Texas  ,99945,0.7978
+45785,Mason, Texas  ,99945,0.7978
+45790,Matagorda, Texas  ,99945,0.7978
+45791,Maverick, Texas  ,99945,0.7978
+45772,Mc Culloch, Texas  ,99945,0.7978
+45781,Mc Mullen, Texas  ,99945,0.7978
+45793,Menard, Texas  ,99945,0.7978
+45795,Milam, Texas  ,99945,0.7978
+45796,Mills, Texas  ,99945,0.7978
+45797,Mitchell, Texas  ,99945,0.7978
+45800,Montague, Texas  ,99945,0.7978
+45802,Moore, Texas  ,99945,0.7978
+45803,Morris, Texas  ,99945,0.7978
+45804,Motley, Texas  ,99945,0.7978
+45810,Nacogdoches, Texas  ,99945,0.7978
+45820,Navarro, Texas  ,99945,0.7978
+45821,Newton, Texas  ,99945,0.7978
+45822,Nolan, Texas  ,99945,0.7978
+45831,Ochiltree, Texas  ,99945,0.7978
+45832,Oldham, Texas  ,99945,0.7978
+45841,Palo Pinto, Texas  ,99945,0.7978
+45842,Panola, Texas  ,99945,0.7978
+45844,Parmer, Texas  ,99945,0.7978
+45845,Pecos, Texas  ,99945,0.7978
+45850,Polk, Texas  ,99945,0.7978
+45861,Presidio, Texas  ,99945,0.7978
+45870,Rains, Texas  ,99945,0.7978
+45872,Reagan, Texas  ,99945,0.7978
+45873,Real, Texas  ,99945,0.7978
+45874,Red River, Texas  ,99945,0.7978
+45875,Reeves, Texas  ,99945,0.7978
+45876,Refugio, Texas  ,99945,0.7978
+45877,Roberts, Texas  ,99945,0.7978
+45880,Runnels, Texas  ,99945,0.7978
+45882,Sabine, Texas  ,99945,0.7978
+45883,San Augustine, Texas  ,99945,0.7978
+45886,San Saba, Texas  ,99945,0.7978
+45887,Schleicher, Texas  ,99945,0.7978
+45888,Scurry, Texas  ,99945,0.7978
+45889,Shackelford, Texas  ,99945,0.7978
+45890,Shelby, Texas  ,99945,0.7978
+45891,Sherman, Texas  ,99945,0.7978
+45893,Somervell, Texas  ,99945,0.7978
+45900,Starr, Texas  ,99945,0.7978
+45901,Stephens, Texas  ,99945,0.7978
+45902,Sterling, Texas  ,99945,0.7978
+45903,Stonewall, Texas  ,99945,0.7978
+45904,Sutton, Texas  ,99945,0.7978
+45905,Swisher, Texas  ,99945,0.7978
+45912,Terrell, Texas  ,99945,0.7978
+45913,Terry, Texas  ,99945,0.7978
+45920,Throckmorton, Texas  ,99945,0.7978
+45921,Titus, Texas  ,99945,0.7978
+45941,Trinity, Texas  ,99945,0.7978
+45942,Tyler, Texas  ,99945,0.7978
+45944,Upton, Texas  ,99945,0.7978
+45945,Uvalde, Texas  ,99945,0.7978
+45946,Val Verde, Texas  ,99945,0.7978
+45947,Van Zandt, Texas  ,99945,0.7978
+45949,Walker, Texas  ,99945,0.7978
+45951,Ward, Texas  ,99945,0.7978
+45952,Washington, Texas  ,99945,0.7978
+45954,Wharton, Texas  ,99945,0.7978
+45955,Wheeler, Texas  ,99945,0.7978
+45961,Wilbarger, Texas  ,99945,0.7978
+45962,Willacy, Texas  ,99945,0.7978
+45972,Winkler, Texas  ,99945,0.7978
+45974,Wood, Texas  ,99945,0.7978
+45980,Yoakum, Texas  ,99945,0.7978
+45981,Young, Texas  ,99945,0.7978
+45982,Zapata, Texas  ,99945,0.7978
+45983,Zavala, Texas  ,99945,0.7978
+46000,Beaver, Utah  ,99946,0.8516
+46010,Box Elder, Utah  ,99946,0.8516
+46030,Carbon, Utah  ,99946,0.8516
+46040,Daggett, Utah  ,99946,0.8516
+46060,Duchesne, Utah  ,99946,0.8516
+46070,Emery, Utah  ,99946,0.8516
+46080,Garfield, Utah  ,99946,0.8516
+46090,Grand, Utah  ,99946,0.8516
+46100,Iron, Utah  ,99946,0.8516
+46120,Kane, Utah  ,99946,0.8516
+46130,Millard, Utah  ,99946,0.8516
+46150,Piute, Utah  ,99946,0.8516
+46160,Rich, Utah  ,99946,0.8516
+46180,San Juan, Utah  ,99946,0.8516
+46190,Sanpete, Utah  ,99946,0.8516
+46200,Sevier, Utah  ,99946,0.8516
+46230,Uintah, Utah  ,99946,0.8516
+46250,Wasatch, Utah  ,99946,0.8516
+46270,Wayne, Utah  ,99946,0.8516
+47000,Addison, Vermont  ,99947,0.9725
+47010,Bennington, Vermont  ,99947,0.9725
+47020,Caledonia, Vermont  ,99947,0.9725
+47040,Essex, Vermont  ,99947,0.9725
+47070,Lamoille, Vermont  ,99947,0.9725
+47080,Orange, Vermont  ,99947,0.9725
+47090,Orleans, Vermont  ,99947,0.9725
+47100,Rutland, Vermont  ,99947,0.9725
+47110,Washington, Vermont  ,99947,0.9725
+47120,Windham, Vermont  ,99947,0.9725
+47130,Windsor, Vermont  ,99947,0.9725
+48010,St Croix, Virgin Islands  ,99948,0.7185
+48020,St Thomas-John, Virgin Islands  ,99948,0.7185
+49000,Accomack, Virginia  ,99949,0.7728
+49020,Alleghany, Virginia  ,99949,0.7728
+49070,Augusta, Virginia  ,99949,0.7728
+49080,Bath, Virginia  ,99949,0.7728
+49100,Bland, Virginia  ,99949,0.7728
+49120,Brunswick, Virginia  ,99949,0.7728
+49130,Buchanan, Virginia  ,99949,0.7728
+49140,Buckingham, Virginia  ,99949,0.7728
+49141,Buena Vista City, Virginia  ,99949,0.7728
+49170,Carroll, Virginia  ,99949,0.7728
+49190,Charlotte, Virginia  ,99949,0.7728
+49211,Clifton Forge City, Virginia  ,99949,0.7728
+49213,Covington City, Virginia  ,99949,0.7728
+49230,Culpeper, Virginia  ,99949,0.7728
+49250,Dickenson, Virginia  ,99949,0.7728
+49270,Emporia, Virginia  ,99949,0.7728
+49280,Essex, Virginia  ,99949,0.7728
+49310,Floyd, Virginia  ,99949,0.7728
+49328,Franklin City, Virginia  ,99949,0.7728
+49343,Galax City, Virginia  ,99949,0.7728
+49380,Grayson, Virginia  ,99949,0.7728
+49400,Greensville, Virginia  ,99949,0.7728
+49410,Halifax, Virginia  ,99949,0.7728
+49440,Henry, Virginia  ,99949,0.7728
+49450,Highland, Virginia  ,99949,0.7728
+49490,King George, Virginia  ,99949,0.7728
+49510,Lancaster, Virginia  ,99949,0.7728
+49520,Lee, Virginia  ,99949,0.7728
+49522,Lexington, Virginia  ,99949,0.7728
+49550,Lunenburg, Virginia  ,99949,0.7728
+49560,Madison, Virginia  ,99949,0.7728
+49561,Martinsville City, Virginia  ,99949,0.7728
+49580,Mecklenburg, Virginia  ,99949,0.7728
+49590,Middlesex, Virginia  ,99949,0.7728
+49610,Nansemond, Virginia  ,99949,0.7728
+49650,Northampton, Virginia  ,99949,0.7728
+49660,Northumberland, Virginia  ,99949,0.7728
+49661,Norton City, Virginia  ,99949,0.7728
+49670,Nottoway, Virginia  ,99949,0.7728
+49680,Orange, Virginia  ,99949,0.7728
+49690,Page, Virginia  ,99949,0.7728
+49700,Patrick, Virginia  ,99949,0.7728
+49730,Prince Edward, Virginia  ,99949,0.7728
+49780,Rappahannock, Virginia  ,99949,0.7728
+49790,Richmond, Virginia  ,99949,0.7728
+49810,Rockbridge, Virginia  ,99949,0.7728
+49830,Russell, Virginia  ,99949,0.7728
+49850,Shenandoah, Virginia  ,99949,0.7728
+49860,Smyth, Virginia  ,99949,0.7728
+49867,South Boston City, Virginia  ,99949,0.7728
+49870,Southampton, Virginia  ,99949,0.7728
+49891,Staunton City, Virginia  ,99949,0.7728
+49920,Tazewell, Virginia  ,99949,0.7728
+49951,Waynesboro City, Virginia  ,99949,0.7728
+49960,Westmoreland, Virginia  ,99949,0.7728
+49970,Wise, Virginia  ,99949,0.7728
+49980,Wythe, Virginia  ,99949,0.7728
+50000,Adams, Washington  ,99950,1.0092
+50040,Clallam, Washington  ,99950,1.0092
+50060,Columbia, Washington  ,99950,1.0092
+50090,Ferry, Washington  ,99950,1.0092
+50110,Garfield, Washington  ,99950,1.0092
+50120,Grant, Washington  ,99950,1.0092
+50130,Grays Harbor, Washington  ,99950,1.0092
+50140,Island, Washington  ,99950,1.0092
+50150,Jefferson, Washington  ,99950,1.0092
+50180,Kittitas, Washington  ,99950,1.0092
+50190,Klickitat, Washington  ,99950,1.0092
+50200,Lewis, Washington  ,99950,1.0092
+50210,Lincoln, Washington  ,99950,1.0092
+50220,Mason, Washington  ,99950,1.0092
+50230,Okanogan, Washington  ,99950,1.0092
+50240,Pacific, Washington  ,99950,1.0092
+50250,Pend Oreille, Washington  ,99950,1.0092
+50270,San Juan, Washington  ,99950,1.0092
+50320,Stevens, Washington  ,99950,1.0092
+50340,Wahkiakum, Washington  ,99950,1.0092
+50350,Walla Walla, Washington  ,99950,1.0092
+50370,Whitman, Washington  ,99950,1.0092
+51000,Barbour, W Virginia  ,99951,0.7333
+51030,Braxton, W Virginia  ,99951,0.7333
+51060,Calhoun, W Virginia  ,99951,0.7333
+51080,Doddridge, W Virginia  ,99951,0.7333
+51090,Fayette, W Virginia  ,99951,0.7333
+51100,Gilmer, W Virginia  ,99951,0.7333
+51110,Grant, W Virginia  ,99951,0.7333
+51120,Greenbrier, W Virginia  ,99951,0.7333
+51150,Hardy, W Virginia  ,99951,0.7333
+51160,Harrison, W Virginia  ,99951,0.7333
+51170,Jackson, W Virginia  ,99951,0.7333
+51200,Lewis, W Virginia  ,99951,0.7333
+51220,Logan, W Virginia  ,99951,0.7333
+51240,Marion, W Virginia  ,99951,0.7333
+51260,Mason, W Virginia  ,99951,0.7333
+51230,Mc Dowell, W Virginia  ,99951,0.7333
+51270,Mercer, W Virginia  ,99951,0.7333
+51290,Mingo, W Virginia  ,99951,0.7333
+51310,Monroe, W Virginia  ,99951,0.7333
+51330,Nicholas, W Virginia  ,99951,0.7333
+51350,Pendleton, W Virginia  ,99951,0.7333
+51370,Pocahontas, W Virginia  ,99951,0.7333
+51400,Raleigh, W Virginia  ,99951,0.7333
+51410,Randolph, W Virginia  ,99951,0.7333
+51420,Ritchie, W Virginia  ,99951,0.7333
+51430,Roane, W Virginia  ,99951,0.7333
+51440,Summers, W Virginia  ,99951,0.7333
+51450,Taylor, W Virginia  ,99951,0.7333
+51460,Tucker, W Virginia  ,99951,0.7333
+51470,Tyler, W Virginia  ,99951,0.7333
+51480,Upshur, W Virginia  ,99951,0.7333
+51500,Webster, W Virginia  ,99951,0.7333
+51510,Wetzel, W Virginia  ,99951,0.7333
+51540,Wyoming, W Virginia  ,99951,0.7333
+52000,Adams, Wisconsin  ,99952,0.9142
+52010,Ashland, Wisconsin  ,99952,0.9142
+52020,Barron, Wisconsin  ,99952,0.9142
+52030,Bayfield, Wisconsin  ,99952,0.9142
+52050,Buffalo, Wisconsin  ,99952,0.9142
+52060,Burnett, Wisconsin  ,99952,0.9142
+52090,Clark, Wisconsin  ,99952,0.9142
+52110,Crawford, Wisconsin  ,99952,0.9142
+52130,Dodge, Wisconsin  ,99952,0.9142
+52140,Door, Wisconsin  ,99952,0.9142
+52160,Dunn, Wisconsin  ,99952,0.9142
+52180,Florence, Wisconsin  ,99952,0.9142
+52200,Forest, Wisconsin  ,99952,0.9142
+52210,Grant, Wisconsin  ,99952,0.9142
+52220,Green, Wisconsin  ,99952,0.9142
+52230,Green Lake, Wisconsin  ,99952,0.9142
+52250,Iron, Wisconsin  ,99952,0.9142
+52260,Jackson, Wisconsin  ,99952,0.9142
+52270,Jefferson, Wisconsin  ,99952,0.9142
+52280,Juneau, Wisconsin  ,99952,0.9142
+52320,Lafayette, Wisconsin  ,99952,0.9142
+52330,Langlade, Wisconsin  ,99952,0.9142
+52340,Lincoln, Wisconsin  ,99952,0.9142
+52350,Manitowoc, Wisconsin  ,99952,0.9142
+52370,Marinette, Wisconsin  ,99952,0.9142
+52380,Marquette, Wisconsin  ,99952,0.9142
+52381,Menominee, Wisconsin  ,99952,0.9142
+52400,Monroe, Wisconsin  ,99952,0.9142
+52420,Oneida, Wisconsin  ,99952,0.9142
+52450,Pepin, Wisconsin  ,99952,0.9142
+52470,Polk, Wisconsin  ,99952,0.9142
+52480,Portage, Wisconsin  ,99952,0.9142
+52490,Price, Wisconsin  ,99952,0.9142
+52510,Richland, Wisconsin  ,99952,0.9142
+52530,Rusk, Wisconsin  ,99952,0.9142
+52550,Sauk, Wisconsin  ,99952,0.9142
+52560,Sawyer, Wisconsin  ,99952,0.9142
+52570,Shawano, Wisconsin  ,99952,0.9142
+52590,Taylor, Wisconsin  ,99952,0.9142
+52600,Trempealeau, Wisconsin  ,99952,0.9142
+52610,Vernon, Wisconsin  ,99952,0.9142
+52620,Vilas, Wisconsin  ,99952,0.9142
+52630,Walworth, Wisconsin  ,99952,0.9142
+52640,Washburn, Wisconsin  ,99952,0.9142
+52670,Waupaca, Wisconsin  ,99952,0.9142
+52680,Waushara, Wisconsin  ,99952,0.9142
+52700,Wood, Wisconsin  ,99952,0.9142
+53000,Albany, Wyoming  ,99953,0.9238
+53010,Big Horn, Wyoming  ,99953,0.9238
+53020,Campbell, Wyoming  ,99953,0.9238
+53030,Carbon, Wyoming  ,99953,0.9238
+53040,Converse, Wyoming  ,99953,0.9238
+53050,Crook, Wyoming  ,99953,0.9238
+53060,Fremont, Wyoming  ,99953,0.9238
+53070,Goshen, Wyoming  ,99953,0.9238
+53080,Hot Springs, Wyoming  ,99953,0.9238
+53090,Johnson, Wyoming  ,99953,0.9238
+53110,Lincoln, Wyoming  ,99953,0.9238
+53130,Niobrara, Wyoming  ,99953,0.9238
+53140,Park, Wyoming  ,99953,0.9238
+53150,Platte, Wyoming  ,99953,0.9238
+53160,Sheridan, Wyoming  ,99953,0.9238
+53170,Sublette, Wyoming  ,99953,0.9238
+53180,Sweetwater, Wyoming  ,99953,0.9238
+53190,Teton, Wyoming  ,99953,0.9238
+53200,Uinta, Wyoming  ,99953,0.9238
+53210,Washakie, Wyoming  ,99953,0.9238
+53220,Weston, Wyoming  ,99953,0.9238
+65010,Agana, Guam  ,99965,0.9611
+65020,Agana Heights, Guam  ,99965,0.9611
+65030,Agat, Guam  ,99965,0.9611
+65040,Asan, Guam  ,99965,0.9611
+65050,Barrigada, Guam  ,99965,0.9611
+65060,Chalan Pago, Guam  ,99965,0.9611
+65070,Dededo, Guam  ,99965,0.9611
+65080,Inarajan, Guam  ,99965,0.9611
+65090,Maite, Guam  ,99965,0.9611
+65100,Mangilao, Guam  ,99965,0.9611
+65110,Merizo, Guam  ,99965,0.9611
+65120,Mongmong, Guam  ,99965,0.9611
+65130,Ordot, Guam  ,99965,0.9611
+65140,Piti, Guam  ,99965,0.9611
+65150,Santa Rita, Guam  ,99965,0.9611
+65160,Sinajana, Guam  ,99965,0.9611
+65170,Talofofo, Guam  ,99965,0.9611
+65180,Tamuning, Guam  ,99965,0.9611
+65190,Toto, Guam  ,99965,0.9611
+65200,Umatac, Guam  ,99965,0.9611
+65210,Yigo, Guam  ,99965,0.9611
+65220,Yona, Guam  ,99965,0.9611

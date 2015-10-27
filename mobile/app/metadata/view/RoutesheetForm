@@ -1,0 +1,241 @@
+{
+    "type": "Ext.form.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "itemId": "routesheet_form",
+        "designer|userClassName": "RoutesheetForm"
+    },
+    "designerId": "96f5ee43-4e57-4d9b-b244-e35b9f849263",
+    "cn": [
+        {
+            "type": "Ext.field.DatePicker",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "label": "Visit Date",
+                "labelAlign": "top",
+                "name": "visit_date",
+                "placeHolder": ""
+            },
+            "designerId": "2dc7b440-4fa9-4328-bb4c-5fb061907cbd",
+            "cn": [
+                {
+                    "type": "Ext.picker.Date",
+                    "reference": {
+                        "name": "picker",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "designerId": "3f995394-2f37-49c9-944f-f859eb9bf6ea",
+                    "cn": [
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "doneButton",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Done"
+                            },
+                            "designerId": "12710d39-5f22-45d7-9eb0-d0c1e3a362ab"
+                        },
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "cancelButton",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "text": "Cancel"
+                            },
+                            "designerId": "cdd9cd7f-11e4-4ab7-b608-eb9ee5b8169a"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dateTimeFormat": "h:i:A",
+                "picker": [
+                    "{",
+                    "    yearFrom: 1980,",
+                    "    minuteInterval : 1,",
+                    "    ampm : true,",
+                    "    slotOrder: ['hour','minute','ampm']",
+                    "}"
+                ],
+                "designer|createAlias": "datetimepickerfield",
+                "label": "Visit Start Time",
+                "labelAlign": "top",
+                "name": "start_time",
+                "value": null
+            },
+            "configAlternates": {
+                "picker": "object"
+            },
+            "designerId": "e5de4281-72b2-4bdf-922f-ffbb146c094b",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "dateTimeFormat",
+                    "type": "string"
+                },
+                {
+                    "group": "(Custom Properties)",
+                    "name": "picker",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "type": "Ext.field.Text",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "dateTimeFormat": "h:i:A",
+                "picker": [
+                    "{",
+                    "    yearFrom: 1980,",
+                    "    minuteInterval : 1,",
+                    "    ampm : true,",
+                    "    slotOrder: ['hour','minute','ampm']",
+                    "}"
+                ],
+                "designer|createAlias": "datetimepickerfield",
+                "label": "Visit End Time",
+                "labelAlign": "top",
+                "name": "end_time"
+            },
+            "configAlternates": {
+                "picker": "object"
+            },
+            "designerId": "92711201-7d99-4ed9-95ba-d48e5db74a31",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "dateTimeFormat",
+                    "type": "string"
+                },
+                {
+                    "group": "(Custom Properties)",
+                    "name": "picker",
+                    "type": "string"
+                }
+            ]
+        },
+        {
+            "type": "Ext.field.Select",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "itemId": "visit_type",
+                "label": "Visit Type",
+                "labelAlign": "top",
+                "name": "visit_type_id",
+                "placeHolder": "Select Visit Type",
+                "displayField": "description",
+                "hiddenName": "visit_type_id",
+                "store": "VisitTypeStore",
+                "valueField": "id"
+            },
+            "designerId": "78131fba-5241-42bc-8233-b21b97bc5388"
+        },
+        {
+            "type": "Ext.field.Number",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": null,
+                "label": "Latitude",
+                "labelAlign": "top",
+                "name": "latitude",
+                "readOnly": true
+            },
+            "designerId": "f9946bac-023a-4a57-b2cc-84db05095ac0"
+        },
+        {
+            "type": "Ext.field.Number",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "disabled": false,
+                "designer|displayName": null,
+                "label": "Longitude",
+                "labelAlign": "top",
+                "name": "longitude",
+                "readOnly": true
+            },
+            "designerId": "2dafc010-da7c-4eed-90b9-a6b295f06e8a"
+        },
+        {
+            "type": "Ext.field.TextArea",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "label": "Remarks",
+                "labelAlign": "top",
+                "name": "remarks",
+                "value": null,
+                "placeHolder": "Enter additional comments here..."
+            },
+            "designerId": "c3f5dbad-1868-4b8f-a8d8-46503b796933"
+        },
+        {
+            "type": "Ext.field.Hidden",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "patient_id"
+            },
+            "designerId": "f7f5db4d-f634-4f94-8afd-6f559704c784"
+        },
+        {
+            "type": "Ext.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ui": "confirm",
+                "designer|createAlias": "signaturefield",
+                "text": "Tap for Patient Signature"
+            },
+            "designerId": "6319ccc5-1cc1-4a77-a855-98582e4ec647"
+        }
+    ]
+}

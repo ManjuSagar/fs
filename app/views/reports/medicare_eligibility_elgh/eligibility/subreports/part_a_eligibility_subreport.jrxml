@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="eligibility_subreport" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="b95f5bf2-b680-481b-9fa3-5abb9cebcec4">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/elgh-response/beneficiary-information/current-entitlement/part-a-eligibility]]>
+	</queryString>
+	<field name="part-a-effective-date" class="java.lang.String">
+		<fieldDescription><![CDATA[part-a-effective-date]]></fieldDescription>
+	</field>
+	<field name="part-a-termination-date" class="java.lang.String">
+		<fieldDescription><![CDATA[part-a-termination-date]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="42" splitType="Prevent">
+			<printWhenExpression><![CDATA[$F{part-a-effective-date}!=null ||
+$F{part-a-termination-date}!=null]]></printWhenExpression>
+			<staticText>
+				<reportElement uuid="5636e8cc-ab08-4bbf-a19a-24e084c15957" mode="Opaque" x="5" y="27" width="340" height="15" backcolor="#F0ECEC"/>
+				<textElement>
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Effective Date]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="ba98b503-9a34-471e-9e1c-6a6d4d25c14a" mode="Opaque" x="345" y="27" width="150" height="15" backcolor="#F0ECEC"/>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Termination Date]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="208b2504-c14d-42c2-a7b1-22333406a9f5" mode="Opaque" x="0" y="5" width="555" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" backcolor="#DFD5D5"/>
+				<textElement>
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Part A Eligibility]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="18" splitType="Prevent">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="0a291e5f-08f1-406d-8a99-165c71a8bcc3" x="5" y="1" width="313" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Left"/>
+				<textFieldExpression><![CDATA[$F{part-a-effective-date}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="816f0ff3-cf12-4483-a5fa-5fe6eebfaa39" x="345" y="1" width="150" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{part-a-termination-date}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

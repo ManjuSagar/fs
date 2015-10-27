@@ -1,0 +1,133 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="visit_by_primary_source_of_payment_table" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="f0f42ff7-68c9-4f1e-8fb1-24375baba469">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/alirts/primary-source-of-payments/primary-source-of-payment]]>
+	</queryString>
+	<field name="line-number" class="java.lang.String">
+		<fieldDescription><![CDATA[line-number]]></fieldDescription>
+	</field>
+	<field name="reimbursement-source" class="java.lang.String">
+		<fieldDescription><![CDATA[reimbursement-source]]></fieldDescription>
+	</field>
+	<field name="payment-visits-count" class="java.lang.Float">
+		<fieldDescription><![CDATA[payment-visits-count]]></fieldDescription>
+	</field>
+	<field name="total-payment-visits-count" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/primary-source-of-payments/total-payment-visits-count]]></fieldDescription>
+	</field>
+	<background>
+		<band height="50"/>
+	</background>
+	<title>
+		<band height="2"/>
+	</title>
+	<columnHeader>
+		<band height="50" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="e3b693af-8b46-4d62-b32d-5dc024081ecc" x="17" y="10" width="299" height="15"/>
+				<textElement verticalAlignment="Middle">
+					<font isBold="true"/>
+					<paragraph leftIndent="4"/>
+				</textElement>
+				<text><![CDATA[VISITS BY PRIMARY SOURCE OF PAYMENT]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="1639a588-bbf5-491e-bd91-4703f8328096" x="1" y="25" width="85" height="25"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Line
+No.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d74104cf-5ded-4236-9123-db732df4b83d" x="86" y="25" width="337" height="25"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Reimbursement Source]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="689b91f6-c577-4d54-bd8b-881df5578d37" x="423" y="25" width="131" height="25"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[(Column 1)
+Visits]]></text>
+			</staticText>
+			<frame>
+				<reportElement uuid="b3ce56dd-1882-44e6-b931-42fc5a7fb626" x="1" y="10" width="553" height="15"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+			</frame>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="20" splitType="Prevent">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="cc35ce35-a0ef-4e26-9947-f15983afeb99" x="1" y="0" width="85" height="20" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{line-number}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="5c75c6c5-5bc6-4b04-bbf5-86f53b196745" x="86" y="0" width="337" height="20" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle">
+					<paragraph leftIndent="4"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{reimbursement-source}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" pattern="#,###">
+				<reportElement uuid="7e68a6e1-8b7c-4a94-b3dd-52430ac4ee7f" x="423" y="0" width="131" height="20" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<paragraph rightIndent="4"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{payment-visits-count}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

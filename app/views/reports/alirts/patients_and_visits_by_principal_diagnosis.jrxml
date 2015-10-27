@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="patients_and_visits_by_principal_diagnosis" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="22418fe1-09df-401b-baf1-c69f5e9d0082">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["/home/msuser1/workspace/git_repo/fasternotes/app/views/reports/visit_list/"]]></defaultValueExpression>
+	</parameter>
+	<queryString language="xPath">
+		<![CDATA[/alirts/patient-and-visits-by-icd-codes]]>
+	</queryString>
+	<field name="sub-report-url" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/sub-report-url]]></fieldDescription>
+	</field>
+	<field name="agency-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/agency-name]]></fieldDescription>
+	</field>
+	<field name="agency-street-address" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/agency-street-address]]></fieldDescription>
+	</field>
+	<field name="agency-suite-number" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/agency-suite-number]]></fieldDescription>
+	</field>
+	<field name="agency-city-state-phone" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/agency-city-state-phone]]></fieldDescription>
+	</field>
+	<field name="fiscal-period-from-date" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/fiscal-period-from-date]]></fieldDescription>
+	</field>
+	<field name="fiscal-period-to-date" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/fiscal-period-to-date]]></fieldDescription>
+	</field>
+	<field name="current-date" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/current-date]]></fieldDescription>
+	</field>
+	<field name="current-time" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/current-time]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="130" splitType="Stretch">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="bd1d7f1b-730f-40a4-8ec3-d82b6015bf6a" x="0" y="3" width="325" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{agency-name}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{agency-name}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="00a994b1-e3de-489b-aef2-b870da0db681" x="0" y="18" width="325" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{agency-street-address}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{agency-street-address}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="9f2896cd-4e6f-497a-9aba-db842a7b7507" x="0" y="33" width="325" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{agency-city-state-phone}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{agency-city-state-phone}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="e281cec5-2d8d-48d8-be76-41304ae9e502" x="109" y="51" width="391" height="15"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PATIENTS AND VISITS BY PRINCIPAL DIAGNOSIS (Table 6)]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="4f70923c-74be-45d1-9e6c-415509022b01" x="473" y="3" width="80" height="15"/>
+				<textElement textAlignment="Left">
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement uuid="5cd6ca2b-6096-4cbc-a9d9-45ffb3385dc9" x="526" y="3" width="26" height="15"/>
+				<textElement textAlignment="Left">
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="62a39033-5609-4f7d-b24e-bb9c1285b9ed" x="133" y="67" width="83" height="15"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Fiscal Period]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="9c230b74-58e2-4c51-becf-d733cc925516" x="221" y="67" width="279" height="15"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{fiscal-period-from-date} + "   -   " + $F{fiscal-period-to-date}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="6dd920fe-8d91-423a-a023-8a96f3f126fb" x="249" y="84" width="100" height="15"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Errors Prooflist]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="31bf63e0-ac58-4663-b8fd-85b1565d670a" x="249" y="99" width="100" height="15"/>
+				<textElement/>
+				<text><![CDATA[For Visits Only]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="4c89af05-eae0-4953-9b67-0485090d4087" x="249" y="114" width="100" height="15"/>
+				<textElement/>
+				<text><![CDATA[For All Offices]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="a1b81a06-864d-48b4-bcb2-7aa2d1accd0f" x="473" y="18" width="80" height="15"/>
+				<textElement textAlignment="Left"/>
+				<textFieldExpression><![CDATA[$F{current-date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="3b91fd33-dd04-436e-9f66-dd4eee1dccdf" x="473" y="33" width="80" height="15"/>
+				<textElement textAlignment="Left"/>
+				<textFieldExpression><![CDATA[$F{current-time}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="39">
+			<break>
+				<reportElement uuid="1b714743-9af6-4e55-aeb8-38f915e81d65" x="0" y="38" width="100" height="1"/>
+			</break>
+			<subreport>
+				<reportElement uuid="e6fc7034-777a-46dc-a8e2-a30b4b2af578" x="0" y="0" width="555" height="38" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportExpression><![CDATA[$F{sub-report-url} + "visit_not_covered_by_plan_of_care_diagnosis.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+		<band height="41" splitType="Prevent">
+			<break>
+				<reportElement uuid="bde45851-ca5f-4563-8625-30eb1ce0ae71" x="0" y="35" width="100" height="1"/>
+			</break>
+			<subreport>
+				<reportElement uuid="ae95515b-65ab-413d-a734-236f19a27dbf" x="0" y="0" width="555" height="41"/>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportExpression><![CDATA[$F{sub-report-url} + "patients_and_visits_by_principal_diagnosis_table.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+		<band height="38" splitType="Prevent">
+			<subreport>
+				<reportElement uuid="eb4e89d3-9174-495c-b3ac-05beecb3f27e" x="0" y="0" width="555" height="38"/>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportExpression><![CDATA[$F{sub-report-url} + "patients_and_visits_by_principal_diagnosis_table2.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+	</detail>
+</jasperReport>

@@ -1,0 +1,138 @@
+<html>
+    <head>
+        <title>FasterNotes</title>
+        <script type="text/javascript">
+            function logoutFnUser(url) {
+                loadScripts([url], function(){
+                   document.getElementById("fn_signin_form").submit();
+                });
+                return false;
+            }
+            // Load <script> elements for all uris
+            // Invoke the whenDone callback function after the last URI has loaded
+            function loadScripts(uris,whenDone){
+                if (!uris.length) whenDone && whenDone();
+                else{
+                    for (var wait=[],i=uris.length;i--;){
+                        var tag  = document.createElement('script');
+                        tag.type = 'text/javascript';
+                        tag.src  = uris[i];
+                        if (whenDone){
+                            wait.push(tag)
+                            tag.onload = maybeDone;
+                            tag.onreadystatechange = maybeDone; // For IE8-
+                        }
+                        document.body.appendChild(tag);
+                    }
+                }
+                function maybeDone(){
+                    if (this.readyState===undefined || this.readyState==='complete'){
+                        // Pull the tags out based on the actual element in case IE ever
+                        // intermingles the onload and onreadystatechange handlers for the same
+                        // script block before notifying for another one.
+                        for (var i=wait.length;i--;) if (wait[i]==this) wait.splice(i,1);
+                        if (!wait.length) whenDone();
+                    }
+                }
+            }
+        </script>
+        <style type="text/css">
+            .ey_signin_drop {
+                width: 100%;
+                background: #fff;
+                height: 100px;
+                display: none;
+                position: fixed;
+                top: 0px;
+                z-index: 1000;
+                color: #000;
+            }
+            .form_login_cont button {
+                color: #fff;
+                cursor: pointer;
+                background-color: #1e6eaa;
+                border: none;
+                padding: 10px 30px;
+                border-radius: 5px;
+            }
+            input[type=text], textarea, input[type=email], input[type=password], input[type=tel] {
+                padding: 10px!important;
+                width: 100%;
+                border: 0px;
+                border-bottom: 1px solid #fff;
+                font-family: 'OpenSansRegular';
+                font-size: 12px;
+                line-height: 22px;
+                color: #555;
+                background-color: #ebebeb;
+                box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12) inset;
+                -moz-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12) inset;
+                -webkit-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12) inset;
+                -o-box-shadow: 0 1px 2px rgba(0, 0, 0, 0.12) inset;
+                transition: all 0.2s linear;
+                -moz-transition: all 0.2s linear;
+                -webkit-transition: all 0.2s linear;
+                -o-transition: all 0.2s linear;
+            }
+
+            input[type=text]:focus, textarea:focus, input[type=email]:focus {
+                background-color: #e1e1e1;
+            }
+
+            input[type=submit] {
+                background-color: #333333;
+                padding: 7px 11px;
+                border: none;
+                color: #fff;
+                cursor: pointer;
+                transition: all 0.2s linear 0s;
+                -moz-transition: all 0.2s linear 0s;
+                -webkit-transition: all 0.2s linear 0s;
+                -o-transition: all 0.2s linear 0s;
+                width: auto;
+                font-size: 12px;
+                border-radius: 2px;
+                -moz-border-radius: 2px;
+                -webkit-border-radius: 2px;
+                -o-border-radius: 2px;
+            }
+
+            input[type=submit]:hover {
+                background-color: #27CFC3;
+            }
+            #ey_signin_drop{
+                position:absolute;
+                width:300px;
+                height:200px;
+                z-index:15;
+                top:40%;
+                left:50%;
+                margin:-100px 0 0 -150px;
+            }
+        </style>
+    </head>
+    <body>
+        <div id="ey_signin_drop" align="center" class="ey_signin_drop" style="display: block;">
+            <img src="/assets/logo_small.png" />
+            <form id="fn_signin_form" action="http://127.0.0.1:3000/fn_signin" method="POST" onSubmit="return logoutFnUser('http://127.0.0.1:3000/logout_fn_user');">
+                <div class="container">
+                    <div class="form_login_cont">
+                        <div class="column_first">
+                            <h1>Test Login</h1>
+                        </div>
+                        <div class="column_middle">
+                            <input type="text" placeholder="Email" style="border-radius:5px;" name="user[email]">
+                        </div>
+                        <div class="column_middle">
+                            <input type="password" placeholder="Password" style="border-radius:5px;" name="user[password]">
+                        </div>
+                        <div class="column_last">
+                            <button>Sign in</button>
+                            <a href="http://127.0.0.1:3000/reset_password">Forgot password?</a>
+                        </div>
+                    </div>
+                </div>
+            </form>
+        </div>
+    </body>
+</html>

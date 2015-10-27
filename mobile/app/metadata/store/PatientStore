@@ -1,0 +1,81 @@
+{
+    "type": "arraystore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "model": "Patient",
+        "storeId": "PatientStore",
+        "designer|userClassName": "PatientStore"
+    },
+    "designerId": "3bc6eb2e-bbee-431d-a2ec-bc5709d179b0",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.JsonP",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "service_url_path": "/mobile/patients"
+            },
+            "designerId": "89201a66-36ba-4bf1-a274-f19568aa1963",
+            "customConfigs": [
+                {
+                    "group": "(Custom Properties)",
+                    "name": "service_url_path",
+                    "type": "string"
+                }
+            ],
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "record": "patient"
+                    },
+                    "designerId": "834c5a44-4415-4c17-acf3-b205bec77a1f"
+                }
+            ]
+        },
+        {
+            "type": "basiceventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onPatientsLoad",
+                "implHandler": [
+                    "if (!successful)",
+                    "\treturn;",
+                    "",
+                    "this.localStore = Ext.StoreManager.lookup(\"PatientLocalStore\");",
+                    "",
+                    "this.localStore.removeAll();",
+                    "",
+                    "var me = this;",
+                    "Ext.each(records, function(record) {",
+                    "    console.log(record);",
+                    "    me.localStore.add(record.copy());",
+                    "});",
+                    "me.localStore.sync();",
+                    "",
+                    "",
+                    "",
+                    ""
+                ],
+                "name": "load"
+            },
+            "designerId": "30be660e-1987-4c85-b67b-1f0e7f0bed86"
+        }
+    ]
+}

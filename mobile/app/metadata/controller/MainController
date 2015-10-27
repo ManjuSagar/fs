@@ -1,0 +1,171 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MainController"
+    },
+    "designerId": "fc338d90-23ea-4dbe-8ad6-4f13d965f912",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onSettingsTap",
+                "implHandler": [
+                    "//var settingsView = Ext.create(\"MyApp.view.SettingsContainer\", {title: \"Settings\"});",
+                    "//this.getNavView().push(settingsView);",
+                    "this.getMainTab().setActiveItem(3);"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "#settings"
+            },
+            "designerId": "5463942b-9285-4ed8-b7ec-60409b3b552c"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "mainTab",
+                "selector": "#main_tab",
+                "xtype": "tabpanel"
+            },
+            "designerId": "939c8dd5-b150-4b18-aa78-c3dd3c82ff1d"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "signIn",
+                "designer|params": [
+                    "username, password, server_url, success_fn, failure_fn"
+                ],
+                "implHandler": [
+                    "var me = this;",
+                    "",
+                    "Ext.data.JsonP.request({",
+                    "    url: server_url + '/mobile/authenticate',",
+                    "    callbackKey: 'callback',",
+                    "    params: {",
+                    "        \"user[username]\":  username,",
+                    "        \"user[password]\":  password,",
+                    "    },",
+                    "    success: success_fn,",
+                    "    failure: failure_fn",
+                    "});",
+                    ""
+                ]
+            },
+            "designerId": "f36ebb32-4fe6-4406-82f6-bac3da78435b"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onSuccessLoginResponse",
+                "designer|params": [
+                    "result"
+                ],
+                "implHandler": [
+                    "var mainController = MyApp.app.getController(\"MainController\");",
+                    "if (result.error) {",
+                    "    Ext.Msg.alert(\"Failure\", result.error, function() {",
+                    "        mainController.getMainTab().setActiveItem(4);",
+                    "    });",
+                    "} else {",
+                    "    mainController.getMainTab().setActiveItem(0);",
+                    "}"
+                ]
+            },
+            "designerId": "45cb3767-1aaf-4b5e-b0f5-98c8357045f2"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onFailureLoginResponse",
+                "designer|params": [
+                    "result"
+                ],
+                "implHandler": [
+                    "Ext.Msg.alert(\"Error\", \"Unexpected error occurred.\\nPlease try again later.\", function () {",
+                    "    MyApp.app.getController(\"MainController\").getMainTab().setActiveItem(4);",
+                    "});",
+                    ""
+                ]
+            },
+            "designerId": "1c79aaee-6a71-41e6-99d4-3e322b636a62"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "launch",
+                "implHandler": [
+                    "loadSettings();"
+                ]
+            },
+            "designerId": "829f6c66-65dd-4836-9412-8c7762ff1ccb"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "navView",
+                "selector": "#nav_view",
+                "xtype": "Ext.navigation.View"
+            },
+            "designerId": "9de4190f-10fc-4d0b-8e9b-7b3b963086c0"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onViewportOrientationChange",
+                "implHandler": [
+                    ""
+                ],
+                "name": "orientationchange",
+                "designer|targetType": "Ext.Viewport",
+                "designer|controlQuery": "*"
+            },
+            "designerId": "c6184fb6-ec7b-4d87-8c43-5117a97fbb7b"
+        }
+    ]
+}

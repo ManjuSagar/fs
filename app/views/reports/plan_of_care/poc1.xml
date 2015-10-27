@@ -1,0 +1,638 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plan-of-care>
+  <agency-approved-user-id type="integer">295</agency-approved-user-id>
+  <created-user-id type="integer">295</created-user-id>
+  <data>
+    <valid type="boolean">true</valid>
+    <patient-name>Yuli Barsky</patient-name>
+    <mr>2</mr>
+    <physician-name>MARK BARATS, MD 1720134695</physician-name>
+    <poc-date>07/26/2013</poc-date>
+    <principal-icd1>716.16</principal-icd1>
+    <principal-date1>07/26/2013</principal-date1>
+    <principal-icd2>401.9</principal-icd2>
+    <principal-date2>07/26/2013</principal-date2>
+    <principal-icd3>250.52</principal-icd3>
+    <principal-date3>07/26/2013</principal-date3>
+    <principal-icd4>365.89</principal-icd4>
+    <principal-date4>07/26/2013</principal-date4>
+    <surgical-date1 nil="true"/>
+    <surgical-date2 nil="true"/>
+    <surgical-date3 nil="true"/>
+    <surgical-date4 nil="true"/>
+    <pertinent-icd1>311</pertinent-icd1>
+    <pertinent-date1>07/26/2013</pertinent-date1>
+    <pertinent-icd2>331.0</pertinent-icd2>
+    <pertinent-date2>07/26/2013</pertinent-date2>
+    <pertinent-icd3>600.00</pertinent-icd3>
+    <pertinent-date3>07/26/2013</pertinent-date3>
+    <pertinent-icd4>530.81</pertinent-icd4>
+    <pertinent-date4>07/26/2013</pertinent-date4>
+    <dme type="array">
+      <dme type="boolean">false</dme>
+      <dme>Cane</dme>
+      <dme>Walker</dme>
+      <dme>Wheelchair</dme>
+      <dme type="boolean">false</dme>
+      <dme type="boolean">false</dme>
+      <dme type="boolean">false</dme>
+      <dme type="boolean">false</dme>
+      <dme type="boolean">false</dme>
+      <dme type="boolean">false</dme>
+      <dme type="boolean">false</dme>
+    </dme>
+    <other-dme nil="true"/>
+    <functional-limitations type="array">
+      <functional-limitation type="boolean">false</functional-limitation>
+      <functional-limitation type="boolean">false</functional-limitation>
+      <functional-limitation type="boolean">false</functional-limitation>
+      <functional-limitation>Hearing</functional-limitation>
+      <functional-limitation type="boolean">false</functional-limitation>
+      <functional-limitation>Endurance</functional-limitation>
+      <functional-limitation>Ambulation</functional-limitation>
+      <functional-limitation type="boolean">false</functional-limitation>
+      <functional-limitation type="boolean">false</functional-limitation>
+      <functional-limitation type="boolean">false</functional-limitation>
+    </functional-limitations>
+    <other-functional-limitations>Poor vision, Dyspnea w/ Mod. Exertion</other-functional-limitations>
+    <activities-permitted type="array">
+      <activities-permitted type="boolean">false</activities-permitted>
+      <activities-permitted type="boolean">false</activities-permitted>
+      <activities-permitted>Up As Tolerated</activities-permitted>
+      <activities-permitted type="boolean">false</activities-permitted>
+      <activities-permitted type="boolean">false</activities-permitted>
+      <activities-permitted>Partial Weight Bearing</activities-permitted>
+      <activities-permitted type="boolean">false</activities-permitted>
+      <activities-permitted type="boolean">false</activities-permitted>
+      <activities-permitted>Cane</activities-permitted>
+      <activities-permitted>Wheelchair</activities-permitted>
+      <activities-permitted>Walker</activities-permitted>
+      <activities-permitted type="boolean">false</activities-permitted>
+    </activities-permitted>
+    <other-activities-permitted>Assist w/ ADL's</other-activities-permitted>
+    <mental-status type="array">
+      <mental-statu>Oriented</mental-statu>
+      <mental-statu type="boolean">false</mental-statu>
+      <mental-statu>Forgetful</mental-statu>
+      <mental-statu>Depressed</mental-statu>
+      <mental-statu type="boolean">false</mental-statu>
+      <mental-statu type="boolean">false</mental-statu>
+      <mental-statu type="boolean">false</mental-statu>
+    </mental-status>
+    <mental-status-other1>Confused/Anxious at times</mental-status-other1>
+    <mental-status-other2 nil="true"/>
+    <prognosis>Fair</prognosis>
+    <nutritional-req>NAS, Controlled Carbohydrates, Low Fat/Cholesterol</nutritional-req>
+    <allergies>None Known</allergies>
+    <safety-measures>Fall precautions; Clear pathways; Lock w/c with transfers; Infection control measures; cane, walker, wheelchair; 911 emergency protocol and proper sharps disposal.</safety-measures>
+    <orders>Admit the Patient to Metropolitan Health Care: 07/26/2013-09/23/2013
+
+SN visit frequency: 1wk1, 2wk8
+CHHA visit frequency: 0wk1, 2wk8 to provide each visit personal hygiene care, assistance with fADLs if necessary, vital signs, and any other care necessary.
+
+SN TO DO SKILLED NURSING ASSESSMENT of all body systems with emphasis on Musculoskeletal status relating to Traumatic arthropathy of lower leg, patient scheduled for right foot surgery on 07/31/13 (5th metatarsal bone revision surgery), pain and redness of right leg and foot, pain in both lower extremities and lower back; Cardiovascular status relating to Hypertension; Endocrine status r/t Diabetes Mellitus II with ophthalmic manifestations; Sensory system r/t Glaucoma with poor vision and blindness in left eye; mental and behavioral status relating to  Alzheimer's disease, Depressive disorder, Anxiety, and Insomnia; Genitourinary status r/t Benign Prostatic Hypertrophy without outflow obstruction; Gastrointestinal status relating to Esophageal Reflux; nutritional/hydration status, skin integrity, diabetic foot, home safety, proper use of assistive devices, knowledge and compliance with medication/diet regimen, pain/symptom control; any s/sx of  hyper/hypotension, hyper/hypoglycemia, shortness of breast, chest pain. SN to assess patient/caregiver's knowledge on home safety, fall precautions, safe ambulation, infection control measures, personal hygiene, diabetic foot check/care; PCG's ability to care for patient; pt's response and compliance to treatment and intervention; specific areas of learning needs and readiness to learn; any complications related to disease process or treatment, emergency protocol.
+
+SN TO PERFORM Vital signs check every visit; BP monitoring every visit and note BP trends. Monitoring patient for musculoskeletal pain and weakness, assessment of right foot, hypertension, shortness of breath on rest, chest pain, headaches, vision problems. Monitoring blood sugar for hypo-hyperglycemia &amp; measures to take, effective skin/diabetic foot care; proper use of DME, including proper use and calibration of glucometer. Pain assessment on severity/intensity (as per pain scale of 0-10), implement pain relief measures and evaluate effectiveness of interventions. Perform teachings re: fall precautions/safe ambulation. Monitor for s/sx of dementia due to Alzheimer's disease and report any exacerbation. Monitor chest pain and provide appropriate measures as needed, may call MD or 911 depending on findings and situation. 
+
+TO REPORT TO PMD THE FOLLOWING PARAMETERS:
+1) Severe joint/muscle pain/spasm, equal to or above 6/10, not relieved by prescribed medications;
+2) Falls: with or without injury.
+3) SBP greater than 160 mmHg &amp; less than 90 mmHg; DBP greater than 100 mmHg or less than 50 mmHg; HR less than 60 beats/min or greater than 120 beats/min.
+5)S/Sx of respiratory distress with increasing shortness of breath; RR less than 14/min or greater than 24/min.
+6) S/sx of hyper/hypoglycemia, Blood Sugar if below 80 mg/dl and above 300 mg/dl, any skin breakdown.
+7) Temperature above 100 F. 
+8) Exacerbation of wound after the surgery.
+9) Severe weakness, fatigue, irregular heartbeat, chest pain.
+10) S/sx of vision decline.
+11) s/sx of dementia due to Alzheimer's disease and any exacerbation.
+12) Exacerbation of s/s of Depression, Anxiety, and Insomnia not controlled by medications.
+13) Exacerbation of s/sx of Esophageal Reflux disease: heartburn, regurgitation.
+14) Any significant changes in medical conditions.
+
+SN TO INSTRUCT the patient/caregiver on fall prevention measures, on home health issues( service personnel, Pt rights, Privacy Act, DHS hotline, Agency and other numbers to call); home safety; importance of care plan compliance and keep all MD appointments. Instruct pt/pcg on wound care after scheduled right foot surgery on 07/31/13 if ordered by MD. Instruct on disease processes, clinical manifestations, symptoms management including: s/s of hypo/hypertension; s/sx of exacerbation of DM II: s/s of hypo-hyperglycemia and instruct on measures to be taken, diabetic management, effective skin/diabetic foot care/check daily; proper use of DME, including proper use and calibration of glucometer; s/sx of Alzheimer's disease and benefits of reality orientation; measures to decrease Depression, Anxiety, and Insomnia; management of Esophageal Reflux symptoms; medications and regiment as to (action, dose, frequency, effects and adverse reactions) prescribed diet (NAS, Controlled Carbohydrates, Low Fat/Cholesterol diet),  pain management, energy conservation/relaxation techniques, proper use of  assistive devices while ambulating; coping mechanisms as necessary; measures to control infections via skin hygiene, fall precautions/preventions; s/sx of complications/exacerbations and  actions to be taken; to report significant clinical changes/findings and when to call SN/MD/911.  
+
+No advance directives formulated. Information given.
+ANCILLARIES as ordered by MD. Notify Agency of significant clinical findings, negative outcomes, medication/service/treatment/personnel changes, CG status, other relevant matters.</orders>
+    <goals>Patient's status will be monitored; abnormal findings reported to MD &amp; identified HH care needs adequately met. 
+1) By the end of the care period the patient's musculoskeletal status relating to Traumatic 
+Arthropathy will improve with better endurance and without s/sx of complications/exacerbation. Patient will have successful surgery on right leg (5th metatarsal bone revision surgery) on 07/31/2013 w/o any complication/exacerbation. Patient will experience  prompt/adequate pain relief maintained within 0-2/10 (0/10 pain scale) through pharmacologic measures and other pain relief measures.
+2) Patient's blood pressure will be and  maintained within the range of 120/60 to 140/90 mmHg by the end of the care period, cardiovascular status will be stable with vital signs maintained within  the normal range without episode of chest pain, SOB, and  hypo/hypertension.
+3) Patient's blood sugar will be maintained within normal range without any complications, without any episodes of hypoglycemia/hyperglycemia or infection, patient/caregiver will have better understanding of diabetic care including diet as per plan of care, and daily diabetic foot care.
+4) Patient will undergo right foot surgery without any complication/exacerbation; pt/pcg will be knowledgeable in providing proper wound care if needed and ordered by MD. By the end of the certification period patient's surgical wound will heal without any complication and s/sx of infection.
+5) There will be not decline in or problem with patient's vision.
+6) By the end of the care period the patient/caregiver will have better understanding of Alzheimer's disease with s/sx of exacerbation to report to MD. Patient will report an increase in ability to concentrate with less s/sx of dementia and increased energy level, in 6-9 weeks.
+7) By the end of certification patient's emotional state will improve due to medication and non-pharmacological measures. The patient will demonstrate stable mental status characterized by reduction of s/s of depression and anxiety, improved sleeping pattern, social interaction and coping; patient and caregiver will have better understanding of Anxiety and Depressive disorder and s/sx of exacerbation to report to MD.
+8) By the end of the care period the patient's gastrointestinal status relating to Esophageal Reflux will improve without s/sx of complications/exacerbation. 
+9) By the end of the certification period patient/caregiver will have better understanding of disease process and s/sx will verbalize important actions of medications and possible adverse effects to look for and report to MD for significant changes. 
+10) Patient/caregiver will be knowledgeable with importance of complying to medication and 
+diet regiment as per plan of care, 911/ER protocol and home safety within 6-9 weeks.
+11) Patient will remain safe at home free from fall/injury/hospitalization throughout the certification period.
+
+REHABILITATION POTENTIAL: Fair for patient to be able to achieve stated goals and to return to previous level of activity and improve functional status in accordance with patient's endurance level.
+DISCHARGE PLANS: Discharge patient in a safe living condition when above goals are met and skilled care is no longer needed under caregiver's assistance with regular MD follow up.</goals>
+    <miscellaneous>HOMEBOUND REASON: Patient is 80 year old male diagnosed with Traumatic arthropathy of lower leg, Hypertension, Diabetes Mellitus II with ophthalmic manifestations, Glaucoma, Depressive Disorder, Alzheimer's disease, BPH, Esophageal reflux, Anxiety, Insomnia. Patient has elevated pain in both lower extremities and lower back, pain upon movement, limited ROM. Patient will undergo right foot surgery (5th metatarsal bone revision surgery), scheduled on 07/31/2013 and will be in need of wound care per MD order. Patient lives at home with family and daily visitations of caregiver Irina 323-308-9229. Patient alert and oriented, forgetful, depressed, confused and anxious at times; requires considerable and taxing effort to live home even with an assistance of caregiver, using assistive device for ambulation, needs assistance with ADLs, homebound, cannot leave home unassisted.
+VITAL SIGNS upon RN evaluation: BP: 151/73mmHg, Temp: 97.8, HR: 82/minute, RR: 16/minute  Height: 5' 7";  Weight: 159 lbs. 
+NEUROLOGICAL: Alert and oriented, forgetful, depressed; confused and anxious at times.
+EENT: partially impaired vision/glasses, cataract surgery on right eye 2 years ago, blind in left eye. Mildly to moderately impaired hearing: HOH right/left ears. Nose and throat no problem; mouth: dentures-upper/lower; minimal difficulty in expressing ideas. 
+INTEGUMENTARY: Turgor is good; Skin dry, redness on right leg.
+MUSCULOSKELETAL: dull intermittent pain in lower back with intensity 5/10 and aching pain in BLE with intensity 5/10. SN instructed on pain management. Pt has decreased ROM, decreased ability to perform ADLs. Pain is relieved by medication, rest/relaxation/repositioning; right foot surgery on 07/31/13, description: 5th metatarsal bone on right foot are two  tan, firm bone fragments measuring 1.9 x 1.0 x 0.8cm and 2.2 x 1.1 x 1.1cm, have pink soft tissue attached..  
+CARDIOVASCULAR: regular pulse and heart sound, dyspnea w/moderate exertion, Blood pressure elevated, both pedal pulses present. 
+RESPIRATORY: clear breath sounds; SOB w/moderate exertion.
+ENDOCRINE/METABOLIC: DM II, BS: 187 mg/dL.
+GU: BPH, pt is continent.
+GI: Bowel sounds present and active in all 4 quadrants, abdomen soft; elimination 5-6 times a week.
+NUTRITIONAL: appetite fair; diet: NAS, Controlled Carbohydrates, Low Fat/Cholesterol. 
+SELF CARE: dependent on others in all activities of daily living and medical regimen management
+SAFETY/FUNCTIONAL LIMITATIONS: limited in ADLs, mobility, ambulation/transfers. 
+PSYCHOSOCIAL: lives at home with family and assisted with all activities. 
+FALL RISK: Patient is at high risk for falls, uses walker, cane and wheelchair. Fall prevention methods reviewed with patient/caregiver. 
+Discharge summary available upon request.</miscellaneous>
+    <principal-oe1 nil="true"/>
+    <principal-oe2 nil="true"/>
+    <principal-oe3 nil="true"/>
+    <principal-oe4 nil="true"/>
+    <principal-icd5 nil="true"/>
+    <principal-date5 nil="true"/>
+    <principal-oe5 nil="true"/>
+    <principal-icd6 nil="true"/>
+    <principal-date6 nil="true"/>
+    <principal-oe6 nil="true"/>
+    <surgical-icd1 nil="true"/>
+    <surgical-oe1 nil="true"/>
+    <surgical-icd2 nil="true"/>
+    <surgical-oe2 nil="true"/>
+    <surgical-icd3 nil="true"/>
+    <surgical-oe3 nil="true"/>
+    <surgical-icd4 nil="true"/>
+    <surgical-oe4 nil="true"/>
+    <pertinent-oe1 nil="true"/>
+    <pertinent-oe2 nil="true"/>
+    <pertinent-oe3 nil="true"/>
+    <pertinent-oe4 nil="true"/>
+    <pertinent-icd5 nil="true"/>
+    <pertinent-date5 nil="true"/>
+    <pertinent-oe5 nil="true"/>
+    <pertinent-icd6 nil="true"/>
+    <pertinent-date6 nil="true"/>
+    <pertinent-oe6 nil="true"/>
+  </data>
+  <document-date type="date">2013-07-26</document-date>
+  <document-definition-id type="integer">916</document-definition-id>
+  <document-form-template-id type="integer">111</document-form-template-id>
+  <field-staff-id type="integer">1685</field-staff-id>
+  <fs-sign-date type="date">2013-07-26</fs-sign-date>
+  <fs-sign-required type="boolean">false</fs-sign-required>
+  <id type="integer">582</id>
+  <lock-version type="integer">8</lock-version>
+  <os-sign-date type="date">2013-07-26</os-sign-date>
+  <os-sign-required type="boolean">true</os-sign-required>
+  <physician-id type="integer">449</physician-id>
+  <status type="symbol">pending_staff_signature</status>
+  <supervised-user-id type="integer" nil="true"/>
+  <supervised-user-sign-date type="date" nil="true"/>
+  <supervisor-sign-required type="boolean">false</supervisor-sign-required>
+  <treatment-episode-id type="integer">232</treatment-episode-id>
+  <treatment-id type="integer">223</treatment-id>
+  <visit-id type="integer" nil="true"/>
+  <functional-limitations-display>Hearing, Endurance, Ambulation, Poor vision, Dyspnea w/ Mod. Exertion</functional-limitations-display>
+  <dme-display>Cane, Walker, Wheelchair</dme-display>
+  <activities-permitted-display>Up As Tolerated, Partial Weight Bearing, Cane, Wheelchair, Walker, Assist w/ ADL's</activities-permitted-display>
+  <mental-status-display>Oriented, Forgetful, Depressed, Confused/Anxious at times</mental-status-display>
+  <patient-hi-claim-number>609456803M</patient-hi-claim-number>
+  <start-of-care-date>07/26/2013</start-of-care-date>
+  <certification-period-from>07/26/2013</certification-period-from>
+  <certification-period-to>09/24/2013</certification-period-to>
+  <mr-number>609456803M</mr-number>
+  <provider-number>4321</provider-number>
+  <patient-address>1602 N. Ivar Ave., Suite 524, Los Angeles CA 90028</patient-address>
+  <provider-address> 4929 Wilshire Blvd., Suite 945 </provider-address>
+  <date-of-birth>06/13/1933</date-of-birth>
+  <gender>(Male)</gender>
+  <physician-address>948 N. Fairfax Ave., Suite 201, Los Angeles</physician-address>
+  <physician-signature-date>9/3/2011</physician-signature-date>
+  <date-hha-received-signed-POT>9/3/2011</date-hha-received-signed-POT>
+  <patient-name>Yuli Barsky</patient-name>
+  <physician-name>MARK BARATS, MD</physician-name>
+  <physician-npi-number>1154366730</physician-npi-number>
+  <physician-display>mary ghoral 23456654334</physician-display> physician-display
+  <provider-name>METROPOLITAN HEALTHCARE, INC.</provider-name>
+  <print-ins-details-flag>true</print-ins-details-flag>,
+  <ins-name>Manju Insurance Company</ins-name>
+  <ins-contact>9738919611</ins-contact>
+  <ins-address>Hoskote, Bangalore rural</ins-address>
+  <principle-icd1-description>Traumatic arthropathy, lower leg</principle-icd1-description>
+  <principle-icd2-description>Unspecified essential hypertension</principle-icd2-description>
+  <principle-icd3-description>Diabetes with ophthalmic manifestations, type II or unspecified type, uncontrolled</principle-icd3-description>
+  <principle-icd4-description>Other specified glaucoma</principle-icd4-description>
+  <principle-icd5-description nil="true"/>
+  <principle-icd6-description nil="true"/>
+  <surgical-icd1-description nil="true"/>
+  <surgical-icd2-description nil="true"/>
+  <surgical-icd3-description nil="true"/>
+  <surgical-icd4-description nil="true"/>
+  <pertinent-icd1-description>Depressive disorder, not elsewhere classified</pertinent-icd1-description>
+  <pertinent-icd2-description>Alzheimer's disease</pertinent-icd2-description>
+  <pertinent-icd3-description>Hypertrophy (benign) of prostate without urinary obstruction and other lower urinary tract symptom (LUTS)</pertinent-icd3-description>
+  <medications type="array">
+    <medication>
+      <name>LORAZEPAM (0.5MG)</name>
+      <dosage-form>TABLET; ORAL</dosage-form>
+      <frequency>1 tab., once daily</frequency>
+      <code>N</code>
+      <start-date>07/26/2013</start-date>
+    </medication>
+    <medication>
+      <name>TAMSULOSIN HYDROCHLORIDE (0.4MG)</name>
+      <dosage-form>CAPSULE; ORAL</dosage-form>
+      <frequency>1 cap., once daily</frequency>
+      <code>N</code>
+      <start-date>07/26/2013</start-date>
+    </medication>
+    <medication>
+      <name>NAMENDA (10MG)</name>
+      <dosage-form>TABLET; ORAL</dosage-form>
+      <frequency>1 tab., twice daily</frequency>
+      <code>N</code>
+      <start-date>07/26/2013</start-date>
+    </medication>
+    <medication>
+      <name>ZALEPLON (10MG)</name>
+      <dosage-form>CAPSULE; ORAL</dosage-form>
+      <frequency>1 cap., once nightly</frequency>
+      <code>N</code>
+      <start-date>07/26/2013</start-date>
+    </medication>
+    <medication>
+      <name>GLIMEPIRIDE (1MG)</name>
+      <dosage-form>TABLET; ORAL</dosage-form>
+      <frequency>1/2 tab., once daily</frequency>
+      <code>N</code>
+      <start-date>07/26/2013</start-date>
+    </medication>
+    <medication>
+      <name>NEXIUM (EQ 40MG BASE)</name>
+      <dosage-form>CAPSULE, DELAYED REL PELLETS; ORAL</dosage-form>
+      <frequency>1 cap., once daily</frequency>
+      <code>N</code>
+      <start-date>07/26/2013</start-date>
+    </medication>
+    <medication>
+      <name>LEXAPRO (EQ 20MG BASE)</name>
+      <dosage-form>TABLET; ORAL</dosage-form>
+      <frequency>1 tab., once daily</frequency>
+      <code>N</code>
+      <start-date>07/26/2013</start-date>
+    </medication>
+    <medication>
+      <name>DORZOLAMIDE HYDROCHLORIDE AND TIMOLOL MALEATE (EQ 2% BASE;EQ 0.5% BASE)</name>
+      <dosage-form>SOLUTION/DROPS; OPHTHALMIC</dosage-form>
+      <frequency>1 drop, twice daily into Right eye</frequency>
+      <code>N</code>
+      <start-date>07/26/2013</start-date>
+    </medication>
+    <medication>
+      <name>TYLENOL (500MG)</name>
+      <dosage-form>Tablet;Oral</dosage-form>
+      <frequency>1-2 tabs., every 4-6 hours as needed</frequency>
+      <code>N</code>
+      <start-date>07/26/2013</start-date>
+    </medication>
+    <medication>
+      <name>AVODART (0.5MG)</name>
+      <dosage-form>CAPSULE; ORAL</dosage-form>
+      <frequency>1 tab., once daily</frequency>
+      <code>N</code>
+      <start-date>07/26/2013</start-date>
+    </medication>
+    <medication>
+      <name>EDARBI (EQ 40MG MEDOXOMIL)</name>
+      <dosage-form>TABLET; ORAL</dosage-form>
+      <frequency>1 tab., once daily</frequency>
+      <code>N</code>
+      <start-date>07/26/2013</start-date>
+    </medication>
+    <medication>
+      <name>VITAMIN D3 (2,000IU)</name>
+      <dosage-form>TABLET; ORAL</dosage-form>
+      <frequency>1 tab., once daily</frequency>
+      <code>N</code>
+      <start-date>07/26/2013</start-date>
+    </medication>
+    <medication>
+      <name>QUETIAPINE FUMARATE (EQ 25MG BASE)</name>
+      <dosage-form>TABLET; ORAL</dosage-form>
+      <frequency>1 tab., twice daily</frequency>
+      <code>N</code>
+      <start-date>07/26/2013</start-date>
+    </medication>
+    <medication>
+      <name>MIRTAZAPINE (15MG)</name>
+      <dosage-form>TABLET; ORAL</dosage-form>
+      <frequency>1 tab., once daily</frequency>
+      <code>N</code>
+      <start-date>07/26/2013</start-date>
+    </medication>
+    <medication>
+      <name>HOMEBOUND REASON: Patient is 80 year old male diagnosed with Traumatic arthropathy of lower leg, Hypertension, Diabetes Mellitus II with ophthalmic manifestations, Glaucoma, Depressive Disorder, Alzheimer's disease, BPH, Esophageal reflux, Anxiety, Insomnia. Patient has elevated pain in both lower extremities and lower back, pain upon movement, limited ROM. Patient will undergo right foot surgery (5th metatarsal bone revision surgery), scheduled on 07/31/2013 and will be in need of wound care per MD order. Patient lives at home with family and daily visitations of caregiver Irina 323-308-9229. Patient alert and oriented, forgetful, depressed, confused and anxious at times; requires considerable and taxing effort to live home even with an assistance of caregiver, using assistive device for ambulation, needs assistance with ADLs, homebound, cannot leave home unassisted.
+        VITAL SIGNS upon RN evaluation: BP: 151/73mmHg, Temp: 97.8, HR: 82/minute, RR: 16/minute  Height: 5' 7";  Weight: 159 lbs.
+        NEUROLOGICAL: Alert and oriented, forgetful, depressed; confused and anxious at times.
+        EENT: partially impaired vision/glasses, cataract surgery on right eye 2 years ago, blind in left eye. Mildly to moderately impaired hearing: HOH right/left ears. Nose and throat no problem; mouth: dentures-upper/lower; minimal difficulty in expressing ideas.
+        INTEGUMENTARY: Turgor is good; Skin dry, redness on right leg.
+        MUSCULOSKELETAL: dull intermittent pain in lower back with intensity 5/10 and aching pain in BLE with intensity 5/10. SN instructed on pain management. Pt has decreased ROM, decreased ability to perform ADLs. Pain is relieved by medication, rest/relaxation/repositioning; right foot surgery on 07/31/13, description: 5th metatarsal bone on right foot are two  tan, firm bone fragments measuring 1.9 x 1.0 x 0.8cm and 2.2 x 1.1 x 1.1cm, have pink soft tissue attached..
+        CARDIOVASCULAR: regular pulse and heart sound, dyspnea w/moderate exertion, Blood pressure elevated, both pedal pulses present.
+        RESPIRATORY: clear breath sounds; SOB w/moderate exertion.
+        ENDOCRINE/METABOLIC: DM II, BS: 187 mg/dL.
+        GU: BPH, pt is continent.
+        GI: Bowel sounds present and active in all 4 quadrants, abdomen soft; elimination 5-6 times a week.
+        NUTRITIONAL: appetite fair; diet: NAS, Controlled Carbohydrates, Low Fat/Cholesterol.
+        SELF CARE: dependent on others in all activities of daily living and medical regimen management
+        SAFETY/FUNCTIONAL LIMITATIONS: limited in ADLs, mobility, ambulation/transfers.
+        PSYCHOSOCIAL: lives at home with family and assisted with all activities.
+        FALL RISK: Patient is at high risk for falls, uses walker, cane and wheelchair. Fall prevention methods reviewed with patient/caregiver.
+        Discharge summary available upon request.</name>
+      <dosage-form>TABLET; ORAL</dosage-form>
+      <frequency>1 tab., once daily</frequency>
+      <code>N</code>
+      <start-date>07/26/2013</start-date>
+    </medication>
+  </medications>
+  <pertinent-icd4-description>Esophageal reflux</pertinent-icd4-description>
+  <pertinent-icd5-description nil="true"/>
+  <pertinent-icd6-description nil="true"/>
+  <patient-details>&lt;b&gt;YULI BARSKY&lt;/b&gt; (Male) &lt;b&gt;MR&lt;/b&gt; 2</patient-details>
+  <patient-contact>&lt;b&gt;DOB&lt;/b&gt; 06/13/1933  &lt;b&gt;HIC&lt;/b&gt; 609456803M  &lt;b&gt;Tel&lt;/b&gt; (323) 464-2676</patient-contact>
+  <start-of-care-date-details>&lt;b&gt;SOC&lt;/b&gt; 07/26/2013 &lt;b&gt;Episode&lt;/b&gt; 07/26/2013 09/24/2013</start-of-care-date-details>
+  <provider-contact>&lt;b&gt;Tel&lt;/b&gt; (323) 960-2533, &lt;b&gt;Fax&lt;/b&gt; (323) 421-9163</provider-contact>
+  <principal-oe1 nil="true"/>
+  <principal-oe2 nil="true"/>
+  <principal-oe3 nil="true"/>
+  <principal-oe4 nil="true"/>
+  <principal-oe5 nil="true"/>
+  <principal-oe6 nil="true"/>
+  <surgical-oe1 nil="true"/>
+  <surgical-oe2 nil="true"/>
+  <surgical-oe3 nil="true"/>
+  <surgical-oe4 nil="true"/>
+  <pertinent-oe1 nil="true"/>
+  <pertinent-oe2 nil="true"/>
+  <pertinent-oe3 nil="true"/>
+  <pertinent-oe4 nil="true"/>
+  <pertinent-oe5 nil="true"/>
+  <pertinent-oe6 nil="true"/>
+  <medication-subreport-url>/home/msuser1/workspace/git_repo/fasternotes/app/views/reports/plan_of_care/medications_subreport.jasper</medication-subreport-url>
+  <physician-contact>&lt;b&gt;Tel&lt;/b&gt; (323) 654-2020, &lt;b&gt;Fax&lt;/b&gt; (323) 654-2828</physician-contact>
+  <physician-city-details>CA 90046</physician-city-details>
+  <provider-city-details>Los Angeles, CA 90010</provider-city-details>
+  <provider-full-address> 4929 Wilshire Blvd., Suite 945  Los Angeles, CA 90010</provider-full-address>
+  <physician-full-address>948 N. Fairfax Ave., Suite 201, Los Angeles CA 90046</physician-full-address>
+  <physician-short-info>MARK BARATS, MD &lt;b&gt;Tel&lt;/b&gt; (323) 654-2020</physician-short-info>
+  <advanced-directives-display>&lt;b&gt;Advanced Directives&lt;/b&gt; No</advanced-directives-display>
+  <dnr-dni-display>&lt;b&gt;DNR/DNI&lt;/b&gt; No/No</dnr-dni-display>
+  <poc-icd-diag-list type="array">
+    <poc-icd-diag-list>
+      <icd-code>716.16</icd-code>
+      <description>Traumatic arthropathy, lower leg</description>
+      <oe nil="true"/>
+      <icd-date>07/26/2013</icd-date>
+    </poc-icd-diag-list>
+    <poc-icd-diag-list>
+      <icd-code>401.9</icd-code>
+      <description>Unspecified essential hypertension</description>
+      <oe nil="true"/>
+      <icd-date>07/26/2013</icd-date>
+    </poc-icd-diag-list>
+    <poc-icd-diag-list>
+      <icd-code>250.52</icd-code>
+      <description>Diabetes with ophthalmic manifestations, type II or unspecified type, uncontrolled</description>
+      <oe nil="true"/>
+      <icd-date>07/26/2013</icd-date>
+    </poc-icd-diag-list>
+    <poc-icd-diag-list>
+      <icd-code>365.89</icd-code>
+      <description>Other specified glaucoma</description>
+      <oe nil="true"/>
+      <icd-date>07/26/2013</icd-date>
+    </poc-icd-diag-list>
+    <poc-icd-diag-list>
+      <icd-code>311</icd-code>
+      <description>Depressive disorder, not elsewhere classified</description>
+      <oe nil="true"/>
+      <icd-date>07/26/2013</icd-date>
+    </poc-icd-diag-list>
+    <poc-icd-diag-list>
+      <icd-code>331.0</icd-code>
+      <description>Alzheimer's disease</description>
+      <oe nil="true"/>
+      <icd-date>07/26/2013</icd-date>
+    </poc-icd-diag-list>
+    <poc-icd-diag-list>
+      <icd-code>600.00</icd-code>
+      <description>Hypertrophy (benign) of prostate without urinary obstruction and other lower urinary tract symptom (LUTS)</description>
+      <oe nil="true"/>
+      <icd-date>07/26/2013</icd-date>
+    </poc-icd-diag-list>
+    <poc-icd-diag-list>
+      <icd-code>530.81</icd-code>
+      <description>Esophageal reflux</description>
+      <oe nil="true"/>
+      <icd-date>07/26/2013</icd-date>
+    </poc-icd-diag-list>
+  </poc-icd-diag-list>
+  <surgical-icd-codes type="array"/>
+  <poc-icd-diag-list-subreport-url>/home/msuser1/workspace/git_repo/fasternotes/app/views/reports/plan_of_care/poc_icd_codes.jasper</poc-icd-diag-list-subreport-url>
+  <surgical-codes-subreport-url>/home/msuser1/workspace/git_repo/fasternotes/app/views/reports/plan_of_care/surgical_codes.jasper</surgical-codes-subreport-url>
+  <poc-safety-dme-list type="array">
+    <poc-safety-dme-list>
+      <name>DME and Supplies</name>
+      <description>Cane, Walker, Wheelchair</description>
+    </poc-safety-dme-list>
+    <poc-safety-dme-list>
+      <name>Safety Measures</name>
+      <description>Fall precautions; Clear pathways; Lock w/c with transfers; Infection control measures; cane, walker, wheelchair; 911 emergency protocol and proper sharps disposal.</description>
+    </poc-safety-dme-list>
+    <poc-safety-dme-list>
+      <name>Nutrition</name>
+      <description>NAS, Controlled Carbohydrates, Low Fat/Cholesterol</description>
+    </poc-safety-dme-list>
+    <poc-safety-dme-list>
+      <name>Allergies</name>
+      <description>None Known</description>
+    </poc-safety-dme-list>
+    <poc-safety-dme-list>
+      <name>Functional Limitations</name>
+      <description>Hearing, Endurance, Ambulation, Poor vision, Dyspnea w/ Mod. Exertion</description>
+    </poc-safety-dme-list>
+    <poc-safety-dme-list>
+      <name>Activities Permitted</name>
+      <description>Up As Tolerated, Partial Weight Bearing, Cane, Wheelchair, Walker, Assist w/ ADL's</description>
+    </poc-safety-dme-list>
+    <poc-safety-dme-list>
+      <name>Mental Status</name>
+      <description>Oriented, Forgetful, Depressed, Confused/Anxious at times</description>
+    </poc-safety-dme-list>
+    <poc-safety-dme-list>
+      <name>Prognosis</name>
+      <description>Fair</description>
+    </poc-safety-dme-list>
+  </poc-safety-dme-list>
+  <order-goals-misc-display type="array">
+    <order-goals-misc-display>
+      <name>Orders for Discipline and Treatments (Specify Amount/Frequency/Duration)</name>
+      <description>Admit the Patient to Metropolitan Health Care: 07/26/2013-09/23/2013
+
+SN visit frequency: 1wk1, 2wk8
+CHHA visit frequency: 0wk1, 2wk8 to provide each visit personal hygiene care, assistance with fADLs if necessary, vital signs, and any other care necessary.
+
+SN TO DO SKILLED NURSING ASSESSMENT of all body systems with emphasis on Musculoskeletal status relating to Traumatic arthropathy of lower leg, patient scheduled for right foot surgery on 07/31/13 (5th metatarsal bone revision surgery), pain and redness of right leg and foot, pain in both lower extremities and lower back; Cardiovascular status relating to Hypertension; Endocrine status r/t Diabetes Mellitus II with ophthalmic manifestations; Sensory system r/t Glaucoma with poor vision and blindness in left eye; mental and behavioral status relating to  Alzheimer's disease, Depressive disorder, Anxiety, and Insomnia; Genitourinary status r/t Benign Prostatic Hypertrophy without outflow obstruction; Gastrointestinal status relating to Esophageal Reflux; nutritional/hydration status, skin integrity, diabetic foot, home safety, proper use of assistive devices, knowledge and compliance with medication/diet regimen, pain/symptom control; any s/sx of  hyper/hypotension, hyper/hypoglycemia, shortness of breast, chest pain. SN to assess patient/caregiver's knowledge on home safety, fall precautions, safe ambulation, infection control measures, personal hygiene, diabetic foot check/care; PCG's ability to care for patient; pt's response and compliance to treatment and intervention; specific areas of learning needs and readiness to learn; any complications related to disease process or treatment, emergency protocol.
+
+SN TO PERFORM Vital signs check every visit; BP monitoring every visit and note BP trends. Monitoring patient for musculoskeletal pain and weakness, assessment of right foot, hypertension, shortness of breath on rest, chest pain, headaches, vision problems. Monitoring blood sugar for hypo-hyperglycemia &amp; measures to take, effective skin/diabetic foot care; proper use of DME, including proper use and calibration of glucometer. Pain assessment on severity/intensity (as per pain scale of 0-10), implement pain relief measures and evaluate effectiveness of interventions. Perform teachings re: fall precautions/safe ambulation. Monitor for s/sx of dementia due to Alzheimer's disease and report any exacerbation. Monitor chest pain and provide appropriate measures as needed, may call MD or 911 depending on findings and situation. 
+
+TO REPORT TO PMD THE FOLLOWING PARAMETERS:
+1) Severe joint/muscle pain/spasm, equal to or above 6/10, not relieved by prescribed medications;
+2) Falls: with or without injury.
+3) SBP greater than 160 mmHg &amp; less than 90 mmHg; DBP greater than 100 mmHg or less than 50 mmHg; HR less than 60 beats/min or greater than 120 beats/min.
+5)S/Sx of respiratory distress with increasing shortness of breath; RR less than 14/min or greater than 24/min.
+6) S/sx of hyper/hypoglycemia, Blood Sugar if below 80 mg/dl and above 300 mg/dl, any skin breakdown.
+7) Temperature above 100 F. 
+8) Exacerbation of wound after the surgery.
+9) Severe weakness, fatigue, irregular heartbeat, chest pain.
+10) S/sx of vision decline.
+11) s/sx of dementia due to Alzheimer's disease and any exacerbation.
+12) Exacerbation of s/s of Depression, Anxiety, and Insomnia not controlled by medications.
+13) Exacerbation of s/sx of Esophageal Reflux disease: heartburn, regurgitation.
+14) Any significant changes in medical conditions.
+
+SN TO INSTRUCT the patient/caregiver on fall prevention measures, on home health issues( service personnel, Pt rights, Privacy Act, DHS hotline, Agency and other numbers to call); home safety; importance of care plan compliance and keep all MD appointments. Instruct pt/pcg on wound care after scheduled right foot surgery on 07/31/13 if ordered by MD. Instruct on disease processes, clinical manifestations, symptoms management including: s/s of hypo/hypertension; s/sx of exacerbation of DM II: s/s of hypo-hyperglycemia and instruct on measures to be taken, diabetic management, effective skin/diabetic foot care/check daily; proper use of DME, including proper use and calibration of glucometer; s/sx of Alzheimer's disease and benefits of reality orientation; measures to decrease Depression, Anxiety, and Insomnia; management of Esophageal Reflux symptoms; medications and regiment as to (action, dose, frequency, effects and adverse reactions) prescribed diet (NAS, Controlled Carbohydrates, Low Fat/Cholesterol diet),  pain management, energy conservation/relaxation techniques, proper use of  assistive devices while ambulating; coping mechanisms as necessary; measures to control infections via skin hygiene, fall precautions/preventions; s/sx of complications/exacerbations and  actions to be taken; to report significant clinical changes/findings and when to call SN/MD/911.  
+
+No advance directives formulated. Information given.
+ANCILLARIES as ordered by MD. Notify Agency of significant clinical findings, negative outcomes, medication/service/treatment/personnel changes, CG status, other relevant matters.</description>
+    </order-goals-misc-display>
+    <order-goals-misc-display>
+      <name>Goals/Rehabilation Potential/Discharge Plans</name>
+      <description>Patient's status will be monitored; abnormal findings reported to MD &amp; identified HH care needs adequately met. 
+1) By the end of the care period the patient's musculoskeletal status relating to Traumatic 
+Arthropathy will improve with better endurance and without s/sx of complications/exacerbation. Patient will have successful surgery on right leg (5th metatarsal bone revision surgery) on 07/31/2013 w/o any complication/exacerbation. Patient will experience  prompt/adequate pain relief maintained within 0-2/10 (0/10 pain scale) through pharmacologic measures and other pain relief measures.
+2) Patient's blood pressure will be and  maintained within the range of 120/60 to 140/90 mmHg by the end of the care period, cardiovascular status will be stable with vital signs maintained within  the normal range without episode of chest pain, SOB, and  hypo/hypertension.
+3) Patient's blood sugar will be maintained within normal range without any complications, without any episodes of hypoglycemia/hyperglycemia or infection, patient/caregiver will have better understanding of diabetic care including diet as per plan of care, and daily diabetic foot care.
+4) Patient will undergo right foot surgery without any complication/exacerbation; pt/pcg will be knowledgeable in providing proper wound care if needed and ordered by MD. By the end of the certification period patient's surgical wound will heal without any complication and s/sx of infection.
+5) There will be not decline in or problem with patient's vision.
+6) By the end of the care period the patient/caregiver will have better understanding of Alzheimer's disease with s/sx of exacerbation to report to MD. Patient will report an increase in ability to concentrate with less s/sx of dementia and increased energy level, in 6-9 weeks.
+7) By the end of certification patient's emotional state will improve due to medication and non-pharmacological measures. The patient will demonstrate stable mental status characterized by reduction of s/s of depression and anxiety, improved sleeping pattern, social interaction and coping; patient and caregiver will have better understanding of Anxiety and Depressive disorder and s/sx of exacerbation to report to MD.
+8) By the end of the care period the patient's gastrointestinal status relating to Esophageal Reflux will improve without s/sx of complications/exacerbation. 
+9) By the end of the certification period patient/caregiver will have better understanding of disease process and s/sx will verbalize important actions of medications and possible adverse effects to look for and report to MD for significant changes. 
+10) Patient/caregiver will be knowledgeable with importance of complying to medication and 
+diet regiment as per plan of care, 911/ER protocol and home safety within 6-9 weeks.
+11) Patient will remain safe at home free from fall/injury/hospitalization throughout the certification period.
+
+REHABILITATION POTENTIAL: Fair for patient to be able to achieve stated goals and to return to previous level of activity and improve functional status in accordance with patient's endurance level.
+DISCHARGE PLANS: Discharge patient in a safe living condition when above goals are met and skilled care is no longer needed under caregiver's assistance with regular MD follow up.</description>
+    </order-goals-misc-display>
+    <order-goals-misc-display>
+      <name>Miscellaneous</name>
+      <description>HOMEBOUND REASON: Patient is 80 year old male diagnosed with Traumatic arthropathy of lower leg, Hypertension, Diabetes Mellitus II with ophthalmic manifestations, Glaucoma, Depressive Disorder, Alzheimer's disease, BPH, Esophageal reflux, Anxiety, Insomnia. Patient has elevated pain in both lower extremities and lower back, pain upon movement, limited ROM. Patient will undergo right foot surgery (5th metatarsal bone revision surgery), scheduled on 07/31/2013 and will be in need of wound care per MD order. Patient lives at home with family and daily visitations of caregiver Irina 323-308-9229. Patient alert and oriented, forgetful, depressed, confused and anxious at times; requires considerable and taxing effort to live home even with an assistance of caregiver, using assistive device for ambulation, needs assistance with ADLs, homebound, cannot leave home unassisted.
+VITAL SIGNS upon RN evaluation: BP: 151/73mmHg, Temp: 97.8, HR: 82/minute, RR: 16/minute  Height: 5' 7";  Weight: 159 lbs. 
+NEUROLOGICAL: Alert and oriented, forgetful, depressed; confused and anxious at times.
+EENT: partially impaired vision/glasses, cataract surgery on right eye 2 years ago, blind in left eye. Mildly to moderately impaired hearing: HOH right/left ears. Nose and throat no problem; mouth: dentures-upper/lower; minimal difficulty in expressing ideas. 
+INTEGUMENTARY: Turgor is good; Skin dry, redness on right leg.
+MUSCULOSKELETAL: dull intermittent pain in lower back with intensity 5/10 and aching pain in BLE with intensity 5/10. SN instructed on pain management. Pt has decreased ROM, decreased ability to perform ADLs. Pain is relieved by medication, rest/relaxation/repositioning; right foot surgery on 07/31/13, description: 5th metatarsal bone on right foot are two  tan, firm bone fragments measuring 1.9 x 1.0 x 0.8cm and 2.2 x 1.1 x 1.1cm, have pink soft tissue attached..  
+CARDIOVASCULAR: regular pulse and heart sound, dyspnea w/moderate exertion, Blood pressure elevated, both pedal pulses present. 
+RESPIRATORY: clear breath sounds; SOB w/moderate exertion.
+ENDOCRINE/METABOLIC: DM II, BS: 187 mg/dL.
+GU: BPH, pt is continent.
+GI: Bowel sounds present and active in all 4 quadrants, abdomen soft; elimination 5-6 times a week.
+NUTRITIONAL: appetite fair; diet: NAS, Controlled Carbohydrates, Low Fat/Cholesterol. 
+SELF CARE: dependent on others in all activities of daily living and medical regimen management
+SAFETY/FUNCTIONAL LIMITATIONS: limited in ADLs, mobility, ambulation/transfers. 
+PSYCHOSOCIAL: lives at home with family and assisted with all activities. 
+FALL RISK: Patient is at high risk for falls, uses walker, cane and wheelchair. Fall prevention methods reviewed with patient/caregiver. 
+Discharge summary available upon request.</description>
+    </order-goals-misc-display>
+  </order-goals-misc-display>
+  <poc-safety-dme-list-subreport-url>/home/msuser1/workspace/git_repo/fasternotes/app/views/reports/plan_of_care/dme_supplies_safety_list.jasper</poc-safety-dme-list-subreport-url>
+  <order-goals-misc-display-subreport-url>/home/msuser1/workspace/git_repo/fasternotes/app/views/reports/plan_of_care/order_goals_misc.jasper</order-goals-misc-display-subreport-url>
+  <adv-dir-and-dnr-dni-display>&lt;b&gt;Advanced Directives&lt;/b&gt; No &lt;b&gt;DNR/DNI&lt;/b&gt; No/No</adv-dir-and-dnr-dni-display>
+  <vitals-display></vitals-display>
+  <fs-signed-date-display>07/26/2013</fs-signed-date-display>
+  <detail2-label nil="true"/>
+  <detail2-value nil="true"/>
+  <detail3-label nil="true"/>
+  <detail3-value nil="true"/>
+  <detail4-label nil="true"/>
+  <detail4-value nil="true"/>
+  <detail5-label nil="true"/>
+  <detail5-value nil="true"/>
+  <detail6-label nil="true"/>
+  <detail6-value nil="true"/>
+  <detail7-label nil="true"/>
+  <detail7-value nil="true"/>
+  <detail8-label nil="true"/>
+  <detail8-value nil="true"/>
+  <detail9-label nil="true"/>
+  <detail9-value nil="true"/>
+  <detail10-label nil="true"/>
+  <detail10-value nil="true"/>
+  <detail11-label nil="true"/>
+  <detail11-value nil="true"/>
+  <detail12-label nil="true"/>
+  <detail12-value nil="true"/>
+  <detail13-label nil="true"/>
+  <detail13-value nil="true"/>
+  <detail14-label nil="true"/>
+  <detail14-value nil="true"/>
+  <detail15-label nil="true"/>
+  <detail15-value nil="true"/>
+  <detail28-label nil="true"/>
+  <detail28-value nil="true"/>
+  <detail29-label nil="true"/>
+  <detail29-value nil="true"/>
+  <show-physician nil="true"/>
+  <field-staff-signature></field-staff-signature>
+  <field-staff-signed type="boolean">false</field-staff-signed>
+  <supervisor-signed type="boolean">false</supervisor-signed>
+  <visited-staff-name>Jasmine Petrosyan, RN</visited-staff-name>
+  <systolic-bp nil="true"/>
+  <diastolic-bp nil="true"/>
+  <bp-read-location nil="true"/>
+  <bp-read-position nil="true"/>
+  <heart-rate nil="true"/>
+  <respiration-rate nil="true"/>
+  <temperature-in-fht nil="true"/>
+  <blood-sugar nil="true"/>
+  <sugar-read-period nil="true"/>
+  <weight-gain-loss-in-lbs nil="true"/>
+  <oxygen-saturation nil="true"/>
+  <frequency-display nil="true"/>
+  <office-staff-signature></office-staff-signature>
+  <office-staff-name>Mariam Zakharyan</office-staff-name>
+  <supervised-user-signature nil="true"/>
+  <supervised-user-name nil="true"/>
+  <pain-section-display></pain-section-display>
+  <os-signed-date-display type="date">2013-07-26</os-signed-date-display>
+  <supervised-user-signed-date-display nil="true"/>
+  <pain nil="true"/>
+  <detail16-label nil="true"/>
+  <detail16-value nil="true"/>
+  <detail17-label nil="true"/>
+  <detail17-value nil="true"/>
+  <detail18-label nil="true"/>
+  <detail18-value nil="true"/>
+  <detail19-label nil="true"/>
+  <detail19-value nil="true"/>
+  <detail20-label nil="true"/>
+  <detail20-value nil="true"/>
+  <detail21-label nil="true"/>
+  <detail21-value nil="true"/>
+  <detail22-label nil="true"/>
+  <detail22-value nil="true"/>
+  <detail23-label nil="true"/>
+  <detail23-value nil="true"/>
+  <detail24-label nil="true"/>
+  <detail24-value nil="true"/>
+  <detail25-label nil="true"/>
+  <detail25-value nil="true"/>
+  <detail26-label nil="true"/>
+  <detail26-value nil="true"/>
+  <detail27-label nil="true"/>
+  <detail27-value nil="true"/>
+  <therapist-name-display>&lt;b&gt;Therapist Name: &lt;/b&gt; Jasmine Petrosyan, RN</therapist-name-display>
+</plan-of-care>

@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="insurance_list" language="groovy" pageWidth="595" pageHeight="792" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="10" bottomMargin="0" uuid="3ca2e590-3b9f-4e31-b312-ea59ee590630">
+	<property name="ireport.zoom" value="1.2100000000000017"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/patient/insurance-companies-display/insurance-companies-display]]>
+	</queryString>
+	<field name="name" class="java.lang.String">
+		<fieldDescription><![CDATA[name]]></fieldDescription>
+	</field>
+	<field name="insured-name" class="java.lang.String">
+		<fieldDescription><![CDATA[insured-name]]></fieldDescription>
+	</field>
+	<field name="hicn-number" class="java.lang.String">
+		<fieldDescription><![CDATA[hicn-number]]></fieldDescription>
+	</field>
+	<field name="insurance-case-manager" class="java.lang.String">
+		<fieldDescription><![CDATA[insurance-case-manager]]></fieldDescription>
+	</field>
+	<field name="case-manager-phone-number" class="java.lang.String">
+		<fieldDescription><![CDATA[case-manager-phone-number]]></fieldDescription>
+	</field>
+	<columnHeader>
+		<band height="30" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="5bd9b8df-c48b-479d-b694-9da9039e6cf2" x="3" y="17" width="179" height="12"/>
+				<textElement>
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Insurance]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="c78ffed7-c4dc-4104-b49b-f7f316b7469b" x="208" y="2" width="143" height="12"/>
+				<textElement textAlignment="Center">
+					<font fontName="SansSerif" isBold="true"/>
+				</textElement>
+				<text><![CDATA[INSURANCE INFORMATION]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="044c7813-9e3d-46d8-ac56-58149ae62258" x="270" y="17" width="89" height="12"/>
+				<textElement>
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Policy]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="4081687c-f00e-4522-8136-3bf1feb38128" x="182" y="17" width="88" height="12"/>
+				<textElement>
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Relation]]></text>
+			</staticText>
+			<line>
+				<reportElement uuid="4649da53-c314-4e7d-a180-6ff96bae81f8" x="3" y="15" width="550" height="1"/>
+			</line>
+			<staticText>
+				<reportElement uuid="e1be3e86-0957-4ff4-82a5-331361b99b30" x="359" y="17" width="114" height="12"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Case Manager]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="4a86b112-386d-4d22-b2b1-c9cbcfdb9b06" x="473" y="17" width="82" height="12"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Phone]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="13" splitType="Stretch">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="e81eda60-7dfb-4b92-9b51-71563121009e" x="3" y="0" width="179" height="12"/>
+				<textElement>
+					<paragraph rightIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="c2b66834-ec9e-4e87-bbc4-44b17809ecf6" x="182" y="0" width="88" height="12"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{insured-name}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="46c52e8f-18dc-4856-81d2-01aee74b6be1" x="270" y="0" width="89" height="12"/>
+				<textElement>
+					<paragraph rightIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{hicn-number}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="bc55365b-dc96-4166-af7f-9b6d3d5df1de" x="359" y="0" width="114" height="12"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{insurance-case-manager}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="585625d7-0320-40fe-bbbd-f52932a2b289" x="473" y="0" width="82" height="12"/>
+				<textElement>
+					<paragraph rightIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{case-manager-phone-number}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="5">
+			<line>
+				<reportElement uuid="5210a122-a35f-425b-a1bf-99a0c2268b3b" x="3" y="1" width="551" height="1"/>
+			</line>
+		</band>
+	</columnFooter>
+</jasperReport>

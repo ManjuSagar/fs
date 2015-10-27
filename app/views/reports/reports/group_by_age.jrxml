@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="group_by_age" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="d00747cc-ba2b-4e11-bb76-d9218ea04467">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="57" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="d90397a6-afb0-48fe-abe6-3bb97233a8e2" x="0" y="17" width="100" height="20"/>
+				<textElement/>
+				<text><![CDATA[PATIENTS AND VISITS BY AGE]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="ea0f12c9-ebf3-4e0b-b440-2444a401feba" x="0" y="37" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[Line No.
+]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="4c2bd74b-3826-4b89-8783-d66805084c72" x="100" y="37" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[Age]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="34c5fea3-702d-43fc-92a3-a11a420483e6" x="200" y="37" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[(Column 1)
+Patients]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="0b3fe7bb-196f-4eee-bc95-a72afa3dda52" x="300" y="37" width="100" height="20"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[(Column 2)
+Visits]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="73" splitType="Stretch"/>
+	</detail>
+</jasperReport>

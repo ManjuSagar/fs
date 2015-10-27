@@ -1,0 +1,173 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report1" language="groovy" pageWidth="612" pageHeight="792" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="b322056b-c719-4c90-b669-0176503259f5">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/payroll/payees/payee/payee]]>
+	</queryString>
+	<field name="title" class="java.lang.String">
+		<fieldDescription><![CDATA[title]]></fieldDescription>
+	</field>
+	<field name="agency-address" class="java.lang.String">
+		<fieldDescription><![CDATA[/payroll/agency-address]]></fieldDescription>
+	</field>
+	<field name="agency-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/payroll/agency-name]]></fieldDescription>
+	</field>
+	<field name="agency-suite-number-street-address" class="java.lang.String">
+		<fieldDescription><![CDATA[/payroll/agency-suite-number-street-address]]></fieldDescription>
+	</field>
+	<field name="agency-city-state-zip" class="java.lang.String">
+		<fieldDescription><![CDATA[/payroll/agency-city-state-zip]]></fieldDescription>
+	</field>
+	<field name="agency-phone-number" class="java.lang.String">
+		<fieldDescription><![CDATA[/payroll/agency-phone-number]]></fieldDescription>
+	</field>
+	<field name="agency-fax-number" class="java.lang.String">
+		<fieldDescription><![CDATA[/payroll/agency-fax-number]]></fieldDescription>
+	</field>
+	<field name="visits-count" class="java.lang.String">
+		<fieldDescription><![CDATA[/payroll/visits-count]]></fieldDescription>
+	</field>
+	<field name="amount" class="java.lang.Float">
+		<fieldDescription><![CDATA[amount]]></fieldDescription>
+	</field>
+	<field name="payee-name" class="java.lang.String">
+		<fieldDescription><![CDATA[payee-name]]></fieldDescription>
+	</field>
+	<field name="visits" class="java.lang.String">
+		<fieldDescription><![CDATA[visits]]></fieldDescription>
+	</field>
+	<field name="amount2" class="java.lang.String">
+		<fieldDescription><![CDATA[amount]]></fieldDescription>
+	</field>
+	<field name="title2" class="java.lang.String">
+		<fieldDescription><![CDATA[title]]></fieldDescription>
+	</field>
+	<variable name="TOTAL_AMOUNT" class="java.lang.Float" resetType="Page" calculation="Sum">
+		<variableExpression><![CDATA[$F{amount}]]></variableExpression>
+	</variable>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<title>
+		<band height="76" splitType="Stretch">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="8722e40a-d2b7-4b0a-8949-0497b332a671" x="0" y="0" width="274" height="15" isRemoveLineWhenBlank="true"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{agency-name}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="f5725ddb-bcdf-4a6b-b663-b2edad224302" x="0" y="15" width="274" height="15" isRemoveLineWhenBlank="true"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{agency-suite-number-street-address}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="9fe8662f-203a-49ce-9c9e-7f7a8ebfb6d2" x="0" y="30" width="274" height="15" isRemoveLineWhenBlank="true"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{agency-city-state-zip}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="671a1570-5cbe-4f48-a69e-99e2c8920b39" x="23" y="45" width="251" height="15" isRemoveLineWhenBlank="true"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{agency-phone-number}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="301a31b0-22c3-4dbe-bc60-4c62056af111" x="23" y="60" width="251" height="15" isRemoveLineWhenBlank="true"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{agency-fax-number}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="64206cc5-d9ca-42ee-a200-16384a7511de" x="0" y="45" width="23" height="15">
+					<printWhenExpression><![CDATA[$F{agency-phone-number}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[Tel]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="850a66b8-0f34-4230-a497-5b51a01ac647" x="0" y="60" width="23" height="15">
+					<printWhenExpression><![CDATA[$F{agency-fax-number}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[Fax]]></text>
+			</staticText>
+		</band>
+	</title>
+	<columnHeader>
+		<band height="17" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="10239b66-7164-4a3e-bd2d-8f5133cf01f3" x="191" y="2" width="100" height="15"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Visits]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="1833c2ee-941c-4cbc-bfcf-233b2e7a8993" x="319" y="2" width="120" height="15"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Title]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="7723ed0d-3108-4fc4-bd15-e6b4c0414561" x="472" y="2" width="100" height="15"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Amount]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="08204f48-6b9a-4f25-b03c-9eeda06b284e" x="0" y="2" width="163" height="15"/>
+				<textElement markup="html">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Field Staff Name]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="18" splitType="Stretch">
+			<elementGroup>
+				<textField pattern="$0.00">
+					<reportElement uuid="5fd72de9-258b-4746-8197-2eb8c884d3b2" positionType="Float" stretchType="RelativeToTallestObject" x="472" y="2" width="100" height="15" isPrintInFirstWholeBand="true" isPrintWhenDetailOverflows="true"/>
+					<textElement/>
+					<textFieldExpression><![CDATA[$F{amount}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement uuid="d5ab1f9f-e874-4385-91e5-3199f2d95ec7" positionType="Float" stretchType="RelativeToTallestObject" x="191" y="2" width="100" height="15" isPrintInFirstWholeBand="true" isPrintWhenDetailOverflows="true"/>
+					<textElement/>
+					<textFieldExpression><![CDATA[$F{visits}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement uuid="505b7836-fea0-4102-a525-e1e2b4ad2d9b" positionType="Float" stretchType="RelativeToTallestObject" x="0" y="2" width="163" height="15" isPrintInFirstWholeBand="true" isPrintWhenDetailOverflows="true"/>
+					<textElement/>
+					<textFieldExpression><![CDATA[$F{payee-name}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement uuid="7853c76b-5e40-46a3-87d1-9cadbc7f9047" positionType="Float" stretchType="RelativeToTallestObject" x="319" y="2" width="120" height="15" isPrintInFirstWholeBand="true" isPrintWhenDetailOverflows="true"/>
+					<textElement/>
+					<textFieldExpression><![CDATA[$F{title}]]></textFieldExpression>
+				</textField>
+			</elementGroup>
+		</band>
+	</detail>
+	<summary>
+		<band height="17" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="43b45ea1-bb44-49a5-89f5-0a0990ef7c33" x="339" y="1" width="100" height="15"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[TOTAL PAYROLL]]></text>
+			</staticText>
+			<textField pattern="¤ #,##0.00">
+				<reportElement uuid="b6dd0ebe-2ea5-48c1-91fd-6209e51e192d" x="472" y="1" width="100" height="15"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$V{TOTAL_AMOUNT}]]></textFieldExpression>
+			</textField>
+		</band>
+	</summary>
+</jasperReport>

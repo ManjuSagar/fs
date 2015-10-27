@@ -1,0 +1,46 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<medical-order>
+  <attachment-type-id type="integer" nil="true"/>
+  <created-user-id type="integer">295</created-user-id>
+  <field-staff-id type="integer">2828</field-staff-id>
+  <id type="integer">497</id>
+  <lock-version type="integer">12</lock-version>
+  <mo-editable type="boolean">true</mo-editable>
+  <order-content>zxcxzvv</order-content>
+  <order-date type="date">2013-12-13</order-date>
+  <order-reference>181</order-reference>
+  <order-status type="symbol">ready_to_send</order-status>
+  <order-type-id type="integer">20</order-type-id>
+  <os-sign-date type="date">2013-12-13</os-sign-date>
+  <physician-id type="integer">2894</physician-id>
+  <printable-order-content-type>application/pdf</printable-order-content-type>
+  <printable-order-file-name>1386916298.0077167-30318.pdf</printable-order-file-name>
+  <printable-order-file-size type="integer">4751</printable-order-file-size>
+  <printable-order-updated-at type="datetime">2013-12-13T12:01:38+05:30</printable-order-updated-at>
+  <signed-order-content-type nil="true"/>
+  <signed-order-file-name nil="true"/>
+  <signed-order-file-size type="integer" nil="true"/>
+  <signed-order-updated-at type="datetime" nil="true"/>
+  <signed-user-id type="integer">295</signed-user-id>
+  <treatment-episode-id type="integer">277</treatment-episode-id>
+  <treatment-id type="integer">267</treatment-id>
+  <treatment-visit-id type="integer" nil="true"/>
+  <patient-name>Rivka Nuta</patient-name>
+  <physician-name>Sean Lai</physician-name>
+  <episode-display>10/18/13 - 12/16/13</episode-display>
+  <created-user-name>Mariam Zakharyan</created-user-name>
+  <order-type-display>Missed Visit</order-type-display>
+  <created-user-signature-path>/home/msuser1/workspace/git_repo/fasternotes/public/system/org_staffs/signatures/000/000/295/original/signature20131212-4384-11gf8rm.png</created-user-signature-path>
+  <field-staff-name>Jessica Figueroa, CHHA</field-staff-name>
+  <order-date-display>12/13/2013</order-date-display>
+  <agency-name>Metropolitan Healthcare, Inc.</agency-name>
+  <agency-address>4929 Wilshire Blvd., Suite 945 Los Angeles, CA 90010</agency-address>
+  <agency-phone-number>(323) 960-2533</agency-phone-number>
+  <agency-fax-number>(323) 421-9163</agency-fax-number>
+  <physician-address-line1>2001 Santa Monica Blvd. Malhotra Restaurent East w, Suite 1286-W1234</physician-address-line1>
+  <physician-address-line2>Santa Monica, CA 90404</physician-address-line2>
+  <physician-phone-number>Phone: (310) 453-0553</physician-phone-number>
+  <physician-fax-number>Fax: (310) 829-3400</physician-fax-number>
+  <os-sign-date-display>12/13/2013</os-sign-date-display>
+  <patient-mr-number>36</patient-mr-number>
+</medical-order>

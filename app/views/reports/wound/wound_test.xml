@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document>
+  <agency-approved-user-id type="integer" nil="true"/>
+  <created-user-id type="integer">72</created-user-id>
+  <data>
+    <valid type="boolean">true</valid>
+    <patient-name>Latha b</patient-name>
+    <mr>4</mr>
+    <physician-name>Brendan Braun</physician-name>
+    <pain-location1>Hand</pain-location1>
+    <frequency1>2</frequency1>
+    <description1>1 description</description1>
+    <aggravating-factors1>This is aggravting Factor</aggravating-factors1>
+    <pain-location2>knee</pain-location2>
+    <frequency2>3</frequency2>
+    <description2>DEsc 2</description2>
+    <aggravating-factors2>Aggravting 2</aggravating-factors2>
+    <pain-location3>Ankle</pain-location3>
+    <frequency3>3</frequency3>
+    <description3>Desc 4</description3>
+    <aggravating-factors3>Aggraaviting 4</aggravating-factors3>
+    <pain-location4>Toe </pain-location4>
+    <frequency4>4</frequency4>
+    <description4>Desc 5</description4>
+    <aggravating-factors4>Aggraaviting 5</aggravating-factors4>
+    <pain-location5>Button</pain-location5>
+    <frequency5>9</frequency5>
+    <description5>Desc6</description5>
+    <aggravating-factors5>Aggraaviting 9</aggravating-factors5>
+    <pain-location6>Tiej </pain-location6>
+    <frequency6>98</frequency6>
+    <description6>Desc 7</description6>
+    <aggravating-factors6>Aggra 10</aggravating-factors6>
+    <patient-complaints>complaints</patient-complaints>
+    <problems-findings>Finding</problems-findings>
+    <skilled-interventions>intervention</skilled-interventions>
+    <integumentary type="array">
+      <integumentary>Wound</integumentary>
+      <integumentary>Decub</integumentary>
+      <integumentary>Infected</integumentary>
+      <integumentary>Foul odor drainage</integumentary>
+      <integumentary>Rashes</integumentary>
+    </integumentary>
+    <integumentary-stage type="integer">4</integumentary-stage>
+    <integumentary-sizes>7</integumentary-sizes>
+    <integumentary-tubes>5</integumentary-tubes>
+    <integumentary-shunt>7</integumentary-shunt>
+    <other-integumentary>0</other-integumentary>
+    <eent type="array">
+      <eent>Legally blind</eent>
+      <eent>Epistaxis</eent>
+      <eent>Dysphagia</eent>
+      <eent>Deaf</eent>
+      <eent>Prone to aspiration</eent>
+      <eent>HOH</eent>
+    </eent>
+    <respiratory type="array">
+      <respiratory>sob</respiratory>
+      <respiratory>Rest</respiratory>
+      <respiratory>Exertion</respiratory>
+      <respiratory>Cough</respiratory>
+      <respiratory>Productive</respiratory>
+      <respiratory>Productive</respiratory>
+    </respiratory>
+    <respiratory-sputum-color>1</respiratory-sputum-color>
+    <respiratory-amount>2</respiratory-amount>
+    <respiratory-lung-sound>3</respiratory-lung-sound>
+    <respiratory-clear-bilaterally>4</respiratory-clear-bilaterally>
+    <respiratory-o2>5</respiratory-o2>
+    <respiratory-lpm>6</respiratory-lpm>
+    <musculoskeletal type="array">
+      <musculoskeletal>Stiff Joints</musculoskeletal>
+      <musculoskeletal>Weakness</musculoskeletal>
+      <musculoskeletal>Limited ROM</musculoskeletal>
+      <musculoskeletal>Contractures</musculoskeletal>
+      <musculoskeletal>Foot Drop</musculoskeletal>
+      <musculoskeletal>Unsteady Balance</musculoskeletal>
+    </musculoskeletal>
+    <other-musculoskeletal> Musculoskeletol Other section</other-musculoskeletal>
+    <gastrointestinal type="array">
+      <gastrointestinal>Nausea</gastrointestinal>
+      <gastrointestinal>Vomiting</gastrointestinal>
+      <gastrointestinal>Diarrhea</gastrointestinal>
+      <gastrointestinal>Constipation</gastrointestinal>
+      <gastrointestinal>Impaction</gastrointestinal>
+      <gastrointestinal>Abd. Dist.</gastrointestinal>
+      <gastrointestinal>Incontinent</gastrointestinal>
+    </gastrointestinal>
+    <appetite>Fair</appetite>
+    <last-bm>Last BMMM</last-bm>
+    <diet>Low DIet</diet>
+    <tube-feeding>dfgdfg</tube-feeding>
+    <mental type="array">
+      <mental>Anxious at times</mental>
+      <mental>Restless</mental>
+      <mental>Forgetful</mental>
+      <mental>Confused at times</mental>
+      <mental>Disoriented</mental>
+      <mental>Depressed</mental>
+      <mental>Agitated</mental>
+    </mental>
+    <mental-other1>Mental Other</mental-other1>
+    <neurological type="array">
+      <neurological>Aphasic</neurological>
+      <neurological>Slurred speech</neurological>
+      <neurological type="boolean">false</neurological>
+      <neurological type="boolean">false</neurological>
+      <neurological type="boolean">false</neurological>
+      <neurological>Vertigo</neurological>
+      <neurological type="boolean">false</neurological>
+      <neurological type="boolean">false</neurological>
+      <neurological type="boolean">false</neurological>
+      <neurological type="boolean">false</neurological>
+      <neurological type="boolean">false</neurological>
+      <neurological type="boolean">false</neurological>
+      <neurological type="boolean">false</neurological>
+    </neurological>
+    <cardiovascular type="array">
+      <cardiovascular>Chest Pain</cardiovascular>
+      <cardiovascular>Palpitations</cardiovascular>
+      <cardiovascular>Dizziness</cardiovascular>
+      <cardiovascular>Dependent</cardiovascular>
+    </cardiovascular>
+    <pedal-pulses>Present</pedal-pulses>
+    <genitourinary type="array">
+      <genitourinary type="boolean">false</genitourinary>
+      <genitourinary type="boolean">false</genitourinary>
+      <genitourinary type="boolean">false</genitourinary>
+      <genitourinary type="boolean">false</genitourinary>
+      <genitourinary type="boolean">false</genitourinary>
+      <genitourinary type="boolean">false</genitourinary>
+      <genitourinary type="boolean">false</genitourinary>
+      <genitourinary type="boolean">false</genitourinary>
+      <genitourinary type="boolean">false</genitourinary>
+      <genitourinary>IFC</genitourinary>
+      <genitourinary>Suprapub</genitourinary>
+      <genitourinary>Odor</genitourinary>
+      <genitourinary type="boolean">false</genitourinary>
+      <genitourinary type="boolean">false</genitourinary>
+      <genitourinary type="boolean">false</genitourinary>
+    </genitourinary>
+    <endocrine type="array">
+      <endocrine>Weak</endocrine>
+      <endocrine>Diaphoretic</endocrine>
+      <endocrine>Polyuria</endocrine>
+      <endocrine>Blurred vision</endocrine>
+      <endocrine>Poor foot care</endocrine>
+      <endocrine>Tremors</endocrine>
+    </endocrine>
+    <other-endocrine>Endocrine Other</other-endocrine>
+    <universal-precautions type="array">
+      <universal-precaution>Medical Waste Disposal</universal-precaution>
+      <universal-precaution>Gloves</universal-precaution>
+      <universal-precaution type="boolean">false</universal-precaution>
+      <universal-precaution>Hand-Washing</universal-precaution>
+      <universal-precaution type="boolean">false</universal-precaution>
+      <universal-precaution type="boolean">false</universal-precaution>
+      <universal-precaution type="boolean">false</universal-precaution>
+      <universal-precaution type="boolean">false</universal-precaution>
+      <universal-precaution type="boolean">false</universal-precaution>
+      <universal-precaution type="boolean">false</universal-precaution>
+    </universal-precautions>
+    <home-bound-status type="array">
+      <home-bound-statu>Poor/Limited Endurance/Strength</home-bound-statu>
+      <home-bound-statu>Poor Unsteady Gait</home-bound-statu>
+      <home-bound-statu>Requires Assist with ADL/Assistive Devices</home-bound-statu>
+      <home-bound-statu>Unable to Negotiate Uneven Surfaces or Steps</home-bound-statu>
+      <home-bound-statu>Non-wt bearing</home-bound-statu>
+      <home-bound-statu>Requires assist with transfer</home-bound-statu>
+      <home-bound-statu>Unable to leave home without assistance</home-bound-statu>
+      <home-bound-statu>Bedbound</home-bound-statu>
+      <home-bound-statu>Paralysis UE/LE/both</home-bound-statu>
+      <home-bound-statu>Requires assist to ambulate</home-bound-statu>
+      <home-bound-statu>Poor coordination or balance</home-bound-statu>
+      <home-bound-statu>Partial wt bearing</home-bound-statu>
+    </home-bound-status>
+    <other-home-bound-status>Other inHB</other-home-bound-status>
+    <ambulates>Ambulates in HB</ambulates>
+      <pcg>Did not verbalize understanding</pcg>
+      <medication>Yes</medication>
+    
+    <pelvis-surface>yes</pelvis-surface>
+    <date-of-accident>06/26/2013</date-of-accident>
+    <bandages-applied>yes</bandages-applied>
+    <surgical-procedure nil="true"/>
+    <surgical-procedure-date nil="true"/>
+    <other-wound-type>In the Other wound Type</other-wound-type>
+    <wound-type_ nil="true"/>
+    <wound-age_ nil="true"/>
+    <wound-location_ nil="true"/>
+    <wound-debridement-date_ nil="true"/>
+    <wound-debridement-type_ nil="true"/>
+    <wound-measurement-date_ nil="true"/>
+    <wound-length_ nil="true"/>
+    <wound-width_ nil="true"/>
+    <wound-depth_ nil="true"/>
+    <wound-appearance-of-wound_ nil="true"/>
+    <wound-exudate_ nil="true"/>
+    <wound-undermining-location1_ nil="true"/>
+    <wound-undermining-location2_ nil="true"/>
+    <wound-tunneling-location1_ nil="true"/>
+    <wound-tunneling-location2_ nil="true"/>
+    <total-wound-panels>1</total-wound-panels>
+    <intensity1 type="integer">4</intensity1>
+    <intensity2 type="integer">7</intensity2>
+    <intensity3 type="integer">8</intensity3>
+    <intensity4 type="integer">2</intensity4>
+    <intensity5 type="integer">8</intensity5>
+    <intensity6 type="integer">3</intensity6>
+    <pressure-ulcer-stage>2</pressure-ulcer-stage>
+    <patient-turned>no</patient-turned>
+    <moisture>yes</moisture>
+    <pressure-gt-30-days>yes</pressure-gt-30-days>
+    <arterial-ulcer>yes</arterial-ulcer>
+    <wound-accident>yes</wound-accident>
+    <cardiovascular-location type="array">
+      <cardiovascular-location>Ankles R/L</cardiovascular-location>
+      <cardiovascular-location type="boolean">false</cardiovascular-location>
+    </cardiovascular-location>
+    <edema type="array">
+      <edema>Pitting</edema>
+      <edema type="boolean">false</edema>
+      <edema type="boolean">false</edema>
+    </edema>
+    <pacer type="array">
+      <pacer type="boolean">false</pacer>
+      <pacer type="boolean">false</pacer>
+      <pacer type="boolean">false</pacer>
+      <pacer>4+</pacer>
+    </pacer>
+    <wound-type-1>dasd</wound-type-1>
+    <wound-age-1>1</wound-age-1>
+    <wound-location-1>dsad</wound-location-1>
+    <wound-tissue-present-1>no</wound-tissue-present-1>
+    <wound-debridement-attempted-1>yes</wound-debridement-attempted-1>
+    <wound-debridement-date-1>06/06/2013</wound-debridement-date-1>
+    <wound-debridement-type-1>dsada</wound-debridement-type-1>
+    <wound-debridement-required-1>yes</wound-debridement-required-1>
+    <wound-measurement-date-1>06/06/2013</wound-measurement-date-1>
+    <wound-length-1>dsadsa</wound-length-1>
+    <wound-width-1>dad</wound-width-1>
+    <wound-depth-1>dsa</wound-depth-1>
+    <wound-appearance-of-wound-1>dsa</wound-appearance-of-wound-1>
+    <wound-exudate-1>dsa</wound-exudate-1>
+    <wound-thickness-1>yes</wound-thickness-1>
+    <wound-muscle-1>no</wound-muscle-1>
+    <wound-underminig-1>no</wound-underminig-1>
+    <wound-undermining-location1-1>dsa</wound-undermining-location1-1>
+    <wound-undermining-from1-1>1:15 AM</wound-undermining-from1-1>
+    <wound-undermining-to1-1>12:15 AM</wound-undermining-to1-1>
+    <wound-undermining-location2-1>da</wound-undermining-location2-1>
+    <wound-undermining-from2-1>2:45 AM</wound-undermining-from2-1>
+    <wound-undermining-to2-1>3:00 AM</wound-undermining-to2-1>
+    <wound-tunneling-1>yes</wound-tunneling-1>
+    <wound-tunneling-location1-1>dsa</wound-tunneling-location1-1>
+    <wound-tunneling-from1-1>3:00 AM</wound-tunneling-from1-1>
+    <wound-tunneling-to1-1>2:15 AM</wound-tunneling-to1-1>
+    <wound-tunneling-location2-1>das</wound-tunneling-location2-1>
+    <wound-tunneling-from2-1>3:15 AM</wound-tunneling-from2-1>
+    <wound-tunneling-to2-1>3:00 AM</wound-tunneling-to2-1>
+  </data>
+  <document-date type="date">2013-06-05</document-date>
+  <document-definition-id type="integer">160</document-definition-id>
+  <document-form-template-id type="integer">58</document-form-template-id>
+  <field-staff-id type="integer">83</field-staff-id>
+  <fs-sign-date type="date" nil="true"/>
+  <fs-sign-required type="boolean">true</fs-sign-required>
+  <id type="integer">178</id>
+  <lock-version type="integer">34</lock-version>
+  <os-sign-date type="date" nil="true"/>
+  <os-sign-required type="boolean">true</os-sign-required>
+  <physician-id type="integer" nil="true"/>
+  <status type="symbol">draft</status>
+  <supervised-user-id type="integer" nil="true"/>
+  <supervised-user-sign-date type="date" nil="true"/>
+  <supervisor-sign-required type="boolean">false</supervisor-sign-required>
+  <treatment-episode-id type="integer">33</treatment-episode-id>
+  <treatment-id type="integer">30</treatment-id>
+  <visit-id type="integer" nil="true"/>
+  <wounds type="array">
+    <wound>
+      <wound-type>dasd</wound-type>
+      <wound-age>1</wound-age>
+      <wound-location>dsad</wound-location>
+      <wound-tissue-present>no</wound-tissue-present>
+      <wound-debridement-attempted>yes</wound-debridement-attempted>
+      <wound-debridement-date>06/06/2013</wound-debridement-date>
+      <wound-debridement-type>dsada</wound-debridement-type>
+      <wound-debridement-required>yes</wound-debridement-required>
+      <wound-measurement-date>06/06/2013</wound-measurement-date>
+      <wound-length>dsadsa</wound-length>
+      <wound-width>dad</wound-width>
+      <wound-depth>dsa</wound-depth>
+      <wound-appearance-of-wound>dsa</wound-appearance-of-wound>
+      <wound-exudate>dsa</wound-exudate>
+      <wound-thickness>yes</wound-thickness>
+      <wound-muscle>no</wound-muscle>
+      <wound-underminig>no</wound-underminig>
+      <wound-undermining-location1>dsa</wound-undermining-location1>
+      <wound-undermining-from1>1:15 AM</wound-undermining-from1>
+      <wound-undermining-to1>12:15 AM</wound-undermining-to1>
+      <wound-undermining-location2>da</wound-undermining-location2>
+      <wound-undermining-from2>2:45 AM</wound-undermining-from2>
+      <wound-undermining-to2>3:00 AM</wound-undermining-to2>
+      <wound-tunneling>yes</wound-tunneling>
+      <wound-tunneling-location1>dsa</wound-tunneling-location1>
+      <wound-tunneling-from1>3:00 AM</wound-tunneling-from1>
+      <wound-tunneling-to1>2:15 AM</wound-tunneling-to1>
+      <wound-tunneling-location2>das</wound-tunneling-location2>
+      <wound-tunneling-from2>3:15 AM</wound-tunneling-from2>
+      <wound-tunneling-to2>3:00 AM</wound-tunneling-to2>
+      <total-wound-panels nil="true"/>
+    </wound>
+  </wounds>
+  <vitals-display/>
+  <fs-signed-date-display nil="true"/>
+  <detail2-label>Current Pain</detail2-label>
+  <detail2-value>&lt;b&gt;Location:&lt;/b&gt; Hand &lt;b&gt;Intensity(0 - 10):&lt;/b&gt; 4 &lt;b&gt;Frequency:&lt;/b&gt; 2 &lt;b&gt;Description:&lt;/b&gt; 1 description &lt;b&gt;Aggravating Factors:&lt;/b&gt; This is aggravting Factor 
+&lt;b&gt;Location:&lt;/b&gt; knee &lt;b&gt;Intensity(0 - 10):&lt;/b&gt; 7 &lt;b&gt;Frequency:&lt;/b&gt; 3 &lt;b&gt;Description:&lt;/b&gt; DEsc 2 &lt;b&gt;Aggravating Factors:&lt;/b&gt; Aggravting 2 
+&lt;b&gt;Location:&lt;/b&gt; Ankle &lt;b&gt;Intensity(0 - 10):&lt;/b&gt; 8 &lt;b&gt;Frequency:&lt;/b&gt; 3 &lt;b&gt;Description:&lt;/b&gt; Desc 4 &lt;b&gt;Aggravating Factors:&lt;/b&gt; Aggraaviting 4 
+&lt;b&gt;Location:&lt;/b&gt; Toe  &lt;b&gt;Intensity(0 - 10):&lt;/b&gt; 2 &lt;b&gt;Frequency:&lt;/b&gt; 4 &lt;b&gt;Description:&lt;/b&gt; Desc 5 &lt;b&gt;Aggravating Factors:&lt;/b&gt; Aggraaviting 5 
+&lt;b&gt;Location:&lt;/b&gt; Button &lt;b&gt;Intensity(0 - 10):&lt;/b&gt; 8 &lt;b&gt;Frequency:&lt;/b&gt; 9 &lt;b&gt;Description:&lt;/b&gt; Desc6 &lt;b&gt;Aggravating Factors:&lt;/b&gt; Aggraaviting 9 
+&lt;b&gt;Location:&lt;/b&gt; Tiej  &lt;b&gt;Intensity(0 - 10):&lt;/b&gt; 3 &lt;b&gt;Frequency:&lt;/b&gt; 98 &lt;b&gt;Description:&lt;/b&gt; Desc 7 &lt;b&gt;Aggravating Factors:&lt;/b&gt; Aggra 10 </detail2-value>
+  <detail4-label>Patient Complaints</detail4-label>
+  <detail4-value>complaints</detail4-value>
+  <detail5-label>Problems / Significant Findings</detail5-label>
+  <detail5-value>Finding</detail5-value>
+  <detail6-label>Skilled Interventions</detail6-label>
+  <detail6-value>intervention</detail6-value>
+  <detail7-label>Integumentary</detail7-label>
+  <detail7-value>Wound, Decub, Infected, Foul odor drainage, Rashes, &lt;b&gt;Stage: &lt;/b&gt;4, &lt;b&gt;Sizes: &lt;/b&gt;7, &lt;b&gt;Tubes: &lt;/b&gt;5, &lt;b&gt;Shunt: &lt;/b&gt;7, &lt;b&gt;Other: &lt;/b&gt;0</detail7-value>
+  <detail8-label>EENT</detail8-label>
+  <detail8-value>Legally blind, Epistaxis, Dysphagia, Deaf, Prone to aspiration, HOH</detail8-value>
+  <detail9-label>Respiratory</detail9-label>
+  <detail9-value>sob, Rest, Exertion, Cough, Productive, Productive, &lt;b&gt;Sputum Color: &lt;/b&gt;1, &lt;b&gt;Amount: &lt;/b&gt;2, &lt;b&gt;Lung Sound: &lt;/b&gt;3, &lt;b&gt;Clear bilaterally: &lt;/b&gt;4, &lt;b&gt;O2: &lt;/b&gt;5, &lt;b&gt;LPM: &lt;/b&gt;6</detail9-value>
+  <detail10-label>Musculoskeletal</detail10-label>
+  <detail10-value>Stiff Joints, Weakness, Limited ROM, Contractures, Foot Drop, Unsteady Balance, &lt;b&gt;Other: &lt;/b&gt; Musculoskeletol Other section</detail10-value>
+  <detail11-label>Gastrointestinal</detail11-label>
+  <detail11-value>Nausea, Vomiting, Diarrhea, Constipation, Impaction, Abd. Dist., Incontinent, &lt;b&gt;Appetite: &lt;/b&gt;Fair, &lt;b&gt;Last BM: &lt;/b&gt;Last BMMM, &lt;b&gt;Diet: &lt;/b&gt;Low DIet, &lt;b&gt;Tube Feeding: &lt;/b&gt;dfgdfg</detail11-value>
+  <detail12-label>Mental</detail12-label>
+  <detail12-value>Anxious at times, Restless, Forgetful, Confused at times, Disoriented, Depressed, Agitated, &lt;b&gt;Other: &lt;/b&gt;Mental Other</detail12-value>
+  <detail13-label>Neurological</detail13-label>
+  <detail14-label>Cardiovascular</detail14-label>
+  <detail14-value>Chest Pain, Palpitations, Dizziness, Dependent, &lt;b&gt;Pedal pulses: &lt;/b&gt;Present, &lt;b&gt;Edema: &lt;/b&gt;Pitting, &lt;b&gt;Pacer: &lt;/b&gt;4+, &lt;b&gt;Location: &lt;/b&gt;Ankles R/L</detail14-value>
+  <detail15-label>Genitourinary</detail15-label>
+  <detail15-value>IFC, Suprapub, Odor</detail15-value>
+  <show-physician nil="true"/>
+  <header>Skilled Nursing Evaluation &amp; Treatment</header>
+  <patient-name-with-mr-display>&lt;b&gt;Patient Name: &lt;/b&gt; Latha b,&lt;b&gt; MR#:&lt;/b&gt; 4</patient-name-with-mr-display>
+  <date-time-display/>
+  <field-staff-signature nil="true"/>
+  <visited-staff-name>s n, SN</visited-staff-name>
+  <systolic-bp nil="true"/>
+  <diastolic-bp nil="true"/>
+  <bp-read-location nil="true"/>
+  <bp-read-position nil="true"/>
+  <heart-rate nil="true"/>
+  <respiration-rate nil="true"/>
+  <temperature-in-fht nil="true"/>
+  <blood-sugar nil="true"/>
+  <sugar-read-period nil="true"/>
+  <weight-gain-loss-in-lbs nil="true"/>
+  <oxygen-saturation nil="true"/>
+  <agency-name-for-visit-document>GoodHealth Home Care</agency-name-for-visit-document>
+  <frequency-display nil="true"/>
+  <office-staff-signature nil="true"/>
+  <office-staff-name>John Doe</office-staff-name>
+  <supervised-user-signature nil="true"/>
+  <supervised-user-name nil="true"/>
+  <pain-section-display>&lt;b&gt;Location:&lt;/b&gt; Hand &lt;b&gt;Intensity(0 - 10):&lt;/b&gt; 4 &lt;b&gt;Frequency:&lt;/b&gt; 2 &lt;b&gt;Description:&lt;/b&gt; 1 description &lt;b&gt;Aggravating Factors:&lt;/b&gt; This is aggravting Factor 
+&lt;b&gt;Location:&lt;/b&gt; knee &lt;b&gt;Intensity(0 - 10):&lt;/b&gt; 7 &lt;b&gt;Frequency:&lt;/b&gt; 3 &lt;b&gt;Description:&lt;/b&gt; DEsc 2 &lt;b&gt;Aggravating Factors:&lt;/b&gt; Aggravting 2 
+&lt;b&gt;Location:&lt;/b&gt; Ankle &lt;b&gt;Intensity(0 - 10):&lt;/b&gt; 8 &lt;b&gt;Frequency:&lt;/b&gt; 3 &lt;b&gt;Description:&lt;/b&gt; Desc 4 &lt;b&gt;Aggravating Factors:&lt;/b&gt; Aggraaviting 4 
+&lt;b&gt;Location:&lt;/b&gt; Toe  &lt;b&gt;Intensity(0 - 10):&lt;/b&gt; 2 &lt;b&gt;Frequency:&lt;/b&gt; 4 &lt;b&gt;Description:&lt;/b&gt; Desc 5 &lt;b&gt;Aggravating Factors:&lt;/b&gt; Aggraaviting 5 
+&lt;b&gt;Location:&lt;/b&gt; Button &lt;b&gt;Intensity(0 - 10):&lt;/b&gt; 8 &lt;b&gt;Frequency:&lt;/b&gt; 9 &lt;b&gt;Description:&lt;/b&gt; Desc6 &lt;b&gt;Aggravating Factors:&lt;/b&gt; Aggraaviting 9 
+&lt;b&gt;Location:&lt;/b&gt; Tiej  &lt;b&gt;Intensity(0 - 10):&lt;/b&gt; 3 &lt;b&gt;Frequency:&lt;/b&gt; 98 &lt;b&gt;Description:&lt;/b&gt; Desc 7 &lt;b&gt;Aggravating Factors:&lt;/b&gt; Aggra 10 </pain-section-display>
+  <os-signed-date-display nil="true"/>
+  <supervised-user-signed-date-display nil="true"/>
+  <pain nil="true"/>
+  <detail16-label>Endocrine</detail16-label>
+  <detail16-value>Weak, Diaphoretic, Polyuria, Blurred vision, Poor foot care, Tremors, &lt;b&gt;Other: &lt;/b&gt;Endocrine Other</detail16-value>
+  <detail17-label>Universal Precautions Utilized</detail17-label>
+  <detail17-value>Medical Waste Disposal, Gloves, Hand-Washing</detail17-value>
+  <detail18-label>Home Bound Status</detail18-label>
+  <detail18-value>Poor/Limited Endurance/Strength, Poor Unsteady Gait, Requires Assist with ADL/Assistive Devices, Unable to Negotiate Uneven Surfaces or Steps, Non-wt bearing, Requires assist with transfer, Unable to leave home without assistance, Bedbound, Paralysis UE/LE/both, Requires assist to ambulate, Poor coordination or balance, Partial wt bearing, &lt;b&gt;Other: &lt;/b&gt;Other inHB, &lt;b&gt;Ambulates in ft.: &lt;/b&gt;Ambulates in HB</detail18-value>
+  <detail19-label>PCG</detail19-label>
+  <detail19-value>&lt;b&gt; Patient/Family/PCG:&lt;/b&gt; Did not verbalize understanding</detail19-value>
+  <detail30-value-medication>Medication list was reviewed during this visit</detail30-value-medication>
+</document>

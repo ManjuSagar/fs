@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plan-coverages>
+<sub-report-url>/home/msuser1/workspace/git_repos/fasternotes/app/views/reports/medicare_eligibility/</sub-report-url>
+  <plan-coverage>
+    <plan-type>Indemnity - IN  </plan-type>
+    <enrollment-date>01/01/2009</enrollment-date>
+    <dis-enrollment-date>01/01/2009</dis-enrollment-date>
+    <contract-number>12345</contract-number>
+    <contract-website-address>www.lic.com</contract-website-address>
+    <mco-bill-option-code>IN</mco-bill-option-code>
+    <plan-name>Medicare Health Insurance</plan-name>
+    <address-line1>203, West 3rd Street</address-line1>
+    <address-line2></address-line2>
+    <phone-number>4398598989</phone-number>
+    <city> Los Angeles</city>
+    <state>CA</state>
+    <zip-code>90013</zip-code>
+  </plan-coverage>
+  <plan-coverage>
+    <plan-type>Pharmacy - Part D</plan-type>
+    <enrollment-date>01/01/2009</enrollment-date>
+    <dis-enrollment-date>01/01/2009</dis-enrollment-date>
+    <contract-number>12345</contract-number>
+    <contract-website-address>www.lic.com</contract-website-address>
+    <mco-bill-option-code>IN</mco-bill-option-code>
+    <plan-name>Medicare Health Insurance</plan-name>
+    <address-line1>203, West 3rd Street</address-line1>
+    <address-line2></address-line2>
+    <phone-number>4398598989</phone-number>
+    <city> Los Angeles</city>
+    <state>CA</state>
+    <zip-code>90013</zip-code>
+  </plan-coverage>
+</plan-coverages>
+
+
+
+

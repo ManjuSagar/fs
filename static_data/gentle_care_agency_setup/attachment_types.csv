@@ -1,0 +1,12 @@
+Code,Description,System Required
+H_P,H&P,FALSE
+COMM,Communication,FALSE
+WOUND,Wound Photo,FALSE
+ROUTE_SHEET,Route Sheet,TRUE
+REFERRAL,Referral,TRUE
+SIGNATURE,Signature,TRUE
+MAP,Map,TRUE
+MEDICAL_ORDER,Medical Order,TRUE
+DOCUMENT,Document,TRUE
+OTHERS,Others,TRUE
+

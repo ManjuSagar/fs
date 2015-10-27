@@ -1,0 +1,1122 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<health-agency>
+  <branch-id nil="true"/>
+  <city>New York</city>
+  <created-at type="datetime">2013-04-26T15:52:44+05:30</created-at>
+  <email>admin@ghh.com</email>
+  <fax-number>(212) 403-4213</fax-number>
+  <fed-tax-number>352316686</fed-tax-number>
+  <id type="integer">2</id>
+  <lock-version type="integer">0</lock-version>
+  <notes>test</notes>
+  <npi-number>123456789</npi-number>
+  <org-name>GoodHealth Home Care</org-name>
+  <org-package>P</org-package>
+  <phone-number>(212) 403-4212</phone-number>
+  <preferred-alert-mode>E</preferred-alert-mode>
+  <state>NY</state>
+  <street-address></street-address>
+  <suite-number>113</suite-number>
+  <updated-at type="datetime">2013-04-26T15:52:44+05:30</updated-at>
+  <week-start-day>MON</week-start-day>
+  <zip-code>900134956</zip-code>
+  <office-staff-name>fwef fefew</office-staff-name>
+  <credential-generation-date>07/16/2013</credential-generation-date>
+  <contact-details>Tel (212) 403-4212 Fax (212) 403-4213</contact-details>
+  <to-s>GoodHealth Home Care, Inc.</to-s>
+  <address-string>.North Center Dr. 113, New York, NY, 900134567</address-string>
+  <field-staff-credentials type="array">
+    <field-staff-credential>
+      <field-staff>Mike Tyson, SN</field-staff>
+      <title>SN</title>
+      <agency-name>GoodHealth Home Care</agency-name>
+      <Credential>Competency</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>F</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>k j, PT</field-staff>
+      <title>PT</title>
+      <agency-name>GoodHealth Home Care</agency-name>
+      <Credential>Professional License</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>F</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>k j, PT</field-staff>
+      <title>PT</title>
+      <agency-name>GoodHealth Home Care</agency-name>
+      <Credential>Driver License</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>k j, PT</field-staff>
+      <title>PT</title>
+      <agency-name>GoodHealth Home Care</agency-name>
+      <Credential>MalPractice Insurance</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>k j, PT</field-staff>
+      <title>PT</title>
+      <agency-name>GoodHealth Home Care</agency-name>
+      <Credential>Auto Insurance</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>k j, PT</field-staff>
+      <title>PT</title>
+      <agency-name>GoodHealth Home Care</agency-name>
+      <Credential>Physical</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>k j, PT</field-staff>
+      <title>PT</title>
+      <agency-name>GoodHealth Home Care</agency-name>
+      <Credential>PPD or Chest X-Ray</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>k m, PT</field-staff>
+      <title>PT</title>
+      <agency-name>GoodHealth Home Care</agency-name>
+      <Credential>Professional License</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>F</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>k m, PT</field-staff>
+      <title>PT</title>
+      <agency-name>GoodHealth Home Care</agency-name>
+      <Credential>Driver License</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>k m, PT</field-staff>
+      <title>PT</title>
+      <agency-name>GoodHealth Home Care</agency-name>
+      <Credential>MalPractice Insurance</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>k m, PT</field-staff>
+      <title>PT</title>
+      <agency-name>GoodHealth Home Care</agency-name>
+      <Credential>Auto Insurance</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>k m, PT</field-staff>
+      <title>PT</title>
+      <agency-name>GoodHealth Home Care</agency-name>
+      <Credential>Physical</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>k m, PT</field-staff>
+      <title>PT</title>
+      <agency-name>GoodHealth Home Care</agency-name>
+      <Credential>PPD or Chest X-Ray</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>sdsad ssadas, OT</field-staff>
+      <title>OT</title>
+      <agency-name>GoodHealth Home Care</agency-name>
+      <Credential>CPR</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>F</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>james s, PT</field-staff>
+      <title>PT</title>
+      <agency-name>Logevity PT Services, Inc.</agency-name>
+      <Credential>Professional License</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>F</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>james s, PT</field-staff>
+      <title>PT</title>
+      <agency-name>Logevity PT Services, Inc.</agency-name>
+      <Credential>Driver License</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>james s, PT</field-staff>
+      <title>PT</title>
+      <agency-name>Logevity PT Services, Inc.</agency-name>
+      <Credential>MalPractice Insurance</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>james s, PT</field-staff>
+      <title>PT</title>
+      <agency-name>Logevity PT Services, Inc.</agency-name>
+      <Credential>Auto Insurance</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>james s, PT</field-staff>
+      <title>PT</title>
+      <agency-name>Logevity PT Services, Inc.</agency-name>
+      <Credential>Physical</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>james s, PT</field-staff>
+      <title>PT</title>
+      <agency-name>Logevity PT Services, Inc.</agency-name>
+      <Credential>PPD or Chest X-Ray</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>sdfd sdfdf, PTA</field-staff>
+      <title>PTA</title>
+      <agency-name>Logevity PT Services, Inc.</agency-name>
+      <Credential>Professional License</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>F</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>sdfd sdfdf, PTA</field-staff>
+      <title>PTA</title>
+      <agency-name>Logevity PT Services, Inc.</agency-name>
+      <Credential>Driver License</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>sdfd sdfdf, PTA</field-staff>
+      <title>PTA</title>
+      <agency-name>Logevity PT Services, Inc.</agency-name>
+      <Credential>MalPractice Insurance</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>sdfd sdfdf, PTA</field-staff>
+      <title>PTA</title>
+      <agency-name>Logevity PT Services, Inc.</agency-name>
+      <Credential>Auto Insurance</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>sdfd sdfdf, PTA</field-staff>
+      <title>PTA</title>
+      <agency-name>Logevity PT Services, Inc.</agency-name>
+      <Credential>Physical</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+    <field-staff-credential>
+      <field-staff>sdfd sdfdf, PTA</field-staff>
+      <title>PTA</title>
+      <agency-name>Logevity PT Services, Inc.</agency-name>
+      <Credential>PPD or Chest X-Ray</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <repeating-fs>T</repeating-fs>
+    </field-staff-credential>
+  </field-staff-credentials>
+  <staffing-company-credentials type="array">
+    <staffing-company-credential>
+      <field-staff>james s, PT</field-staff>
+      <title>PT</title>
+      <agency-name>Logevity PT Services, Inc.</agency-name>
+      <Credential>Professional License</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <staffing-company>Logevity PT Services, Inc.</staffing-company>
+    </staffing-company-credential>
+    <staffing-company-credential>
+      <field-staff>james s, PT</field-staff>
+      <title>PT</title>
+      <agency-name>Logevity PT Services, Inc.</agency-name>
+      <Credential>Driver License</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <staffing-company>Logevity PT Services, Inc.</staffing-company>
+    </staffing-company-credential>
+    <staffing-company-credential>
+      <field-staff>james s, PT</field-staff>
+      <title>PT</title>
+      <agency-name>Logevity PT Services, Inc.</agency-name>
+      <Credential>MalPractice Insurance</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <staffing-company>Logevity PT Services, Inc.</staffing-company>
+    </staffing-company-credential>
+    <staffing-company-credential>
+      <field-staff>james s, PT</field-staff>
+      <title>PT</title>
+      <agency-name>Logevity PT Services, Inc.</agency-name>
+      <Credential>Auto Insurance</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <staffing-company>Logevity PT Services, Inc.</staffing-company>
+    </staffing-company-credential>
+    <staffing-company-credential>
+      <field-staff>james s, PT</field-staff>
+      <title>PT</title>
+      <agency-name>Logevity PT Services, Inc.</agency-name>
+      <Credential>Physical</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <staffing-company>Logevity PT Services, Inc.</staffing-company>
+    </staffing-company-credential>
+    <staffing-company-credential>
+      <field-staff>james s, PT</field-staff>
+      <title>PT</title>
+      <agency-name>Logevity PT Services, Inc.</agency-name>
+      <Credential>PPD or Chest X-Ray</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <staffing-company>Logevity PT Services, Inc.</staffing-company>
+    </staffing-company-credential>
+    <staffing-company-credential>
+      <field-staff>sdfd sdfdf, PTA</field-staff>
+      <title>PTA</title>
+      <agency-name>Logevity PT Services, Inc.</agency-name>
+      <Credential>Professional License</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <staffing-company>Logevity PT Services, Inc.</staffing-company>
+    </staffing-company-credential>
+    <staffing-company-credential>
+      <field-staff>sdfd sdfdf, PTA</field-staff>
+      <title>PTA</title>
+      <agency-name>Logevity PT Services, Inc.</agency-name>
+      <Credential>Driver License</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <staffing-company>Logevity PT Services, Inc.</staffing-company>
+    </staffing-company-credential>
+    <staffing-company-credential>
+      <field-staff>sdfd sdfdf, PTA</field-staff>
+      <title>PTA</title>
+      <agency-name>Logevity PT Services, Inc.</agency-name>
+      <Credential>MalPractice Insurance</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <staffing-company>Logevity PT Services, Inc.</staffing-company>
+    </staffing-company-credential>
+    <staffing-company-credential>
+      <field-staff>sdfd sdfdf, PTA</field-staff>
+      <title>PTA</title>
+      <agency-name>Logevity PT Services, Inc.</agency-name>
+      <Credential>Auto Insurance</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <staffing-company>Logevity PT Services, Inc.</staffing-company>
+    </staffing-company-credential>
+    <staffing-company-credential>
+      <field-staff>sdfd sdfdf, PTA</field-staff>
+      <title>PTA</title>
+      <agency-name>Logevity PT Services, Inc.</agency-name>
+      <Credential>Physical</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <staffing-company>Logevity PT Services, Inc.</staffing-company>
+    </staffing-company-credential>
+    <staffing-company-credential>
+      <field-staff>sdfd sdfdf, PTA</field-staff>
+      <title>PTA</title>
+      <agency-name>Logevity PT Services, Inc.</agency-name>
+      <Credential>PPD or Chest X-Ray</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <staffing-company>Logevity PT Services, Inc.</staffing-company>
+    </staffing-company-credential>
+  </staffing-company-credentials>
+  <individual-fs-credentials type="array">
+    <individual-fs-credential>
+      <field-staff>Mike Tyson, SN</field-staff>
+      <title>SN</title>
+      <agency-name>GoodHealth Home Care</agency-name>
+      <Credential>Competency</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+    </individual-fs-credential>
+    <individual-fs-credential>
+      <field-staff>k j, PT</field-staff>
+      <title>PT</title>
+      <agency-name>GoodHealth Home Care</agency-name>
+      <Credential>Professional License</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+    </individual-fs-credential>
+    <individual-fs-credential>
+      <field-staff>k j, PT</field-staff>
+      <title>PT</title>
+      <agency-name>GoodHealth Home Care</agency-name>
+      <Credential>Driver License</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+    </individual-fs-credential>
+    <individual-fs-credential>
+      <field-staff>k j, PT</field-staff>
+      <title>PT</title>
+      <agency-name>GoodHealth Home Care</agency-name>
+      <Credential>MalPractice Insurance</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+    </individual-fs-credential>
+    <individual-fs-credential>
+      <field-staff>k j, PT</field-staff>
+      <title>PT</title>
+      <agency-name>GoodHealth Home Care</agency-name>
+      <Credential>Auto Insurance</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+    </individual-fs-credential>
+    <individual-fs-credential>
+      <field-staff>k j, PT</field-staff>
+      <title>PT</title>
+      <agency-name>GoodHealth Home Care</agency-name>
+      <Credential>Physical</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+    </individual-fs-credential>
+    <individual-fs-credential>
+      <field-staff>k j, PT</field-staff>
+      <title>PT</title>
+      <agency-name>GoodHealth Home Care</agency-name>
+      <Credential>PPD or Chest X-Ray</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+    </individual-fs-credential>
+    <individual-fs-credential>
+      <field-staff>k m, PT</field-staff>
+      <title>PT</title>
+      <agency-name>GoodHealth Home Care</agency-name>
+      <Credential>Professional License</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+    </individual-fs-credential>
+    <individual-fs-credential>
+      <field-staff>k m, PT</field-staff>
+      <title>PT</title>
+      <agency-name>GoodHealth Home Care</agency-name>
+      <Credential>Driver License</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+    </individual-fs-credential>
+    <individual-fs-credential>
+      <field-staff>k m, PT</field-staff>
+      <title>PT</title>
+      <agency-name>GoodHealth Home Care</agency-name>
+      <Credential>MalPractice Insurance</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+    </individual-fs-credential>
+    <individual-fs-credential>
+      <field-staff>k m, PT</field-staff>
+      <title>PT</title>
+      <agency-name>GoodHealth Home Care</agency-name>
+      <Credential>Auto Insurance</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+    </individual-fs-credential>
+    <individual-fs-credential>
+      <field-staff>k m, PT</field-staff>
+      <title>PT</title>
+      <agency-name>GoodHealth Home Care</agency-name>
+      <Credential>Physical</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+    </individual-fs-credential>
+    <individual-fs-credential>
+      <field-staff>k m, PT</field-staff>
+      <title>PT</title>
+      <agency-name>GoodHealth Home Care</agency-name>
+      <Credential>PPD or Chest X-Ray</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+    </individual-fs-credential>
+    <individual-fs-credential>
+      <field-staff>sdsad ssadas, OT</field-staff>
+      <title>OT</title>
+      <agency-name>GoodHealth Home Care</agency-name>
+      <Credential>CPR</Credential>
+      <user-type>FieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+    </individual-fs-credential>
+  </individual-fs-credentials>
+
+
+  <period-covers-from>01/01/13</period-covers-from>
+  <period-covers-to>12/31/13</period-covers-to>
+  <agency-provider-number>234</agency-provider-number>
+  <cost-visits type="array">
+    <cost-visit>
+      <report-count>1</report-count>
+      <description>Skilled Nursing</description>
+      <medicare-visits>5</medicare-visits>
+      <other-visits type="integer">0</other-visits>
+      <total-visits type="integer">5</total-visits>
+      <medicare-patients>5</medicare-patients>
+      <other-patients type="integer">0</other-patients>
+      <total-patients type="integer">5</total-patients>
+    </cost-visit>
+    <cost-visit>
+      <report-count>2</report-count>
+      <description>Physical Therapy</description>
+      <medicare-visits>13</medicare-visits>
+      <other-visits>2</other-visits>
+      <total-visits type="integer">15</total-visits>
+      <medicare-patients>7</medicare-patients>
+      <other-patients>1</other-patients>
+      <total-patients type="integer">8</total-patients>
+    </cost-visit>
+    <cost-visit>
+      <report-count>3</report-count>
+      <description>Occupational Therapy</description>
+      <medicare-visits>1</medicare-visits>
+      <other-visits type="integer">0</other-visits>
+      <total-visits type="integer">1</total-visits>
+      <medicare-patients>3</medicare-patients>
+      <other-patients type="integer">0</other-patients>
+      <total-patients type="integer">3</total-patients>
+    </cost-visit>
+    <cost-visit>
+      <report-count>4</report-count>
+      <description>Speech Therapy</description>
+      <medicare-visits>1</medicare-visits>
+      <other-visits type="integer">0</other-visits>
+      <total-visits type="integer">1</total-visits>
+      <medicare-patients>3</medicare-patients>
+      <other-patients type="integer">0</other-patients>
+      <total-patients type="integer">3</total-patients>
+    </cost-visit>
+    <cost-visit>
+      <report-count>5</report-count>
+      <description>Social Worker</description>
+      <medicare-visits type="integer">0</medicare-visits>
+      <other-visits type="integer">0</other-visits>
+      <total-visits type="integer">0</total-visits>
+      <medicare-patients>3</medicare-patients>
+      <other-patients type="integer">0</other-patients>
+      <total-patients type="integer">3</total-patients>
+    </cost-visit>
+    <cost-visit>
+      <report-count>1</report-count>
+      <description>Certified Home Health Agency</description>
+      <medicare-visits type="integer">0</medicare-visits>
+      <other-visits type="integer">0</other-visits>
+      <total-visits type="integer">0</total-visits>
+      <medicare-patients>3</medicare-patients>
+      <other-patients type="integer">0</other-patients>
+      <total-patients type="integer">3</total-patients>
+    </cost-visit>
+    <cost-visit>
+      <description>Total Visists [Sum of Lines 1-7]</description>
+      <medicare-visits type="integer">20</medicare-visits>
+      <other-visits type="integer">2</other-visits>
+      <total-visits type="integer">22</total-visits>
+      <medicare-patients/>
+      <other-patients/>
+      <total-patients/>
+    </cost-visit>
+    <cost-visit>
+      <description>Home Health Aide Hours</description>
+      <medicare-visits/>
+      <other-visits/>
+      <total-visits/>
+      <medicare-patients/>
+      <other-patients/>
+      <total-patients/>
+    </cost-visit>
+    <cost-visit>
+      <description>Unduplicated Census Count - Full Cost Reporting Period</description>
+      <medicare-visits/>
+      <other-visits/>
+      <total-visits/>
+      <medicare-patients type="integer">8</medicare-patients>
+      <other-patients type="integer">1</other-patients>
+      <total-patients type="integer">9</total-patients>
+    </cost-visit>
+  </cost-visits>
+
+
+  <period-covers-string>Period Covered From Jan 01, 2013 To Dec 31, 2013</period-covers-string>
+  <street-address-string>STREET: North Center Dr. suite 113</street-address-string>
+  <agency-address-string>North Center Dr. &lt;b&gt;.&lt;/b&gt; 113 &lt;b&gt;.&lt;/b&gt; New York NY 11203</agency-address-string>
+  <printed-date>07/16/2013,12:23:54PM</printed-date>
+
+  <msa-codes-list type="array">
+    <msa-codes-list>
+      <msa-code>5200</msa-code>
+      <repeating-county>F</repeating-county>
+      <msa-record-number type="integer">29</msa-record-number>
+    </msa-codes-list>
+    <msa-codes-list>
+      <msa-code>45631</msa-code>
+      <repeating-county>T</repeating-county>
+      <msa-record-number type="float">29.01</msa-record-number>
+    </msa-codes-list>
+    <msa-codes-list>
+      <msa-code>18550</msa-code>
+      <repeating-county>T</repeating-county>
+      <msa-record-number type="float">29.02</msa-record-number>
+    </msa-codes-list>
+    <msa-codes-list>
+      <msa-code>33650</msa-code>
+      <repeating-county>T</repeating-county>
+      <msa-record-number type="float">29.03</msa-record-number>
+    </msa-codes-list>
+    <msa-codes-list>
+      <msa-code>5510</msa-code>
+      <repeating-county>T</repeating-county>
+      <msa-record-number type="float">29.04</msa-record-number>
+    </msa-codes-list>
+  </msa-codes-list>
+
+
+  <medicare-services-area-count type="integer">5</medicare-services-area-count>
+  <pps-visits type="array">
+    <pps-visit>
+      <full-episode-with-out-outliers type="integer">3234</full-episode-with-out-outliers>
+      <full-episode-with-outliers type="integer">0</full-episode-with-outliers>
+      <lupa-episodes type="integer">0</lupa-episodes>
+      <pep-only-episodes type="integer">0</pep-only-episodes>
+      <scic-within-a-pep type="integer">0</scic-within-a-pep>
+      <scic-only-episodes type="integer">0</scic-only-episodes>
+      <totals type="integer">3</totals>
+      <count type="integer">30</count>
+      <description>Skilled Nursing visits</description>
+    </pps-visit>
+    <pps-visit>
+      <full-episode-with-out-outliers type="integer">35123</full-episode-with-out-outliers>
+      <full-episode-with-outliers type="integer">0</full-episode-with-outliers>
+      <lupa-episodes type="integer">0</lupa-episodes>
+      <pep-only-episodes type="integer">0</pep-only-episodes>
+      <scic-within-a-pep type="integer">0</scic-within-a-pep>
+      <scic-only-episodes type="integer">0</scic-only-episodes>
+      <totals type="integer">35</totals>
+      <count type="integer">31</count>
+      <description>Skilled Nursing charges</description>
+    </pps-visit>
+    <pps-visit>
+      <full-episode-with-out-outliers type="integer">1233</full-episode-with-out-outliers>
+      <full-episode-with-outliers type="integer">0</full-episode-with-outliers>
+      <lupa-episodes type="integer">0</lupa-episodes>
+      <pep-only-episodes type="integer">0</pep-only-episodes>
+      <scic-within-a-pep type="integer">0</scic-within-a-pep>
+      <scic-only-episodes type="integer">0</scic-only-episodes>
+      <totals type="integer">13</totals>
+      <count type="integer">32</count>
+      <description>Physical Therapy visits</description>
+    </pps-visit>
+    <pps-visit>
+      <full-episode-with-out-outliers type="integer">50434</full-episode-with-out-outliers>
+      <full-episode-with-outliers type="integer">0</full-episode-with-outliers>
+      <lupa-episodes type="integer">0</lupa-episodes>
+      <pep-only-episodes type="integer">0</pep-only-episodes>
+      <scic-within-a-pep type="integer">0</scic-within-a-pep>
+      <scic-only-episodes type="integer">0</scic-only-episodes>
+      <totals type="integer">504</totals>
+      <count type="integer">33</count>
+      <description>Physical Therapy charges</description>
+    </pps-visit>
+    <pps-visit>
+      <full-episode-with-out-outliers type="integer">10000</full-episode-with-out-outliers>
+      <full-episode-with-outliers type="integer">0</full-episode-with-outliers>
+      <lupa-episodes type="integer">0</lupa-episodes>
+      <pep-only-episodes type="integer">0</pep-only-episodes>
+      <scic-within-a-pep type="integer">0</scic-within-a-pep>
+      <scic-only-episodes type="integer">0</scic-only-episodes>
+      <totals type="integer">1</totals>
+      <count type="integer">34</count>
+      <description>Occupational Therapy visits</description>
+    </pps-visit>
+    <pps-visit>
+      <full-episode-with-out-outliers type="integer">1032</full-episode-with-out-outliers>
+      <full-episode-with-outliers type="integer">0</full-episode-with-outliers>
+      <lupa-episodes type="integer">0</lupa-episodes>
+      <pep-only-episodes type="integer">0</pep-only-episodes>
+      <scic-within-a-pep type="integer">0</scic-within-a-pep>
+      <scic-only-episodes type="integer">0</scic-only-episodes>
+      <totals type="integer">10</totals>
+      <count type="integer">35</count>
+      <description>Occupational Therapy charges</description>
+    </pps-visit>
+    <pps-visit>
+      <full-episode-with-out-outliers type="integer">121</full-episode-with-out-outliers>
+      <full-episode-with-outliers type="integer">0</full-episode-with-outliers>
+      <lupa-episodes type="integer">0</lupa-episodes>
+      <pep-only-episodes type="integer">0</pep-only-episodes>
+      <scic-within-a-pep type="integer">0</scic-within-a-pep>
+      <scic-only-episodes type="integer">0</scic-only-episodes>
+      <totals type="integer">1</totals>
+      <count type="integer">36</count>
+      <description>Speech Therapy visits</description>
+    </pps-visit>
+    <pps-visit>
+      <full-episode-with-out-outliers type="integer">20345</full-episode-with-out-outliers>
+      <full-episode-with-outliers type="integer">0</full-episode-with-outliers>
+      <lupa-episodes type="integer">0</lupa-episodes>
+      <pep-only-episodes type="integer">0</pep-only-episodes>
+      <scic-within-a-pep type="integer">0</scic-within-a-pep>
+      <scic-only-episodes type="integer">0</scic-only-episodes>
+      <totals type="integer">20</totals>
+      <count type="integer">37</count>
+      <description>Speech Therapy charges</description>
+    </pps-visit>
+    <pps-visit>
+      <full-episode-with-out-outliers type="integer">0433333</full-episode-with-out-outliers>
+      <full-episode-with-outliers type="integer">0</full-episode-with-outliers>
+      <lupa-episodes type="integer">0</lupa-episodes>
+      <pep-only-episodes type="integer">0</pep-only-episodes>
+      <scic-within-a-pep type="integer">0</scic-within-a-pep>
+      <scic-only-episodes type="integer">0</scic-only-episodes>
+      <totals type="integer">0</totals>
+      <count type="integer">38</count>
+      <description>Social Worker visits</description>
+    </pps-visit>
+    <pps-visit>
+      <full-episode-with-out-outliers type="integer">032222</full-episode-with-out-outliers>
+      <full-episode-with-outliers type="integer">0</full-episode-with-outliers>
+      <lupa-episodes type="integer">0</lupa-episodes>
+      <pep-only-episodes type="integer">0</pep-only-episodes>
+      <scic-within-a-pep type="integer">0</scic-within-a-pep>
+      <scic-only-episodes type="integer">0</scic-only-episodes>
+      <totals type="integer">0</totals>
+      <count type="integer">39</count>
+      <description>Social Worker charges</description>
+    </pps-visit>
+    <pps-visit>
+      <full-episode-with-out-outliers type="integer">0322222</full-episode-with-out-outliers>
+      <full-episode-with-outliers type="integer">0</full-episode-with-outliers>
+      <lupa-episodes type="integer">0</lupa-episodes>
+      <pep-only-episodes type="integer">0</pep-only-episodes>
+      <scic-within-a-pep type="integer">0</scic-within-a-pep>
+      <scic-only-episodes type="integer">0</scic-only-episodes>
+      <totals type="integer">0</totals>
+      <count type="integer">40</count>
+      <description>Certified Home Health Agency visits</description>
+    </pps-visit>
+    <pps-visit>
+      <full-episode-with-out-outliers type="integer">05432</full-episode-with-out-outliers>
+      <full-episode-with-outliers type="integer">0</full-episode-with-outliers>
+      <lupa-episodes type="integer">0</lupa-episodes>
+      <pep-only-episodes type="integer">0</pep-only-episodes>
+      <scic-within-a-pep type="integer">0</scic-within-a-pep>
+      <scic-only-episodes type="integer">0</scic-only-episodes>
+      <totals type="integer">0</totals>
+      <count type="integer">41</count>
+      <description>Certified Home Health Agency charges</description>
+    </pps-visit>
+    <pps-visit>
+      <full-episode-with-out-outliers type="integer">182222</full-episode-with-out-outliers>
+      <full-episode-with-outliers type="integer">0</full-episode-with-outliers>
+      <lupa-episodes type="integer">0</lupa-episodes>
+      <pep-only-episodes type="integer">0</pep-only-episodes>
+      <scic-within-a-pep type="integer">0</scic-within-a-pep>
+      <scic-only-episodes type="integer">0</scic-only-episodes>
+      <totals type="integer">18</totals>
+      <count type="integer">42</count>
+      <description>Total Visits (Sum of Lines 30, 32, 34, 36, 38, 40)</description>
+    </pps-visit>
+    <pps-visit>
+      <description>Other Charges</description>
+      <full-episode-with-out-outliers type="integer">23456</full-episode-with-out-outliers>
+      <full-episode-with-outliers type="integer">0</full-episode-with-outliers>
+      <lupa-episodes type="integer">0</lupa-episodes>
+      <pep-only-episodes type="integer">0</pep-only-episodes>
+      <scic-within-a-pep type="integer">0</scic-within-a-pep>
+      <scic-only-episodes type="integer">0</scic-only-episodes>
+      <totals type="integer">0</totals>
+      <count type="integer">43</count>
+    </pps-visit>
+    <pps-visit>
+      <full-episode-with-out-outliers type="integer">569</full-episode-with-out-outliers>
+      <full-episode-with-outliers type="integer">0</full-episode-with-outliers>
+      <lupa-episodes type="integer">0</lupa-episodes>
+      <pep-only-episodes type="integer">0</pep-only-episodes>
+      <scic-within-a-pep type="integer">0</scic-within-a-pep>
+      <scic-only-episodes type="integer">0</scic-only-episodes>
+      <totals type="integer">569</totals>
+      <count type="integer">44</count>
+      <description>Total Charges (Sum of lines 31, 33, 35, 37, 39, 41, 43)</description>
+    </pps-visit>
+    <pps-visit>
+      <full-episode-with-out-outliers type="integer">12</full-episode-with-out-outliers>
+      <full-episode-with-outliers type="integer">0</full-episode-with-outliers>
+      <lupa-episodes type="integer">1</lupa-episodes>
+      <pep-only-episodes type="integer">0</pep-only-episodes>
+      <scic-within-a-pep type="integer">0</scic-within-a-pep>
+      <scic-only-episodes type="integer">0</scic-only-episodes>
+      <totals type="integer">13</totals>
+      <count type="integer">45</count>
+      <description>Total Number of Episodes</description>
+    </pps-visit>
+    <pps-visit>
+      <full-episode-with-out-outliers type="integer">0</full-episode-with-out-outliers>
+      <full-episode-with-outliers type="integer">0</full-episode-with-outliers>
+      <lupa-episodes type="integer">0</lupa-episodes>
+      <pep-only-episodes type="integer">0</pep-only-episodes>
+      <scic-within-a-pep type="integer">0</scic-within-a-pep>
+      <scic-only-episodes type="integer">0</scic-only-episodes>
+      <totals type="integer">0</totals>
+      <count type="integer">46</count>
+      <description>Total Number of Outlier Episodes</description>
+    </pps-visit>
+    <pps-visit>
+      <full-episode-with-out-outliers type="integer">35</full-episode-with-out-outliers>
+      <full-episode-with-outliers type="integer">0</full-episode-with-outliers>
+      <lupa-episodes type="integer">0</lupa-episodes>
+      <pep-only-episodes type="integer">0</pep-only-episodes>
+      <scic-within-a-pep type="integer">0</scic-within-a-pep>
+      <scic-only-episodes type="integer">0</scic-only-episodes>
+      <description>Total Non-Routine Medical Supply Charges</description>
+      <totals type="integer">35</totals>
+      <count type="integer">47</count>
+    </pps-visit>
+  </pps-visits>
+  <cost-visits-sub-report-url>/home/msuser1/workspace/git_repo/fasternotes/app/views/reports/cost/cost_visit.jasper</cost-visits-sub-report-url>
+  <msa-sub-report-url>/home/msuser1/workspace/git_repo/fasternotes/app/views/reports/cost/msa.jasper</msa-sub-report-url>
+  <pps-activity-sub-report-url>/home/msuser1/workspace/git_repo/fasternotes/app/views/reports/cost/pps_activity.jasper</pps-activity-sub-report-url>
+  <computation-of-reimbursement-settlement-sub-report-url>/home/msuser1/workspace/git_repo/fasternotes/app/views/reports/cost/medicare_reimbursement.jasper</computation-of-reimbursement-settlement-sub-report-url>
+  <medicare-report-sub-report-url>/home/msuser1/workspace/git_repo/fasternotes/app/views/reports/cost/medicare_report_sub_report.jasper</medicare-report-sub-report-url>
+
+
+  <medicare-cost-and-limitation type="array">
+    <medicare-cost-and-limitation>
+      <msa-code>48000</msa-code>
+      <discipline>Skilled Nursing</discipline>
+      <line-num>1</line-num>
+      <worksheet-c></worksheet-c>
+      <avg-cost-per-visit></avg-cost-per-visit>
+      <medicare-program-visit-part-a>436666</medicare-program-visit-part-a>
+      <medicare-program-not-subject-to-deductibles>38166</medicare-program-not-subject-to-deductibles>
+      <medicare-program-subject-to-deductibles></medicare-program-subject-to-deductibles>
+      <medicare-cost-part-a></medicare-cost-part-a>
+      <medicare-cost-not-subject-to-deductibles></medicare-cost-not-subject-to-deductibles>
+      <medicare-cost-subject-to-deductibles></medicare-cost-subject-to-deductibles>
+      <sum> </sum>
+    </medicare-cost-and-limitation>
+    <medicare-cost-and-limitation>
+      <msa-code>48000</msa-code>
+      <discipline>Physical Therapy</discipline>
+      <line-num>2</line-num>
+      <worksheet-c></worksheet-c>
+      <avg-cost-per-visit></avg-cost-per-visit>
+      <medicare-program-visit-part-a>566666</medicare-program-visit-part-a>
+      <medicare-program-not-subject-to-deductibles>2236666</medicare-program-not-subject-to-deductibles>
+      <medicare-program-subject-to-deductibles></medicare-program-subject-to-deductibles>
+      <medicare-cost-part-a></medicare-cost-part-a>
+      <medicare-cost-not-subject-to-deductibles></medicare-cost-not-subject-to-deductibles>
+      <medicare-cost-subject-to-deductibles></medicare-cost-subject-to-deductibles>
+      <sum></sum>
+    </medicare-cost-and-limitation>
+    <medicare-cost-and-limitation>
+      <msa-code>48000</msa-code>
+      <discipline>Occupational Therapy</discipline>
+      <line-num>3</line-num>
+      <worksheet-c></worksheet-c>
+      <avg-cost-per-visit></avg-cost-per-visit>
+      <medicare-program-visit-part-a>0666666</medicare-program-visit-part-a>
+      <medicare-program-not-subject-to-deductibles>2466666</medicare-program-not-subject-to-deductibles>
+      <medicare-program-subject-to-deductibles></medicare-program-subject-to-deductibles>
+      <medicare-cost-part-a></medicare-cost-part-a>
+      <medicare-cost-not-subject-to-deductibles></medicare-cost-not-subject-to-deductibles>
+      <medicare-cost-subject-to-deductibles></medicare-cost-subject-to-deductibles>
+      <sum></sum>
+    </medicare-cost-and-limitation>
+    <medicare-cost-and-limitation>
+      <msa-code>48000</msa-code>
+      <discipline>Speech Pathology</discipline>
+      <line-num>4</line-num>
+      <worksheet-c></worksheet-c>
+      <avg-cost-per-visit></avg-cost-per-visit>
+      <medicare-program-visit-part-a>03333</medicare-program-visit-part-a>
+      <medicare-program-not-subject-to-deductibles>1654334</medicare-program-not-subject-to-deductibles>
+      <medicare-program-subject-to-deductibles></medicare-program-subject-to-deductibles>
+      <medicare-cost-part-a></medicare-cost-part-a>
+      <medicare-cost-not-subject-to-deductibles></medicare-cost-not-subject-to-deductibles>
+      <medicare-cost-subject-to-deductibles></medicare-cost-subject-to-deductibles>
+      <sum></sum>
+    </medicare-cost-and-limitation>
+    <medicare-cost-and-limitation>
+      <msa-code>48000</msa-code>
+      <discipline>Medical Social Services</discipline>
+      <line-num>5</line-num>
+      <worksheet-c></worksheet-c>
+      <avg-cost-per-visit></avg-cost-per-visit>
+      <medicare-program-visit-part-a>1</medicare-program-visit-part-a>
+      <medicare-program-not-subject-to-deductibles>9</medicare-program-not-subject-to-deductibles>
+      <medicare-program-subject-to-deductibles></medicare-program-subject-to-deductibles>
+      <medicare-cost-part-a></medicare-cost-part-a>
+      <medicare-cost-not-subject-to-deductibles></medicare-cost-not-subject-to-deductibles>
+      <medicare-cost-subject-to-deductibles></medicare-cost-subject-to-deductibles>
+      <sum></sum>
+    </medicare-cost-and-limitation>
+    <medicare-cost-and-limitation>
+      <msa-code>48000</msa-code>
+      <discipline>Home Health Aide</discipline>
+      <line-num>6</line-num>
+      <worksheet-c></worksheet-c>
+      <avg-cost-per-visit></avg-cost-per-visit>
+      <medicare-program-visit-part-a>24</medicare-program-visit-part-a>
+      <medicare-program-not-subject-to-deductibles>13</medicare-program-not-subject-to-deductibles>
+      <medicare-program-subject-to-deductibles></medicare-program-subject-to-deductibles>
+      <medicare-cost-part-a></medicare-cost-part-a>
+      <medicare-cost-not-subject-to-deductibles></medicare-cost-not-subject-to-deductibles>
+      <medicare-cost-subject-to-deductibles></medicare-cost-subject-to-deductibles>
+      <sum></sum>
+    </medicare-cost-and-limitation>
+    <medicare-cost-and-limitation>
+      <msa-code>48000</msa-code>
+      <discipline>Total (Sum of lines 1-6)</discipline>
+      <line-num>7</line-num>
+      <worksheet-c></worksheet-c>
+      <avg-cost-per-visit></avg-cost-per-visit>
+      <medicare-program-visit-part-a>124</medicare-program-visit-part-a>
+      <medicare-program-not-subject-to-deductibles>651</medicare-program-not-subject-to-deductibles>
+      <medicare-program-subject-to-deductibles></medicare-program-subject-to-deductibles>
+      <medicare-cost-part-a></medicare-cost-part-a>
+      <medicare-cost-not-subject-to-deductibles></medicare-cost-not-subject-to-deductibles>
+      <medicare-cost-subject-to-deductibles></medicare-cost-subject-to-deductibles>
+      <sum></sum>
+    </medicare-cost-and-limitation>
+    <medicare-cost-and-limitation>
+      <msa-code>6700</msa-code>
+      <discipline>Skilled Nursing</discipline>
+      <line-num>1</line-num>
+      <worksheet-c></worksheet-c>
+      <avg-cost-per-visit></avg-cost-per-visit>
+      <medicare-program-visit-part-a>43</medicare-program-visit-part-a>
+      <medicare-program-not-subject-to-deductibles>381</medicare-program-not-subject-to-deductibles>
+      <medicare-program-subject-to-deductibles></medicare-program-subject-to-deductibles>
+      <medicare-cost-part-a></medicare-cost-part-a>
+      <medicare-cost-not-subject-to-deductibles></medicare-cost-not-subject-to-deductibles>
+      <medicare-cost-subject-to-deductibles></medicare-cost-subject-to-deductibles>
+      <sum> </sum>
+    </medicare-cost-and-limitation>
+    <medicare-cost-and-limitation>
+      <msa-code>6700</msa-code>
+      <discipline>Physical Therapy</discipline>
+      <line-num>2</line-num>
+      <worksheet-c></worksheet-c>
+      <avg-cost-per-visit></avg-cost-per-visit>
+      <medicare-program-visit-part-a>56</medicare-program-visit-part-a>
+      <medicare-program-not-subject-to-deductibles>223</medicare-program-not-subject-to-deductibles>
+      <medicare-program-subject-to-deductibles></medicare-program-subject-to-deductibles>
+      <medicare-cost-part-a></medicare-cost-part-a>
+      <medicare-cost-not-subject-to-deductibles></medicare-cost-not-subject-to-deductibles>
+      <medicare-cost-subject-to-deductibles></medicare-cost-subject-to-deductibles>
+      <sum></sum>
+    </medicare-cost-and-limitation>
+    <medicare-cost-and-limitation>
+      <msa-code>6700</msa-code>
+      <discipline>Occupational Therapy</discipline>
+      <line-num>3</line-num>
+      <worksheet-c></worksheet-c>
+      <avg-cost-per-visit></avg-cost-per-visit>
+      <medicare-program-visit-part-a>0</medicare-program-visit-part-a>
+      <medicare-program-not-subject-to-deductibles>24</medicare-program-not-subject-to-deductibles>
+      <medicare-program-subject-to-deductibles></medicare-program-subject-to-deductibles>
+      <medicare-cost-part-a></medicare-cost-part-a>
+      <medicare-cost-not-subject-to-deductibles></medicare-cost-not-subject-to-deductibles>
+      <medicare-cost-subject-to-deductibles></medicare-cost-subject-to-deductibles>
+      <sum></sum>
+    </medicare-cost-and-limitation>
+    <medicare-cost-and-limitation>
+      <msa-code>6700</msa-code>
+      <discipline>Speech Pathology</discipline>
+      <line-num>4</line-num>
+      <worksheet-c></worksheet-c>
+      <avg-cost-per-visit></avg-cost-per-visit>
+      <medicare-program-visit-part-a>0</medicare-program-visit-part-a>
+      <medicare-program-not-subject-to-deductibles>1</medicare-program-not-subject-to-deductibles>
+      <medicare-program-subject-to-deductibles></medicare-program-subject-to-deductibles>
+      <medicare-cost-part-a></medicare-cost-part-a>
+      <medicare-cost-not-subject-to-deductibles></medicare-cost-not-subject-to-deductibles>
+      <medicare-cost-subject-to-deductibles></medicare-cost-subject-to-deductibles>
+      <sum></sum>
+    </medicare-cost-and-limitation>
+    <medicare-cost-and-limitation>
+      <msa-code>6700</msa-code>
+      <discipline>Medical Social Services</discipline>
+      <line-num>5</line-num>
+      <worksheet-c></worksheet-c>
+      <avg-cost-per-visit></avg-cost-per-visit>
+      <medicare-program-visit-part-a>1</medicare-program-visit-part-a>
+      <medicare-program-not-subject-to-deductibles>9</medicare-program-not-subject-to-deductibles>
+      <medicare-program-subject-to-deductibles></medicare-program-subject-to-deductibles>
+      <medicare-cost-part-a></medicare-cost-part-a>
+      <medicare-cost-not-subject-to-deductibles></medicare-cost-not-subject-to-deductibles>
+      <medicare-cost-subject-to-deductibles></medicare-cost-subject-to-deductibles>
+      <sum></sum>
+    </medicare-cost-and-limitation>
+    <medicare-cost-and-limitation>
+      <msa-code>6700</msa-code>
+      <discipline>Home Health Aide</discipline>
+      <line-num>6</line-num>
+      <worksheet-c></worksheet-c>
+      <avg-cost-per-visit></avg-cost-per-visit>
+      <medicare-program-visit-part-a>24</medicare-program-visit-part-a>
+      <medicare-program-not-subject-to-deductibles>13</medicare-program-not-subject-to-deductibles>
+      <medicare-program-subject-to-deductibles></medicare-program-subject-to-deductibles>
+      <medicare-cost-part-a></medicare-cost-part-a>
+      <medicare-cost-not-subject-to-deductibles></medicare-cost-not-subject-to-deductibles>
+      <medicare-cost-subject-to-deductibles></medicare-cost-subject-to-deductibles>
+      <sum></sum>
+    </medicare-cost-and-limitation>
+    <medicare-cost-and-limitation>
+      <msa-code>6700</msa-code>
+      <discipline>Total (Sum of lines 1-6)</discipline>
+      <line-num>7</line-num>
+      <worksheet-c></worksheet-c>
+      <avg-cost-per-visit></avg-cost-per-visit>
+      <medicare-program-visit-part-a>124</medicare-program-visit-part-a>
+      <medicare-program-not-subject-to-deductibles>651</medicare-program-not-subject-to-deductibles>
+      <medicare-program-subject-to-deductibles></medicare-program-subject-to-deductibles>
+      <medicare-cost-part-a></medicare-cost-part-a>
+      <medicare-cost-not-subject-to-deductibles></medicare-cost-not-subject-to-deductibles>
+      <medicare-cost-subject-to-deductibles></medicare-cost-subject-to-deductibles>
+      <sum></sum>
+    </medicare-cost-and-limitation>
+  </medicare-cost-and-limitation>
+
+  <computation-of-reimbursement-settlement type="array">
+    <computation-of-reimbursement-settlement>
+      <row-number>12</row-number>
+      <total-pps-reimbursement>Total reasonable cost (See instructions) </total-pps-reimbursement>
+      <part-a-services>0</part-a-services>
+      <part-b-services>0</part-b-services>
+      <total>12</total>
+    </computation-of-reimbursement-settlement>
+    <computation-of-reimbursement-settlement>
+      <row-number>12.01</row-number>
+      <total-pps-reimbursement>Total PPS Reimbursement - Full Episodes without Outliers</total-pps-reimbursement>
+      <part-a-services>0</part-a-services>
+      <part-b-services>0</part-b-services>
+      <total>12.01</total>
+    </computation-of-reimbursement-settlement>
+    <computation-of-reimbursement-settlement>
+      <row-number>12.02</row-number>
+      <total-pps-reimbursement>Total PPS Reimbursement - Full Episodes with Outliers</total-pps-reimbursement>
+      <part-a-services>0</part-a-services>
+      <part-b-services>0</part-b-services>
+      <total>12.02</total>
+    </computation-of-reimbursement-settlement>
+    <computation-of-reimbursement-settlement>
+      <row-number>12.03</row-number>
+      <total-pps-reimbursement>Total PPS Reimbursement - LUPA Episodes</total-pps-reimbursement>
+      <part-a-services>0</part-a-services>
+      <part-b-services>0</part-b-services>
+      <total>12.03</total>
+    </computation-of-reimbursement-settlement>
+    <computation-of-reimbursement-settlement>
+      <row-number>12.04</row-number>
+      <total-pps-reimbursement>Total PPS Reimbursement - PEP Episodes</total-pps-reimbursement>
+      <part-a-services>0</part-a-services>
+      <part-b-services>0</part-b-services>
+      <total>12.04</total>
+    </computation-of-reimbursement-settlement>
+    <computation-of-reimbursement-settlement>
+      <row-number>12.06</row-number>
+      <total-pps-reimbursement>Total PPS Reimbursement - SCIC Episodes</total-pps-reimbursement>
+      <part-a-services>0</part-a-services>
+      <part-b-services>0</part-b-services>
+      <total>12.06</total>
+    </computation-of-reimbursement-settlement>
+  </computation-of-reimbursement-settlement>
+
+</health-agency>

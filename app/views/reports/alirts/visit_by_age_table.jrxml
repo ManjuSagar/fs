@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="main_report_subreport1_subreport2" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="ba470f6c-676e-4f96-a139-cd9d81baa86b">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/alirts/patients-and-visits-by-ages/patients-and-visits-by-age]]>
+	</queryString>
+	<field name="total-patients-count" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/patients-and-visits-by-ages/total-patients-count]]></fieldDescription>
+	</field>
+	<field name="total-visits-count" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/patients-and-visits-by-ages/total-visits-count]]></fieldDescription>
+	</field>
+	<field name="age" class="java.lang.String">
+		<fieldDescription><![CDATA[age]]></fieldDescription>
+	</field>
+	<field name="patients-count" class="java.lang.Float">
+		<fieldDescription><![CDATA[patients-count]]></fieldDescription>
+	</field>
+	<field name="visits-count" class="java.lang.Float">
+		<fieldDescription><![CDATA[visits-count]]></fieldDescription>
+	</field>
+	<field name="line-number" class="java.lang.String">
+		<fieldDescription><![CDATA[line-number]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="40" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="e122a028-5bef-4149-be26-5cda8c5ac639" x="10" y="15" width="60" height="25"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Line
+No.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="8460e590-8a05-4fde-9ecb-144d60f572e3" x="70" y="15" width="140" height="25"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Age]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="e03ca5a9-703b-448a-85b1-01d77bd6335c" x="210" y="15" width="165" height="25"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[(Column 1)
+Patients]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="da50e45a-033f-4050-b4a5-f775e2bf2eaa" x="375" y="15" width="154" height="25"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Bottom">
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[(Column 2)
+Visits]]></text>
+			</staticText>
+			<frame>
+				<reportElement uuid="9659a4c6-1a47-42de-8b01-915a0eecb769" x="10" y="0" width="519" height="15"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+			</frame>
+			<staticText>
+				<reportElement uuid="e5afccd7-2f3a-4592-98c5-68e768bb7f47" x="10" y="0" width="240" height="15"/>
+				<textElement verticalAlignment="Middle">
+					<font isBold="true"/>
+					<paragraph leftIndent="4"/>
+				</textElement>
+				<text><![CDATA[PATIENTS AND VISITS BY AGE]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="20" splitType="Stretch">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="ac915045-5573-40b3-9d95-75c4b1e84bb2" x="70" y="0" width="140" height="20" isPrintWhenDetailOverflows="true"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement verticalAlignment="Middle" markup="html">
+					<paragraph leftIndent="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{age}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,###" isBlankWhenNull="true">
+				<reportElement uuid="c95f5828-c254-4313-9d23-987418f4e256" x="210" y="0" width="165" height="20"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<paragraph rightIndent="4"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{patients-count}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,###" isBlankWhenNull="true">
+				<reportElement uuid="feebca7e-da1d-4dce-96e5-e9f0e6420e22" x="375" y="0" width="154" height="20"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<paragraph rightIndent="4"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{visits-count}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="41a7f33b-463a-4db4-a43b-6c6eaae11714" x="10" y="0" width="60" height="20"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{line-number}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<summary>
+		<band height="190" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="5ac4f8b5-338e-4916-b1fa-00eb716b68bb" x="10" y="14" width="519" height="14"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[NOTE: Numbers are not correct unless Lines * and ** are zero.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="141633a3-ef29-4838-9adb-35d97f6fb917" x="10" y="32" width="100" height="15"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Instructions]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="aa0907ec-0bd0-48b6-8c36-9dc237923a87" x="28" y="55" width="300" height="15"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Lines 1 through 10: Patients And Visits By Age]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="f25aa48f-d65a-4112-a2f5-d4a42104c9b1" x="57" y="70" width="153" height="15"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Column 1: Patients]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d5785377-0013-4bd8-a0a1-7e99a1ac9873" x="57" y="85" width="482" height="32"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Enter on lines 1 through 10 the number of duplicated patients seen by your agency in each of the listed age categories. The patient is counted every time he/she is discharged and subsequently readmitted to the agency.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="f9e8496b-24cd-4e8c-ae5f-97633f77db00" x="57" y="121" width="100" height="15"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Column 2: Visits]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="46f7f313-06ab-47b5-a31e-4f0640c76ace" x="57" y="136" width="482" height="14"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Enter on lines 1 through 10 the total number of visits to your agency in each of the listed age categories.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="55693717-fc94-48e8-a2a8-d1bd70a1cedb" x="29" y="156" width="50" height="20"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Line **:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="1c18638f-6e7e-4565-908c-274d598fe527" x="73" y="156" width="435" height="33"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Is a FasterNotes generated line to show all patients that have visits with in the reporting year, but do not have an intake,admission, or plan of treatment associated with that visit. Used for purposes of correcting statistical information.]]></text>
+			</staticText>
+		</band>
+	</summary>
+</jasperReport>

@@ -1,0 +1,53 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "model": "Routesheet",
+        "storeId": "RoutesheetStore",
+        "totalCount": null,
+        "designer|userClassName": "RoutesheetStore"
+    },
+    "designerId": "ecf3a1c6-4a28-4ac8-b819-51c0f78441fb",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "batchActions": false,
+                "api": [
+                    "{",
+                    "    create  : '/app/Routesheet/create',",
+                    "    read    : '/app/Routesheet',",
+                    "    update  : '/app/Routesheet/update',",
+                    "    destroy : '/app/Routesheet/delete'",
+                    "}"
+                ]
+            },
+            "designerId": "dffa838b-253b-49c0-81fd-64887d244427",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "clientIdProperty": "id",
+                        "idProperty": "id"
+                    },
+                    "designerId": "ef00416b-5e86-401e-8475-4166ac72bf73"
+                }
+            ]
+        }
+    ]
+}

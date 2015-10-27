@@ -1,0 +1,1 @@
+Document.where(:status => "E").update_all(:status => "C")

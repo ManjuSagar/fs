@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<treatment-medication>
+  <assessment-date type="date">2013-08-20</assessment-date>
+  <discontinued-date type="date" nil="true"/>
+  <dosage>650MG</dosage>
+  <dosage-form>SUPPOSITORY; RECTAL</dosage-form>
+  <end-date type="date" nil="true"/>
+  <frequency>2wk4</frequency>
+  <id type="integer">4</id>
+  <medication-code>N</medication-code>
+  <medication-name>TYLENOL (650MG)</medication-name>
+  <medication-status type="symbol">active</medication-status>
+  <potential-side-effects>No side effects</potential-side-effects>
+  <purpose>The purpose is Protenious</purpose>
+  <start-date type="date">2013-08-20</start-date>
+  <treatment-episode-id type="integer">14</treatment-episode-id>
+  <treatment-id type="integer">22</treatment-id>
+  <visit-id type="integer" nil="true"/>
+  <medications type="array">
+    <medication>
+      <assessment-date>08/20/2013</assessment-date>
+      <medication-description>BAYER EXTRA STRENGTH ASPIRIN FOR MIGRAINE PAIN (500MG) - TABLET; ORAL - 2wk3 - (N)</medication-description>
+      <purpose>Headache relief</purpose>
+      <potential-side-effects>Tension</potential-side-effects>
+    </medication>
+    <medication>
+      <assessment-date>08/20/2013</assessment-date>
+      <medication-description>GRIFULVIN V (125MG/5ML) - SUSPENSION; ORAL - 1wk3 - (N)</medication-description>
+      <purpose>Vitamin tablet</purpose>
+      <potential-side-effects>Exhausted</potential-side-effects>
+    </medication>
+    <medication>
+      <assessment-date>08/20/2013</assessment-date>
+      <medication-description>ABACAVIR (20MG/ML) - SOLUTION; ORAL - 2wk6 - (C)</medication-description>
+      <purpose>Clear Eye sight</purpose>
+      <potential-side-effects>Fever</potential-side-effects>
+    </medication>
+    <medication>
+      <assessment-date>08/20/2013</assessment-date>
+      <medication-description>TYLENOL (650MG) - SUPPOSITORY; RECTAL - 2wk4 - (N)</medication-description>
+      <purpose>The purpose is Protenious</purpose>
+      <potential-side-effects>Fever</potential-side-effects> 
+    </medication>
+    <medication>
+      <assessment-date nil="true"/>
+      <medication-description nil="true"/>
+      <purpose nil="true"/>
+      <potential-side-effects nil="true"/>
+    </medication>
+    <medication>
+      <assessment-date nil="true"/>
+      <medication-description nil="true"/>
+      <purpose nil="true"/>
+      <potential-side-effects nil="true"/>
+    </medication>
+    <medication>
+      <assessment-date nil="true"/>
+      <medication-description nil="true"/>
+      <purpose nil="true"/>
+      <potential-side-effects nil="true"/>
+    </medication>
+    <medication>
+      <assessment-date nil="true"/>
+      <medication-description nil="true"/>
+      <purpose nil="true"/>
+      <potential-side-effects nil="true"/>
+    </medication>
+    <medication>
+      <assessment-date nil="true"/>
+      <medication-description nil="true"/>
+      <purpose nil="true"/>
+      <potential-side-effects nil="true"/>
+    </medication>
+  </medications>
+  <agency-name>GoodHealth Home Care</agency-name>
+  <agency-address>North Center Dr., 113, New York, NY, 11203</agency-address>
+  <agency-contact>Tel (212) 403-4212 | Fax (212) 403-4213</agency-contact>
+  <patient-name>tony  stark</patient-name>
+  <patient-address/>
+  <patient-contact/>
+  <allergies nil="true"/>
+  <patient-mr-number>MR # : 35</patient-mr-number>
+</treatment-medication>

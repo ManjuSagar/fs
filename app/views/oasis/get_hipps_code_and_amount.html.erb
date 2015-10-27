@@ -1,0 +1,7 @@
+<% lines = IO.readlines("#{Rails.root}/public/hipps_code.txt") %>
+<% if lines.length > 0 %>
+    <%= lines.join("\n") %><br/>
+     <b><h1>Count = <%= lines.count %> </h1></b>
+<% else %>
+   <%=  raise "Exception" %>
+<%end %>

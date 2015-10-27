@@ -1,0 +1,180 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.0.1.final using JasperReports Library version 6.0.0  -->
+<!-- 2015-03-25T13:27:47 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="msa" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="0" uuid="1be4db6b-56bd-4092-9b96-26aeda8fac84">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="New Data Adapter "/>
+	<queryString language="xPath">
+		<![CDATA[/health-agency/msa-codes-list/msa-codes-list]]>
+	</queryString>
+	<field name="msa-code" class="java.lang.String">
+		<fieldDescription><![CDATA[msa-code]]></fieldDescription>
+	</field>
+	<field name="medicare-services-area-count" class="java.lang.String">
+		<fieldDescription><![CDATA[/health-agency/medicare-services-area-count]]></fieldDescription>
+	</field>
+	<field name="repeating-county" class="java.lang.String">
+		<fieldDescription><![CDATA[repeating-county]]></fieldDescription>
+	</field>
+	<field name="msa-record-number" class="java.lang.String">
+		<fieldDescription><![CDATA[msa-record-number]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="59">
+			<staticText>
+				<reportElement x="70" y="29" width="568" height="30" uuid="61b8c63f-691d-44d3-b574-9a011c1b6667"/>
+				<box leftPadding="6">
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<paragraph leftIndent="4"/>
+				</textElement>
+				<text><![CDATA[Enter the total number of MSAs in which Medicare covered services were provided during
+the cost reporting period.]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="638" y="29" width="111" height="30" uuid="cc381e2c-a0ab-4022-9458-048fd79dabd1"/>
+				<box rightPadding="2">
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle" markup="none">
+					<paragraph rightIndent="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{medicare-services-area-count}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="0" y="29" width="70" height="30" uuid="61b8c63f-691d-44d3-b574-9a011c1b6667"/>
+				<box>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<paragraph leftIndent="4"/>
+				</textElement>
+				<text><![CDATA[28]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="749" y="29" width="53" height="30" uuid="61b8c63f-691d-44d3-b574-9a011c1b6667"/>
+				<box>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<paragraph leftIndent="4"/>
+				</textElement>
+				<text><![CDATA[28]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="0" width="190" height="15" uuid="451b3d1b-9232-4c08-a460-8a70d6375034"/>
+				<textElement verticalAlignment="Middle">
+					<font size="12"/>
+				</textElement>
+				<text><![CDATA[Worksheet S-3 Part III]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="14" width="400" height="15" uuid="6fd51538-3464-476e-a8e9-7ed4df12e3c3"/>
+				<textElement verticalAlignment="Middle"/>
+				<text><![CDATA[PART III - METROPOLITAN STATISTICAL AREA (MSA) CODE DATA]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="30">
+			<staticText>
+				<reportElement x="70" y="0" width="568" height="30" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="61b8c63f-691d-44d3-b574-9a011c1b6667">
+					<printWhenExpression><![CDATA[$F{repeating-county}.equalsIgnoreCase( "F" )]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="6">
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<paragraph leftIndent="4"/>
+				</textElement>
+				<text><![CDATA[List all MSA codes in which Medicare covered home health services were provided during
+the cost reporting period. (Line 29 contains the first code):]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="0" y="0" width="70" height="30" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="162ed10b-a404-4ad9-b17a-ca13d9cda519">
+					<printWhenExpression><![CDATA[$F{repeating-county}.equalsIgnoreCase( "F" )]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle" markup="none">
+					<paragraph leftIndent="2"/>
+				</textElement>
+				<text><![CDATA[29]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="638" y="0" width="111" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="61b8c63f-691d-44d3-b574-9a011c1b6667">
+					<printWhenExpression><![CDATA[$F{repeating-county}.equalsIgnoreCase( "F" )]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<paragraph lineSpacing="1_1_2" leftIndent="4"/>
+				</textElement>
+				<text><![CDATA[MSA Codes]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="638" y="15" width="111" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="12e1dc97-e055-4854-973a-42bb62496009"/>
+				<box rightPadding="2">
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle" markup="none">
+					<paragraph rightIndent="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{msa-code}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="749" y="15" width="53" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="f42cfa4c-f9b9-43ac-90f5-a17600ebc68c"/>
+				<box>
+					<topPen lineWidth="0.0" lineStyle="Solid" lineColor="#000000"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5" lineStyle="Solid" lineColor="#000000"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Left" verticalAlignment="Middle" markup="none">
+					<paragraph leftIndent="4"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{msa-record-number}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="749" y="0" width="53" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="e63496eb-d0dc-4f7d-8064-e687f90533ba">
+					<printWhenExpression><![CDATA[$F{repeating-county}.equalsIgnoreCase( "F" )]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle" markup="none"/>
+				<text><![CDATA[]]></text>
+			</staticText>
+		</band>
+	</detail>
+</jasperReport>

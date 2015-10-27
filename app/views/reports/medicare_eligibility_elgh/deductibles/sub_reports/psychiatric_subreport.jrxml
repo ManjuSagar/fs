@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="psychiatric_subreport" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="99bddab5-f06b-4853-8b73-80fabc7717e7">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/elgh-response/beneficiary-information/psychiatric-deductibles/psychiatric-deductible]]>
+	</queryString>
+	<field name="deductible-year" class="java.lang.String">
+		<fieldDescription><![CDATA[deductible-year]]></fieldDescription>
+	</field>
+	<field name="psychiatric-used" class="java.lang.Float">
+		<fieldDescription><![CDATA[psychiatric-used]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="36" splitType="Stretch">
+			<printWhenExpression><![CDATA[$F{deductible-year}!=null ||
+$F{psychiatric-used}!=null]]></printWhenExpression>
+			<staticText>
+				<reportElement uuid="3a578336-25ae-43e2-834c-6b9ffe739c10" mode="Opaque" x="5" y="19" width="340" height="15" backcolor="#F0ECEC"/>
+				<textElement>
+					<font isBold="true"/>
+					<paragraph leftIndent="1"/>
+				</textElement>
+				<text><![CDATA[Deductible Year]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d3f199fd-daca-4093-b780-4d3c5d8028bd" mode="Opaque" x="345" y="19" width="198" height="15" backcolor="#F0ECEC"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Psychiatric Used]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="ac3c7755-bb2c-4310-b508-302fc51b02c5" mode="Opaque" x="0" y="0" width="555" height="15" backcolor="#DFD4D4"/>
+				<textElement>
+					<font size="11" isBold="true"/>
+					<paragraph leftIndent="1"/>
+				</textElement>
+				<text><![CDATA[Psychiatric Rehabilitation]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="16" splitType="Stretch">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="a383c98a-5bd4-4873-b675-65de1ef93a26" x="5" y="1" width="193" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{deductible-year}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" pattern="$#,##0.00" isBlankWhenNull="true">
+				<reportElement uuid="473b7bc3-3129-433a-9858-4d0ab9737557" x="345" y="1" width="198" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{psychiatric-used}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

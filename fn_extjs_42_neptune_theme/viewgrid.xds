@@ -1,0 +1,62 @@
+{
+    "name": "viewgrid",
+    "settings": {
+        "cmd": {
+            "license": "commercial",
+            "cmdVersion": "4.0.4.84",
+            "frameworkVersion": "4.2.1.883"
+        },
+        "canvasControls": {
+            "viewportSize": {
+                "name": "Auto Expand",
+                "builtIn": true,
+                "height": null,
+                "width": null
+            }
+        },
+        "urlPrefix": "http://localhost:8080",
+        "exportPath": "/root/Desktop/EXTJS",
+        "buildShouldOverwriteIndex": true,
+        "generateArchitectVersion": true,
+        "spacesToIndent": 4,
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "customPath": "",
+        "sdkPath": "",
+        "displayfield-ExtBox1-1550-inputEl": "Not Installed",
+        "lastBuildSelection": {
+            "value": "webBuild",
+            "display": "Build web app"
+        },
+        "displayfield-ExtBox1-1782-inputEl": "Not Installed",
+        "displayfield-ExtBox1-1832-inputEl": "Not Installed"
+    },
+    "xdsVersion": "3.0.4",
+    "xdsBuild": 1386,
+    "schemaVersion": 1,
+    "upgradeVersion": 300000000004,
+    "framework": "ext42",
+    "viewOrderMap": {
+        "view": [
+            "096e629d-ed8d-43da-ae6e-ca07f9bc1ffb",
+            "485d9b1e-f984-4a13-bf44-c0622a7d6cdb",
+            "4a50c666-2fc9-4803-8988-6fff35bc5cd5"
+        ],
+        "store": [
+            "3f905043-4520-4e6b-ae78-66d41ec8c975"
+        ],
+        "controller": [],
+        "model": [
+            "f0354493-fb11-4c40-ac74-6ebb52a7a20a"
+        ],
+        "resource": [
+            "ef38fc0e-3f03-49e9-8a3d-3272e3c625b2",
+            "8a7c36b1-63bb-4377-8f26-5f83b8f4f694",
+            "37059f41-1d5b-498a-9a57-7968eb06786a"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

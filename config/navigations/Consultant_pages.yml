@@ -1,0 +1,11 @@
+default: ConsltntClaims
+pages:
+
+  -
+    text: Claims
+    class_name: ConsltntClaims
+    icon: user_suit
+  -
+    text: Profile
+    class_name: ConsltntProfExplr
+    icon: user_suit

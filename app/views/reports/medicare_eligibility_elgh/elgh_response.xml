@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<elgh-response>
+  <sub-report-url>/home/msuser1/workspace/git_repos/fasternotes/app/views/reports/medicare_eligibility_elgh/</sub-report-url>
+  <provider-address-line1>4929 Wilshire Blvd., Suite 945 </provider-address-line1>
+  <provider-address-line2>4929 Wilshire Blvd., Suite 945 </provider-address-line2>
+  <provider-contact>12334567790</provider-contact>
+  <beneficiary-information>
+    <beneficiary>
+      <first-name>Alan</first-name>
+      <last-name>Wilkins</last-name>
+      <date-of-birth>01/11/1981</date-of-birth>
+      <sex>Male</sex>
+      <hicn>981-23-4456A1</hicn>
+      <requested-dates>10/30/2009</requested-dates>
+      <agency-name>METRO HEALTH AGENCY</agency-name>
+    </beneficiary>
+    <beneficiary-address-details>
+      <address-line-1>800 N.Kings Rd</address-line-1>
+      <address-line-2>Apartment 105</address-line-2>
+      <city>West Hollywood</city>
+      <state>West Hollywood</state>
+      <zip-code>90013</zip-code>
+    </beneficiary-address-details>
+    <date-of-death></date-of-death>
+    <current-entitlement>
+      <part-a-eligibility>
+        <part-a-effective-date>01/22/2014</part-a-effective-date>
+        <part-a-termination-date>01/22/2018</part-a-termination-date>
+      </part-a-eligibility>
+      <part-b-eligibility>
+        <part-b-effective-date>01/22/2014</part-b-effective-date>
+        <part-b-termination-date>01/22/2018</part-b-termination-date>
+      </part-b-eligibility>
+    </current-entitlement>
+    <inactive-periods>
+      <part-a-inactive-periods>
+        <part-a-inactive-period>
+          <effective-date>01/22/2014</effective-date>
+          <termination-date>01/22/2018</termination-date>
+        </part-a-inactive-period>
+      </part-a-inactive-periods>
+      <part-b-inactive-periods>
+        <part-b-inactive-period>
+          <effective-date>01/22/2014</effective-date>
+          <termination-date>01/22/2018</termination-date>
+        </part-b-inactive-period>
+      </part-b-inactive-periods>
+      <inactive-date-due-to-death></inactive-date-due-to-death>
+    </inactive-periods>
+    <esrd-details>
+      <esrd-detail>
+        <esrd-code>E1234</esrd-code>
+        <esrd-code-effective-date>02/03/2011</esrd-code-effective-date>
+        <transplant-discharge-date>02/03/2011</transplant-discharge-date>
+      </esrd-detail>
+      <esrd-detail>
+        <esrd-code></esrd-code>
+        <esrd-code-effective-date></esrd-code-effective-date>
+        <transplant-discharge-date></transplant-discharge-date>
+      </esrd-detail>
+    </esrd-details>
+    <part-a-deductibles>
+      <part-a-deductible>
+        <deductible-year>01/01/2009 - 12/31/2009</deductible-year>
+        <cash-deductible-remaining>135.50</cash-deductible-remaining>
+        <base-amount-deductible-for-year>1234.90</base-amount-deductible-for-year>
+        <doeba></doeba>
+        <dolba></dolba>
+      </part-a-deductible>
+    </part-a-deductibles>
+    <part-b-deductibles>
+      <part-b-deductible>
+        <deductible-year>01/01/2009 - 12/31/2009</deductible-year>
+        <cash-deductible-remaining>135.50</cash-deductible-remaining>
+        <base-amount-deductible-for-year></base-amount-deductible-for-year>
+        <hcpcs>1AFKS</hcpcs>
+      </part-b-deductible>
+    </part-b-deductibles>
+    <coinsurance-details>
+      <co-insurance-detail>
+        <co-insurance-percent>.2</co-insurance-percent>
+        <co-insurance-type>Plan Level</co-insurance-type>
+        <start-date>01/01/2014</start-date>
+        <end-date>12/31/2014</end-date>
+        <hcpcs nil="true"/>
+      </co-insurance-detail>
+    </coinsurance-details>
+    <blood-deductibles>
+      <blood-deductible>
+        <deductible-year>01/01/2009 - 12/31/2009</deductible-year>
+        <base-units-per-year></base-units-per-year>
+        <blood-deductibles-units-remaining>4</blood-deductibles-units-remaining>
+      </blood-deductible>
+    </blood-deductibles>
+    <occupational-deductibles>
+      <occupational-deductible>
+        <deductible-year>01/01/2009 - 12/31/2009</deductible-year>
+        <occupational-therapy-remaining>1840.00</occupational-therapy-remaining>
+      </occupational-deductible>
+    </occupational-deductibles>
+    <physical-and-speech-therapy-caps>
+      <physical-and-speech-therapy-cap>
+        <deductible-year>01/01/2009 - 12/31/2009</deductible-year>
+        <physical-therapy-remaining>1670.00</physical-therapy-remaining>
+      </physical-and-speech-therapy-cap>
+    </physical-and-speech-therapy-caps>
+    <psychiatric-deductibles>
+      <psychiatric-deductible>
+        <deductible-year>01/01/2009 - 12/31/2009</deductible-year>
+        <psychiatric-used>123.00</psychiatric-used>
+      </psychiatric-deductible>
+    </psychiatric-deductibles>
+  </beneficiary-information>
+
+
+  <rehabilitation-sessions>
+    <pulmonary-rehabilitation-sessions-remaining>
+      <hcpcs-codes>
+        <hcpcs>1AFKS</hcpcs>
+      </hcpcs-codes>
+      <technical-sessions></technical-sessions>
+      <professional-sessions></professional-sessions>
+    </pulmonary-rehabilitation-sessions-remaining>
+
+    <cardiac-rehabilitation-sessions-applied>
+      <hcpcs-codes>
+        <hcpcs>1BGKS</hcpcs>
+      </hcpcs-codes>
+      <technical-sessions></technical-sessions>
+      <professional-sessions></professional-sessions>
+    </cardiac-rehabilitation-sessions-applied>
+
+    <intensive-cardiac-rehabilitation-sessions-applied>
+      <hcpcs-codes>
+        <hcpcs>1AFKT</hcpcs>        
+      </hcpcs-codes>
+      <technical-sessions></technical-sessions>
+      <professional-sessions></professional-sessions>
+    </intensive-cardiac-rehabilitation-sessions-applied>
+  </rehabilitation-sessions>
+
+  <smoking-cessation>
+    <counselling-periods>
+      <counselling-period>
+        <total-sessions>5</total-sessions>
+        <number-of-remaining-sessions>2</number-of-remaining-sessions>
+        <next-session-date>01/16/2013</next-session-date>
+      </counselling-period>
+    </counselling-periods>
+    <counselling-sessions>
+      <session>
+        <hcpcs></hcpcs>
+        <from-date></from-date>
+        <to-date></to-date>
+        <period></period>
+        <quantity></quantity>
+        <type></type>
+      </session>
+    </counselling-sessions>
+  </smoking-cessation>
+
+  <preventive-services>
+    <preventive-service>
+      <category>Health</category>
+      <hcpcs>1BGKS</hcpcs>
+      <technical-date>05/18/2014</technical-date>
+      <professional-date>08/18/2014</professional-date>
+    </preventive-service>
+  </preventive-services>
+
+  <plan-information>
+    <hmo-plans>
+      <hmo-plan>
+        <type>Indemnity</type>
+        <plan-name>Indemnity</plan-name>
+        <id-code-and-contractor-number>12345 C1324</id-code-and-contractor-number>
+        <option-code>IN</option-code>
+        <effective-date>01/01/2009</effective-date>
+        <termination-date>01/01/2010</termination-date>
+        <contract-website-address>www.lic.com</contract-website-address>
+        <phone-number>4398598989</phone-number>
+        <ma-enrollment-date></ma-enrollment-date>
+        <address-line-1>203, West 3rd Street</address-line-1>
+        <address-line-2>456 suite</address-line-2>
+        <city>Los Angeles</city>
+        <state>CA</state>
+        <zip-code>90013</zip-code>
+      </hmo-plan>
+    </hmo-plans>
+  </plan-information>
+
+
+  <medicare-secondary-payers>
+    <medicare-secondary-payer>
+      <subscriber>
+        <effective-date>06/24/2012</effective-date>
+        <termination-date>06/24/2013</termination-date>
+        <policy-number>656453</policy-number>
+        <msp-code></msp-code>
+      </subscriber>
+      <insurer>
+        <name>Kimberly</name>
+        <address-line-1>N.Kings Wood</address-line-1>
+        <address-line-2>Suite 123</address-line-2>
+        <city>Los Angeles</city>
+        <state>California</state>
+        <zip-code>90013</zip-code>
+      </insurer>
+    </medicare-secondary-payer>
+  </medicare-secondary-payers>
+
+  <hospice-benefit-periods>
+    <hospice-benefit-period>
+      <period>10</period>
+      <start-date>01/10/2014</start-date>
+      <termination-date>01/11/2014</termination-date>
+      <provider-id>345-6789012</provider-id>
+      <revocation-indicator>234</revocation-indicator>
+      <hospice-occurence-count>42</hospice-occurence-count>
+    </hospice-benefit-period>
+  </hospice-benefit-periods>
+
+  <home-health-benefit-periods>
+    <home-health-benefit-period>
+      <earliest-billing-date>01/10/2014</earliest-billing-date>
+      <latest-billing-date>01/10/2014</latest-billing-date>
+    </home-health-benefit-period>
+  </home-health-benefit-periods>
+
+  <home-health-episodes>
+    <home-health-episode>
+      <start-date>01/23/2013</start-date>
+      <end-date>06/23/2013</end-date>
+      <intermediary-number>8676876</intermediary-number>
+      <provider-number>5765765</provider-number>
+      <contractor-name>Good Health</contractor-name>
+      <patient-status-code></patient-status-code>
+      <valid-cancel-indicator></valid-cancel-indicator>
+    </home-health-episode>
+  </home-health-episodes>
+
+
+  <home-health-certifications>
+    <plan-of-care-certifications>
+      <plan-of-care-certification>
+        <record-number>42</record-number>
+        <hcpcs>G0180</hcpcs>
+        <from-date>01/14/2013</from-date>
+      </plan-of-care-certification>
+      <plan-of-care-certification>
+        <record-number>33</record-number>
+        <hcpcs>G0180</hcpcs>
+        <from-date>02/16/2014</from-date>
+      </plan-of-care-certification>
+    </plan-of-care-certifications>
+  </home-health-certifications>
+
+  <home-health-recertifications>
+    <plan-of-care-recertifications>
+      <plan-of-care-recertification>
+        <record-number>25</record-number>
+        <hcpcs>G0179</hcpcs>
+        <from-date>02/17/2013</from-date>
+      </plan-of-care-recertification>
+      <plan-of-care-recertification>
+        <record-number>31</record-number>
+        <hcpcs>G0179</hcpcs>
+        <from-date>03/17/2013</from-date>
+      </plan-of-care-recertification>
+    </plan-of-care-recertifications>
+  </home-health-recertifications>
+
+  <current-benefit-periods>
+    <inpatient-hospital-details>
+      <inpatient-hospital-detail>
+        <calendar-year>12/25/2013-01/01/2014</calendar-year>
+        <co-insurance-amount>19</co-insurance-amount>
+        <max-allowed-days>5</max-allowed-days>
+        <remaining-days>1</remaining-days>
+        <earliest-billing-date>12/25/2013</earliest-billing-date>
+        <latest-billing-date>01/01/2014</latest-billing-date>
+      </inpatient-hospital-detail>
+    </inpatient-hospital-details>
+
+    <snf-details>
+      <snf-detail>
+        <calendar-year>12/25/2013-01/01/2014</calendar-year>
+        <co-insurance-amount>10</co-insurance-amount>
+        <max-allowed-days>5</max-allowed-days>
+        <remaining-days>3</remaining-days>
+        <earliest-billing-date>12/25/2013</earliest-billing-date>
+        <latest-billing-date>01/01/2014</latest-billing-date>
+      </snf-detail>
+    </snf-details>
+
+    <life-time-reserve-days-details>
+      <life-time-reserve-days-detail>
+        <calendar-year>12/25/2013-01/01/2014</calendar-year>
+        <co-insurance-amount>10</co-insurance-amount>
+        <max-allowed-days>5</max-allowed-days>
+        <remaining-days>2</remaining-days>
+      </life-time-reserve-days-detail>
+    </life-time-reserve-days-details>
+
+    <pshychiatric-limitation-days-details>
+      <pshychiatric-limitation-days-detail>
+        <base-days>10</base-days>
+        <remaining-days>5</remaining-days>
+      </pshychiatric-limitation-days-detail>
+    </pshychiatric-limitation-days-details>
+
+  </current-benefit-periods>
+</elgh-response>

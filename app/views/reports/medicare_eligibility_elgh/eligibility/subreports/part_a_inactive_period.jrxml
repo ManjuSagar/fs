@@ -1,0 +1,63 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="inactive_periods_subreport" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="29307779-ff75-4f04-9b47-2bdc3d340a5f">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/elgh-response/beneficiary-information/inactive-periods/part-a-inactive-periods/part-a-inactive-period]]>
+	</queryString>
+	<field name="effective-date" class="java.lang.String">
+		<fieldDescription><![CDATA[effective-date]]></fieldDescription>
+	</field>
+	<field name="termination-date" class="java.lang.String">
+		<fieldDescription><![CDATA[termination-date]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="38" splitType="Prevent">
+			<printWhenExpression><![CDATA[$F{effective-date}!=null ||
+$F{termination-date}!=null]]></printWhenExpression>
+			<staticText>
+				<reportElement uuid="38cf5c99-ed2f-40f7-9b8c-b2deb27aafb2" mode="Opaque" x="3" y="23" width="343" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" backcolor="#F0ECEB"/>
+				<textElement>
+					<font size="10" isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Effective Date]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="7d1e1fa3-282b-4407-b2b1-6fd2e10794d0" mode="Opaque" x="345" y="23" width="150" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" backcolor="#F0ECEC"/>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Termination Date]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="208b2504-c14d-42c2-a7b1-22333406a9f5" mode="Opaque" x="1" y="1" width="554" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" backcolor="#DFD5D5"/>
+				<textElement>
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Inactive Periods]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="18" splitType="Prevent">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="b2efe507-e595-4f1b-9287-a935e8b6ff45" x="3" y="0" width="100" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Left">
+					<font size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{effective-date}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="64516613-8c7f-4c62-95c5-4c027a591b00" x="345" y="0" width="150" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{termination-date}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

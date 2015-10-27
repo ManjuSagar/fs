@@ -1,0 +1,236 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="expected_receive_date" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="0c32e50e-3a30-42de-abc0-1173b9e23663">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/billed-claims/invoices/invoice]]>
+	</queryString>
+	<field name="patient-name-and-mr-number" class="java.lang.String">
+		<fieldDescription><![CDATA[patient-name-and-mr-number]]></fieldDescription>
+	</field>
+	<field name="soc-date" class="java.lang.String">
+		<fieldDescription><![CDATA[soc-date]]></fieldDescription>
+	</field>
+	<field name="episode" class="java.lang.String">
+		<fieldDescription><![CDATA[episode]]></fieldDescription>
+	</field>
+	<field name="claim-type" class="java.lang.String">
+		<fieldDescription><![CDATA[claim-type]]></fieldDescription>
+	</field>
+	<field name="sent-date" class="java.lang.String">
+		<fieldDescription><![CDATA[sent-date]]></fieldDescription>
+	</field>
+	<field name="expected-date" class="java.lang.String">
+		<fieldDescription><![CDATA[expected-date]]></fieldDescription>
+	</field>
+	<field name="total-amount" class="java.lang.Float">
+		<fieldDescription><![CDATA[total-amount]]></fieldDescription>
+	</field>
+	<field name="expected-amount" class="java.lang.Float">
+		<fieldDescription><![CDATA[expected-amount]]></fieldDescription>
+	</field>
+	<variable name="TOTAL_GROUP_AMT" class="java.lang.Float" resetType="Group" resetGroup="expected_receive_date" calculation="Sum">
+		<variableExpression><![CDATA[$F{expected-amount}]]></variableExpression>
+	</variable>
+	<variable name="SUMMARY_TOTAL" class="java.lang.Float" calculation="Sum">
+		<variableExpression><![CDATA[$F{expected-amount}]]></variableExpression>
+	</variable>
+	<variable name="SUMMARY_COUNT" class="java.lang.String" calculation="Count">
+		<variableExpression><![CDATA[$V{COLUMN_COUNT}]]></variableExpression>
+	</variable>
+	<group name="expected_receive_date">
+		<groupExpression><![CDATA[$F{expected-date}]]></groupExpression>
+		<groupHeader>
+			<band height="32">
+				<staticText>
+					<reportElement uuid="6210d762-4a44-472f-a85f-d6b84a4b8051" x="319" y="17" width="56" height="14"/>
+					<textElement verticalAlignment="Middle">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<text><![CDATA[Sent Date]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="6210d762-4a44-472f-a85f-d6b84a4b8051" x="443" y="17" width="53" height="14"/>
+					<textElement verticalAlignment="Middle">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<text><![CDATA[Total]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="6210d762-4a44-472f-a85f-d6b84a4b8051" x="103" y="17" width="41" height="14"/>
+					<textElement verticalAlignment="Middle">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<text><![CDATA[SOC]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="6210d762-4a44-472f-a85f-d6b84a4b8051" x="165" y="17" width="97" height="14"/>
+					<textElement verticalAlignment="Middle">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<text><![CDATA[Episode]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="6210d762-4a44-472f-a85f-d6b84a4b8051" x="2" y="17" width="86" height="14"/>
+					<textElement verticalAlignment="Middle">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<text><![CDATA[Patient]]></text>
+				</staticText>
+				<textField>
+					<reportElement uuid="007661f2-8f6a-40ae-90c4-e7f1b453db28" x="2" y="1" width="301" height="14"/>
+					<textElement verticalAlignment="Middle" markup="html">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<textFieldExpression><![CDATA["EXPECTED RECEIVE DATE " + $F{expected-date}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement uuid="6210d762-4a44-472f-a85f-d6b84a4b8051" x="381" y="17" width="59" height="14"/>
+					<textElement verticalAlignment="Middle">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<text><![CDATA[Exp Date]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="6210d762-4a44-472f-a85f-d6b84a4b8051" x="496" y="17" width="51" height="14"/>
+					<textElement verticalAlignment="Middle">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<text><![CDATA[Expected]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="6210d762-4a44-472f-a85f-d6b84a4b8051" x="283" y="17" width="34" height="14"/>
+					<textElement textAlignment="Center" verticalAlignment="Middle">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<text><![CDATA[Claim]]></text>
+				</staticText>
+				<line>
+					<reportElement uuid="61bee508-342a-4b8d-92eb-ac264b291522" x="2" y="30" width="552" height="1"/>
+				</line>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band height="15">
+				<textField>
+					<reportElement uuid="2450a8ae-78f2-43b3-a4f2-e68ab4a7186d" x="443" y="0" width="52" height="14"/>
+					<textElement verticalAlignment="Middle">
+						<font size="9" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{expected_receive_date_COUNT} + " Claim(s)"]]></textFieldExpression>
+				</textField>
+				<textField pattern="$ #,###.00">
+					<reportElement uuid="2450a8ae-78f2-43b3-a4f2-e68ab4a7186d" x="477" y="0" width="77" height="14"/>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font size="9" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{TOTAL_GROUP_AMT}]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupFooter>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="16" splitType="Stretch">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="1c8048a6-c170-4068-b5ff-3605a9fc9603" x="3" y="1" width="100" height="14"/>
+				<textElement verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{patient-name-and-mr-number}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="80423d4d-3e75-4c65-8d9e-645b3f1e4417" x="104" y="1" width="60" height="14"/>
+				<textElement verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{soc-date}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="af3e71a9-f698-4583-83fd-55659e0f9494" x="166" y="1" width="122" height="14"/>
+				<textElement verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{episode}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="c85efb0d-0afa-4dd6-a20b-1400556b4e49" x="283" y="1" width="37" height="14"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{claim-type}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="0865a950-aab0-4262-a7d4-a82d8eaf934d" x="320" y="1" width="60" height="14"/>
+				<textElement verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{sent-date}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="1321b6c3-a89b-47d0-b75c-509157c09fcc" x="382" y="1" width="60" height="14"/>
+				<textElement verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{expected-date}]]></textFieldExpression>
+			</textField>
+			<textField pattern="$ #,###.00" isBlankWhenNull="true">
+				<reportElement uuid="005aee11-341f-4538-a4fd-d1748ad538b8" x="440" y="1" width="58" height="14"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{total-amount}]]></textFieldExpression>
+			</textField>
+			<textField pattern="$ #,###.00" isBlankWhenNull="true">
+				<reportElement uuid="2e5cc994-a9de-456e-8026-49b2e741f944" x="495" y="1" width="58" height="14"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{expected-amount}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<lastPageFooter>
+		<band height="27">
+			<textField>
+				<reportElement uuid="844a3e7b-388a-4355-bb99-99416e0ecc3e" x="433" y="13" width="62" height="12"/>
+				<textElement verticalAlignment="Top">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{SUMMARY_COUNT} + " Claim(s)"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" evaluationTime="Report" pattern="$ #,###.00" isBlankWhenNull="true">
+				<reportElement uuid="1a035505-7a43-4886-923d-666709da3c76" x="480" y="13" width="73" height="12"/>
+				<textElement textAlignment="Right" verticalAlignment="Top">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{SUMMARY_TOTAL}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="9e7dbb5f-5d8f-4c34-8d8f-e382ed4cc5fb" x="396" y="13" width="30" height="12"/>
+				<textElement verticalAlignment="Top">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Total]]></text>
+			</staticText>
+			<line>
+				<reportElement uuid="61bee508-342a-4b8d-92eb-ac264b291522" x="2" y="11" width="552" height="1"/>
+				<graphicElement>
+					<pen lineWidth="1.1"/>
+				</graphicElement>
+			</line>
+		</band>
+	</lastPageFooter>
+</jasperReport>

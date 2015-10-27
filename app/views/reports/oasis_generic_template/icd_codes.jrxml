@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="icd_codes" language="groovy" pageWidth="593" pageHeight="842" columnWidth="593" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="97c19133-e866-47e3-a16a-57c0368a8b1c">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/document/icd-codes-display/icd-codes-display]]>
+	</queryString>
+	<field name="field" class="java.lang.String">
+		<fieldDescription><![CDATA[field]]></fieldDescription>
+	</field>
+	<field name="code" class="java.lang.String">
+		<fieldDescription><![CDATA[code]]></fieldDescription>
+	</field>
+	<field name="description" class="java.lang.String">
+		<fieldDescription><![CDATA[description]]></fieldDescription>
+	</field>
+	<field name="severity" class="java.lang.String">
+		<fieldDescription><![CDATA[severity]]></fieldDescription>
+	</field>
+	<field name="display-value" class="java.lang.String">
+		<fieldDescription><![CDATA[display-value]]></fieldDescription>
+	</field>
+	<variable name="FIELD_GROUP_COUNT" class="java.lang.Integer" resetType="Group" resetGroup="icd_codes" calculation="Count">
+		<variableExpression><![CDATA[$F{field}]]></variableExpression>
+	</variable>
+	<group name="icd_codes">
+		<groupExpression><![CDATA[$F{field}]]></groupExpression>
+		<groupHeader>
+			<band height="5"/>
+		</groupHeader>
+		<groupFooter>
+			<band/>
+		</groupFooter>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="12">
+			<staticText>
+				<reportElement uuid="e744fe98-726d-4948-8ca2-cb129de1962d" x="71" y="0" width="29" height="12"/>
+				<box>
+					<bottomPen lineWidth="0.0"/>
+				</box>
+				<textElement>
+					<font isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[Code]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b2405cbc-e47d-4c62-994e-6bf688967aaf" x="136" y="0" width="66" height="12"/>
+				<box>
+					<bottomPen lineWidth="0.0"/>
+				</box>
+				<textElement>
+					<font isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[Description]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="0e382197-8160-4479-99cc-b8e23803464c" x="515" y="0" width="55" height="12"/>
+				<box>
+					<bottomPen lineWidth="0.0"/>
+				</box>
+				<textElement>
+					<font isBold="true" isUnderline="true"/>
+				</textElement>
+				<text><![CDATA[Severity]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="13">
+			<elementGroup>
+				<textField isStretchWithOverflow="true">
+					<reportElement uuid="ca00a64a-9b22-44d6-b9f7-00c9e1e8bb74" positionType="Float" stretchType="RelativeToTallestObject" x="0" y="0" width="46" height="12">
+						<printWhenExpression><![CDATA[$V{FIELD_GROUP_COUNT} == 1]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font isBold="false"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{field}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement uuid="7ecb55c9-7780-4735-add6-84e70dbefe4a" positionType="Float" stretchType="RelativeToTallestObject" x="46" y="0" width="25" height="12"/>
+					<textElement/>
+					<textFieldExpression><![CDATA[$F{display-value}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement uuid="85d667f4-04e9-49b1-a360-2d7322b6f4b8" positionType="Float" stretchType="RelativeToTallestObject" x="515" y="0" width="55" height="12"/>
+					<textElement textAlignment="Center"/>
+					<textFieldExpression><![CDATA[$F{severity}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement uuid="93989e84-4cc2-41e4-911f-653d2298ad9d" positionType="Float" stretchType="RelativeToTallestObject" x="136" y="0" width="350" height="12"/>
+					<textElement/>
+					<textFieldExpression><![CDATA[$F{description}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true">
+					<reportElement uuid="93a1c233-7e5e-4577-a9f9-ff88440da42a" positionType="Float" stretchType="RelativeToTallestObject" x="71" y="0" width="51" height="12"/>
+					<textElement/>
+					<textFieldExpression><![CDATA[$F{code}]]></textFieldExpression>
+				</textField>
+			</elementGroup>
+		</band>
+	</detail>
+</jasperReport>

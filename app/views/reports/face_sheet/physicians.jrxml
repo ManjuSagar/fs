@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="physicians" language="groovy" pageWidth="595" pageHeight="792" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="10" bottomMargin="0" uuid="09e8871e-dfee-4f67-b6ef-b06d0c432752">
+	<property name="ireport.zoom" value="1.1000000000000008"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/patient/physicians/physician]]>
+	</queryString>
+	<field name="name" class="java.lang.String">
+		<fieldDescription><![CDATA[name]]></fieldDescription>
+	</field>
+	<field name="address" class="java.lang.String">
+		<fieldDescription><![CDATA[address]]></fieldDescription>
+	</field>
+	<field name="phone" class="java.lang.String">
+		<fieldDescription><![CDATA[phone]]></fieldDescription>
+	</field>
+	<field name="fax" class="java.lang.String">
+		<fieldDescription><![CDATA[fax]]></fieldDescription>
+	</field>
+	<field name="npi" class="java.lang.String">
+		<fieldDescription><![CDATA[npi]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="31">
+			<staticText>
+				<reportElement uuid="317acccf-30bc-44a9-a6d2-151eeb9972e0" x="209" y="1" width="137" height="12"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[PHYSICIANS]]></text>
+			</staticText>
+			<line>
+				<reportElement uuid="43b4d278-bf83-4895-a51d-24315e0640ba" x="3" y="14" width="550" height="1"/>
+			</line>
+			<staticText>
+				<reportElement uuid="14aef949-e4fe-4072-becc-38190dd081ff" x="3" y="16" width="120" height="12"/>
+				<textElement textAlignment="Left">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="dd176875-23f8-409d-8371-6b47f676f02e" x="199" y="16" width="86" height="12"/>
+				<textElement textAlignment="Left">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Phone]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="5ee7bcdf-d5df-4ef0-8e16-7fcdedefd5db" x="285" y="16" width="80" height="12"/>
+				<textElement textAlignment="Left">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Fax]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="979525c5-b9b4-4716-9586-f58aa4108d1c" x="123" y="16" width="76" height="12"/>
+				<textElement textAlignment="Left">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[NPI]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="f68e95e4-8ef4-4f66-9549-b18860cc530a" x="369" y="16" width="185" height="12"/>
+				<textElement textAlignment="Left">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Address]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="14">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="7b3c2ed0-e1e1-4c37-b577-0458d3101e09" x="3" y="1" width="120" height="12"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="c67e3de8-e2fd-4b55-a62a-6cb5c4335995" x="369" y="1" width="185" height="12"/>
+				<textElement>
+					<paragraph rightIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{address}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="fecc0874-cc64-4dd6-87e6-ea23419bd3f0" x="199" y="1" width="86" height="12"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{phone}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="0aa1153b-0c6e-4677-9bba-5df2962abe92" x="123" y="1" width="76" height="12"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{npi}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="4d6e9b12-4cad-47ad-9831-884a6d79a2f0" x="285" y="1" width="80" height="12" isRemoveLineWhenBlank="true"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{fax}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="5">
+			<line>
+				<reportElement uuid="43b4d278-bf83-4895-a51d-24315e0640ba" x="3" y="1" width="551" height="1"/>
+			</line>
+		</band>
+	</columnFooter>
+</jasperReport>

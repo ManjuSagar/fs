@@ -1,0 +1,161 @@
+{
+    "type": "Ext.data.Model",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyModel"
+    },
+    "designerId": "f0354493-fb11-4c40-ac74-6ebb52a7a20a",
+    "cn": [
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "PatientName"
+            },
+            "designerId": "a388d646-68c2-43c0-b486-b21a59466b07"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Date"
+            },
+            "designerId": "94071b8b-31b9-4825-b1f1-a28049fd8598"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "",
+                "name": "Discipline"
+            },
+            "designerId": "839bb28b-f8a7-438a-837f-3c30f02437c2"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "",
+                "name": "StaffingSymbol"
+            },
+            "designerId": "c8fef7c9-869f-4d13-9e82-488e0048765a"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|displayName": "",
+                "name": "ReferralSymbol"
+            },
+            "designerId": "2bd17798-1fed-454e-a666-261e686dd6a4"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "SOC"
+            },
+            "designerId": "37e9b1c0-95ac-487f-afe2-56e29bf66f8d"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "POC"
+            },
+            "designerId": "25361a7f-7266-4931-a44c-5d2ed48c0679"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "RAP"
+            },
+            "designerId": "8c48dba8-f27f-4132-94e7-777f13d99dc8"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Docs"
+            },
+            "designerId": "2a5e38a4-1672-4788-8c66-0009cd40c818"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "Orders"
+            },
+            "designerId": "99d45a8d-0b6e-4b78-a48e-e82f83e3b4db"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "DC/RC"
+            },
+            "designerId": "8fc7fb6e-69ff-4618-9589-9e932a99286c"
+        },
+        {
+            "type": "Ext.data.Field",
+            "reference": {
+                "name": "fields",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "name": "FC"
+            },
+            "designerId": "40b97fe3-983d-4ab2-a93e-e0bf2e1b64fc"
+        }
+    ]
+}

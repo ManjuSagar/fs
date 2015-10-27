@@ -1,0 +1,33 @@
+--- 
+wmsdk: Windows Mobile 6 Professional SDK (ARMV4I)
+applog: rholog.txt
+vendor: rhomobile
+wp: 
+  productid: 7a103640-ad97-012f-5b14-60c5470696ac
+extensions: 
+- json
+- net-http
+- timeout
+- uri
+- zlib
+#sdk: /Users/karthik/workspace/rhodes35
+android: 
+  version: 4.1
+  vendor: fasternotes
+version: 1.0
+build: debug
+capabilities: 
+- camera
+sdkversion: 3.2.0
+iphone: 
+  configuration: Release
+  codesignidentity: "iPhone Distribution: Mahaswami Software Pvt. Ltd. (Y2R865659B)"
+  sdk: iphonesimulator6.1
+  provisionprofile: 5935EE64-1D94-4963-A150-04EE1EAD68C9
+  BundleURLScheme: fasternotes
+  BundleIdentifier: com.mahaswami.fasternotes
+  entitlements: 
+name: FasterNotes
+bbver: 4.6
+symbian: 
+  uid: "0xef25777e"

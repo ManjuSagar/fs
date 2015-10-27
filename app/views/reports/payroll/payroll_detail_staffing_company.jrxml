@@ -1,0 +1,339 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report3" language="groovy" pageWidth="612" pageHeight="792" columnWidth="559" leftMargin="30" rightMargin="23" topMargin="20" bottomMargin="20" uuid="593b4459-3caa-410b-b84c-038a8c8707f1">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/payroll/payables/payable]]>
+	</queryString>
+	<field name="payable-amount" class="java.lang.Float">
+		<fieldDescription><![CDATA[payable-amount]]></fieldDescription>
+	</field>
+	<field name="patient-name" class="java.lang.String">
+		<fieldDescription><![CDATA[patient-name]]></fieldDescription>
+	</field>
+	<field name="visit-type" class="java.lang.String">
+		<fieldDescription><![CDATA[visit-type]]></fieldDescription>
+	</field>
+	<field name="field-staff-name" class="java.lang.String">
+		<fieldDescription><![CDATA[field-staff-name]]></fieldDescription>
+	</field>
+	<field name="staffing-company" class="java.lang.String">
+		<fieldDescription><![CDATA[staffing-company]]></fieldDescription>
+	</field>
+	<field name="agency-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/payroll/agency-name]]></fieldDescription>
+	</field>
+	<field name="agency-suite-number-street-address" class="java.lang.String">
+		<fieldDescription><![CDATA[/payroll/agency-suite-number-street-address]]></fieldDescription>
+	</field>
+	<field name="agency-phone-number" class="java.lang.String">
+		<fieldDescription><![CDATA[/payroll/agency-phone-number]]></fieldDescription>
+	</field>
+	<field name="office-staff-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/payroll/office-staff-name]]></fieldDescription>
+	</field>
+	<field name="visit-date" class="java.lang.String">
+		<fieldDescription><![CDATA[visit-date]]></fieldDescription>
+	</field>
+	<field name="submission-date" class="java.lang.String">
+		<fieldDescription><![CDATA[submission-date]]></fieldDescription>
+	</field>
+	<field name="payroll-date-display" class="java.lang.String">
+		<fieldDescription><![CDATA[/payroll/payroll-date-display]]></fieldDescription>
+	</field>
+	<field name="payroll-date-display2" class="java.lang.String">
+		<fieldDescription><![CDATA[/payroll/payroll-date-display]]></fieldDescription>
+	</field>
+	<field name="visit-date-display" class="java.lang.String">
+		<fieldDescription><![CDATA[visit-date-display]]></fieldDescription>
+	</field>
+	<field name="submission-date-display" class="java.lang.String">
+		<fieldDescription><![CDATA[submission-date-display]]></fieldDescription>
+	</field>
+	<field name="adjusted-rate" class="java.lang.Float">
+		<fieldDescription><![CDATA[adjusted-rate]]></fieldDescription>
+	</field>
+	<field name="field-staff" class="java.lang.String">
+		<fieldDescription><![CDATA[/payroll/fs-credentials/fs-credential/field-staff]]></fieldDescription>
+	</field>
+	<field name="Credential" class="java.lang.String">
+		<fieldDescription><![CDATA[/payroll/fs-credentials/fs-credential/Credential]]></fieldDescription>
+	</field>
+	<field name="status" class="java.lang.String">
+		<fieldDescription><![CDATA[/payroll/fs-credentials/fs-credential/status]]></fieldDescription>
+	</field>
+	<field name="aging" class="java.lang.String">
+		<fieldDescription><![CDATA[/payroll/fs-credentials/fs-credential/aging]]></fieldDescription>
+	</field>
+	<field name="fs-credentials-in-payroll-sub-report-url" class="java.lang.String">
+		<fieldDescription><![CDATA[/payroll/fs-credentials-in-payroll-sub-report-url]]></fieldDescription>
+	</field>
+	<field name="payroll-individual-print" class="java.lang.String">
+		<fieldDescription><![CDATA[/payroll/payroll-individual-print]]></fieldDescription>
+	</field>
+	<field name="no-of-units" class="java.lang.String">
+		<fieldDescription><![CDATA[no-of-units]]></fieldDescription>
+	</field>
+	<field name="unit" class="java.lang.String">
+		<fieldDescription><![CDATA[unit]]></fieldDescription>
+	</field>
+	<field name="rate" class="java.lang.Float">
+		<fieldDescription><![CDATA[rate]]></fieldDescription>
+	</field>
+	<field name="units-display" class="java.lang.String">
+		<fieldDescription><![CDATA[units-display]]></fieldDescription>
+	</field>
+	<field name="no-of-units-display" class="java.lang.String">
+		<fieldDescription><![CDATA[no-of-units-display]]></fieldDescription>
+	</field>
+	<variable name="FS_TOTAL" class="java.lang.Float" resetType="Group" resetGroup="fs filter" calculation="Sum">
+		<variableExpression><![CDATA[($F{adjusted-rate}==null ? $F{payable-amount} : $F{adjusted-rate})]]></variableExpression>
+	</variable>
+	<variable name="STAFFING_TOTAL" class="java.lang.Float" resetType="Group" resetGroup="Staffing Company" calculation="Sum">
+		<variableExpression><![CDATA[$F{adjusted-rate}==null ? $F{payable-amount} : $F{adjusted-rate}]]></variableExpression>
+	</variable>
+	<group name="Staffing Company" isResetPageNumber="true">
+		<groupExpression><![CDATA[$F{staffing-company}]]></groupExpression>
+		<groupHeader>
+			<band height="67">
+				<elementGroup>
+					<staticText>
+						<reportElement uuid="d1359c66-78cc-4e9c-8f72-88ac2d500e19" x="414" y="1" width="144" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+						<textElement textAlignment="Right">
+							<font isBold="true"/>
+						</textElement>
+						<text><![CDATA[Payroll Breakdown]]></text>
+					</staticText>
+					<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+						<reportElement uuid="15d140c9-ff0f-4281-8677-e963b32e06b5" x="0" y="27" width="280" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+						<textElement>
+							<font fontName="SansSerif"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{agency-phone-number}]]></textFieldExpression>
+					</textField>
+					<textField isStretchWithOverflow="true" evaluationTime="Group" evaluationGroup="Staffing Company" pattern="¤ #,##0.00" isBlankWhenNull="true">
+						<reportElement uuid="464ee9d9-8ead-46e6-9a92-a0f79b05d180" x="494" y="27" width="64" height="12"/>
+						<textElement textAlignment="Right"/>
+						<textFieldExpression><![CDATA[$V{STAFFING_TOTAL}]]></textFieldExpression>
+					</textField>
+					<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+						<reportElement uuid="f3a85f1e-781e-40ba-a71a-5f2ca332b200" x="0" y="1" width="280" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+						<textElement>
+							<font fontName="SansSerif" isBold="true" isItalic="false"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{agency-name}]]></textFieldExpression>
+					</textField>
+					<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+						<reportElement uuid="a932a047-bc66-4873-a74f-9e41bb2ddcfa" x="0" y="14" width="280" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+						<textElement>
+							<font fontName="SansSerif"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{agency-suite-number-street-address}]]></textFieldExpression>
+					</textField>
+					<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+						<reportElement uuid="7c53c8cd-79b6-46f2-9f26-720f52caa6c3" x="405" y="27" width="88" height="12"/>
+						<textElement/>
+						<textFieldExpression><![CDATA[$F{payroll-date-display}]]></textFieldExpression>
+					</textField>
+					<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+						<reportElement uuid="ec1fbc8a-bb45-403a-857e-f44503a2fede" x="0" y="40" width="280" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+						<textElement>
+							<font fontName="SansSerif"/>
+						</textElement>
+						<textFieldExpression><![CDATA[$F{office-staff-name}+", Payroll Clerk"]]></textFieldExpression>
+					</textField>
+					<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+						<reportElement uuid="223b53df-d2d8-48ee-a2d8-e9565acfbc96" x="333" y="14" width="225" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+						<textElement textAlignment="Right"/>
+						<textFieldExpression><![CDATA[$F{staffing-company}]]></textFieldExpression>
+					</textField>
+				</elementGroup>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band height="38">
+				<printWhenExpression><![CDATA[$F{payroll-individual-print} != "true"]]></printWhenExpression>
+				<subreport>
+					<reportElement uuid="ccbf1a86-1e47-4bbe-bc09-8802c09e8d93" x="-22" y="5" width="582" height="30" isRemoveLineWhenBlank="true"/>
+					<subreportParameter name="XML_DATA_DOCUMENT">
+						<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+					</subreportParameter>
+					<subreportExpression><![CDATA[$F{fs-credentials-in-payroll-sub-report-url}]]></subreportExpression>
+				</subreport>
+			</band>
+		</groupFooter>
+	</group>
+	<group name="fs filter">
+		<groupExpression><![CDATA[$F{field-staff-name}]]></groupExpression>
+		<groupHeader>
+			<band height="43">
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement uuid="3bf24b65-84b8-434f-95cd-7ac04dfc72b1" positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="0" y="12" width="475" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" backcolor="#F5F3F3"/>
+					<textElement>
+						<font fontName="SansSerif"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{field-staff-name}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement uuid="82b7a73b-0959-4597-8482-5172d3e7c415" positionType="Float" stretchType="RelativeToTallestObject" x="0" y="27" width="100" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<textElement>
+						<font fontName="SansSerif" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Patient]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="d55da51d-fe09-4be1-bf00-f5ee4d23e855" positionType="Float" stretchType="RelativeToTallestObject" x="125" y="27" width="84" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<textElement>
+						<font fontName="SansSerif" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Activity]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="4053bd97-02d7-49d6-9c7e-bb4489056fa8" positionType="Float" stretchType="RelativeToTallestObject" x="209" y="27" width="59" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<textElement>
+						<font fontName="SansSerif" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Date]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="e1ec0913-c93e-4ac0-ad9f-befb73b7b1c3" positionType="Float" stretchType="RelativeToTallestObject" x="269" y="27" width="60" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<textElement>
+						<font fontName="SansSerif" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Submitted]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="5552b3cb-b745-41a2-bf84-6244756ed713" positionType="Float" stretchType="RelativeToTallestObject" x="393" y="27" width="50" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<textElement>
+						<font fontName="SansSerif" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Rate]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="true" evaluationTime="Group" evaluationGroup="fs filter" pattern="#,##0.00" isBlankWhenNull="true">
+					<reportElement uuid="c990a8b4-a151-4d0f-8980-8b6e94e0fd79" mode="Opaque" x="486" y="12" width="72" height="12" backcolor="#F5F3F3"/>
+					<textElement textAlignment="Right"/>
+					<textFieldExpression><![CDATA[$V{FS_TOTAL}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement uuid="eacc1921-e57a-4401-b580-5d6daf72bb32" positionType="Float" stretchType="RelativeToTallestObject" x="494" y="27" width="67" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<textElement>
+						<font fontName="SansSerif" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Adjustment]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="aa5cd3ba-5143-440e-8aeb-aad718f319a7" mode="Opaque" x="475" y="12" width="12" height="12" backcolor="#F5F3F3"/>
+					<textElement/>
+					<text><![CDATA[$]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="e48d4bda-baad-4ce3-8f6c-57ddd5d73505" stretchType="RelativeToTallestObject" x="361" y="27" width="32" height="12" isPrintWhenDetailOverflows="true"/>
+					<textElement>
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[Unit]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="1d900b74-8727-4ad3-8624-bbe06319111f" stretchType="RelativeToTallestObject" x="331" y="27" width="30" height="12" isPrintWhenDetailOverflows="true"/>
+					<textElement>
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[#]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="1d900b74-8727-4ad3-8624-bbe06319111f" stretchType="RelativeToTallestObject" x="443" y="27" width="50" height="12" isPrintWhenDetailOverflows="true"/>
+					<textElement>
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[Total]]></text>
+				</staticText>
+			</band>
+		</groupHeader>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="17" splitType="Stretch">
+			<printWhenExpression><![CDATA[$F{staffing-company}!=null]]></printWhenExpression>
+			<elementGroup>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement uuid="9ada58d4-9336-4584-b001-80d0e32dd5c0" x="331" y="1" width="30" height="12"/>
+					<textElement>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{no-of-units-display}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" pattern="¤ #,##0.00" isBlankWhenNull="true">
+					<reportElement uuid="a2b2637b-9e5a-4275-b6c1-c0d4d0cc88b9" positionType="Float" stretchType="RelativeToTallestObject" x="493" y="1" width="66" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<textElement textAlignment="Left"/>
+					<textFieldExpression><![CDATA[($F{payable-amount} == $F{adjusted-rate}) ? "" : $F{adjusted-rate}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement uuid="171b0efc-fb5e-4892-ab20-8c268a94ac9f" positionType="Float" stretchType="RelativeToTallestObject" x="269" y="1" width="60" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<textElement>
+						<font fontName="SansSerif"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{submission-date-display}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" pattern="¤ #,##0.00" isBlankWhenNull="true">
+					<reportElement uuid="2125618c-1f79-4242-8ddb-afd7793ca2d7" positionType="Float" stretchType="RelativeToTallestObject" x="393" y="1" width="50" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<textElement/>
+					<textFieldExpression><![CDATA[$F{rate}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement uuid="9ada58d4-9336-4584-b001-80d0e32dd5c0" x="361" y="1" width="32" height="12"/>
+					<textElement>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{units-display}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement uuid="5cd15ded-9076-48c9-83e8-cb9e7d94b55c" positionType="Float" stretchType="RelativeToTallestObject" x="209" y="1" width="59" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<textElement>
+						<font fontName="SansSerif"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{visit-date-display}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement uuid="c5bf0458-e690-4de5-8af7-f12981c666c5" positionType="Float" stretchType="RelativeToTallestObject" x="0" y="0" width="125" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<textElement>
+						<font fontName="SansSerif"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{patient-name}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" pattern="¤ #,##0.00" isBlankWhenNull="true">
+					<reportElement uuid="2125618c-1f79-4242-8ddb-afd7793ca2d7" positionType="Float" stretchType="RelativeToTallestObject" x="443" y="1" width="50" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<textElement/>
+					<textFieldExpression><![CDATA[$F{payable-amount}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement uuid="415d918f-996b-4d99-9cb6-d0971c11706d" positionType="Float" stretchType="RelativeToTallestObject" x="125" y="1" width="84" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<textElement>
+						<font fontName="SansSerif"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{visit-type}]]></textFieldExpression>
+				</textField>
+			</elementGroup>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="18">
+			<textField>
+				<reportElement uuid="c2eaf1e2-583e-4bc5-a78d-23d360f3f826" x="452" y="3" width="80" height="12"/>
+				<textElement textAlignment="Right">
+					<font fontName="SansSerif"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement uuid="72fa9484-f746-4bdb-9378-080b50365892" x="532" y="3" width="27" height="12"/>
+				<textElement>
+					<font fontName="SansSerif"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnFooter>
+</jasperReport>

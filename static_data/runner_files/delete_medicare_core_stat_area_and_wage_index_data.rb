@@ -1,0 +1,2 @@
+ProspectivePaymentSystem::MedicareCoreStatArea.delete_all
+ProspectivePaymentSystem::MedicareAreasWageIndex.delete_all

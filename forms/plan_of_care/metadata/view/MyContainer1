@@ -1,0 +1,1997 @@
+{
+    "type": "container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyContainer1",
+        "designer|initialView": true,
+        "height": 768,
+        "style": [
+            "color:green;"
+        ],
+        "width": 1024,
+        "layout": "fit"
+    },
+    "id": "ExtBox1-ext-gen2714",
+    "designerId": "564cd029-abd7-49f1-ad6d-0b75a6416005",
+    "cn": [
+        {
+            "type": "form",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyForm1",
+                "border": 0,
+                "frame": false,
+                "height": null,
+                "style": [
+                    "color:green;"
+                ],
+                "focusOnToFront": false,
+                "layout": "border",
+                "bodyBorder": false,
+                "bodyPadding": 10,
+                "closable": false,
+                "collapsible": false,
+                "manageHeight": false,
+                "title": "",
+                "paramsAsHash": false
+            },
+            "designerId": "e6e9a645-7851-4de3-af69-c9313b622f69",
+            "cn": [
+                {
+                    "type": "tabpanel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|region": "center",
+                        "designer|userClassName": "MyTabPanel1",
+                        "designer|displayName": "CenterPanel",
+                        "margin": "5px",
+                        "activeTab": 0,
+                        "plain": true
+                    },
+                    "designerId": "59ada299-ed06-4b84-a66c-6f84d8a9f510",
+                    "cn": [
+                        {
+                            "type": "panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "stretch",
+                                "designer|userClassName": "MyPanel63",
+                                "height": null,
+                                "width": null,
+                                "autoScroll": false,
+                                "layout": "vbox",
+                                "title": "Diagnosis/Medications/DME/Nutritional Req."
+                            },
+                            "designerId": "61b172d2-2994-4624-8525-55f77d29b934",
+                            "cn": [
+                                {
+                                    "type": "tab",
+                                    "reference": {
+                                        "name": "tabConfig",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "TabConfig15"
+                                    },
+                                    "designerId": "1879d274-6f52-4fad-8493-f5d7ae625fca"
+                                },
+                                {
+                                    "type": "panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|flex": 1,
+                                        "designer|userClassName": "MyPanel2",
+                                        "border": 0,
+                                        "height": 713,
+                                        "width": null,
+                                        "title": null
+                                    },
+                                    "designerId": "2dde6140-5ee0-4287-8dd5-180815f104c3",
+                                    "cn": [
+                                        {
+                                            "type": "panel",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "container|align": "stretch",
+                                                "designer|userClassName": "MyPanel8",
+                                                "border": 0,
+                                                "layout": "hbox",
+                                                "title": null
+                                            },
+                                            "designerId": "b488cbfb-61a5-4b8e-8f96-e171aad15f9f",
+                                            "cn": [
+                                                {
+                                                    "type": "fieldset",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "layout|flex": 1,
+                                                        "designer|userClassName": "MyFieldSet",
+                                                        "margin": "3px",
+                                                        "title": "Diagnosis"
+                                                    },
+                                                    "designerId": "cc9dc24d-ec1f-40bd-831f-45b10a172de3",
+                                                    "cn": [
+                                                        {
+                                                            "type": "panel",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "container|columns": 3,
+                                                                "designer|userClassName": "MyPanel60",
+                                                                "border": false,
+                                                                "height": null,
+                                                                "margin": null,
+                                                                "width": null,
+                                                                "layout": "table",
+                                                                "title": null
+                                                            },
+                                                            "designerId": "a4277510-a96a-4e75-a81c-42415b04d423",
+                                                            "cn": [
+                                                                {
+                                                                    "type": "textfield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyTextField",
+                                                                        "name": "principal_icd1",
+                                                                        "fieldLabel": "ICD-9-CM ",
+                                                                        "labelAlign": "top"
+                                                                    },
+                                                                    "designerId": "f667c7f3-d30f-41ba-a532-9d60c17ff39b"
+                                                                },
+                                                                {
+                                                                    "type": "textfield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyTextField",
+                                                                        "width": 168,
+                                                                        "name": "principal_diagnosis1",
+                                                                        "fieldLabel": "Principal Diagnosis ",
+                                                                        "labelAlign": "top"
+                                                                    },
+                                                                    "designerId": "a58af09f-ecfb-43a5-8e45-5a4d784777ad"
+                                                                },
+                                                                {
+                                                                    "type": "datefield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyDateField2",
+                                                                        "name": "principal_date1",
+                                                                        "fieldLabel": "Date",
+                                                                        "labelAlign": "top"
+                                                                    },
+                                                                    "designerId": "6f6da509-60d0-405f-b840-fb3d3ce96f40"
+                                                                },
+                                                                {
+                                                                    "type": "textfield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyTextField2",
+                                                                        "name": "principal_icd2",
+                                                                        "fieldLabel": ""
+                                                                    },
+                                                                    "designerId": "04bacf04-ea63-4308-9e15-39ef275996ee"
+                                                                },
+                                                                {
+                                                                    "type": "textfield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyTextField2",
+                                                                        "width": 168,
+                                                                        "name": "principal_diagnosis2",
+                                                                        "fieldLabel": ""
+                                                                    },
+                                                                    "designerId": "e3c6a2a2-1c23-4fb9-bbcb-95f7bd5c3c04"
+                                                                },
+                                                                {
+                                                                    "type": "datefield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyDateField3",
+                                                                        "name": "principal_date2",
+                                                                        "fieldLabel": ""
+                                                                    },
+                                                                    "designerId": "0c4213b1-b758-4db7-8313-9bd49a294beb"
+                                                                },
+                                                                {
+                                                                    "type": "textfield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyTextField2",
+                                                                        "name": "principal_icd3",
+                                                                        "fieldLabel": ""
+                                                                    },
+                                                                    "designerId": "9277d288-1d81-41ec-8f5a-f44f420fed91"
+                                                                },
+                                                                {
+                                                                    "type": "textfield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyTextField2",
+                                                                        "width": 168,
+                                                                        "name": "principal_diagnosis3",
+                                                                        "fieldLabel": ""
+                                                                    },
+                                                                    "designerId": "e09abaff-5534-4023-81a3-70ea604f5058"
+                                                                },
+                                                                {
+                                                                    "type": "datefield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyDateField3",
+                                                                        "name": "principal_date3",
+                                                                        "fieldLabel": ""
+                                                                    },
+                                                                    "designerId": "533f0f16-8b73-4959-95db-23d03465c624"
+                                                                },
+                                                                {
+                                                                    "type": "textfield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyTextField2",
+                                                                        "name": "principal_icd4",
+                                                                        "fieldLabel": ""
+                                                                    },
+                                                                    "designerId": "9206cfbd-3ef5-4fee-9aaf-e29250476c30"
+                                                                },
+                                                                {
+                                                                    "type": "textfield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyTextField2",
+                                                                        "width": 168,
+                                                                        "name": "principal_diagnosis4",
+                                                                        "fieldLabel": ""
+                                                                    },
+                                                                    "designerId": "72d0efc9-f8d5-4e4a-ae6a-f04d67507a83"
+                                                                },
+                                                                {
+                                                                    "type": "datefield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyDateField3",
+                                                                        "name": "principal_date4",
+                                                                        "fieldLabel": ""
+                                                                    },
+                                                                    "designerId": "6eda743a-fcf4-4bc7-bc27-fefc4ba80f3a"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "panel",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "container|columns": 3,
+                                                                "designer|userClassName": "MyPanel60",
+                                                                "border": false,
+                                                                "height": 126,
+                                                                "margin": null,
+                                                                "width": null,
+                                                                "layout": "table",
+                                                                "title": null
+                                                            },
+                                                            "designerId": "c15643bf-8051-4c64-acd8-5d1ee79045f3",
+                                                            "cn": [
+                                                                {
+                                                                    "type": "textfield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyTextField",
+                                                                        "name": "surgical_icd1",
+                                                                        "fieldLabel": "ICD-9-CM ",
+                                                                        "labelAlign": "top"
+                                                                    },
+                                                                    "designerId": "94e9bb41-fc3b-4aba-a0df-4828b9341751"
+                                                                },
+                                                                {
+                                                                    "type": "textfield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyTextField",
+                                                                        "width": 164,
+                                                                        "name": "surgical_procedure1",
+                                                                        "fieldLabel": "Surgical Procedure",
+                                                                        "labelAlign": "top"
+                                                                    },
+                                                                    "designerId": "502e7e9c-dcb7-4eac-98a3-780ae53b8d70"
+                                                                },
+                                                                {
+                                                                    "type": "datefield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyDateField2",
+                                                                        "name": "surgical_date1",
+                                                                        "fieldLabel": "Date",
+                                                                        "labelAlign": "top"
+                                                                    },
+                                                                    "designerId": "9fa8adf9-82ad-4ae9-bd75-9409482f9dc3"
+                                                                },
+                                                                {
+                                                                    "type": "textfield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyTextField2",
+                                                                        "name": "surgical_icd2",
+                                                                        "fieldLabel": ""
+                                                                    },
+                                                                    "designerId": "90b9d2a1-f766-45e3-bc76-5f7c0c0746ce"
+                                                                },
+                                                                {
+                                                                    "type": "textfield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyTextField2",
+                                                                        "width": 164,
+                                                                        "name": "surgical_procedure2",
+                                                                        "fieldLabel": ""
+                                                                    },
+                                                                    "designerId": "e99d4eb7-18a2-4bac-84f2-d699da6b237b"
+                                                                },
+                                                                {
+                                                                    "type": "datefield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyDateField3",
+                                                                        "name": "surgical_date2",
+                                                                        "fieldLabel": ""
+                                                                    },
+                                                                    "designerId": "3ddfeedd-cc28-4d36-8552-b15daa49f43a"
+                                                                },
+                                                                {
+                                                                    "type": "textfield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyTextField2",
+                                                                        "name": "surgical_icd3",
+                                                                        "fieldLabel": ""
+                                                                    },
+                                                                    "designerId": "6a53d9cd-cb84-4e59-9df6-b832cdbea574"
+                                                                },
+                                                                {
+                                                                    "type": "textfield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyTextField2",
+                                                                        "width": 164,
+                                                                        "name": "surgical_procedure3",
+                                                                        "fieldLabel": ""
+                                                                    },
+                                                                    "designerId": "b64ffa02-566b-4495-9880-4b6d1c88f1f3"
+                                                                },
+                                                                {
+                                                                    "type": "datefield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyDateField3",
+                                                                        "name": "surgical_date3",
+                                                                        "fieldLabel": ""
+                                                                    },
+                                                                    "designerId": "b5b91ae0-1345-437f-b40d-ce79d8062f9a"
+                                                                },
+                                                                {
+                                                                    "type": "textfield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyTextField2",
+                                                                        "name": "surgical_icd4",
+                                                                        "fieldLabel": ""
+                                                                    },
+                                                                    "designerId": "fb35716d-65eb-4c71-a26d-2829f69f452f"
+                                                                },
+                                                                {
+                                                                    "type": "textfield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyTextField2",
+                                                                        "width": 164,
+                                                                        "name": "surgical_procedure4",
+                                                                        "fieldLabel": ""
+                                                                    },
+                                                                    "designerId": "056817d6-4733-4a0d-8212-4aa41e6027da"
+                                                                },
+                                                                {
+                                                                    "type": "datefield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyDateField3",
+                                                                        "name": "surgical_date4",
+                                                                        "fieldLabel": ""
+                                                                    },
+                                                                    "designerId": "66e65d45-44ea-4b1f-9f5d-4d132ae6ba95"
+                                                                }
+                                                            ]
+                                                        },
+                                                        {
+                                                            "type": "panel",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "container|columns": 3,
+                                                                "designer|userClassName": "MyPanel60",
+                                                                "border": false,
+                                                                "height": 126,
+                                                                "margin": null,
+                                                                "width": null,
+                                                                "layout": "table",
+                                                                "title": null
+                                                            },
+                                                            "designerId": "5e3e9fa6-4955-4688-b930-70ea32917822",
+                                                            "cn": [
+                                                                {
+                                                                    "type": "textfield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyTextField",
+                                                                        "width": 150,
+                                                                        "name": "pertinent_icd1",
+                                                                        "fieldLabel": "ICD-9-CM ",
+                                                                        "labelAlign": "top"
+                                                                    },
+                                                                    "designerId": "8f05e770-77f7-4582-b751-5fe4b2efa011"
+                                                                },
+                                                                {
+                                                                    "type": "textfield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyTextField",
+                                                                        "width": 168,
+                                                                        "name": "pertinent_diagnoses1",
+                                                                        "fieldLabel": "Other Pertinent Diagnoses",
+                                                                        "labelAlign": "top",
+                                                                        "grow": false,
+                                                                        "growMax": 600
+                                                                    },
+                                                                    "designerId": "b535bddb-55ac-4b83-be62-d115cf0e7371"
+                                                                },
+                                                                {
+                                                                    "type": "datefield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyDateField2",
+                                                                        "width": 150,
+                                                                        "name": "pertinent_date1",
+                                                                        "fieldLabel": "Date",
+                                                                        "labelAlign": "top"
+                                                                    },
+                                                                    "designerId": "3dff958f-33d4-451b-823f-0d9c9c6d32bf"
+                                                                },
+                                                                {
+                                                                    "type": "textfield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyTextField2",
+                                                                        "name": "pertinent_icd2",
+                                                                        "fieldLabel": ""
+                                                                    },
+                                                                    "designerId": "8dc62a2c-8039-40e9-a30c-cdb8e965d316"
+                                                                },
+                                                                {
+                                                                    "type": "textfield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyTextField2",
+                                                                        "width": 168,
+                                                                        "name": "pertinent_diagnoses2",
+                                                                        "fieldLabel": ""
+                                                                    },
+                                                                    "designerId": "e3939d9f-0def-496b-917f-18471b036c7d"
+                                                                },
+                                                                {
+                                                                    "type": "datefield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyDateField3",
+                                                                        "name": "pertinent_date2",
+                                                                        "fieldLabel": ""
+                                                                    },
+                                                                    "designerId": "c63db6b4-c287-4cb2-81f2-e40ab35ee91a"
+                                                                },
+                                                                {
+                                                                    "type": "textfield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyTextField2",
+                                                                        "name": "pertinent_icd3",
+                                                                        "fieldLabel": ""
+                                                                    },
+                                                                    "designerId": "207fae0f-d5c6-45fd-be24-0f33661af024"
+                                                                },
+                                                                {
+                                                                    "type": "textfield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyTextField2",
+                                                                        "width": 168,
+                                                                        "name": "pertinent_diagnoses3",
+                                                                        "fieldLabel": ""
+                                                                    },
+                                                                    "designerId": "7aca6ae9-9938-4de4-847d-cef7ca7d6b7e"
+                                                                },
+                                                                {
+                                                                    "type": "datefield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyDateField3",
+                                                                        "name": "pertinent_date3",
+                                                                        "fieldLabel": ""
+                                                                    },
+                                                                    "designerId": "035b6d21-9860-45f3-a7e2-1623b5f96748"
+                                                                },
+                                                                {
+                                                                    "type": "textfield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyTextField2",
+                                                                        "name": "pertinent_icd4",
+                                                                        "fieldLabel": ""
+                                                                    },
+                                                                    "designerId": "d8f38154-4c2f-41d5-9c8f-6738de419873"
+                                                                },
+                                                                {
+                                                                    "type": "textfield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyTextField2",
+                                                                        "width": 168,
+                                                                        "name": "pertinent_diagnoses4",
+                                                                        "fieldLabel": ""
+                                                                    },
+                                                                    "designerId": "d742b677-3fb1-4704-a43d-6f05bd9b1bca"
+                                                                },
+                                                                {
+                                                                    "type": "datefield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyDateField3",
+                                                                        "name": "pertinent_date4",
+                                                                        "fieldLabel": ""
+                                                                    },
+                                                                    "designerId": "ecde6d38-152f-4fec-9341-a05d109dc62b"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "fieldset",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "layout|flex": 1,
+                                                        "designer|userClassName": "MyFieldSet6",
+                                                        "margin": "3px",
+                                                        "title": "DME and Supplies"
+                                                    },
+                                                    "designerId": "0f45c830-5560-48a3-b7fe-bcf18c4ea22b",
+                                                    "cn": [
+                                                        {
+                                                            "type": "checkboxgroup",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "container|align": "stretch",
+                                                                "designer|userClassName": "MyCheckboxGroup3",
+                                                                "layout": "vbox",
+                                                                "fieldLabel": ""
+                                                            },
+                                                            "designerId": "5095bce2-1c64-46b8-9a7a-267d688cd614",
+                                                            "cn": [
+                                                                {
+                                                                    "type": "checkboxfield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyCheckbox30",
+                                                                        "name": "dme",
+                                                                        "fieldLabel": null,
+                                                                        "boxLabel": "None",
+                                                                        "inputValue": "None"
+                                                                    },
+                                                                    "designerId": "f4c83fdc-e64b-44aa-aa13-3d316cc1e696"
+                                                                },
+                                                                {
+                                                                    "type": "checkboxfield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyCheckbox31",
+                                                                        "name": "dme",
+                                                                        "fieldLabel": null,
+                                                                        "boxLabel": "Cane",
+                                                                        "inputValue": "Cane"
+                                                                    },
+                                                                    "designerId": "f0db5888-d400-47de-97d2-5b8469f9a91e"
+                                                                },
+                                                                {
+                                                                    "type": "checkboxfield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyCheckbox31",
+                                                                        "name": "dme",
+                                                                        "fieldLabel": null,
+                                                                        "boxLabel": "Walker",
+                                                                        "inputValue": "Walker"
+                                                                    },
+                                                                    "designerId": "cd4d815c-7065-49ce-9c15-dfa6a000b93b"
+                                                                },
+                                                                {
+                                                                    "type": "checkboxfield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyCheckbox31",
+                                                                        "name": "dme",
+                                                                        "fieldLabel": null,
+                                                                        "boxLabel": "Wheelchair",
+                                                                        "inputValue": "Wheelchair"
+                                                                    },
+                                                                    "designerId": "d46ea4a9-8270-4f07-8bb2-1f18f15cd5b0"
+                                                                },
+                                                                {
+                                                                    "type": "checkboxfield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyCheckbox31",
+                                                                        "name": "dme",
+                                                                        "fieldLabel": null,
+                                                                        "boxLabel": "Hospital bed",
+                                                                        "inputValue": "Hospital bed"
+                                                                    },
+                                                                    "designerId": "fcf78730-1161-4156-bf21-760100c4b7f4"
+                                                                },
+                                                                {
+                                                                    "type": "checkboxfield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyCheckbox31",
+                                                                        "name": "dme",
+                                                                        "fieldLabel": null,
+                                                                        "boxLabel": "Mobility Scooter",
+                                                                        "inputValue": "Mobility Scooter"
+                                                                    },
+                                                                    "designerId": "cf0cd126-f5ee-43db-b6c3-6c429191d018"
+                                                                },
+                                                                {
+                                                                    "type": "checkboxfield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyCheckbox31",
+                                                                        "name": "dme",
+                                                                        "fieldLabel": null,
+                                                                        "boxLabel": "Comode",
+                                                                        "inputValue": "Comode"
+                                                                    },
+                                                                    "designerId": "9af491eb-6c74-4aa9-9ca2-839afdeef431"
+                                                                },
+                                                                {
+                                                                    "type": "checkboxfield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyCheckbox31",
+                                                                        "name": "dme",
+                                                                        "fieldLabel": null,
+                                                                        "boxLabel": "Splint",
+                                                                        "inputValue": "Splint"
+                                                                    },
+                                                                    "designerId": "2232d9a5-1809-44d4-8c1b-dfd75299b032"
+                                                                },
+                                                                {
+                                                                    "type": "checkboxfield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyCheckbox31",
+                                                                        "name": "dme",
+                                                                        "fieldLabel": null,
+                                                                        "boxLabel": "Brace",
+                                                                        "inputValue": "Brace"
+                                                                    },
+                                                                    "designerId": "aa80c87a-d221-49c6-a889-0b217e5cbc97"
+                                                                },
+                                                                {
+                                                                    "type": "checkboxfield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyCheckbox31",
+                                                                        "name": "dme",
+                                                                        "fieldLabel": null,
+                                                                        "boxLabel": "Crutches",
+                                                                        "inputValue": "Crutches"
+                                                                    },
+                                                                    "designerId": "2d9e6891-d685-4f14-80cd-2910ee094691"
+                                                                },
+                                                                {
+                                                                    "type": "checkboxfield",
+                                                                    "reference": {
+                                                                        "name": "items",
+                                                                        "type": "array"
+                                                                    },
+                                                                    "codeClass": null,
+                                                                    "userConfig": {
+                                                                        "designer|userClassName": "MyCheckbox31",
+                                                                        "name": "dme",
+                                                                        "fieldLabel": null,
+                                                                        "boxLabel": "Orthotic Device "
+                                                                    },
+                                                                    "designerId": "27f2ec00-63de-4e88-b199-f1c5f462c3ba"
+                                                                }
+                                                            ]
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "fieldset",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyFieldSet9",
+                                                "height": null,
+                                                "margin": "3px",
+                                                "width": null,
+                                                "title": "Prognosis"
+                                            },
+                                            "designerId": "9ec73da1-fe4b-4f28-bd17-6c1b9a66a376",
+                                            "cn": [
+                                                {
+                                                    "type": "radiogroup",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "container|align": "middle",
+                                                        "designer|userClassName": "MyRadioGroup2",
+                                                        "designer|displayName": "Prognosis",
+                                                        "height": null,
+                                                        "width": null,
+                                                        "layout": "hbox",
+                                                        "fieldLabel": "Prognosis",
+                                                        "labelAlign": "right"
+                                                    },
+                                                    "designerId": "a8ebb9a2-38d7-49b0-83bc-a05f490954fe",
+                                                    "cn": [
+                                                        {
+                                                            "type": "radiofield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 0.1,
+                                                                "designer|userClassName": "MyRadio6",
+                                                                "name": "prognosis",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Poor ",
+                                                                "checked": true,
+                                                                "inputValue": "Poor"
+                                                            },
+                                                            "designerId": "63c8b234-e826-403f-a58c-93017ef50183"
+                                                        },
+                                                        {
+                                                            "type": "radiofield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 0.15,
+                                                                "designer|userClassName": "MyRadio7",
+                                                                "name": "prognosis",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Guarded ",
+                                                                "inputValue": "Guarded"
+                                                            },
+                                                            "designerId": "070d5321-de11-422f-aa4e-b1b1d94fbfe4"
+                                                        },
+                                                        {
+                                                            "type": "radiofield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 0.1,
+                                                                "designer|userClassName": "MyRadio7",
+                                                                "name": "prognosis",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Fair ",
+                                                                "inputValue": "Fair"
+                                                            },
+                                                            "designerId": "5ae32d5d-caf3-4829-af87-5f7bd6113b1f"
+                                                        },
+                                                        {
+                                                            "type": "radiofield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 0.1,
+                                                                "designer|userClassName": "MyRadio7",
+                                                                "name": "prognosis",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Good ",
+                                                                "inputValue": "Good"
+                                                            },
+                                                            "designerId": "4c58a335-f910-4738-a3c2-44e4250338f1"
+                                                        },
+                                                        {
+                                                            "type": "radiofield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 0.15,
+                                                                "designer|userClassName": "MyRadio7",
+                                                                "name": "prognosis",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Excellent ",
+                                                                "inputValue": "Excellent"
+                                                            },
+                                                            "designerId": "c5cb792b-abc5-441a-8140-5c7ed99ba032"
+                                                        }
+                                                    ]
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "stretch",
+                                "designer|userClassName": "MyPanel64",
+                                "height": null,
+                                "width": null,
+                                "autoScroll": true,
+                                "layout": "vbox",
+                                "title": "Limitations/Activities/Status"
+                            },
+                            "designerId": "ef969018-70cb-4ecd-a74b-3703e7a84a57",
+                            "cn": [
+                                {
+                                    "type": "tab",
+                                    "reference": {
+                                        "name": "tabConfig",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "TabConfig16"
+                                    },
+                                    "designerId": "cbfae967-72ad-4737-a516-e79700aec0b1"
+                                },
+                                {
+                                    "type": "panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|flex": null,
+                                        "container|align": "stretch",
+                                        "designer|userClassName": "MyPanel83",
+                                        "border": 0,
+                                        "height": null,
+                                        "padding": "3px",
+                                        "width": null,
+                                        "layout": "hbox",
+                                        "title": null
+                                    },
+                                    "designerId": "cf33fc0e-0f13-4b1d-941a-adfbfa50c01c",
+                                    "cn": [
+                                        {
+                                            "type": "fieldset",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "layout|flex": 1,
+                                                "designer|userClassName": "MyFieldSet7",
+                                                "height": null,
+                                                "margin": "3px",
+                                                "width": null,
+                                                "title": "Functional Limitations"
+                                            },
+                                            "designerId": "ab62b3fd-ce78-49df-982d-51f88880f473",
+                                            "cn": [
+                                                {
+                                                    "type": "checkboxgroup",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "container|align": "stretch",
+                                                        "designer|userClassName": "MyCheckboxGroup9",
+                                                        "height": null,
+                                                        "width": null,
+                                                        "layout": "vbox",
+                                                        "fieldLabel": ""
+                                                    },
+                                                    "designerId": "4c19b96e-c6d7-432f-aabe-90107791ff33",
+                                                    "cn": [
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox",
+                                                                "name": "functional_limitations",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Amputation",
+                                                                "inputValue": "Amputation"
+                                                            },
+                                                            "designerId": "64b79c26-2fd8-4cb4-b84d-5f714caf9c21"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox",
+                                                                "name": "functional_limitations",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Bowel/Bladder",
+                                                                "inputValue": "Bowel/Bladder"
+                                                            },
+                                                            "designerId": "ce348d5e-8a68-430c-8f6d-a26ac8a3b541"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox",
+                                                                "name": "functional_limitations",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Contracture",
+                                                                "inputValue": "Contracture"
+                                                            },
+                                                            "designerId": "9d8622d0-71e6-43ee-a601-2c7457d7a28a"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox",
+                                                                "name": "functional_limitations",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Hearing",
+                                                                "inputValue": "Hearing"
+                                                            },
+                                                            "designerId": "96052eac-9ade-4849-9846-0f20b69ec73f"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox",
+                                                                "name": "functional_limitations",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Paralysis",
+                                                                "inputValue": "Paralysis"
+                                                            },
+                                                            "designerId": "043fd37b-d639-4d88-adc3-4c722e30dde8"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox",
+                                                                "name": "functional_limitations",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Endurance",
+                                                                "inputValue": "Endurance"
+                                                            },
+                                                            "designerId": "9b054c9d-6a2c-4d2d-aa80-1db19a41e6d6"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox",
+                                                                "name": "functional_limitations",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Ambulation",
+                                                                "inputValue": "Ambulation"
+                                                            },
+                                                            "designerId": "5e8273ca-7817-428d-a1b9-c17c5129ea0b"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox",
+                                                                "name": "functional_limitations",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Speech",
+                                                                "inputValue": "Speech"
+                                                            },
+                                                            "designerId": "632dee99-9781-459a-9bef-aab5ae8983a6"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox",
+                                                                "name": "functional_limitations",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Legally blind ",
+                                                                "inputValue": "Legally blind"
+                                                            },
+                                                            "designerId": "bb683260-db9b-4727-8c63-612a4d9d3f21"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox",
+                                                                "name": "functional_limitations",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Dyspnea With Minimal Exertion",
+                                                                "inputValue": "Dyspnea With Minimal Exertion"
+                                                            },
+                                                            "designerId": "45783ce3-ec01-4a27-be0c-4a2f6ff21db8"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "textfield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTextField36",
+                                                        "margin": "3px",
+                                                        "name": "other_functional_limitations",
+                                                        "fieldLabel": "Other",
+                                                        "labelWidth": 40
+                                                    },
+                                                    "designerId": "220a82d8-a932-48b1-bbfc-73c63848750b"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "fieldset",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "layout|flex": 1,
+                                                "designer|userClassName": "MyFieldSet7",
+                                                "height": null,
+                                                "margin": "3px",
+                                                "width": null,
+                                                "title": "Activities Permitted "
+                                            },
+                                            "designerId": "62d4a5d2-05ec-498c-b059-9c96dec266fd",
+                                            "cn": [
+                                                {
+                                                    "type": "checkboxgroup",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "container|align": "stretch",
+                                                        "designer|userClassName": "MyCheckboxGroup9",
+                                                        "height": null,
+                                                        "width": null,
+                                                        "layout": "vbox",
+                                                        "fieldLabel": ""
+                                                    },
+                                                    "designerId": "bd8f54a0-1319-4ec3-a44b-cc9353fbda71",
+                                                    "cn": [
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox",
+                                                                "name": "activities_permitted",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Complete Bedrest",
+                                                                "inputValue": "Complete Bedrest"
+                                                            },
+                                                            "designerId": "143cdc53-f583-48de-b1c3-7c028433189c"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox",
+                                                                "name": "activities_permitted",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Bedrest BRP",
+                                                                "inputValue": "Bedrest BRP"
+                                                            },
+                                                            "designerId": "7df52a55-55d2-4b09-95a8-619ef2649bfc"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox",
+                                                                "name": "activities_permitted",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Up As Tolerated",
+                                                                "inputValue": "Up As Tolerated"
+                                                            },
+                                                            "designerId": "755381a9-bdba-46f2-a914-4df136a0c04a"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox",
+                                                                "name": "activities_permitted",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Transfer Bed/Chair",
+                                                                "inputValue": "Transfer Bed/Chair"
+                                                            },
+                                                            "designerId": "75d1b492-f74f-4eb9-ba71-c84e84152a81"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox",
+                                                                "name": "activities_permitted",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Exercises Prescribed",
+                                                                "inputValue": "Exercises Prescribed"
+                                                            },
+                                                            "designerId": "c8e85651-e0bf-47a1-9490-fc0c73ed81e3"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox",
+                                                                "name": "activities_permitted",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Partial Weight Bearing",
+                                                                "inputValue": "Partial Weight Bearing"
+                                                            },
+                                                            "designerId": "9e21ad72-2123-43f0-8663-fb15c81b58c7"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox",
+                                                                "name": "activities_permitted",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Independent At Home",
+                                                                "inputValue": "Independent At Home"
+                                                            },
+                                                            "designerId": "cc792935-b2ee-48b3-87d9-96bf7ef3a0a6"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox",
+                                                                "name": "activities_permitted",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Crutches",
+                                                                "inputValue": "Crutches"
+                                                            },
+                                                            "designerId": "348180d5-5aba-498c-b189-aca951ce79f1"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox",
+                                                                "name": "activities_permitted",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Cane",
+                                                                "inputValue": "Cane"
+                                                            },
+                                                            "designerId": "afbdd502-a689-49f7-b118-1dfcb5862aed"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox",
+                                                                "name": "activities_permitted",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Dyspnea",
+                                                                "inputValue": "Dyspnea"
+                                                            },
+                                                            "designerId": "614efde1-cf38-4433-9752-b022ec30c534"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": null,
+                                                                "designer|userClassName": "MyCheckbox",
+                                                                "name": "activities_permitted",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Wheelchair",
+                                                                "inputValue": "Wheelchair"
+                                                            },
+                                                            "designerId": "a2cfdee5-aad7-4a2a-8835-0f724dbdc0ae"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 1,
+                                                                "designer|userClassName": "MyCheckbox",
+                                                                "name": "activities_permitted",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Walker",
+                                                                "inputValue": "Walker"
+                                                            },
+                                                            "designerId": "67a374f5-485a-4c0c-b3b8-c47e8abc02ac"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "layout|flex": 1,
+                                                                "designer|userClassName": "MyCheckbox",
+                                                                "name": "activities_permitted",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "No Restrictions",
+                                                                "inputValue": "No Restrictions"
+                                                            },
+                                                            "designerId": "e21c770a-e3d7-4dad-8156-eba0b3293f2f"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "textfield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTextField11",
+                                                        "name": "other_activities_permitted",
+                                                        "fieldLabel": "Other",
+                                                        "labelWidth": 40
+                                                    },
+                                                    "designerId": "1f8f94e9-927f-4b0a-8ba1-daadfc1daa1b"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "fieldset",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "layout|flex": 1,
+                                                "designer|userClassName": "MyFieldSet9",
+                                                "height": null,
+                                                "margin": "3px",
+                                                "width": null,
+                                                "title": "Mental Status"
+                                            },
+                                            "designerId": "0d4504b3-2d47-480b-9a2c-95386e82b162",
+                                            "cn": [
+                                                {
+                                                    "type": "checkboxgroup",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "container|align": "stretch",
+                                                        "designer|userClassName": "MyCheckboxGroup",
+                                                        "width": null,
+                                                        "layout": "vbox",
+                                                        "fieldLabel": ""
+                                                    },
+                                                    "designerId": "10fd6166-d3f0-4983-bb39-8744ffa04a4a",
+                                                    "cn": [
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox21",
+                                                                "name": "mental_status",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Oriented",
+                                                                "inputValue": "Oriented"
+                                                            },
+                                                            "designerId": "c388e122-a01e-4043-bbc3-23bf8050b04b"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox22",
+                                                                "name": "mental_status",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Comatose",
+                                                                "inputValue": "Comatose"
+                                                            },
+                                                            "designerId": "ae639ec7-4026-4366-989b-45be0678d401"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox22",
+                                                                "name": "mental_status",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Forgetful",
+                                                                "inputValue": "Forgetful"
+                                                            },
+                                                            "designerId": "6a322220-7a43-4220-b8e2-6b31be7df29c"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox22",
+                                                                "name": "mental_status",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Depressed",
+                                                                "inputValue": "Depressed"
+                                                            },
+                                                            "designerId": "0be0fbfd-c7d2-4f36-a027-6f0db45fd265"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox22",
+                                                                "name": "mental_status",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Disoriented",
+                                                                "inputValue": "Disoriented"
+                                                            },
+                                                            "designerId": "dbe262d4-b720-4435-bde7-78ab3f877715"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox22",
+                                                                "name": "mental_status",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Lethargic",
+                                                                "inputValue": "Lethargic"
+                                                            },
+                                                            "designerId": "9cbb98a9-e4d3-4bd7-8abd-262e6191bacf"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox22",
+                                                                "name": "mental_status",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Agitated",
+                                                                "inputValue": "Agitated"
+                                                            },
+                                                            "designerId": "d7678421-f7fa-4914-8900-21f531096d07"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "textfield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTextField38",
+                                                        "margin": "3px",
+                                                        "name": "mental_status_other1",
+                                                        "fieldLabel": "Other"
+                                                    },
+                                                    "designerId": "6077e398-c6d3-4585-acc5-c5389a073069"
+                                                },
+                                                {
+                                                    "type": "textfield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTextField38",
+                                                        "margin": "3px",
+                                                        "name": "mental_status_other2",
+                                                        "fieldLabel": "Other"
+                                                    },
+                                                    "designerId": "24b23135-b74a-4557-82ca-b85e451af120"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|flex": null,
+                                        "container|align": "stretch",
+                                        "designer|userClassName": "MyPanel82",
+                                        "border": 0,
+                                        "height": null,
+                                        "padding": "3px",
+                                        "width": null,
+                                        "layout": "hbox",
+                                        "title": null
+                                    },
+                                    "designerId": "631236b6-e452-4ffd-b812-398203e0f3c9",
+                                    "cn": [
+                                        {
+                                            "type": "panel",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "layout|flex": 1,
+                                                "designer|userClassName": "MyPanel32",
+                                                "border": 0,
+                                                "height": null,
+                                                "margin": "2px",
+                                                "padding": "3px",
+                                                "width": null,
+                                                "autoScroll": false,
+                                                "layout": "vbox",
+                                                "title": null
+                                            },
+                                            "designerId": "340a6dc5-eed4-4a1b-86a1-007e316cd736",
+                                            "cn": [
+                                                {
+                                                    "type": "textareafield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "dock": null,
+                                                        "designer|userClassName": "MyTextArea43",
+                                                        "margin": "3px",
+                                                        "padding": null,
+                                                        "name": "medications",
+                                                        "fieldLabel": "Medications: Dose/Frequency/Route (N)ew (C)hanged ",
+                                                        "labelAlign": "top",
+                                                        "cols": 100
+                                                    },
+                                                    "designerId": "9a2a5e6c-7a14-4cd8-a106-ce981b05f740"
+                                                },
+                                                {
+                                                    "type": "textareafield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTextArea43",
+                                                        "margin": "3px",
+                                                        "padding": " ",
+                                                        "name": "nutritional_req",
+                                                        "fieldLabel": "Nutritional Req.  ",
+                                                        "labelAlign": "top",
+                                                        "cols": 100
+                                                    },
+                                                    "designerId": "c5375c88-5871-449a-b12f-ce9ffe3490eb"
+                                                },
+                                                {
+                                                    "type": "textareafield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTextArea43",
+                                                        "height": 84,
+                                                        "margin": "3px",
+                                                        "padding": null,
+                                                        "name": "allergies",
+                                                        "fieldLabel": "Allergies ",
+                                                        "labelAlign": "top",
+                                                        "cols": 100
+                                                    },
+                                                    "designerId": "98a9e27f-45f5-42fa-8323-c58e206292f4"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyPanel64",
+                                "designer|displayName": "Orders/Goals",
+                                "height": null,
+                                "margin": "3px",
+                                "width": null,
+                                "layout": "fit",
+                                "title": "Safety Measures/Orders/Goals"
+                            },
+                            "designerId": "8a530655-8fe0-4eac-861b-328069af1dc8",
+                            "cn": [
+                                {
+                                    "type": "tab",
+                                    "reference": {
+                                        "name": "tabConfig",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "TabConfig16"
+                                    },
+                                    "designerId": "11e72af0-2342-46e3-9500-04d82b05f608"
+                                },
+                                {
+                                    "type": "fieldset",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyFieldSet10",
+                                        "height": null,
+                                        "margin": "7px",
+                                        "padding": null,
+                                        "title": "Safety Measures/Orders/Goals"
+                                    },
+                                    "designerId": "e08f3c07-5aa6-4d84-9299-ab3375b4bd5c",
+                                    "cn": [
+                                        {
+                                            "type": "textareafield",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyTextArea46",
+                                                "margin": "3px",
+                                                "padding": null,
+                                                "name": "safety_measures",
+                                                "fieldLabel": "Safety Measures",
+                                                "labelAlign": "top",
+                                                "cols": 100
+                                            },
+                                            "designerId": "ad9b0b06-3725-4199-8684-235cc3769695"
+                                        },
+                                        {
+                                            "type": "textareafield",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyTextArea46",
+                                                "margin": "3px",
+                                                "padding": null,
+                                                "name": "orders",
+                                                "fieldLabel": "Orders for Discipline and Treatments (Specify Amount/Frequency/Duration) ",
+                                                "labelAlign": "top",
+                                                "cols": 100
+                                            },
+                                            "designerId": "0358a9c9-5a28-4bbb-bf4d-b9e51fee2e3c"
+                                        },
+                                        {
+                                            "type": "textareafield",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyTextArea46",
+                                                "margin": "3px",
+                                                "name": "goals",
+                                                "fieldLabel": "Goals/Rehabilitation Potential/Discharge Plans ",
+                                                "labelAlign": "top",
+                                                "cols": 100
+                                            },
+                                            "designerId": "01807d75-be2c-4aa5-8900-89c7cdb43472"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,546 @@
+{
+    "type": "Ext.tab.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "id": "main_tab",
+        "ui": null,
+        "designer|userClassName": "TabPanel",
+        "designer|initialView": true
+    },
+    "designerId": "1dff4071-4c99-440b-96bf-98f0b8be21b2",
+    "cn": [
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Home",
+                "iconCls": "home",
+                "layout": "fit"
+            },
+            "designerId": "b8bc7e42-7e1f-43b6-909d-85ba5222092f",
+            "cn": [
+                {
+                    "type": "Ext.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": null,
+                        "margin": null,
+                        "style": "background-color:white",
+                        "ui": "",
+                        "width": null,
+                        "layout": "fit"
+                    },
+                    "designerId": "1b0c744d-8566-41c8-81e2-7c53dc5b0eba",
+                    "cn": [
+                        {
+                            "type": "Ext.Toolbar",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "top",
+                                "ui": "light",
+                                "title": "FasterNotes"
+                            },
+                            "designerId": "b70e62a4-3091-4a24-9e39-4d90e264afc4"
+                        },
+                        {
+                            "type": "Ext.Img",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "centered": true,
+                                "height": 250,
+                                "id": "img",
+                                "style": null,
+                                "ui": "",
+                                "width": 250,
+                                "src": "./images/icon250.png"
+                            },
+                            "designerId": "73e3394f-2cdc-4277-91bd-16766b75cded"
+                        },
+                        {
+                            "type": "Ext.Label",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "docked": "bottom",
+                                "html": "Copyright © 2013 FasterNotes",
+                                "itemId": "version_info",
+                                "margin": "0 0 2 0",
+                                "right": null,
+                                "style": "color:grey;text-align:center;font-size:0.6em"
+                            },
+                            "designerId": "bd9f258c-15f5-4df8-afe9-882bfba506a8"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Patients",
+                "iconCls": "team",
+                "itemId": "patients",
+                "layout": "fit"
+            },
+            "designerId": "e0a93e72-8df6-4642-a0da-5c92a9aa4875",
+            "cn": [
+                {
+                    "type": "Ext.navigation.View",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "nav_view",
+                        "ui": ""
+                    },
+                    "designerId": "6519a3a5-a445-490f-a5bd-628aef4f0d87",
+                    "cn": [
+                        {
+                            "type": "Ext.dataview.List",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "title": "Patients",
+                                "itemId": "patients_list",
+                                "disableSelection": true,
+                                "store": "PatientLocalStore",
+                                "onItemDisclosure": false
+                            },
+                            "designerId": "b14f7808-8de8-422e-961e-36313acbbbf1",
+                            "cn": [
+                                {
+                                    "type": "Ext.XTemplate",
+                                    "reference": {
+                                        "name": "itemTpl",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "implHandler": [
+                                            "<div>",
+                                            "    <span class='list_first_line'>{full_name}</span>",
+                                            "    <span class='phone'>({phone_number})</span>    ",
+                                            "    <br/>",
+                                            "    <span class='list_second_line'>{location}</span>",
+                                            "",
+                                            "</div>"
+                                        ],
+                                        "designer|displayName": "itemTpl"
+                                    },
+                                    "designerId": "f29a96f3-ba24-4354-b6ac-3893139e72f5"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.navigation.Bar",
+                            "reference": {
+                                "name": "navigationBar",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "ui": "light"
+                            },
+                            "designerId": "426ce721-fbfd-4dcf-86e7-d88489b7e703",
+                            "cn": [
+                                {
+                                    "type": "Ext.Button",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "align": "right",
+                                        "hidden": true,
+                                        "itemId": "save_routesheet",
+                                        "ui": "action",
+                                        "text": "Save"
+                                    },
+                                    "designerId": "0c7400b3-f3ca-4846-9b84-b6cfa4b36a9c"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Routesheets",
+                "iconCls": "compose",
+                "itemId": "routesheets",
+                "layout": "fit"
+            },
+            "designerId": "4360c30d-922c-4dd6-82b5-0d50974690d8",
+            "cn": [
+                {
+                    "type": "Ext.dataview.List",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "routesheets_list",
+                        "allowDeselect": true,
+                        "store": "RoutesheetStore"
+                    },
+                    "designerId": "96959768-d3d7-4e62-9a5c-036feb3671e8",
+                    "cn": [
+                        {
+                            "type": "Ext.XTemplate",
+                            "reference": {
+                                "name": "itemTpl",
+                                "type": "object"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "implHandler": [
+                                    "<div>",
+                                    "    <span class='list_first_line'>{patient_name}</span>",
+                                    "    <span class='phone'>{visit_type_id}</span>",
+                                    "    <br/>",
+                                    "    <span class='list_second_line'>{visit_date:date('m/d/Y')}</span>    ",
+                                    "    <span class='list_second_line'>{start_time:date('g:i A')} to {end_time:date('g:i A')}</span>",
+                                    "</div>"
+                                ],
+                                "designer|displayName": "itemTpl"
+                            },
+                            "designerId": "2e723af9-1770-4620-844d-3be5d2f2c738"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.TitleBar",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": "top",
+                        "ui": "light",
+                        "title": "Routesheets"
+                    },
+                    "designerId": "dc6ca611-118a-41a4-85f0-8772789adbb9",
+                    "cn": [
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "align": "right",
+                                "itemId": "cmdDelete",
+                                "ui": "decline",
+                                "text": "Delete"
+                            },
+                            "designerId": "b9e7c638-9aa8-4987-929f-0603bc111afd"
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Synchronize",
+                "iconCls": "refresh",
+                "itemId": "synchronize",
+                "margin": null,
+                "style": "text-align:center",
+                "layout": "vbox"
+            },
+            "designerId": "67b47d3c-1619-4749-97d1-1f53e5ad9ef9",
+            "cn": [
+                {
+                    "type": "Ext.Spacer",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "height": 100
+                    },
+                    "designerId": "ec91fac9-91d7-4f51-be8e-37fe340be2c0"
+                },
+                {
+                    "type": "Ext.Label",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "html": "Last synchronized at 10:00 pm,<br/>on 23rd August 2013",
+                        "itemId": "sync_label",
+                        "margin": 5,
+                        "style": "color:grey;text-align:center;font-size:0.8em"
+                    },
+                    "designerId": "be894b99-c3a9-47e4-8805-0bc604195198"
+                },
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "sync",
+                        "margin": 20,
+                        "ui": "confirm",
+                        "text": "Sync now"
+                    },
+                    "designerId": "355b6059-894f-4968-906f-58e24604425c"
+                },
+                {
+                    "type": "Ext.Button",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "itemId": "sync1",
+                        "margin": 20,
+                        "ui": "action",
+                        "text": "View Log"
+                    },
+                    "designerId": "d687ca0f-5429-4586-8b58-7249327e463e"
+                },
+                {
+                    "type": "Ext.TitleBar",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "docked": "top",
+                        "ui": "light",
+                        "title": "Synchronize"
+                    },
+                    "designerId": "134d861f-ed58-4601-b0d7-0298c7f44a75"
+                }
+            ]
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Settings",
+                "iconCls": "settings",
+                "itemId": "settings",
+                "layout": "fit"
+            },
+            "designerId": "98869bd3-9ccb-4976-b637-25f1fd779fae",
+            "cn": [
+                {
+                    "type": "Ext.Toolbar",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "container|pack": "end",
+                        "docked": "top",
+                        "id": "settings_toolbar",
+                        "ui": "light",
+                        "title": "Settings"
+                    },
+                    "designerId": "8ed9af63-4ab8-4d2b-a2e6-ec6d74abbbb0",
+                    "cn": [
+                        {
+                            "type": "Ext.Button",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "id": "sign_in",
+                                "ui": "action",
+                                "text": "Save"
+                            },
+                            "designerId": "590979a8-8d3f-420c-8fdb-3f86400ae833"
+                        }
+                    ]
+                },
+                {
+                    "type": "Ext.form.Panel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "id": "settings_form",
+                        "layout": "vbox"
+                    },
+                    "designerId": "f28040b3-018e-4f12-9bae-8ed7138c25e0",
+                    "cn": [
+                        {
+                            "type": "Ext.form.FieldSet",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "margin": "-30 0 0 0 ",
+                                "title": "User Information"
+                            },
+                            "designerId": "f2a384d8-a8e6-45ed-b088-b2f879f75bdd",
+                            "cn": [
+                                {
+                                    "type": "Ext.field.Text",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "label": null,
+                                        "name": "username",
+                                        "required": true,
+                                        "placeHolder": "User name"
+                                    },
+                                    "designerId": "ef57d65e-d669-44e3-8f45-a0cf359cf9a9"
+                                },
+                                {
+                                    "type": "Ext.field.Password",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "label": null,
+                                        "name": "password",
+                                        "required": true,
+                                        "placeHolder": "Password"
+                                    },
+                                    "designerId": "479f5e49-0bca-4d7d-9ff3-ed4f461adabd"
+                                }
+                            ]
+                        },
+                        {
+                            "type": "Ext.form.FieldSet",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "margin": "0 0 0 0",
+                                "title": "Server URL"
+                            },
+                            "designerId": "d17db4cc-ee32-400d-87b5-bd323c3683b8",
+                            "cn": [
+                                {
+                                    "type": "Ext.field.Url",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "label": null,
+                                        "name": "server_url",
+                                        "required": true,
+                                        "value": [
+                                            "http://localhost:8080"
+                                        ],
+                                        "placeHolder": "http://example.com"
+                                    },
+                                    "designerId": "db293739-18fa-4cb2-9110-4ed0f3c6dc9b"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        },
+        {
+            "type": "Ext.Container",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "title": "Sign Out",
+                "iconCls": "reply",
+                "hidden": true
+            },
+            "designerId": "cfa3d507-15f4-4770-a0c5-e1b219970229"
+        },
+        {
+            "type": "Ext.tab.Bar",
+            "reference": {
+                "name": "tabBar",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "docked": "bottom",
+                "id": "tab_bar"
+            },
+            "designerId": "9475e296-a4da-44b8-b146-86591409e2c4"
+        }
+    ]
+}

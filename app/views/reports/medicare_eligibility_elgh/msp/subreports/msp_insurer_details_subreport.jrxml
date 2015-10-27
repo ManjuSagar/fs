@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="msp_insurer_details_subreport" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="4a509f82-b93d-4cf4-b4d4-8509bfd2a035">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/elgh-response/medicare-secondary-payers/medicare-secondary-payer/insurer]]>
+	</queryString>
+	<field name="name" class="java.lang.String">
+		<fieldDescription><![CDATA[name]]></fieldDescription>
+	</field>
+	<field name="city" class="java.lang.String">
+		<fieldDescription><![CDATA[city]]></fieldDescription>
+	</field>
+	<field name="state" class="java.lang.String">
+		<fieldDescription><![CDATA[state]]></fieldDescription>
+	</field>
+	<field name="zip-code" class="java.lang.String">
+		<fieldDescription><![CDATA[zip-code]]></fieldDescription>
+	</field>
+	<field name="address-line-1" class="java.lang.String">
+		<fieldDescription><![CDATA[address-line-1]]></fieldDescription>
+	</field>
+	<field name="address-line-2" class="java.lang.String">
+		<fieldDescription><![CDATA[address-line-2]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="20">
+			<printWhenExpression><![CDATA[$F{name}!=null ||
+$F{address-line-1}!=null ||
+$F{address-line-2}!=null ||
+$F{city}!=null ||
+$F{state}!=null ||
+$F{zip-code}!=null]]></printWhenExpression>
+			<staticText>
+				<reportElement uuid="929e30ed-1b16-4028-91d8-e14e6d6a116e" mode="Opaque" x="2" y="4" width="555" height="15" backcolor="#DFD4D4"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Medicare Secondary Payer Insurer Details]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="75" splitType="Stretch">
+			<printWhenExpression><![CDATA[$F{name}!=null ||
+$F{address-line-1}!=null ||
+$F{address-line-2}!=null ||
+$F{city}!=null ||
+$F{state}!=null ||
+$F{zip-code}!=null]]></printWhenExpression>
+			<staticText>
+				<reportElement uuid="6c0c6810-fe9e-48d3-8c3d-a4bd081cf6e0" x="5" y="3" width="100" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement/>
+				<text><![CDATA[Name:]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="4423df30-fd63-4706-a057-4a1d82b48645" x="105" y="3" width="100" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="481dfec5-1f0b-4377-97d5-79fb713a834c" x="5" y="21" width="100" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement/>
+				<text><![CDATA[Address Line 1:]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="5f26819f-15e7-4228-80bf-31ae60623327" x="105" y="21" width="188" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{address-line-1}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="63a4f58a-7d40-4765-ae8f-4c73060ac633" x="5" y="39" width="100" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement/>
+				<text><![CDATA[Address Line 2:]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="6b61757f-7e15-4f5f-902c-14fdbe3b224a" x="105" y="39" width="188" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{address-line-2}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="a4983716-9a73-4c06-a45a-9c86867fb079" x="321" y="21" width="100" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement/>
+				<text><![CDATA[City:]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="cd295258-82f3-4acd-9d6c-465a10f42861" x="421" y="21" width="100" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{city}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="4f79b797-4128-4100-8c7b-25970aa62282" x="5" y="58" width="100" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement/>
+				<text><![CDATA[State:]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="07256277-8833-49e3-9316-b01017044441" x="105" y="58" width="188" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{state}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="0a6506b8-59ed-4087-b37b-ac0778f0b3c5" x="321" y="58" width="100" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement/>
+				<text><![CDATA[Zip Code:]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="1b1d11b6-749e-4489-afff-6ac69b6ded00" x="421" y="58" width="100" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{zip-code}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

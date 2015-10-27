@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="eligibility" language="groovy" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="dbe68deb-44c8-4740-b5f5-cdd9657041e7">
+	<property name="ireport.zoom" value="2.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["/home/msuser1/workspace/git_repos/fasternotes/app/views/reports/medicare_eligibility/eligibility/"]]></defaultValueExpression>
+	</parameter>
+	<queryString language="xPath">
+		<![CDATA[/elgh-response]]>
+	</queryString>
+	<field name="part-a-effective-date" class="java.lang.String">
+		<fieldDescription><![CDATA[beneficiary-information/current-entitlement/part-a-effective-date]]></fieldDescription>
+	</field>
+	<field name="part-a-termination-date" class="java.lang.String">
+		<fieldDescription><![CDATA[beneficiary-information/current-entitlement/part-a-termination-date]]></fieldDescription>
+	</field>
+	<field name="part-b-effective-date" class="java.lang.String">
+		<fieldDescription><![CDATA[beneficiary-information/current-entitlement/part-b-effective-date]]></fieldDescription>
+	</field>
+	<field name="part-b-termination-date" class="java.lang.String">
+		<fieldDescription><![CDATA[beneficiary-information/current-entitlement/part-b-termination-date]]></fieldDescription>
+	</field>
+	<field name="effective-date" class="java.lang.String">
+		<fieldDescription><![CDATA[beneficiary-information/inactive-periods/effective-date]]></fieldDescription>
+	</field>
+	<field name="termination-date" class="java.lang.String">
+		<fieldDescription><![CDATA[beneficiary-information/inactive-periods/termination-date]]></fieldDescription>
+	</field>
+	<field name="address-line-1" class="java.lang.String">
+		<fieldDescription><![CDATA[beneficiary-information/beneficiary-address-details/address-line-1]]></fieldDescription>
+	</field>
+	<field name="address-line-2" class="java.lang.String">
+		<fieldDescription><![CDATA[beneficiary-information/beneficiary-address-details/address-line-2]]></fieldDescription>
+	</field>
+	<field name="city" class="java.lang.String">
+		<fieldDescription><![CDATA[beneficiary-information/beneficiary-address-details/city]]></fieldDescription>
+	</field>
+	<field name="state" class="java.lang.String">
+		<fieldDescription><![CDATA[beneficiary-information/beneficiary-address-details/state]]></fieldDescription>
+	</field>
+	<field name="zip-code" class="java.lang.String">
+		<fieldDescription><![CDATA[beneficiary-information/beneficiary-address-details/zip-code]]></fieldDescription>
+	</field>
+	<field name="esrd-code" class="java.lang.String">
+		<fieldDescription><![CDATA[beneficiary-information/esrd-details/esrd/esrd-code]]></fieldDescription>
+	</field>
+	<field name="esrd-code-effective-date" class="java.lang.String">
+		<fieldDescription><![CDATA[beneficiary-information/esrd-details/esrd/esrd-code-effective-date]]></fieldDescription>
+	</field>
+	<field name="transplant-discharge-date" class="java.lang.String">
+		<fieldDescription><![CDATA[beneficiary-information/esrd-details/esrd/transplant-discharge-date]]></fieldDescription>
+	</field>
+	<field name="sub-report-url" class="java.lang.String">
+		<fieldDescription><![CDATA[sub-report-url]]></fieldDescription>
+	</field>
+	<field name="effective-date2" class="java.lang.String">
+		<fieldDescription><![CDATA[beneficiary-information/inactive-periods/part-a-inactive-period/effective-date]]></fieldDescription>
+	</field>
+	<field name="termination-date2" class="java.lang.String">
+		<fieldDescription><![CDATA[beneficiary-information/inactive-periods/part-a-inactive-period/termination-date]]></fieldDescription>
+	</field>
+	<field name="effective-date3" class="java.lang.String">
+		<fieldDescription><![CDATA[beneficiary-information/inactive-periods/part-b-inactive-period/effective-date]]></fieldDescription>
+	</field>
+	<field name="termination-date3" class="java.lang.String">
+		<fieldDescription><![CDATA[beneficiary-information/inactive-periods/part-b-inactive-period/termination-date]]></fieldDescription>
+	</field>
+	<field name="inactive-date-due-to-death" class="java.lang.String">
+		<fieldDescription><![CDATA[beneficiary-information/inactive-periods/inactive-date-due-to-death]]></fieldDescription>
+	</field>
+	<detail>
+		<band height="16" splitType="Stretch">
+			<printWhenExpression><![CDATA[$V{REPORT_COUNT}!=0]]></printWhenExpression>
+			<subreport>
+				<reportElement uuid="640e44bf-e0dc-4c08-a795-3703b97b87ba" positionType="Float" stretchType="RelativeToBandHeight" x="0" y="0" width="595" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportExpression><![CDATA[$F{sub-report-url} + "eligibility/subreports/part_a_eligibility_subreport.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+		<band height="16" splitType="Stretch">
+			<subreport>
+				<reportElement uuid="4faee226-445d-4d03-8064-2336be9b55bd" positionType="Float" stretchType="RelativeToBandHeight" isPrintRepeatedValues="false" x="0" y="0" width="595" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportExpression><![CDATA[$F{sub-report-url} + "eligibility/subreports/part_b_eligibility_subreport.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+		<band height="15" splitType="Stretch">
+			<subreport>
+				<reportElement uuid="47dea982-811a-4384-926a-4359b4109e57" positionType="Float" stretchType="RelativeToBandHeight" isPrintRepeatedValues="false" x="0" y="0" width="595" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportExpression><![CDATA[$F{sub-report-url} + "eligibility/subreports/part_a_inactive_period.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+		<band height="15" splitType="Stretch">
+			<subreport>
+				<reportElement uuid="a75605a1-5ac2-46ff-94bc-8f69dbec6f81" positionType="Float" stretchType="RelativeToBandHeight" isPrintRepeatedValues="false" x="0" y="0" width="595" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportExpression><![CDATA[$F{sub-report-url} + "eligibility/subreports/part_b_inactive_period.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+		<band height="16" splitType="Stretch">
+			<subreport>
+				<reportElement uuid="5a905ab7-77cf-43a0-9c05-ecd5d8617311" positionType="Float" stretchType="RelativeToBandHeight" isPrintRepeatedValues="false" x="0" y="0" width="595" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportExpression><![CDATA[$F{sub-report-url} + "eligibility/subreports/beneficiary_address_subreport.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+		<band height="15" splitType="Stretch">
+			<subreport>
+				<reportElement uuid="27c79166-2153-41f7-8d35-890b9267adc4" positionType="Float" stretchType="RelativeToBandHeight" isPrintRepeatedValues="false" x="0" y="0" width="595" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportExpression><![CDATA[$F{sub-report-url} + "eligibility/subreports/esrd_subreport.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+	</detail>
+</jasperReport>

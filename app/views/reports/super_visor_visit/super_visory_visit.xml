@@ -1,0 +1,154 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<super-visory-visit>
+  <agency-approved-user-id type="integer" nil="true"/>
+  <correction-num type="integer" nil="true"/>
+  <created-at type="datetime">2015-08-13T09:49:49+05:30</created-at>
+  <created-user-id type="integer">3118</created-user-id>
+  <patient-name>Lairy</patient-name>
+  <patient-name-with-mr-display>Laary</patient-name-with-mr-display>
+  <data>
+    <valid type="boolean">true</valid>
+    <work-assignments-comments nil="true"/>
+    <identifies-self-comments nil="true"/>
+    <courteous-behaviour-comments nil="true"/>
+    <cooperative-behaviour-comments nil="true"/>
+    <positive-attitude-comments nil="true"/>
+    <competent-skills-comments nil="true"/>
+    <adequate-skills-comments nil="true"/>
+    <client-care-plan-comments nil="true"/>
+    <provided-hhc-services-comments nil="true"/>
+    <inform-client-needs-comments nil="true"/>
+    <adheres-to-hha-comments nil="true"/>
+    <body-mechanics-comments nil="true"/>
+    <grooming-habits-comments nil="true"/>
+    <complies-with-hha-comments nil="true"/>
+    <other-comments nil="true"/>
+    <reports-for-work-assignments>true</reports-for-work-assignments>
+    <identifies-self>false</identifies-self>
+    <courteous-behaviour>false</courteous-behaviour>
+    <cooperative-behaviour>false</cooperative-behaviour>
+    <positive-attitude>false</positive-attitude>
+    <competent-skills>false</competent-skills>
+    <adequate-skills>false</adequate-skills>
+    <client-care-plan>false</client-care-plan>
+    <provided-hhc-services>false</provided-hhc-services>
+    <inform-client-needs>false</inform-client-needs>
+    <adheres-to-hha>false</adheres-to-hha>
+    <body-mechanics>false</body-mechanics>
+    <grooming-habits>false</grooming-habits>
+    <complies-with-hha>false</complies-with-hha>
+  </data>
+  <document-date type="date">2015-08-13</document-date>
+  <document-definition-id type="integer">1007</document-definition-id>
+  <document-form-template-id type="integer">134</document-form-template-id>
+  <draft-flag type="boolean">true</draft-flag>
+  <field-staff-id type="integer">5473</field-staff-id>
+  <fs-sign-date type="date" nil="true"/>
+  <fs-sign-required type="boolean">true</fs-sign-required>
+  <id type="integer">10643</id>
+  <lock-version type="integer">0</lock-version>
+  <os-sign-date type="date" nil="true"/>
+  <os-sign-required type="boolean" nil="true"/>
+  <physician-id type="integer">3135</physician-id>
+  <signed-user type="integer" nil="true"/>
+  <state-machine-id>6</state-machine-id>
+  <status type="symbol">draft</status>
+  <supervised-user-id type="integer" nil="true"/>
+  <supervised-user-sign-date type="date" nil="true"/>
+  <supervisor-sign-required type="boolean">false</supervisor-sign-required>
+  <treatment-episode-id type="integer">1898</treatment-episode-id>
+  <treatment-id type="integer">1156</treatment-id>
+  <unlock-reason nil="true"/>
+  <updated-at type="datetime">2015-08-13T09:49:49+05:30</updated-at>
+  <visit-id type="integer" nil="true"/>
+  <agency-name nil="true"/>
+  <staff-member-supervised-display nil="true"/>
+  <vitals-display></vitals-display>
+  <fs-signed-date-display nil="true"/>
+  <detail2-label nil="true"/>
+  <detail2-value nil="true"/>
+  <detail3-label nil="true"/>
+  <detail3-value nil="true"/>
+  <detail4-label nil="true"/>
+  <detail4-value nil="true"/>
+  <detail5-label nil="true"/>
+  <detail5-value nil="true"/>
+  <detail6-label nil="true"/>
+  <detail6-value nil="true"/>
+  <detail7-label nil="true"/>
+  <detail7-value nil="true"/>
+  <detail8-label nil="true"/>
+  <detail8-value nil="true"/>
+  <detail9-label nil="true"/>
+  <detail9-value nil="true"/>
+  <detail10-label nil="true"/>
+  <detail10-value nil="true"/>
+  <detail11-label nil="true"/>
+  <detail11-value nil="true"/>
+  <detail12-label nil="true"/>
+  <detail12-value nil="true"/>
+  <detail13-label nil="true"/>
+  <detail13-value nil="true"/>
+  <detail14-label nil="true"/>
+  <detail14-value nil="true"/>
+  <detail15-label nil="true"/>
+  <detail15-value nil="true"/>
+  <detail28-label nil="true"/>
+  <detail28-value nil="true"/>
+  <detail29-label nil="true"/>
+  <detail29-value nil="true"/>
+  <show-physician nil="true"/>
+  <date-time-display></date-time-display>
+  <field-staff-signature nil="true"/>
+  <field-staff-signed type="boolean">true</field-staff-signed>
+  <supervisor-signed type="boolean">false</supervisor-signed>
+  <visited-staff-name>test fs, RN</visited-staff-name>
+  <visit-frequency nil="true"/>
+  <systolic-bp nil="true"/>
+  <diastolic-bp nil="true"/>
+  <bp-read-location nil="true"/>
+  <bp-read-position nil="true"/>
+  <heart-rate nil="true"/>
+  <respiration-rate nil="true"/>
+  <temperature-in-fht nil="true"/>
+  <blood-sugar nil="true"/>
+  <sugar-read-period nil="true"/>
+  <weight-gain-loss-in-lbs nil="true"/>
+  <oxygen-saturation nil="true"/>
+  <frequency-display nil="true"/>
+  <supervised-user-signature nil="true"/>
+  <supervised-user-name nil="true"/>
+  <supervised-user-signed-date-display nil="true"/>
+  <agency-name-for-visit-document>Mahaswami HHA</agency-name-for-visit-document>
+  <pain-section-display></pain-section-display>
+  <pain nil="true"/>
+  <detail16-label nil="true"/>
+  <detail16-value nil="true"/>
+  <detail17-label nil="true"/>
+  <detail17-value nil="true"/>
+  <detail18-label nil="true"/>
+  <detail18-value nil="true"/>
+  <detail19-label nil="true"/>
+  <detail19-value nil="true"/>
+  <detail20-label nil="true"/>
+  <detail20-value nil="true"/>
+  <detail21-label nil="true"/>
+  <detail21-value nil="true"/>
+  <detail22-label nil="true"/>
+  <detail22-value nil="true"/>
+  <detail23-label nil="true"/>
+  <detail23-value nil="true"/>
+  <detail24-label nil="true"/>
+  <detail24-value nil="true"/>
+  <detail25-label nil="true"/>
+  <detail25-value nil="true"/>
+  <detail26-label nil="true"/>
+  <detail26-value nil="true"/>
+  <detail27-label nil="true"/>
+  <detail27-value nil="true"/>
+  <approved-date nil="true">9/9/2015</approved-date>
+  <date-time-display>9/9/2009</date-time-display>
+  <supervised-user-name-display>&lt;b&gt;Supervised Staff: &lt;/b&gt; Lavin Alvin, RN</supervised-user-name-display>
+  <therapist-name-display>&lt;b&gt;Field Staff: &lt;/b&gt; test fs, RN</therapist-name-display>
+</super-visory-visit>
+

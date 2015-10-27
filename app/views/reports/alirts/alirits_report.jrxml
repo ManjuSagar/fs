@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="main_report" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="0dbda84a-647c-461a-a495-b9f81c009f8a">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/alirts]]>
+	</queryString>
+	<field name="sub-report-url" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/sub-report-url]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="28">
+			<subreport>
+				<reportElement uuid="d4637187-630d-4f38-b608-6faffdecbeaa" x="0" y="0" width="555" height="27"/>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportExpression><![CDATA[$F{sub-report-url}+"visit_by_age.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+		<band height="20" splitType="Prevent">
+			<subreport>
+				<reportElement uuid="133ab66f-bbbb-4ac1-a2e1-2f6b2fb70107" x="0" y="0" width="555" height="19"/>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportExpression><![CDATA[$F{sub-report-url}+"discharge_by_reason.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+		<band height="24" splitType="Prevent">
+			<subreport>
+				<reportElement uuid="d419ccad-b735-4c13-ada2-0890a64bfa2f" x="-10" y="0" width="555" height="24"/>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportExpression><![CDATA[$F{sub-report-url}+"visits_by_primary_source_of_payment.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+		<band height="25" splitType="Prevent">
+			<subreport>
+				<reportElement uuid="29617ce1-6c50-4d9f-bdb6-8d9b93ee6157" x="0" y="0" width="555" height="23"/>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportExpression><![CDATA[$F{sub-report-url}+"visit_by_type_of_staff.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+		<band height="26" splitType="Prevent">
+			<subreport>
+				<reportElement uuid="2cb41bac-7c39-4fcf-966a-7ad348c440fa" x="0" y="0" width="555" height="24"/>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportExpression><![CDATA[$F{sub-report-url}+"admission_by_source_of_referal.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+		<band height="22" splitType="Prevent">
+			<subreport>
+				<reportElement uuid="a80c9eab-0a37-4d7e-80e5-01b774f553bd" x="0" y="0" width="555" height="20"/>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportExpression><![CDATA[$F{sub-report-url}+"patients_and_visits_by_principal_diagnosis.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+	</detail>
+</jasperReport>

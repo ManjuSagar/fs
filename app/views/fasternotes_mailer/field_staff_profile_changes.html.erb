@@ -1,0 +1,66 @@
+Hi <%= @field_staff.first_name %>!
+<br/><br/>
+
+<%= @office_staff.full_name %> at <%=@org.org_name %> has made edits to your profile. Here is the edited information:
+<br/><br/>
+
+<% if @edited_information.present? and @name.present? %>
+    Name: <%= @name %>
+    <br/>
+    <% @edited_information.each do |key, value| %>
+        <%= key.titleize %>: <%= value[1] %><br/>
+    <% end %>
+    <br/><br/>
+<% elsif @edited_information.present?%>
+    <% @edited_information.each do |key, value| %>
+        <%= key.titleize %>: <%= value[1] %><br/>
+    <% end %>
+    <br/><br/>
+<% elsif @name.present? %>
+    Name: <%= @name %>
+    <br/><br/>
+<% end %>
+
+
+<% if @added_credential.present? %>
+    Added the following credential:<br/>
+    <%= @added_credential%><br/><br/>
+<% end %>
+
+<% if @updated_credential.present? %>
+    Updated the following credential:<br/>
+    <%= debug_log "#{@updated_credential.inspect}" %>
+    <% @updated_credential.each do |key, value| %>
+        <%= key.titleize %>: <%= value[1] %><br/>
+    <% end %>
+    <br/><br/>
+<% end %>
+
+<% if @removed_credential.present? %>
+    Removed the following credential:<br/>
+    <%= @removed_credential%><br/><br/>
+<% end %>
+
+If you have any questions or concerns about these changes, please contact the agency directly:<br/><br/>
+
+<%= @org.org_name %>,<br/>
+<%= @org.address_string %><br/>
+<%= @org.contact_details %><br/><br/>
+
+This is an automatically generated email from FasterNotes.com. Please do not reply to this message.<br/><br/>
+
+FasterNotes, Inc.<br/>
+Business Should Be Easy<br/>
+Tel: (888) 255-8508 | Fax: (888) 462-4908<br/>
+www.fasternotes.com<br/><br/>
+
+<img  src="http://54.221.195.117/wp-content/uploads/2013/09/logo.png" alt="logo">
+<br/>
+<table>
+  <tr>
+    <a href="https://www.facebook.com/fasternotes" target="_blank">facebook</a>
+    <a href="https://twitter.com/fasternotes" target="_blank">twitter</a>
+    <a href="https://plus.google.com/105536414439978563552/posts" target="_blank">googleplus</a>
+    <a href="http://www.linkedin.com/company/fasternotes?trk=cp_followed_name_fasternotes" target="_blank">linkedin</a>
+  </tr>
+</table>

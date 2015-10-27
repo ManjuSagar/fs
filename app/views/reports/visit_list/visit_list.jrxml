@@ -1,0 +1,199 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="visit_list" language="groovy" pageWidth="792" pageHeight="612" orientation="Landscape" columnWidth="752" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="714028d0-ab5c-4a12-a03f-7a02159b309f">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/visit-list/visits/visit]]>
+	</queryString>
+	<field name="filtered-dates" class="java.lang.String">
+		<fieldDescription><![CDATA[/visit-list/filtered-dates]]></fieldDescription>
+	</field>
+	<field name="filtered-by" class="java.lang.String">
+		<fieldDescription><![CDATA[/visit-list/filtered-by]]></fieldDescription>
+	</field>
+	<field name="visit-date" class="java.lang.String">
+		<fieldDescription><![CDATA[visit-date]]></fieldDescription>
+	</field>
+	<field name="field-staff-name" class="java.lang.String">
+		<fieldDescription><![CDATA[field-staff-name]]></fieldDescription>
+	</field>
+	<field name="patient-name-mr-phone-number" class="java.lang.String">
+		<fieldDescription><![CDATA[patient-name-mr-phone-number]]></fieldDescription>
+	</field>
+	<field name="visit-type" class="java.lang.String">
+		<fieldDescription><![CDATA[visit-type]]></fieldDescription>
+	</field>
+	<field name="visit-status" class="java.lang.String">
+		<fieldDescription><![CDATA[visit-status]]></fieldDescription>
+	</field>
+	<field name="visit-start-time" class="java.lang.String">
+		<fieldDescription><![CDATA[visit-start-time]]></fieldDescription>
+	</field>
+	<field name="visit-end-time" class="java.lang.String">
+		<fieldDescription><![CDATA[visit-end-time]]></fieldDescription>
+	</field>
+	<field name="agency-name-with-phone-number" class="java.lang.String">
+		<fieldDescription><![CDATA[/visit-list/agency-name-with-phone-number]]></fieldDescription>
+	</field>
+	<field name="formatted-visit-date" class="java.lang.String">
+		<fieldDescription><![CDATA[formatted-visit-date]]></fieldDescription>
+	</field>
+	<group name="Visit Date Group" isReprintHeaderOnEachPage="true">
+		<groupExpression><![CDATA[$F{visit-date}]]></groupExpression>
+		<groupHeader>
+			<band height="53">
+				<textField>
+					<reportElement uuid="6be67b45-863f-4f47-8168-627a11a383cf" x="2" y="11" width="436" height="14"/>
+					<textElement>
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{formatted-visit-date}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement uuid="a6d68306-ea37-494c-ad3c-13235eb90690" x="4" y="38" width="189" height="14"/>
+					<textElement>
+						<font size="9" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Field Staff, Title (Phone Number)]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="a6d68306-ea37-494c-ad3c-13235eb90690" x="203" y="38" width="249" height="14"/>
+					<textElement>
+						<font size="9" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Patient, MR (Phone Number)]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="a6d68306-ea37-494c-ad3c-13235eb90690" x="465" y="38" width="90" height="14"/>
+					<textElement>
+						<font size="9" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Visit Type]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="a6d68306-ea37-494c-ad3c-13235eb90690" x="569" y="38" width="55" height="14"/>
+					<textElement>
+						<font size="9" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Status]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="a6d68306-ea37-494c-ad3c-13235eb90690" x="703" y="38" width="47" height="14"/>
+					<textElement>
+						<font size="9" isBold="true"/>
+					</textElement>
+					<text><![CDATA[End Time]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="a6d68306-ea37-494c-ad3c-13235eb90690" x="636" y="38" width="54" height="14"/>
+					<textElement>
+						<font size="9" isBold="true"/>
+					</textElement>
+					<text><![CDATA[Start Time]]></text>
+				</staticText>
+			</band>
+		</groupHeader>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="39" splitType="Stretch">
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="555db010-3101-4e4c-a475-c857a1c7a504" x="2" y="0" width="447" height="14" isRemoveLineWhenBlank="true"/>
+				<textElement markup="html"/>
+				<textFieldExpression><![CDATA[$F{agency-name-with-phone-number}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="c08a27c3-ed13-4345-afa3-92b38aa72459" x="2" y="24" width="749" height="14" isRemoveLineWhenBlank="true"/>
+				<textElement markup="html"/>
+				<textFieldExpression><![CDATA[$F{filtered-by}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="8495dcf4-0f5f-451d-9478-56baa6e45432" x="478" y="0" width="273" height="14" isRemoveLineWhenBlank="true"/>
+				<textElement textAlignment="Right" markup="html"/>
+				<textFieldExpression><![CDATA[$F{filtered-dates}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="16" splitType="Stretch">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="278b08bd-25be-439c-a4d6-6a0db4ae5e05" x="570" y="2" width="55" height="12" isRemoveLineWhenBlank="true"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{visit-status}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="fd614a94-d25d-48ee-a5d2-c11fb5bb2dde" x="637" y="2" width="54" height="12" isRemoveLineWhenBlank="true"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{visit-start-time}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="8d6f9ae9-b62e-410c-ab50-79d832100c0e" x="703" y="2" width="48" height="12" isRemoveLineWhenBlank="true"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{visit-end-time}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="734daf1c-7bbf-42c1-b5d3-a0deca5c2de3" x="4" y="2" width="189" height="12" isRemoveLineWhenBlank="true"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{field-staff-name}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="83b440e2-bc17-4845-b753-28b7d466698b" x="204" y="2" width="248" height="12" isRemoveLineWhenBlank="true"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{patient-name-mr-phone-number}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="ffa5d00b-ab02-4518-bc2a-0d1a2c9e4a88" x="465" y="2" width="90" height="12" isRemoveLineWhenBlank="true"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{visit-type}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="18" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="1accbe2c-2531-4640-8d72-7f6dcb5a34b1" x="3" y="0" width="151" height="14"/>
+				<textElement textAlignment="Left">
+					<font size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[www.FasterNotes.com]]></text>
+			</staticText>
+			<textField evaluationTime="Report">
+				<reportElement uuid="c3018ba1-ef7b-4b10-a720-da0560dfe939" x="372" y="2" width="20" height="15"/>
+				<textElement textAlignment="Left">
+					<font size="9" isBold="false"/>
+					<paragraph leftIndent="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="1f06a1f2-20a1-4f71-a9d7-8a0ecb29ff7e" x="349" y="2" width="25" height="14"/>
+				<textElement textAlignment="Right">
+					<font size="9" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="c5797114-93e9-493e-8874-263f12c41867" x="604" y="0" width="146" height="14"/>
+				<textElement textAlignment="Right">
+					<font size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Business Should be Easy]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+</jasperReport>

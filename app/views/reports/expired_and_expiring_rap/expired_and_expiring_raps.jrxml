@@ -1,0 +1,272 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="expired_and_expiring_raps" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="eff7b787-0230-4c1a-a834-13f4e69ea994">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/expired-and-expiring-raps/raps/rap]]>
+	</queryString>
+	<field name="agency-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/expired-and-expiring-raps/agency-name]]></fieldDescription>
+	</field>
+	<field name="soc-date" class="java.lang.String">
+		<fieldDescription><![CDATA[soc-date]]></fieldDescription>
+	</field>
+	<field name="episode" class="java.lang.String">
+		<fieldDescription><![CDATA[episode]]></fieldDescription>
+	</field>
+	<field name="treatment-status" class="java.lang.String">
+		<fieldDescription><![CDATA[treatment-status]]></fieldDescription>
+	</field>
+	<field name="sent-date" class="java.lang.String">
+		<fieldDescription><![CDATA[sent-date]]></fieldDescription>
+	</field>
+	<field name="is-expired" class="java.lang.String">
+		<fieldDescription><![CDATA[is-expired]]></fieldDescription>
+	</field>
+	<field name="expires" class="java.lang.String">
+		<fieldDescription><![CDATA[expires]]></fieldDescription>
+	</field>
+	<field name="total-visits" class="java.lang.String">
+		<fieldDescription><![CDATA[total-visits]]></fieldDescription>
+	</field>
+	<field name="rap-amount" class="java.lang.Float">
+		<fieldDescription><![CDATA[rap-amount]]></fieldDescription>
+	</field>
+	<field name="patient-name-and-mr-number" class="java.lang.String">
+		<fieldDescription><![CDATA[patient-name-and-mr-number]]></fieldDescription>
+	</field>
+	<variable name="GROUP_AMOUNT" class="java.lang.Float" resetType="Group" resetGroup="rap" calculation="Sum">
+		<variableExpression><![CDATA[$F{rap-amount}]]></variableExpression>
+	</variable>
+	<group name="rap">
+		<groupExpression><![CDATA[$F{is-expired}]]></groupExpression>
+		<groupHeader>
+			<band height="30" splitType="Stretch">
+				<textField>
+					<reportElement uuid="007661f2-8f6a-40ae-90c4-e7f1b453db28" x="2" y="1" width="301" height="14"/>
+					<textElement verticalAlignment="Middle" markup="html">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{is-expired} == '1' ? "EXPIRED RAPS" : "EXPIRING RAPS"]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement uuid="6210d762-4a44-472f-a85f-d6b84a4b8051" x="2" y="16" width="104" height="14"/>
+					<textElement verticalAlignment="Middle">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<text><![CDATA[Patient]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="6210d762-4a44-472f-a85f-d6b84a4b8051" x="157" y="16" width="41" height="14"/>
+					<textElement verticalAlignment="Middle">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<text><![CDATA[SOC]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="6210d762-4a44-472f-a85f-d6b84a4b8051" x="361" y="16" width="37" height="14"/>
+					<textElement verticalAlignment="Middle">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<text><![CDATA[Sent]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="6210d762-4a44-472f-a85f-d6b84a4b8051" x="214" y="16" width="97" height="14"/>
+					<textElement verticalAlignment="Middle">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<text><![CDATA[Episode]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="6210d762-4a44-472f-a85f-d6b84a4b8051" x="485" y="16" width="70" height="14"/>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<text><![CDATA[RAP Amount]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="6210d762-4a44-472f-a85f-d6b84a4b8051" x="327" y="16" width="35" height="14"/>
+					<textElement verticalAlignment="Middle">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<text><![CDATA[Status]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="6210d762-4a44-472f-a85f-d6b84a4b8051" x="406" y="16" width="45" height="14"/>
+					<textElement verticalAlignment="Middle">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<text><![CDATA[Expires]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="6210d762-4a44-472f-a85f-d6b84a4b8051" x="450" y="16" width="31" height="14"/>
+					<textElement verticalAlignment="Middle">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<text><![CDATA[Visits]]></text>
+				</staticText>
+				<line>
+					<reportElement uuid="61bee508-342a-4b8d-92eb-ac264b291522" x="2" y="29" width="552" height="1"/>
+				</line>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band height="15">
+				<textField>
+					<reportElement uuid="822a34c1-501e-4d93-b4f2-37f505480116" x="404" y="0" width="64" height="14"/>
+					<textElement verticalAlignment="Middle">
+						<font size="9" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{rap_COUNT} + " Claim(s)"]]></textFieldExpression>
+				</textField>
+				<textField pattern="$ #,###.00" isBlankWhenNull="true">
+					<reportElement uuid="564837bf-cdbe-44b5-b42a-958221f573f4" x="477" y="0" width="77" height="14"/>
+					<textElement textAlignment="Right" verticalAlignment="Middle">
+						<font size="9" isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{GROUP_AMOUNT}]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupFooter>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="25">
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="25d788f8-2b2b-499d-bfe3-b58e0ac05e9a" x="2" y="5" width="290" height="15"/>
+				<textElement verticalAlignment="Bottom" markup="html">
+					<font size="10" isBold="false"/>
+					<paragraph leftIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{agency-name}]]></textFieldExpression>
+			</textField>
+			<textField pattern="MM/dd/yyyy">
+				<reportElement uuid="0cc77009-8175-4d03-8b20-b05289b4a11e" x="291" y="5" width="262" height="15"/>
+				<textElement textAlignment="Right" verticalAlignment="Bottom" markup="html">
+					<font size="10"/>
+					<paragraph leftIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Expiring and Expired RAPs (Medicare) " + (new SimpleDateFormat("MM/dd/yyyy")).format(new java.util.Date())]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="15">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="1c8048a6-c170-4068-b5ff-3605a9fc9603" x="3" y="0" width="154" height="14"/>
+				<textElement verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{patient-name-and-mr-number}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="0865a950-aab0-4262-a7d4-a82d8eaf934d" x="361" y="0" width="45" height="14"/>
+				<textElement verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{sent-date}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="80423d4d-3e75-4c65-8d9e-645b3f1e4417" x="157" y="0" width="57" height="14"/>
+				<textElement verticalAlignment="Middle">
+					<font size="9"/>
+					<paragraph leftIndent="1" rightIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{soc-date}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="af3e71a9-f698-4583-83fd-55659e0f9494" x="213" y="0" width="123" height="14"/>
+				<textElement verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{episode}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="0865a950-aab0-4262-a7d4-a82d8eaf934d" x="328" y="0" width="30" height="14"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{treatment-status}]]></textFieldExpression>
+			</textField>
+			<textField pattern="$#,##0.00" isBlankWhenNull="true">
+				<reportElement uuid="005aee11-341f-4538-a4fd-d1748ad538b8" x="485" y="0" width="70" height="14"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{rap-amount}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="80423d4d-3e75-4c65-8d9e-645b3f1e4417" x="407" y="0" width="45" height="14"/>
+				<textElement verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{expires}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="3764d9c5-1d5e-4466-9fa4-ee6a2a658a27" x="450" y="0" width="35" height="14"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{total-visits}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="46" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="577ea3ec-bb40-4df9-98c8-82f7537c074c" x="2" y="1" width="551" height="44"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[*HHA's are given the greater of 120 days after the start of the episode or 60 days after the paid date of the RAP to submit the final claim. If the final claim is not submitted within the specified time, the RAP will auto-cancel and the provider must resubmit the RAP before submitting the final claim.
+FasterNotes calculates the expiration date based on the sent date entered by users for each RAP.
+]]></text>
+			</staticText>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="19">
+			<textField evaluationTime="Report">
+				<reportElement uuid="c3018ba1-ef7b-4b10-a720-da0560dfe939" x="286" y="4" width="20" height="15"/>
+				<textElement textAlignment="Left">
+					<font size="9" isBold="false"/>
+					<paragraph leftIndent="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="c5797114-93e9-493e-8874-263f12c41867" x="406" y="4" width="146" height="14"/>
+				<textElement textAlignment="Right">
+					<font size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Business Should be Easy]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="1f06a1f2-20a1-4f71-a9d7-8a0ecb29ff7e" x="263" y="4" width="25" height="14"/>
+				<textElement textAlignment="Right">
+					<font size="9" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="1accbe2c-2531-4640-8d72-7f6dcb5a34b1" x="2" y="4" width="151" height="14"/>
+				<textElement textAlignment="Left">
+					<font size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[www.FasterNotes.com]]></text>
+			</staticText>
+		</band>
+	</pageFooter>
+</jasperReport>

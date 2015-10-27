@@ -1,0 +1,55 @@
+{
+    "name": "tinetti_assessment_tool",
+    "settings": {
+        "urlPrefix": "http://localhost:9080",
+        "spacesToIndent": 4,
+        "exportPath": "/home/msuser1/workspace/sencha",
+        "sdkPath": "",
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false
+    },
+    "xdsVersion": "2.1.0",
+    "xdsBuild": 676,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000498,
+    "framework": "ext41",
+    "topInstanceFileMap": {
+        "93cbb599-b2f9-4dae-a54c-2f5ea4ccca71": {
+            "paths": [
+                "metadata/view/MyContainer",
+                "app/view/override/MyContainer.js",
+                "app/view/MyContainer.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "MyContainer"
+        },
+        "9cc4d93a-8731-4264-b768-4496ba3e5e1b": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "9be9c222-af97-4dc1-96af-eac57fa1f34a": {
+            "paths": [
+                "metadata/resource/css"
+            ],
+            "className": "css"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "93cbb599-b2f9-4dae-a54c-2f5ea4ccca71"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "9cc4d93a-8731-4264-b768-4496ba3e5e1b",
+            "9be9c222-af97-4dc1-96af-eac57fa1f34a"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

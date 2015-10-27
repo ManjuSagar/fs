@@ -1,0 +1,25 @@
+isc_id_key,isc_id,isc_mstr_key,trans_type_cd_val,trans_type_cd_txt,m0100_assmt_reason_val,m0100_assmt_reason_txt
+1,01,1,1,Add new record,01,"	Start of care - further visits planned"
+2,03,2,1,Add new record,03,Resumption of care (after inpatient stay)
+3,04,3,1,Add new record,04,"	Recertification (follow-up) reassessment"
+4,05,4,1,Add new record,05,"	Other follow-up"
+5,06,5,1,Add new record,06,"	Transferred to an inpatient facility - patient not discharged from agency"
+6,07,6,1,Add new record,07,"	Transferred to an inpatient facility - patient discharged from agency"
+7,08,7,1,Add new record,08,"	Death at home"
+8,09,8,1,Add new record,09,"	Discharge from agency"
+9,01,1,2,Modify existing record,01,"	Start of care - further visits planned"
+10,03,2,2,Modify existing record,03,Resumption of care (after inpatient stay)
+11,04,3,2,Modify existing record,04,"	Recertification (follow-up) reassessment"
+12,05,4,2,Modify existing record,05,"	Other follow-up"
+13,06,5,2,Modify existing record,06,"	Transferred to an inpatient facility - patient not discharged from agency"
+14,07,6,2,Modify existing record,07,"	Transferred to an inpatient facility - patient discharged from agency"
+15,08,7,2,Modify existing record,08,"	Death at home"
+16,09,8,2,Modify existing record,09,"	Discharge from agency"
+17,XX,9,3,Inactivate existing record,01,"	Start of care - further visits planned"
+18,XX,9,3,Inactivate existing record,03,Resumption of care (after inpatient stay)
+19,XX,9,3,Inactivate existing record,04,"	Recertification (follow-up) reassessment"
+20,XX,9,3,Inactivate existing record,05,"	Other follow-up"
+21,XX,9,3,Inactivate existing record,06,"	Transferred to an inpatient facility - patient not discharged from agency"
+22,XX,9,3,Inactivate existing record,07,"	Transferred to an inpatient facility - patient discharged from agency"
+23,XX,9,3,Inactivate existing record,08,"	Death at home"
+24,XX,9,3,Inactivate existing record,09,"	Discharge from agency"

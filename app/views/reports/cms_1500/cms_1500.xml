@@ -1,0 +1,235 @@
+<cms1500>
+  <payer-name>ABC Insurance Company</payer-name>
+  <payer-address1>Suite 600</payer-address1>
+  <payer-address2>567 Insurance Lane</payer-address2>
+  <payer-city-state-zipcode>Big City IL 60605</payer-city-state-zipcode>
+  <type-of-health-insuarance>Medicare</type-of-health-insuarance>
+  <insured-id-number>X0123456789</insured-id-number>
+  <patient-name>Doe Jr, Jhon, J</patient-name>
+  <patient-dob-month>01</patient-dob-month>
+  <patient-dob-day>01</patient-dob-day>
+  <patient-dob-year>1987</patient-dob-year>
+  <patient-sex>M</patient-sex>
+  <insured-name>Doe,Jhon,J</insured-name>
+  <patient-address>123 Main Street</patient-address>
+  <patient-city>any town</patient-city>
+  <patient-state>CAA</patient-state>
+  <patient-zipcode>900131234</patient-zipcode>
+  <patient-telephone-area-code>080</patient-telephone-area-code>
+  <patient-telephone>123456789</patient-telephone>
+  <patient-relationship-to-insured>self</patient-relationship-to-insured>
+  <insured-address>123 Main Street</insured-address>
+  <insured-city>any town</insured-city>
+  <insured-state>CAA</insured-state>
+  <insured-zipcode>90013</insured-zipcode>
+  <insured-telephone-area-code>080</insured-telephone-area-code>
+  <insured-telephone>123456789</insured-telephone>
+  <other-insured-name>Doe,Mary, A</other-insured-name>
+  <other-insured-policy-or-group-number>X01234567362</other-insured-policy-or-group-number>
+  <insurance-plan-name>XYZ Insurance Company</insurance-plan-name>
+  <employment>No</employment>
+  <auto-accident>No</auto-accident>
+  <place></place>
+  <other-accident>No</other-accident>
+  <claim-codes>W2</claim-codes>
+  <insured-policy-group-number>A1234</insured-policy-group-number>
+  <insured-dob-month>01</insured-dob-month>
+  <insured-dob-day>01</insured-dob-day>
+  <insured-dob-year>1987</insured-dob-year>
+  <insured-sex>M</insured-sex>
+  <other-claim-id-qualifier>Y4</other-claim-id-qualifier>
+  <other-claim-id>1278398999</other-claim-id>
+  <other-insurance-plan-name>ABC Insurance Company</other-insurance-plan-name>
+  <is-there-another-health-benefit-plan>Yes</is-there-another-health-benefit-plan>
+  <patient-signature nil = "true"/>
+  <patient-sign-date></patient-sign-date>
+  <insured-signature nil = "true"/>
+  <date-of-current-illness-month>01</date-of-current-illness-month>
+  <date-of-current-illness-day>01</date-of-current-illness-day>
+  <date-of-current-illness-year>1987</date-of-current-illness-year>
+  <date-of-current-illness-applicable-qualifier>431</date-of-current-illness-applicable-qualifier>
+  <other-date-month>09</other-date-month>
+  <other-date-day>09</other-date-day>
+  <other-date-year>2005</other-date-year>
+  <other-date-applicable-qualifier>454</other-date-applicable-qualifier>
+  <patient-unable-to-work-from-date-month>09</patient-unable-to-work-from-date-month>
+  <patient-unable-to-work-from-date-day>25</patient-unable-to-work-from-date-day>
+  <patient-unable-to-work-from-date-year>2005</patient-unable-to-work-from-date-year>
+  <patient-unable-to-work-to-date-month>10</patient-unable-to-work-to-date-month>
+  <patient-unable-to-work-to-date-day>28</patient-unable-to-work-to-date-day>
+  <patient-unable-to-work-to-date-year>2005</patient-unable-to-work-to-date-year>
+  <name-of-referring-provider>Jane A Smith MD</name-of-referring-provider>
+  <name-of-referring-provider-applicable-qualifier>DN</name-of-referring-provider-applicable-qualifier>
+  <referring-provider-other-id>ABC12345559 </referring-provider-other-id>
+  <non-npi-referring-provider-qualifier>G2</non-npi-referring-provider-qualifier>
+  <npi-number-of-referring-provider>1287338837</npi-number-of-referring-provider>
+  <hospitalization-from-date-month>09</hospitalization-from-date-month>
+  <hospitalization-from-date-day>25</hospitalization-from-date-day>
+  <hospitalization-from-date-year>2005</hospitalization-from-date-year>
+  <hospitalization-to-date-month>09</hospitalization-to-date-month>
+  <hospitalization-to-date-day>28</hospitalization-to-date-day>
+  <hospitalization-to-date-year>2005</hospitalization-to-date-year>
+  <additional-claim-information></additional-claim-information>
+  <is-outside-lab>Yes</is-outside-lab>
+  <charges>112500</charges>
+  <icd-code-version>9</icd-code-version>
+  <icd-a>9925034</icd-a>
+  <icd-b></icd-b>
+  <icd-c></icd-c>
+  <icd-d></icd-d>
+  <icd-e></icd-e>
+  <icd-f></icd-f>
+  <icd-g></icd-g>
+  <icd-h></icd-h>
+  <icd-i></icd-i>
+  <icd-j></icd-j>
+  <icd-k></icd-k>
+  <icd-l></icd-l>
+  <resubmission-code>12345678902</resubmission-code>
+  <original-reference-number>ABC565666767712345</original-reference-number>
+  <prior-authorization-number>1234567890A</prior-authorization-number>
+  <services>
+    <service>
+      <supplemental-information>JP1 16 17 32</supplemental-information>
+      <from-date-month-of-service>09</from-date-month-of-service>
+      <from-date-day-of-service>30</from-date-day-of-service>
+      <from-date-year-of-service>05</from-date-year-of-service>
+      <to-date-month-of-service>09</to-date-month-of-service>
+      <to-date-day-of-service>30</to-date-day-of-service>
+      <to-date-year-of-service>05</to-date-year-of-service>
+      <place-of-service>11</place-of-service>
+      <emergency>Y</emergency>
+      <hcpcs-code>99125</hcpcs-code>
+      <modifier1>25</modifier1>
+      <modifier2></modifier2>
+      <modifier3></modifier3>
+      <modifier4></modifier4>
+      <diagnosis-pointer>ABCD</diagnosis-pointer>
+      <service-charge-before-decimal>123450</service-charge-before-decimal>
+      <service-charge-after-decimal>00</service-charge-after-decimal>
+      <service-units>1.5</service-units>
+      <service-response>N</service-response>
+      <family-plan>N</family-plan>
+      <non-npi-identifier>G2</non-npi-identifier>
+      <service-non-npi-number>G2123456789</service-non-npi-number>
+      <rendering-provider-id>12345678909</rendering-provider-id>
+    </service>
+    <service>
+      <from-date-month-of-service>09</from-date-month-of-service>
+      <from-date-day-of-service>30</from-date-day-of-service>
+      <from-date-year-of-service>05</from-date-year-of-service>
+      <to-date-month-of-service>09</to-date-month-of-service>
+      <to-date-day-of-service>30</to-date-day-of-service>
+      <to-date-year-of-service>05</to-date-year-of-service>
+      <place-of-service>11</place-of-service>
+      <emergency>Y</emergency>
+      <hcpcs-code>99125</hcpcs-code>
+      <modifier>25</modifier>
+      <diagnosis-pointer>ABCD</diagnosis-pointer>
+      <service-charge-before-decimal>123450</service-charge-before-decimal>
+      <service-charge-after-decimal>00</service-charge-after-decimal>
+      <service-units>1.5</service-units>
+      <family-plan>Y</family-plan>
+      <non-npi-identifier>G2</non-npi-identifier>
+      <rendering-provider-id>12345678909</rendering-provider-id>
+    </service>
+    <service>
+      <from-date-month-of-service>09</from-date-month-of-service>
+      <from-date-day-of-service>30</from-date-day-of-service>
+      <from-date-year-of-service>05</from-date-year-of-service>
+      <to-date-month-of-service>09</to-date-month-of-service>
+      <to-date-day-of-service>30</to-date-day-of-service>
+      <to-date-year-of-service>05</to-date-year-of-service>
+      <place-of-service>11</place-of-service>
+      <emergency>Y</emergency>
+      <hcpcs-code>99125</hcpcs-code>
+      <modifier>25</modifier>
+      <diagnosis-pointer>ABCD</diagnosis-pointer>
+      <service-charge-before-decimal>123450</service-charge-before-decimal>
+      <service-charge-after-decimal>00</service-charge-after-decimal>
+      <service-units>1.5</service-units>
+      <family-plan>Y</family-plan>
+      <non-npi-identifier>G2</non-npi-identifier>
+      <rendering-provider-id>12345678909</rendering-provider-id>
+    </service>
+    <service>
+      <from-date-month-of-service>09</from-date-month-of-service>
+      <from-date-day-of-service>30</from-date-day-of-service>
+      <from-date-year-of-service>05</from-date-year-of-service>
+      <to-date-month-of-service>09</to-date-month-of-service>
+      <to-date-day-of-service>30</to-date-day-of-service>
+      <to-date-year-of-service>05</to-date-year-of-service>
+      <place-of-service>11</place-of-service>
+      <emergency>Y</emergency>
+      <hcpcs-code>99125</hcpcs-code>
+      <modifier>25</modifier>
+      <diagnosis-pointer>ABCD</diagnosis-pointer>
+      <service-charge-before-decimal>123450</service-charge-before-decimal>
+      <service-charge-after-decimal>00</service-charge-after-decimal>
+      <service-units>1.5</service-units>
+      <family-plan>Y</family-plan>
+      <non-npi-identifier>G2</non-npi-identifier>
+      <rendering-provider-id>12345678909</rendering-provider-id>
+    </service>
+    <service>
+      <from-date-month-of-service>09</from-date-month-of-service>
+      <from-date-day-of-service>30</from-date-day-of-service>
+      <from-date-year-of-service>05</from-date-year-of-service>
+      <to-date-month-of-service>09</to-date-month-of-service>
+      <to-date-day-of-service>30</to-date-day-of-service>
+      <to-date-year-of-service>05</to-date-year-of-service>
+      <place-of-service>11</place-of-service>
+      <emergency>Y</emergency>
+      <hcpcs-code>99125</hcpcs-code>
+      <modifier>25</modifier>
+      <diagnosis-pointer>ABCD</diagnosis-pointer>
+      <service-charge-before-decimal>123450</service-charge-before-decimal>
+      <service-charge-after-decimal>00</service-charge-after-decimal>
+      <service-units>1.5</service-units>
+      <family-plan>Y</family-plan>
+      <non-npi-identifier>G2</non-npi-identifier>
+      <rendering-provider-id>12345678909</rendering-provider-id>
+    </service>
+    <service>
+      <from-date-month-of-service>09</from-date-month-of-service>
+      <from-date-day-of-service>30</from-date-day-of-service>
+      <from-date-year-of-service>05</from-date-year-of-service>
+      <to-date-month-of-service>09</to-date-month-of-service>
+      <to-date-day-of-service>30</to-date-day-of-service>
+      <to-date-year-of-service>05</to-date-year-of-service>
+      <place-of-service>11</place-of-service>
+      <emergency>Y</emergency>
+      <hcpcs-code>99125</hcpcs-code>
+      <modifier>25</modifier>
+      <diagnosis-pointer>ABCD</diagnosis-pointer>
+      <service-charge-before-decimal>123450</service-charge-before-decimal>
+      <service-charge-after-decimal>00</service-charge-after-decimal>
+      <service-units>1.5</service-units>
+      <family-plan>Y</family-plan>
+      <non-npi-identifier>G2</non-npi-identifier>
+      <rendering-provider-id>12345678909</rendering-provider-id>
+    </service>
+  </services>
+  <federal-tax-id>123456789012345</federal-tax-id>
+  <federal-tax-id-type>SSN</federal-tax-id-type>
+  <patient-account-number></patient-account-number>
+  <accept-assignment></accept-assignment>
+  <total-charge-before-decimal>123450</total-charge-before-decimal>
+  <total-charge-after-decimal>00</total-charge-after-decimal>
+  <amount-paid-before-decimal>12000</amount-paid-before-decimal>
+  <amount-paid-after-decimal>50</amount-paid-after-decimal>
+  <physician-signature></physician-signature>
+  <physician-sign-date></physician-sign-date>
+  <service-facility-location-name>General Hospital</service-facility-location-name>
+  <service-facility-location-building-name>Place on Earth</service-facility-location-building-name>
+  <service-facility-location-address>1234 Hospital Street</service-facility-location-address>
+  <service-facility-location-city-state-zipcode>Anytown IL 60610-1234</service-facility-location-city-state-zipcode>
+  <service-facility-location-npi-number>5678901234</service-facility-location-npi-number>
+  <service-facility-non-npi-number>G23444556677</service-facility-non-npi-number>
+  <billing-provider-name>Physician practise Inc</billing-provider-name>
+  <billing-provider-building-name>Place On Sky</billing-provider-building-name>
+  <billing-provider-address>1234 HealthCare Street</billing-provider-address>
+  <billing-provider-city-state-zipcode>Anytown IL 60610-1234</billing-provider-city-state-zipcode>
+  <billing-provider-npi-number>5678901234</billing-provider-npi-number>
+  <billing-provider-non-npi-number>G23444556677</billing-provider-non-npi-number>
+</cms1500>

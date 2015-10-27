@@ -1,0 +1,11 @@
+Use the SQL below to find mis-matches between the names between 2 databases.
+
+1. For example, the Zip's county name says "Queen Anne's" whereas cbca databases
+says "Queen Annes"
+2. Also the Zip code database from geonames may contain some old names etc.
+
+select admin_name_1 ,admin_name_2 from zip_codes 
+group by admin_name_1, admin_name_2 
+having admin_name_2  not in (select county_name 
+from medicare_core_stat_areas) 
+order by admin_name_1

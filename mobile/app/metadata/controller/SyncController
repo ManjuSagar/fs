@@ -1,0 +1,105 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "SyncController"
+    },
+    "designerId": "3b1b78e8-c313-4d7b-bcb7-472a234a1101",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onSync",
+                "implHandler": [
+                    "onNetworkCheck(function() {",
+                    "    Ext.Viewport.setMasked({",
+                    "        xtype: 'loadmask',",
+                    "        message: 'Synchronizing...'",
+                    "    });",
+                    "",
+                    "    var syncDate = new Date();",
+                    "    var values = [Ext.Date.format(syncDate, 'g:i A'), Ext.Date.format(syncDate, \"F jS, Y\")];",
+                    "    var t = new Ext.Template(\"Last synchronized at {0},<br/>on {1}\");",
+                    "    this.getSyncLabel().setHtml(t.apply(values));",
+                    "",
+                    "    var settings = user_settings();",
+                    "    var username = settings.get(\"username\");",
+                    "    var password = settings.get(\"password\");",
+                    "    var url = settings.get(\"server_url\") + \"/mobile/sync\";",
+                    "",
+                    "",
+                    "    this.routesheetStore = Ext.StoreManager.lookup(\"RoutesheetStore\");",
+                    "    var totalRecords = this.routesheetStore.getCount();",
+                    "    var me = this;",
+                    "    var syncLog = '';",
+                    "    Ext.Ajax.request({",
+                    "        url: '/app/Sync/sync',",
+                    "        method: 'POST',",
+                    "        params: {k:'v'},",
+                    "        failure: function (response) { ",
+                    "            console.log(response);",
+                    "            Ext.Msg.alert(\"Sync\", \"Server is not responding.<br/>Please try again later.\");",
+                    "            Ext.Viewport.setMasked(false);",
+                    "        },",
+                    "        success: function (response, opts) {",
+                    "            var jsonResponse = Ext.decode(response.responseText);",
+                    "            Ext.each(jsonResponse.success_ids, function(item) {",
+                    "                var routesheet = me.routesheetStore.findRecord(\"id\", item);",
+                    "                me.routesheetStore.remove(routesheet);\t            ",
+                    "            });",
+                    "            me.routesheetStore.sync();\t\t                 ",
+                    "            Ext.each(jsonResponse.failure_ids, function(item) {",
+                    "                var routesheet = me.routesheetStore.findRecord(\"id\", item.routesheet_id);",
+                    "                //Assume routesheet record exists...for now!",
+                    "                syncLog += \"Patient : \" + routesheet.get(\"patient_name\") + \"<br/>\" + item.error_message + \"<br/>\";",
+                    "            });",
+                    "",
+                    "            Ext.Viewport.setMasked(false);",
+                    "",
+                    "            if (syncLog == '') {",
+                    "                Ext.Msg.alert(\"Success\", totalRecords.toString() + \" routesheets synced to server.\");",
+                    "            } else {",
+                    "                Ext.Msg.alert(\"Error\", jsonResponse.failure_ids.length.toString() + \" routesheets had errors during sync.<br/>\" + syncLog);",
+                    "                settings.set(\"latest_sync_log\", syncLog);",
+                    "                settings.set(\"last_sync_time\", new Date());",
+                    "                var settingsController = MyApp.app.getController(\"SettingsController\");",
+                    "\t\t\t\tsettingsController.updateUserSetting(settings);",
+                    "            }",
+                    "        }",
+                    "    });",
+                    "}, function() {",
+                    "    Ext.Msg.alert(\"Error\", \"Internet connection not available.<br/>Please try again later.\");",
+                    "}, this);",
+                    ""
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "button#sync"
+            },
+            "designerId": "ed92ed41-bba6-4ca6-a21b-671701070664"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "syncLabel",
+                "selector": "#sync_label",
+                "xtype": "Ext.Label"
+            },
+            "designerId": "bd791450-4a63-46eb-a6a1-4b577e915776"
+        }
+    ]
+}

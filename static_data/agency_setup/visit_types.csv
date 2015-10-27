@@ -1,0 +1,66 @@
+Code,Description,Type,Discipline,License Types,Sort Order,Document Definitions,PE-AC,PE-DC,AC-DC,HD-AC,HD-DC,AS-AS
+432,OT eval/DC,DC,OT,OT,3,OT_DISCHARGE,X,,,?,,X
+423DC,PT DC,DC,PT,PT,3,PT_DISCHARGE,X,,,X,,X
+423OD,PT eval/DC Oasis difference,DC,PT,PT,3,OASIS_DFA,X,,,?,,X
+423OT,PT eval/DC w OTP,DC,PT,PT,3,PT_DISCHARGE,X,,,?,,X
+423TP,PT eval/DC w travel prem,DC,PT,PT,3,PT_DISCHARGE,X,,,?,,X
+423OS,PT eval/DC w/ Oasis,DC,PT,PT,3,OASIS_DFA,X,,,?,,X
+556,RN DC eval,DC,SN,RN,3,OASIS_DFA,X,,,,,X
+556OT,RN DC eval w OTP,DC,SN,RN,3,OASIS_DFA,X,,,,,X
+556TP,RN DC eval w travel prem,DC,SN,RN,3,OASIS_DFA,X,,,,,X
+440,ST eval/DC,DC,ST,ST,3,ST_DISCHARGE,X,,,?,,X
+430,OT eval diff,Eval,OT,OT,2,"OT_DISCHARGE, CHHA_EVAL",X,,,X,,X
+423,PT eval,Eval,PT,PT,2,"PT_EVAL, CHHA_EVAL",X,,,X,,X
+420,PT Recert  Visit,Eval,PT,PT,2,"OASIS_RR, CHHA_EVAL",X,,,X,,X
+551HC,Skilled Nurse Eval,Eval,SN,RN,2,"SN_EVAL, CHHA_EVAL",X,,,X,,X
+551HE,Skilled Nurse Eval w/ OTP,Eval,SN,RN,2,"SN_EVAL, CHHA_EVAL",X,,,X,,X
+555,SOC/ROC/Rc,Eval,SN,RN,2,"SOC_OASIS, OASIS_RR, CHHA_EVAL",X,,,X,,X
+555OT,SOC/ROC/Rc w OTP,Eval,SN,RN,2,"SOC_OASIS, OASIS_RR, CHHA_EVAL",X,,,X,,X
+555TP,SOC/ROC/Rc w travel prem,Eval,SN,RN,2,"SOC_OASIS, OASIS_RR, CHHA_EVAL",X,,,X,,X
+555L,SOC/ROC/Rc w/ Lab,Eval,SN,RN,2,"SOC_OASIS, OASIS_RR, CHHA_EVAL",X,,,X,,X
+571,HHA Visit,Follow Up,CHHA,CHHA,1,CHHA_FOLLOWUP,X,,,X,,X
+571OP,HHA Visit with On Time Premium,Follow Up,CHHA,CHHA,1,CHHA_FOLLOWUP,X,,,X,,X
+571P,HHA visit with Travel Premium,Follow Up,CHHA,CHHA,1,CHHA_FOLLOWUP,X,,,X,,X
+561,MSW Visit,Follow Up,MSW,MSW,1,"MSW_EVAL, MSW_FOLLOWUP, MSW_DISCHARGE",X,,,X,,X
+431,OT Visit,Follow Up,OT,OT,1,OT_FOLLOWUP,X,,,X,,X
+431A,OTA visit,Follow Up,OT,OTA,1,OT_FOLLOWUP,X,,,X,,X
+421,PT Visit,Follow Up,PT,PT,1,PT_FOLLOWUP,X,,,X,,X
+421OP,PT Visit with OTP,Follow Up,PT,PT,1,PT_FOLLOWUP,X,,,X,,X
+421P,PT Visit with Travel Premium,Follow Up,PT,PT,1,PT_FOLLOWUP,X,,,X,,X
+421A,PTA Visit,Follow Up,PT,PTA,1,PT_FOLLOWUP,X,,,X,,X
+2,PTvisit OTP diff,Follow Up,PT,PT,1,PT_FOLLOWUP,X,,,X,,X
+551IV,Direct IV RN visit,Follow Up,SN,RN,1,SN_FOLLOWUP,X,,,X,,X
+551IO,Direct IV RN w/ OTP,Follow Up,SN,RN,1,SN_FOLLOWUP,X,,,X,,X
+551IT,Direct IV RN w/ travel prem,Follow Up,SN,RN,1,SN_FOLLOWUP,X,,,X,,X
+554P,Direct LVN travel prem visit,Follow Up,SN,LVN,1,SN_FOLLOWUP,X,,,X,,X
+554,Direct LVN visit,Follow Up,SN,LVN,1,SN_FOLLOWUP,X,,,X,,X
+554OP,Direct LVN visit w/ OTP,Follow Up,SN,LVN,1,SN_FOLLOWUP,X,,,X,,X
+551IL,Direct RN IV w/ lab,Follow Up,SN,RN,1,SN_FOLLOWUP,X,,,X,,X
+551OP,Direct RN OTP visit,Follow Up,SN,RN,1,SN_FOLLOWUP,X,,,X,,X
+551P,Direct RN travel prem visit,Follow Up,SN,RN,1,SN_FOLLOWUP,X,,,X,,X
+551,Direct RN visit,Follow Up,SN,RN,1,SN_FOLLOWUP,X,,,X,,X
+551LD,Direct SN Lab Diff,Follow Up,SN,RN,1,SN_FOLLOWUP,X,,,X,,X
+551L,Direct SN w/ lab,Follow Up,SN,RN,1,SN_FOLLOWUP,X,,,X,,X
+5,IV prem diff,Follow Up,SN,RN,1,SN_FOLLOWUP,X,,,X,,X
+554OA,LVN OA of Tx,Follow Up,SN,LVN,1,SN_FOLLOWUP,X,,,X,,X
+554OT,LVN OA of Tx  w/ OTP,Follow Up,SN,LVN,1,SN_FOLLOWUP,X,,,X,,X
+554TP,LVN OA of Tx w/ TP,Follow Up,SN,LVN,1,SN_FOLLOWUP,X,,,X,,X
+551OA,RN OA of Tx,Follow Up,SN,RN,1,SN_FOLLOWUP,X,,,X,,X
+551OT,RN OA of Tx w/ OTP,Follow Up,SN,RN,1,SN_FOLLOWUP,X,,,X,,X
+551TP,RN OA of Tx w/ travel prem,Follow Up,SN,RN,1,SN_FOLLOWUP,X,,,X,,X
+559HI,Skilled IV Nurse,Follow Up,SN,RN,1,SN_FOLLOWUP,X,,,X,,X
+559HO,Skilled IV Nurse w/ OTP,Follow Up,SN,RN,1,SN_FOLLOWUP,X,,,X,,X
+551-H,Skilled Nurse Visit,Follow Up,SN,"RN, LVN",1,SN_FOLLOWUP,X,,,X,,X
+551HO,Skilled Nurse Visit w/ OTP,Follow Up,SN,"RN, LVN",1,SN_FOLLOWUP,X,,,X,,X
+1,Skilled Nursing Visit BCBS,Follow Up,SN,RN,1,SN_FOLLOWUP,X,,,X,,X
+551ED,SN Ed/T,Follow Up,SN,RN,1,SN_FOLLOWUP,X,,,X,,X
+551EO,SN Ed/T w OTP,Follow Up,SN,RN,1,SN_FOLLOWUP,X,,,X,,X
+551ET,SN Ed/T w travel prem,Follow Up,SN,RN,1,SN_FOLLOWUP,X,,,X,,X
+551-P,SN Visit,Follow Up,SN,"RN, LVN",1,SN_FOLLOWUP,X,,,X,,X
+441,ST Visit,Follow Up,ST,"ST, STA",1,ST_FOLLOWUP,X,,,X,,X
+571MV,HHA Missed Visit,Missed Visit,CHHA,CHHA,4,ADHOC,,,,,,X
+431MV,OT Missed Vist,Missed Visit,OT,"OT, OTA",4,ADHOC,,,,,,X
+421MV,PT Missed Visit,Missed Visit,PT,"PT, PTA",4,ADHOC,,,,,,X
+554MV,LVN Missed Visit,Missed Visit,SN,LVN,4,ADHOC,,,,,,X
+551MV,RN Missed Visit,Missed Visit,SN,RN,4,ADHOC,,,,,,X
+441MV,ST Missed Visit,Missed Visit,ST,"ST, STA",4,ADHOC,,,,,,X

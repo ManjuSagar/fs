@@ -1,0 +1,116 @@
+default: EpisodesListExplorer
+pages:
+  -
+      text: Productivity
+      children:
+        -
+         text: To Do
+         class_name: HaWorkQueue
+         icon: user
+        -
+         text: Authorizations
+         class_name: AuthorizationTrackings
+         icon: user
+  -
+    text: Patients
+    children:
+      -
+        text: Patients
+        class_name: EpisodesListExplorer
+        icon: user
+      -
+         text: Orders
+         class_name: OrderTracking
+         icon: user
+      -
+        text: Exports
+        class_name: OasisDocuments
+        icon: user
+  -
+    text: Network
+    children:
+      -
+        text: Field List
+        class_name: AssociatedFieldStaffList
+        icon: user
+      -
+        text: Staffing Companies
+        class_name: StaffingCompanyList
+        icon: user
+      -
+        text: Physicians
+        class_name: PhysicianList
+        icon: user
+  -
+     text: Financial
+     class_name: field_staff
+     icon: user_suit
+     children:
+      -
+        text: Payroll
+        class_name: PayrollsExplorer
+        icon: user
+      -
+        text: Claims
+        class_name: InvoiceList
+        icon: user_suit
+      -
+        text: Insurance
+        class_name: PrivateInsuranceInvoices
+        icon: user_suit
+      -
+        text: Supplies
+        class_name: SuppliesList
+        icon: user
+      -
+        text: Medicare Remittances
+        class_name: MedicareRemittances
+        icon: user
+  -
+    text: Documents
+    children:
+      -
+        text: Uploads
+        class_name: FormLibrary
+        icon: user_suit
+      -
+        text: Templates
+        class_name: FreeFormTemplateList
+        icon: user_suit
+      -
+        text: Visits
+        class_name: VisitTypesExplorer
+        icon: user_suit
+      -
+        text: Forms
+        class_name: DocumentDefinitions
+        icon: user_suit
+  -
+    text: Admin
+    icon: user
+    children:
+      -
+        text: Settings
+        class_name: HaProfileSetting
+        icon: user_suit
+      -
+        text: Attachment Types
+        class_name: AttachmentTypeList
+        icon: user_suit
+      -
+        text: Order Types
+        class_name: OrderTypes
+        icon: user_suit
+      -
+        text: Insurance Companies
+        class_name: InsuranceCompanyList
+        icon: user  
+
+  -
+    text: Reports
+    class_name: Reports
+    icon: user_suit
+  -
+    text: Help
+    url: "http://www.help-fasternotes.com/"
+    icon: user_suit

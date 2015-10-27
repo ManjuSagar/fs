@@ -1,0 +1,42 @@
+{
+    "type": "arraystore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "data": [
+            "[",
+            "    [1,\"Karthik Krishnan\", \"732-297 3129\", \"North Brunswick, NJ 08902\", 30, 'Male', 2, 3],",
+            "    [2,\"Venkat Subramaniyan\", \"414-222 9288\", \"Edison, NJ 08792\", 29, 'Male', 5, 6]",
+            "]"
+        ],
+        "model": null,
+        "storeId": "PatientLStore",
+        "designer|userClassName": "PatientLStore"
+    },
+    "designerId": "dcbc3f5b-4409-407a-9ae2-3160ed0d6d89",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Memory",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "designerId": "7c1cc585-f280-43fb-b039-27557891ecc2",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Array",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "designerId": "8e87e396-5270-4ae1-b5a1-1f18c6514ae2"
+                }
+            ]
+        }
+    ]
+}

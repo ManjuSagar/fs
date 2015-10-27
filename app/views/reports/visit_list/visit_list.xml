@@ -1,0 +1,97 @@
+<visit-list>
+  <agency-name-with-phone-number>Best Home Health Agency, Inc. (323) 467‐1800</agency-name-with-phone-number>
+  <filtered-dates type="string"><b>Visit List</b> 08/31/2014 ‐ 09/03/2014</filtered-dates>
+  <filtered-by type="string"><b>Filtered By:</b> Patient (Tesfikchyanordano, Esperanza), Patient Status (AC, DC), Discipline (SN)</filtered-by>
+  <visits>
+    <visit>
+      <visit-date>08/31/2014</visit-date>
+      <formatted-visit-date>Sunday, August 31, 2014</formatted-visit-date>
+      <field-staff-name>Herta Minard, RN (818) 213‐1234</field-staff-name>
+      <patient-name-mr-phone-number>Esperanza Tesfikchyanordano, 112 (323) 467 ‐ 1800</patient-name-mr-phone-number>
+      <visit-type>SN ‐ FU Blood Draw</visit-type>
+      <visit-status>Scheduled</visit-status>
+      <visit-start-time>10:00</visit-start-time>
+      <visit-end-time>11:00</visit-end-time>
+    </visit>
+    <visit>
+      <visit-date>08/31/2014</visit-date>
+      <formatted-visit-date>Sunday, August 31, 2014</formatted-visit-date>
+      <field-staff-name>Herta Minard, RN (818) 213‐1234</field-staff-name>
+      <patient-name-mr-phone-number>Esperanza Tesfikchyanordano, 112 (323) 467 ‐ 1800</patient-name-mr-phone-number>
+      <visit-type>SN ‐ FU Blood Draw</visit-type>
+      <visit-status>Scheduled</visit-status>
+      <visit-start-time>11:00</visit-start-time>
+      <visit-end-time>12:00</visit-end-time>
+    </visit>
+    <visit>
+      <visit-date>08/31/2014</visit-date>
+      <formatted-visit-date>Sunday, August 31, 2014</formatted-visit-date>
+      <field-staff-name>Herta Minard, RN (818) 213‐1234</field-staff-name>
+      <patient-name-mr-phone-number>Esperanza Tesfikchyanordano, 112 (323) 467 ‐ 1800</patient-name-mr-phone-number>
+      <visit-type>SN ‐ FU Blood Draw</visit-type>
+      <visit-status>Completed</visit-status>
+      <visit-start-time>12:00</visit-start-time>
+      <visit-end-time>13:00</visit-end-time>
+    </visit>
+    <visit>
+      <visit-date>09/01/2014</visit-date>
+      <formatted-visit-date>Monday, September 1, 2014</formatted-visit-date>
+      <field-staff-name>Herta Minard, RN (818) 213‐1234</field-staff-name>
+      <patient-name-mr-phone-number>Esperanza Tesfikchyanordano, 112 (323) 467 ‐ 1800</patient-name-mr-phone-number>
+      <visit-type>SN ‐ FU Blood Draw</visit-type>
+      <visit-status>Completed</visit-status>
+      <visit-start-time>11:00</visit-start-time>
+      <visit-end-time>12:00</visit-end-time>
+    </visit>
+    <visit>
+      <visit-date>09/01/2014</visit-date>
+      <formatted-visit-date>Monday, September 1, 2014</formatted-visit-date>
+      <field-staff-name>Herta Minard, RN (818) 213‐1234</field-staff-name>
+      <patient-name-mr-phone-number>Esperanza Tesfikchyanordano, 112 (323) 467 ‐ 1800</patient-name-mr-phone-number>
+      <visit-type>SN ‐ FU Blood Draw</visit-type>
+      <visit-status>Scheduled</visit-status>
+      <visit-start-time>12:30</visit-start-time>
+      <visit-end-time>12:30</visit-end-time>
+    </visit>
+    <visit>
+      <visit-date>09/02/2014</visit-date>
+      <formatted-visit-date>Tuesday, September 2, 2014</formatted-visit-date>
+      <field-staff-name>Herta Minard, RN (818) 213‐1234</field-staff-name>
+      <patient-name-mr-phone-number>Esperanza Tesfikchyanordano, 112 (323) 467 ‐ 1800</patient-name-mr-phone-number>
+      <visit-type>SN ‐ FU Blood Draw</visit-type>
+      <visit-status>Scheduled</visit-status>
+      <visit-start-time>09:30</visit-start-time>
+      <visit-end-time>10:30</visit-end-time>
+    </visit>
+    <visit>
+      <visit-date>09/02/2014</visit-date>
+      <formatted-visit-date>Tuesday, September 2, 2014</formatted-visit-date>
+      <field-staff-name>Herta Minard, RN (818) 213‐1234</field-staff-name>
+      <patient-name-mr-phone-number>Esperanza Tesfikchyanordano, 112 (323) 467 ‐ 1800</patient-name-mr-phone-number>
+      <visit-type>SN ‐ FU Blood Draw</visit-type>
+      <visit-status>Scheduled</visit-status>
+      <visit-start-time>11:00</visit-start-time>
+      <visit-end-time>12:00</visit-end-time>
+    </visit>
+    <visit>
+      <visit-date>09/03/2014</visit-date>
+      <formatted-visit-date>Wednesday, September 3, 2014</formatted-visit-date>
+      <field-staff-name>Herta Minard, RN (818) 213‐1234</field-staff-name>
+      <patient-name-mr-phone-number>Esperanza Tesfikchyanordano, 112 (323) 467 ‐ 1800</patient-name-mr-phone-number>
+      <visit-type>SN ‐ FU Blood Draw</visit-type>
+      <visit-status>Scheduled</visit-status>
+      <visit-start-time>14:00</visit-start-time>
+      <visit-end-time>15:00</visit-end-time>
+    </visit>
+    <visit>
+      <visit-date>09/03/2014</visit-date>
+      <formatted-visit-date>Wednesday, September 3, 2014</formatted-visit-date>
+      <field-staff-name>Herta Minard, RN (818) 213‐1234</field-staff-name>
+      <patient-name-mr-phone-number>Esperanza Tesfikchyanordano, 112 (323) 467 ‐ 1800</patient-name-mr-phone-number>
+      <visit-type>SN ‐ FU Blood Draw</visit-type>
+      <visit-status>Scheduled</visit-status>
+      <visit-start-time>16:00</visit-start-time>
+      <visit-end-time>17:00</visit-end-time>
+    </visit>
+  </visits>
+</visit-list>

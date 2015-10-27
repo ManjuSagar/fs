@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="main_report_subreport1" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="4f2c996d-afa5-4589-adc0-d8eb0623eeea">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/alirts]]>
+	</queryString>
+	<field name="agency-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/agency-name]]></fieldDescription>
+	</field>
+	<field name="agency-street-address" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/agency-street-address]]></fieldDescription>
+	</field>
+	<field name="agency-suite-number" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/agency-suite-number]]></fieldDescription>
+	</field>
+	<field name="agency-city-state-phone" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/agency-city-state-phone]]></fieldDescription>
+	</field>
+	<field name="fiscal-period-from-date" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/fiscal-period-from-date]]></fieldDescription>
+	</field>
+	<field name="fiscal-period-to-date" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/fiscal-period-to-date]]></fieldDescription>
+	</field>
+	<field name="sub-report-url" class="java.lang.String">
+		<fieldDescription><![CDATA[sub-report-url]]></fieldDescription>
+	</field>
+	<field name="current-date" class="java.lang.String">
+		<fieldDescription><![CDATA[current-date]]></fieldDescription>
+	</field>
+	<field name="current-time" class="java.lang.String">
+		<fieldDescription><![CDATA[current-time]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="134" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="6f7e9727-0458-4356-9318-579b8cd65c61" x="161" y="53" width="276" height="20"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PATIENTS AND VISITS BY AGE (Table 1)]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="031b31bc-adc2-4771-b634-98dd18d917c9" x="467" y="3" width="80" height="15"/>
+				<textElement textAlignment="Left">
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement uuid="b518d168-83e7-4705-9982-a3ec8f522802" x="521" y="3" width="25" height="15"/>
+				<textElement textAlignment="Left">
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="68ab8570-ef8b-4d12-94ab-6929e37b4b1a" x="0" y="3" width="315" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{agency-name}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{agency-name}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="90e891b2-c3a0-4ef4-90fb-61424f943e85" x="3" y="18" width="312" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{agency-street-address}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{agency-street-address}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="a636eb7c-c604-43a1-9dda-e8955d359324" x="4" y="33" width="311" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{agency-city-state-phone}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{agency-city-state-phone}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="ddef75b0-ca48-44b7-adbc-b751931de4f0" x="161" y="69" width="100" height="15"/>
+				<textElement/>
+				<text><![CDATA[Fiscal Period]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="5b4b68cf-5c95-42d5-bf03-c0ad72ea3184" x="246" y="69" width="309" height="15"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{fiscal-period-from-date}+ "     " + "To" + "     "+$F{fiscal-period-to-date}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="4a58ceb2-ff10-4c6f-bbec-c77cb77413ff" x="249" y="86" width="100" height="15"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Errors Prooflist]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="6a5d752c-7ff7-4296-8945-1684ba4a427e" x="249" y="101" width="100" height="15"/>
+				<textElement/>
+				<text><![CDATA[For Visits Only]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d08b1e5a-576a-4850-8be0-1b1406a0bd1b" x="249" y="116" width="100" height="15"/>
+				<textElement/>
+				<text><![CDATA[For All Offices]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="265a4364-46b7-44a0-96a4-67c8ea1b98dc" x="467" y="18" width="88" height="15"/>
+				<textElement textAlignment="Left"/>
+				<textFieldExpression><![CDATA[$F{current-date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="4ccd793b-efe9-4c63-95a5-c53a0597811a" x="467" y="33" width="88" height="15"/>
+				<textElement textAlignment="Left"/>
+				<textFieldExpression><![CDATA[$F{current-time}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="43">
+			<subreport runToBottom="false">
+				<reportElement uuid="9dea6f1c-61a8-453a-b00c-5116f06822a8" x="0" y="0" width="555" height="42" isRemoveLineWhenBlank="true"/>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportExpression><![CDATA[$F{sub-report-url}+"visit_not_covered_by_plan_of_care.jasper"]]></subreportExpression>
+			</subreport>
+			<break>
+				<reportElement uuid="27cd8258-76cb-4871-88da-3e565dbd59e8" x="0" y="15" width="100" height="1"/>
+			</break>
+		</band>
+		<band height="39" splitType="Prevent">
+			<subreport runToBottom="false">
+				<reportElement uuid="65f23538-30d3-439a-8154-0afa450239c5" x="0" y="3" width="555" height="36" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportExpression><![CDATA[$F{sub-report-url}+"visit_by_age_table.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+	</detail>
+</jasperReport>

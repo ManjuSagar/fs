@@ -1,0 +1,43 @@
+Hi,
+<br/>
+<br/>
+We have processed the claim(Invoice# <b><%= @claim.invoice_number %></b>) and the status is <b> <%=@transmission_status%></b>
+<br/>
+<% if ["edi_generation_failure", "rejected", "999_failure", "trn_failure", "ta1_failure", "277_failure"].include? @status %>
+    <br/>
+Failure reasons are,
+    <br/>
+   <%= @failure_reasons %>
+<br/><br/>
+ Please correct and resubmit.
+<br/>
+<% end %>
+<br/>
+
+This is an automatically generated email from FasterNotes.com. Please do not reply to this message.
+<br/>
+<br/>
+FasterNotes, Inc.
+<br/>
+Because Business Should be Easy
+<br/>
+Tel: (888) 255-8508 | Fax: (888) 462-4908
+<br/>
+www.fasternotes.com
+<br/>
+<br/>
+<img  src="http://54.221.195.117/wp-content/uploads/2013/09/logo.png" alt="logo">
+<br/>
+<table>
+  <tr>
+    <a href="https://www.facebook.com/fasternotes" target="_blank">facebook</a>
+    <a href="https://twitter.com/fasternotes" target="_blank">twitter</a>
+    <a href="https://plus.google.com/105536414439978563552/posts" target="_blank">googleplus</a>
+    <a href="http://www.linkedin.com/company/fasternotes?trk=cp_followed_name_fasternotes" target="_blank">linkedin</a>
+  </tr>
+</table>
+
+
+
+
+

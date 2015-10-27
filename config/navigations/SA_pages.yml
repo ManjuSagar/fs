@@ -1,0 +1,126 @@
+default: OrgList
+pages:
+  -
+    text: Network
+    children:
+      -
+         text: Admin Users
+         class_name: AdminList
+         icon: user
+      -
+        text: Clients
+        class_name: OrgList
+        icon: user_suit
+      -
+        text: Health Agency Details
+        class_name: HealthAgencyDetails
+        icon: user_suit
+      -
+        text: Field Staffs
+        class_name: FieldStaffList
+        icon: user_suit
+  -
+    text: HR Settings
+    children:
+      -
+        text: Field Staff Credentials
+        class_name: FieldStaffCredentialTypeList
+        icon: user
+      -
+         text: Staffing Company Credentials
+         class_name: StaffingCompanyCredentialTypeList
+         icon: user
+      -
+         text: License Types
+         class_name: LicenseTypesList
+         icon: user
+      -
+         text: Disciplines
+         class_name: Disciplines
+         icon: user
+      -
+         text: Physicians
+         class_name: PhysicianList
+         icon: user
+  -
+     text: Visit Settings
+     children:
+      -
+         text: Visits
+         class_name: VisitTypesExplorer
+         icon: user_suit
+      -
+        text: Forms
+        class_name: DocumentDefinitions
+        icon: user_suit
+      -
+        text: Document Templates
+        class_name: DocumentTemplates
+        icon: user_suit
+      -
+         text: Document Sets
+         class_name: DocumentDefinitionSets
+         icon: user
+      -
+         text: Document Template Sets
+         class_name: DocumentFormTemplateSets
+         icon: user
+      -
+         text: Attachment Types
+         class_name: AttachmentTypeList
+         icon: user_suit
+  -
+     text: Billing Settings
+     children:
+      -
+         text: Insurance Companies
+         class_name: GlobalInsuranceCompanyList
+         icon: user
+      -
+         text: Supplies
+         class_name: SuppliesList
+         icon: user
+      -
+         text: Electronic Transmission Log
+         class_name: MedicareClaimTransmissionLogs
+         icon: user
+  -
+     text: Misc Settings
+     children:
+      -
+        text: OASIS Field Spec
+        class_name: OasisFieldSpecList
+        icon: user
+      -
+         text: Zip Codes
+         class_name: ZipCodesList
+         icon: user
+      -
+         text: States
+         class_name: StatesList
+         icon: user
+      -
+         text: Languages
+         class_name: Languages
+         icon: user
+  -
+     text: Clinical Settings
+     children:
+      -
+         text: Medical Equipments
+         class_name: MedicalEquipments
+         icon: user
+      -
+         text: Order Types
+         class_name: OrderTypes
+         icon: user
+      -
+         text: Vital Signs Reference Range
+         class_name: VitalSignsReferenceRangeList
+         icon: user_suit
+      -
+         text: Medication Library
+         class_name: MedicationList
+         icon: user
+  -
+     text: Reports

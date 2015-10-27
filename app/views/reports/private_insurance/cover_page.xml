@@ -1,0 +1,121 @@
+<private-invoice>
+  <agency-name>Disney Home Health,Inc.</agency-name>
+  <agency-building-name>PlaceEarth PlaceEarth PlaceEarth PlaceEarth  PlaceEarthPlaceEarth PlaceEarth PlaceEarth PlaceEarth PlaceEarth  PlaceEarthPlaceEarth </agency-building-name>
+  <agency-address-line1>1313 Disneyland Dr.,Suite 1</agency-address-line1>
+  <agency-address-line2>Anaheirn, CA 92802</agency-address-line2>
+  <agency-phone>Phone: (714) 781-4636</agency-phone>
+  <agency-fax>Fax: (714)781-4637</agency-fax>
+  <ins-name>US PRIVATE INSURANCE</ins-name>
+  <ins-address>1680 vine ST.,Suite 111</ins-address>
+  <ins-city-details>Los Angeles, CA 90028</ins-city-details>
+  <ins-phone>Phone: (323) 555-6666</ins-phone>
+  <pages>4</pages>
+  <hippa-text>The documents in this package contain confidential information that may be legally privileged and protected by federal and state law. This information is intended for use only by the individual to whom it is addressed. The authorized recipient is obligated to maintain the information in a safe, secure, and confidential manner.
+    If you are in  possession of this protected health information, and are not the intended recipient, you are hereby notified that any improper disclosure, copying, or distribution of the contents of this information is strictly prohibited. Please notify the owner of this information immediately and arrange for its return or destruction. </hippa-text>
+  <package-number>213</package-number>
+  <sent-date>23/05/2015</sent-date>
+
+
+  <receivables>
+    <receivable>
+     <patient-name>Andrew Thompson jr.</patient-name>
+     <field-staff-name>Jackie Browning, PT</field-staff-name>
+     <visit-type>PT-Eval</visit-type>
+     <visit-date>01/02/15</visit-date>
+     <hcpcs-code>G0155</hcpcs-code>
+     <billed-amount>45</billed-amount>
+     <received-amount>30</received-amount>
+     <balance>45</balance>
+    </receivable>
+
+    <receivable>
+      <patient-name>Andrew Thompson jr.</patient-name>
+      <field-staff-name>Jackie Browning, PT</field-staff-name>
+      <visit-type>PT-Eval</visit-type>
+      <visit-date>01/02/15</visit-date>
+      <hcpcs-code>G0155</hcpcs-code>
+      <billed-amount>45</billed-amount>
+      <received-amount>30</received-amount>
+      <balance>45</balance>
+    </receivable>
+
+    <receivable>
+      <patient-name>Andrew Thompson jr.</patient-name>
+      <field-staff-name>Jackie Browning, PT</field-staff-name>
+      <visit-type>PT-Eval</visit-type>
+      <visit-date>01/02/15</visit-date>
+      <hcpcs-code>G0155</hcpcs-code>
+      <billed-amount>45</billed-amount>
+      <received-amount>30</received-amount>
+      <balance>45</balance>
+    </receivable>
+
+    <receivable>
+      <patient-name>Andrew Thompson jr.</patient-name>
+      <field-staff-name>Jackie Browning, PT</field-staff-name>
+      <visit-type>PT-Eval</visit-type>
+      <visit-date>01/02/15</visit-date>
+      <hcpcs-code>G0155</hcpcs-code>
+      <billed-amount>45</billed-amount>
+      <received-amount>30</received-amount>
+      <balance>45</balance>
+    </receivable>
+
+    <receivable>
+      <patient-name>Andrew Thompson jr.</patient-name>
+      <field-staff-name>Jackie Browning, PT</field-staff-name>
+      <visit-type>PT-Eval</visit-type>
+      <visit-date>01/02/15</visit-date>
+      <hcpcs-code>G0155</hcpcs-code>
+      <billed-amount>45</billed-amount>
+      <received-amount>30</received-amount>
+      <balance>45</balance>
+    </receivable>
+
+    <receivable>
+      <patient-name>Andrew Thompson jr.</patient-name>
+      <field-staff-name>Jackie Browning, PT</field-staff-name>
+      <visit-type>PT-Eval</visit-type>
+      <visit-date>01/02/15</visit-date>
+      <hcpcs-code>G0155</hcpcs-code>
+      <billed-amount>45</billed-amount>
+      <received-amount>30</received-amount>
+      <balance>45</balance>
+    </receivable>
+
+    <receivable>
+      <patient-name>Andrew Thompson jr.</patient-name>
+      <field-staff-name>Jackie Browning, PT</field-staff-name>
+      <visit-type>PT-Eval</visit-type>
+      <visit-date>01/02/15</visit-date>
+      <hcpcs-code>G0155</hcpcs-code>
+      <billed-amount>45</billed-amount>
+      <received-amount>30</received-amount>
+      <balance>45</balance>
+    </receivable>
+
+    <receivable>
+      <patient-name>Andrew Thompson jr.</patient-name>
+      <field-staff-name>Jackie Browning, PT</field-staff-name>
+      <visit-type>PT-Eval</visit-type>
+      <visit-date>01/02/15</visit-date>
+      <hcpcs-code>G0155</hcpcs-code>
+      <billed-amount>45</billed-amount>
+      <received-amount>30</received-amount>
+      <balance>45</balance>
+    </receivable>
+
+    <receivable>
+      <patient-name>Andrew Thompson jr.</patient-name>
+      <field-staff-name>Jackie Browning, PT</field-staff-name>
+      <visit-type>PT-Eval</visit-type>
+      <visit-date>01/02/15</visit-date>
+      <hcpcs-code>G0155</hcpcs-code>
+      <billed-amount>45</billed-amount>
+      <received-amount>30</received-amount>
+      <balance>45</balance>
+    </receivable>
+
+  </receivables>
+
+</private-invoice>

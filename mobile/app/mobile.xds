@@ -1,0 +1,278 @@
+{
+    "name": "mobile",
+    "settings": {
+        "urlPrefix": "http://localhost/~kakrish/fasternotes",
+        "spacesToIndent": 4,
+        "exportPath": "/Users/kakrish/Sites/fasternotes",
+        "sdkPath": "",
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false,
+        "codeGenFormat": "Class",
+        "senchaIoKey": "",
+        "senchaIoPath": "http://extjs.cachefly.net/designer/IO/",
+        "instantiateStore": true,
+        "saveOnDeploy": false,
+        "appName": "MyApp",
+        "buildShouldOverwriteIndex": true
+    },
+    "xdsVersion": "2.2.2",
+    "xdsBuild": 991,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000503,
+    "framework": "touch20",
+    "topInstanceFileMap": {
+        "fc338d90-23ea-4dbe-8ad6-4f13d965f912": {
+            "paths": [
+                "metadata/controller/MainController",
+                "app/controller/override/MainController.js",
+                "app/controller/MainController.js"
+            ],
+            "className": "MainController"
+        },
+        "2b1adf2c-71c9-4296-a6e7-97fd3cbe3841": {
+            "paths": [
+                "metadata/model/Settings",
+                "app/model/override/Settings.js",
+                "app/model/Settings.js"
+            ],
+            "className": "Settings"
+        },
+        "1dff4071-4c99-440b-96bf-98f0b8be21b2": {
+            "paths": [
+                "metadata/view/TabPanel",
+                "app/view/override/TabPanel.js",
+                "app/view/TabPanel.js"
+            ],
+            "className": "TabPanel"
+        },
+        "4d4409dd-c8cf-453a-a8c7-cb4f462d4b84": {
+            "paths": [
+                "metadata/store/SessionStore",
+                "app/store/override/SessionStore.js",
+                "app/store/SessionStore.js"
+            ],
+            "className": "SessionStore"
+        },
+        "ff9331de-24b8-4ad3-a044-cb5d9fd03297": {
+            "paths": [
+                "metadata/controller/LoginController",
+                "app/controller/override/LoginController.js",
+                "app/controller/LoginController.js"
+            ],
+            "className": "LoginController"
+        },
+        "3b5a7ba2-bc22-4402-8e52-14ea74565dff": {
+            "paths": [
+                "metadata/controller/SettingsController",
+                "app/controller/override/SettingsController.js",
+                "app/controller/SettingsController.js"
+            ],
+            "className": "SettingsController"
+        },
+        "97d05d15-b5bd-42f7-953b-ce20b2ab518b": {
+            "paths": [
+                "metadata/model/Session",
+                "app/model/override/Session.js",
+                "app/model/Session.js"
+            ],
+            "className": "Session"
+        },
+        "1b4946f9-e69f-4301-a950-d1285aa7fcf2": {
+            "paths": [
+                "metadata/resource/css"
+            ],
+            "className": "css"
+        },
+        "cc35198b-2d27-4eb4-a445-775482cfa69b": {
+            "paths": [
+                "metadata/resource/js"
+            ],
+            "className": "js"
+        },
+        "8f2f24e7-be73-46fb-a178-1ea2f2f91f6f": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        },
+        "deec7a92-ea48-4cbc-84c7-f00a6a24e391": {
+            "paths": [
+                "metadata/store/SettingStore",
+                "app/store/override/SettingStore.js",
+                "app/store/SettingStore.js"
+            ],
+            "className": "SettingStore"
+        },
+        "cfddcf9c-3477-40f5-8194-2cb62af3c3ea": {
+            "paths": [
+                "metadata/model/Patient",
+                "app/model/override/Patient.js",
+                "app/model/Patient.js"
+            ],
+            "className": "Patient"
+        },
+        "3bc6eb2e-bbee-431d-a2ec-bc5709d179b0": {
+            "paths": [
+                "metadata/store/PatientStore",
+                "app/store/override/PatientStore.js",
+                "app/store/PatientStore.js"
+            ],
+            "className": "PatientStore"
+        },
+        "dcbc3f5b-4409-407a-9ae2-3160ed0d6d89": {
+            "paths": [
+                "metadata/store/PatientLStore",
+                "app/store/override/PatientLStore.js",
+                "app/store/PatientLStore.js"
+            ],
+            "className": "PatientLStore"
+        },
+        "55dc349f-bf77-45e4-a3da-a4b689cbe8ae": {
+            "paths": [
+                "metadata/store/PatientMetaStore",
+                "app/store/override/PatientMetaStore.js",
+                "app/store/PatientMetaStore.js"
+            ],
+            "className": "PatientMetaStore"
+        },
+        "050ac602-69de-46a7-8e37-587fbb213ed5": {
+            "paths": [
+                "metadata/model/PatientMetadata",
+                "app/model/override/PatientMetadata.js",
+                "app/model/PatientMetadata.js"
+            ],
+            "className": "PatientMetadata"
+        },
+        "334d54a1-2554-48ed-8546-f7306bbe8ad6": {
+            "paths": [
+                "metadata/view/PatientInfo",
+                "app/view/override/PatientInfo.js",
+                "app/view/PatientInfo.js"
+            ],
+            "className": "PatientInfo"
+        },
+        "a6be36c5-67c4-441c-a5de-0136dfcd0c35": {
+            "paths": [
+                "metadata/controller/PatientsController",
+                "app/controller/override/PatientsController.js",
+                "app/controller/PatientsController.js"
+            ],
+            "className": "PatientsController"
+        },
+        "96f5ee43-4e57-4d9b-b244-e35b9f849263": {
+            "paths": [
+                "metadata/view/RoutesheetForm",
+                "app/view/override/RoutesheetForm.js",
+                "app/view/RoutesheetForm.js"
+            ],
+            "className": "RoutesheetForm"
+        },
+        "a4cd433b-7871-43ed-904a-5d8fef7b976d": {
+            "paths": [
+                "metadata/model/Routesheet",
+                "app/model/override/Routesheet.js",
+                "app/model/Routesheet.js"
+            ],
+            "className": "Routesheet"
+        },
+        "3e82d7ed-a5a4-40ab-a74e-70c1dbd40ffc": {
+            "paths": [
+                "metadata/controller/RoutesheetController",
+                "app/controller/override/RoutesheetController.js",
+                "app/controller/RoutesheetController.js"
+            ],
+            "className": "RoutesheetController"
+        },
+        "144769ac-5adc-4133-b6eb-55860d0b8d38": {
+            "paths": [
+                "metadata/model/VisitType",
+                "app/model/override/VisitType.js",
+                "app/model/VisitType.js"
+            ],
+            "className": "VisitType"
+        },
+        "5c543fc6-3ece-411e-8359-b98f3bdd0181": {
+            "paths": [
+                "metadata/store/RoutesheetLStore",
+                "app/store/override/RoutesheetLStore.js",
+                "app/store/RoutesheetLStore.js"
+            ],
+            "className": "RoutesheetLStore"
+        },
+        "ecf3a1c6-4a28-4ac8-b819-51c0f78441fb": {
+            "paths": [
+                "metadata/store/RoutesheetStore",
+                "app/store/override/RoutesheetStore.js",
+                "app/store/RoutesheetStore.js"
+            ],
+            "className": "RoutesheetStore"
+        },
+        "3b1b78e8-c313-4d7b-bcb7-472a234a1101": {
+            "paths": [
+                "metadata/controller/SyncController",
+                "app/controller/override/SyncController.js",
+                "app/controller/SyncController.js"
+            ],
+            "className": "SyncController"
+        },
+        "d508986d-d306-4825-ace1-069ffbf89a4e": {
+            "paths": [
+                "metadata/store/PatientLocalStore",
+                "app/store/override/PatientLocalStore.js",
+                "app/store/PatientLocalStore.js"
+            ],
+            "className": "PatientLocalStore"
+        },
+        "530c22d9-cd89-4965-86da-270bcd34fde1": {
+            "paths": [
+                "metadata/store/VisitTypeStore",
+                "app/store/override/VisitTypeStore.js",
+                "app/store/VisitTypeStore.js"
+            ],
+            "className": "VisitTypeStore"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "1dff4071-4c99-440b-96bf-98f0b8be21b2",
+            "334d54a1-2554-48ed-8546-f7306bbe8ad6",
+            "96f5ee43-4e57-4d9b-b244-e35b9f849263"
+        ],
+        "store": [
+            "deec7a92-ea48-4cbc-84c7-f00a6a24e391",
+            "d508986d-d306-4825-ace1-069ffbf89a4e",
+            "4d4409dd-c8cf-453a-a8c7-cb4f462d4b84",
+            "3bc6eb2e-bbee-431d-a2ec-bc5709d179b0",
+            "dcbc3f5b-4409-407a-9ae2-3160ed0d6d89",
+            "55dc349f-bf77-45e4-a3da-a4b689cbe8ae",
+            "5c543fc6-3ece-411e-8359-b98f3bdd0181",
+            "ecf3a1c6-4a28-4ac8-b819-51c0f78441fb",
+            "530c22d9-cd89-4965-86da-270bcd34fde1"
+        ],
+        "controller": [
+            "fc338d90-23ea-4dbe-8ad6-4f13d965f912",
+            "ff9331de-24b8-4ad3-a044-cb5d9fd03297",
+            "3b5a7ba2-bc22-4402-8e52-14ea74565dff",
+            "a6be36c5-67c4-441c-a5de-0136dfcd0c35",
+            "3e82d7ed-a5a4-40ab-a74e-70c1dbd40ffc",
+            "3b1b78e8-c313-4d7b-bcb7-472a234a1101"
+        ],
+        "model": [
+            "144769ac-5adc-4133-b6eb-55860d0b8d38",
+            "2b1adf2c-71c9-4296-a6e7-97fd3cbe3841",
+            "97d05d15-b5bd-42f7-953b-ce20b2ab518b",
+            "cfddcf9c-3477-40f5-8194-2cb62af3c3ea",
+            "050ac602-69de-46a7-8e37-587fbb213ed5",
+            "a4cd433b-7871-43ed-904a-5d8fef7b976d"
+        ],
+        "resource": [
+            "8f2f24e7-be73-46fb-a178-1ea2f2f91f6f",
+            "1b4946f9-e69f-4301-a950-d1285aa7fcf2",
+            "cc35198b-2d27-4eb4-a445-775482cfa69b"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

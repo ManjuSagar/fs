@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="msp_subreport" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="9868d7fd-19ae-4845-9964-e183e73377f3">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/elgh-response/medicare-secondary-payers/medicare-secondary-payer/subscriber]]>
+	</queryString>
+	<field name="effective-date" class="java.lang.String">
+		<fieldDescription><![CDATA[effective-date]]></fieldDescription>
+	</field>
+	<field name="termination-date" class="java.lang.String">
+		<fieldDescription><![CDATA[termination-date]]></fieldDescription>
+	</field>
+	<field name="policy-number" class="java.lang.String">
+		<fieldDescription><![CDATA[policy-number]]></fieldDescription>
+	</field>
+	<field name="msp-code" class="java.lang.String">
+		<fieldDescription><![CDATA[msp-code]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="36">
+			<printWhenExpression><![CDATA[$F{effective-date}!=null ||
+$F{termination-date}!=null ||
+$F{policy-number}!=null]]></printWhenExpression>
+			<staticText>
+				<reportElement uuid="281cb609-ac69-4ff5-8ecf-4dfebe4a88f4" mode="Opaque" x="3" y="20" width="118" height="15" backcolor="#F0ECEC"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Effective Date]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="8297dfd7-5808-48cd-beca-86da03d6e927" mode="Opaque" x="121" y="20" width="125" height="15" backcolor="#F0ECEC"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Policy Number]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="033ad1ee-5c50-42f5-9517-7a6e46689235" mode="Opaque" x="396" y="20" width="159" height="15" backcolor="#F0ECEC"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Termination Date]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="929e30ed-1b16-4028-91d8-e14e6d6a116e" mode="Opaque" x="1" y="1" width="555" height="15" backcolor="#DFD4D4"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Medicare Secondary Payer]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="8297dfd7-5808-48cd-beca-86da03d6e927" mode="Opaque" x="246" y="20" width="154" height="15" backcolor="#F0ECEC"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Type of Primary Insurance]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="18" splitType="Stretch">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="07d73f64-3936-4d02-bad0-770bce63a488" x="396" y="1" width="165" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{termination-date}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="8cfbaa3d-67e9-4cd9-8851-0328b304f2d6" x="3" y="1" width="118" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{effective-date}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="9403f692-88d2-479a-8299-436a49f2c98e" x="121" y="1" width="125" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{policy-number}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="9403f692-88d2-479a-8299-436a49f2c98e" x="246" y="1" width="150" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{msp-code}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

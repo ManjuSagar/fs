@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="co_insurance_details" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="730da788-4eba-4e54-8c1f-03f27e1b0f90">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/elgh-response/beneficiary-information/co-insurance-details/co-insurance-detail]]>
+	</queryString>
+	<field name="co-insurance-percent" class="java.lang.String">
+		<fieldDescription><![CDATA[co-insurance-percent]]></fieldDescription>
+	</field>
+	<field name="co-insurance-type" class="java.lang.String">
+		<fieldDescription><![CDATA[co-insurance-type]]></fieldDescription>
+	</field>
+	<field name="start-date" class="java.lang.String">
+		<fieldDescription><![CDATA[start-date]]></fieldDescription>
+	</field>
+	<field name="end-date" class="java.lang.String">
+		<fieldDescription><![CDATA[end-date]]></fieldDescription>
+	</field>
+	<field name="hcpcs" class="java.lang.String">
+		<fieldDescription><![CDATA[hcpcs]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="42" splitType="Stretch">
+			<printWhenExpression><![CDATA[$F{co-insurance-percent}!=null  ||
+$F{start-date}!=null ||
+$F{end-date}!=null ||$F{co-insurance-type}!=null
+$F{hcpcs}!=null]]></printWhenExpression>
+			<staticText>
+				<reportElement uuid="637fb8ff-cd28-4bbb-8773-db92bc61caa8" mode="Opaque" x="0" y="3" width="555" height="15" backcolor="#DFD4D4"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Co Insurance Details]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="48452c3c-ee9c-4ac2-876d-8e790f517dcd" stretchType="RelativeToBandHeight" mode="Opaque" x="251" y="23" width="80" height="15" backcolor="#F0ECEC"/>
+				<textElement textAlignment="Center">
+					<font isBold="true" isStrikeThrough="false"/>
+				</textElement>
+				<text><![CDATA[Percentage]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="a5d4b40a-8a55-448c-99f9-27de2c21253f" mode="Opaque" x="408" y="23" width="75" height="15" backcolor="#F0ECEC"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Start Date]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d0a60a8e-4eba-4cb4-8322-fe74b8e6c60d" mode="Opaque" x="480" y="23" width="75" height="15" backcolor="#F0ECEC"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[End Date]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="5686f3fe-b2c7-4d33-b4a8-54c189e070a8" mode="Opaque" x="5" y="23" width="246" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" backcolor="#F0ECEC"/>
+				<textElement textAlignment="Left">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[HCPCS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="8ed08e11-e374-45a5-a6e9-f9e5b8e622de" mode="Opaque" x="330" y="23" width="80" height="15" backcolor="#F0ECEC"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Type]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="19" splitType="Stretch">
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="f6159e56-801c-4f28-837e-e1d7c4adb7ca" x="410" y="2" width="75" height="15"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{start-date}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="e934bc9f-56bb-48e5-b726-1048981d3ac8" x="251" y="2" width="80" height="15"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{co-insurance-percent}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="c4efc8ab-0640-48f7-b024-00ae206e76c7" x="481" y="2" width="75" height="15"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{end-date}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="82750040-0f2e-4d61-ab73-ddea3d93ef6e" x="5" y="2" width="246" height="15"/>
+				<textElement textAlignment="Left">
+					<font size="10"/>
+					<paragraph rightIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{hcpcs}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="fda1f0b6-458b-418a-822c-d460aea95e40" x="330" y="2" width="80" height="15"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{co-insurance-type}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

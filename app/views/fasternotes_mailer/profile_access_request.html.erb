@@ -1,0 +1,59 @@
+Hi <%= @org_user.user.first_name %>!
+<br/>
+<br/>
+<%= @org_user.org.to_s %> wants to work with you! If you want to work with us, you can connect via any of the following methods:
+<br/>
+<br/>
+1. Email us the connect password below: <%= @org_user.org.email %>
+<br/>
+2. Call us and tell us the connect password below: <%= @org_user.org.phone_number %>
+<br/>
+3. Login to FasterNotes.com and accept us in the HHA page in your Network menu.
+<br/>
+<br/>
+<br/>
+
+Link Password: <span style="font-size:30px;"><b><%= @org_user.verify_token %></b></span>
+<br/>
+<br/>
+<i>By completing any of the 3 actions above, you give <%=@org_user.org.to_s%> your permission to view, print and
+  download the credentials and contact information you provide in your profile. You also agree to (1) receive staffing
+  request emails and phone calls from <%=@org_user.org.to_s%> and (2) to abide by the policies and procedures
+  of <%=@org_user.org.to_s %></i>
+<br/>
+<br/>
+Thank you,
+<br/>
+<br/>
+<%= @office_staff %>
+<br/>
+<%= @org_user.org.to_s %>
+<br/>
+<%= @org_user.org.address_string %>
+<br/>
+<%= @org_user.org.contact_details %>,<%= @org_user.org.email %>
+<br/>
+<br/>
+<br/>
+This is an automatically generated email from FasterNotes.com. Please do not reply to this message.
+<br/>
+<br/>
+FasterNotes, Inc.
+<br/>
+Because Business Should be Easy
+<br/>
+Tel: (888) 255-8508 | Fax: (888) 462-4908
+<br/>
+www.fasternotes.com
+<br/>
+<br/>
+<img  src="http://54.221.195.117/wp-content/uploads/2013/09/logo.png" alt="logo">
+<br/>
+<table>
+  <tr>
+    <a href="https://www.facebook.com/fasternotes" target="_blank">facebook</a>
+    <a href="https://twitter.com/fasternotes" target="_blank">twitter</a>
+    <a href="https://plus.google.com/105536414439978563552/posts" target="_blank">googleplus</a>
+    <a href="http://www.linkedin.com/company/fasternotes?trk=cp_followed_name_fasternotes" target="_blank">linkedin</a>
+  </tr>
+</table>

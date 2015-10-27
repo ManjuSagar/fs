@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="intensive_cardiac_rehabilitation" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="adf82466-e7c2-47e2-858e-1e1302d5a4a6">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/elgh-response/rehabilitation-sessions/intensive-cardiac-rehabilitation-sessions-applied]]>
+	</queryString>
+	<field name="hcpcs" class="java.lang.String">
+		<fieldDescription><![CDATA[hcpcs-codes/hcpcs]]></fieldDescription>
+	</field>
+	<field name="technical-sessions" class="java.lang.String">
+		<fieldDescription><![CDATA[technical-sessions]]></fieldDescription>
+	</field>
+	<field name="professional-sessions" class="java.lang.String">
+		<fieldDescription><![CDATA[professional-sessions]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="36" splitType="Stretch">
+			<printWhenExpression><![CDATA[$F{technical-sessions}!=null||
+$F{professional-sessions}!=null]]></printWhenExpression>
+			<staticText>
+				<reportElement uuid="02d46786-4eed-4205-9fc1-9f2270061610" mode="Opaque" x="5" y="21" width="340" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" backcolor="#F0ECEC"/>
+				<textElement>
+					<font size="10" isBold="true"/>
+					<paragraph leftIndent="1"/>
+				</textElement>
+				<text><![CDATA[Sessions Used (Technical)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="2ab89af0-f8d0-464e-a74a-0b7d259e3239" mode="Opaque" x="345" y="21" width="193" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" backcolor="#F0ECEC"/>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Sessions Used (Professional)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="2c9818fb-00b1-4809-8133-e431c911742f" mode="Opaque" x="0" y="1" width="555" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" backcolor="#DFD4D4"/>
+				<textElement>
+					<font size="10" isBold="true"/>
+					<paragraph leftIndent="1"/>
+				</textElement>
+				<text><![CDATA[Intensive Cardiac Rehabilitation]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="15" splitType="Stretch">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="80c41e1a-cb1a-4d58-9cf9-2f743b1177d0" x="5" y="0" width="180" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{technical-sessions}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="d9ad4244-c876-4ed4-a4c1-0f95d2cf1deb" x="345" y="0" width="193" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{professional-sessions}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

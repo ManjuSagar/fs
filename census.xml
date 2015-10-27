@@ -1,0 +1,1172 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<census-report>
+  <health-agency-name>Home Care Professionals, Inc.</health-agency-name>
+  <patients type="array">
+    <patient>
+      <patient-name>CHAFICA ABDALLAH</patient-name>
+      <ptnt-last-name>ABDALLAH</ptnt-last-name>
+      <ptnt-first-name>CHAFICA</ptnt-first-name>
+      <patient-mr-num>1429</patient-mr-num>
+      <patient-cel>(313) 982-1423</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>15545 KNOLLWOOD ST., Detroit MI 48210</patient-address>
+      <certification-period></certification-period>
+      <physician-name>Mohamed Ayad</physician-name>
+      <physcn-first-name>Mohamed</physcn-first-name>
+      <physcn-last-name>Ayad</physcn-last-name>
+      <physician-phone>(313) 581-4450</physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines></episode-disciplines>
+      <soc-date></soc-date>
+      <treatment-status>NA</treatment-status>
+      <insurance>MEDICARE</insurance>
+      <case-manager></case-manager>
+      <primary-diagnosis></primary-diagnosis>
+      <patient-insurance-number>377155750B</patient-insurance-number>
+      <dc-date></dc-date>
+      <field-staff></field-staff>
+    </patient>
+    <patient>
+      <patient-name>Naron Abrams</patient-name>
+      <ptnt-last-name>Abrams</ptnt-last-name>
+      <ptnt-first-name>Naron</ptnt-first-name>
+      <patient-mr-num>1414</patient-mr-num>
+      <patient-cel>(313) 895-2275</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>2464 Hazelwood St, Detroit MI 48206</patient-address>
+      <certification-period>08/24/2015 - 10/22/2015</certification-period>
+      <physician-name>Grace Patterson</physician-name>
+      <physcn-first-name>Grace</physcn-first-name>
+      <physcn-last-name>Patterson</physcn-last-name>
+      <physician-phone>(248) 356-1111</physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines>&lt;b&gt;Disciplines&lt;/b&gt; PT, CHHA</episode-disciplines>
+      <soc-date>06/25/2015</soc-date>
+      <treatment-status>AC</treatment-status>
+      <insurance>MEDICARE</insurance>
+      <case-manager nil="true"/>
+      <primary-diagnosis></primary-diagnosis>
+      <patient-insurance-number>422389013A</patient-insurance-number>
+      <dc-date></dc-date>
+    </patient>
+    <patient>
+      <patient-name>Naron Abrams</patient-name>
+      <ptnt-last-name>Abrams</ptnt-last-name>
+      <ptnt-first-name>Naron</ptnt-first-name>
+      <patient-mr-num>1414</patient-mr-num>
+      <patient-cel>(313) 895-2275</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>2464 Hazelwood St, Detroit MI 48206</patient-address>
+      <certification-period>06/25/2015 - 08/23/2015</certification-period>
+      <physician-name>Grace Patterson</physician-name>
+      <physcn-first-name>Grace</physcn-first-name>
+      <physcn-last-name>Patterson</physcn-last-name>
+      <physician-phone>(248) 356-1111</physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines>&lt;b&gt;Disciplines&lt;/b&gt; SN, PT, MSW, CHHA</episode-disciplines>
+      <soc-date>06/25/2015</soc-date>
+      <treatment-status>AC</treatment-status>
+      <insurance>MEDICARE</insurance>
+      <case-manager>Alicia Cooley, RN</case-manager>
+      <primary-diagnosis>715.09 Osteoarthrosis, generalized, multiple sites</primary-diagnosis>
+      <patient-insurance-number>422389013A</patient-insurance-number>
+      <dc-date></dc-date>
+    </patient>
+    <patient>
+      <patient-name>ELIZABETH ABROM</patient-name>
+      <ptnt-last-name>ABROM</ptnt-last-name>
+      <ptnt-first-name>ELIZABETH</ptnt-first-name>
+      <patient-mr-num>1433</patient-mr-num>
+      <patient-cel>(248) 426-0263</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>24325 CHIPPEWA CT., Farmington MI 48335</patient-address>
+      <certification-period></certification-period>
+      <physician-name></physician-name>
+      <physcn-first-name></physcn-first-name>
+      <physcn-last-name></physcn-last-name>
+      <physician-phone></physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines></episode-disciplines>
+      <soc-date></soc-date>
+      <treatment-status>PE</treatment-status>
+      <patient-status>physician</patient-status>
+      <insurance>MEDICARE</insurance>
+      <case-manager></case-manager>
+      <primary-diagnosis></primary-diagnosis>
+      <patient-insurance-number>383227369A</patient-insurance-number>
+      <dc-date></dc-date>
+      <field-staff></field-staff>
+    </patient>
+    <patient>
+      <patient-name>SHARELLE ANTHONY</patient-name>
+      <ptnt-last-name>ANTHONY</ptnt-last-name>
+      <ptnt-first-name>SHARELLE</ptnt-first-name>
+      <patient-mr-num>1449</patient-mr-num>
+      <patient-cel>(313) 759-5282</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>14818 E BURN, Detroit MI 48205</patient-address>
+      <certification-period></certification-period>
+      <physician-name></physician-name>
+      <physcn-first-name></physcn-first-name>
+      <physcn-last-name></physcn-last-name>
+      <physician-phone></physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines></episode-disciplines>
+      <soc-date></soc-date>
+      <treatment-status>PE</treatment-status>
+      <patient-status>physician</patient-status>
+      <insurance>MEDICARE</insurance>
+      <case-manager></case-manager>
+      <primary-diagnosis></primary-diagnosis>
+      <patient-insurance-number>378723340T</patient-insurance-number>
+      <dc-date></dc-date>
+      <field-staff></field-staff>
+    </patient>
+    <patient>
+      <patient-name>LOIS AVERY</patient-name>
+      <ptnt-last-name>AVERY</ptnt-last-name>
+      <ptnt-first-name>LOIS</ptnt-first-name>
+      <patient-mr-num>1420</patient-mr-num>
+      <patient-cel>(313) 595-0123</patient-cel>
+      <patient-tel>(313) 834-2241</patient-tel>
+      <patient-address>8115 MIDDLE POINTE  STREET, Detroit MI 48204</patient-address>
+      <certification-period>07/14/2015 - 09/11/2015</certification-period>
+      <physician-name>Grace Patterson</physician-name>
+      <physcn-first-name>Grace</physcn-first-name>
+      <physcn-last-name>Patterson</physcn-last-name>
+      <physician-phone>(248) 356-1111</physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines>&lt;b&gt;Disciplines&lt;/b&gt; SN, PT, OT, CHHA</episode-disciplines>
+      <soc-date>07/14/2015</soc-date>
+      <treatment-status>AC</treatment-status>
+      <insurance>0E029</insurance>
+      <case-manager nil="true"/>
+      <primary-diagnosis></primary-diagnosis>
+      <patient-insurance-number>H9572802</patient-insurance-number>
+      <dc-date></dc-date>
+    </patient>
+    <patient>
+      <patient-name>Gwendolyn Beatty</patient-name>
+      <ptnt-last-name>Beatty</ptnt-last-name>
+      <ptnt-first-name>Gwendolyn</ptnt-first-name>
+      <patient-mr-num>1403</patient-mr-num>
+      <patient-cel>(313) 531-7040</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>17516 Grandville Ave, Detroit MI 48219</patient-address>
+      <certification-period></certification-period>
+      <physician-name>Grace Patterson</physician-name>
+      <physcn-first-name>Grace</physcn-first-name>
+      <physcn-last-name>Patterson</physcn-last-name>
+      <physician-phone>(248) 356-1111</physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines></episode-disciplines>
+      <soc-date></soc-date>
+      <treatment-status>NA</treatment-status>
+      <insurance>MEDICARE</insurance>
+      <case-manager></case-manager>
+      <primary-diagnosis></primary-diagnosis>
+      <patient-insurance-number>291286431A</patient-insurance-number>
+      <dc-date></dc-date>
+      <field-staff></field-staff>
+    </patient>
+    <patient>
+      <patient-name>Malake Berry</patient-name>
+      <ptnt-last-name>Berry</ptnt-last-name>
+      <ptnt-first-name>Malake</ptnt-first-name>
+      <patient-mr-num>1401-01</patient-mr-num>
+      <patient-cel>(313) 582-2581</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>7618 Apploine, Dearborn MI 48126</patient-address>
+      <certification-period></certification-period>
+      <physician-name></physician-name>
+      <physcn-first-name></physcn-first-name>
+      <physcn-last-name></physcn-last-name>
+      <physician-phone></physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines></episode-disciplines>
+      <soc-date></soc-date>
+      <treatment-status>PE</treatment-status>
+      <patient-status>physician</patient-status>
+      <insurance>MEDICARE</insurance>
+      <case-manager></case-manager>
+      <primary-diagnosis></primary-diagnosis>
+      <patient-insurance-number>383705092M</patient-insurance-number>
+      <dc-date></dc-date>
+      <field-staff></field-staff>
+    </patient>
+    <patient>
+      <patient-name>Vernon Boyer</patient-name>
+      <ptnt-last-name>Boyer</ptnt-last-name>
+      <ptnt-first-name>Vernon</ptnt-first-name>
+      <patient-mr-num>1435</patient-mr-num>
+      <patient-cel>(734) 323-9451</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>1991 South Pasadena Ave, Ypsilanti MI 48198</patient-address>
+      <certification-period>08/05/2015 - 10/03/2015</certification-period>
+      <physician-name>Margaret Mekai-Vekima</physician-name>
+      <physcn-first-name>Margaret</physcn-first-name>
+      <physcn-last-name>Mekai-Vekima</physcn-last-name>
+      <physician-phone>(734) 480-1400</physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines>&lt;b&gt;Disciplines&lt;/b&gt; PT, MSW, CHHA</episode-disciplines>
+      <soc-date>08/05/2015</soc-date>
+      <treatment-status>AC</treatment-status>
+      <insurance>0E029</insurance>
+      <case-manager>Sreedhar Thotakuri, PT</case-manager>
+      <primary-diagnosis>V57.1 Care involving other physical therapy</primary-diagnosis>
+      <patient-insurance-number>XYK921148903</patient-insurance-number>
+      <dc-date></dc-date>
+    </patient>
+    <patient>
+      <patient-name>Kathy Butts</patient-name>
+      <ptnt-last-name>Butts</ptnt-last-name>
+      <ptnt-first-name>Kathy</ptnt-first-name>
+      <patient-mr-num>1416</patient-mr-num>
+      <patient-cel>(313) 743-2185</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>1310 PALLISTER AVE. ,  APT# 510, Detroit MI 48206</patient-address>
+      <certification-period>06/25/2015 - 08/23/2015</certification-period>
+      <physician-name>Grace Patterson</physician-name>
+      <physcn-first-name>Grace</physcn-first-name>
+      <physcn-last-name>Patterson</physcn-last-name>
+      <physician-phone>(248) 356-1111</physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines>&lt;b&gt;Disciplines&lt;/b&gt; SN, PT, OT, CHHA</episode-disciplines>
+      <soc-date>06/25/2015</soc-date>
+      <treatment-status>DC</treatment-status>
+      <insurance>MEDICARE</insurance>
+      <case-manager>Alicia Cooley, RN</case-manager>
+      <primary-diagnosis>338.4 Chronic pain syndrome</primary-diagnosis>
+      <patient-insurance-number>382464944C1</patient-insurance-number>
+      <dc-date>08/12/2015</dc-date>
+    </patient>
+    <patient>
+      <patient-name>Willie Chappel</patient-name>
+      <ptnt-last-name>Chappel</ptnt-last-name>
+      <ptnt-first-name>Willie</ptnt-first-name>
+      <patient-mr-num>1408-01</patient-mr-num>
+      <patient-cel>(313) 658-4282</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>652 Chrysler Dr,  202, Detroit MI 48207</patient-address>
+      <certification-period>05/19/2015 - 07/17/2015</certification-period>
+      <physician-name>Cornelius Oprisiu</physician-name>
+      <physcn-first-name>Cornelius</physcn-first-name>
+      <physcn-last-name>Oprisiu</physcn-last-name>
+      <physician-phone nil="true"/>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines>&lt;b&gt;Disciplines&lt;/b&gt; PT</episode-disciplines>
+      <soc-date>05/19/2015</soc-date>
+      <treatment-status>AC</treatment-status>
+      <insurance>0E029</insurance>
+      <case-manager>Sreedhar Thotakuri, PT</case-manager>
+      <primary-diagnosis>922.32 Contusion of buttock</primary-diagnosis>
+      <patient-insurance-number>XY1990024743</patient-insurance-number>
+      <dc-date></dc-date>
+    </patient>
+    <patient>
+      <patient-name>Willie Chappel</patient-name>
+      <ptnt-last-name>Chappel</ptnt-last-name>
+      <ptnt-first-name>Willie</ptnt-first-name>
+      <patient-mr-num>1408-01</patient-mr-num>
+      <patient-cel>(313) 658-4282</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>652 Chrysler Dr,  202, Detroit MI 48207</patient-address>
+      <certification-period>07/18/2015 - 09/15/2015</certification-period>
+      <physician-name>Cornelius Oprisiu</physician-name>
+      <physcn-first-name>Cornelius</physcn-first-name>
+      <physcn-last-name>Oprisiu</physcn-last-name>
+      <physician-phone nil="true"/>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines>&lt;b&gt;Disciplines&lt;/b&gt; PT</episode-disciplines>
+      <soc-date>05/19/2015</soc-date>
+      <treatment-status>AC</treatment-status>
+      <insurance>0E029</insurance>
+      <case-manager nil="true"/>
+      <primary-diagnosis></primary-diagnosis>
+      <patient-insurance-number>XY1990024743</patient-insurance-number>
+      <dc-date></dc-date>
+    </patient>
+    <patient>
+      <patient-name>ANN CURL</patient-name>
+      <ptnt-last-name>CURL</ptnt-last-name>
+      <ptnt-first-name>ANN</ptnt-first-name>
+      <patient-mr-num>1439</patient-mr-num>
+      <patient-cel>(248) 948-5580</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>28843 RANCHWOOD DRIVE, Southfield MI 48076</patient-address>
+      <certification-period></certification-period>
+      <physician-name></physician-name>
+      <physcn-first-name></physcn-first-name>
+      <physcn-last-name></physcn-last-name>
+      <physician-phone></physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines></episode-disciplines>
+      <soc-date></soc-date>
+      <treatment-status>PE</treatment-status>
+      <patient-status>physician</patient-status>
+      <insurance>MEDICARE</insurance>
+      <case-manager></case-manager>
+      <primary-diagnosis></primary-diagnosis>
+      <patient-insurance-number>431464983D</patient-insurance-number>
+      <dc-date></dc-date>
+      <field-staff></field-staff>
+    </patient>
+    <patient>
+      <patient-name>ROCCO DEGIULIO</patient-name>
+      <ptnt-last-name>DEGIULIO</ptnt-last-name>
+      <ptnt-first-name>ROCCO</ptnt-first-name>
+      <patient-mr-num>1432</patient-mr-num>
+      <patient-cel>(248) 787-1341</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>24116 WOODHAM ST., Novi MI 48374</patient-address>
+      <certification-period>07/16/2015 - 09/13/2015</certification-period>
+      <physician-name>CONELIUS JAMES</physician-name>
+      <physcn-first-name>CONELIUS</physcn-first-name>
+      <physcn-last-name>JAMES</physcn-last-name>
+      <physician-phone>(248) 305-4400</physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines>&lt;b&gt;Disciplines&lt;/b&gt; PT, OT</episode-disciplines>
+      <soc-date>07/16/2015</soc-date>
+      <treatment-status>AC</treatment-status>
+      <insurance>MEDICARE</insurance>
+      <case-manager>Shawkat Abedin, PT</case-manager>
+      <primary-diagnosis>V57.1 Care involving other physical therapy</primary-diagnosis>
+      <patient-insurance-number>374280832A</patient-insurance-number>
+      <dc-date></dc-date>
+    </patient>
+    <patient>
+      <patient-name>Thomas Dennis</patient-name>
+      <ptnt-last-name>Dennis</ptnt-last-name>
+      <ptnt-first-name>Thomas</ptnt-first-name>
+      <patient-mr-num>1417</patient-mr-num>
+      <patient-cel>(313) 977-9525</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>17207 CHAPEL STREET, Detroit MI 48219</patient-address>
+      <certification-period>07/23/2015 - 09/20/2015</certification-period>
+      <physician-name>PRINCE EUBANKS</physician-name>
+      <physcn-first-name>PRINCE</physcn-first-name>
+      <physcn-last-name>EUBANKS</physcn-last-name>
+      <physician-phone nil="true"/>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines>&lt;b&gt;Disciplines&lt;/b&gt; SN, PT, MSW, CHHA</episode-disciplines>
+      <soc-date>07/23/2015</soc-date>
+      <treatment-status>AC</treatment-status>
+      <insurance>MEDICARE</insurance>
+      <case-manager>Ketul Thaker, RN</case-manager>
+      <primary-diagnosis>421.9 Acute endocarditis, unspecified</primary-diagnosis>
+      <patient-insurance-number>424429671A</patient-insurance-number>
+      <dc-date></dc-date>
+    </patient>
+    <patient>
+      <patient-name>Amine El Habhab</patient-name>
+      <ptnt-last-name>El Habhab</ptnt-last-name>
+      <ptnt-first-name>Amine</ptnt-first-name>
+      <patient-mr-num>1412-01</patient-mr-num>
+      <patient-cel>(313) 358-4372</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>6800 Appoline, Dearborn MI 48126</patient-address>
+      <certification-period>06/11/2015 - 08/09/2015</certification-period>
+      <physician-name>Mohamed Ayad</physician-name>
+      <physcn-first-name>Mohamed</physcn-first-name>
+      <physcn-last-name>Ayad</physcn-last-name>
+      <physician-phone>(313) 581-4450</physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines>&lt;b&gt;Disciplines&lt;/b&gt; SN, PT</episode-disciplines>
+      <soc-date>06/11/2015</soc-date>
+      <treatment-status>AC</treatment-status>
+      <insurance>MEDICARE</insurance>
+      <case-manager>Dipti Bhatia, PT</case-manager>
+      <primary-diagnosis>V57.1 Care involving other physical therapy</primary-diagnosis>
+      <patient-insurance-number>376083590M</patient-insurance-number>
+      <dc-date></dc-date>
+    </patient>
+    <patient>
+      <patient-name>Nemre Faraj</patient-name>
+      <ptnt-last-name>Faraj</ptnt-last-name>
+      <ptnt-first-name>Nemre</ptnt-first-name>
+      <patient-mr-num>1404</patient-mr-num>
+      <patient-cel>(313) 646-9941</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>7603 Normile, Dearborn MI 48126</patient-address>
+      <certification-period>06/11/2015 - 08/09/2015</certification-period>
+      <physician-name>Mohamed Ayad</physician-name>
+      <physcn-first-name>Mohamed</physcn-first-name>
+      <physcn-last-name>Ayad</physcn-last-name>
+      <physician-phone>(313) 581-4450</physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines>&lt;b&gt;Disciplines&lt;/b&gt; PT</episode-disciplines>
+      <soc-date>06/11/2015</soc-date>
+      <treatment-status>DC</treatment-status>
+      <insurance>MEDICARE</insurance>
+      <case-manager>Dipti Bhatia, PT</case-manager>
+      <primary-diagnosis>V57.1 Care involving other physical therapy</primary-diagnosis>
+      <patient-insurance-number>386841683M</patient-insurance-number>
+      <dc-date>06/26/2015</dc-date>
+    </patient>
+    <patient>
+      <patient-name>Terry Henry</patient-name>
+      <ptnt-last-name>Henry</ptnt-last-name>
+      <ptnt-first-name>Terry</ptnt-first-name>
+      <patient-mr-num>1431</patient-mr-num>
+      <patient-cel>(248) 747-1331</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>22100 Church St, Oak Park MI 48237</patient-address>
+      <certification-period></certification-period>
+      <physician-name></physician-name>
+      <physcn-first-name></physcn-first-name>
+      <physcn-last-name></physcn-last-name>
+      <physician-phone></physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines></episode-disciplines>
+      <soc-date></soc-date>
+      <treatment-status>PE</treatment-status>
+      <patient-status>physician</patient-status>
+      <insurance>MEDICARE</insurance>
+      <case-manager></case-manager>
+      <primary-diagnosis></primary-diagnosis>
+      <patient-insurance-number>430387636A</patient-insurance-number>
+      <dc-date></dc-date>
+      <field-staff></field-staff>
+    </patient>
+    <patient>
+      <patient-name>Marla Hewin</patient-name>
+      <ptnt-last-name>Hewin</ptnt-last-name>
+      <ptnt-first-name>Marla</ptnt-first-name>
+      <patient-mr-num>1348-02</patient-mr-num>
+      <patient-cel>(586) 585-9146</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>Roseville MI 48066</patient-address>
+      <certification-period></certification-period>
+      <physician-name>Ronald Barnett</physician-name>
+      <physcn-first-name>Ronald</physcn-first-name>
+      <physcn-last-name>Barnett</physcn-last-name>
+      <physician-phone>(586) 772-7180</physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines></episode-disciplines>
+      <soc-date></soc-date>
+      <treatment-status>NA</treatment-status>
+      <insurance>MEDICARE</insurance>
+      <case-manager></case-manager>
+      <primary-diagnosis></primary-diagnosis>
+      <patient-insurance-number>385807039A</patient-insurance-number>
+      <dc-date></dc-date>
+      <field-staff></field-staff>
+    </patient>
+    <patient>
+      <patient-name>Jimmie Hurse</patient-name>
+      <ptnt-last-name>Hurse</ptnt-last-name>
+      <ptnt-first-name>Jimmie</ptnt-first-name>
+      <patient-mr-num>1413-01</patient-mr-num>
+      <patient-cel>(313) 740-6074</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>3535 Thrud St, Highland Park MI 48203</patient-address>
+      <certification-period></certification-period>
+      <physician-name></physician-name>
+      <physcn-first-name></physcn-first-name>
+      <physcn-last-name></physcn-last-name>
+      <physician-phone></physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines></episode-disciplines>
+      <soc-date></soc-date>
+      <treatment-status>PE</treatment-status>
+      <patient-status>physician</patient-status>
+      <insurance>MEDICARE</insurance>
+      <case-manager></case-manager>
+      <primary-diagnosis></primary-diagnosis>
+      <patient-insurance-number>368629739A</patient-insurance-number>
+      <dc-date></dc-date>
+      <field-staff></field-staff>
+    </patient>
+    <patient>
+      <patient-name>FRANIECE JACKSON</patient-name>
+      <ptnt-last-name>JACKSON</ptnt-last-name>
+      <ptnt-first-name>FRANIECE</ptnt-first-name>
+      <patient-mr-num>1425</patient-mr-num>
+      <patient-cel>(313) 586-2557</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>15745 CHERRYLAWN  ST., Detroit MI 48238</patient-address>
+      <certification-period>08/05/2015 - 10/03/2015</certification-period>
+      <physician-name>Grace Patterson</physician-name>
+      <physcn-first-name>Grace</physcn-first-name>
+      <physcn-last-name>Patterson</physcn-last-name>
+      <physician-phone>(248) 356-1111</physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines>&lt;b&gt;Disciplines&lt;/b&gt; SN, PT</episode-disciplines>
+      <soc-date>08/05/2015</soc-date>
+      <treatment-status>AC</treatment-status>
+      <insurance>MEDICARE</insurance>
+      <case-manager>Vivian Ngwa, RN</case-manager>
+      <primary-diagnosis>337.00 Idiopathic peripheral autonomic neuropathy, unspecified</primary-diagnosis>
+      <patient-insurance-number>365821481A</patient-insurance-number>
+      <dc-date></dc-date>
+    </patient>
+    <patient>
+      <patient-name>Anthony Johnson</patient-name>
+      <ptnt-last-name>Johnson</ptnt-last-name>
+      <ptnt-first-name>Anthony</ptnt-first-name>
+      <patient-mr-num>1423</patient-mr-num>
+      <patient-cel>(313) 575-7568</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>292 Avalon St, Highland Park MI 48203</patient-address>
+      <certification-period></certification-period>
+      <physician-name></physician-name>
+      <physcn-first-name></physcn-first-name>
+      <physcn-last-name></physcn-last-name>
+      <physician-phone></physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines></episode-disciplines>
+      <soc-date></soc-date>
+      <treatment-status>PE</treatment-status>
+      <patient-status>physician</patient-status>
+      <insurance>MEDICARE</insurance>
+      <case-manager></case-manager>
+      <primary-diagnosis></primary-diagnosis>
+      <patient-insurance-number>382722278A</patient-insurance-number>
+      <dc-date></dc-date>
+      <field-staff></field-staff>
+    </patient>
+    <patient>
+      <patient-name>DIANE KIMBLE</patient-name>
+      <ptnt-last-name>KIMBLE</ptnt-last-name>
+      <ptnt-first-name>DIANE</ptnt-first-name>
+      <patient-mr-num>1434</patient-mr-num>
+      <patient-cel>(313) 551-9501</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>16918 FREELAND ST., Detroit MI 48235</patient-address>
+      <certification-period></certification-period>
+      <physician-name></physician-name>
+      <physcn-first-name></physcn-first-name>
+      <physcn-last-name></physcn-last-name>
+      <physician-phone></physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines></episode-disciplines>
+      <soc-date></soc-date>
+      <treatment-status>PE</treatment-status>
+      <patient-status>physician</patient-status>
+      <insurance>593780080</insurance>
+      <case-manager></case-manager>
+      <primary-diagnosis></primary-diagnosis>
+      <patient-insurance-number>386625496A</patient-insurance-number>
+      <dc-date></dc-date>
+      <field-staff></field-staff>
+    </patient>
+    <patient>
+      <patient-name>TONYA LEWIS</patient-name>
+      <ptnt-last-name>LEWIS</ptnt-last-name>
+      <ptnt-first-name>TONYA</ptnt-first-name>
+      <patient-mr-num>1443</patient-mr-num>
+      <patient-cel>(313) 205-7201</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>17207 CHAPEL ST. , Detroit MI 48219</patient-address>
+      <certification-period></certification-period>
+      <physician-name></physician-name>
+      <physcn-first-name></physcn-first-name>
+      <physcn-last-name></physcn-last-name>
+      <physician-phone></physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines></episode-disciplines>
+      <soc-date></soc-date>
+      <treatment-status>PE</treatment-status>
+      <patient-status>physician</patient-status>
+      <insurance>MEDICARE</insurance>
+      <case-manager></case-manager>
+      <primary-diagnosis></primary-diagnosis>
+      <patient-insurance-number>373924602A</patient-insurance-number>
+      <dc-date></dc-date>
+      <field-staff></field-staff>
+    </patient>
+    <patient>
+      <patient-name>Antonyse Matthews</patient-name>
+      <ptnt-last-name>Matthews</ptnt-last-name>
+      <ptnt-first-name>Antonyse</ptnt-first-name>
+      <patient-mr-num>1430</patient-mr-num>
+      <patient-cel>(248) 905-3942</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>26307 Franklin Pointe Dr, Southfield MI 48034</patient-address>
+      <certification-period>08/10/2015 - 10/08/2015</certification-period>
+      <physician-name>Grace Patterson</physician-name>
+      <physcn-first-name>Grace</physcn-first-name>
+      <physcn-last-name>Patterson</physcn-last-name>
+      <physician-phone>(248) 356-1111</physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines>&lt;b&gt;Disciplines&lt;/b&gt; SN, PT</episode-disciplines>
+      <soc-date>08/10/2015</soc-date>
+      <treatment-status>DC</treatment-status>
+      <insurance>MEDICARE</insurance>
+      <case-manager nil="true"/>
+      <primary-diagnosis></primary-diagnosis>
+      <patient-insurance-number>423159869A</patient-insurance-number>
+      <dc-date>08/19/2015</dc-date>
+    </patient>
+    <patient>
+      <patient-name>LENICIA MITCHELL</patient-name>
+      <ptnt-last-name>MITCHELL</ptnt-last-name>
+      <ptnt-first-name>LENICIA</ptnt-first-name>
+      <patient-mr-num>1421</patient-mr-num>
+      <patient-cel>(313) 623-9487</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>21706 ORCHARD STREET, Detroit MI 48219</patient-address>
+      <certification-period>06/26/2015 - 08/24/2015</certification-period>
+      <physician-name>Grace Patterson</physician-name>
+      <physcn-first-name>Grace</physcn-first-name>
+      <physcn-last-name>Patterson</physcn-last-name>
+      <physician-phone>(248) 356-1111</physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines>&lt;b&gt;Disciplines&lt;/b&gt; SN, PT, MSW</episode-disciplines>
+      <soc-date>06/26/2015</soc-date>
+      <treatment-status>DC</treatment-status>
+      <insurance>MEDICARE</insurance>
+      <case-manager>Alicia Cooley, RN</case-manager>
+      <primary-diagnosis>826.0 Closed fracture of one or more phalanges of foot</primary-diagnosis>
+      <patient-insurance-number>379824844T</patient-insurance-number>
+      <dc-date>08/21/2015</dc-date>
+    </patient>
+    <patient>
+      <patient-name>Lawrence Nickson</patient-name>
+      <ptnt-last-name>Nickson</ptnt-last-name>
+      <ptnt-first-name>Lawrence</ptnt-first-name>
+      <patient-mr-num>1448</patient-mr-num>
+      <patient-cel>(313) 467-1332</patient-cel>
+      <patient-tel>(313) 318-2585</patient-tel>
+      <patient-address>26100  West 12 mile apt # 334, Southfield MI 48034</patient-address>
+      <certification-period></certification-period>
+      <physician-name></physician-name>
+      <physcn-first-name></physcn-first-name>
+      <physcn-last-name></physcn-last-name>
+      <physician-phone></physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines></episode-disciplines>
+      <soc-date></soc-date>
+      <treatment-status>PE</treatment-status>
+      <patient-status>physician</patient-status>
+      <insurance>MEDICARE</insurance>
+      <case-manager></case-manager>
+      <primary-diagnosis></primary-diagnosis>
+      <patient-insurance-number>370322738A</patient-insurance-number>
+      <dc-date></dc-date>
+      <field-staff></field-staff>
+    </patient>
+    <patient>
+      <patient-name>Gladys Owens</patient-name>
+      <ptnt-last-name>Owens</ptnt-last-name>
+      <ptnt-first-name>Gladys</ptnt-first-name>
+      <patient-mr-num>1437</patient-mr-num>
+      <patient-cel>(313) 808-4403</patient-cel>
+      <patient-tel>(313) 342-8885</patient-tel>
+      <patient-address>20101 Steel St., Detroit MI 48235</patient-address>
+      <certification-period>08/20/2015 - 10/18/2015</certification-period>
+      <physician-name>SHIVAKUMAR DEVA</physician-name>
+      <physcn-first-name>SHIVAKUMAR</physcn-first-name>
+      <physcn-last-name>DEVA</physcn-last-name>
+      <physician-phone>(248) 352-2000</physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines>&lt;b&gt;Disciplines&lt;/b&gt; SN, PT</episode-disciplines>
+      <soc-date>08/20/2015</soc-date>
+      <treatment-status>AC</treatment-status>
+      <insurance>593780080</insurance>
+      <case-manager nil="true"/>
+      <primary-diagnosis></primary-diagnosis>
+      <patient-insurance-number>H47195162</patient-insurance-number>
+      <dc-date></dc-date>
+    </patient>
+    <patient>
+      <patient-name>MARY PESTA</patient-name>
+      <ptnt-last-name>PESTA</ptnt-last-name>
+      <ptnt-first-name>MARY</ptnt-first-name>
+      <patient-mr-num>1438</patient-mr-num>
+      <patient-cel>(734) 442-7073</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>11425 Aloysius St., Romulus MI 48174</patient-address>
+      <certification-period>08/20/2015 - 10/18/2015</certification-period>
+      <physician-name>Margaret Mekai-Vekima</physician-name>
+      <physcn-first-name>Margaret</physcn-first-name>
+      <physcn-last-name>Mekai-Vekima</physcn-last-name>
+      <physician-phone>(734) 480-1400</physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines>&lt;b&gt;Disciplines&lt;/b&gt; PT</episode-disciplines>
+      <soc-date>08/20/2015</soc-date>
+      <treatment-status>AC</treatment-status>
+      <insurance>MEDICARE</insurance>
+      <case-manager>Sreedhar Thotakuri, PT</case-manager>
+      <primary-diagnosis>V57.1 Care involving other physical therapy</primary-diagnosis>
+      <patient-insurance-number>373441810A</patient-insurance-number>
+      <dc-date></dc-date>
+    </patient>
+    <patient>
+      <patient-name>Nancy Phillips</patient-name>
+      <ptnt-last-name>Phillips</ptnt-last-name>
+      <ptnt-first-name>Nancy</ptnt-first-name>
+      <patient-mr-num>1441</patient-mr-num>
+      <patient-cel>(586) 718-8638</patient-cel>
+      <patient-tel>(586) 977-5835</patient-tel>
+      <patient-address>3750 Schoenherr Rd,  716, Sterling Heights MI 48312</patient-address>
+      <certification-period>08/28/2015 - 10/26/2015</certification-period>
+      <physician-name>LINDSEY FELDMAN</physician-name>
+      <physcn-first-name>LINDSEY</physcn-first-name>
+      <physcn-last-name>FELDMAN</physcn-last-name>
+      <physician-phone>(248) 824-6060</physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines>&lt;b&gt;Disciplines&lt;/b&gt; SN, PT, OT, CHHA</episode-disciplines>
+      <soc-date>08/28/2015</soc-date>
+      <treatment-status>AC</treatment-status>
+      <insurance>MEDICARE</insurance>
+      <case-manager nil="true"/>
+      <primary-diagnosis></primary-diagnosis>
+      <patient-insurance-number>375449072A</patient-insurance-number>
+      <dc-date></dc-date>
+    </patient>
+    <patient>
+      <patient-name>Dorothy Reid</patient-name>
+      <ptnt-last-name>Reid</ptnt-last-name>
+      <ptnt-first-name>Dorothy</ptnt-first-name>
+      <patient-mr-num>1422</patient-mr-num>
+      <patient-cel>(313) 822-4283</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>800 Dickerson St,  1201, Detroit MI 48215</patient-address>
+      <certification-period>08/15/2015 - 10/13/2015</certification-period>
+      <physician-name>Ronald Barnett</physician-name>
+      <physcn-first-name>Ronald</physcn-first-name>
+      <physcn-last-name>Barnett</physcn-last-name>
+      <physician-phone>(586) 772-7180</physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines>&lt;b&gt;Disciplines&lt;/b&gt; SN, PT</episode-disciplines>
+      <soc-date>08/15/2015</soc-date>
+      <treatment-status>AC</treatment-status>
+      <insurance>593780080</insurance>
+      <case-manager>Bhupendra Patel, RN</case-manager>
+      <primary-diagnosis>428.0 Congestive heart failure, unspecified</primary-diagnosis>
+      <patient-insurance-number>R5826006</patient-insurance-number>
+      <dc-date></dc-date>
+    </patient>
+    <patient>
+      <patient-name>ARNOREE ROBINSON</patient-name>
+      <ptnt-last-name>ROBINSON</ptnt-last-name>
+      <ptnt-first-name>ARNOREE</ptnt-first-name>
+      <patient-mr-num>1446</patient-mr-num>
+      <patient-cel>(248) 225-6993</patient-cel>
+      <patient-tel>(248) 569-6374</patient-tel>
+      <patient-address>25874 LATHRUP BLVD, Southfield MI 48075</patient-address>
+      <certification-period></certification-period>
+      <physician-name></physician-name>
+      <physcn-first-name></physcn-first-name>
+      <physcn-last-name></physcn-last-name>
+      <physician-phone></physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines></episode-disciplines>
+      <soc-date></soc-date>
+      <treatment-status>PE</treatment-status>
+      <patient-status>physician</patient-status>
+      <insurance>MEDICARE</insurance>
+      <case-manager></case-manager>
+      <primary-diagnosis></primary-diagnosis>
+      <patient-insurance-number>377389497A</patient-insurance-number>
+      <dc-date></dc-date>
+      <field-staff></field-staff>
+    </patient>
+    <patient>
+      <patient-name>ELAINE ROGERS</patient-name>
+      <ptnt-last-name>ROGERS</ptnt-last-name>
+      <ptnt-first-name>ELAINE</ptnt-first-name>
+      <patient-mr-num>1440</patient-mr-num>
+      <patient-cel>(734) 442-7073</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>11425 ALOYSIUS ST., Romulus MI 48174</patient-address>
+      <certification-period>08/20/2015 - 10/18/2015</certification-period>
+      <physician-name>Margaret Mekai-Vekima</physician-name>
+      <physcn-first-name>Margaret</physcn-first-name>
+      <physcn-last-name>Mekai-Vekima</physcn-last-name>
+      <physician-phone>(734) 480-1400</physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines>&lt;b&gt;Disciplines&lt;/b&gt; PT</episode-disciplines>
+      <soc-date>08/20/2015</soc-date>
+      <treatment-status>AC</treatment-status>
+      <insurance>MEDICARE</insurance>
+      <case-manager>Sreedhar Thotakuri, PT</case-manager>
+      <primary-diagnosis>V57.1 Care involving other physical therapy</primary-diagnosis>
+      <patient-insurance-number>374440269M</patient-insurance-number>
+      <dc-date></dc-date>
+    </patient>
+    <patient>
+      <patient-name>ROCHELLE ROGERS</patient-name>
+      <ptnt-last-name>ROGERS</ptnt-last-name>
+      <ptnt-first-name>ROCHELLE</ptnt-first-name>
+      <patient-mr-num>1424</patient-mr-num>
+      <patient-cel>(248) 818-3376</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>18652 Stopel St, Detroit MI 48221</patient-address>
+      <certification-period>07/21/2015 - 09/18/2015</certification-period>
+      <physician-name>Grace Patterson</physician-name>
+      <physcn-first-name>Grace</physcn-first-name>
+      <physcn-last-name>Patterson</physcn-last-name>
+      <physician-phone>(248) 356-1111</physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines>&lt;b&gt;Disciplines&lt;/b&gt; SN, PT, MSW</episode-disciplines>
+      <soc-date>07/21/2015</soc-date>
+      <treatment-status>AC</treatment-status>
+      <insurance>MEDICARE</insurance>
+      <case-manager>Ketul Thaker, RN</case-manager>
+      <primary-diagnosis>V57.1 Care involving other physical therapy</primary-diagnosis>
+      <patient-insurance-number>364821940A</patient-insurance-number>
+      <dc-date></dc-date>
+    </patient>
+    <patient>
+      <patient-name>Nell Shaw</patient-name>
+      <ptnt-last-name>Shaw</ptnt-last-name>
+      <ptnt-first-name>Nell</ptnt-first-name>
+      <patient-mr-num>1403-01</patient-mr-num>
+      <patient-cel>(248) 632-4274</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>23550 Evergreen, Southfield MI 48075</patient-address>
+      <certification-period>05/30/2015 - 07/28/2015</certification-period>
+      <physician-name>Bruce Kaplan</physician-name>
+      <physcn-first-name>Bruce</physcn-first-name>
+      <physcn-last-name>Kaplan</physcn-last-name>
+      <physician-phone nil="true"/>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines>&lt;b&gt;Disciplines&lt;/b&gt; SN, PT, OT</episode-disciplines>
+      <soc-date>05/30/2015</soc-date>
+      <treatment-status>AC</treatment-status>
+      <insurance>0E029</insurance>
+      <case-manager nil="true"/>
+      <primary-diagnosis></primary-diagnosis>
+      <patient-insurance-number>XYK890401669</patient-insurance-number>
+      <dc-date></dc-date>
+    </patient>
+    <patient>
+      <patient-name>Nell Shaw</patient-name>
+      <ptnt-last-name>Shaw</ptnt-last-name>
+      <ptnt-first-name>Nell</ptnt-first-name>
+      <patient-mr-num>1403-01</patient-mr-num>
+      <patient-cel>(248) 632-4274</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>23550 Evergreen, Southfield MI 48075</patient-address>
+      <certification-period>07/29/2015 - 09/26/2015</certification-period>
+      <physician-name>Bruce Kaplan</physician-name>
+      <physcn-first-name>Bruce</physcn-first-name>
+      <physcn-last-name>Kaplan</physcn-last-name>
+      <physician-phone nil="true"/>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines>&lt;b&gt;Disciplines&lt;/b&gt; PT</episode-disciplines>
+      <soc-date>05/30/2015</soc-date>
+      <treatment-status>AC</treatment-status>
+      <insurance>0E029</insurance>
+      <case-manager nil="true"/>
+      <primary-diagnosis></primary-diagnosis>
+      <patient-insurance-number>XYK890401669</patient-insurance-number>
+      <dc-date></dc-date>
+    </patient>
+    <patient>
+      <patient-name>KAREN SIMMONS</patient-name>
+      <ptnt-last-name>SIMMONS</ptnt-last-name>
+      <ptnt-first-name>KAREN</ptnt-first-name>
+      <patient-mr-num>1442</patient-mr-num>
+      <patient-cel nil="true"/>
+      <patient-tel>(734) 775-2892</patient-tel>
+      <patient-address>493 ARCOLA ST. , Garden City MI 48135</patient-address>
+      <certification-period>08/21/2015 - 10/19/2015</certification-period>
+      <physician-name>John Webber</physician-name>
+      <physcn-first-name>John</physcn-first-name>
+      <physcn-last-name>Webber</physcn-last-name>
+      <physician-phone>(313) 745-4195</physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines>&lt;b&gt;Disciplines&lt;/b&gt; SN, CHHA</episode-disciplines>
+      <soc-date>08/21/2015</soc-date>
+      <treatment-status>AC</treatment-status>
+      <insurance>593780080</insurance>
+      <case-manager nil="true"/>
+      <primary-diagnosis></primary-diagnosis>
+      <patient-insurance-number>H40939086</patient-insurance-number>
+      <dc-date></dc-date>
+    </patient>
+    <patient>
+      <patient-name>Lionel Simmons</patient-name>
+      <ptnt-last-name>Simmons</ptnt-last-name>
+      <ptnt-first-name>Lionel</ptnt-first-name>
+      <patient-mr-num>1445</patient-mr-num>
+      <patient-cel>(313) 592-0945</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>19313 Glastonbury St. , Detroit MI 48219</patient-address>
+      <certification-period>01/20/2015 - 03/20/2015</certification-period>
+      <physician-name>ANNIE ARREY-MENSAH</physician-name>
+      <physcn-first-name>ANNIE</physcn-first-name>
+      <physcn-last-name>ARREY-MENSAH</physcn-last-name>
+      <physician-phone>(248) 396-9563</physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines>&lt;b&gt;Disciplines&lt;/b&gt; PT</episode-disciplines>
+      <soc-date>01/20/2015</soc-date>
+      <treatment-status>AC</treatment-status>
+      <insurance>0E029</insurance>
+      <case-manager nil="true"/>
+      <primary-diagnosis></primary-diagnosis>
+      <patient-insurance-number>XYL8421649</patient-insurance-number>
+      <dc-date></dc-date>
+    </patient>
+    <patient>
+      <patient-name>Coletta Taylor</patient-name>
+      <ptnt-last-name>Taylor</ptnt-last-name>
+      <ptnt-first-name>Coletta</ptnt-first-name>
+      <patient-mr-num>1411-01</patient-mr-num>
+      <patient-cel>(248) 910-3361</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>26307 Franklin Pointe Dr, Southfield MI 48034</patient-address>
+      <certification-period>06/16/2015 - 08/14/2015</certification-period>
+      <physician-name>Bruce Kaplan</physician-name>
+      <physcn-first-name>Bruce</physcn-first-name>
+      <physcn-last-name>Kaplan</physcn-last-name>
+      <physician-phone nil="true"/>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines>&lt;b&gt;Disciplines&lt;/b&gt; SN, PT</episode-disciplines>
+      <soc-date>06/16/2015</soc-date>
+      <treatment-status>AC</treatment-status>
+      <insurance>MEDICARE</insurance>
+      <case-manager nil="true"/>
+      <primary-diagnosis></primary-diagnosis>
+      <patient-insurance-number>377704811A</patient-insurance-number>
+      <dc-date></dc-date>
+    </patient>
+    <patient>
+      <patient-name>Jeanette Thompson</patient-name>
+      <ptnt-last-name>Thompson</ptnt-last-name>
+      <ptnt-first-name>Jeanette</ptnt-first-name>
+      <patient-mr-num>1444</patient-mr-num>
+      <patient-cel>(313) 721-8607</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>2700 South Annabelle St,  201, Detroit MI 48217</patient-address>
+      <certification-period></certification-period>
+      <physician-name></physician-name>
+      <physcn-first-name></physcn-first-name>
+      <physcn-last-name></physcn-last-name>
+      <physician-phone></physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines></episode-disciplines>
+      <soc-date></soc-date>
+      <treatment-status>PE</treatment-status>
+      <patient-status>physician</patient-status>
+      <insurance>MEDICARE</insurance>
+      <case-manager></case-manager>
+      <primary-diagnosis></primary-diagnosis>
+      <patient-insurance-number>499543765A</patient-insurance-number>
+      <dc-date></dc-date>
+      <field-staff></field-staff>
+    </patient>
+    <patient>
+      <patient-name>Mildred Turner</patient-name>
+      <ptnt-last-name>Turner</ptnt-last-name>
+      <ptnt-first-name>Mildred</ptnt-first-name>
+      <patient-mr-num>1397-01</patient-mr-num>
+      <patient-cel>(313) 934-0048</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>9996 yellowstone, Detroit MI 48204</patient-address>
+      <certification-period>07/05/2015 - 09/02/2015</certification-period>
+      <physician-name>Grace Patterson</physician-name>
+      <physcn-first-name>Grace</physcn-first-name>
+      <physcn-last-name>Patterson</physcn-last-name>
+      <physician-phone>(248) 356-1111</physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines>&lt;b&gt;Disciplines&lt;/b&gt; PT</episode-disciplines>
+      <soc-date>05/06/2015</soc-date>
+      <treatment-status>DC</treatment-status>
+      <insurance>MEDICARE</insurance>
+      <case-manager>Ankita Mali, PT</case-manager>
+      <primary-diagnosis>V57.1 Care involving other physical therapy</primary-diagnosis>
+      <patient-insurance-number>425427477B</patient-insurance-number>
+      <dc-date>08/05/2015</dc-date>
+    </patient>
+    <patient>
+      <patient-name>Mildred Turner</patient-name>
+      <ptnt-last-name>Turner</ptnt-last-name>
+      <ptnt-first-name>Mildred</ptnt-first-name>
+      <patient-mr-num>1397-01</patient-mr-num>
+      <patient-cel>(313) 934-0048</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>9996 yellowstone, Detroit MI 48204</patient-address>
+      <certification-period>05/06/2015 - 07/04/2015</certification-period>
+      <physician-name>Grace Patterson</physician-name>
+      <physcn-first-name>Grace</physcn-first-name>
+      <physcn-last-name>Patterson</physcn-last-name>
+      <physician-phone>(248) 356-1111</physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines>&lt;b&gt;Disciplines&lt;/b&gt; SN, PT, OT</episode-disciplines>
+      <soc-date>05/06/2015</soc-date>
+      <treatment-status>DC</treatment-status>
+      <insurance>MEDICARE</insurance>
+      <case-manager nil="true"/>
+      <primary-diagnosis></primary-diagnosis>
+      <patient-insurance-number>425427477B</patient-insurance-number>
+      <dc-date>08/05/2015</dc-date>
+    </patient>
+    <patient>
+      <patient-name>Mildred Turner</patient-name>
+      <ptnt-last-name>Turner</ptnt-last-name>
+      <ptnt-first-name>Mildred</ptnt-first-name>
+      <patient-mr-num>1397-01</patient-mr-num>
+      <patient-cel>(313) 934-0048</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>9996 yellowstone, Detroit MI 48204</patient-address>
+      <certification-period>09/14/2015 - 11/12/2015</certification-period>
+      <physician-name>Grace Patterson</physician-name>
+      <physcn-first-name>Grace</physcn-first-name>
+      <physcn-last-name>Patterson</physcn-last-name>
+      <physician-phone>(248) 356-1111</physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines>&lt;b&gt;Disciplines&lt;/b&gt; PT</episode-disciplines>
+      <soc-date>09/14/2015</soc-date>
+      <treatment-status>AC</treatment-status>
+      <insurance>MEDICARE</insurance>
+      <case-manager nil="true"/>
+      <primary-diagnosis></primary-diagnosis>
+      <patient-insurance-number>425427477B</patient-insurance-number>
+      <dc-date></dc-date>
+    </patient>
+    <patient>
+      <patient-name>Thermon Turner</patient-name>
+      <ptnt-last-name>Turner</ptnt-last-name>
+      <ptnt-first-name>Thermon</ptnt-first-name>
+      <patient-mr-num>1398-01</patient-mr-num>
+      <patient-cel>(313) 934-0048</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>9996 Yellowstone, Detroit MI 48204</patient-address>
+      <certification-period>09/14/2015 - 11/12/2015</certification-period>
+      <physician-name>Grace Patterson</physician-name>
+      <physcn-first-name>Grace</physcn-first-name>
+      <physcn-last-name>Patterson</physcn-last-name>
+      <physician-phone>(248) 356-1111</physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines>&lt;b&gt;Disciplines&lt;/b&gt; PT</episode-disciplines>
+      <soc-date>09/14/2015</soc-date>
+      <treatment-status>AC</treatment-status>
+      <insurance>MEDICARE</insurance>
+      <case-manager nil="true"/>
+      <primary-diagnosis></primary-diagnosis>
+      <patient-insurance-number>425427477A</patient-insurance-number>
+      <dc-date></dc-date>
+    </patient>
+    <patient>
+      <patient-name>Thermon Turner</patient-name>
+      <ptnt-last-name>Turner</ptnt-last-name>
+      <ptnt-first-name>Thermon</ptnt-first-name>
+      <patient-mr-num>1398-01</patient-mr-num>
+      <patient-cel>(313) 934-0048</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>9996 Yellowstone, Detroit MI 48204</patient-address>
+      <certification-period>05/06/2015 - 07/04/2015</certification-period>
+      <physician-name>Grace Patterson</physician-name>
+      <physcn-first-name>Grace</physcn-first-name>
+      <physcn-last-name>Patterson</physcn-last-name>
+      <physician-phone>(248) 356-1111</physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines>&lt;b&gt;Disciplines&lt;/b&gt; SN, PT, OT, MSW</episode-disciplines>
+      <soc-date>05/06/2015</soc-date>
+      <treatment-status>DC</treatment-status>
+      <insurance>MEDICARE</insurance>
+      <case-manager nil="true"/>
+      <primary-diagnosis></primary-diagnosis>
+      <patient-insurance-number>425427477A</patient-insurance-number>
+      <dc-date>08/05/2015</dc-date>
+    </patient>
+    <patient>
+      <patient-name>Thermon Turner</patient-name>
+      <ptnt-last-name>Turner</ptnt-last-name>
+      <ptnt-first-name>Thermon</ptnt-first-name>
+      <patient-mr-num>1398-01</patient-mr-num>
+      <patient-cel>(313) 934-0048</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>9996 Yellowstone, Detroit MI 48204</patient-address>
+      <certification-period>07/05/2015 - 09/02/2015</certification-period>
+      <physician-name>Grace Patterson</physician-name>
+      <physcn-first-name>Grace</physcn-first-name>
+      <physcn-last-name>Patterson</physcn-last-name>
+      <physician-phone>(248) 356-1111</physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines>&lt;b&gt;Disciplines&lt;/b&gt; PT</episode-disciplines>
+      <soc-date>05/06/2015</soc-date>
+      <treatment-status>DC</treatment-status>
+      <insurance>MEDICARE</insurance>
+      <case-manager>Ankita Mali, PT</case-manager>
+      <primary-diagnosis>V57.1 Care involving other physical therapy</primary-diagnosis>
+      <patient-insurance-number>425427477A</patient-insurance-number>
+      <dc-date>08/05/2015</dc-date>
+    </patient>
+    <patient>
+      <patient-name>CHARLENE WASHINGTON</patient-name>
+      <ptnt-last-name>WASHINGTON</ptnt-last-name>
+      <ptnt-first-name>CHARLENE</ptnt-first-name>
+      <patient-mr-num>1447</patient-mr-num>
+      <patient-cel>(313) 646-2280</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>9264 ROSEMONT ST., Detroit MI 48228</patient-address>
+      <certification-period></certification-period>
+      <physician-name></physician-name>
+      <physcn-first-name></physcn-first-name>
+      <physcn-last-name></physcn-last-name>
+      <physician-phone></physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines></episode-disciplines>
+      <soc-date></soc-date>
+      <treatment-status>PE</treatment-status>
+      <patient-status>physician</patient-status>
+      <insurance>MEDICARE</insurance>
+      <case-manager></case-manager>
+      <primary-diagnosis></primary-diagnosis>
+      <patient-insurance-number>364602538A</patient-insurance-number>
+      <dc-date></dc-date>
+      <field-staff></field-staff>
+    </patient>
+    <patient>
+      <patient-name>Claude Washington</patient-name>
+      <ptnt-last-name>Washington</ptnt-last-name>
+      <ptnt-first-name>Claude</ptnt-first-name>
+      <patient-mr-num>1418</patient-mr-num>
+      <patient-cel>(586) 668-4266</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>500 E. 9 MILE RD. ,  APT # 508, Ferndale MI 48220</patient-address>
+      <certification-period>06/22/2015 - 08/20/2015</certification-period>
+      <physician-name>SAYEG AYOUB MD</physician-name>
+      <physcn-first-name>SAYEG</physcn-first-name>
+      <physcn-last-name>AYOUB MD</physcn-last-name>
+      <physician-phone>(248) 327-6196</physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines>&lt;b&gt;Disciplines&lt;/b&gt; SN, PT, OT</episode-disciplines>
+      <soc-date>06/22/2015</soc-date>
+      <treatment-status>AC</treatment-status>
+      <insurance>MEDICARE</insurance>
+      <case-manager>Ketul Thaker, RN</case-manager>
+      <primary-diagnosis>338.4 Chronic pain syndrome</primary-diagnosis>
+      <patient-insurance-number>370545753A</patient-insurance-number>
+      <dc-date></dc-date>
+    </patient>
+    <patient>
+      <patient-name>VIVIAN WELCH</patient-name>
+      <ptnt-last-name>WELCH</ptnt-last-name>
+      <ptnt-first-name>VIVIAN</ptnt-first-name>
+      <patient-mr-num>1436</patient-mr-num>
+      <patient-cel>(313) 361-9299</patient-cel>
+      <patient-tel nil="true"/>
+      <patient-address>6544 FIRWOOD, Detroit MI 48210</patient-address>
+      <certification-period>08/29/2015 - 10/27/2015</certification-period>
+      <physician-name>SHIVAKUMAR DEVA</physician-name>
+      <physcn-first-name>SHIVAKUMAR</physcn-first-name>
+      <physcn-last-name>DEVA</physcn-last-name>
+      <physician-phone>(248) 352-2000</physician-phone>
+      <patient-acuity>&lt;b&gt;Acuity&lt;/b&gt; NA</patient-acuity>
+      <episode-disciplines>&lt;b&gt;Disciplines&lt;/b&gt; SN</episode-disciplines>
+      <soc-date>08/29/2015</soc-date>
+      <treatment-status>AC</treatment-status>
+      <insurance>MEDICARE</insurance>
+      <case-manager nil="true"/>
+      <primary-diagnosis></primary-diagnosis>
+      <patient-insurance-number>367500460A</patient-insurance-number>
+      <dc-date></dc-date>
+    </patient>
+  </patients>
+  <unduplicated type="boolean">false</unduplicated>
+  <header>Census Report</header>
+  <footer> Soc: 01/20/15 - 09/22/15</footer>
+  <group-by></group-by>
+  <total-patients type="integer">49</total-patients>
+  <footer-filter type="boolean">false</footer-filter>
+  <filter type="boolean">false</filter>
+  <patient-icd-code-not-set nil="true"/>
+  <patient-primary-physician-not-set nil="true"/>
+  <sub-report-url>/workspace/fasternotes/app/views/reports/census_report/</sub-report-url>
+</census-report>

@@ -1,0 +1,91 @@
+<missing-frequency>
+  <agency-name>Metro</agency-name>
+  <agency-name-only>Metro</agency-name-only>
+  <agency-address-line1>4929 Wilshire Blvd., Suite 945 </agency-address-line1>
+  <agency-address-line2>4929 Wilshire Blvd., Suite 945 </agency-address-line2>
+  <agency-contact>12334567790</agency-contact>
+  <field-staffs>
+    <field-staff>
+      <field-staff-name-and-license-type>ARUN,ST</field-staff-name-and-license-type>
+      <phone-number>(080) 123 - 9532</phone-number>
+      <staff-type>Therapeutic Touch, Inc.,</staff-type>
+      <visit-type>ST-DC</visit-type>
+      <visit-date>02/01/2013</visit-date>
+      <discipline-and-status>ST - AC</discipline-and-status>
+      <completed-visits>4</completed-visits>
+      <certification-period>01/01/2013-03/01/2013</certification-period>
+      <total-disciplines>SN,PT,OT,ST,CHHA,MSW</total-disciplines>
+      <soc-date>01/01/2013</soc-date>
+      <treatment-status>AC</treatment-status>
+      <patient-name-and-mr-number>BOB,12</patient-name-and-mr-number>
+      <patient-home-number>1234567890</patient-home-number>
+      <patient-phone-number>3456789011</patient-phone-number>
+    </field-staff>
+    <field-staff>
+      <field-staff-name-and-license-type>PRAVEEN salkjfkdfkk,ST</field-staff-name-and-license-type>
+      <phone-number>(080) 123 - 9532</phone-number>
+      <staff-type>Therapeutic Touch, Inc.,</staff-type>
+      <visit-type>ST-DC</visit-type>
+      <visit-date>02/01/2013</visit-date>
+      <discipline-and-status>ST - AC</discipline-and-status>
+      <completed-visits>4</completed-visits>
+      <certification-period>01/01/2013-03/01/2013</certification-period>
+      <total-disciplines>SN,PT,OT,ST,CHHA,MSW</total-disciplines>
+      <soc-date>01/01/2013</soc-date>
+      <treatment-status>AC</treatment-status>
+      <patient-name-and-mr-number>BOB,12</patient-name-and-mr-number>
+      <patient-home-number>1234567890</patient-home-number>
+      <patient-phone-number>3456789011</patient-phone-number>
+    </field-staff>
+    <field-staff>
+      <field-staff-name-and-license-type>PRAVEEN salkjfkdfkk,PT</field-staff-name-and-license-type>
+      <phone-number>(080) 123 - 9532</phone-number>
+      <staff-type>Therapeutic Touch, Inc.,</staff-type>
+      <visit-type>PT-DC</visit-type>
+      <visit-date>02/01/2013</visit-date>
+      <discipline-and-status>PT - AC</discipline-and-status>
+      <completed-visits>4</completed-visits>
+      <certification-period>01/01/2013-03/01/2013</certification-period>
+      <total-disciplines>SN,PT,OT,ST,CHHA,MSW</total-disciplines>
+      <soc-date>01/01/2013</soc-date>
+      <treatment-status>AC</treatment-status>
+      <patient-name-and-mr-number>BOB,12</patient-name-and-mr-number>
+      <patient-home-number>1234567890</patient-home-number>
+      <patient-phone-number>3456789011</patient-phone-number>
+    </field-staff>
+    <field-staff>
+      <field-staff-name-and-license-type>SRINIVAS salkjfkdfkk,SN</field-staff-name-and-license-type>
+      <phone-number>(080) 123 - 9532</phone-number>
+      <staff-type>Therapeutic Touch, Inc.,</staff-type>
+      <visit-type>SN - AC</visit-type>
+      <visit-date>02/01/2013</visit-date>
+      <discipline-and-status>SN - AC</discipline-and-status>
+      <completed-visits>4</completed-visits>
+      <certification-period>03/02/2013-05/01/2013</certification-period>
+      <total-disciplines>SN,PT,OT,ST,CHHA,MSW</total-disciplines>
+      <soc-date>01/01/2013</soc-date>
+      <treatment-status>AC</treatment-status>
+      <patient-name-and-mr-number>BOB,12</patient-name-and-mr-number>
+      <patient-home-number>1234567890</patient-home-number>
+      <patient-phone-number>3456789011</patient-phone-number>
+    </field-staff>
+    <field-staff>
+      <field-staff-name-and-license-type>llll salkjfkdfkk,SN</field-staff-name-and-license-type>
+      <license-type>SN</license-type>
+      <phone-number>(080) 123 - 9532</phone-number>
+      <staff-type>Therapeutic Touch, Inc.,</staff-type>
+      <visit-type>SN - FU</visit-type>
+      <visit-date>02/01/2013</visit-date>
+      <discipline-and-status>SN - AC</discipline-and-status>
+      <completed-visits>4</completed-visits>
+      <certification-period>01/01/2014-03/01/2014</certification-period>
+      <total-disciplines>SN,PT,OT,ST,CHHA,MSW</total-disciplines>
+      <soc-date>01/01/2014</soc-date>
+      <treatment-status>AC</treatment-status>
+      <patient-name-and-mr-number>BOB,12</patient-name-and-mr-number>
+      <patient-home-number>1234567890</patient-home-number>
+      <patient-phone-number>3456789011</patient-phone-number>
+    </field-staff>
+
+  </field-staffs>
+</missing-frequency>

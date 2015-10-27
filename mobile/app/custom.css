@@ -1,0 +1,29 @@
+.list_first_line {
+	font-weight: bold;
+	font-size: 100%;
+}
+.list_second_line {
+	font-size: 70%;
+	color: grey;
+}
+.phone {
+    font-weight: bold;
+    font-size: 70%;
+    text-decoration: underline;
+}
+.item_field {
+	font-weight: bold;
+	font-size: 75%;
+}
+.item_value{
+	font-size: 75%;
+}
+.item_row {
+   height: 60px;
+}
+.item_fields_list .item_row {
+	height: 50px;
+}
+.item_fields_list .x-list-item .x-list-item-label {
+	padding-top: 0.1em;
+}

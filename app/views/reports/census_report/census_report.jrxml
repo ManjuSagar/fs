@@ -1,0 +1,411 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report3" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="782" leftMargin="30" rightMargin="30" topMargin="20" bottomMargin="10" uuid="d35307eb-cc60-4bee-ac80-6355d7ff31c6">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="census"/>
+	<property name="com.jaspersoft.studio.unit." value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageHeight" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.pageWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.topMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.bottomMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.leftMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.rightMargin" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnWidth" value="pixel"/>
+	<property name="com.jaspersoft.studio.unit.columnSpacing" value="pixel"/>
+	<property name="ireport.zoom" value="1.331000000000006"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/census-report/patients/patient]]>
+	</queryString>
+	<field name="patient-name" class="java.lang.String">
+		<fieldDescription><![CDATA[patient-name]]></fieldDescription>
+	</field>
+	<field name="patient-mr-num" class="java.lang.String">
+		<fieldDescription><![CDATA[patient-mr-num]]></fieldDescription>
+	</field>
+	<field name="patient-cel" class="java.lang.String">
+		<fieldDescription><![CDATA[patient-cel]]></fieldDescription>
+	</field>
+	<field name="patient-tel" class="java.lang.String">
+		<fieldDescription><![CDATA[patient-tel]]></fieldDescription>
+	</field>
+	<field name="patient-address" class="java.lang.String">
+		<fieldDescription><![CDATA[patient-address]]></fieldDescription>
+	</field>
+	<field name="certification-period" class="java.lang.String">
+		<fieldDescription><![CDATA[certification-period]]></fieldDescription>
+	</field>
+	<field name="physician-name" class="java.lang.String">
+		<fieldDescription><![CDATA[physician-name]]></fieldDescription>
+	</field>
+	<field name="physician-phone" class="java.lang.String">
+		<fieldDescription><![CDATA[physician-phone]]></fieldDescription>
+	</field>
+	<field name="patient-acuity" class="java.lang.String">
+		<fieldDescription><![CDATA[patient-acuity]]></fieldDescription>
+	</field>
+	<field name="episode-disciplines" class="java.lang.String">
+		<fieldDescription><![CDATA[episode-disciplines]]></fieldDescription>
+	</field>
+	<field name="soc-date" class="java.lang.String">
+		<fieldDescription><![CDATA[soc-date]]></fieldDescription>
+	</field>
+	<field name="treatment-status" class="java.lang.String">
+		<fieldDescription><![CDATA[treatment-status]]></fieldDescription>
+	</field>
+	<field name="insurance" class="java.lang.String">
+		<fieldDescription><![CDATA[insurance]]></fieldDescription>
+	</field>
+	<field name="primary-icd-code" class="java.lang.String">
+		<fieldDescription><![CDATA[primary-icd-code]]></fieldDescription>
+	</field>
+	<field name="case-manager" class="java.lang.String">
+		<fieldDescription><![CDATA[case-manager]]></fieldDescription>
+	</field>
+	<field name="patient-insurance-number" class="java.lang.String">
+		<fieldDescription><![CDATA[patient-insurance-number]]></fieldDescription>
+	</field>
+	<field name="ptnt-last-name" class="java.lang.String">
+		<fieldDescription><![CDATA[ptnt-last-name]]></fieldDescription>
+	</field>
+	<field name="ptnt-first-name" class="java.lang.String">
+		<fieldDescription><![CDATA[ptnt-first-name]]></fieldDescription>
+	</field>
+	<field name="physcn-first-name" class="java.lang.String">
+		<fieldDescription><![CDATA[physcn-first-name]]></fieldDescription>
+	</field>
+	<field name="physcn-last-name" class="java.lang.String">
+		<fieldDescription><![CDATA[physcn-last-name]]></fieldDescription>
+	</field>
+	<field name="header" class="java.lang.String">
+		<fieldDescription><![CDATA[/census-report/header]]></fieldDescription>
+	</field>
+	<field name="md-filter" class="java.lang.String">
+		<fieldDescription><![CDATA[/census-report/md-filter]]></fieldDescription>
+	</field>
+	<field name="health-agency-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/census-report/health-agency-name]]></fieldDescription>
+	</field>
+	<field name="sub-report-url" class="java.lang.String">
+		<fieldDescription><![CDATA[/census-report/sub-report-url]]></fieldDescription>
+	</field>
+	<field name="type" class="java.lang.String">
+		<fieldDescription><![CDATA[type]]></fieldDescription>
+	</field>
+	<field name="group-by" class="java.lang.String">
+		<fieldDescription><![CDATA[/census-report/group-by]]></fieldDescription>
+	</field>
+	<field name="dc-date" class="java.lang.String">
+		<fieldDescription><![CDATA[dc-date]]></fieldDescription>
+	</field>
+	<field name="field-staff" class="java.lang.String">
+		<fieldDescription><![CDATA[field-staff]]></fieldDescription>
+	</field>
+	<field name="primary-diagnosis" class="java.lang.String">
+		<fieldDescription><![CDATA[primary-diagnosis]]></fieldDescription>
+	</field>
+	<field name="filter" class="java.lang.String">
+		<fieldDescription><![CDATA[/census-report/filter]]></fieldDescription>
+	</field>
+	<field name="patient-status" class="java.lang.String">
+		<fieldDescription><![CDATA[patient-status]]></fieldDescription>
+	</field>
+	<field name="total-patients" class="java.lang.String">
+		<fieldDescription><![CDATA[/census-report/total-patients]]></fieldDescription>
+	</field>
+	<field name="footer" class="java.lang.String">
+		<fieldDescription><![CDATA[/census-report/footer]]></fieldDescription>
+	</field>
+	<group name="physicain_group">
+		<groupExpression><![CDATA[($F{filter}.equalsIgnoreCase("true")? ($F{group-by}.equalsIgnoreCase("Physician"))? $F{physician-name} :
+ ($F{group-by}.equalsIgnoreCase("InsuranceCompany"))? $F{insurance} :
+ ($F{group-by}.equalsIgnoreCase("SOC"))? $F{soc-date} :
+ ($F{group-by}.equalsIgnoreCase("Acuity"))? $F{patient-acuity} :
+ ($F{group-by}.equalsIgnoreCase("FieldStaff"))?  $F{field-staff}:
+ ($F{group-by}.equalsIgnoreCase("PrimaryDiagnosis"))? $F{primary-diagnosis} :
+ "" : "")]]></groupExpression>
+		<groupHeader>
+			<band height="32">
+				<printWhenExpression><![CDATA[$F{filter}.equalsIgnoreCase("true")]]></printWhenExpression>
+				<staticText>
+					<reportElement uuid="91fe047b-8f56-469a-9e0d-4a91a3073e9b" x="7" y="20" width="25" height="11"/>
+					<textElement verticalAlignment="Middle">
+						<font size="8" isBold="false"/>
+					</textElement>
+					<text><![CDATA[MR]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="3a4794cb-ee5c-4cb3-a17a-7f81650fa160" x="228" y="20" width="72" height="11"/>
+					<textElement verticalAlignment="Middle">
+						<font size="8" isBold="false"/>
+					</textElement>
+					<text><![CDATA[TEL]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="e74792c6-b9d1-466d-a19b-358f0718e4e1" x="300" y="20" width="100" height="11"/>
+					<textElement verticalAlignment="Middle">
+						<font size="8" isBold="false"/>
+					</textElement>
+					<text><![CDATA[ADDRESS]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="03e065cc-b4b1-43de-a3d8-608e9e63a02b" x="34" y="20" width="90" height="11"/>
+					<textElement verticalAlignment="Middle">
+						<font size="8" isBold="false"/>
+					</textElement>
+					<text><![CDATA[PATIENT]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="f2302dd2-eed8-4e84-8650-a3e01914a208" x="156" y="20" width="68" height="11"/>
+					<textElement verticalAlignment="Middle">
+						<font size="8" isBold="false"/>
+					</textElement>
+					<text><![CDATA[CEL]]></text>
+				</staticText>
+				<line>
+					<reportElement uuid="072cf87b-a4a8-4587-8116-5a6ba501d93f" x="2" y="31" width="780" height="1"/>
+				</line>
+				<staticText>
+					<reportElement uuid="b68e7569-0a2a-4738-8f3a-f451c6854c83" x="598" y="19" width="82" height="11"/>
+					<textElement verticalAlignment="Middle">
+						<font size="8"/>
+					</textElement>
+					<text><![CDATA[INSURANCE]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="af8fa4b8-0902-4932-b328-50114b85314d" x="502" y="19" width="90" height="12"/>
+					<textElement verticalAlignment="Middle">
+						<font size="8" isBold="false"/>
+					</textElement>
+					<text><![CDATA[CASE MANAGER]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="878065a2-01c6-46c9-bc0f-69038b33550c" x="685" y="19" width="47" height="11"/>
+					<textElement textAlignment="Left">
+						<font size="8"/>
+					</textElement>
+					<text><![CDATA[SOC]]></text>
+				</staticText>
+				<textField isBlankWhenNull="true">
+					<reportElement uuid="c41d7acc-2221-4cb6-9a62-317479277470" x="10" y="1" width="770" height="19"/>
+					<textElement markup="html">
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[($F{filter}.equalsIgnoreCase("true")? ($F{group-by}.equalsIgnoreCase("Physician"))? $F{physician-name} :
+ ($F{group-by}.equalsIgnoreCase("InsuranceCompany"))? $F{insurance} :
+ ($F{group-by}.equalsIgnoreCase("SOC"))? $F{soc-date} :
+ ($F{group-by}.equalsIgnoreCase("Acuity"))? $F{patient-acuity} :
+ ($F{group-by}.equalsIgnoreCase("FieldStaff"))?  $F{field-staff}:
+ ($F{group-by}.equalsIgnoreCase("PrimaryDiagnosis"))? $F{primary-diagnosis} :
+ "" : "")]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement uuid="878065a2-01c6-46c9-bc0f-69038b33550c" x="733" y="19" width="47" height="11"/>
+					<textElement textAlignment="Left">
+						<font size="8"/>
+					</textElement>
+					<text><![CDATA[DC]]></text>
+				</staticText>
+			</band>
+		</groupHeader>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="12" splitType="Stretch">
+			<printWhenExpression><![CDATA[$F{filter}.equalsIgnoreCase("false") ]]></printWhenExpression>
+			<staticText>
+				<reportElement uuid="91fe047b-8f56-469a-9e0d-4a91a3073e9b" x="7" y="0" width="25" height="11"/>
+				<textElement verticalAlignment="Middle">
+					<font size="8" isBold="false"/>
+				</textElement>
+				<text><![CDATA[MR]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="3a4794cb-ee5c-4cb3-a17a-7f81650fa160" x="228" y="0" width="72" height="11"/>
+				<textElement verticalAlignment="Middle">
+					<font size="8" isBold="false"/>
+				</textElement>
+				<text><![CDATA[TEL]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="e74792c6-b9d1-466d-a19b-358f0718e4e1" x="300" y="0" width="100" height="11"/>
+				<textElement verticalAlignment="Middle">
+					<font size="8" isBold="false"/>
+				</textElement>
+				<text><![CDATA[ADDRESS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="03e065cc-b4b1-43de-a3d8-608e9e63a02b" x="34" y="0" width="90" height="11"/>
+				<textElement verticalAlignment="Middle">
+					<font size="8" isBold="false"/>
+				</textElement>
+				<text><![CDATA[PATIENT]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="f2302dd2-eed8-4e84-8650-a3e01914a208" x="156" y="0" width="68" height="11"/>
+				<textElement verticalAlignment="Middle">
+					<font size="8" isBold="false"/>
+				</textElement>
+				<text><![CDATA[CEL]]></text>
+			</staticText>
+			<line>
+				<reportElement uuid="072cf87b-a4a8-4587-8116-5a6ba501d93f" x="2" y="11" width="780" height="1"/>
+			</line>
+			<staticText>
+				<reportElement uuid="b68e7569-0a2a-4738-8f3a-f451c6854c83" x="598" y="-1" width="82" height="11"/>
+				<textElement verticalAlignment="Middle">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[INSURANCE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="af8fa4b8-0902-4932-b328-50114b85314d" x="502" y="-1" width="90" height="12"/>
+				<textElement verticalAlignment="Middle">
+					<font size="8" isBold="false"/>
+				</textElement>
+				<text><![CDATA[CASE MANAGER]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="878065a2-01c6-46c9-bc0f-69038b33550c" x="682" y="-1" width="49" height="11"/>
+				<textElement textAlignment="Left">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[SOC]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="878065a2-01c6-46c9-bc0f-69038b33550c" x="732" y="-1" width="45" height="11"/>
+				<textElement textAlignment="Left">
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[DC]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="21" splitType="Stretch">
+			<line>
+				<reportElement uuid="2681b390-91b4-4631-b619-ecb0b012269b" positionType="Float" x="2" y="19" width="780" height="1"/>
+			</line>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="05f477ae-6fcf-4696-8779-0658c01b9c44" positionType="Float" x="5" y="0" width="27" height="10"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{patient-mr-num}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="d4b26127-81ff-4b18-b25b-66ab02e3534f" x="33" y="9" width="118" height="11"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[(($F{physician-name} != null) ?  "MD "+$F{physician-name} : "MD not assigned")]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="9c5e0204-048d-484e-9e5b-5b789186a8bc" x="152" y="9" width="73" height="11"/>
+				<textElement verticalAlignment="Top">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{physician-phone}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="8ed67bad-caf8-47fc-a8ca-735f8d5b67b3" x="225" y="0" width="74" height="10"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{patient-tel}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="ae0a9376-3e14-49fe-b74a-a9532af0e7b5" positionType="Float" stretchType="RelativeToTallestObject" x="300" y="0" width="195" height="10"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{patient-address}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="3134d703-7cea-4cef-9bbd-c7b3fa7ddd7c" x="681" y="10" width="101" height="10"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{certification-period}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" pattern="MM/dd/yyyy" isBlankWhenNull="true">
+				<reportElement uuid="b4034947-fbb7-4fa9-a260-9ef24d6bf828" x="681" y="-1" width="49" height="11"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{soc-date}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="bc1bb272-a348-463e-8e42-86d864cbe0b6" x="301" y="9" width="195" height="11"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{episode-disciplines}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="13b23080-ff27-4ec1-af93-e859e8e30d74" x="152" y="1" width="73" height="10"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{patient-cel}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="52eeb2fc-fea5-4b24-9459-7e6d1932300a" x="226" y="9" width="74" height="11"/>
+				<textElement markup="html">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{patient-acuity}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="52b60b21-f3d9-4584-b933-526389273b03" x="496" y="-1" width="101" height="10"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{case-manager}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="18e74377-032a-4e99-b78e-1d0411dd6724" positionType="Float" x="5" y="10" width="27" height="10"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{treatment-status}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="3b936132-fc58-4d47-a2d1-505f65195089" x="597" y="-1" width="84" height="10"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{insurance}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="5a63bd61-02ed-4cad-84e2-235a848ce6a0" x="596" y="10" width="84" height="10"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{patient-insurance-number}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="58991b5f-2677-4e57-b93c-350315614678" x="496" y="9" width="101" height="10"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{primary-diagnosis}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="3c9b673f-1b68-4078-8ab4-9974ae3aba52" x="34" y="0" width="117" height="11"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{patient-name}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="14e7edd2-ee40-41d8-ae9d-961125d6f19f" x="730" y="-1" width="51" height="11"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{dc-date}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

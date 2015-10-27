@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<hospice>
+  <sub-report-url>/home/msuser1/workspace/git_repos/fasternotes/app/views/reports/medicare_eligibility/</sub-report-url>
+  <hheh-certification>
+    <hcpcs_code-g0180>
+      <hheh-certification-date>01/14/2013</hheh-certification-date>
+    </hcpcs_code-g0180>
+    <hcpcs_code-g0180>
+      <hheh-certification-date>02/16/2014</hheh-certification-date>
+    </hcpcs_code-g0180>
+  </hheh-certification>
+
+  <hheh-recertification>
+    <hcpcs_code-g0179>
+      <hheh-recertification-date>02/17/2014</hheh-recertification-date>
+    </hcpcs_code-g0179>
+    <hcpcs_code-g0179>
+      <hheh-recertification-date>03/17/2014</hheh-recertification-date>
+    </hcpcs_code-g0179>
+  </hheh-recertification>
+
+  <home-health-care-information>
+    <home-health-care-info>
+      <hheh-start-date>01/10/2014</hheh-start-date>
+      <hheh-end-date>01/10/2014</hheh-end-date>
+      <hheh-doeba-date>01/10/2014</hheh-doeba-date>
+      <hheh-dolba-date>01/10/2014</hheh-dolba-date>
+      <npi>1234567890</npi>
+      <contract-number>1343444312</contract-number>
+      <contract-name>Metro Agency</contract-name>
+    </home-health-care-info>
+
+    <home-health-care-info>
+      <hheh-start-date>01/10/2014</hheh-start-date>
+      <hheh-end-date>01/10/2014</hheh-end-date>
+      <hheh-doeba-date>01/10/2014</hheh-doeba-date>
+      <hheh-dolba-date>01/10/2014</hheh-dolba-date>
+      <npi>1234567890</npi>
+      <contract-number>1343444312</contract-number>
+      <contract-name>Metro Agency</contract-name>
+    </home-health-care-info>
+  </home-health-care-information>
+
+  <hospice-information>
+    <hospice-info>
+      <effective-date>01/10/2014</effective-date>
+      <termination-date>05/10/2014</termination-date>
+      <revocation-code>234</revocation-code>
+      <npi>3456789012</npi>
+    </hospice-info>
+    <hospice-info>
+      <effective-date>05/11/2014</effective-date>
+      <termination-date>07/14/2014</termination-date>
+      <revocation-code>342</revocation-code>
+      <npi>3456789120</npi>
+    </hospice-info>
+  </hospice-information>
+
+</hospice>

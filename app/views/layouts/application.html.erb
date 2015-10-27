@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <title>Faster Notes</title>
+  <% theme = params[:theme] || :steelblue %>
+
+  <%= stylesheet_link_tag :application %>
+
+  <%= javascript_include_tag :application %>
+
+  <script type="application/javascript">
+      OpenLayers.ImgPath = "/assets/img/";
+
+      Ext.Ajax.extraParams = {authenticity_token: '<%= form_authenticity_token %>'}; // Rails' forgery protection)
+
+
+  </script>
+
+  <script type = "text/javascript" >
+
+      $(document).unbind('keydown').bind('keydown', function (event) {
+          var doPrevent = false;
+          if (event.keyCode === 8) {
+              var d = event.srcElement || event.target;
+              if ((d.tagName.toUpperCase() === 'INPUT' &&
+                      (
+                      d.type.toUpperCase() === 'TEXT' ||
+                      d.type.toUpperCase() === 'PASSWORD' ||
+                      d.type.toUpperCase() === 'FILE' ||
+                      d.type.toUpperCase() === 'EMAIL' ||
+                      d.type.toUpperCase() === 'SEARCH' ||
+                      d.type.toUpperCase() === 'DATE' )
+                      ) ||
+                      d.tagName.toUpperCase() === 'TEXTAREA') {
+                  doPrevent = d.readOnly || d.disabled;
+              }
+              else {
+                  doPrevent = true;
+              }
+          }
+
+          if (doPrevent) {
+              event.preventDefault();
+          }
+      });
+  </script>
+
+  <%= netzke_js %>
+  <%= csrf_meta_tags %>
+  <script type="text/javascript">
+      var _gaq = _gaq || [];
+      _gaq.push(['_setAccount', 'UA-43958110-1']);
+      _gaq.push(['_trackPageview']);
+      (function() {
+          var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+          ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+          var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+      })();
+  </script>
+  </head>
+<!--<p class="notice"><%= notice %></p>
+<p class="alert"><%= alert %></p><body>
+-->
+<%= yield %>
+<script type="text/javascript" src="https://fasternotes.atlassian.net/s/d41d8cd98f00b204e9800998ecf8427e/en_US-tieerp-1988229788/6144/52/1.4.0-m6/_/download/batch/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector/com.atlassian.jira.collector.plugin.jira-issue-collector-plugin:issuecollector.js?collectorId=8c4f1025"></script>
+<% if current_user %>
+    <%= auto_session_timeout_js %>
+<% end %>
+
+</body>
+</html>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="caregivers_list" language="groovy" pageWidth="595" pageHeight="802" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="10" bottomMargin="0" uuid="4096f359-bb66-49c8-805b-3281569614ff">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/patient/caregivers-list/caregivers-list]]>
+	</queryString>
+	<field name="name" class="java.lang.String">
+		<fieldDescription><![CDATA[name]]></fieldDescription>
+	</field>
+	<field name="relation-to-patient" class="java.lang.String">
+		<fieldDescription><![CDATA[relation-to-patient]]></fieldDescription>
+	</field>
+	<field name="phone-number" class="java.lang.String">
+		<fieldDescription><![CDATA[phone-number]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="31">
+			<staticText>
+				<reportElement uuid="c53a61da-2475-4922-aeec-52eee71b8905" x="3" y="17" width="150" height="12"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Name]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="0303ff55-9fcc-41b5-9e21-e32e53aa48f0" x="212" y="17" width="141" height="12"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Relation]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b908f296-e73e-4964-b38e-275ba22505b5" x="394" y="17" width="160" height="12"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Phone ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="bcdc1605-904c-4741-9c64-8c7bda344e7c" x="209" y="1" width="137" height="12"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[EMERGENCY CONTACT ]]></text>
+			</staticText>
+			<line>
+				<reportElement uuid="9c6b7c90-91d8-4779-9a09-fdf233e5c9ff" x="3" y="13" width="549" height="1"/>
+			</line>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="14" splitType="Stretch">
+			<textField>
+				<reportElement uuid="f8b7705a-a128-4b20-937a-b9616e054207" x="3" y="1" width="152" height="12"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="be47d718-d6ab-4aeb-9f1f-4cd48f9082f0" x="212" y="1" width="141" height="12"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{relation-to-patient}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="0cdd9fb2-157f-4006-8340-b1f5581ab73c" x="394" y="1" width="160" height="12"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{phone-number}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="5">
+			<line>
+				<reportElement uuid="26daaaaa-9306-4ba8-9934-d0aaa23bd1d8" x="3" y="2" width="550" height="1"/>
+			</line>
+		</band>
+	</columnFooter>
+</jasperReport>

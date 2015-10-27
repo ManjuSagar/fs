@@ -1,0 +1,206 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "RoutesheetController"
+    },
+    "designerId": "3e82d7ed-a5a4-40ab-a74e-70c1dbd40ffc",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onSaveRoutesheet",
+                "implHandler": [
+                    "button.hide();",
+                    "var routesheetStore = Ext.StoreManager.lookup(\"RoutesheetStore\");",
+                    "var routesheetInstance = this.getRoutesheetForm().getRecord();",
+                    "var patientSignature = this.getRoutesheetForm().down(\"signaturefield\").getValue();",
+                    "if (patientSignature == null) {",
+                    "    button.show();",
+                    "    Ext.Msg.alert(\"Alert!\", \"Please capture Patient's signature.\");",
+                    "    return;",
+                    "}",
+                    "routesheetInstance.set(\"patient_signature\", patientSignature);",
+                    "routesheetInstance.set(\"visit_type_id\", this.getRoutesheetForm().down(\"#visit_type\").getValue());",
+                    "routesheetStore.add(routesheetInstance);",
+                    "routesheetStore.sync();",
+                    "",
+                    "Ext.Msg.alert(\"Success\", \"Routesheet saved successfully.\", function () {",
+                    "    MyApp.app.getController(\"MainController\").getNavView().pop(2);",
+                    "    MyApp.app.getController(\"MainController\").getMainTab().setActiveItem(2);",
+                    "});",
+                    ""
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "button#save_routesheet"
+            },
+            "designerId": "b95bea1e-7658-4abf-b30f-955e762bc44d"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onRoutesheetFormActivate",
+                "implHandler": [
+                    "this.getLocation(this);"
+                ],
+                "name": "activate",
+                "designer|targetType": "Ext.form.Panel",
+                "designer|controlQuery": "panel#routesheet_form"
+            },
+            "designerId": "84a6efe1-837a-4163-839d-a9f65d070d06"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "locationDetected",
+                "designer|params": [
+                    "position"
+                ],
+                "implHandler": [
+                    "var record = MyApp.app.getController(\"RoutesheetController\").getRoutesheetForm().getRecord();",
+                    "record.set(\"latitude\", position.coords.latitude);",
+                    "record.set(\"longitude\", position.coords.longitude);",
+                    "MyApp.app.getController(\"RoutesheetController\").getRoutesheetForm().setRecord(record);",
+                    "Ext.Viewport.setMasked(false);"
+                ]
+            },
+            "designerId": "53689ac1-06e5-4ff2-a755-7e1ec9728474"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "locationError",
+                "designer|params": [
+                    "error"
+                ],
+                "implHandler": [
+                    "var errorMessage;",
+                    "switch(error.code)",
+                    "{",
+                    "    case error.PERMISSION_DENIED:",
+                    "    errorMessage=\"User denied the request for Geolocation.\"",
+                    "    break;",
+                    "    case error.POSITION_UNAVAILABLE:",
+                    "    errorMessage=\"Location information is unavailable.\"",
+                    "    break;",
+                    "    case error.TIMEOUT:",
+                    "    errorMessage=\"The request to get user location timed out.\"",
+                    "    break;",
+                    "    case error.UNKNOWN_ERROR:",
+                    "    errorMessage=\"An unknown error occurred.\"",
+                    "    break;",
+                    "}",
+                    "Ext.Viewport.setMasked(false);"
+                ]
+            },
+            "designerId": "bb7d9e1e-27b7-4a7a-a990-aa59a4737ebf"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "getLocation",
+                "designer|params": [
+                    "listener"
+                ],
+                "implHandler": [
+                    "if (navigator.geolocation) {",
+                    "    Ext.Viewport.setMasked({",
+                    "        xtype: 'loadmask',",
+                    "        message: 'Detecting Location...'",
+                    "    });",
+                    "    navigator.geolocation.getCurrentPosition(listener.locationDetected, listener.locationError);",
+                    "} else {",
+                    "    Ext.Msg.alert(\"Geolocation is not supported by your device.\");",
+                    "}",
+                    ""
+                ]
+            },
+            "designerId": "087ddb05-9c6e-4120-b1aa-a84bc577642c"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "routesheetForm",
+                "selector": "#routesheet_form",
+                "xtype": "Ext.form.Panel"
+            },
+            "designerId": "2ef39cb3-dc1f-4db5-a603-9dbaef8df559"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onDeleteRoutesheet",
+                "implHandler": [
+                    "if (this.getRoutesheetList().getSelectionCount() == 0) {",
+                    "    Ext.Msg.alert(\"\"Delete Routesheet\", \"Please select a routesheet to delete.\");",
+                    "\treturn;",
+                    "}",
+                    "this.routesheetStore = Ext.StoreManager.lookup(\"RoutesheetStore\");",
+                    "Ext.each(this.getRoutesheetList().getSelection(), function(record) {",
+                    "    this.routesheetStore.remove(record);",
+                    "}, this);",
+                    "this.routesheetStore.sync();",
+                    ""
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "button#cmdDelete"
+            },
+            "designerId": "531f7853-35c5-42aa-8dd8-881855593f28"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "routesheetList",
+                "selector": "#routesheets_list",
+                "xtype": "Ext.dataview.List"
+            },
+            "designerId": "55c06d3a-89cb-4839-822d-25a419b4407e"
+        }
+    ]
+}

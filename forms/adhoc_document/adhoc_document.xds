@@ -1,0 +1,48 @@
+{
+    "name": "adhoc_document",
+    "settings": {
+        "urlPrefix": "http://localhost:9080",
+        "spacesToIndent": 4,
+        "exportPath": "/home/msuser1/workspace/sencha",
+        "sdkPath": "",
+        "lineEnding": "LF",
+        "genTimestamps": false,
+        "cacheBust": false
+    },
+    "xdsVersion": "2.1.0",
+    "xdsBuild": 676,
+    "schemaVersion": 1,
+    "upgradeVersion": 210000000498,
+    "framework": "ext41",
+    "topInstanceFileMap": {
+        "7091f778-d513-4dd9-b43f-ff042bbb84d0": {
+            "paths": [
+                "metadata/view/MyContainer",
+                "app/view/override/MyContainer.js",
+                "app/view/MyContainer.js",
+                "app/view/Viewport.js"
+            ],
+            "className": "MyContainer"
+        },
+        "638c7e04-cf00-4a83-8270-2bc88c308497": {
+            "paths": [
+                "metadata/resource/Library"
+            ],
+            "className": "Library"
+        }
+    },
+    "viewOrderMap": {
+        "view": [
+            "7091f778-d513-4dd9-b43f-ff042bbb84d0"
+        ],
+        "store": [],
+        "controller": [],
+        "model": [],
+        "resource": [
+            "638c7e04-cf00-4a83-8270-2bc88c308497"
+        ],
+        "app": [
+            "application"
+        ]
+    }
+}

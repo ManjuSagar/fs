@@ -1,0 +1,46 @@
+Hi,
+<br/>
+<br/>
+We have downloaded the <b><%= @agency %></b> ERA files. The status is <b> <%=@status%></b>
+<br/>
+
+<% if @file_names.present? %>
+    <% @file_names.each do |file_name_uuid| %>
+      <b>File Name:</b> </b><%= file_name_uuid[0] %>  <b>UUID:</b> </b><%= file_name_uuid[1] %>
+      <br/>
+    <% end %>
+<% end %>
+
+<% if @exceptions.present? %>
+    <br/>
+    Failure reasons are,
+    <br/>
+    <%= @exceptions %>
+    <br/><br/>
+    <br/>
+ <% end %>
+
+<br/>
+
+This is an automatically generated email from FasterNotes.com. Please do not reply to this message.
+<br/>
+<br/>
+FasterNotes, Inc.
+<br/>
+Because Business Should be Easy
+<br/>
+Tel: (888) 255-8508 | Fax: (888) 462-4908
+<br/>
+www.fasternotes.com
+<br/>
+<br/>
+<img  src="http://54.221.195.117/wp-content/uploads/2013/09/logo.png" alt="logo">
+<br/>
+<table>
+  <tr>
+    <a href="https://www.facebook.com/fasternotes" target="_blank">facebook</a>
+    <a href="https://twitter.com/fasternotes" target="_blank">twitter</a>
+    <a href="https://plus.google.com/105536414439978563552/posts" target="_blank">googleplus</a>
+    <a href="http://www.linkedin.com/company/fasternotes?trk=cp_followed_name_fasternotes" target="_blank">linkedin</a>
+  </tr>
+</table>

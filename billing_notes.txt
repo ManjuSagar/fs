@@ -1,0 +1,61 @@
+Line 2
+line 1
+Test
+
+Software Used:
+
+CMS Home Health Case Mix Grouper Software Package:
+
+http://www.cms.gov/Medicare/Medicare-Fee-for-Service-Payment/HomeHealthPPS/CaseMixGrouperSoftware.html
+
+Links:
+
+
+Todo:
+
+2. received amount / received date. Payments essentially
+2b. Lupa calculation
+3. pep
+4. scic
+5. full claim (recode . input vs output hipps code)
+5a. outlier (option to indicate that 10% limit is exceeded so outlier will not be calculated)
+6. rural
+7. move settings to db and qualify by year
+10. Show HIPPS code in claim.
+11. supplies cost
+12. what about DME costs?
+12b. Validation of when you can claim (after first visit and eval)
+
+Integration to Eligibility Check
+
+client = Savon.client(wsdl: "https://limeservicesuat.ivans.com/EligibilityOne.asmx?WSDL", 
+  soap_header: {"User" => 'fasternotes', "ClientId" => 'fasternotes', "Password" => 'fasternotes'})
+  
+client.operations
+client.call(:send_commercial_eligibility_request, :messsage => {"SSN" => '055-99-1993'})  
+
+Related Info, LInks and References:
+
+CMS has a HETS system
+www.ngsmedicare.com NGS - National Government Services CMS Contractors
+
+CMS Billing Page
+
+http://www.cms.gov/Medicare/Medicare-Fee-for-Service-Payment/HomeHealthPPS/coding_billing.html
+
+For rates we use tables provided by
+
+Healthcare Provider Solutions (http://www.healthcareprovidersolutions.com/)
+Instructions for use of HHRG spreadsheet, CBSA Designations & LUPA Rates:		
+
+------
+
+Completed:
+
+8. checkin grouper 
+8a. Need to supply the path for environment
+8b. Put the directory in the config file.
+9. Need to update the total visits planned in OASIS. Karthik says this could be done by looking all visit frequencies for each 
+treatment discipline.
+13. find the document based on the episode. This needs to be a OASIS document? Perhaps based on
+existence of OASIS field?

@@ -1,0 +1,78 @@
+{
+    "type": "Ext.app.Application",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "models": [
+            "Settings",
+            "Session",
+            "Patient",
+            "PatientMetadata",
+            "Routesheet"
+        ],
+        "stores": [
+            "SettingStore",
+            "SessionStore",
+            "PatientStore",
+            "PatientLStore",
+            "PatientMetaStore",
+            "RoutesheetLStore",
+            "RoutesheetStore",
+            "PatientLocalStore",
+            "VisitTypeStore"
+        ],
+        "views": [
+            "TabPanel",
+            "PatientInfo",
+            "RoutesheetForm"
+        ],
+        "controllers": [
+            "MainController",
+            "LoginController",
+            "SettingsController",
+            "PatientsController",
+            "RoutesheetController",
+            "SyncController"
+        ],
+        "name": "MyApp"
+    },
+    "designerId": "application",
+    "cn": [
+        {
+            "type": "Ext.Loader",
+            "reference": {
+                "name": "loader",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "paths": [
+                    "{\"Ext.ux.picker.DateTime\":\"./ux/picker/DateTime.js\", ",
+                    " \"Ext.ux.field.DateTimePicker\":\"./ux/field/DateTimePicker.js\",",
+                    " \"ux.signaturefield\" : \"./ux/signaturefield.js\"}"
+                ]
+            },
+            "designerId": "f7051b85-bf0b-4c40-a828-ae91d5594eda"
+        },
+        {
+            "type": "fixedfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "launch",
+                "implHandler": [
+                    "Ext.require('Ext.ux.picker.DateTime');",
+                    "Ext.require('Ext.ux.field.DateTimePicker');",
+                    "Ext.require('ux.signaturefield');"
+                ]
+            },
+            "designerId": "be121fcf-67b0-4814-a25a-c29fa29c610a"
+        }
+    ]
+}

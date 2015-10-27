@@ -1,0 +1,21 @@
+HCPC Coding:
+------------
+
+Where used Used in the Check eligibility.
+
+The original file provided by CMS is taken
+
+and processed like below:
+
+
+File.open('hcpc_2013.csv', 'w') {|f|
+  CSV.foreach("/Users/venkat/Desktop/HCPC2013.csv") do |row|
+    f.puts "\"#{row[0]}\",\"#{row[1]}\"" if row[1]
+  end
+}
+
+We also found that there are number of double quotes inside the contents.
+
+Here is the link to the Medicare site for HCPC
+
+http://www.cms.gov/Medicare/Coding/MedHCPCSGenInfo/index.html

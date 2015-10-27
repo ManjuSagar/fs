@@ -1,0 +1,355 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="unverified_medications" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="802" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" whenResourceMissingType="Empty" uuid="5847da58-a543-4791-a403-0db8114f3e19">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="155"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/unverified-medications/medications/medication]]>
+	</queryString>
+	<field name="agency-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/unverified-medications/agency-name]]></fieldDescription>
+	</field>
+	<field name="patient-name" class="java.lang.String">
+		<fieldDescription><![CDATA[patient-name]]></fieldDescription>
+	</field>
+	<field name="physician-name" class="java.lang.String">
+		<fieldDescription><![CDATA[physician-name]]></fieldDescription>
+	</field>
+	<field name="medication-name" class="java.lang.String">
+		<fieldDescription><![CDATA[medication-name]]></fieldDescription>
+	</field>
+	<field name="patient-mr-number" class="java.lang.String">
+		<fieldDescription><![CDATA[patient-mr-number]]></fieldDescription>
+	</field>
+	<field name="patient-home-number" class="java.lang.String">
+		<fieldDescription><![CDATA[patient-home-number]]></fieldDescription>
+	</field>
+	<field name="patient-mobile-number" class="java.lang.String">
+		<fieldDescription><![CDATA[patient-mobile-number]]></fieldDescription>
+	</field>
+	<field name="patient-acuity" class="java.lang.String">
+		<fieldDescription><![CDATA[patient-acuity]]></fieldDescription>
+	</field>
+	<field name="treatment-status" class="java.lang.String">
+		<fieldDescription><![CDATA[treatment-status]]></fieldDescription>
+	</field>
+	<field name="allergies" class="java.lang.String">
+		<fieldDescription><![CDATA[allergies]]></fieldDescription>
+	</field>
+	<field name="physician-phone-number" class="java.lang.String">
+		<fieldDescription><![CDATA[physician-phone-number]]></fieldDescription>
+	</field>
+	<field name="assessment-date" class="java.lang.String">
+		<fieldDescription><![CDATA[assessment-date]]></fieldDescription>
+	</field>
+	<field name="medication-reporter" class="java.lang.String">
+		<fieldDescription><![CDATA[medication-reporter]]></fieldDescription>
+	</field>
+	<field name="medication-reason" class="java.lang.String">
+		<fieldDescription><![CDATA[medication-reason]]></fieldDescription>
+	</field>
+	<field name="soc-date" class="java.lang.String">
+		<fieldDescription><![CDATA[soc-date]]></fieldDescription>
+	</field>
+	<variable name="variable1" class="java.lang.Integer" resetType="Group" resetGroup="patient_group" calculation="Count">
+		<variableExpression><![CDATA[$F{patient-name}]]></variableExpression>
+	</variable>
+	<variable name="MD_PATIENT_COUNT" class="java.lang.Integer" resetType="Group" resetGroup="physician_group" incrementType="Group" incrementGroup="patient_group" calculation="DistinctCount">
+		<variableExpression><![CDATA[$F{patient-name}]]></variableExpression>
+	</variable>
+	<group name="physician_group">
+		<groupExpression><![CDATA[$F{physician-name}]]></groupExpression>
+		<groupHeader>
+			<band height="54" splitType="Stretch">
+				<textField>
+					<reportElement uuid="af70c388-d5cc-42e7-9714-22fdef15d4fc" x="2" y="13" width="255" height="15"/>
+					<textElement verticalAlignment="Middle" markup="html">
+						<font size="9"/>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<textFieldExpression><![CDATA["<b>"+$F{physician-name}+"</b>"+"<b>, MD</b>"+" "+$F{physician-phone-number}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement uuid="ed572734-1333-4aa8-90b9-711149c737e5" x="2" y="39" width="33" height="15"/>
+					<textElement verticalAlignment="Middle">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<text><![CDATA[MR]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="ed572734-1333-4aa8-90b9-711149c737e5" x="37" y="39" width="75" height="15"/>
+					<textElement verticalAlignment="Middle">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<text><![CDATA[Patient]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="ed572734-1333-4aa8-90b9-711149c737e5" x="642" y="39" width="33" height="15"/>
+					<textElement verticalAlignment="Middle">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<text><![CDATA[MD]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="ed572734-1333-4aa8-90b9-711149c737e5" x="257" y="39" width="33" height="15"/>
+					<textElement verticalAlignment="Middle">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<text><![CDATA[Tel]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="ed572734-1333-4aa8-90b9-711149c737e5" x="391" y="39" width="33" height="15"/>
+					<textElement verticalAlignment="Middle">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<text><![CDATA[Acuity]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="ed572734-1333-4aa8-90b9-711149c737e5" x="183" y="39" width="33" height="15"/>
+					<textElement verticalAlignment="Middle">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<text><![CDATA[Cel]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="ed572734-1333-4aa8-90b9-711149c737e5" x="428" y="39" width="37" height="15"/>
+					<textElement verticalAlignment="Middle">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<text><![CDATA[Status]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="ed572734-1333-4aa8-90b9-711149c737e5" x="466" y="39" width="130" height="15"/>
+					<textElement verticalAlignment="Middle">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<text><![CDATA[Allergies]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="ed572734-1333-4aa8-90b9-711149c737e5" x="331" y="39" width="33" height="15"/>
+					<textElement verticalAlignment="Middle">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<text><![CDATA[SOC]]></text>
+				</staticText>
+				<line>
+					<reportElement uuid="bd750a79-4a7b-4a73-ad7c-d9e2d9106649" x="2" y="53" width="799" height="1"/>
+					<graphicElement>
+						<pen lineWidth="2.0"/>
+					</graphicElement>
+				</line>
+				<staticText>
+					<reportElement uuid="ed572734-1333-4aa8-90b9-711149c737e5" x="735" y="39" width="33" height="15"/>
+					<textElement verticalAlignment="Middle">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<text><![CDATA[Tel]]></text>
+				</staticText>
+				<textField evaluationTime="Group" evaluationGroup="physician_group" pattern="">
+					<reportElement uuid="cb2b543c-c208-4570-9994-24f24e51999b" x="258" y="13" width="100" height="15" printWhenGroupChanges="physician_group"/>
+					<textElement>
+						<font size="9"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$V{MD_PATIENT_COUNT}+" Patient(s)"]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupHeader>
+	</group>
+	<group name="patient_group">
+		<groupExpression><![CDATA[$F{patient-name} + $F{soc-date}]]></groupExpression>
+		<groupHeader>
+			<band height="15">
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement uuid="d77ddba4-da53-42c3-a340-b2991fd5218e" positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="37" y="0" width="147" height="15" backcolor="#ECE7E7"/>
+					<textElement verticalAlignment="Middle">
+						<font size="8"/>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{patient-name}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement uuid="b55e2536-e639-43a7-ada7-383b5fb602a8" positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="2" y="0" width="35" height="15" backcolor="#ECE7E7"/>
+					<textElement verticalAlignment="Middle">
+						<font size="8"/>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{patient-mr-number}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement uuid="9bc7e957-ca36-4d56-a3a0-0d6ec5636515" positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="183" y="0" width="75" height="15" backcolor="#ECE7E7"/>
+					<textElement verticalAlignment="Middle">
+						<font size="8"/>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{patient-mobile-number}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement uuid="4370b7c0-9150-4f60-9ff5-4978e95d3050" positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="257" y="0" width="75" height="15" backcolor="#ECE7E7"/>
+					<textElement verticalAlignment="Middle">
+						<font size="8"/>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{patient-home-number}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement uuid="76bad8d3-95fb-4cda-bb1b-cee03e07b87c" positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="331" y="0" width="60" height="15" backcolor="#ECE7E7"/>
+					<textElement verticalAlignment="Middle">
+						<font size="8"/>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{soc-date}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement uuid="9c94c6e2-4294-424d-a1c4-ed6144ff25e5" positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="391" y="0" width="39" height="15" backcolor="#ECE7E7"/>
+					<textElement verticalAlignment="Middle">
+						<font size="8"/>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{patient-acuity}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement uuid="55af58d0-217a-40d2-ae4b-6048455bc070" positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="465" y="0" width="179" height="15" backcolor="#ECE7E7"/>
+					<textElement verticalAlignment="Middle">
+						<font size="8"/>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{allergies}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement uuid="2ce8d9ad-e0b7-4502-ae11-5dd19273b0e3" positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="642" y="0" width="93" height="15" backcolor="#ECE7E7"/>
+					<textElement verticalAlignment="Middle">
+						<font size="8"/>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{physician-name}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement uuid="52213689-f8cb-401f-b44c-534a33d1e363" positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="735" y="0" width="66" height="15" backcolor="#ECE7E7"/>
+					<textElement verticalAlignment="Middle">
+						<font size="8"/>
+						<paragraph leftIndent="1"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{physician-phone-number}]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement uuid="47070e43-25ab-4550-b1af-9c9ace199cc5" positionType="Float" stretchType="RelativeToTallestObject" mode="Opaque" x="429" y="0" width="36" height="15" backcolor="#ECE7E7"/>
+					<textElement verticalAlignment="Middle">
+						<font size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{treatment-status}]]></textFieldExpression>
+				</textField>
+			</band>
+		</groupHeader>
+		<groupFooter>
+			<band height="1">
+				<line>
+					<reportElement uuid="93afdfd9-608c-4d48-bfb3-64c358240ed6" x="2" y="0" width="798" height="1"/>
+					<graphicElement>
+						<pen lineWidth="1.0"/>
+					</graphicElement>
+				</line>
+			</band>
+		</groupFooter>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="26">
+			<textField>
+				<reportElement uuid="659727aa-cb8c-4af0-966a-44c6dc3a0a39" x="2" y="5" width="426" height="15"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<font size="9"/>
+					<paragraph leftIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{agency-name}]]></textFieldExpression>
+			</textField>
+			<textField pattern="MM/dd/yyyy">
+				<reportElement uuid="0cc77009-8175-4d03-8b20-b05289b4a11e" x="587" y="5" width="212" height="15"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle" markup="html">
+					<font size="9" isBold="false"/>
+					<paragraph leftIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>Unverified Medications </b>" + (new SimpleDateFormat("MM/dd/yyyy")).format(new java.util.Date())]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="16" splitType="Immediate">
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="a09ea558-a2a5-4c9a-80fa-fcd86331d3d0" positionType="Float" stretchType="RelativeToTallestObject" x="95" y="0" width="333" height="14"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="8"/>
+					<paragraph leftIndent="1" rightIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>Med</b> "+$F{medication-name}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="9c1e2382-a133-427f-a359-105fec989dd3" positionType="Float" stretchType="RelativeToTallestObject" x="2" y="0" width="93" height="14"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="8"/>
+					<paragraph leftIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>Assessed</b> "+$F{assessment-date}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="e1153333-ae0e-4e51-949c-8a546ee66e37" positionType="Float" stretchType="RelativeToTallestObject" x="429" y="0" width="213" height="14"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="8"/>
+					<paragraph leftIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>Reporter</b> "+$F{medication-reporter}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="c32c8ef9-a9bd-47ad-98fc-53bb13004091" positionType="Float" stretchType="RelativeToTallestObject" x="642" y="0" width="160" height="14"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="8"/>
+					<paragraph leftIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>Reason</b> "+$F{medication-reason}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="22" splitType="Stretch">
+			<textField>
+				<reportElement uuid="e74fcf44-1053-4af7-90ff-73afaedd30ff" x="376" y="6" width="27" height="15"/>
+				<textElement textAlignment="Right">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement uuid="a6c3824d-3111-4cb7-bb7c-8b8cda08633f" x="404" y="6" width="24" height="15"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="1accbe2c-2531-4640-8d72-7f6dcb5a34b1" x="2" y="6" width="117" height="15"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[www.FasterNotes.com]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="c5797114-93e9-493e-8874-263f12c41867" x="652" y="6" width="146" height="14"/>
+				<textElement textAlignment="Right">
+					<font size="9" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Business Should be Easy]]></text>
+			</staticText>
+		</band>
+	</columnFooter>
+</jasperReport>

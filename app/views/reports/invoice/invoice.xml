@@ -1,0 +1,537 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<invoice>
+  <agency-name>Noho Home Health Care, Inc.</agency-name>
+  <agency-suite-number-street-address>6422 1/2 Coldwater Canyon Ave.</agency-suite-number-street-address>
+  <agency-building-name>PlaceEarthPlaceEarthPlaceEarthPlaceEarth PlaceEarth </agency-building-name>
+  <agency-city-state-zip>North Hollywood, CA 91606</agency-city-state-zip>
+  <agency-phone-number>(818) 908-9943</agency-phone-number>
+  <agency-fax-number nil="true"/>
+  <payer-name>MEDICARE</payer-name>
+  <total-amount>3539.68</total-amount>
+  <invoice-date-display nil="true"/>
+  <patient-name>Adler, Sigbirt</patient-name>
+  <patient-address>11035 Magnolia Blvd., SUITE #902</patient-address>
+  <patient-dob>06231927</patient-dob>
+  <patient-gender>M</patient-gender>
+  <soc-date>080714</soc-date>
+  <patient-reference>096202614A</patient-reference>
+  <receivables type="array">
+    <receivable>
+      <revenue-code>023</revenue-code>
+      <hcpcs-code>1BGMS</hcpcs-code>
+      <receivable-amount>3539.68</receivable-amount>
+      <service-units>0</service-units>
+      <service-date-format>080714</service-date-format>
+    </receivable>
+    <receivable>
+      <created-at type="datetime" nil="true"/>
+      <hcpcs-code nil="true"/>
+      <id type="integer" nil="true"/>
+      <invoice-id type="integer" nil="true"/>
+      <invoice-payment-id type="integer" nil="true"/>
+      <org-id type="integer">493</org-id>
+      <payer-id type="integer" nil="true"/>
+      <payer-type nil="true"/>
+      <purpose nil="true"/>
+      <receivable-amount type="decimal" nil="true"/>
+      <receivable-date type="date" nil="true"/>
+      <receivable-status nil="true"/>
+      <receivable-type nil="true"/>
+      <revenue-code nil="true"/>
+      <service-units type="integer" nil="true"/>
+      <source-id type="integer" nil="true"/>
+      <source-type nil="true"/>
+      <treatment-episode-id type="integer" nil="true"/>
+      <treatment-id type="integer" nil="true"/>
+      <updated-at type="datetime" nil="true"/>
+      <service-date-format nil="true"/>
+    </receivable>
+    <receivable>
+      <created-at type="datetime" nil="true"/>
+      <hcpcs-code nil="true"/>
+      <id type="integer" nil="true"/>
+      <invoice-id type="integer" nil="true"/>
+      <invoice-payment-id type="integer" nil="true"/>
+      <org-id type="integer">493</org-id>
+      <payer-id type="integer" nil="true"/>
+      <payer-type nil="true"/>
+      <purpose nil="true"/>
+      <receivable-amount type="decimal" nil="true"/>
+      <receivable-date type="date" nil="true"/>
+      <receivable-status nil="true"/>
+      <receivable-type nil="true"/>
+      <revenue-code nil="true"/>
+      <service-units type="integer" nil="true"/>
+      <source-id type="integer" nil="true"/>
+      <source-type nil="true"/>
+      <treatment-episode-id type="integer" nil="true"/>
+      <treatment-id type="integer" nil="true"/>
+      <updated-at type="datetime" nil="true"/>
+      <service-date-format nil="true"/>
+    </receivable>
+    <receivable>
+      <created-at type="datetime" nil="true"/>
+      <hcpcs-code nil="true"/>
+      <id type="integer" nil="true"/>
+      <invoice-id type="integer" nil="true"/>
+      <invoice-payment-id type="integer" nil="true"/>
+      <org-id type="integer">493</org-id>
+      <payer-id type="integer" nil="true"/>
+      <payer-type nil="true"/>
+      <purpose nil="true"/>
+      <receivable-amount type="decimal" nil="true"/>
+      <receivable-date type="date" nil="true"/>
+      <receivable-status nil="true"/>
+      <receivable-type nil="true"/>
+      <revenue-code nil="true"/>
+      <service-units type="integer" nil="true"/>
+      <source-id type="integer" nil="true"/>
+      <source-type nil="true"/>
+      <treatment-episode-id type="integer" nil="true"/>
+      <treatment-id type="integer" nil="true"/>
+      <updated-at type="datetime" nil="true"/>
+      <service-date-format nil="true"/>
+    </receivable>
+    <receivable>
+      <created-at type="datetime" nil="true"/>
+      <hcpcs-code nil="true"/>
+      <id type="integer" nil="true"/>
+      <invoice-id type="integer" nil="true"/>
+      <invoice-payment-id type="integer" nil="true"/>
+      <org-id type="integer">493</org-id>
+      <payer-id type="integer" nil="true"/>
+      <payer-type nil="true"/>
+      <purpose nil="true"/>
+      <receivable-amount type="decimal" nil="true"/>
+      <receivable-date type="date" nil="true"/>
+      <receivable-status nil="true"/>
+      <receivable-type nil="true"/>
+      <revenue-code nil="true"/>
+      <service-units type="integer" nil="true"/>
+      <source-id type="integer" nil="true"/>
+      <source-type nil="true"/>
+      <treatment-episode-id type="integer" nil="true"/>
+      <treatment-id type="integer" nil="true"/>
+      <updated-at type="datetime" nil="true"/>
+      <service-date-format nil="true"/>
+    </receivable>
+    <receivable>
+      <created-at type="datetime" nil="true"/>
+      <hcpcs-code nil="true"/>
+      <id type="integer" nil="true"/>
+      <invoice-id type="integer" nil="true"/>
+      <invoice-payment-id type="integer" nil="true"/>
+      <org-id type="integer">493</org-id>
+      <payer-id type="integer" nil="true"/>
+      <payer-type nil="true"/>
+      <purpose nil="true"/>
+      <receivable-amount type="decimal" nil="true"/>
+      <receivable-date type="date" nil="true"/>
+      <receivable-status nil="true"/>
+      <receivable-type nil="true"/>
+      <revenue-code nil="true"/>
+      <service-units type="integer" nil="true"/>
+      <source-id type="integer" nil="true"/>
+      <source-type nil="true"/>
+      <treatment-episode-id type="integer" nil="true"/>
+      <treatment-id type="integer" nil="true"/>
+      <updated-at type="datetime" nil="true"/>
+      <service-date-format nil="true"/>
+    </receivable>
+    <receivable>
+      <created-at type="datetime" nil="true"/>
+      <hcpcs-code nil="true"/>
+      <id type="integer" nil="true"/>
+      <invoice-id type="integer" nil="true"/>
+      <invoice-payment-id type="integer" nil="true"/>
+      <org-id type="integer">493</org-id>
+      <payer-id type="integer" nil="true"/>
+      <payer-type nil="true"/>
+      <purpose nil="true"/>
+      <receivable-amount type="decimal" nil="true"/>
+      <receivable-date type="date" nil="true"/>
+      <receivable-status nil="true"/>
+      <receivable-type nil="true"/>
+      <revenue-code nil="true"/>
+      <service-units type="integer" nil="true"/>
+      <source-id type="integer" nil="true"/>
+      <source-type nil="true"/>
+      <treatment-episode-id type="integer" nil="true"/>
+      <treatment-id type="integer" nil="true"/>
+      <updated-at type="datetime" nil="true"/>
+      <service-date-format nil="true"/>
+    </receivable>
+    <receivable>
+      <created-at type="datetime" nil="true"/>
+      <hcpcs-code nil="true"/>
+      <id type="integer" nil="true"/>
+      <invoice-id type="integer" nil="true"/>
+      <invoice-payment-id type="integer" nil="true"/>
+      <org-id type="integer">493</org-id>
+      <payer-id type="integer" nil="true"/>
+      <payer-type nil="true"/>
+      <purpose nil="true"/>
+      <receivable-amount type="decimal" nil="true"/>
+      <receivable-date type="date" nil="true"/>
+      <receivable-status nil="true"/>
+      <receivable-type nil="true"/>
+      <revenue-code nil="true"/>
+      <service-units type="integer" nil="true"/>
+      <source-id type="integer" nil="true"/>
+      <source-type nil="true"/>
+      <treatment-episode-id type="integer" nil="true"/>
+      <treatment-id type="integer" nil="true"/>
+      <updated-at type="datetime" nil="true"/>
+      <service-date-format nil="true"/>
+    </receivable>
+    <receivable>
+      <created-at type="datetime" nil="true"/>
+      <hcpcs-code nil="true"/>
+      <id type="integer" nil="true"/>
+      <invoice-id type="integer" nil="true"/>
+      <invoice-payment-id type="integer" nil="true"/>
+      <org-id type="integer">493</org-id>
+      <payer-id type="integer" nil="true"/>
+      <payer-type nil="true"/>
+      <purpose nil="true"/>
+      <receivable-amount type="decimal" nil="true"/>
+      <receivable-date type="date" nil="true"/>
+      <receivable-status nil="true"/>
+      <receivable-type nil="true"/>
+      <revenue-code nil="true"/>
+      <service-units type="integer" nil="true"/>
+      <source-id type="integer" nil="true"/>
+      <source-type nil="true"/>
+      <treatment-episode-id type="integer" nil="true"/>
+      <treatment-id type="integer" nil="true"/>
+      <updated-at type="datetime" nil="true"/>
+      <service-date-format nil="true"/>
+    </receivable>
+    <receivable>
+      <created-at type="datetime" nil="true"/>
+      <hcpcs-code nil="true"/>
+      <id type="integer" nil="true"/>
+      <invoice-id type="integer" nil="true"/>
+      <invoice-payment-id type="integer" nil="true"/>
+      <org-id type="integer">493</org-id>
+      <payer-id type="integer" nil="true"/>
+      <payer-type nil="true"/>
+      <purpose nil="true"/>
+      <receivable-amount type="decimal" nil="true"/>
+      <receivable-date type="date" nil="true"/>
+      <receivable-status nil="true"/>
+      <receivable-type nil="true"/>
+      <revenue-code nil="true"/>
+      <service-units type="integer" nil="true"/>
+      <source-id type="integer" nil="true"/>
+      <source-type nil="true"/>
+      <treatment-episode-id type="integer" nil="true"/>
+      <treatment-id type="integer" nil="true"/>
+      <updated-at type="datetime" nil="true"/>
+      <service-date-format nil="true"/>
+    </receivable>
+    <receivable>
+      <created-at type="datetime" nil="true"/>
+      <hcpcs-code nil="true"/>
+      <id type="integer" nil="true"/>
+      <invoice-id type="integer" nil="true"/>
+      <invoice-payment-id type="integer" nil="true"/>
+      <org-id type="integer">493</org-id>
+      <payer-id type="integer" nil="true"/>
+      <payer-type nil="true"/>
+      <purpose nil="true"/>
+      <receivable-amount type="decimal" nil="true"/>
+      <receivable-date type="date" nil="true"/>
+      <receivable-status nil="true"/>
+      <receivable-type nil="true"/>
+      <revenue-code nil="true"/>
+      <service-units type="integer" nil="true"/>
+      <source-id type="integer" nil="true"/>
+      <source-type nil="true"/>
+      <treatment-episode-id type="integer" nil="true"/>
+      <treatment-id type="integer" nil="true"/>
+      <updated-at type="datetime" nil="true"/>
+      <service-date-format nil="true"/>
+    </receivable>
+    <receivable>
+      <created-at type="datetime" nil="true"/>
+      <hcpcs-code nil="true"/>
+      <id type="integer" nil="true"/>
+      <invoice-id type="integer" nil="true"/>
+      <invoice-payment-id type="integer" nil="true"/>
+      <org-id type="integer">493</org-id>
+      <payer-id type="integer" nil="true"/>
+      <payer-type nil="true"/>
+      <purpose nil="true"/>
+      <receivable-amount type="decimal" nil="true"/>
+      <receivable-date type="date" nil="true"/>
+      <receivable-status nil="true"/>
+      <receivable-type nil="true"/>
+      <revenue-code nil="true"/>
+      <service-units type="integer" nil="true"/>
+      <source-id type="integer" nil="true"/>
+      <source-type nil="true"/>
+      <treatment-episode-id type="integer" nil="true"/>
+      <treatment-id type="integer" nil="true"/>
+      <updated-at type="datetime" nil="true"/>
+      <service-date-format nil="true"/>
+    </receivable>
+    <receivable>
+      <created-at type="datetime" nil="true"/>
+      <hcpcs-code nil="true"/>
+      <id type="integer" nil="true"/>
+      <invoice-id type="integer" nil="true"/>
+      <invoice-payment-id type="integer" nil="true"/>
+      <org-id type="integer">493</org-id>
+      <payer-id type="integer" nil="true"/>
+      <payer-type nil="true"/>
+      <purpose nil="true"/>
+      <receivable-amount type="decimal" nil="true"/>
+      <receivable-date type="date" nil="true"/>
+      <receivable-status nil="true"/>
+      <receivable-type nil="true"/>
+      <revenue-code nil="true"/>
+      <service-units type="integer" nil="true"/>
+      <source-id type="integer" nil="true"/>
+      <source-type nil="true"/>
+      <treatment-episode-id type="integer" nil="true"/>
+      <treatment-id type="integer" nil="true"/>
+      <updated-at type="datetime" nil="true"/>
+      <service-date-format nil="true"/>
+    </receivable>
+    <receivable>
+      <created-at type="datetime" nil="true"/>
+      <hcpcs-code nil="true"/>
+      <id type="integer" nil="true"/>
+      <invoice-id type="integer" nil="true"/>
+      <invoice-payment-id type="integer" nil="true"/>
+      <org-id type="integer">493</org-id>
+      <payer-id type="integer" nil="true"/>
+      <payer-type nil="true"/>
+      <purpose nil="true"/>
+      <receivable-amount type="decimal" nil="true"/>
+      <receivable-date type="date" nil="true"/>
+      <receivable-status nil="true"/>
+      <receivable-type nil="true"/>
+      <revenue-code nil="true"/>
+      <service-units type="integer" nil="true"/>
+      <source-id type="integer" nil="true"/>
+      <source-type nil="true"/>
+      <treatment-episode-id type="integer" nil="true"/>
+      <treatment-id type="integer" nil="true"/>
+      <updated-at type="datetime" nil="true"/>
+      <service-date-format nil="true"/>
+    </receivable>
+    <receivable>
+      <created-at type="datetime" nil="true"/>
+      <hcpcs-code nil="true"/>
+      <id type="integer" nil="true"/>
+      <invoice-id type="integer" nil="true"/>
+      <invoice-payment-id type="integer" nil="true"/>
+      <org-id type="integer">493</org-id>
+      <payer-id type="integer" nil="true"/>
+      <payer-type nil="true"/>
+      <purpose nil="true"/>
+      <receivable-amount type="decimal" nil="true"/>
+      <receivable-date type="date" nil="true"/>
+      <receivable-status nil="true"/>
+      <receivable-type nil="true"/>
+      <revenue-code nil="true"/>
+      <service-units type="integer" nil="true"/>
+      <source-id type="integer" nil="true"/>
+      <source-type nil="true"/>
+      <treatment-episode-id type="integer" nil="true"/>
+      <treatment-id type="integer" nil="true"/>
+      <updated-at type="datetime" nil="true"/>
+      <service-date-format nil="true"/>
+    </receivable>
+    <receivable>
+      <created-at type="datetime" nil="true"/>
+      <hcpcs-code nil="true"/>
+      <id type="integer" nil="true"/>
+      <invoice-id type="integer" nil="true"/>
+      <invoice-payment-id type="integer" nil="true"/>
+      <org-id type="integer">493</org-id>
+      <payer-id type="integer" nil="true"/>
+      <payer-type nil="true"/>
+      <purpose nil="true"/>
+      <receivable-amount type="decimal" nil="true"/>
+      <receivable-date type="date" nil="true"/>
+      <receivable-status nil="true"/>
+      <receivable-type nil="true"/>
+      <revenue-code nil="true"/>
+      <service-units type="integer" nil="true"/>
+      <source-id type="integer" nil="true"/>
+      <source-type nil="true"/>
+      <treatment-episode-id type="integer" nil="true"/>
+      <treatment-id type="integer" nil="true"/>
+      <updated-at type="datetime" nil="true"/>
+      <service-date-format nil="true"/>
+    </receivable>
+    <receivable>
+      <created-at type="datetime" nil="true"/>
+      <hcpcs-code nil="true"/>
+      <id type="integer" nil="true"/>
+      <invoice-id type="integer" nil="true"/>
+      <invoice-payment-id type="integer" nil="true"/>
+      <org-id type="integer">493</org-id>
+      <payer-id type="integer" nil="true"/>
+      <payer-type nil="true"/>
+      <purpose nil="true"/>
+      <receivable-amount type="decimal" nil="true"/>
+      <receivable-date type="date" nil="true"/>
+      <receivable-status nil="true"/>
+      <receivable-type nil="true"/>
+      <revenue-code nil="true"/>
+      <service-units type="integer" nil="true"/>
+      <source-id type="integer" nil="true"/>
+      <source-type nil="true"/>
+      <treatment-episode-id type="integer" nil="true"/>
+      <treatment-id type="integer" nil="true"/>
+      <updated-at type="datetime" nil="true"/>
+      <service-date-format nil="true"/>
+    </receivable>
+    <receivable>
+      <created-at type="datetime" nil="true"/>
+      <hcpcs-code nil="true"/>
+      <id type="integer" nil="true"/>
+      <invoice-id type="integer" nil="true"/>
+      <invoice-payment-id type="integer" nil="true"/>
+      <org-id type="integer">493</org-id>
+      <payer-id type="integer" nil="true"/>
+      <payer-type nil="true"/>
+      <purpose nil="true"/>
+      <receivable-amount type="decimal" nil="true"/>
+      <receivable-date type="date" nil="true"/>
+      <receivable-status nil="true"/>
+      <receivable-type nil="true"/>
+      <revenue-code nil="true"/>
+      <service-units type="integer" nil="true"/>
+      <source-id type="integer" nil="true"/>
+      <source-type nil="true"/>
+      <treatment-episode-id type="integer" nil="true"/>
+      <treatment-id type="integer" nil="true"/>
+      <updated-at type="datetime" nil="true"/>
+      <service-date-format nil="true"/>
+    </receivable>
+    <receivable>
+      <created-at type="datetime" nil="true"/>
+      <hcpcs-code nil="true"/>
+      <id type="integer" nil="true"/>
+      <invoice-id type="integer" nil="true"/>
+      <invoice-payment-id type="integer" nil="true"/>
+      <org-id type="integer">493</org-id>
+      <payer-id type="integer" nil="true"/>
+      <payer-type nil="true"/>
+      <purpose nil="true"/>
+      <receivable-amount type="decimal" nil="true"/>
+      <receivable-date type="date" nil="true"/>
+      <receivable-status nil="true"/>
+      <receivable-type nil="true"/>
+      <revenue-code nil="true"/>
+      <service-units type="integer" nil="true"/>
+      <source-id type="integer" nil="true"/>
+      <source-type nil="true"/>
+      <treatment-episode-id type="integer" nil="true"/>
+      <treatment-id type="integer" nil="true"/>
+      <updated-at type="datetime" nil="true"/>
+      <service-date-format nil="true"/>
+    </receivable>
+    <receivable>
+      <created-at type="datetime" nil="true"/>
+      <hcpcs-code nil="true"/>
+      <id type="integer" nil="true"/>
+      <invoice-id type="integer" nil="true"/>
+      <invoice-payment-id type="integer" nil="true"/>
+      <org-id type="integer">493</org-id>
+      <payer-id type="integer" nil="true"/>
+      <payer-type nil="true"/>
+      <purpose nil="true"/>
+      <receivable-amount type="decimal" nil="true"/>
+      <receivable-date type="date" nil="true"/>
+      <receivable-status nil="true"/>
+      <receivable-type nil="true"/>
+      <revenue-code nil="true"/>
+      <service-units type="integer" nil="true"/>
+      <source-id type="integer" nil="true"/>
+      <source-type nil="true"/>
+      <treatment-episode-id type="integer" nil="true"/>
+      <treatment-id type="integer" nil="true"/>
+      <updated-at type="datetime" nil="true"/>
+      <service-date-format nil="true"/>
+    </receivable>
+    <receivable>
+      <created-at type="datetime" nil="true"/>
+      <hcpcs-code nil="true"/>
+      <id type="integer" nil="true"/>
+      <invoice-id type="integer" nil="true"/>
+      <invoice-payment-id type="integer" nil="true"/>
+      <org-id type="integer">493</org-id>
+      <payer-id type="integer" nil="true"/>
+      <payer-type nil="true"/>
+      <purpose nil="true"/>
+      <receivable-amount type="decimal" nil="true"/>
+      <receivable-date type="date" nil="true"/>
+      <receivable-status nil="true"/>
+      <receivable-type nil="true"/>
+      <revenue-code nil="true"/>
+      <service-units type="integer" nil="true"/>
+      <source-id type="integer" nil="true"/>
+      <source-type nil="true"/>
+      <treatment-episode-id type="integer" nil="true"/>
+      <treatment-id type="integer" nil="true"/>
+      <updated-at type="datetime" nil="true"/>
+      <service-date-format nil="true"/>
+    </receivable>
+  </receivables>
+  <diagnosis-and-procedure-qualifier>9</diagnosis-and-procedure-qualifier>
+  <icd-9-1>7234</icd-9-1>
+  <icd-9-2>7242</icd-9-2>
+  <icd-9-3>7812</icd-9-3>
+  <icd-9-4>40211</icd-9-4>
+  <icd-9-5>4280</icd-9-5>
+  <icd-9-6>53081</icd-9-6>
+  <icd-9-7></icd-9-7>
+  <icd-9-8></icd-9-8>
+  <icd-9-9></icd-9-9>
+  <patient-city>North Hollywood</patient-city>
+  <patient-state>CA</patient-state>
+  <patient-zip-code>91601</patient-zip-code>
+  <primary-physician-first-name>Raymond</primary-physician-first-name>
+  <primary-physician-last-name>Tatevossian</primary-physician-last-name>
+  <primary-physician-npi>1184746968</primary-physician-npi>
+  <fed-tax-number>680650280</fed-tax-number>
+  <agency-npi>1033317771</agency-npi>
+  <src>1</src>
+  <statement-covers-period-from>080714</statement-covers-period-from>
+  <statement-covers-period-through>080714</statement-covers-period-through>
+  <provider-number>059205</provider-number>
+  <patient-control-number>402 - 623</patient-control-number>
+  <medical-record-number>402 - 1</medical-record-number>
+  <status-of-discharge>30</status-of-discharge>
+  <medicare-number>096202614A</medicare-number>
+  <value-codes>31084.00</value-codes>
+  <prior-payment>0.00</prior-payment>
+  <patient-relationship>18</patient-relationship>
+  <treatment-authorization-codes nil="true"/>
+  <invoice-type-display>0322</invoice-type-display>
+  <payer-address nil="true"/>
+  <payer-contact nil="true"/>
+  <transfer-from-hha>47</transfer-from-hha>
+  <release-of-info>Y</release-of-info>
+  <assignment-benefit-cert>Y</assignment-benefit-cert>
+  <code-code-field>B3</code-code-field>
+  <provider-taxonomy-code>251E00000X</provider-taxonomy-code>
+  <pt-value-code>50</pt-value-code>
+  <pt-value-code-amount>5.00</pt-value-code-amount>
+  <ot-value-code>50</ot-value-code>
+  <ot-value-code-amount>5.00</ot-value-code-amount>
+  <st-value-code>50</st-value-code>
+  <st-value-code-amount>5.00</st-value-code-amount>
+  <sn-value-code>50</sn-value-code>
+  <sn-value-code-amount>5.00</sn-value-code-amount>
+  <chha-value-code>50</chha-value-code>
+  <chha-value-code-amount>5.00</chha-value-code-amount>
+  <patient-identifier></patient-identifier>
+  <priority-of-visit>2</priority-of-visit>
+</invoice>

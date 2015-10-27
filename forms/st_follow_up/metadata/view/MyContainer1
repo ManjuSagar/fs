@@ -1,0 +1,1378 @@
+{
+    "type": "container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyContainer1",
+        "designer|initialView": true,
+        "height": 469,
+        "style": [
+            "color:green;"
+        ],
+        "width": 1024,
+        "layout": "fit"
+    },
+    "id": "ExtBox1-ext-gen2714",
+    "designerId": "564cd029-abd7-49f1-ad6d-0b75a6416005",
+    "cn": [
+        {
+            "type": "form",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyForm1",
+                "height": null,
+                "style": [
+                    "color:green;"
+                ],
+                "layout": "border",
+                "bodyPadding": 10,
+                "manageHeight": false,
+                "title": ""
+            },
+            "designerId": "e6e9a645-7851-4de3-af69-c9313b622f69",
+            "cn": [
+                {
+                    "type": "tabpanel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|region": "center",
+                        "container|deferredRender": false,
+                        "designer|userClassName": "MyTabPanel1",
+                        "designer|displayName": "CenterPanel",
+                        "margin": "5px",
+                        "activeTab": 0,
+                        "plain": true
+                    },
+                    "designerId": "59ada299-ed06-4b84-a66c-6f84d8a9f510",
+                    "cn": [
+                        {
+                            "type": "panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyPanel62",
+                                "height": 711,
+                                "width": 990,
+                                "autoScroll": true,
+                                "layout": "fit",
+                                "title": "PROBLEMS/CONDITION ON  ADMISSION "
+                            },
+                            "designerId": "fff18b15-3526-4cea-b06d-e28c137c8f29",
+                            "cn": [
+                                {
+                                    "type": "tab",
+                                    "reference": {
+                                        "name": "tabConfig",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "TabConfig14"
+                                    },
+                                    "designerId": "7b628616-d7b2-4368-a6c4-a860656dd723"
+                                },
+                                {
+                                    "type": "panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "container|fill": false,
+                                        "designer|userClassName": "MyPanel4",
+                                        "designer|displayName": "problemAccordian",
+                                        "border": 0,
+                                        "height": null,
+                                        "itemId": "problem_accordions",
+                                        "width": null,
+                                        "autoScroll": true,
+                                        "layout": "accordion",
+                                        "title": null
+                                    },
+                                    "designerId": "11c9d2a0-b76d-4ed3-8e29-4ec851f7fae0",
+                                    "cn": [
+                                        {
+                                            "type": "panel",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "container|padding": null,
+                                                "designer|userClassName": "MyPanel5",
+                                                "designer|displayName": "Treat voice disorder",
+                                                "height": null,
+                                                "itemId": "treat_voice_disorder",
+                                                "margin": "3px",
+                                                "width": 760,
+                                                "layout": "vbox",
+                                                "collapseFirst": false,
+                                                "collapsed": false,
+                                                "title": "Treat voice disorder"
+                                            },
+                                            "designerId": "b1c33ddb-d41a-471d-8d64-164e1aa547ef",
+                                            "cn": [
+                                                {
+                                                    "type": "textareafield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "layout|flex": null,
+                                                        "designer|userClassName": "MyTextArea",
+                                                        "height": null,
+                                                        "margin": "5px 0 0 3px",
+                                                        "width": null,
+                                                        "name": "treat_voice_interventions",
+                                                        "fieldLabel": "Interventions",
+                                                        "labelAlign": "right",
+                                                        "labelWidth": 200,
+                                                        "cols": 100
+                                                    },
+                                                    "designerId": "54f104c4-5304-4ecf-99eb-0dd78f49f86a"
+                                                },
+                                                {
+                                                    "type": "textareafield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "layout|flex": null,
+                                                        "designer|userClassName": "MyTextArea",
+                                                        "height": null,
+                                                        "margin": "5px 0 0 3px",
+                                                        "width": null,
+                                                        "name": "treat_voice_response",
+                                                        "fieldLabel": "Patient's Response/Outcome",
+                                                        "labelAlign": "right",
+                                                        "labelWidth": 200,
+                                                        "cols": 100
+                                                    },
+                                                    "designerId": "4b0caf63-4ab8-40dc-98e9-c2e4e20373f9"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "panel",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "container|padding": null,
+                                                "designer|userClassName": "MyPanel5",
+                                                "designer|displayName": "Treat speech disorder",
+                                                "height": null,
+                                                "itemId": "treat_speech_disorder",
+                                                "margin": "3px",
+                                                "width": null,
+                                                "layout": "vbox",
+                                                "collapsed": true,
+                                                "title": "Treat speech disorder "
+                                            },
+                                            "designerId": "0042abcb-c3dd-453f-8248-6a91d69ab2de",
+                                            "cn": [
+                                                {
+                                                    "type": "textareafield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "layout|flex": null,
+                                                        "designer|userClassName": "MyTextArea",
+                                                        "height": null,
+                                                        "margin": "5px 0 0 3px",
+                                                        "width": null,
+                                                        "name": "treat_speach_interventions",
+                                                        "fieldLabel": "Interventions",
+                                                        "labelAlign": "right",
+                                                        "labelWidth": 200,
+                                                        "cols": 100
+                                                    },
+                                                    "designerId": "8cd372ba-a618-49dc-b5bc-226922416d37"
+                                                },
+                                                {
+                                                    "type": "textareafield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "layout|flex": null,
+                                                        "designer|userClassName": "MyTextArea",
+                                                        "height": null,
+                                                        "margin": "5px 0 0 3px",
+                                                        "width": null,
+                                                        "name": "treat_speach_response",
+                                                        "fieldLabel": "Patient's Response/Outcome",
+                                                        "labelAlign": "right",
+                                                        "labelWidth": 200,
+                                                        "cols": 100
+                                                    },
+                                                    "designerId": "6345898a-22a5-43d8-9420-cd290d41d646"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "panel",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "container|padding": null,
+                                                "designer|userClassName": "MyPanel5",
+                                                "designer|displayName": "Treat dysphagia",
+                                                "height": null,
+                                                "itemId": "treat_dysphagia",
+                                                "margin": "3px",
+                                                "width": null,
+                                                "layout": "vbox",
+                                                "collapseFirst": false,
+                                                "collapsed": true,
+                                                "title": "Treat dysphagia"
+                                            },
+                                            "designerId": "7a56cc5f-f235-4646-8cca-f4939c92adc4",
+                                            "cn": [
+                                                {
+                                                    "type": "textareafield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "layout|flex": null,
+                                                        "designer|userClassName": "MyTextArea",
+                                                        "height": null,
+                                                        "margin": "5px 0 0 3px",
+                                                        "width": null,
+                                                        "name": "treat_dysphagia_interventions",
+                                                        "fieldLabel": "Interventions",
+                                                        "labelAlign": "right",
+                                                        "labelWidth": 200,
+                                                        "cols": 100
+                                                    },
+                                                    "designerId": "aa51b6a1-5462-441d-8ba5-7116cc0aa532"
+                                                },
+                                                {
+                                                    "type": "textareafield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "layout|flex": null,
+                                                        "designer|userClassName": "MyTextArea",
+                                                        "height": null,
+                                                        "margin": "5px 0 0 3px",
+                                                        "width": null,
+                                                        "name": "treat_dysphagia_response",
+                                                        "fieldLabel": "Patient's Response/Outcome",
+                                                        "labelAlign": "right",
+                                                        "labelWidth": 200,
+                                                        "cols": 100
+                                                    },
+                                                    "designerId": "52489353-cf8e-4ed7-bb29-a2bacfed8de0"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "panel",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "container|padding": null,
+                                                "designer|userClassName": "MyPanel5",
+                                                "designer|displayName": "Treat language disorder",
+                                                "height": null,
+                                                "itemId": "treat_language_disorder",
+                                                "margin": "3px",
+                                                "width": null,
+                                                "layout": "vbox",
+                                                "collapsed": true,
+                                                "title": "Treat language disorder"
+                                            },
+                                            "designerId": "b28fb09c-e1b9-4e8e-ace8-c4c522624f0e",
+                                            "cn": [
+                                                {
+                                                    "type": "textareafield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "layout|flex": null,
+                                                        "designer|userClassName": "MyTextArea",
+                                                        "height": null,
+                                                        "margin": "5px 0 0 3px",
+                                                        "width": null,
+                                                        "name": "treat_language_interventions",
+                                                        "fieldLabel": "Interventions",
+                                                        "labelAlign": "right",
+                                                        "labelWidth": 200,
+                                                        "cols": 100
+                                                    },
+                                                    "designerId": "019c4aa1-55dc-4572-a922-8db6592a6cdc"
+                                                },
+                                                {
+                                                    "type": "textareafield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "layout|flex": null,
+                                                        "designer|userClassName": "MyTextArea",
+                                                        "height": null,
+                                                        "margin": "5px 0 0 3px",
+                                                        "width": null,
+                                                        "name": "treat_language_response",
+                                                        "fieldLabel": "Patient's Response/Outcome",
+                                                        "labelAlign": "right",
+                                                        "labelWidth": 200,
+                                                        "cols": 100
+                                                    },
+                                                    "designerId": "9115421b-93a7-447c-983e-6f185bccd0b1"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "panel",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "container|padding": null,
+                                                "designer|userClassName": "MyPanel5",
+                                                "designer|displayName": "Aural Rehabilitation Training",
+                                                "height": null,
+                                                "itemId": "aural_rehabilitation_training",
+                                                "margin": "3px",
+                                                "width": null,
+                                                "layout": "vbox",
+                                                "collapsed": true,
+                                                "title": "Aural Rehabilitation Training"
+                                            },
+                                            "designerId": "29fc7037-c3c7-4c51-8d71-8a46e675ef10",
+                                            "cn": [
+                                                {
+                                                    "type": "textareafield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "layout|flex": null,
+                                                        "designer|userClassName": "MyTextArea",
+                                                        "height": null,
+                                                        "margin": "5px 0 0 3px",
+                                                        "width": null,
+                                                        "name": "aural_rehabilitation_interventions",
+                                                        "fieldLabel": "Interventions",
+                                                        "labelAlign": "right",
+                                                        "labelWidth": 200,
+                                                        "cols": 100
+                                                    },
+                                                    "designerId": "3ebece37-3df7-4764-ba32-3bd08db255b6"
+                                                },
+                                                {
+                                                    "type": "textareafield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "layout|flex": null,
+                                                        "designer|userClassName": "MyTextArea",
+                                                        "height": null,
+                                                        "margin": "5px 0 0 3px",
+                                                        "width": null,
+                                                        "name": "aural_rehabilitation_response",
+                                                        "fieldLabel": "Patient's Response/Outcome",
+                                                        "labelAlign": "right",
+                                                        "labelWidth": 200,
+                                                        "cols": 100
+                                                    },
+                                                    "designerId": "06d3ab4c-94e6-4056-8593-0bebb9b49a01"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "panel",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "container|padding": null,
+                                                "designer|userClassName": "MyPanel5",
+                                                "designer|displayName": "Treat Visual Disorder",
+                                                "height": null,
+                                                "itemId": "treat_visual_disorder",
+                                                "margin": "3px",
+                                                "width": null,
+                                                "layout": "vbox",
+                                                "collapsed": true,
+                                                "collapsible": false,
+                                                "title": "Treat Visual Disorder"
+                                            },
+                                            "designerId": "4e62d0b3-6727-4fb0-a337-1d65966b4ad4",
+                                            "cn": [
+                                                {
+                                                    "type": "textareafield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "layout|flex": null,
+                                                        "designer|userClassName": "MyTextArea",
+                                                        "height": null,
+                                                        "margin": "5px 0 0 3px",
+                                                        "width": null,
+                                                        "name": "treat_visual_interventions",
+                                                        "fieldLabel": "Interventions",
+                                                        "labelAlign": "right",
+                                                        "labelWidth": 200,
+                                                        "cols": 100
+                                                    },
+                                                    "designerId": "983c0ca1-b09e-4706-84dc-878686d7e174"
+                                                },
+                                                {
+                                                    "type": "textareafield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "layout|flex": null,
+                                                        "designer|userClassName": "MyTextArea",
+                                                        "height": null,
+                                                        "margin": "5px 0 0 3px",
+                                                        "width": null,
+                                                        "name": "treat_visual_response",
+                                                        "fieldLabel": "Patient's Response/Outcome",
+                                                        "labelAlign": "right",
+                                                        "labelWidth": 200,
+                                                        "cols": 100
+                                                    },
+                                                    "designerId": "afa8ff8c-9f12-4f2a-a25c-2af56576b0d2"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "panel",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "container|padding": null,
+                                                "designer|userClassName": "MyPanel5",
+                                                "designer|displayName": "Treat Cognitive Disorder",
+                                                "height": null,
+                                                "itemId": "treat_cognitive_disorder",
+                                                "margin": "3px",
+                                                "width": null,
+                                                "layout": "vbox",
+                                                "collapsed": true,
+                                                "title": "Treat Cognitive Disorder"
+                                            },
+                                            "designerId": "a3d7a823-f7ba-46b1-b8d8-d6e6ee11483c",
+                                            "cn": [
+                                                {
+                                                    "type": "textareafield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "layout|flex": null,
+                                                        "designer|userClassName": "MyTextArea",
+                                                        "height": null,
+                                                        "margin": "5px 0 0 3px",
+                                                        "width": null,
+                                                        "name": "treat_cognitive_interventions",
+                                                        "fieldLabel": "Interventions",
+                                                        "labelAlign": "right",
+                                                        "labelWidth": 200,
+                                                        "cols": 100
+                                                    },
+                                                    "designerId": "16de42e9-6247-4046-8360-addaf11dc95e"
+                                                },
+                                                {
+                                                    "type": "textareafield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "layout|flex": null,
+                                                        "designer|userClassName": "MyTextArea",
+                                                        "height": null,
+                                                        "margin": "5px 0 0 3px",
+                                                        "width": null,
+                                                        "name": "treat_cognitive_response",
+                                                        "fieldLabel": "Patient's Response/Outcome",
+                                                        "labelAlign": "right",
+                                                        "labelWidth": 200,
+                                                        "cols": 100
+                                                    },
+                                                    "designerId": "bdad7b8e-e95d-419c-ba94-f851225b74ba"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "panel",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "container|padding": null,
+                                                "designer|userClassName": "MyPanel5",
+                                                "designer|displayName": "Other",
+                                                "height": null,
+                                                "itemId": "other_problems_panel",
+                                                "margin": "3px",
+                                                "width": null,
+                                                "layout": "vbox",
+                                                "collapsed": true,
+                                                "title": "Other"
+                                            },
+                                            "designerId": "88c3f1ea-9a8b-4888-95ae-f1512df1e322",
+                                            "cn": [
+                                                {
+                                                    "type": "textareafield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "layout|flex": null,
+                                                        "designer|userClassName": "MyTextArea",
+                                                        "height": null,
+                                                        "margin": "5px 0 0 3px",
+                                                        "width": null,
+                                                        "name": "other_interventions",
+                                                        "fieldLabel": "Interventions",
+                                                        "labelAlign": "right",
+                                                        "labelWidth": 200,
+                                                        "cols": 100
+                                                    },
+                                                    "designerId": "7d0799a4-89de-4596-94b3-421b68990b2e"
+                                                },
+                                                {
+                                                    "type": "textareafield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "layout|flex": null,
+                                                        "designer|userClassName": "MyTextArea",
+                                                        "height": null,
+                                                        "margin": "5px 0 0 3px",
+                                                        "width": null,
+                                                        "name": "other_response",
+                                                        "fieldLabel": "Patient's Response/Outcome",
+                                                        "labelAlign": "right",
+                                                        "labelWidth": 200,
+                                                        "cols": 100
+                                                    },
+                                                    "designerId": "4223841d-e14e-4422-b616-0293f1acee1a"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyPanel63",
+                                "height": 692,
+                                "width": null,
+                                "title": "Pain"
+                            },
+                            "designerId": "61b172d2-2994-4624-8525-55f77d29b934",
+                            "cn": [
+                                {
+                                    "type": "tab",
+                                    "reference": {
+                                        "name": "tabConfig",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "TabConfig15"
+                                    },
+                                    "designerId": "1879d274-6f52-4fad-8493-f5d7ae625fca"
+                                },
+                                {
+                                    "type": "panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyPanel20",
+                                        "height": 223,
+                                        "itemId": "pain_panel",
+                                        "margin": "7px",
+                                        "padding": null,
+                                        "width": null,
+                                        "bodyPadding": 3,
+                                        "title": "Pain"
+                                    },
+                                    "designerId": "e7f3fd0e-976f-4393-af3d-7d732f7d1e29",
+                                    "cn": [
+                                        {
+                                            "type": "panel",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "container|columns": 5,
+                                                "designer|userClassName": "MyPanel60",
+                                                "border": false,
+                                                "height": 199,
+                                                "margin": null,
+                                                "width": null,
+                                                "layout": "table",
+                                                "title": null
+                                            },
+                                            "designerId": "a4277510-a96a-4e75-a81c-42415b04d423",
+                                            "cn": [
+                                                {
+                                                    "type": "label",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyLabel11",
+                                                        "height": 15,
+                                                        "width": 91,
+                                                        "text": "Pain Location"
+                                                    },
+                                                    "designerId": "4de80a49-596b-4e59-a23a-fa911ae6c918"
+                                                },
+                                                {
+                                                    "type": "label",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyLabel11",
+                                                        "height": 15,
+                                                        "width": 91,
+                                                        "text": "Intensity(0-10)"
+                                                    },
+                                                    "designerId": "8d985621-92b5-4905-b659-289325ea5cd1"
+                                                },
+                                                {
+                                                    "type": "label",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyLabel11",
+                                                        "height": 15,
+                                                        "width": 91,
+                                                        "text": "Frequency"
+                                                    },
+                                                    "designerId": "7c3b2c83-c282-491b-843b-398a1d424c21"
+                                                },
+                                                {
+                                                    "type": "label",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyLabel11",
+                                                        "height": 15,
+                                                        "width": 91,
+                                                        "text": "Description"
+                                                    },
+                                                    "designerId": "8484889d-0fc0-4b49-b225-b9d68e21b4d0"
+                                                },
+                                                {
+                                                    "type": "label",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyLabel11",
+                                                        "height": 15,
+                                                        "width": 91,
+                                                        "text": "Aggravating factors"
+                                                    },
+                                                    "designerId": "e2926f0a-e830-4409-a28c-d5c25b47e635"
+                                                },
+                                                {
+                                                    "type": "textfield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTextField6",
+                                                        "name": "pain_location1",
+                                                        "fieldLabel": ""
+                                                    },
+                                                    "designerId": "dedc7d20-6019-442e-8494-d9d2dfa2c3d4"
+                                                },
+                                                {
+                                                    "type": "combobox",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyComboBox1",
+                                                        "name": "intensity1",
+                                                        "fieldLabel": "",
+                                                        "editable": false,
+                                                        "store": "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+                                                    },
+                                                    "configAlternates": {
+                                                        "store": "array"
+                                                    },
+                                                    "designerId": "681b0370-2c0a-4108-a029-933ae99436d0"
+                                                },
+                                                {
+                                                    "type": "textfield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTextField6",
+                                                        "name": "frequency1",
+                                                        "fieldLabel": ""
+                                                    },
+                                                    "designerId": "a0cc6cfa-7b10-4043-a702-7c6a4080cecc"
+                                                },
+                                                {
+                                                    "type": "textfield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTextField6",
+                                                        "name": "description1",
+                                                        "fieldLabel": ""
+                                                    },
+                                                    "designerId": "e9b373d0-8899-4fa1-b3a0-a774513219f1"
+                                                },
+                                                {
+                                                    "type": "textfield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTextField6",
+                                                        "name": "aggravating_factors1",
+                                                        "fieldLabel": ""
+                                                    },
+                                                    "designerId": "5cc35daa-5053-44ad-87da-66dffbd6a31b"
+                                                },
+                                                {
+                                                    "type": "textfield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "layout|rowspan": null,
+                                                        "designer|userClassName": "MyTextField7",
+                                                        "name": "pain_location2",
+                                                        "fieldLabel": "",
+                                                        "labelAlign": "top"
+                                                    },
+                                                    "designerId": "9e19bbd6-29ef-424d-95d0-df1f907b0fe4"
+                                                },
+                                                {
+                                                    "type": "combobox",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyComboBox2",
+                                                        "name": "intensity2",
+                                                        "fieldLabel": "",
+                                                        "editable": false,
+                                                        "store": "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+                                                    },
+                                                    "configAlternates": {
+                                                        "store": "array"
+                                                    },
+                                                    "designerId": "91b8550d-fb27-40ed-a26b-97f26a1a5d5c"
+                                                },
+                                                {
+                                                    "type": "textfield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTextField7",
+                                                        "name": "frequency2",
+                                                        "fieldLabel": "",
+                                                        "labelAlign": "top"
+                                                    },
+                                                    "designerId": "072e2130-8b8c-48a0-ad03-c49f6c804cc5"
+                                                },
+                                                {
+                                                    "type": "textfield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTextField7",
+                                                        "name": "description2",
+                                                        "fieldLabel": "",
+                                                        "labelAlign": "top"
+                                                    },
+                                                    "designerId": "d5e73f1b-b9de-4999-b92c-bde6e869116d"
+                                                },
+                                                {
+                                                    "type": "textfield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTextField7",
+                                                        "name": "aggravating_factors2",
+                                                        "fieldLabel": "",
+                                                        "labelAlign": "top"
+                                                    },
+                                                    "designerId": "f92c7b0c-463d-433b-b63f-17f1ae942a17"
+                                                },
+                                                {
+                                                    "type": "textfield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTextField7",
+                                                        "name": "pain_location3",
+                                                        "fieldLabel": "",
+                                                        "labelAlign": "top"
+                                                    },
+                                                    "designerId": "7d026f4b-5cd1-4a52-a13f-8e1a22d74fed"
+                                                },
+                                                {
+                                                    "type": "combobox",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyComboBox3",
+                                                        "name": "intensity3",
+                                                        "fieldLabel": "",
+                                                        "editable": false,
+                                                        "store": "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+                                                    },
+                                                    "configAlternates": {
+                                                        "store": "array"
+                                                    },
+                                                    "designerId": "7995d9cf-43ba-48d1-b84b-69ea535b9c46"
+                                                },
+                                                {
+                                                    "type": "textfield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTextField7",
+                                                        "name": "frequency3",
+                                                        "fieldLabel": "",
+                                                        "labelAlign": "top"
+                                                    },
+                                                    "designerId": "da605475-b25a-40ba-b532-5d40ec811d5a"
+                                                },
+                                                {
+                                                    "type": "textfield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTextField7",
+                                                        "name": "description3",
+                                                        "fieldLabel": "",
+                                                        "labelAlign": "top"
+                                                    },
+                                                    "designerId": "305beb12-fe60-4182-8cda-6b26ff8a0173"
+                                                },
+                                                {
+                                                    "type": "textfield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTextField7",
+                                                        "name": "aggravating_factors3",
+                                                        "fieldLabel": "",
+                                                        "labelAlign": "top"
+                                                    },
+                                                    "designerId": "35ba2686-6b5a-4ac0-8144-51f1d2c44c9b"
+                                                },
+                                                {
+                                                    "type": "textfield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTextField7",
+                                                        "name": "pain_location4",
+                                                        "fieldLabel": "",
+                                                        "labelAlign": "top"
+                                                    },
+                                                    "designerId": "ef318625-aa3e-45ca-b981-ff736d661338"
+                                                },
+                                                {
+                                                    "type": "combobox",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyComboBox4",
+                                                        "name": "intensity4",
+                                                        "fieldLabel": "",
+                                                        "editable": false,
+                                                        "store": "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+                                                    },
+                                                    "configAlternates": {
+                                                        "store": "array"
+                                                    },
+                                                    "designerId": "c89bff00-3ad0-492b-82a3-b427a2e4cbcb"
+                                                },
+                                                {
+                                                    "type": "textfield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTextField7",
+                                                        "name": "frequency4",
+                                                        "fieldLabel": "",
+                                                        "labelAlign": "top"
+                                                    },
+                                                    "designerId": "0497a503-e130-4389-b297-5df4d560200c"
+                                                },
+                                                {
+                                                    "type": "textfield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTextField7",
+                                                        "name": "description4",
+                                                        "fieldLabel": "",
+                                                        "labelAlign": "top"
+                                                    },
+                                                    "designerId": "1e0ec659-2a5a-47cd-a048-faf8c5c25a21"
+                                                },
+                                                {
+                                                    "type": "textfield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTextField7",
+                                                        "name": "aggravating_factors4",
+                                                        "fieldLabel": "",
+                                                        "labelAlign": "top"
+                                                    },
+                                                    "designerId": "e9a26586-e941-44c5-9043-943f530c0f4e"
+                                                },
+                                                {
+                                                    "type": "textfield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTextField7",
+                                                        "name": "pain_location5",
+                                                        "fieldLabel": "",
+                                                        "labelAlign": "top"
+                                                    },
+                                                    "designerId": "cd7ca3f8-8a0a-4b88-bf45-1b43a261aabb"
+                                                },
+                                                {
+                                                    "type": "combobox",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyComboBox5",
+                                                        "name": "intensity5",
+                                                        "fieldLabel": "",
+                                                        "editable": false,
+                                                        "store": "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+                                                    },
+                                                    "configAlternates": {
+                                                        "store": "array"
+                                                    },
+                                                    "designerId": "04c54daf-6350-41bc-adf3-33981c7eb214"
+                                                },
+                                                {
+                                                    "type": "textfield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTextField7",
+                                                        "name": "frequency5",
+                                                        "fieldLabel": "",
+                                                        "labelAlign": "top"
+                                                    },
+                                                    "designerId": "86ea510c-1049-491d-9486-e6b53b64d5a4"
+                                                },
+                                                {
+                                                    "type": "textfield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTextField7",
+                                                        "name": "description5",
+                                                        "fieldLabel": "",
+                                                        "labelAlign": "top"
+                                                    },
+                                                    "designerId": "56b4824c-8566-4577-b0d5-06bead832c8c"
+                                                },
+                                                {
+                                                    "type": "textfield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTextField7",
+                                                        "width": 149,
+                                                        "name": "aggravating_factors5",
+                                                        "fieldLabel": "",
+                                                        "labelAlign": "top"
+                                                    },
+                                                    "designerId": "2e3b847b-6a7f-47ad-a3ad-860c84e85513"
+                                                },
+                                                {
+                                                    "type": "textfield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTextField7",
+                                                        "name": "pain_location6",
+                                                        "fieldLabel": "",
+                                                        "labelAlign": "top"
+                                                    },
+                                                    "designerId": "6f4dc081-a47d-410c-a5ee-d5ea1e24c076"
+                                                },
+                                                {
+                                                    "type": "combobox",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyComboBox6",
+                                                        "name": "intensity6",
+                                                        "fieldLabel": "",
+                                                        "editable": false,
+                                                        "store": "[0, 1, 2, 3, 4, 5, 6, 7, 8, 9, 10]"
+                                                    },
+                                                    "configAlternates": {
+                                                        "store": "array"
+                                                    },
+                                                    "designerId": "013acdcb-b03f-40ea-8722-23566f1063a2"
+                                                },
+                                                {
+                                                    "type": "textfield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTextField7",
+                                                        "name": "frequency6",
+                                                        "fieldLabel": "",
+                                                        "labelAlign": "top"
+                                                    },
+                                                    "designerId": "86b5fd93-3e31-4edb-9a1e-a730ff18f022"
+                                                },
+                                                {
+                                                    "type": "textfield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTextField7",
+                                                        "name": "description6",
+                                                        "fieldLabel": "",
+                                                        "labelAlign": "top"
+                                                    },
+                                                    "designerId": "f169f5c9-428a-4edd-a2fb-58b2bab990da"
+                                                },
+                                                {
+                                                    "type": "textfield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "layout|rowspan": 0,
+                                                        "designer|userClassName": "MyTextField7",
+                                                        "name": "aggravating_factors6",
+                                                        "fieldLabel": "",
+                                                        "labelAlign": "top"
+                                                    },
+                                                    "designerId": "76b5e858-eb79-4446-a38e-9c1d033fbb2e"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "tool",
+                                            "reference": {
+                                                "name": "tools",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyTool",
+                                                "type": "pin"
+                                            },
+                                            "designerId": "d5aad52a-5668-4685-b1d8-bcdf98463808"
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "stretch",
+                                "designer|userClassName": "MyPanel64",
+                                "height": null,
+                                "width": null,
+                                "autoScroll": true,
+                                "layout": "vbox",
+                                "title": "Narrative Response"
+                            },
+                            "designerId": "ef969018-70cb-4ecd-a74b-3703e7a84a57",
+                            "cn": [
+                                {
+                                    "type": "tab",
+                                    "reference": {
+                                        "name": "tabConfig",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "TabConfig16"
+                                    },
+                                    "designerId": "cbfae967-72ad-4737-a516-e79700aec0b1"
+                                },
+                                {
+                                    "type": "panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|flex": null,
+                                        "container|align": "stretch",
+                                        "designer|userClassName": "MyPanel82",
+                                        "border": 0,
+                                        "height": null,
+                                        "itemId": "narrative_response",
+                                        "width": null,
+                                        "layout": "vbox",
+                                        "title": "Narrative Response"
+                                    },
+                                    "designerId": "631236b6-e452-4ffd-b812-398203e0f3c9",
+                                    "cn": [
+                                        {
+                                            "type": "fieldset",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "layout|flex": 1,
+                                                "designer|userClassName": "MyFieldSet10",
+                                                "height": null,
+                                                "margin": "7px",
+                                                "width": null,
+                                                "layout": "vbox",
+                                                "title": "Narrative/interventions with patient/PCG response"
+                                            },
+                                            "designerId": "e08f3c07-5aa6-4d84-9299-ab3375b4bd5c",
+                                            "cn": [
+                                                {
+                                                    "type": "textareafield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTextArea39",
+                                                        "height": null,
+                                                        "width": null,
+                                                        "name": "narrative_response",
+                                                        "fieldLabel": "",
+                                                        "labelAlign": "top",
+                                                        "cols": 100
+                                                    },
+                                                    "designerId": "99dcf623-6215-43b8-96f2-fd24d048016d"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "tool",
+                                            "reference": {
+                                                "name": "tools",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyTool1",
+                                                "type": "pin"
+                                            },
+                                            "designerId": "2b4bd6d4-9374-4b65-8f5c-54c4a7369629"
+                                        }
+                                    ]
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

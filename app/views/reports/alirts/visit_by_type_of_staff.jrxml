@@ -1,0 +1,201 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="visit_by_type_of_staff" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="8de02dcd-3744-4c51-bff6-72faa7ba4b95">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/alirts]]>
+	</queryString>
+	<field name="agency-name" class="java.lang.String">
+		<fieldDescription><![CDATA[agency-name]]></fieldDescription>
+	</field>
+	<field name="agency-street-address" class="java.lang.String">
+		<fieldDescription><![CDATA[agency-street-address]]></fieldDescription>
+	</field>
+	<field name="agency-suite-number" class="java.lang.String">
+		<fieldDescription><![CDATA[agency-suite-number]]></fieldDescription>
+	</field>
+	<field name="agency-city-state-phone" class="java.lang.String">
+		<fieldDescription><![CDATA[agency-city-state-phone]]></fieldDescription>
+	</field>
+	<field name="fiscal-period-from-date" class="java.lang.String">
+		<fieldDescription><![CDATA[fiscal-period-from-date]]></fieldDescription>
+	</field>
+	<field name="fiscal-period-to-date" class="java.lang.String">
+		<fieldDescription><![CDATA[fiscal-period-to-date]]></fieldDescription>
+	</field>
+	<field name="sub-report-url" class="java.lang.String">
+		<fieldDescription><![CDATA[sub-report-url]]></fieldDescription>
+	</field>
+	<field name="current-date" class="java.lang.String">
+		<fieldDescription><![CDATA[current-date]]></fieldDescription>
+	</field>
+	<field name="current-time" class="java.lang.String">
+		<fieldDescription><![CDATA[current-time]]></fieldDescription>
+	</field>
+	<pageHeader>
+		<band height="134" splitType="Stretch">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="c1ed5a71-835f-4b7e-b15a-e1e1a7c0e0fb" x="0" y="2" width="302" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{agency-name}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{agency-name}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="46dc4c1e-7457-49cf-85e3-83a5dc989599" x="3" y="17" width="299" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{agency-street-address}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{agency-street-address}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="95a933e3-6539-46a9-9f05-6adb24e4c093" x="3" y="32" width="299" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{agency-city-state-phone}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{agency-city-state-phone}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="3fee667a-aa64-41b3-8809-3cf635d7fd3b" x="165" y="53" width="260" height="15"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+				</textElement>
+				<text><![CDATA[VISITS BY TYPE OF STAFF (Table 4)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="ebb3a58d-ef3d-4c3c-bd9c-9bd937e0983e" x="161" y="70" width="100" height="15"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Fiscal Period]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="46287941-1902-44e9-a9a0-bf7e49ef2be2" x="250" y="70" width="279" height="15"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{fiscal-period-from-date}+ "     "+"To"+ "     " +$F{fiscal-period-to-date}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true">
+				<reportElement uuid="c3662f7e-188a-4ca0-9f20-55f4b9fb511f" x="466" y="2" width="80" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Left">
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement uuid="5d2966ea-9ff4-4069-8f33-0577912a2a4f" x="519" y="2" width="31" height="15"/>
+				<textElement textAlignment="Left">
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="48308d6d-5112-4184-98d4-31f697415527" x="248" y="86" width="100" height="15"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Errors Prooflist]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="00f64e97-9574-4d47-ad7d-2cf39afaa635" x="248" y="101" width="100" height="15"/>
+				<textElement/>
+				<text><![CDATA[For Visits Only]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="ef3d5f16-cd92-44b0-890c-8058665392f0" x="248" y="116" width="100" height="15"/>
+				<textElement/>
+				<text><![CDATA[For All Offices]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="3af665a0-1225-4d08-8e19-393673b24f9d" x="466" y="17" width="86" height="15"/>
+				<textElement textAlignment="Left">
+					<font isStrikeThrough="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{current-date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="0d975fe0-ae99-4a19-9554-46a14736f53c" x="466" y="32" width="86" height="15"/>
+				<textElement textAlignment="Left">
+					<font isStrikeThrough="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{current-time}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="50">
+			<subreport>
+				<reportElement uuid="401abf69-f443-4441-ba81-8e3b6c94b4a5" x="0" y="0" width="555" height="50"/>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportExpression><![CDATA[$F{sub-report-url}+"visit_not_covered_by_plan_of_care_staff.jasper"]]></subreportExpression>
+			</subreport>
+			<break>
+				<reportElement uuid="1dd30fdf-99ac-47a8-ba9f-42f4132de56f" x="0" y="49" width="100" height="1"/>
+			</break>
+		</band>
+		<band height="44" splitType="Prevent">
+			<break>
+				<reportElement uuid="36cbcb2e-47b0-49da-bded-eac880f2f360" x="0" y="0" width="100" height="1"/>
+			</break>
+			<subreport runToBottom="false">
+				<reportElement uuid="86bfd4c9-4862-4273-afe3-8a05ec973363" x="0" y="0" width="555" height="44" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportExpression><![CDATA[$F{sub-report-url}+"visit_by_type_of_staff_table.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+	</detail>
+	<summary>
+		<band height="125">
+			<staticText>
+				<reportElement uuid="b60721b7-90d6-4713-93c0-b0688125e81a" x="2" y="28" width="100" height="15"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Instructions]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="eb376a4c-3f2f-4eef-8775-c034a8670775" x="48" y="43" width="385" height="15"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Lines 71 through 84: Visits By Type of Staff]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="1ba66c42-ea79-467f-a428-f2a46be04f79" x="48" y="58" width="489" height="15"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[Enter on lines 71 through 84 the total number of visits by each type of staff.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="5cee9231-27b9-4d08-a702-4f67552af3f2" x="85" y="74" width="452" height="49"/>
+				<textElement>
+					<font size="9"/>
+				</textElement>
+				<text><![CDATA[  Is a FasterNotes generated line to show all patients that have visits with in the reporting year, but do not have an intake, admission, or plan of treatment associated with that visit. Used for purposes of correcting statistical information.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="4e52bb27-a140-490c-bb79-6f75453e15aa" x="40" y="13" width="409" height="15"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[NOTE: Numbers are not correct unless Lines * and ** are zero.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="522010f9-7e9b-46bd-90d2-202c4164f3db" x="48" y="74" width="52" height="20"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Line **:]]></text>
+			</staticText>
+		</band>
+	</summary>
+</jasperReport>

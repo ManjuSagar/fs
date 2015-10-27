@@ -1,0 +1,17 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/Fixtures.html
+
+one:
+  org_id: 1
+  insurance_company_id: 1
+  visit_type_id: 1
+  rate: 9.99
+  external_visit_type_code: 1
+  lock_version: 1
+
+two:
+  org_id: 1
+  insurance_company_id: 1
+  visit_type_id: 1
+  rate: 9.99
+  external_visit_type_code: 1
+  lock_version: 1

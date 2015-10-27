@@ -1,0 +1,484 @@
+/*
+ * This is a manifest file that'll be compiled into application.css, which will include all the files
+ * listed below.
+ *
+ * Any CSS and SCSS file within this directory, lib/assets/stylesheets, vendor/assets/stylesheets,
+ * or vendor/assets/stylesheets of plugins, if any, can be referenced here using a relative path.
+ *
+ * You're free to add application-wide styles to this file and they'll appear at the top of the
+ * compiled file, but it's generally better to create a new file per style scope.
+ *
+ *= require open_sans_light_400
+ *= require "/netzke/ext.css"
+ *= require "core.css"
+ *= require ext-theme-neptune-all
+ *= require_self
+ *= require GridFilters
+ *= require RangeMenu
+ *= require menu
+ *= require FilterRow
+ *= require style
+ *= require ie6-style
+ *= require google
+*/
+
+/* accordion panel header background-color */
+
+.non-empty .x-accordion-hd{
+    background:#fafad2!important;
+}
+.visited{
+    background:lightgreen!important;
+}
+
+.cTextAlignAndColor{
+    text-align: center;
+    background: #34a1fb;
+    font-weight: bold !important;
+}
+
+.cTextAlign{
+    text-align: center;
+    font-weight: bold !important;
+}
+
+.heading{ font-weight: bold;}
+
+.x-border-layout-ct{background-color: white !important;}
+
+.x-slider-thumb{
+    background-image: url(/assets/slider-thumb.png) !important;
+}
+
+.tat-tab-color {background-color:#F0E68C !important; background-image: none;}
+
+.grid-row-color {color: red;}
+
+.document_notes .x-grid-cell-inner {
+    overflow: hidden;
+    padding: 1px 2px 1px 2px !important;
+    white-space: nowrap;
+}
+
+.document_notes .x-panel-body-default {
+    border-width: 0px;
+    border-style: none;
+}
+
+.x-grid-rowbody {
+    margin: 15px 0px 0px 10px !important
+
+}
+
+.red-color .x-grid-cell {
+    background-color: #ff8a76
+}
+
+.light-green-color .x-grid-cell {
+    background-color: #A7E9A7
+}
+
+div.notes{
+    white-space: pre-wrap;
+    overflow-x: hidden;
+    overflow-y: visible;
+    word-wrap: break-word;
+    max-height: 100px;
+}
+
+
+.bubble {
+    box-sizing: border-box;
+    float: left;
+    width: auto;
+    max-width: 80%;
+    position: relative;
+    clear: both;
+    background: #26aaff;
+    /*background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.15, #95c2fd), color-stop(1, #95c2fd));
+    background-image: -webkit-linear-gradient(bottom, #95c2fd 15%, #61bcfd 100%);
+    background-image: -moz-linear-gradient(bottom, #95c2fd 15%, #95c2fd 100%);
+    background-image: -ms-linear-gradient(bottom, #95c2fd 15%, #95c2fd 100%);
+    background-image: -o-linear-gradient(bottom, #95c2fd 15%, #95c2fd 100%);
+    background-image: linear-gradient(bottom, #95c2fd 15%, #95c2fd 100%);*/
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#95c2fd', endColorstr='#bee2ff');
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    border-radius: 20px;
+
+    /*-webkit-box-shadow: inset 0 8px 5px rgba(255,255,255,0.65), 0 1px 2px rgba(0,0,0,0.2);
+    -moz-box-shadow: inset 0 8px 5px rgba(255,255,255,0.65), 0 1px 2px rgba(0,0,0,0.2);
+    box-shadow: inset 0 8px 5px rgba(255,255,255,0.65), 0 1px 2px rgba(0,0,0,0.2);*/
+
+    /*margin-bottom: 20px;*/
+    padding: 6px 20px;
+    color: #000;
+    /*text-shadow: 0 1px 1px rgba(255,255,255,0.8);*/
+    word-wrap: break-word;
+    white-space: normal;
+}
+
+
+.bubble:before, .bubble:after {
+    border-radius: 20px / 5px;
+    content: '';
+    display: block;
+    position: absolute;
+}
+.bubble:before {
+    border: 10px solid transparent;
+    border-bottom-color: rgba(0,0,0,0.5);
+    bottom: 0px;
+    left: -7px;
+    z-index: -2;
+}
+.bubble:after {
+    border: 8px solid transparent;
+    border-bottom-color: #26aaff; /* arrow color */
+    bottom: 1px;
+    left: -3px;
+}
+
+
+.bubble-alt {
+    float: right;
+}
+.bubble-alt:before {
+    left: auto;
+    right: -7px;
+}
+.bubble-alt:after {
+    left: auto;
+    right: -3px;
+}
+
+
+.without-bubble {
+    box-sizing: border-box;
+    width: auto;
+    max-width: 100%;
+    position: relative;
+    clear: both;
+    background: #26aaff;
+    /*background-image: -webkit-gradient(linear, left bottom, left top, color-stop(0.15, #a5d7ff), color-stop(1, #95c2fd));
+    background-image: -webkit-linear-gradient(bottom, #a5d7ff 15%, #95c2fd 100%);
+    background-image: -moz-linear-gradient(bottom, #a5d7ff 15%, #95c2fd 100%);
+    background-image: -ms-linear-gradient(bottom, #a5d7ff 15%, #95c2fd 100%);
+    background-image: -o-linear-gradient(bottom, #a5d7ff 15%, #95c2fd 100%);
+    background-image: linear-gradient(bottom, #a5d7ff 15%, #95c2fd 100%);*/
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#a5d7ff', endColorstr='#bee2ff');
+
+    padding: 6px 5px;
+    text-align: center;
+    color: #000;
+    text-shadow: 0 1px 1px rgba(255,255,255,0.8);
+    white-space: normal;
+    word-wrap: break-word;
+}
+
+
+
+.text-font-size {
+    font-size: 11px;
+    color: white;
+}
+
+
+.green {
+    background: #c8e43d;
+    /*background-image: -webkit-gradient(linear,left bottom,left top,color-stop(0.15, #c8e43d),color-stop(1, #abe42a));
+    background-image: -webkit-linear-gradient(bottom, #c8e43d 15%, #abe42a 100%);
+    background-image: -moz-linear-gradient(bottom, #c8e43d 15%, #abe42a 100%);
+    background-image: -ms-linear-gradient(bottom, #c8e43d 15%, #abe42a 100%);
+    background-image: -o-linear-gradient(bottom, #c8e43d 15%, #abe42a 100%);
+    background-image: linear-gradient(bottom, #c8e43d 15%, #abe42a 100%);*/
+    filter: progid:DXImageTransform.Microsoft.gradient(GradientType=0,startColorstr='#c8e43d', endColorstr='#abe42a');
+}
+.green:after {
+    border-bottom-color: #c8e43d;
+}
+
+.wrap .x-grid-cell-inner {
+    white-space: normal;
+}
+
+.patient_tree .x-tree-icon {
+    display: none !important;
+}
+
+div.drug_info {
+    margin: 5px 5px 5px 5px;
+}
+
+div.drug_info table tr th {
+    background-color: #CECFCE;
+    valign: 'top';
+    padding-left: 3px;
+}
+
+div.drug_info table.table_info tr:nth-child(even) {
+    background-color: #FFFFFF;
+    valign: 'top';
+    height: 32px;
+}
+
+div.drug_info table.table_info tr td {
+    padding-left: 3px;
+}
+
+div.drug_info table.table_info tr:nth-child(odd) {
+    background-color: #E2EAF2;
+    valign: 'top';
+    height: 32px;
+}
+
+.oasis_heading .x-form-item-label,.oasis_heading { font-weight: bold;}
+
+.oasis_green{background-color: #D6FFD6;}
+
+.oasis_blue{background-color: #CCE6FF;}
+
+.oasis_pink{background-color: #FFDBDB;}
+
+.oasis_yellow {background-color: #FFFF00;}
+
+a:link, a:visited, a:hover, a:active {
+    color: #267FFF;
+}
+
+.x-tip {
+    width: auto !important;
+}
+.x-tip-body {
+    width: auto !important;
+}
+.x-tip-body span {
+    width: auto !important;
+}
+
+.x-mask {
+    background-color: #D7D7D7;
+}
+
+.x-form-cb-label {
+    display: inline !important;
+    vertical-align: bottom;
+}
+
+.x-mask-msg {
+    background-color: #ffffff;
+    border-style: solid;
+    border-color: #D7D7D7;
+}
+
+.x-form-invalid-field {
+    border-style: solid;
+    border-color: #c30;
+    border-width: 1.5px;
+}
+
+
+.filter_check .x-form-cb-label{
+   display: inline-block !important;
+}
+.icon-previous {
+    background-image: url(/assets/icons/previous.png) !important;
+}
+
+.icon-next {
+    background-image: url(/assets/icons/next.png) !important;
+}
+
+.add_icon {
+    background-image: url(/assets/icons/add_new.png) !important;
+}
+.print_icon {
+    background-image: url(/assets/icons/print.png) !important;
+}
+
+.x-tab-default-top{
+    background-color: #97cbfe;
+}
+
+.x-tab-default-active {
+    background-color: #4aacff;
+}
+
+.x-tab-default-active .x-tab-inner {
+    color: #ffffff;
+}
+
+.ok_icon {
+    background-image: url(/assets/icons/save_new.png) !important;
+}
+.cancel_icon {
+    background-image: url(/assets/icons/cancel_new.png) !important;
+}
+
+.consultant-profile-bottom-border {
+    border-bottom: 1px solid #000000;
+}
+
+.consultant-profile-explore-without-border.x-fieldset-collapsed{
+    border: none !important;
+}
+
+.disciplines_edit_msg{
+    color: #2A81C9; font-size: 11px ;
+}
+
+.x-grid-row .border-right {
+    border-right: 1px solid #34a1fb;
+}
+
+input.frequency_count {
+    padding: 0px 0px 0px 2px;
+    margin:0;
+    height: 17%;
+    width: 60%;
+}
+
+.td-border-top-left .x-grid-row td {
+    border-top: 1px solid #34a1fb;
+    border-left: 1px solid #34a1fb;
+}
+
+.checked_image_class{
+    content:url("/assets/right1.png");
+}
+
+.cross_image_class{
+    content:url("/assets/wrong.png");
+}
+
+.progress_image_class{
+    content:url("/assets/play.png");
+}
+
+.main_logo{
+    content:url("/assets/logo_small.png");
+
+}
+
+td.bold-text .x-grid-cell-inner {
+    font-weight: bold !important;
+}
+
+.my-style {
+    background: #34a1fb;
+    width: 60px;
+}
+
+.my-style .x-btn-inner{
+    color: white;
+}
+
+.drug_interactions_button {
+    background: #34a1fb;
+}
+
+.drug_interactions_button .x-btn-inner{
+    color: white;
+}
+
+.blue-color-button {
+    background: #34a1fb;
+}
+
+.blue-color-button .x-btn-inner{
+    color: white;
+}
+
+.button-bg-color {
+    background: #808080;
+}
+
+#authorization_tracking{
+    background-color: #8B3AB2;
+}
+
+.login-background {
+    background-image: url("/assets/login_page_background.png") !important;
+    /*background-repeat: repeat-y;*/
+    background-size: 100% 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.login-page-top-logo {
+    background-image: url("/assets/login_page_top_logo_and_text.png");
+    background-repeat:  no-repeat;   
+}
+
+.login-page-bottom-button-strip {
+    background-image: url("/assets/login_page_bottom_button_strip.png");
+    background-repeat: no-repeat;
+}
+
+.login-page-bottom-links img{
+    float: left;
+}
+
+.transparent-bg .x-panel-body,.x-toolbar-footer,.x-border-layout-ct {
+    background-color: transparent !important;
+}
+
+.blue-clr .x-panel-body {
+    /*background-color: #84BFEF !important;
+    background-color: #05CBF7 !important;*/
+    background-color: #29AAE1 !important;
+    opacity: 0.9;
+    webkit-border-radius: 3px;
+    -moz-border-radius: 3px;
+    border-radius: 3px;
+
+}
+
+.blue-color {
+    background-color: #29AAE1 !important;
+}
+
+.drop-shadow {
+    position:relative;
+    width:40%;
+    padding:1em;
+    margin:2em 10px 4em;
+    background:#29AAE1;
+    border-radius: 4px;
+    box-shadow: inset 0 -7px 10px -5px rgba(0,0,0,0.4), 0px 40px 100px -50px #000000;
+    opacity: 0.9;
+
+}
+
+.drop-shadow:before,
+.drop-shadow:after {
+    content:"";
+    position:absolute;
+    z-index:-2;
+}
+.curved-hz-2:before {
+    top:10px;
+    bottom:0;
+    left:75px;
+    right:75px;
+    box-shadow:0 0 21px rgba(0,0,0,0.6);
+    border-radius:100px / 10px;
+    opacity: 0;
+}
+
+.wrap .x-grid-cell-inner {
+    white-space: normal;
+}
+
+/*
+.shadow:after {
+    content: "";
+    position:absolute;
+    z-index: 1;
+    width:90%;
+    bottom: -15px;
+    height: 10px;
+    left: 2%;
+    box-shadow:0 0 18px rgba(0,0,0,0.6);
+}*/

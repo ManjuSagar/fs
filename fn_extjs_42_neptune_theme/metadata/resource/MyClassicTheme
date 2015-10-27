@@ -1,0 +1,162 @@
+{
+    "type": "classicthemeresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyClassicTheme"
+    },
+    "designerId": "8a7c36b1-63bb-4377-8f26-5f83b8f4f694",
+    "storage": {
+        "needsCompile": true,
+        "simple": {
+            "pkgVersion": 1
+        },
+        "nameIndex": 1,
+        "varData": {
+            "Ext.button.Button": {
+                "globalVars": [
+                    {
+                        "name": "button-default-background-color-over",
+                        "enabled": true,
+                        "value": "rgba(176,176,176,1)"
+                    },
+                    {
+                        "name": "button-default-color-over",
+                        "enabled": true,
+                        "value": "rgba(176,176,176,1)"
+                    }
+                ]
+            },
+            "Ext.Component": {
+                "globalVars": [
+                    {
+                        "name": "base-color",
+                        "enabled": false,
+                        "value": "rgba(66,135,99,1)"
+                    },
+                    {
+                        "name": "base-gradient",
+                        "enabled": true,
+                        "value": "none"
+                    }
+                ]
+            },
+            "Ext.grid.column.Column": {
+                "globalVars": [
+                    {
+                        "name": "grid-column-header-border-style",
+                        "enabled": true,
+                        "value": "none"
+                    }
+                ]
+            },
+            "Ext.grid.header.Container": {
+                "globalVars": [
+                    {
+                        "name": "grid-header-background-color",
+                        "enabled": true,
+                        "value": "rgba(255,255,255,1)"
+                    },
+                    {
+                        "name": "grid-header-background-gradient",
+                        "enabled": true,
+                        "value": "none"
+                    },
+                    {
+                        "name": "grid-header-border-style",
+                        "enabled": true,
+                        "value": "none"
+                    }
+                ]
+            },
+            "Ext.layout.container.Border": {
+                "globalVars": [
+                    {
+                        "name": "border-layout-ct-background-color",
+                        "enabled": true,
+                        "value": "rgba(246,248,250,1)"
+                    }
+                ]
+            },
+            "Ext.panel.Panel": {
+                "globalVars": [
+                    {
+                        "name": "panel-body-border-color",
+                        "enabled": true,
+                        "value": "rgba(255,255,255,1)"
+                    },
+                    {
+                        "name": "panel-border-color",
+                        "enabled": true,
+                        "value": "rgba(255,255,255,1)"
+                    },
+                    {
+                        "name": "panel-frame-border-color",
+                        "enabled": true,
+                        "value": "rgba(255,255,255,1)"
+                    },
+                    {
+                        "name": "panel-header-border-color",
+                        "enabled": true,
+                        "value": "rgba(255,255,255,1)"
+                    },
+                    {
+                        "name": "panel-wrap-border-color",
+                        "enabled": true,
+                        "value": "rgba(255,255,255,1)"
+                    }
+                ]
+            },
+            "Ext.panel.Table": {
+                "globalVars": [
+                    {
+                        "name": "grid-body-border-style",
+                        "enabled": true,
+                        "value": "none"
+                    },
+                    {
+                        "name": "grid-row-cell-alt-background-color",
+                        "enabled": true,
+                        "value": "rgba(255,255,255,1)"
+                    },
+                    {
+                        "name": "grid-row-cell-border-style",
+                        "enabled": true,
+                        "value": "none"
+                    },
+                    {
+                        "name": "grid-row-cell-over-background-color",
+                        "enabled": false,
+                        "value": "rgba(255,255,255,1)"
+                    }
+                ]
+            },
+            "Ext.toolbar.Paging": {
+                "globalVars": [
+                    {
+                        "name": "grid-paging-toolbar-include-disabled-icons",
+                        "enabled": true,
+                        "value": "false"
+                    }
+                ]
+            },
+            "Ext.toolbar.Toolbar": {
+                "globalVars": [
+                    {
+                        "name": "toolbar-background-color",
+                        "enabled": true,
+                        "value": "rgba(252,252,252,1)"
+                    },
+                    {
+                        "name": "toolbar-border-color",
+                        "enabled": true,
+                        "value": "rgba(252,252,252,1)"
+                    }
+                ]
+            }
+        }
+    }
+}

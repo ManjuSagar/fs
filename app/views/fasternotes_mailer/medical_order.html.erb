@@ -1,0 +1,50 @@
+Hi Dr.<%= @physician.first_name%>,
+<br/>
+<br/>
+Please find the attached MD Order(s) for your review and signature. Please download the attached order(s), sign and return them to us via any of the following methods:
+<br/>
+<br/>
+1. <b>Email:</b> <%=@medical_order.agency_email%><br/>
+2. <b>Fax:</b> <%=@medical_order.agency_fax_number%><br/>
+3. <b>Mail:</b> <%=@medical_order.agency_name%>,<%=@medical_order.agency_address%><br/>
+<br/>
+<br/>
+Please do not reply to this message.
+<br/>
+<br/>
+Thank you,
+<br/>
+<br/>
+<%= @office_staff %>
+<br/>
+<%= @medical_order.agency_name %>
+<br/>
+<%= @medical_order.agency_address %>
+<br/>
+<%= @medical_order.agency_contact_info %>
+<br/>
+<br/>
+<br/>
+This is an automatically generated email from FasterNotes.com. Please do not reply to this message.
+<br/>
+<br/>
+FasterNotes, Inc.
+<br/>
+Because Business Should be Easy
+<br/>
+Tel: (888) 255-8508 | Fax: (888) 462-4908
+<br/>
+www.fasternotes.com
+<br/>
+<br/>
+<img  src="http://54.221.195.117/wp-content/uploads/2013/09/logo.png" alt="logo">
+<br/>
+<table>
+  <tr>
+    <a href="https://www.facebook.com/fasternotes" target="_blank">facebook</a>
+    <a href="https://twitter.com/fasternotes" target="_blank">twitter</a>
+    <a href="https://plus.google.com/105536414439978563552/posts" target="_blank">googleplus</a>
+    <a href="http://www.linkedin.com/company/fasternotes?trk=cp_followed_name_fasternotes" target="_blank">linkedin</a>
+  </tr>
+</table>
+

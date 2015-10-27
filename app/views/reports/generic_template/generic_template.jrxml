@@ -1,0 +1,1491 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.0.1.final using JasperReports Library version 6.0.0  -->
+<!-- 2015-06-18T19:06:04 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report17" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="d15075c8-d13f-4b62-8bbe-439259943cd2">
+	<property name="ireport.zoom" value="1.1269722013523682"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="538"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="wound_test.xml"/>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["/home/msuser1/workspace/fasternotes/trunk/app/views/reports/tinetti_assessment_tool/"]]></defaultValueExpression>
+	</parameter>
+	<queryString language="xPath">
+		<![CDATA[/document]]>
+	</queryString>
+	<field name="patient-name" class="java.lang.String">
+		<fieldDescription><![CDATA[data/patient-name]]></fieldDescription>
+	</field>
+	<field name="mr" class="java.lang.String">
+		<fieldDescription><![CDATA[data/mr]]></fieldDescription>
+	</field>
+	<field name="frequency" class="java.lang.String">
+		<fieldDescription><![CDATA[data/frequency]]></fieldDescription>
+	</field>
+	<field name="bp" class="java.lang.String">
+		<fieldDescription><![CDATA[data/bp]]></fieldDescription>
+	</field>
+	<field name="hr" class="java.lang.String">
+		<fieldDescription><![CDATA[data/hr]]></fieldDescription>
+	</field>
+	<field name="rr" class="java.lang.String">
+		<fieldDescription><![CDATA[data/rr]]></fieldDescription>
+	</field>
+	<field name="rom-cervical-details" class="java.lang.String">
+		<fieldDescription><![CDATA[data/rom-cervical-details]]></fieldDescription>
+	</field>
+	<field name="rom-cervical-goals" class="java.lang.String">
+		<fieldDescription><![CDATA[data/rom-cervical-goals]]></fieldDescription>
+	</field>
+	<field name="rom-cervical-orders" class="java.lang.String">
+		<fieldDescription><![CDATA[data/rom-cervical-orders]]></fieldDescription>
+	</field>
+	<field name="rom-trunk-details" class="java.lang.String">
+		<fieldDescription><![CDATA[data/rom-trunk-details]]></fieldDescription>
+	</field>
+	<field name="rom-trunk-goals" class="java.lang.String">
+		<fieldDescription><![CDATA[data/rom-trunk-goals]]></fieldDescription>
+	</field>
+	<field name="rom-trunk-orders" class="java.lang.String">
+		<fieldDescription><![CDATA[data/rom-trunk-orders]]></fieldDescription>
+	</field>
+	<field name="rom-ue-details" class="java.lang.String">
+		<fieldDescription><![CDATA[data/rom-ue-details]]></fieldDescription>
+	</field>
+	<field name="rom-ue-goals" class="java.lang.String">
+		<fieldDescription><![CDATA[data/rom-ue-goals]]></fieldDescription>
+	</field>
+	<field name="rom-ue-orders" class="java.lang.String">
+		<fieldDescription><![CDATA[data/rom-ue-orders]]></fieldDescription>
+	</field>
+	<field name="rom-le-details" class="java.lang.String">
+		<fieldDescription><![CDATA[data/rom-le-details]]></fieldDescription>
+	</field>
+	<field name="rom-le-goals" class="java.lang.String">
+		<fieldDescription><![CDATA[data/rom-le-goals]]></fieldDescription>
+	</field>
+	<field name="rom-le-orders" class="java.lang.String">
+		<fieldDescription><![CDATA[data/rom-le-orders]]></fieldDescription>
+	</field>
+	<field name="strength-cervical-details" class="java.lang.String">
+		<fieldDescription><![CDATA[data/strength-cervical-details]]></fieldDescription>
+	</field>
+	<field name="strength-cervical-goals" class="java.lang.String">
+		<fieldDescription><![CDATA[data/strength-cervical-goals]]></fieldDescription>
+	</field>
+	<field name="strength-cervical-orders" class="java.lang.String">
+		<fieldDescription><![CDATA[data/strength-cervical-orders]]></fieldDescription>
+	</field>
+	<field name="strength-trunk-details" class="java.lang.String">
+		<fieldDescription><![CDATA[data/strength-trunk-details]]></fieldDescription>
+	</field>
+	<field name="strength-trunk-goals" class="java.lang.String">
+		<fieldDescription><![CDATA[data/strength-trunk-goals]]></fieldDescription>
+	</field>
+	<field name="strength-trunk-orders" class="java.lang.String">
+		<fieldDescription><![CDATA[data/strength-trunk-orders]]></fieldDescription>
+	</field>
+	<field name="strength-ue-goals" class="java.lang.String">
+		<fieldDescription><![CDATA[data/strength-ue-goals]]></fieldDescription>
+	</field>
+	<field name="strength-ue-orders" class="java.lang.String">
+		<fieldDescription><![CDATA[data/strength-ue-orders]]></fieldDescription>
+	</field>
+	<field name="strength-le-details" class="java.lang.String">
+		<fieldDescription><![CDATA[data/strength-le-details]]></fieldDescription>
+	</field>
+	<field name="strength-le-goals" class="java.lang.String">
+		<fieldDescription><![CDATA[data/strength-le-goals]]></fieldDescription>
+	</field>
+	<field name="strength-le-orders" class="java.lang.String">
+		<fieldDescription><![CDATA[data/strength-le-orders]]></fieldDescription>
+	</field>
+	<field name="balance-details" class="java.lang.String">
+		<fieldDescription><![CDATA[data/balance-details]]></fieldDescription>
+	</field>
+	<field name="balance-goals" class="java.lang.String">
+		<fieldDescription><![CDATA[data/balance-goals]]></fieldDescription>
+	</field>
+	<field name="balance-orders" class="java.lang.String">
+		<fieldDescription><![CDATA[data/balance-orders]]></fieldDescription>
+	</field>
+	<field name="transfers-details" class="java.lang.String">
+		<fieldDescription><![CDATA[data/transfers-details]]></fieldDescription>
+	</field>
+	<field name="transfers-goals" class="java.lang.String">
+		<fieldDescription><![CDATA[data/transfers-goals]]></fieldDescription>
+	</field>
+	<field name="transfers-orders" class="java.lang.String">
+		<fieldDescription><![CDATA[data/transfers-orders]]></fieldDescription>
+	</field>
+	<field name="gait-details" class="java.lang.String">
+		<fieldDescription><![CDATA[data/gait-details]]></fieldDescription>
+	</field>
+	<field name="gait-goals" class="java.lang.String">
+		<fieldDescription><![CDATA[data/gait-goals]]></fieldDescription>
+	</field>
+	<field name="gait-orders" class="java.lang.String">
+		<fieldDescription><![CDATA[data/gait-orders]]></fieldDescription>
+	</field>
+	<field name="endurance-details" class="java.lang.String">
+		<fieldDescription><![CDATA[data/endurance-details]]></fieldDescription>
+	</field>
+	<field name="endurance-goals" class="java.lang.String">
+		<fieldDescription><![CDATA[data/endurance-goals]]></fieldDescription>
+	</field>
+	<field name="endurance-orders" class="java.lang.String">
+		<fieldDescription><![CDATA[data/endurance-orders]]></fieldDescription>
+	</field>
+	<field name="other1-details" class="java.lang.String">
+		<fieldDescription><![CDATA[data/other1-details]]></fieldDescription>
+	</field>
+	<field name="other1-goals" class="java.lang.String">
+		<fieldDescription><![CDATA[data/other1-goals]]></fieldDescription>
+	</field>
+	<field name="other1-orders" class="java.lang.String">
+		<fieldDescription><![CDATA[data/other1-orders]]></fieldDescription>
+	</field>
+	<field name="other2-details" class="java.lang.String">
+		<fieldDescription><![CDATA[data/other2-details]]></fieldDescription>
+	</field>
+	<field name="other2-goals" class="java.lang.String">
+		<fieldDescription><![CDATA[data/other2-goals]]></fieldDescription>
+	</field>
+	<field name="other2-orders" class="java.lang.String">
+		<fieldDescription><![CDATA[data/other2-orders]]></fieldDescription>
+	</field>
+	<field name="pain-location1" class="java.lang.String">
+		<fieldDescription><![CDATA[data/pain-location1]]></fieldDescription>
+	</field>
+	<field name="intensity1" class="java.lang.String">
+		<fieldDescription><![CDATA[data/intensity1]]></fieldDescription>
+	</field>
+	<field name="frequency1" class="java.lang.String">
+		<fieldDescription><![CDATA[data/frequency1]]></fieldDescription>
+	</field>
+	<field name="description1" class="java.lang.String">
+		<fieldDescription><![CDATA[data/description1]]></fieldDescription>
+	</field>
+	<field name="aggravating-factors1" class="java.lang.String">
+		<fieldDescription><![CDATA[data/aggravating-factors1]]></fieldDescription>
+	</field>
+	<field name="pain-location2" class="java.lang.String">
+		<fieldDescription><![CDATA[data/pain-location2]]></fieldDescription>
+	</field>
+	<field name="intensity2" class="java.lang.String">
+		<fieldDescription><![CDATA[data/intensity2]]></fieldDescription>
+	</field>
+	<field name="frequency2" class="java.lang.String">
+		<fieldDescription><![CDATA[data/frequency2]]></fieldDescription>
+	</field>
+	<field name="description2" class="java.lang.String">
+		<fieldDescription><![CDATA[data/description2]]></fieldDescription>
+	</field>
+	<field name="aggravating-factors2" class="java.lang.String">
+		<fieldDescription><![CDATA[data/aggravating-factors2]]></fieldDescription>
+	</field>
+	<field name="pain-location3" class="java.lang.String">
+		<fieldDescription><![CDATA[data/pain-location3]]></fieldDescription>
+	</field>
+	<field name="intensity3" class="java.lang.String">
+		<fieldDescription><![CDATA[data/intensity3]]></fieldDescription>
+	</field>
+	<field name="frequency3" class="java.lang.String">
+		<fieldDescription><![CDATA[data/frequency3]]></fieldDescription>
+	</field>
+	<field name="description3" class="java.lang.String">
+		<fieldDescription><![CDATA[data/description3]]></fieldDescription>
+	</field>
+	<field name="aggravating-factors3" class="java.lang.String">
+		<fieldDescription><![CDATA[data/aggravating-factors3]]></fieldDescription>
+	</field>
+	<field name="pain-location4" class="java.lang.String">
+		<fieldDescription><![CDATA[data/pain-location4]]></fieldDescription>
+	</field>
+	<field name="intensity4" class="java.lang.String">
+		<fieldDescription><![CDATA[data/intensity4]]></fieldDescription>
+	</field>
+	<field name="frequency4" class="java.lang.String">
+		<fieldDescription><![CDATA[data/frequency4]]></fieldDescription>
+	</field>
+	<field name="description4" class="java.lang.String">
+		<fieldDescription><![CDATA[data/description4]]></fieldDescription>
+	</field>
+	<field name="aggravating-factors4" class="java.lang.String">
+		<fieldDescription><![CDATA[data/aggravating-factors4]]></fieldDescription>
+	</field>
+	<field name="pain-location5" class="java.lang.String">
+		<fieldDescription><![CDATA[data/pain-location5]]></fieldDescription>
+	</field>
+	<field name="intensity5" class="java.lang.String">
+		<fieldDescription><![CDATA[data/intensity5]]></fieldDescription>
+	</field>
+	<field name="frequency5" class="java.lang.String">
+		<fieldDescription><![CDATA[data/frequency5]]></fieldDescription>
+	</field>
+	<field name="description5" class="java.lang.String">
+		<fieldDescription><![CDATA[data/description5]]></fieldDescription>
+	</field>
+	<field name="aggravating-factors5" class="java.lang.String">
+		<fieldDescription><![CDATA[data/aggravating-factors5]]></fieldDescription>
+	</field>
+	<field name="pain-location6" class="java.lang.String">
+		<fieldDescription><![CDATA[data/pain-location6]]></fieldDescription>
+	</field>
+	<field name="intensity6" class="java.lang.String">
+		<fieldDescription><![CDATA[data/intensity6]]></fieldDescription>
+	</field>
+	<field name="frequency6" class="java.lang.String">
+		<fieldDescription><![CDATA[data/frequency6]]></fieldDescription>
+	</field>
+	<field name="description6" class="java.lang.String">
+		<fieldDescription><![CDATA[data/description6]]></fieldDescription>
+	</field>
+	<field name="aggravating-factors6" class="java.lang.String">
+		<fieldDescription><![CDATA[data/aggravating-factors6]]></fieldDescription>
+	</field>
+	<field name="functional-limitations" class="java.lang.String">
+		<fieldDescription><![CDATA[data/functional-limitations]]></fieldDescription>
+	</field>
+	<field name="equipments" class="java.lang.String">
+		<fieldDescription><![CDATA[data/equipments]]></fieldDescription>
+	</field>
+	<field name="msc" class="java.lang.String">
+		<fieldDescription><![CDATA[data/msc]]></fieldDescription>
+	</field>
+	<field name="poc" class="java.lang.String">
+		<fieldDescription><![CDATA[data/poc]]></fieldDescription>
+	</field>
+	<field name="interventions" class="java.lang.String">
+		<fieldDescription><![CDATA[data/interventions]]></fieldDescription>
+	</field>
+	<field name="modalities" class="java.lang.String">
+		<fieldDescription><![CDATA[data/modalities]]></fieldDescription>
+	</field>
+	<field name="education" class="java.lang.String">
+		<fieldDescription><![CDATA[data/education]]></fieldDescription>
+	</field>
+	<field name="edu-other1" class="java.lang.String">
+		<fieldDescription><![CDATA[data/edu-other1]]></fieldDescription>
+	</field>
+	<field name="edu-other2" class="java.lang.String">
+		<fieldDescription><![CDATA[data/edu-other2]]></fieldDescription>
+	</field>
+	<field name="eduPresented" class="java.lang.String">
+		<fieldDescription><![CDATA[data/eduPresented]]></fieldDescription>
+	</field>
+	<field name="verbalized" class="java.lang.String">
+		<fieldDescription><![CDATA[data/verbalized]]></fieldDescription>
+	</field>
+	<field name="notes-and-comments" class="java.lang.String">
+		<fieldDescription><![CDATA[data/notes-and-comments]]></fieldDescription>
+	</field>
+	<field name="pt-name" class="java.lang.String">
+		<fieldDescription><![CDATA[data/pt-name]]></fieldDescription>
+	</field>
+	<field name="visit-date" class="java.lang.String">
+		<fieldDescription><![CDATA[data/visit-date]]></fieldDescription>
+	</field>
+	<field name="approved-date" class="java.lang.String">
+		<fieldDescription><![CDATA[data/approved-date]]></fieldDescription>
+	</field>
+	<field name="strength-ue-details" class="java.lang.String">
+		<fieldDescription><![CDATA[data/strength-ue-details]]></fieldDescription>
+	</field>
+	<field name="time-in" class="java.lang.String">
+		<fieldDescription><![CDATA[data/time-in]]></fieldDescription>
+	</field>
+	<field name="time-out" class="java.lang.String">
+		<fieldDescription><![CDATA[data/time-out]]></fieldDescription>
+	</field>
+	<field name="ambulation" class="java.lang.String">
+		<fieldDescription><![CDATA[data/ambulation]]></fieldDescription>
+	</field>
+	<field name="coordination" class="java.lang.String">
+		<fieldDescription><![CDATA[data/coordination]]></fieldDescription>
+	</field>
+	<field name="endurance" class="java.lang.String">
+		<fieldDescription><![CDATA[data/endurance]]></fieldDescription>
+	</field>
+	<field name="gross" class="java.lang.String">
+		<fieldDescription><![CDATA[data/gross]]></fieldDescription>
+	</field>
+	<field name="strength" class="java.lang.String">
+		<fieldDescription><![CDATA[data/strength]]></fieldDescription>
+	</field>
+	<field name="roll" class="java.lang.String">
+		<fieldDescription><![CDATA[data/roll]]></fieldDescription>
+	</field>
+	<field name="supine-sit" class="java.lang.String">
+		<fieldDescription><![CDATA[data/supine-sit]]></fieldDescription>
+	</field>
+	<field name="sit-supine" class="java.lang.String">
+		<fieldDescription><![CDATA[data/sit-supine]]></fieldDescription>
+	</field>
+	<field name="toilet" class="java.lang.String">
+		<fieldDescription><![CDATA[data/toilet]]></fieldDescription>
+	</field>
+	<field name="sit-stand" class="java.lang.String">
+		<fieldDescription><![CDATA[data/sit-stand]]></fieldDescription>
+	</field>
+	<field name="car" class="java.lang.String">
+		<fieldDescription><![CDATA[data/car]]></fieldDescription>
+	</field>
+	<field name="shower" class="java.lang.String">
+		<fieldDescription><![CDATA[data/shower]]></fieldDescription>
+	</field>
+	<field name="rehab" class="java.lang.String">
+		<fieldDescription><![CDATA[data/rehab]]></fieldDescription>
+	</field>
+	<field name="functional-limitations-order" class="java.lang.String">
+		<fieldDescription><![CDATA[functional-limitations-order]]></fieldDescription>
+	</field>
+	<field name="equipments-order" class="java.lang.String">
+		<fieldDescription><![CDATA[equipments-order]]></fieldDescription>
+	</field>
+	<field name="msc-order" class="java.lang.String">
+		<fieldDescription><![CDATA[msc-order]]></fieldDescription>
+	</field>
+	<field name="education-order" class="java.lang.String">
+		<fieldDescription><![CDATA[education-order]]></fieldDescription>
+	</field>
+	<field name="interventions-order" class="java.lang.String">
+		<fieldDescription><![CDATA[interventions-order]]></fieldDescription>
+	</field>
+	<field name="edu-presented-order" class="java.lang.String">
+		<fieldDescription><![CDATA[edu-presented-order]]></fieldDescription>
+	</field>
+	<field name="poc-order" class="java.lang.String">
+		<fieldDescription><![CDATA[poc-order]]></fieldDescription>
+	</field>
+	<field name="modalities-order" class="java.lang.String">
+		<fieldDescription><![CDATA[modalities-order]]></fieldDescription>
+	</field>
+	<field name="agency-name" class="java.lang.String">
+		<fieldDescription><![CDATA[agency-name]]></fieldDescription>
+	</field>
+	<field name="misc-msc" class="java.lang.String">
+		<fieldDescription><![CDATA[data/misc-msc]]></fieldDescription>
+	</field>
+	<field name="ps-ambulation-display" class="java.lang.String">
+		<fieldDescription><![CDATA[ps-ambulation-display]]></fieldDescription>
+	</field>
+	<field name="ps-coordination-display" class="java.lang.String">
+		<fieldDescription><![CDATA[ps-coordination-display]]></fieldDescription>
+	</field>
+	<field name="ps-endurance-display" class="java.lang.String">
+		<fieldDescription><![CDATA[ps-endurance-display]]></fieldDescription>
+	</field>
+	<field name="ps-gross-display" class="java.lang.String">
+		<fieldDescription><![CDATA[ps-gross-display]]></fieldDescription>
+	</field>
+	<field name="ps-strength-display" class="java.lang.String">
+		<fieldDescription><![CDATA[ps-strength-display]]></fieldDescription>
+	</field>
+	<field name="sitting-balance" class="java.lang.String">
+		<fieldDescription><![CDATA[data/sitting-balance]]></fieldDescription>
+	</field>
+	<field name="arises" class="java.lang.String">
+		<fieldDescription><![CDATA[data/arises]]></fieldDescription>
+	</field>
+	<field name="attempts-to-arise" class="java.lang.String">
+		<fieldDescription><![CDATA[data/attempts-to-arise]]></fieldDescription>
+	</field>
+	<field name="immediate-standing-balance" class="java.lang.String">
+		<fieldDescription><![CDATA[data/immediate-standing-balance]]></fieldDescription>
+	</field>
+	<field name="standing-balance" class="java.lang.String">
+		<fieldDescription><![CDATA[data/standing-balance]]></fieldDescription>
+	</field>
+	<field name="nudged" class="java.lang.String">
+		<fieldDescription><![CDATA[data/nudged]]></fieldDescription>
+	</field>
+	<field name="eyes-closed" class="java.lang.String">
+		<fieldDescription><![CDATA[data/eyes-closed]]></fieldDescription>
+	</field>
+	<field name="turning-360-degrees" class="java.lang.String">
+		<fieldDescription><![CDATA[data/turning-360-degrees]]></fieldDescription>
+	</field>
+	<field name="sitting-down" class="java.lang.String">
+		<fieldDescription><![CDATA[data/sitting-down]]></fieldDescription>
+	</field>
+	<field name="initiation-of-gait" class="java.lang.String">
+		<fieldDescription><![CDATA[data/initiation-of-gait]]></fieldDescription>
+	</field>
+	<field name="right-swing-foot" class="java.lang.String">
+		<fieldDescription><![CDATA[data/right-swing-foot]]></fieldDescription>
+	</field>
+	<field name="left-swing-foot" class="java.lang.String">
+		<fieldDescription><![CDATA[data/left-swing-foot]]></fieldDescription>
+	</field>
+	<field name="step-symmetry" class="java.lang.String">
+		<fieldDescription><![CDATA[data/step-symmetry]]></fieldDescription>
+	</field>
+	<field name="step-continuity" class="java.lang.String">
+		<fieldDescription><![CDATA[data/step-continuity]]></fieldDescription>
+	</field>
+	<field name="path" class="java.lang.String">
+		<fieldDescription><![CDATA[data/path]]></fieldDescription>
+	</field>
+	<field name="trunk" class="java.lang.String">
+		<fieldDescription><![CDATA[data/trunk]]></fieldDescription>
+	</field>
+	<field name="walking-stance" class="java.lang.String">
+		<fieldDescription><![CDATA[data/walking-stance]]></fieldDescription>
+	</field>
+	<field name="balance-score" class="java.lang.String">
+		<fieldDescription><![CDATA[data/balance-score]]></fieldDescription>
+	</field>
+	<field name="gait-score" class="java.lang.String">
+		<fieldDescription><![CDATA[data/gait-score]]></fieldDescription>
+	</field>
+	<field name="total" class="java.lang.String">
+		<fieldDescription><![CDATA[data/total]]></fieldDescription>
+	</field>
+	<field name="rater" class="java.lang.String">
+		<fieldDescription><![CDATA[data/rater]]></fieldDescription>
+	</field>
+	<field name="field-staff-name" class="java.lang.String">
+		<fieldDescription><![CDATA[data/field-staff-name]]></fieldDescription>
+	</field>
+	<field name="field-staff-name2" class="java.lang.String">
+		<fieldDescription><![CDATA[data/field-staff-name]]></fieldDescription>
+	</field>
+	<field name="systolic-bp" class="java.lang.String">
+		<fieldDescription><![CDATA[systolic-bp]]></fieldDescription>
+	</field>
+	<field name="diastolic-bp" class="java.lang.String">
+		<fieldDescription><![CDATA[diastolic-bp]]></fieldDescription>
+	</field>
+	<field name="bp-read-location" class="java.lang.String">
+		<fieldDescription><![CDATA[bp-read-location]]></fieldDescription>
+	</field>
+	<field name="bp-read-position" class="java.lang.String">
+		<fieldDescription><![CDATA[bp-read-position]]></fieldDescription>
+	</field>
+	<field name="heart-rate" class="java.lang.String">
+		<fieldDescription><![CDATA[heart-rate]]></fieldDescription>
+	</field>
+	<field name="respiration-rate" class="java.lang.String">
+		<fieldDescription><![CDATA[respiration-rate]]></fieldDescription>
+	</field>
+	<field name="temperature-in-fht" class="java.lang.String">
+		<fieldDescription><![CDATA[temperature-in-fht]]></fieldDescription>
+	</field>
+	<field name="blood-sugar" class="java.lang.String">
+		<fieldDescription><![CDATA[blood-sugar]]></fieldDescription>
+	</field>
+	<field name="sugar-read-period" class="java.lang.String">
+		<fieldDescription><![CDATA[sugar-read-period]]></fieldDescription>
+	</field>
+	<field name="weight-gain-loss-in-lbs" class="java.lang.String">
+		<fieldDescription><![CDATA[weight-gain-loss-in-lbs]]></fieldDescription>
+	</field>
+	<field name="oxygen-saturation" class="java.lang.String">
+		<fieldDescription><![CDATA[oxygen-saturation]]></fieldDescription>
+	</field>
+	<field name="field-staff-signature" class="java.lang.String">
+		<fieldDescription><![CDATA[field-staff-signature]]></fieldDescription>
+	</field>
+	<field name="visited-staff-name" class="java.lang.String">
+		<fieldDescription><![CDATA[visited-staff-name]]></fieldDescription>
+	</field>
+	<field name="office-staff-signature" class="java.lang.String">
+		<fieldDescription><![CDATA[office-staff-signature]]></fieldDescription>
+	</field>
+	<field name="office-staff-name" class="java.lang.String">
+		<fieldDescription><![CDATA[office-staff-name]]></fieldDescription>
+	</field>
+	<field name="supervised-user-signature" class="java.lang.String">
+		<fieldDescription><![CDATA[supervised-user-signature]]></fieldDescription>
+	</field>
+	<field name="supervised-user-name" class="java.lang.String">
+		<fieldDescription><![CDATA[supervised-user-name]]></fieldDescription>
+	</field>
+	<field name="field-staff-signature2" class="java.lang.String">
+		<fieldDescription><![CDATA[field-staff-signature]]></fieldDescription>
+	</field>
+	<field name="pain" class="java.lang.String">
+		<fieldDescription><![CDATA[pain]]></fieldDescription>
+	</field>
+	<field name="pain-section-display" class="java.lang.String">
+		<fieldDescription><![CDATA[pain-section-display]]></fieldDescription>
+	</field>
+	<field name="functional-status-display" class="java.lang.String">
+		<fieldDescription><![CDATA[functional-status-display]]></fieldDescription>
+	</field>
+	<field name="physical-status-display" class="java.lang.String">
+		<fieldDescription><![CDATA[physical-status-display]]></fieldDescription>
+	</field>
+	<field name="rom-cervical-display" class="java.lang.String">
+		<fieldDescription><![CDATA[rom-cervical-display]]></fieldDescription>
+	</field>
+	<field name="rom-trunk-display" class="java.lang.String">
+		<fieldDescription><![CDATA[rom-trunk-display]]></fieldDescription>
+	</field>
+	<field name="rom-ue-display" class="java.lang.String">
+		<fieldDescription><![CDATA[rom-ue-display]]></fieldDescription>
+	</field>
+	<field name="rom-le-display" class="java.lang.String">
+		<fieldDescription><![CDATA[rom-le-display]]></fieldDescription>
+	</field>
+	<field name="strength-cervical-display" class="java.lang.String">
+		<fieldDescription><![CDATA[strength-cervical-display]]></fieldDescription>
+	</field>
+	<field name="strength-trunk-display" class="java.lang.String">
+		<fieldDescription><![CDATA[strength-trunk-display]]></fieldDescription>
+	</field>
+	<field name="strength-ue-display" class="java.lang.String">
+		<fieldDescription><![CDATA[strength-ue-display]]></fieldDescription>
+	</field>
+	<field name="strength-le-display" class="java.lang.String">
+		<fieldDescription><![CDATA[strength-le-display]]></fieldDescription>
+	</field>
+	<field name="balance-display" class="java.lang.String">
+		<fieldDescription><![CDATA[balance-display]]></fieldDescription>
+	</field>
+	<field name="transfers-display" class="java.lang.String">
+		<fieldDescription><![CDATA[transfers-display]]></fieldDescription>
+	</field>
+	<field name="gait-display" class="java.lang.String">
+		<fieldDescription><![CDATA[gait-display]]></fieldDescription>
+	</field>
+	<field name="endurance-display" class="java.lang.String">
+		<fieldDescription><![CDATA[endurance-display]]></fieldDescription>
+	</field>
+	<field name="other1-display" class="java.lang.String">
+		<fieldDescription><![CDATA[other1-display]]></fieldDescription>
+	</field>
+	<field name="other2-display" class="java.lang.String">
+		<fieldDescription><![CDATA[other2-display]]></fieldDescription>
+	</field>
+	<field name="vitals-display" class="java.lang.String">
+		<fieldDescription><![CDATA[vitals-display]]></fieldDescription>
+	</field>
+	<field name="patient-name-with-mr-display" class="java.lang.String">
+		<fieldDescription><![CDATA[patient-name-with-mr-display]]></fieldDescription>
+	</field>
+	<field name="date-time-display" class="java.lang.String">
+		<fieldDescription><![CDATA[date-time-display]]></fieldDescription>
+	</field>
+	<field name="fs-signed-date-display" class="java.lang.String">
+		<fieldDescription><![CDATA[fs-signed-date-display]]></fieldDescription>
+	</field>
+	<field name="os-signed-date-display" class="java.lang.String">
+		<fieldDescription><![CDATA[os-signed-date-display]]></fieldDescription>
+	</field>
+	<field name="supervised-user-signed-date-display" class="java.lang.String">
+		<fieldDescription><![CDATA[supervised-user-signed-date-display]]></fieldDescription>
+	</field>
+	<field name="frequency-display" class="java.lang.String">
+		<fieldDescription><![CDATA[frequency-display]]></fieldDescription>
+	</field>
+	<field name="misc-findings-display" class="java.lang.String">
+		<fieldDescription><![CDATA[misc-findings-display]]></fieldDescription>
+	</field>
+	<field name="detail24-value" class="java.lang.String">
+		<fieldDescription><![CDATA[detail24-value]]></fieldDescription>
+	</field>
+	<field name="detail2-label" class="java.lang.String">
+		<fieldDescription><![CDATA[detail2-label]]></fieldDescription>
+	</field>
+	<field name="detail2-value" class="java.lang.String">
+		<fieldDescription><![CDATA[detail2-value]]></fieldDescription>
+	</field>
+	<field name="detail3-label" class="java.lang.String">
+		<fieldDescription><![CDATA[detail3-label]]></fieldDescription>
+	</field>
+	<field name="detail3-value" class="java.lang.String">
+		<fieldDescription><![CDATA[detail3-value]]></fieldDescription>
+	</field>
+	<field name="detail4-label" class="java.lang.String">
+		<fieldDescription><![CDATA[detail4-label]]></fieldDescription>
+	</field>
+	<field name="detail4-value" class="java.lang.String">
+		<fieldDescription><![CDATA[detail4-value]]></fieldDescription>
+	</field>
+	<field name="detail5-label" class="java.lang.String">
+		<fieldDescription><![CDATA[detail5-label]]></fieldDescription>
+	</field>
+	<field name="detail5-value" class="java.lang.String">
+		<fieldDescription><![CDATA[detail5-value]]></fieldDescription>
+	</field>
+	<field name="detail6-label" class="java.lang.String">
+		<fieldDescription><![CDATA[detail6-label]]></fieldDescription>
+	</field>
+	<field name="detail6-value" class="java.lang.String">
+		<fieldDescription><![CDATA[detail6-value]]></fieldDescription>
+	</field>
+	<field name="detail7-label" class="java.lang.String">
+		<fieldDescription><![CDATA[detail7-label]]></fieldDescription>
+	</field>
+	<field name="detail7-value" class="java.lang.String">
+		<fieldDescription><![CDATA[detail7-value]]></fieldDescription>
+	</field>
+	<field name="detail8-label" class="java.lang.String">
+		<fieldDescription><![CDATA[detail8-label]]></fieldDescription>
+	</field>
+	<field name="detail8-value" class="java.lang.String">
+		<fieldDescription><![CDATA[detail8-value]]></fieldDescription>
+	</field>
+	<field name="detail9-label" class="java.lang.String">
+		<fieldDescription><![CDATA[detail9-label]]></fieldDescription>
+	</field>
+	<field name="detail9-value" class="java.lang.String">
+		<fieldDescription><![CDATA[detail9-value]]></fieldDescription>
+	</field>
+	<field name="detail10-label" class="java.lang.String">
+		<fieldDescription><![CDATA[detail10-label]]></fieldDescription>
+	</field>
+	<field name="detail10-value" class="java.lang.String">
+		<fieldDescription><![CDATA[detail10-value]]></fieldDescription>
+	</field>
+	<field name="detail11-label" class="java.lang.String">
+		<fieldDescription><![CDATA[detail11-label]]></fieldDescription>
+	</field>
+	<field name="detail11-value" class="java.lang.String">
+		<fieldDescription><![CDATA[detail11-value]]></fieldDescription>
+	</field>
+	<field name="detail12-label" class="java.lang.String">
+		<fieldDescription><![CDATA[detail12-label]]></fieldDescription>
+	</field>
+	<field name="detail12-value" class="java.lang.String">
+		<fieldDescription><![CDATA[detail12-value]]></fieldDescription>
+	</field>
+	<field name="detail13-label" class="java.lang.String">
+		<fieldDescription><![CDATA[detail13-label]]></fieldDescription>
+	</field>
+	<field name="detail13-value" class="java.lang.String">
+		<fieldDescription><![CDATA[detail13-value]]></fieldDescription>
+	</field>
+	<field name="detail14-label" class="java.lang.String">
+		<fieldDescription><![CDATA[detail14-label]]></fieldDescription>
+	</field>
+	<field name="detail14-value" class="java.lang.String">
+		<fieldDescription><![CDATA[detail14-value]]></fieldDescription>
+	</field>
+	<field name="detail15-label" class="java.lang.String">
+		<fieldDescription><![CDATA[detail15-label]]></fieldDescription>
+	</field>
+	<field name="detail15-value" class="java.lang.String">
+		<fieldDescription><![CDATA[detail15-value]]></fieldDescription>
+	</field>
+	<field name="detail16-label" class="java.lang.String">
+		<fieldDescription><![CDATA[detail16-label]]></fieldDescription>
+	</field>
+	<field name="detail16-value" class="java.lang.String">
+		<fieldDescription><![CDATA[detail16-value]]></fieldDescription>
+	</field>
+	<field name="detail17-label" class="java.lang.String">
+		<fieldDescription><![CDATA[detail17-label]]></fieldDescription>
+	</field>
+	<field name="detail17-value" class="java.lang.String">
+		<fieldDescription><![CDATA[detail17-value]]></fieldDescription>
+	</field>
+	<field name="detail18-label" class="java.lang.String">
+		<fieldDescription><![CDATA[detail18-label]]></fieldDescription>
+	</field>
+	<field name="detail18-value" class="java.lang.String">
+		<fieldDescription><![CDATA[detail18-value]]></fieldDescription>
+	</field>
+	<field name="detail19-label" class="java.lang.String">
+		<fieldDescription><![CDATA[detail19-label]]></fieldDescription>
+	</field>
+	<field name="detail19-value" class="java.lang.String">
+		<fieldDescription><![CDATA[detail19-value]]></fieldDescription>
+	</field>
+	<field name="detail20-label" class="java.lang.String">
+		<fieldDescription><![CDATA[detail20-label]]></fieldDescription>
+	</field>
+	<field name="detail20-value" class="java.lang.String">
+		<fieldDescription><![CDATA[detail20-value]]></fieldDescription>
+	</field>
+	<field name="detail21-label" class="java.lang.String">
+		<fieldDescription><![CDATA[detail21-label]]></fieldDescription>
+	</field>
+	<field name="detail21-value" class="java.lang.String">
+		<fieldDescription><![CDATA[detail21-value]]></fieldDescription>
+	</field>
+	<field name="detail22-label" class="java.lang.String">
+		<fieldDescription><![CDATA[detail22-label]]></fieldDescription>
+	</field>
+	<field name="detail22-value" class="java.lang.String">
+		<fieldDescription><![CDATA[detail22-value]]></fieldDescription>
+	</field>
+	<field name="detail23-label" class="java.lang.String">
+		<fieldDescription><![CDATA[detail23-label]]></fieldDescription>
+	</field>
+	<field name="detail23-value" class="java.lang.String">
+		<fieldDescription><![CDATA[detail23-value]]></fieldDescription>
+	</field>
+	<field name="detail24-label" class="java.lang.String">
+		<fieldDescription><![CDATA[detail24-label]]></fieldDescription>
+	</field>
+	<field name="detail24-value2" class="java.lang.String">
+		<fieldDescription><![CDATA[detail24-value]]></fieldDescription>
+	</field>
+	<field name="detail25-label" class="java.lang.String">
+		<fieldDescription><![CDATA[detail25-label]]></fieldDescription>
+	</field>
+	<field name="detail25-value" class="java.lang.String">
+		<fieldDescription><![CDATA[detail25-value]]></fieldDescription>
+	</field>
+	<field name="detail26-label" class="java.lang.String">
+		<fieldDescription><![CDATA[detail26-label]]></fieldDescription>
+	</field>
+	<field name="detail26-value" class="java.lang.String">
+		<fieldDescription><![CDATA[detail26-value]]></fieldDescription>
+	</field>
+	<field name="header" class="java.lang.String">
+		<fieldDescription><![CDATA[header]]></fieldDescription>
+	</field>
+	<field name="detail27-label" class="java.lang.String">
+		<fieldDescription><![CDATA[detail27-label]]></fieldDescription>
+	</field>
+	<field name="detail27-value" class="java.lang.String">
+		<fieldDescription><![CDATA[detail27-value]]></fieldDescription>
+	</field>
+	<field name="show-physician" class="java.lang.String">
+		<fieldDescription><![CDATA[show-physician]]></fieldDescription>
+	</field>
+	<field name="detail28-label" class="java.lang.String">
+		<fieldDescription><![CDATA[detail28-label]]></fieldDescription>
+	</field>
+	<field name="detail28-value" class="java.lang.String">
+		<fieldDescription><![CDATA[detail28-value]]></fieldDescription>
+	</field>
+	<field name="detail29-label" class="java.lang.String">
+		<fieldDescription><![CDATA[detail29-label]]></fieldDescription>
+	</field>
+	<field name="detail29-value" class="java.lang.String">
+		<fieldDescription><![CDATA[detail29-value]]></fieldDescription>
+	</field>
+	<field name="field-staff-signed" class="java.lang.String">
+		<fieldDescription><![CDATA[field-staff-signed]]></fieldDescription>
+	</field>
+	<field name="supervisor-signed" class="java.lang.String">
+		<fieldDescription><![CDATA[supervisor-signed]]></fieldDescription>
+	</field>
+	<field name="therapist-name-display" class="java.lang.String">
+		<fieldDescription><![CDATA[therapist-name-display]]></fieldDescription>
+	</field>
+	<field name="agency-name-for-visit-document" class="java.lang.String">
+		<fieldDescription><![CDATA[agency-name-for-visit-document]]></fieldDescription>
+	</field>
+	<field name="detail30-value-medication" class="java.lang.String">
+		<fieldDescription><![CDATA[detail30-value-medication]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="70" splitType="Stretch">
+			<line>
+				<reportElement x="0" y="68" width="555" height="1" uuid="b799acea-334a-4240-aa21-2fa0c21901d9"/>
+			</line>
+			<textField>
+				<reportElement x="263" y="0" width="291" height="20" uuid="e92471bd-c61f-4a6b-ac0a-6b2c499e4416"/>
+				<textElement textAlignment="Right">
+					<font size="16" isBold="true"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{agency-name-for-visit-document}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement stretchType="RelativeToTallestObject" x="2" y="43" width="217" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="f03eb7ef-a753-4014-8d10-75ead89da36a"/>
+				<textElement markup="html">
+					<font fontName="SansSerif" size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{patient-name-with-mr-display}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="323" y="43" width="231" height="12" uuid="7ff8baac-007b-4b81-9663-8c71ed58ab7f"/>
+				<textElement textAlignment="Right" markup="html">
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{date-time-display}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="0" y="20" width="555" height="20" uuid="12973d96-a96d-4687-9d65-4fd62408426e"/>
+				<textElement textAlignment="Right">
+					<font size="16" isBold="true"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{header}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="2" y="55" width="217" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="4a6b734a-aaa7-4eae-8ea9-f20bbbaae603"/>
+				<textElement markup="html"/>
+				<textFieldExpression><![CDATA[$F{therapist-name-display}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="28" splitType="Stretch">
+			<printWhenExpression><![CDATA[$F{vitals-display}!=null || $F{frequency-display}!=null]]></printWhenExpression>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="70" y="15" width="486" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="62a1352d-f01b-41b5-8ec7-b6fc67e6e481"/>
+				<textElement markup="html">
+					<font fontName="SansSerif" size="10" pdfEncoding="Cp1252" isPdfEmbedded="false"/>
+					<paragraph lineSpacing="1_1_2" rightIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{vitals-display}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="2" y="1" width="67" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="2b233ec4-f4bc-49df-9840-ed95e9c1abd9">
+					<printWhenExpression><![CDATA[$F{frequency-display}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Frequency:]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="70" y="1" width="149" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="0739474d-1f77-484f-9d1b-a76b3598e271"/>
+				<textElement>
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{frequency-display}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="2" y="15" width="67" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="15c7ef28-a1df-4723-ab0c-3d2c9eb46c51">
+					<printWhenExpression><![CDATA[$F{vitals-display}!= null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Vital Signs:]]></text>
+			</staticText>
+		</band>
+		<band height="18" splitType="Stretch">
+			<printWhenExpression><![CDATA[$F{detail2-value}!=null]]></printWhenExpression>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="1" y="1" width="128" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="d1196f1f-3185-44ae-bd9d-f60b4c833e8b"/>
+				<textElement markup="none">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail2-label}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="143" y="1" width="412" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="3f5ea70f-4b7a-4b2b-855d-fb3e24d1b99f"/>
+				<textElement markup="html">
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2" rightIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail2-value}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="18" splitType="Stretch">
+			<printWhenExpression><![CDATA[$F{detail3-value}!=null]]></printWhenExpression>
+			<textField isStretchWithOverflow="true" pattern="" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="142" y="0" width="412" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="c2c91135-fc7e-4338-815f-a3fd5a1410d5"/>
+				<textElement markup="html">
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2" rightIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail3-value}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="1" y="1" width="128" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="88fc42fb-6ad3-4a35-b0de-3f74e835b883"/>
+				<textElement markup="none">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail3-label}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="18" splitType="Stretch">
+			<printWhenExpression><![CDATA[$F{detail4-value}!=null]]></printWhenExpression>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="143" y="1" width="412" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="32386f09-4ce7-4d5b-b7cc-ecca761b6189"/>
+				<textElement markup="html">
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2" rightIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail4-value}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="1" y="1" width="128" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="d6bf2fcb-769a-409b-844e-67c5f937b7f7"/>
+				<textElement markup="none">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail4-label}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="18" splitType="Stretch">
+			<printWhenExpression><![CDATA[$F{detail5-value}!=null]]></printWhenExpression>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="143" y="1" width="412" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="461f0fbb-3f48-455f-a5a0-704321545fc3"/>
+				<textElement markup="html">
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2" rightIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail5-value}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="1" y="1" width="128" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="d7dcfe7f-e9ad-43a7-a955-0d4105d80692"/>
+				<textElement markup="none">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail5-label}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="18" splitType="Stretch">
+			<printWhenExpression><![CDATA[$F{detail6-value}!=null]]></printWhenExpression>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="0" y="1" width="128" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="d7dcfe7f-e9ad-43a7-a955-0d4105d80692"/>
+				<textElement markup="none">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail6-label}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="143" y="1" width="412" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="b6b98360-d33f-4487-b69d-a6a6c5366bfd"/>
+				<textElement markup="html">
+					<font fontName="SansSerif" size="10" isBold="false"/>
+					<paragraph lineSpacing="1_1_2" rightIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail6-value}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="18" splitType="Stretch">
+			<printWhenExpression><![CDATA[$F{detail7-value}!=null]]></printWhenExpression>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="143" y="1" width="412" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="f896acbb-f47d-4dae-8ab7-70bf9d0d7f2e"/>
+				<textElement markup="html">
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2" rightIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail7-value}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="1" y="1" width="128" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="bde7afd7-5ad0-4b15-a2f1-a071ec8fe358"/>
+				<textElement markup="none">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail7-label}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="18" splitType="Stretch">
+			<printWhenExpression><![CDATA[$F{detail8-value}!=null]]></printWhenExpression>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="143" y="1" width="412" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="de72ac01-b154-49b1-95ff-569d3f15917b"/>
+				<textElement markup="html">
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2" rightIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail8-value}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="1" y="1" width="128" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="e30a2d02-e5ba-4b47-916c-078ef56b8d2c"/>
+				<textElement markup="none">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail8-label}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="18" splitType="Stretch">
+			<printWhenExpression><![CDATA[$F{detail9-value}!=null]]></printWhenExpression>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="143" y="1" width="412" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="1baaa006-a54b-48eb-ab8c-5932a371b38a"/>
+				<textElement markup="html">
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2" rightIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail9-value}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="1" y="1" width="128" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="ca62a4a0-ad97-4412-bae1-796d537ffed9"/>
+				<textElement markup="none">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail9-label}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="18" splitType="Stretch">
+			<printWhenExpression><![CDATA[$F{detail10-value}!=null]]></printWhenExpression>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="143" y="1" width="412" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="5f38aa71-9f0f-49ed-8f2e-c708d97eed4b"/>
+				<textElement markup="html">
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2" rightIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail10-value}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="1" y="1" width="128" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="1a881103-3cc3-49db-b14b-fe20b685281f"/>
+				<textElement markup="none">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail10-label}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="18" splitType="Stretch">
+			<printWhenExpression><![CDATA[$F{detail11-value}!=null]]></printWhenExpression>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="143" y="1" width="412" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="a9012038-e964-4be6-ae0a-055b4ee9e503"/>
+				<textElement markup="html">
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2" rightIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail11-value}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="1" y="1" width="128" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="7812bee8-8f84-4670-801c-e546e823974b"/>
+				<textElement markup="none">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail11-label}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="18" splitType="Stretch">
+			<printWhenExpression><![CDATA[$F{detail12-value}!=null]]></printWhenExpression>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="143" y="1" width="412" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="952fadca-27e3-4d09-b33d-1e33be7f1c23"/>
+				<textElement markup="html">
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2" rightIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail12-value}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="1" y="1" width="128" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="1b7f6b5b-9cff-4624-9895-0373d7345108"/>
+				<textElement markup="none">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail12-label}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="18" splitType="Stretch">
+			<printWhenExpression><![CDATA[$F{detail13-value}!=null]]></printWhenExpression>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="143" y="1" width="412" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="f6b30d69-ae9d-4ba4-bf8b-4d0ff3822b4f"/>
+				<textElement markup="html">
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2" rightIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail13-value}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="1" y="1" width="128" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="b174a057-7213-4462-bf0c-165489ec6f89"/>
+				<textElement markup="none">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail13-label}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="18" splitType="Stretch">
+			<printWhenExpression><![CDATA[$F{detail14-value}!=null]]></printWhenExpression>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="143" y="1" width="412" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="d34e9ab8-c4ff-4a2c-91b9-dd67c1911e69"/>
+				<textElement markup="html">
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2" rightIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail14-value}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="1" y="1" width="128" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="f0b18130-608e-4920-812f-8c3421cfe1e0"/>
+				<textElement markup="none">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail14-label}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="18" splitType="Stretch">
+			<printWhenExpression><![CDATA[$F{detail15-value}!=null]]></printWhenExpression>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="143" y="1" width="412" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="f3ad5009-221c-4a87-92b0-8a027542112b"/>
+				<textElement markup="html">
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2" rightIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail15-value}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="1" y="1" width="128" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="c56b769f-ea62-4525-8bba-320aff5c08d2"/>
+				<textElement markup="none">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail15-label}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="18">
+			<printWhenExpression><![CDATA[$F{detail16-value}!=null]]></printWhenExpression>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="1" y="1" width="128" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="5b1a6f32-0360-4f5d-b672-566804612000"/>
+				<textElement markup="none">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail16-label}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="143" y="1" width="412" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="157ce1d4-06e0-429e-b364-f8c4f85b66cd"/>
+				<textElement markup="html">
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2" rightIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail16-value}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="18">
+			<printWhenExpression><![CDATA[$F{detail17-value}!=null]]></printWhenExpression>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="1" y="1" width="128" height="12" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" isPrintWhenDetailOverflows="true" uuid="66942e17-237c-449a-8d27-4ba3731798ed"/>
+				<textElement markup="none">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail17-label}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="143" y="1" width="412" height="12" isRemoveLineWhenBlank="true" isPrintInFirstWholeBand="true" isPrintWhenDetailOverflows="true" uuid="18f4f42c-526b-4845-810a-227109b8bf9c"/>
+				<textElement markup="html">
+					<font fontName="SansSerif" size="10" isUnderline="false"/>
+					<paragraph lineSpacing="1_1_2" rightIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail17-value}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="18">
+			<printWhenExpression><![CDATA[$F{detail18-value}!=null]]></printWhenExpression>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="1" y="1" width="128" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="9951f81d-7a29-4e26-af43-203e7f198a2d"/>
+				<textElement markup="none">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail18-label}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="143" y="1" width="412" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="689f5ed8-cf75-4d63-b51b-5e817c894132"/>
+				<textElement markup="html">
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2" rightIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail18-value}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="18">
+			<printWhenExpression><![CDATA[$F{detail19-value}!=null]]></printWhenExpression>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="1" y="1" width="128" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="56e89e98-cd83-47f5-9b1b-4947c49c088a"/>
+				<textElement markup="none">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail19-label}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="142" y="1" width="412" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="253b1b81-1084-4cd2-9327-c77d83d2041d"/>
+				<textElement markup="html">
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2" rightIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail19-value}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="18">
+			<printWhenExpression><![CDATA[$F{detail20-value}!=null]]></printWhenExpression>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="1" y="1" width="141" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="ef9be53f-bbe8-4828-8e0a-69321a1aac2e"/>
+				<textElement markup="html">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail20-label}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="142" y="1" width="412" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="11e93ca7-821b-4884-bd69-0c2acf1a45c3"/>
+				<textElement markup="html">
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2" rightIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail20-value}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="18">
+			<printWhenExpression><![CDATA[$F{detail21-value}!=null]]></printWhenExpression>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="1" y="1" width="141" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="ef73ba51-304e-401d-9330-6e78c82a5b5d"/>
+				<textElement markup="none">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail21-label}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="142" y="1" width="412" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8fc8b0d6-395d-4725-853f-2e766444bf3d"/>
+				<textElement markup="html">
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2" rightIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail21-value}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="18">
+			<printWhenExpression><![CDATA[$F{detail22-value}!=null]]></printWhenExpression>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="1" y="1" width="128" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="742056ae-0825-4fd6-a9be-aa5c7bb2cabf"/>
+				<textElement markup="none">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail22-label}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="143" y="1" width="412" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="54c29036-5c31-48b4-97f4-1ce5830c37ed"/>
+				<textElement markup="html">
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2" rightIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail22-value}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="18">
+			<printWhenExpression><![CDATA[$F{detail23-value}!=null]]></printWhenExpression>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="1" y="1" width="129" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="2a07ad02-08d4-4023-ac8b-ed73c4fc4d78"/>
+				<textElement markup="none">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail23-label}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="143" y="1" width="412" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="6cd7e795-9990-44f6-8ca8-9031d8bebdee"/>
+				<textElement markup="html">
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2" rightIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail23-value}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="18">
+			<printWhenExpression><![CDATA[$F{detail24-value}!=null]]></printWhenExpression>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="1" y="1" width="128" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="5f878781-92f7-4cb0-9cb4-5b1c5e6f66bb"/>
+				<textElement markup="none">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail24-label}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="143" y="1" width="412" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="ced41fbc-979f-4502-b327-d92544c42018"/>
+				<textElement markup="html">
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2" rightIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail24-value}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="18">
+			<printWhenExpression><![CDATA[$F{detail25-value}!=null]]></printWhenExpression>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="1" y="1" width="128" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8e70c4b1-04a3-455b-b335-233724c63521"/>
+				<textElement markup="none">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail25-label}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="143" y="1" width="412" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="664efd4f-272b-4a4b-bd89-77ce670a088d"/>
+				<textElement markup="html">
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2" rightIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail25-value}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="18" splitType="Prevent">
+			<printWhenExpression><![CDATA[$F{detail26-value}!=null]]></printWhenExpression>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="1" y="1" width="128" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="a901eee2-23aa-4e6d-9a8d-da8464793936"/>
+				<textElement markup="none">
+					<font fontName="SansSerif" size="10" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail26-label}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="143" y="0" width="412" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="65ce14a1-bcbe-41f3-a5c8-76cee6a52e23"/>
+				<textElement markup="html">
+					<font fontName="SansSerif" size="10"/>
+					<paragraph lineSpacing="1_1_2" rightIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail26-value}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="18">
+			<printWhenExpression><![CDATA[$F{detail27-value}!=null]]></printWhenExpression>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="1" y="1" width="128" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="f6a69d11-0bdd-44e2-a349-ccd3347c8435"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail27-label}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="143" y="1" width="412" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="cc67a06d-407a-4c4e-a584-523be99fbc7f"/>
+				<textElement markup="html">
+					<paragraph lineSpacing="1_1_2" rightIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail27-value}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="25">
+			<printWhenExpression><![CDATA[$F{detail28-value}!=null]]></printWhenExpression>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="1" y="1" width="353" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="f6a69d11-0bdd-44e2-a349-ccd3347c8435"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail28-label}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="1" y="13" width="552" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="cc67a06d-407a-4c4e-a584-523be99fbc7f"/>
+				<textElement markup="html">
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail28-value}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="34">
+			<printWhenExpression><![CDATA[$F{detail29-value}!=null]]></printWhenExpression>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="143" y="1" width="412" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="cdb78153-a412-46eb-a246-1da46ef5050d"/>
+				<textElement markup="html">
+					<paragraph rightIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail29-value}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="1" y="1" width="128" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="2487c7cf-62f4-4e8d-a3ef-ad6ab9e299a8"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail29-label}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="143" y="14" width="412" height="20" isRemoveLineWhenBlank="true" uuid="13929fc3-2880-457f-a316-4a8080423c5a">
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+					<property name="local_mesure_unity" value="pixel"/>
+				</reportElement>
+				<box topPadding="2"/>
+				<textElement verticalAlignment="Top" markup="html">
+					<font size="10"/>
+					<paragraph lineSpacing="AtLeast" lineSpacingSize="2.0"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{detail30-value-medication}.equals("Yes")? "Medication list was reviewed during this visit" : null]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="34">
+			<printWhenExpression><![CDATA[$F{show-physician}!=null]]></printWhenExpression>
+			<staticText>
+				<reportElement x="378" y="3" width="150" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="5e43f1e8-85ac-4daf-b8c9-ced2d4b2ea02">
+					<printWhenExpression><![CDATA[$F{show-physician}!=null]]></printWhenExpression>
+				</reportElement>
+				<text><![CDATA[Date]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="2" y="3" width="210" height="15" isPrintInFirstWholeBand="true" isPrintWhenDetailOverflows="true" uuid="cd50e571-7f04-4361-8aa4-70fd2f922400"/>
+				<textFieldExpression><![CDATA[$F{show-physician}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement x="2" y="1" width="550" height="1" isPrintInFirstWholeBand="true" isPrintWhenDetailOverflows="true" uuid="6b7456fe-bd44-4745-85e6-af11255d5d79">
+					<printWhenExpression><![CDATA[$F{show-physician}!=null]]></printWhenExpression>
+				</reportElement>
+			</line>
+		</band>
+		<band height="198" splitType="Prevent">
+			<line>
+				<reportElement x="2" y="1" width="550" height="1" isPrintInFirstWholeBand="true" isPrintWhenDetailOverflows="true" uuid="c3f4ca52-18ef-4045-8011-fe109d5a0672"/>
+			</line>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="2" y="72" width="210" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="deede0a5-b54b-4575-aa43-6ca6b3c90315">
+					<printWhenExpression><![CDATA[$F{visited-staff-name}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement markup="html">
+					<font isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{field-staff-signed})=="true" ? ("<b>(" + $F{visited-staff-name} + ")</b>") : ("Electronically Signed by "+ $F{visited-staff-name})]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="2" y="3" width="161" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="2a5b3296-eb0d-4936-9117-3b7c007c0a62">
+					<printWhenExpression><![CDATA[$F{visited-staff-name}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Field Staff Signature]]></text>
+			</staticText>
+			<image>
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="0" y="15" width="162" height="35" uuid="9ead10f3-19b0-4c3d-8d51-c21d020f2abb"/>
+				<imageExpression><![CDATA[new File($F{field-staff-signature})]]></imageExpression>
+			</image>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="2" y="90" width="160" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="4e967e88-129d-4b02-bf59-d0f49f6178f5">
+					<printWhenExpression><![CDATA[$F{fs-signed-date-display}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement markup="html"/>
+				<textFieldExpression><![CDATA["<b>Date: </b>"+$F{fs-signed-date-display}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="2" y="183" width="155" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="f4a7c31e-e4d4-4087-a2e0-7982df5d146c">
+					<printWhenExpression><![CDATA[$F{supervised-user-signed-date-display}!=null &&
+$F{supervised-user-signature}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Left" markup="html"/>
+				<textFieldExpression><![CDATA["Date: "+$F{supervised-user-signed-date-display}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="2" y="166" width="352" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="1278f7e7-7700-4d2e-a0ef-46d842be788f">
+					<printWhenExpression><![CDATA[$F{supervised-user-name}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement markup="html"/>
+				<textFieldExpression><![CDATA[($F{supervisor-signed}== "true" ? ("<b>(" + $F{supervised-user-name} + ")</b>"): ("Electronically Signed by "+$F{supervised-user-name}))]]></textFieldExpression>
+			</textField>
+			<image>
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="0" y="129" width="162" height="34" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="9ead10f3-19b0-4c3d-8d51-c21d020f2abb"/>
+				<imageExpression><![CDATA[new File($F{supervised-user-signature})]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="2" y="115" width="160" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="0ccb1ff2-bf0b-41b5-a401-b875320a202e">
+					<printWhenExpression><![CDATA[$F{supervised-user-name}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Supervised Staff Signature]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="32" splitType="Stretch">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="2" y="1" width="147" height="15" uuid="5764ff9e-de03-471b-bcc6-ec114ebe4953"/>
+				<textFieldExpression><![CDATA[$F{patient-name}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="132" y="1" width="290" height="15" uuid="6bc0637e-6439-4c98-8feb-a753b341725a"/>
+				<textElement textAlignment="Center" markup="none">
+					<font size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{header}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="455" y="1" width="98" height="15" isPrintInFirstWholeBand="true" isPrintWhenDetailOverflows="true" uuid="4dd37f19-1562-4b30-afc3-bd81a4fd2e05"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA[$F{approved-date}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="219" y="19" width="117" height="12" uuid="1accbe2c-2531-4640-8d72-7f6dcb5a34b1"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[www.fasternotes.com]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="472" y="18" width="69" height="12" uuid="c2eaf1e2-583e-4bc5-a78d-23d360f3f826"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<textField evaluationTime="Report">
+				<reportElement x="540" y="18" width="15" height="12" uuid="72fa9484-f746-4bdb-9378-080b50365892"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+</jasperReport>

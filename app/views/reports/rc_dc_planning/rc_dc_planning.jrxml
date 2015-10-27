@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="rc_dc_planning" language="groovy" pageWidth="842" pageHeight="595" orientation="Landscape" columnWidth="822" leftMargin="10" rightMargin="10" topMargin="20" bottomMargin="20" isSummaryWithPageHeaderAndFooter="true" uuid="a25a73c4-a135-4ad0-900f-905d33d691ac">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/rc-dc-plans/plans/plan]]>
+	</queryString>
+	<field name="agency-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/rc-dc-plans/agency-name]]></fieldDescription>
+	</field>
+	<field name="patient-name-and-mr-number" class="java.lang.String">
+		<fieldDescription><![CDATA[patient-name-and-mr-number]]></fieldDescription>
+	</field>
+	<field name="patient-home-number" class="java.lang.String">
+		<fieldDescription><![CDATA[patient-home-number]]></fieldDescription>
+	</field>
+	<field name="patient-mobile-number" class="java.lang.String">
+		<fieldDescription><![CDATA[patient-mobile-number]]></fieldDescription>
+	</field>
+	<field name="patient-address" class="java.lang.String">
+		<fieldDescription><![CDATA[patient-address]]></fieldDescription>
+	</field>
+	<field name="episode" class="java.lang.String">
+		<fieldDescription><![CDATA[episode]]></fieldDescription>
+	</field>
+	<field name="five-days-window" class="java.lang.String">
+		<fieldDescription><![CDATA[five-days-window]]></fieldDescription>
+	</field>
+	<field name="primary-physician" class="java.lang.String">
+		<fieldDescription><![CDATA[primary-physician]]></fieldDescription>
+	</field>
+	<field name="physician-phone-number" class="java.lang.String">
+		<fieldDescription><![CDATA[physician-phone-number]]></fieldDescription>
+	</field>
+	<field name="visits" class="java.lang.String">
+		<fieldDescription><![CDATA[visits]]></fieldDescription>
+	</field>
+	<field name="soc-date" class="java.lang.String">
+		<fieldDescription><![CDATA[soc-date]]></fieldDescription>
+	</field>
+	<field name="case-manager-with-phone-number" class="java.lang.String">
+		<fieldDescription><![CDATA[case-manager-with-phone-number]]></fieldDescription>
+	</field>
+	<field name="case-manager" class="java.lang.String">
+		<fieldDescription><![CDATA[case-manager]]></fieldDescription>
+	</field>
+	<field name="total-rc-dc" class="java.lang.String">
+		<fieldDescription><![CDATA[/rc-dc-plans/total-rc-dc]]></fieldDescription>
+	</field>
+	<field name="date-range-statement" class="java.lang.String">
+		<fieldDescription><![CDATA[date-range-statement]]></fieldDescription>
+	</field>
+	<variable name="patient_count" class="java.lang.Integer" incrementType="Group" incrementGroup="case_manager" calculation="Count"/>
+	<group name="case_manager">
+		<groupExpression><![CDATA[$F{case-manager}]]></groupExpression>
+		<groupHeader>
+			<band height="50">
+				<staticText>
+					<reportElement uuid="222fc236-8640-49eb-9e57-4514cd492144" x="0" y="36" width="132" height="13"/>
+					<textElement verticalAlignment="Middle">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<text><![CDATA[PATIENT (MR)]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="222fc236-8640-49eb-9e57-4514cd492144" x="131" y="36" width="66" height="13"/>
+					<textElement verticalAlignment="Middle">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<text><![CDATA[HOME]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="222fc236-8640-49eb-9e57-4514cd492144" x="196" y="36" width="129" height="13"/>
+					<textElement verticalAlignment="Middle">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<text><![CDATA[MOBILE]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="222fc236-8640-49eb-9e57-4514cd492144" x="325" y="36" width="212" height="13"/>
+					<textElement verticalAlignment="Middle">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<text><![CDATA[ADDRESS]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="222fc236-8640-49eb-9e57-4514cd492144" x="536" y="36" width="111" height="13"/>
+					<textElement verticalAlignment="Middle">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<text><![CDATA[EPISODE]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="222fc236-8640-49eb-9e57-4514cd492144" x="646" y="36" width="148" height="13"/>
+					<textElement verticalAlignment="Middle">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<text><![CDATA[5 DAY WINDOW]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="222fc236-8640-49eb-9e57-4514cd492144" x="793" y="36" width="30" height="13"/>
+					<textElement verticalAlignment="Middle">
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<text><![CDATA[PLAN]]></text>
+				</staticText>
+				<textField>
+					<reportElement uuid="9005c92a-3bee-4a86-9b1f-e4e0653649b2" x="0" y="16" width="197" height="15"/>
+					<textElement>
+						<font size="9" isBold="true"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{case-manager}]]></textFieldExpression>
+				</textField>
+				<textField evaluationTime="Group" evaluationGroup="case_manager">
+					<reportElement uuid="0ddabe92-fe8d-4e8f-bfca-47112553aacb" x="196" y="16" width="129" height="15"/>
+					<textElement markup="none">
+						<font size="9"/>
+						<paragraph leftIndent="2"/>
+					</textElement>
+					<textFieldExpression><![CDATA["Patient(s) - " + $V{case_manager_COUNT}]]></textFieldExpression>
+				</textField>
+				<line>
+					<reportElement uuid="1053613a-e8c4-46f4-b8ca-45ba8e457f1c" x="0" y="49" width="822" height="1"/>
+					<graphicElement>
+						<pen lineWidth="1.25"/>
+					</graphicElement>
+				</line>
+			</band>
+		</groupHeader>
+	</group>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="35" splitType="Stretch">
+			<textField>
+				<reportElement uuid="855966e4-cdfc-46af-9206-16d101f8e994" x="0" y="1" width="311" height="15"/>
+				<textElement verticalAlignment="Middle" markup="html">
+					<paragraph leftIndent="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{agency-name}]]></textFieldExpression>
+			</textField>
+			<textField pattern="MM/dd/yyyy">
+				<reportElement uuid="0cc77009-8175-4d03-8b20-b05289b4a11e" x="611" y="1" width="212" height="15"/>
+				<textElement textAlignment="Right" verticalAlignment="Middle" markup="html">
+					<font size="10"/>
+					<paragraph leftIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA["<b>RC/DC Planning</b> " + (new SimpleDateFormat("MM/dd/yyyy")).format(new java.util.Date())]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="29" splitType="Stretch">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="bc44240f-b28b-4af5-b266-0bc5bb6667ee" x="0" y="0" width="132" height="13"/>
+				<textElement verticalAlignment="Bottom">
+					<font size="8"/>
+					<paragraph leftIndent="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{patient-name-and-mr-number}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="50cbf658-49d0-416a-9d8d-4c091dd315ef" x="131" y="0" width="66" height="13"/>
+				<textElement verticalAlignment="Bottom">
+					<font size="8"/>
+					<paragraph leftIndent="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{patient-home-number}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="0ddf49b6-b3dc-4c68-bd5a-281cb1832b3e" x="196" y="0" width="129" height="13"/>
+				<textElement verticalAlignment="Bottom">
+					<font size="8"/>
+					<paragraph leftIndent="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{patient-mobile-number}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="048b9e93-b22a-474e-8925-f9ea8e2c3564" x="325" y="0" width="212" height="13"/>
+				<textElement verticalAlignment="Bottom">
+					<font size="8"/>
+					<paragraph leftIndent="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{patient-address}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="f548e813-4122-473f-ac24-adefe02c3a7b" x="536" y="0" width="111" height="13"/>
+				<textElement verticalAlignment="Bottom">
+					<font size="8"/>
+					<paragraph leftIndent="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{episode}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="404f4193-3659-4759-98f2-8e1e72e5848e" x="646" y="0" width="148" height="13"/>
+				<textElement verticalAlignment="Bottom">
+					<font size="8"/>
+					<paragraph leftIndent="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{five-days-window}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="5c0a210b-6d40-4d16-b2a7-093f2ae2fdb7" x="0" y="13" width="132" height="13"/>
+				<textElement verticalAlignment="Bottom">
+					<font size="8" isBold="true"/>
+					<paragraph leftIndent="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{primary-physician}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="74cb8c51-b01c-4072-879f-d5620c0c006b" x="131" y="13" width="66" height="13"/>
+				<textElement verticalAlignment="Bottom">
+					<font size="8"/>
+					<paragraph leftIndent="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{physician-phone-number}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="3a57b4af-b00e-4f74-8538-d34ec8fbd56e" x="196" y="13" width="129" height="13"/>
+				<textElement verticalAlignment="Bottom">
+					<font size="8"/>
+					<paragraph leftIndent="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{visits}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="8e590556-c3a0-48fa-a57c-2c908d40f945" x="325" y="13" width="212" height="13"/>
+				<textElement verticalAlignment="Bottom">
+					<font size="8" isBold="true"/>
+					<paragraph leftIndent="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{case-manager-with-phone-number}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="1c23d6aa-4cc3-4297-bb05-33ea2e616e0b" x="536" y="13" width="111" height="13"/>
+				<textElement verticalAlignment="Bottom">
+					<font size="8" isBold="true"/>
+					<paragraph leftIndent="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA["SOC " + $F{soc-date}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="b633271e-8e74-4e76-8ad7-3d465ccf1dcd" x="646" y="13" width="148" height="13"/>
+				<textElement verticalAlignment="Bottom">
+					<font size="7" isBold="true"/>
+					<paragraph leftIndent="2"/>
+				</textElement>
+				<text><![CDATA[DATE RANGE:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="2db04e97-5be9-42a7-a8fd-4b53b1d02771" x="793" y="0" width="30" height="13"/>
+				<textElement verticalAlignment="Bottom">
+					<font size="9" isBold="true"/>
+					<paragraph leftIndent="2"/>
+				</textElement>
+				<text><![CDATA[RC]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="2db04e97-5be9-42a7-a8fd-4b53b1d02771" x="793" y="13" width="30" height="13"/>
+				<textElement verticalAlignment="Bottom">
+					<font size="9" isBold="true"/>
+					<paragraph leftIndent="2"/>
+				</textElement>
+				<text><![CDATA[DC]]></text>
+			</staticText>
+			<line>
+				<reportElement uuid="1053613a-e8c4-46f4-b8ca-45ba8e457f1c" x="0" y="26" width="822" height="1"/>
+				<graphicElement>
+					<pen lineWidth="0.5"/>
+				</graphicElement>
+			</line>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="20" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="1accbe2c-2531-4640-8d72-7f6dcb5a34b1" x="2" y="4" width="151" height="14"/>
+				<textElement textAlignment="Left">
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[www.FasterNotes.com]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="c5797114-93e9-493e-8874-263f12c41867" x="676" y="4" width="146" height="14"/>
+				<textElement textAlignment="Right">
+					<font size="10" isBold="false"/>
+				</textElement>
+				<text><![CDATA[Business Should be Easy]]></text>
+			</staticText>
+			<textField evaluationTime="Report">
+				<reportElement uuid="c3018ba1-ef7b-4b10-a720-da0560dfe939" x="418" y="2" width="20" height="14"/>
+				<textElement textAlignment="Left">
+					<font size="9" isBold="false"/>
+					<paragraph leftIndent="2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="1f06a1f2-20a1-4f71-a9d7-8a0ecb29ff7e" x="395" y="2" width="25" height="14"/>
+				<textElement textAlignment="Right">
+					<font size="9" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="63" splitType="Prevent">
+			<elementGroup>
+				<textField>
+					<reportElement uuid="3a6b9e0b-8f17-4338-9fd8-9db0a202e73b" x="1" y="10" width="821" height="13"/>
+					<textElement textAlignment="Center" markup="html">
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{date-range-statement}]]></textFieldExpression>
+				</textField>
+				<line>
+					<reportElement uuid="85afc193-9229-45c0-957b-8f02da78fca8" x="0" y="22" width="822" height="1"/>
+				</line>
+				<staticText>
+					<reportElement uuid="353f2882-ce08-428a-8270-5ea69fc1eaa8" x="1" y="31" width="821" height="13"/>
+					<textElement textAlignment="Center">
+						<font isBold="true"/>
+					</textElement>
+					<text><![CDATA[TOTAL RC/DC]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement uuid="1d7e4c5b-158a-4327-b59c-eb24d2267c87" x="328" y="46" width="250" height="15"/>
+					<textElement textAlignment="Left" markup="none">
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{total-rc-dc}]]></textFieldExpression>
+				</textField>
+				<line>
+					<reportElement uuid="85afc193-9229-45c0-957b-8f02da78fca8" x="320" y="44" width="190" height="1"/>
+				</line>
+			</elementGroup>
+		</band>
+	</summary>
+</jasperReport>

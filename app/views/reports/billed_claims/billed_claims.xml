@@ -1,0 +1,158 @@
+<billed-claims>
+  <sub-report-url>/home/msuser1/workspace/git_repos/fasternotes/app/views/reports/billed_claims/</sub-report-url>
+  <agency-name>Metro</agency-name>
+  <group-by type="string">S</group-by>
+  <without-group-flag type="boolean">false</without-group-flag>
+  <calim-type-group-first>
+    <group-first-type>R</group-first-type>
+    <group-first-title>RAPS</group-first-title>
+  </calim-type-group-first>
+  <calim-type-group-second>
+    <group-second-type>F</group-second-type>
+    <group-second-title>Final Claims</group-second-title>
+  </calim-type-group-second>
+  <calim-type-group-third>
+    <group-third-type>L</group-third-type>
+    <group-third-title>LUPA</group-third-title>
+  </calim-type-group-third>
+  <invoices>
+    <invoice>
+      <patient-name-and-mr-number>Smith (54)</patient-name-and-mr-number>
+      <soc-date>01/01/2013</soc-date>
+      <episode>01/01/2013 - 03/01/2013</episode>
+      <claim-type>F</claim-type>
+      <claim-type-desc></claim-type-desc>
+      <sent-date>01/20/13</sent-date>
+      <expected-date>01/22/13</expected-date>
+      <total-amount>2000</total-amount>
+      <expected-amount>1200</expected-amount>
+    </invoice>
+    <invoice>
+      <patient-name-and-mr-number>Smith (54)</patient-name-and-mr-number>
+      <soc-date>01/01/2013</soc-date>
+      <episode>01/01/2013 - 03/01/2013</episode>
+      <claim-type>F</claim-type>
+      <claim-type-desc></claim-type-desc>
+      <sent-date>01/15/13</sent-date>
+      <expected-date>01/22/13</expected-date>
+      <total-amount>2000</total-amount>
+      <expected-amount>1200</expected-amount>
+    </invoice>
+    <invoice>
+      <patient-name-and-mr-number>Smith (54)</patient-name-and-mr-number>
+      <soc-date>01/01/2013</soc-date>
+      <episode>01/01/2013 - 03/01/2013</episode>
+      <claim-type>L</claim-type>
+      <claim-type-desc></claim-type-desc>
+      <sent-date>01/15/13</sent-date>
+      <expected-date>01/22/13</expected-date>
+      <total-amount>2000</total-amount>
+      <expected-amount>1200</expected-amount>
+    </invoice>
+    <invoice>
+      <patient-name-and-mr-number>Smith (54)</patient-name-and-mr-number>
+      <soc-date>01/01/2013</soc-date>
+      <episode>01/01/2013 - 03/01/2013</episode>
+      <claim-type>R</claim-type>
+      <claim-type-desc></claim-type-desc>
+      <sent-date>01/15/13</sent-date>
+      <expected-date>01/22/13</expected-date>
+      <total-amount>2000</total-amount>
+      <expected-amount>1200</expected-amount>
+    </invoice>
+    <invoice>
+      <patient-name-and-mr-number>Smith (54)</patient-name-and-mr-number>
+      <soc-date>01/01/2014</soc-date>
+      <episode>01/01/2014 - 03/01/2014</episode>
+      <claim-type>L</claim-type>
+      <sent-date>01/15/14</sent-date>
+      <expected-date>01/22/14</expected-date>
+      <total-amount>2000</total-amount>
+      <expected-amount>1200</expected-amount>
+    </invoice>
+    <invoice>
+      <patient-name-and-mr-number>Smith (54)</patient-name-and-mr-number>
+      <soc-date>01/01/2013</soc-date>
+      <episode>01/01/2013 - 03/01/2013</episode>
+      <claim-type>F</claim-type>
+      <claim-type-desc></claim-type-desc>
+      <sent-date>01/20/13</sent-date>
+      <expected-date>01/22/13</expected-date>
+      <total-amount>2000</total-amount>
+      <expected-amount>1200</expected-amount>
+    </invoice>
+    <invoice>
+      <patient-name-and-mr-number>Smith (54)</patient-name-and-mr-number>
+      <soc-date>01/01/2013</soc-date>
+      <episode>01/01/2013 - 03/01/2013</episode>
+      <claim-type>F</claim-type>
+      <claim-type-desc></claim-type-desc>
+      <sent-date>01/15/13</sent-date>
+      <expected-date>01/22/13</expected-date>
+      <total-amount>2000</total-amount>
+      <expected-amount>1200</expected-amount>
+    </invoice>
+    <invoice>
+      <patient-name-and-mr-number>Smith (54)</patient-name-and-mr-number>
+      <soc-date>01/01/2013</soc-date>
+      <episode>01/01/2013 - 03/01/2013</episode>
+      <claim-type>L</claim-type>
+      <claim-type-desc></claim-type-desc>
+      <sent-date>01/15/13</sent-date>
+      <expected-date>01/22/13</expected-date>
+      <total-amount>2000</total-amount>
+      <expected-amount>1200</expected-amount>
+    </invoice>
+    <invoice>
+      <patient-name-and-mr-number>Smith (54)</patient-name-and-mr-number>
+      <soc-date>01/01/2013</soc-date>
+      <episode>01/01/2013 - 03/01/2013</episode>
+      <claim-type>R</claim-type>
+      <claim-type-desc></claim-type-desc>
+      <sent-date>01/15/13</sent-date>
+      <expected-date>01/22/13</expected-date>
+      <total-amount>2000</total-amount>
+      <expected-amount>1200</expected-amount>
+    </invoice>
+    <invoice>
+      <patient-name-and-mr-number>Smith (54)</patient-name-and-mr-number>
+      <soc-date>01/01/2014</soc-date>
+      <episode>01/01/2014 - 03/01/2014</episode>
+      <claim-type>L</claim-type>
+      <sent-date>01/15/14</sent-date>
+      <expected-date>01/22/14</expected-date>
+      <total-amount>2000</total-amount>
+      <expected-amount>1200</expected-amount>
+    </invoice>
+    <invoice>
+      <patient-name-and-mr-number>Smith (54)</patient-name-and-mr-number>
+      <soc-date>01/01/2014</soc-date>
+      <episode>01/01/2014 - 03/01/2014</episode>
+      <claim-type>R</claim-type>
+      <sent-date>01/15/14</sent-date>
+      <expected-date>01/22/14</expected-date>
+      <total-amount>2000</total-amount>
+      <expected-amount>1200</expected-amount>
+    </invoice>
+    <invoice>
+      <patient-name-and-mr-number>Smith (54)</patient-name-and-mr-number>
+      <soc-date>01/01/2014</soc-date>
+      <episode>01/01/2014 - 03/01/2014</episode>
+      <claim-type>R</claim-type>
+      <sent-date>01/15/14</sent-date>
+      <expected-date>01/22/14</expected-date>
+      <total-amount>2000</total-amount>
+      <expected-amount>1200</expected-amount>
+    </invoice>
+    <invoice>
+      <patient-name-and-mr-number>Smith (54)</patient-name-and-mr-number>
+      <soc-date>01/01/2014</soc-date>
+      <episode>01/01/2014 - 03/01/2014</episode>
+      <claim-type>F</claim-type>
+      <sent-date>01/15/14</sent-date>
+      <expected-date>01/22/14</expected-date>
+      <total-amount>2000</total-amount>
+      <expected-amount>1200</expected-amount>
+    </invoice>
+  </invoices>
+</billed-claims>

@@ -1,0 +1,1685 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="tinetti_assement" language="groovy" pageWidth="595" pageHeight="842" columnWidth="535" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" isSummaryWithPageHeaderAndFooter="true" uuid="2904e858-2014-425c-843e-b02cd52a64e5">
+	<property name="ireport.zoom" value="1.1000000000000003"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="589"/>
+	<style name="Title" forecolor="#FFFFFF" fontName="Arial" fontSize="26" isBold="true" pdfFontName="Helvetica-Bold"/>
+	<style name="SubTitle" forecolor="#666666" fontName="Arial" fontSize="18"/>
+	<style name="Column header" forecolor="#666666" fontName="Arial" fontSize="12" isBold="true"/>
+	<style name="Detail" fontName="Arial" fontSize="12"/>
+	<queryString language="xPath">
+		<![CDATA[/document]]>
+	</queryString>
+	<field name="sitting-balance" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/data/sitting-balance]]></fieldDescription>
+	</field>
+	<field name="arises" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/data/arises]]></fieldDescription>
+	</field>
+	<field name="attempts-to-arise" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/data/attempts-to-arise]]></fieldDescription>
+	</field>
+	<field name="immediate-standing-balance" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/data/immediate-standing-balance]]></fieldDescription>
+	</field>
+	<field name="standing-balance" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/data/standing-balance]]></fieldDescription>
+	</field>
+	<field name="nudged" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/data/nudged]]></fieldDescription>
+	</field>
+	<field name="eyes-closed" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/data/eyes-closed]]></fieldDescription>
+	</field>
+	<field name="turning-360-degrees" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/data/turning-360-degrees]]></fieldDescription>
+	</field>
+	<field name="sitting-down" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/data/sitting-down]]></fieldDescription>
+	</field>
+	<field name="balance-score" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/data/balance-score]]></fieldDescription>
+	</field>
+	<field name="gait-score" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/data/gait-score]]></fieldDescription>
+	</field>
+	<field name="total" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/data/total]]></fieldDescription>
+	</field>
+	<field name="rater" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/data/rater]]></fieldDescription>
+	</field>
+	<field name="initiation-of-gait" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/data/initiation-of-gait]]></fieldDescription>
+	</field>
+	<field name="right-swing-foot" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/data/right-swing-foot]]></fieldDescription>
+	</field>
+	<field name="left-swing-foot" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/data/left-swing-foot]]></fieldDescription>
+	</field>
+	<field name="step-symmetry" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/data/step-symmetry]]></fieldDescription>
+	</field>
+	<field name="step-continuity" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/data/step-continuity]]></fieldDescription>
+	</field>
+	<field name="path" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/data/path]]></fieldDescription>
+	</field>
+	<field name="trunk" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/data/trunk]]></fieldDescription>
+	</field>
+	<field name="walking-stance" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/data/walking-stance]]></fieldDescription>
+	</field>
+	<field name="patient-name" class="java.lang.String">
+		<fieldDescription><![CDATA[data/patient-name]]></fieldDescription>
+	</field>
+	<field name="mr" class="java.lang.String">
+		<fieldDescription><![CDATA[data/mr]]></fieldDescription>
+	</field>
+	<field name="patient-name-with-mr-display" class="java.lang.String">
+		<fieldDescription><![CDATA[patient-name-with-mr-display]]></fieldDescription>
+	</field>
+	<field name="agency-name" class="java.lang.String">
+		<fieldDescription><![CDATA[agency-name]]></fieldDescription>
+	</field>
+	<field name="date-time-display" class="java.lang.String">
+		<fieldDescription><![CDATA[date-time-display]]></fieldDescription>
+	</field>
+	<field name="office-staff-name" class="java.lang.String">
+		<fieldDescription><![CDATA[office-staff-name]]></fieldDescription>
+	</field>
+	<field name="office-staff-signature" class="java.lang.String">
+		<fieldDescription><![CDATA[office-staff-signature]]></fieldDescription>
+	</field>
+	<field name="supervised-user-signature" class="java.lang.String">
+		<fieldDescription><![CDATA[supervised-user-signature]]></fieldDescription>
+	</field>
+	<field name="supervised-user-name" class="java.lang.String">
+		<fieldDescription><![CDATA[supervised-user-name]]></fieldDescription>
+	</field>
+	<field name="field-staff-signature" class="java.lang.String">
+		<fieldDescription><![CDATA[field-staff-signature]]></fieldDescription>
+	</field>
+	<field name="visited-staff-name" class="java.lang.String">
+		<fieldDescription><![CDATA[visited-staff-name]]></fieldDescription>
+	</field>
+	<field name="fs-sign-date" class="java.lang.String">
+		<fieldDescription><![CDATA[fs-sign-date]]></fieldDescription>
+	</field>
+	<field name="os-sign-date" class="java.lang.String">
+		<fieldDescription><![CDATA[os-sign-date]]></fieldDescription>
+	</field>
+	<field name="supervised-user-sign-date" class="java.lang.String">
+		<fieldDescription><![CDATA[supervised-user-sign-date]]></fieldDescription>
+	</field>
+	<field name="fs-signed-date-display" class="java.lang.String">
+		<fieldDescription><![CDATA[fs-signed-date-display]]></fieldDescription>
+	</field>
+	<field name="os-signed-date-display" class="java.lang.String">
+		<fieldDescription><![CDATA[os-signed-date-display]]></fieldDescription>
+	</field>
+	<field name="supervised-user-signed-date-display" class="java.lang.String">
+		<fieldDescription><![CDATA[supervised-user-signed-date-display]]></fieldDescription>
+	</field>
+	<field name="approved-date" class="java.lang.String">
+		<fieldDescription><![CDATA[data/approved-date]]></fieldDescription>
+	</field>
+	<field name="turning-360-degrees-b" class="java.lang.String">
+		<fieldDescription><![CDATA[data/turning-360-degrees-b]]></fieldDescription>
+	</field>
+	<field name="right-swing-foot-b" class="java.lang.String">
+		<fieldDescription><![CDATA[data/right-swing-foot-b]]></fieldDescription>
+	</field>
+	<field name="left-swing-foot-b" class="java.lang.String">
+		<fieldDescription><![CDATA[data/left-swing-foot-b]]></fieldDescription>
+	</field>
+	<field name="field-staff-signed" class="java.lang.String">
+		<fieldDescription><![CDATA[field-staff-signed]]></fieldDescription>
+	</field>
+	<field name="supervisor-signed" class="java.lang.String">
+		<fieldDescription><![CDATA[supervisor-signed]]></fieldDescription>
+	</field>
+	<field name="therapist-name-display" class="java.lang.String">
+		<fieldDescription><![CDATA[therapist-name-display]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="70">
+			<textField>
+				<reportElement uuid="325ea542-d300-4943-b419-1b6c1a4e56a5" x="263" y="0" width="291" height="20"/>
+				<textElement textAlignment="Right">
+					<font size="16" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{agency-name}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="b96c4123-4de9-4ace-86f1-83c0f10b6305" x="219" y="18" width="335" height="20"/>
+				<textElement textAlignment="Right">
+					<font size="16" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Tinneti Assessment Tool]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="e3c6f5c8-cc2b-455e-a101-e7e7553efc57" x="1" y="42" width="243" height="12"/>
+				<textElement markup="html"/>
+				<textFieldExpression><![CDATA[$F{patient-name-with-mr-display}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="3d52b1f7-15d1-417d-9496-0e1e6cdbfaf0" x="323" y="42" width="231" height="12"/>
+				<textElement textAlignment="Right" markup="html"/>
+				<textFieldExpression><![CDATA[$F{date-time-display}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement uuid="ed654a05-af4a-4b34-ad6c-5feb7fa1509e" x="0" y="68" width="554" height="1"/>
+			</line>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="9d5322d6-1bce-4849-832f-cc85094046b2" x="1" y="54" width="243" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement markup="html"/>
+				<textFieldExpression><![CDATA[$F{therapist-name-display}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="353">
+			<printWhenExpression><![CDATA[$F{sitting-balance}!=null || $F{arises}!=null ||
+$F{attempts-to-arise}!=null || $F{immediate-standing-balance}!=null ||
+$F{standing-balance}!=null || $F{nudged}!=null || $F{eyes-closed}!=null ||
+$F{turning-360-degrees}!=null || $F{sitting-down}!=null ||
+$F{balance-score}!=null || $F{gait-score}!=null ||
+$F{total}!=null || $F{rater}!=null || $F{initiation-of-gait}!=null ||
+$F{right-swing-foot}!=null || $F{left-swing-foot}!=null ||
+$F{step-symmetry}!=null || $F{step-continuity}!=null ||
+$F{path}!=null || $F{trunk}!=null ||$F{walking-stance}!=null]]></printWhenExpression>
+			<staticText>
+				<reportElement uuid="e2daa341-8080-4c62-ba01-1eb02100bc94" x="2" y="47" width="112" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{sitting-balance}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[1. Sitting Balance:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="040cf7bc-b773-404f-a54b-e66480d21267" x="2" y="93" width="89" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{arises}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[2. Arises:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="1da7ac55-0b97-42f3-8bff-62dacaa28b3a" x="2" y="154" width="122" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{attempts-to-arise}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[3. Attempts to Arise:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="16" y="62" width="129" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{sitting-balance}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Leans or slides in chair]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="73a6dc7e-9d73-433b-b673-0875ff45290a" x="2" y="2" width="100" height="15">
+					<printWhenExpression><![CDATA[$F{sitting-balance}!=null || $F{arises}!=null ||
+$F{attempts-to-arise}!=null ||
+$F{immediate-standing-balance}!=null ||
+$F{standing-balance}!=null ||
+$F{nudged}!=null ||
+$F{eyes-closed}!=null ||
+$F{turning-360-degrees}!=null ||
+$F{sitting-down}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[BALANCE]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="f462b52d-e2e5-4d80-b15d-453556d80845" x="2" y="18" width="274" height="24">
+					<printWhenExpression><![CDATA[$F{sitting-balance}!=null || $F{arises}!=null ||
+$F{attempts-to-arise}!=null ||
+$F{immediate-standing-balance}!=null ||
+$F{standing-balance}!=null ||
+$F{nudged}!=null ||
+$F{eyes-closed}!=null ||
+$F{turning-360-degrees}!=null ||
+$F{sitting-down}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[(Pt. seated in hard, armless chair. Test the following maneuvers)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b558ef2f-ad48-4be7-9fa5-c6458f258e62" x="16" y="77" width="129" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{sitting-balance}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Steady, safe]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="eb32607a-db98-41df-b578-834ad6e70118" x="250" y="62" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{sitting-balance}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Right" markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{sitting-balance}=="0" ? "= 0"  : "")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="16" y="108" width="129" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{arises}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Unable without help]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="16" y="123" width="129" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{arises}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Able, uses arms to help]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="141f8ff8-dd5b-441a-b11f-d747d7bb8804" x="250" y="108" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{arises}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Right" markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{arises}=="0" ? "= 0" : "")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="9ab727b9-7893-405f-b62f-095b3af1bbea" x="250" y="123" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{arises}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Right" markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{arises}=="1" ? "= 1" : "")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="16" y="138" width="129" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{arises}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Able without using arms]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="e25b473e-392f-42f4-9452-c2df1fbe4c69" x="250" y="138" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{arises}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Right" markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{arises}=="2" ? "= 2" : "")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="70561833-2848-4e92-9f99-c42edf03e4ca" x="250" y="199" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{attempts-to-arise}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Right" markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{attempts-to-arise}=="2" ? "= 2" : "")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="16" y="184" width="129" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{attempts-to-arise}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Able, requires >1 attempt]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="16" y="199" width="129" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{attempts-to-arise}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Able to arise, 1 attempt
+]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="cd5faeba-6577-4209-b83f-ad38cdec0f40" x="250" y="169" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{attempts-to-arise}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Right" markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{attempts-to-arise}=="0" ? "= 0" : "")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="16" y="169" width="129" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{attempts-to-arise}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Unable without help]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="6935cfca-4f6c-4e4f-a4dc-bc0209246639" x="250" y="184" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{attempts-to-arise}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Right" markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{attempts-to-arise}=="1" ? "= 1" : "")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="16" y="262" width="129" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{immediate-standing-balance}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Steady without support]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="16" y="232" width="226" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{immediate-standing-balance}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Unsteady (swaggers, moves feet, trunk sways)
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="1da7ac55-0b97-42f3-8bff-62dacaa28b3a" x="2" y="215" width="260" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{immediate-standing-balance}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[4. Immediate Standing Balance (first 5 sec.):]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="72149859-3f53-45ca-8753-ebc0b32ae73a" x="250" y="235" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{immediate-standing-balance}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Right" markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{immediate-standing-balance}=="0"? "= 0" : "")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="2df7622e-a794-4c6d-9e9b-d301aedbfa02" x="250" y="263" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{immediate-standing-balance}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Right" markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{immediate-standing-balance}=="2"? "= 2" : "")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="16" y="247" width="226" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{immediate-standing-balance}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Steady, but uses walker or other support]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="4c586955-4eff-41a0-88f0-56ae1b82e961" x="250" y="249" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{immediate-standing-balance}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Right" markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{immediate-standing-balance}=="1"? "= 1" : "")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="1da7ac55-0b97-42f3-8bff-62dacaa28b3a" x="2" y="281" width="122" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{standing-balance}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[5. Standing Balance:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="16" y="296" width="66" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{standing-balance}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Unsteady]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="90f56def-c0f8-4171-9c23-65e0935aec7b" x="250" y="338" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{standing-balance}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Right" markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{standing-balance}=="2"? "= 2" : "")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="7bb76999-18a6-43a5-bdff-8eebfc8f13eb" x="250" y="297" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{standing-balance}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Right" markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{standing-balance}=="0"? "= 0" : "")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="e571013e-148f-4929-8e49-56164d781dd9" x="250" y="322" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{standing-balance}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Right" markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{standing-balance}=="1"? "= 1" : "")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="16" y="311" width="226" height="27" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{standing-balance}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Steady, but wide stance (medial . heels > 4" apart) & uses cane Or other support]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="16" y="338" width="164" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{standing-balance}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Narrow stance without support]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="f462b52d-e2e5-4d80-b15d-453556d80845" x="279" y="18" width="274" height="24">
+					<printWhenExpression><![CDATA[$F{initiation-of-gait}!=null || $F{right-swing-foot}!=null ||
+$F{left-swing-foot}!=null ||
+$F{step-symmetry}!=null || $F{step-continuity}!=null ||
+$F{step-continuity}!=null ||$F{path}!=null || $F{trunk}!=null ||
+$F{walking-stance}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[(Pt. walks first at usual pace, then back at "rapid, but safe" pace using usual assistive device)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="73a6dc7e-9d73-433b-b673-0875ff45290a" x="279" y="2" width="100" height="15">
+					<printWhenExpression><![CDATA[$F{initiation-of-gait}!=null || $F{right-swing-foot}!=null ||
+$F{left-swing-foot}!=null ||
+$F{step-symmetry}!=null || $F{step-continuity}!=null ||
+$F{step-continuity}!=null ||$F{path}!=null || $F{trunk}!=null ||
+$F{walking-stance}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[GAIT]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b558ef2f-ad48-4be7-9fa5-c6458f258e62" x="301" y="77" width="79" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{initiation-of-gait}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-No hesitancy]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="e2daa341-8080-4c62-ba01-1eb02100bc94" x="279" y="47" width="275" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{initiation-of-gait}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[10. Initiation of Gait (immediately after told to "go"):]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="97949f30-7be2-4430-88a0-584dc18a5210" x="534" y="77" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{initiation-of-gait}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{initiation-of-gait}=="1"? "= 1" : "")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="301" y="62" width="227" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{initiation-of-gait}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Any hesitancy or multiple attempts to start]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="a51724ef-da04-40c1-9030-7f973049ee04" x="534" y="62" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{initiation-of-gait}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{initiation-of-gait}=="0"? "= 0" : "")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="040cf7bc-b773-404f-a54b-e66480d21267" x="279" y="93" width="160" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{left-swing-foot}!=null || $F{right-swing-foot}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[11. Step Length and Height:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="040cf7bc-b773-404f-a54b-e66480d21267" x="288" y="108" width="160" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{right-swing-foot}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[A. Right swing foot:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="040cf7bc-b773-404f-a54b-e66480d21267" x="288" y="193" width="160" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{left-swing-foot}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[B. Left swing foot:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="301" y="123" width="206" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{right-swing-foot}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Does not pass left stance foot with step]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="301" y="153" width="213" height="24" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{right-swing-foot}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Right foot does not clear floor completely with step]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="25aed035-3350-400a-bc6d-d78aa1433722" x="534" y="153" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{right-swing-foot}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{right-swing-foot-b}=="0"? "= 0" : "")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="736cd675-97d3-411f-99db-4900a26a255d" x="534" y="138" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{right-swing-foot}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{right-swing-foot}=="1"? "= 1" : "")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="301" y="138" width="129" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{right-swing-foot}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Passes left stance foot]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="301" y="177" width="173" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{right-swing-foot}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Right foot completely clears floor]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="f79e7ad9-ac4d-4b76-ba82-f04a230fccff" x="534" y="177" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{right-swing-foot}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{right-swing-foot-b}=="1"? "= 1" : "")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="301" y="238" width="213" height="24" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{left-swing-foot}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Left foot does not clear floor completely with step]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="0bc16f52-68d1-44f9-8bb5-68f934144fa2" x="534" y="264" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{left-swing-foot}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{left-swing-foot-b}=="1" ? "= 1" : "")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="301" y="208" width="211" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{left-swing-foot}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Does not pass right stance foot with step]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="301" y="223" width="129" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{left-swing-foot}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Passes right stance foot]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="59803001-6816-4203-a1a2-991fcc50b12e" x="534" y="223" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{left-swing-foot}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{left-swing-foot}=="1" ? "= 1" : "")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="618e0b9d-dc49-4bce-8ca0-6df7f20d4774" x="534" y="238" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{left-swing-foot}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{left-swing-foot-b}=="0" ? "= 0" : "")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="301" y="264" width="173" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{left-swing-foot}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Left foot completely clears floor]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="7cb3d8d4-40aa-41e6-bdff-d1e678cd6f27" x="534" y="208" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{left-swing-foot}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{left-swing-foot}=="0"? "= 0" : "")]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="1104e39e-5ccc-4100-9bc9-e82796bdbf68" x="534" y="296" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{step-symmetry}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{step-symmetry}=="0"? "= 0" : "")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="b558ef2f-ad48-4be7-9fa5-c6458f258e62" x="302" y="311" width="174" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{step-symmetry}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Right and left step appear equal]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="302" y="296" width="235" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{step-symmetry}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Right and left step length not equal(estimate)]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="4fc619b2-acdc-4dc1-bfc3-c0c7e2205431" x="534" y="311" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{step-symmetry}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{step-symmetry}=="1"? "= 1" : "")]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="e2daa341-8080-4c62-ba01-1eb02100bc94" x="279" y="281" width="126" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{step-symmetry}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[12. Step symmetry:]]></text>
+			</staticText>
+			<elementGroup>
+				<textField>
+					<reportElement uuid="116f82bb-0fa6-4f99-b627-9a6c9f1bffde" x="534" y="123" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{right-swing-foot}!=null]]></printWhenExpression>
+					</reportElement>
+					<box>
+						<topPen lineWidth="0.0"/>
+						<leftPen lineWidth="0.0"/>
+						<bottomPen lineWidth="0.0"/>
+						<rightPen lineWidth="0.0"/>
+					</box>
+					<textElement markup="none">
+						<font size="10"/>
+					</textElement>
+					<textFieldExpression><![CDATA[($F{right-swing-foot}=="0"? "= 0" : "")]]></textFieldExpression>
+				</textField>
+			</elementGroup>
+			<elementGroup>
+				<textField>
+					<reportElement uuid="6647f77d-1681-4764-8c77-ba19c1135e7e" x="250" y="81" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{sitting-balance}!=null]]></printWhenExpression>
+					</reportElement>
+					<box>
+						<topPen lineWidth="0.0"/>
+						<leftPen lineWidth="0.0"/>
+						<bottomPen lineWidth="0.0"/>
+						<rightPen lineWidth="0.0"/>
+					</box>
+					<textElement textAlignment="Right" markup="none">
+						<font size="10"/>
+					</textElement>
+					<textFieldExpression><![CDATA[($F{sitting-balance}=="1" ? "= 1" : "")]]></textFieldExpression>
+				</textField>
+			</elementGroup>
+		</band>
+		<band height="272">
+			<textField>
+				<reportElement uuid="ca51ff15-fe96-47d8-8e63-494897355beb" x="534" y="17" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{step-continuity}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{step-continuity}=="0" ? "= 0" : "" )]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="5fba4f0e-b831-4df1-a96c-fcb2879246d2" x="534" y="32" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{step-continuity}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{step-continuity}=="1" ? "= 1" : "" )]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="8503aca3-4184-4382-a724-899a4a5cdf65" x="250" y="73" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{nudged}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Right" markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[( $F{nudged}=="2" ? "= 2" : "" )]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="16" y="70" width="66" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{nudged}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Steady]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="1da7ac55-0b97-42f3-8bff-62dacaa28b3a" x="2" y="1" width="270" height="38" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{nudged}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[6. Nudged (subject at max position with feet as close together as possible, examiner pushes lightly on pt. sternum with palm of hand 3x):]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="3c6457b7-843b-4a02-a6e8-53e0a9bc60a7" x="250" y="43" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{nudged}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Right" markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[( $F{nudged}=="0" ? "= 0" : "" )]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="16" y="55" width="164" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{nudged}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Staggers, grabs, catches self]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="e985c0f2-6b1c-4427-80c4-a2f3ac3fed63" x="250" y="58" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{nudged}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Right" markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[( $F{nudged}=="1" ? "= 1" : "" )]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="16" y="40" width="73" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{nudged}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Begins to fall]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="16" y="101" width="66" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{eyes-closed}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Unsteady]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="1da7ac55-0b97-42f3-8bff-62dacaa28b3a" x="2" y="86" width="205" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{eyes-closed}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[7. Eyes Closed (at max position #6):]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="b2588588-a7d6-4cb1-afbb-f21597087953" x="250" y="104" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{eyes-closed}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Right" markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[( $F{eyes-closed}=="0" ? "= 0" : "" )]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="16" y="116" width="66" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{eyes-closed}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Steady]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="56f162aa-86d8-49a5-bc84-38ce293eac8b" x="250" y="119" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{eyes-closed}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Right" markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[( $F{eyes-closed}=="1" ? "= 1" : "" )]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="0d180701-bddd-4682-a280-6db01c69e3fb" x="250" y="165" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{turning-360-degrees}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Right" markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[( $F{turning-360-degrees}=="1" ? "= 1" : "" )]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="16" y="162" width="73" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{turning-360-degrees}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Continuous
+]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="16" y="147" width="107" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{turning-360-degrees}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Discontinuous steps]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="1da7ac55-0b97-42f3-8bff-62dacaa28b3a" x="2" y="132" width="205" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{turning-360-degrees}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[8. Turning 360 degrees:]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="6c75504b-85b1-4aae-9018-00321d7973e5" x="250" y="150" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{turning-360-degrees}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Right" markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[( $F{turning-360-degrees}=="0" ? "= 0" : "" )]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="16" y="177" width="156" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{turning-360-degrees}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Unsteady (grabs, staggers)
+]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="4876887b-9116-44e4-95c1-1e8fb9d311ed" x="250" y="195" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{turning-360-degrees}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Right" markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[( $F{turning-360-degrees-b}=="1" ? "= 1" : "" )]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="86beeb87-9d40-4e69-9c6d-02d9763d25ee" x="250" y="180" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{turning-360-degrees}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Right" markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[( $F{turning-360-degrees-b}=="0" ? "= 0" : "" )]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="16" y="192" width="66" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{turning-360-degrees}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Steady]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="16" y="255" width="114" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{sitting-down}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Safe, smooth motion]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="1da7ac55-0b97-42f3-8bff-62dacaa28b3a" x="2" y="209" width="205" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{sitting-down}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[9. Sitting Down:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="16" y="224" width="225" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{sitting-down}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Unsafe (misjudged distance, falls into chair)]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="035d6c0e-c840-4df9-adf3-80ed5de75c8e" x="250" y="242" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{sitting-down}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Right" markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[( $F{sitting-down}=="1" ? "= 1" : "" )]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="e3e7319f-c1f4-40e9-8472-907c99a7a4fc" x="250" y="257" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{sitting-down}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Right" markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[( $F{sitting-down}=="2" ? "= 2" : "" )]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="5be5cc26-2c61-4ed2-b62b-0feac7569397" x="250" y="227" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{sitting-down}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement textAlignment="Right" markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[( $F{sitting-down}=="0" ? "= 0" : "" )]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="16" y="239" width="194" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{sitting-down}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Uses arms or not a smooth motion]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b558ef2f-ad48-4be7-9fa5-c6458f258e62" x="302" y="31" width="133" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{step-continuity}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Steps appear continuous]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="302" y="16" width="214" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{step-continuity}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Stopping or discontinuity between steps]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="e2daa341-8080-4c62-ba01-1eb02100bc94" x="279" y="1" width="126" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{step-continuity}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[13. Step Continuity:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b558ef2f-ad48-4be7-9fa5-c6458f258e62" x="302" y="97" width="226" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{path}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Mid/moderate deviation or uses walking aid]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="e2daa341-8080-4c62-ba01-1eb02100bc94" x="279" y="47" width="265" height="35" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{path}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[14. Path (estimated in relation to floor tiles, 12" diameter, observe excursion of 1' over about 10' of the course):]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="af3d2e74-b09b-4769-8a5d-c8c8fa7bad70" x="534" y="100" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{path}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{path}=="1" ? "= 1" : "" )]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="302" y="82" width="103" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{path}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Marked deviation]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="5ce226fd-e68f-4025-b4b8-fd9d8159d20a" x="534" y="86" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{path}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{path}=="0" ? "= 0" : "" )]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="b558ef2f-ad48-4be7-9fa5-c6458f258e62" x="302" y="112" width="151" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{path}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Straight without walking aid]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="f30f9a96-8bb8-4036-b105-55f9976c4b6b" x="534" y="115" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{path}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{path}=="2" ? "= 2" : "" )]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="1af0761e-e9dc-4b4f-b1cd-96532e4e6273" x="534" y="146" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{trunk}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[( $F{trunk}=='0' ? "= 0" : "" )]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="1da7ac55-0b97-42f3-8bff-62dacaa28b3a" x="279" y="128" width="66" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{trunk}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[15. Trunk:]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="92ffb745-c411-45ba-9603-19dbebe54f2a" x="534" y="185" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{trunk}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[( $F{trunk}=='2' ? "= 2" : "" )]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="302" y="182" width="197" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{trunk}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-No sway, no flexion, no arms, no aid]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="932a3f00-e7ac-4045-afc3-fc3c36a20f67" x="534" y="164" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{trunk}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[( $F{trunk}=='1' ? "= 1" : "" )]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="302" y="143" width="174" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{trunk}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Marked sway or uses walking aid]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="302" y="158" width="233" height="24" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{trunk}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-No sway but flexion of knees or back, or spreads arms out while walking]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="7f5b1926-3f86-47df-92f4-0b7aae5776ba" x="534" y="231" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{walking-stance}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{walking-stance}=='1' ? "= 1" : "" )]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="92bb1f2a-1523-4998-87b0-5c990fc8b532" x="301" y="213" width="129" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{walking-stance}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Heels apart]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="b0db7161-6808-48b4-b32c-5744c5c5b194" x="534" y="216" width="20" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{walking-stance}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.0"/>
+					<leftPen lineWidth="0.0"/>
+					<bottomPen lineWidth="0.0"/>
+					<rightPen lineWidth="0.0"/>
+				</box>
+				<textElement markup="none">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{walking-stance}=='0' ? "= 0" : "" )]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="b558ef2f-ad48-4be7-9fa5-c6458f258e62" x="301" y="228" width="188" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{walking-stance}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[-Heels almost touching while walking]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="e2daa341-8080-4c62-ba01-1eb02100bc94" x="279" y="198" width="126" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{walking-stance}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[16. Walking Stance:]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="30">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="bb221a4e-fa89-464e-ab24-d70c7bc6d219" x="0" y="2" width="147" height="15"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{patient-name}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="2ad6454f-91fd-464b-bfb3-7cba4d52b52e" x="202" y="1" width="150" height="15"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[Tinneti Assessment Tool]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="c56620a1-bc33-4254-b587-94f6988aae3d" x="540" y="16" width="15" height="12"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="f64a2861-7cc3-4418-b397-a39e2a23faaf" x="469" y="16" width="69" height="12"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="839141ce-a394-46f8-81d6-667bdf0ee560" x="219" y="17" width="117" height="12"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[www.fasternotes.com]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="a1a618a9-8612-4f0b-84f8-56d210f508c8" x="455" y="1" width="98" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA[$F{approved-date}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="320">
+			<textField>
+				<reportElement uuid="b27b02b5-9ab3-4a8b-bf32-a1afdb0572f7" x="84" y="24" width="37" height="15">
+					<printWhenExpression><![CDATA[$F{gait-score}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA[$F{gait-score}+"/12"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="0be23215-6f89-4f5b-b2ba-4c4d96d43511" x="181" y="39" width="35" height="15">
+					<printWhenExpression><![CDATA[$F{rater}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Rater:]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="92341734-d1a8-4686-8d40-7cc436b1e01a" x="84" y="9" width="37" height="15">
+					<printWhenExpression><![CDATA[$F{balance-score}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA[$F{balance-score}+"/16"]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="dae0b948-ba21-4cfe-bb34-7a799fbd4747" x="0" y="24" width="83" height="15">
+					<printWhenExpression><![CDATA[$F{gait-score}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Gait score:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="0ccb1ff2-bf0b-41b5-a401-b875320a202e" x="2" y="212" width="160" height="15">
+					<printWhenExpression><![CDATA[$F{supervised-user-name}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Supervised Staff Signature]]></text>
+			</staticText>
+			<image>
+				<reportElement uuid="9ead10f3-19b0-4c3d-8d51-c21d020f2abb" x="2" y="226" width="162" height="34"/>
+				<imageExpression><![CDATA[new File($F{supervised-user-signature})]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement uuid="2a5b3296-eb0d-4936-9117-3b7c007c0a62" x="2" y="101" width="161" height="15">
+					<printWhenExpression><![CDATA[$F{visited-staff-name}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Field Staff Signature]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="593ff768-a25f-4d98-b4ba-a4fc0d9e12eb" x="394" y="97" width="102" height="15">
+					<printWhenExpression><![CDATA[$F{office-staff-name}!=null &&
+$F{os-signed-date-display}!=null &&
+$F{office-staff-signature}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Approved By]]></text>
+			</staticText>
+			<image>
+				<reportElement uuid="9ead10f3-19b0-4c3d-8d51-c21d020f2abb" x="2" y="116" width="162" height="34"/>
+				<imageExpression><![CDATA[new File($F{field-staff-signature})]]></imageExpression>
+			</image>
+			<image>
+				<reportElement uuid="9ead10f3-19b0-4c3d-8d51-c21d020f2abb" x="392" y="113" width="162" height="34">
+					<printWhenExpression><![CDATA[$F{office-staff-signature}!=null]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[new File($F{office-staff-signature})]]></imageExpression>
+			</image>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="1278f7e7-7700-4d2e-a0ef-46d842be788f" x="1" y="150" width="210" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{visited-staff-name}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement markup="html"/>
+				<textFieldExpression><![CDATA[($F{field-staff-signed})=="true" ? ("<b>(" + $F{visited-staff-name} + ")</b>") : ("Electronically Signed by "+ $F{visited-staff-name})]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="1278f7e7-7700-4d2e-a0ef-46d842be788f" x="2" y="276" width="234" height="15">
+					<printWhenExpression><![CDATA[$F{supervised-user-signed-date-display}!=null && $F{supervised-user-signature}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<textFieldExpression><![CDATA[($F{supervisor-signed}== "true" ? ("<b>(" + $F{supervised-user-name} + ")</b>"): ("Electronically Signed by "+$F{supervised-user-name}))]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="1278f7e7-7700-4d2e-a0ef-46d842be788f" x="345" y="150" width="210" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{os-signed-date-display}!=null && $F{office-staff-signature}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Left" markup="html"/>
+				<textFieldExpression><![CDATA["Electronically Signed by "+$F{office-staff-name}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="b4f8e668-287f-4f58-8d34-003577afb0bb" x="205" y="9" width="305" height="15">
+					<printWhenExpression><![CDATA[$F{balance-score}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[(11/16 indicates risk for falls on balance subscale).]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="82d49310-eecb-4cf0-81eb-e8722e09da7a" x="84" y="39" width="37" height="15">
+					<printWhenExpression><![CDATA[$F{total}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA[$F{total}+"/28"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="8aaf5286-070c-4f47-b45e-5f3864bb9c58" x="234" y="39" width="280" height="15">
+					<printWhenExpression><![CDATA[$F{rater}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{rater}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="fcd1ba56-a9a6-4303-bb5f-dae4dd7d9afa" x="0" y="9" width="83" height="15">
+					<printWhenExpression><![CDATA[$F{balance-score}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Balance score:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="78f3e5c5-f350-4da3-a49b-836a6a220e2f" x="174" y="24" width="368" height="15">
+					<printWhenExpression><![CDATA[$F{gait-score}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement/>
+				<text><![CDATA[(total score <19 high fall risk, 19-24 medium fall risk, 25-28 low fall risk).]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="ddba6081-1198-4be9-8a16-a93bea3065ec" x="0" y="39" width="83" height="15">
+					<printWhenExpression><![CDATA[$F{total}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true" isItalic="false"/>
+				</textElement>
+				<text><![CDATA[Total:]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="a59b6e87-3838-4a44-9d57-7666f05e10bc" x="345" y="176" width="160" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{os-signed-date-display}!=null &&
+$F{office-staff-signature}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement markup="html"/>
+				<textFieldExpression><![CDATA["<b>Date: </b>"+$F{os-signed-date-display}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="97a38cdd-84ad-4e2a-a931-a2ac0e9f1ba5" x="1" y="176" width="160" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{fs-signed-date-display}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement markup="html"/>
+				<textFieldExpression><![CDATA["<b>Date: </b>"+$F{fs-signed-date-display}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="aa3226ee-14d5-419a-99c9-aa7ea406edc7" x="2" y="304" width="155" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{supervised-user-signed-date-display}!=null &&
+$F{supervised-user-signature}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement markup="html"/>
+				<textFieldExpression><![CDATA["Date: "+$F{supervised-user-signed-date-display}]]></textFieldExpression>
+			</textField>
+		</band>
+	</summary>
+</jasperReport>

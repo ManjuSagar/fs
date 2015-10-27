@@ -1,0 +1,46 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "LoginController"
+    },
+    "designerId": "ff9331de-24b8-4ad3-a044-cb5d9fd03297",
+    "cn": [
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "mainTab",
+                "selector": "#main_tab",
+                "xtype": "tabpanel"
+            },
+            "designerId": "0d28d75c-07ae-4eeb-a71e-cd3b592f89ee"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onSignIn",
+                "implHandler": [
+                    "var session = Ext.create('MyApp.model.Session');"
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "#sign_in"
+            },
+            "designerId": "293b011d-f0cd-4fea-9bf8-9865a4c41279"
+        }
+    ]
+}

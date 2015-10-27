@@ -1,0 +1,12 @@
+status: SUCCESS
+status_code: 123
+status_message: sss
+payment:
+  merchant_transaction_id: 12345
+  status: CO
+refund:
+  merchant_refund_code: 1234
+  status: CO
+payment_creation_sleep_time: 10000
+query_sleep_time: 10000
+refund_creation_sleep_time: 10000

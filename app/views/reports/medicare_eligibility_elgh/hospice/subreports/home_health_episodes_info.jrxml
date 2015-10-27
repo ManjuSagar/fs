@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="home_health_episodes_info" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="5885fbd2-8af6-47aa-a1cc-6e2f133cdd65">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/elgh-response/home-health-episodes/home-health-episode]]>
+	</queryString>
+	<field name="start-date" class="java.lang.String">
+		<fieldDescription><![CDATA[start-date]]></fieldDescription>
+	</field>
+	<field name="end-date" class="java.lang.String">
+		<fieldDescription><![CDATA[end-date]]></fieldDescription>
+	</field>
+	<field name="intermediary-number" class="java.lang.String">
+		<fieldDescription><![CDATA[intermediary-number]]></fieldDescription>
+	</field>
+	<field name="provider-number" class="java.lang.String">
+		<fieldDescription><![CDATA[provider-number]]></fieldDescription>
+	</field>
+	<field name="contractor-name" class="java.lang.String">
+		<fieldDescription><![CDATA[contractor-name]]></fieldDescription>
+	</field>
+	<field name="patient-status-code" class="java.lang.String">
+		<fieldDescription><![CDATA[patient-status-code]]></fieldDescription>
+	</field>
+	<field name="valid-cancel-indicator" class="java.lang.String">
+		<fieldDescription><![CDATA[valid-cancel-indicator]]></fieldDescription>
+	</field>
+	<field name="earliest-billing-date" class="java.lang.String">
+		<fieldDescription><![CDATA[earliest-billing-date]]></fieldDescription>
+	</field>
+	<field name="latest-billing-date" class="java.lang.String">
+		<fieldDescription><![CDATA[latest-billing-date]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="18">
+			<staticText>
+				<reportElement uuid="a37c5d89-7b69-4284-b13a-d05f90e01d95" mode="Opaque" x="3" y="0" width="555" height="15" backcolor="#DFD4D4"/>
+				<textElement>
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Home Health Care - Certification/Recertification(s)]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="70" splitType="Stretch">
+			<printWhenExpression><![CDATA[$F{start-date}!=null ||
+$F{end-date}!=null ||
+$F{intermediary-number}!=null ||
+$F{provider-number}!=null ||
+$F{contractor-name}!=null]]></printWhenExpression>
+			<staticText>
+				<reportElement uuid="49babb2f-f35f-461c-ac0c-8fa5fe3b06aa" x="20" y="3" width="100" height="15"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[HHEH Start Date:]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="caffbc8b-7742-48d2-a565-a48362f7dda3" x="122" y="3" width="100" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{start-date}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="42fc51da-e735-4b9b-a54a-72efa3345b89" x="311" y="3" width="100" height="15"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[HHEH End Date:]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="4ded0cd5-1a78-4b40-91cc-dedb7c498a2d" x="411" y="3" width="100" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{end-date}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="a95b28e3-ac0f-4751-a16a-454d98aa8eb7" x="20" y="35" width="100" height="15"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Contractor Number:]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="dc9b8434-35dc-44b8-9bf6-247daf1e5a81" x="123" y="35" width="180" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{intermediary-number}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="74d724f6-2f36-43b3-bdda-9fd0436ee9d4" x="311" y="35" width="100" height="15"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Provider Number:]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="d481a28c-5961-4613-9806-a6d544c9e356" x="411" y="35" width="144" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{provider-number}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="92216830-d12c-4e9a-8d35-209a3d6fe026" x="123" y="52" width="405" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{contractor-name}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="5b84f0f1-5b78-4efc-b5ad-6d731fe2869d" x="20" y="52" width="100" height="15"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Contractor Name:]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="caffbc8b-7742-48d2-a565-a48362f7dda3" x="122" y="19" width="180" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{earliest-billing-date}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="49babb2f-f35f-461c-ac0c-8fa5fe3b06aa" x="20" y="19" width="100" height="15"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[HHEH DOEBA:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="42fc51da-e735-4b9b-a54a-72efa3345b89" x="311" y="19" width="100" height="15"/>
+				<textElement>
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[HHEH DOLBA:]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="4ded0cd5-1a78-4b40-91cc-dedb7c498a2d" x="411" y="19" width="100" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{latest-billing-date}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="f7e1d25d-d6bb-46b1-b67e-db0a70cccc4b" x="4" y="3" width="20" height="15"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$V{REPORT_COUNT}+'.']]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

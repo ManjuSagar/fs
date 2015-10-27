@@ -1,0 +1,14 @@
+{
+    "type": "Ext.data.Store",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "model": "VisitType",
+        "storeId": "VisitTypeStore",
+        "designer|userClassName": "VisitTypeStore"
+    },
+    "designerId": "530c22d9-cd89-4965-86da-270bcd34fde1"
+}

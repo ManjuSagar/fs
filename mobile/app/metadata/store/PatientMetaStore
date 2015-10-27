@@ -1,0 +1,45 @@
+{
+    "type": "arraystore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "data": [
+            "[",
+            "[1, 'Name', 'Karthik Krishnan'],",
+            "[2, 'Gender', 'Male'],",
+            "[3, 'Age', '36'],",
+            "[4, 'Location', 'North Brunswick, NJ 08902'],",
+            "[5, 'Phone', '(732) 297 3129']",
+            "]"
+        ],
+        "model": "PatientMetadata",
+        "storeId": "PatientMetaStore",
+        "designer|userClassName": "PatientMetaStore"
+    },
+    "designerId": "55dc349f-bf77-45e4-a3da-a4b689cbe8ae",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Memory",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "designerId": "afb5c94f-865f-4bbf-8939-dca2b03978ad",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Array",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "designerId": "cb97966b-9ae1-40c8-a93c-4faf26ed2b87"
+                }
+            ]
+        }
+    ]
+}

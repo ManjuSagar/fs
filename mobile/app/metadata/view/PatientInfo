@@ -1,0 +1,73 @@
+{
+    "type": "Ext.Panel",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "height": null,
+        "itemId": "patient_info",
+        "designer|userClassName": "PatientInfo",
+        "layout": "vbox",
+        "scrollable": false
+    },
+    "designerId": "334d54a1-2554-48ed-8546-f7306bbe8ad6",
+    "cn": [
+        {
+            "type": "Ext.Button",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": null,
+                "itemId": "add_routesheet",
+                "margin": 10,
+                "padding": 2,
+                "ui": "confirm",
+                "iconAlign": "right",
+                "iconCls": null,
+                "iconMask": true,
+                "text": "Add Routesheet"
+            },
+            "designerId": "31e1be2a-0d28-4fee-8622-0b83bc48518a"
+        },
+        {
+            "type": "Ext.dataview.List",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "layout|flex": 1,
+                "height": 1000,
+                "itemId": "patient_list",
+                "disableSelection": true,
+                "store": "PatientMetaStore"
+            },
+            "designerId": "fcb86748-d8d9-4842-9fc9-77338863fecb",
+            "cn": [
+                {
+                    "type": "Ext.XTemplate",
+                    "reference": {
+                        "name": "itemTpl",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "implHandler": [
+                            "<div><span class='item_field'>{name}</span><br/><span class='item_value'>{[values.value === \"\" ? \"&nbsp;\" : values.value]}",
+                            "</span></div>",
+                            ""
+                        ],
+                        "designer|displayName": "itemTpl"
+                    },
+                    "designerId": "c41a9828-24c9-4804-91ed-ce89c3ef760f"
+                }
+            ]
+        }
+    ]
+}

@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="dme_supplies_safety_list" language="groovy" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="24886d1f-00e9-4db3-ab3f-6259bb6b2dbe">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/plan-of-care/poc-safety-dme-list/poc-safety-dme-list]]>
+	</queryString>
+	<field name="name" class="java.lang.String">
+		<fieldDescription><![CDATA[name]]></fieldDescription>
+	</field>
+	<field name="description" class="java.lang.String">
+		<fieldDescription><![CDATA[description]]></fieldDescription>
+	</field>
+	<detail>
+		<band height="20">
+			<elementGroup>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement uuid="b13fce3e-c154-4c1c-8984-bf42ec91a8a2" positionType="Float" stretchType="RelativeToTallestObject" x="131" y="2" width="424" height="15" isPrintWhenDetailOverflows="true"/>
+					<box topPadding="0" bottomPadding="0"/>
+					<textElement verticalAlignment="Middle">
+						<font size="9"/>
+						<paragraph lineSpacing="Proportional" leftIndent="4" rightIndent="1"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{description}]]></textFieldExpression>
+				</textField>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement uuid="5ed7feb9-b066-4903-8a59-1648f7fe87e0" positionType="Float" isPrintRepeatedValues="false" x="0" y="2" width="130" height="15"/>
+					<box topPadding="0" bottomPadding="0"/>
+					<textElement verticalAlignment="Middle">
+						<font size="9" isBold="true" isUnderline="false"/>
+						<paragraph leftIndent="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{name}]]></textFieldExpression>
+				</textField>
+				<line>
+					<reportElement uuid="99b25bee-70e4-40bd-b189-9e517fd375f3" positionType="Float" x="0" y="19" width="555" height="1"/>
+				</line>
+			</elementGroup>
+		</band>
+	</detail>
+</jasperReport>

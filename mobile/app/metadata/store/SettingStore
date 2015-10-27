@@ -1,0 +1,68 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": false,
+        "model": "Settings",
+        "storeId": "SettingStore",
+        "designer|userClassName": "SettingStore"
+    },
+    "designerId": "deec7a92-ea48-4cbc-84c7-f00a6a24e391",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "batchActions": false,
+                "api": [
+                    "{",
+                    "    create  : '/app/UserSetting/create',",
+                    "    read    : '/app/UserSetting',",
+                    "    update  : '/app/UserSetting/update',",
+                    "    destroy : '/app/UserSetting/delete'",
+                    "}"
+                ],
+                "noCache": false
+            },
+            "designerId": "2553405d-a51c-4f9f-8e58-4c8e96b2617f",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "idProperty": "source_id"
+                    },
+                    "designerId": "d6b0d56e-cc6b-4d09-9650-df9d5a6fa785"
+                }
+            ]
+        },
+        {
+            "type": "basiceventbinding",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onSettingsLoaded",
+                "implHandler": [
+                    "onNetworkCheck(refreshDataIfRequired);"
+                ],
+                "name": "load"
+            },
+            "designerId": "0b1c58b7-f937-414f-8cc2-f8b792ce67cc"
+        }
+    ]
+}

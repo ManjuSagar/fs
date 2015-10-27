@@ -1,0 +1,312 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chha-care-plan>
+  <agency-approved-user-id type="integer" nil="true"/>
+  <created-user-id type="integer">72</created-user-id>
+  <data>
+    <valid type="boolean">true</valid>
+    <patient-name>Latha b</patient-name>
+    <mr>4</mr>
+    <physician-name>Brendan Braun</physician-name>
+    <frequency>2wk4</frequency>
+    <temp-prn>on</temp-prn>
+    <temp-qvisit nil="true"/>
+    <temp-weekly nil="true"/>
+    <pulse-rate-prn>on</pulse-rate-prn>
+    <pulse-rate-qvisit nil="true"/>
+    <pulse-rate-weekly nil="true"/>
+    <respiratory-prn>on</respiratory-prn>
+    <respiratory-qvisit nil="true"/>
+    <respiratory-weekly nil="true"/>
+    <blood-pressure-prn nil="true"/>
+    <blood-pressure-qvisit nil="true"/>
+    <blood-pressure-weekly nil="true"/>
+    <toileting-activities-prn nil="true"/>
+    <toileting-activities-qvisit nil="true"/>
+    <toileting-activities-weekly nil="true"/>
+    <shower-prn nil="true"/>
+    <shower-qvisit nil="true"/>
+    <shower-weekly>4</shower-weekly>
+    <tub-bath-prn nil="true"/>
+    <tub-bath-qvisit nil="true"/>
+    <tub-bath-weekly>5</tub-bath-weekly>
+    <bed-bath-partial-prn nil="true"/>
+    <bed-bath-partial-qvisit nil="true"/>
+    <bed-bath-partial-weekly>678</bed-bath-partial-weekly>
+    <bed-bath-complete-prn nil="true"/>
+    <bed-bath-complete-qvisit nil="true"/>
+    <bed-bath-complete-weekly>67</bed-bath-complete-weekly>
+    <bed-bath-sponge-prn nil="true"/>
+    <bed-bath-sponge-qvisit nil="true"/>
+    <bed-bath-sponge-weekly nil="true"/>
+    <deodorant-prn nil="true"/>
+    <deodorant-qvisit nil="true"/>
+    <deodorant-weekly>66</deodorant-weekly>
+    <dressing-prn nil="true"/>
+    <dressing-qvisit nil="true"/>
+    <dressing-weekly nil="true"/>
+    <denture-care-prn nil="true"/>
+    <denture-care-qvisit nil="true"/>
+    <denture-care-weekly nil="true"/>
+    <oral-care-prn nil="true"/>
+    <oral-care-qvisit nil="true"/>
+    <oral-care-weekly nil="true"/>
+    <hair-prn nil="true"/>
+    <hair-qvisit nil="true"/>
+    <hair-weekly nil="true"/>
+    <shave-prn nil="true"/>
+    <shave-qvisit nil="true"/>
+    <shave-weekly nil="true"/>
+    <makeup-prn nil="true"/>
+    <makeup-qvisit nil="true"/>
+    <makeup-weekly nil="true"/>
+    <nail-prn nil="true"/>
+    <nail-qvisit nil="true"/>
+    <nail-weekly nil="true"/>
+    <foot-care-prn nil="true"/>
+    <foot-care-qvisit nil="true"/>
+    <foot-care-weekly nil="true"/>
+    <skin-care-prn nil="true"/>
+    <skin-care-qvisit nil="true"/>
+    <skin-care-weekly nil="true"/>
+    <back-rub-prn nil="true"/>
+    <back-rub-qvisit nil="true"/>
+    <back-rub-weekly nil="true"/>
+    <grocery-prn nil="true"/>
+    <grocery-qvisit>on</grocery-qvisit>
+    <grocery-weekly nil="true"/>
+    <meal-preparation-prn nil="true"/>
+    <meal-preparation-qvisit nil="true"/>
+    <meal-preparation-weekly nil="true"/>
+    <ast-feeding-prn nil="true"/>
+    <ast-feeding-qvisit nil="true"/>
+    <ast-feeding-weekly nil="true"/>
+    <self-medications-prn nil="true"/>
+    <self-medications-qvisit>on</self-medications-qvisit>
+    <self-medications-weekly nil="true"/>
+    <cha-bed-linen-prn nil="true"/>
+    <cha-bed-linen-qvisit nil="true"/>
+    <cha-bed-linen-weekly nil="true"/>
+    <laundry-prn nil="true"/>
+    <laundry-qvisit nil="true"/>
+    <laundry-weekly nil="true"/>
+    <cln-liv-area-prn nil="true"/>
+    <cln-liv-area-qvisit nil="true"/>
+    <cln-liv-area-weekly>6</cln-liv-area-weekly>
+    <amb-assist-prn nil="true"/>
+    <amb-assist-qvisit nil="true"/>
+    <amb-assist-weekly>6</amb-assist-weekly>
+    <transfers-prn nil="true"/>
+    <transfers-qvisit nil="true"/>
+    <transfers-weekly nil="true"/>
+    <rom-prn nil="true"/>
+    <rom-qvisit nil="true"/>
+    <rom-weekly nil="true"/>
+    <excercise-prn nil="true"/>
+    <excercise-qvisit nil="true"/>
+    <excercise-weekly nil="true"/>
+    <positioning-prn nil="true"/>
+    <positioning-qvisit nil="true"/>
+    <positioning-weekly nil="true"/>
+    <infection-control-prn nil="true"/>
+    <infection-control-qvisit nil="true"/>
+    <infection-control-weekly nil="true"/>
+    <clr-path-prn nil="true"/>
+    <clr-path-qvisit nil="true"/>
+    <clr-path-weekly nil="true"/>
+    <othr-text1-prn nil="true"/>
+    <othr-text1-qvisit nil="true"/>
+    <othr-text1-weekly nil="true"/>
+    <othr-text2-prn nil="true"/>
+    <othr-text2-qvisit nil="true"/>
+    <othr-text2-weekly nil="true"/>
+    <othr-text3-prn nil="true"/>
+    <othr-text3-qvisit nil="true"/>
+    <othr-text3-weekly nil="true"/>
+    <othr-text4-prn nil="true"/>
+    <othr-text4-qvisit nil="true"/>
+    <othr-text4-weekly nil="true"/>
+    <othr-text5-prn nil="true"/>
+    <othr-text5-qvisit nil="true"/>
+    <othr-text5-weekly nil="true"/>
+    <amb-assist type="array">
+      <amb-assist>W/C</amb-assist>
+      <amb-assist>Walker</amb-assist>
+      <amb-assist>Cane</amb-assist>
+    </amb-assist>
+    <rom type="array">
+      <rom type="boolean">false</rom>
+      <rom type="boolean">false</rom>
+    </rom>
+    <position type="array">
+      <position type="boolean">false</position>
+      <position type="boolean">false</position>
+    </position>
+    <infection-control type="array">
+      <infection-control type="boolean">false</infection-control>
+      <infection-control type="boolean">false</infection-control>
+      <infection-control type="boolean">false</infection-control>
+    </infection-control>
+    <other1-text nil="true"/>
+    <other2-text nil="true"/>
+    <other3-text nil="true"/>
+    <other4-text nil="true"/>
+    <other5-text nil="true"/>
+  </data>
+  <document-date type="date">2013-06-19</document-date>
+  <document-definition-id type="integer">213</document-definition-id>
+  <document-form-template-id type="integer">78</document-form-template-id>
+  <field-staff-id type="integer">107</field-staff-id>
+  <fs-sign-date type="date" nil="true"/>
+  <fs-sign-required type="boolean">false</fs-sign-required>
+  <id type="integer">259</id>
+  <lock-version type="integer">0</lock-version>
+  <os-sign-date type="date" nil="true"/>
+  <os-sign-required type="boolean">false</os-sign-required>
+  <physician-id type="integer" nil="true"/>
+  <status type="symbol">completed</status>
+  <supervised-user-id type="integer" nil="true"/>
+  <supervised-user-sign-date type="date" nil="true"/>
+  <supervisor-sign-required type="boolean">false</supervisor-sign-required>
+  <treatment-episode-id type="integer">33</treatment-episode-id>
+  <treatment-id type="integer">30</treatment-id>
+  <visit-id type="integer">84</visit-id>
+  <performs type="array">
+    <perform>
+      <frequency>As Needed</frequency>
+      <assist>Check Temperature</assist>
+    </perform>
+    <perform>
+      <frequency>As Needed</frequency>
+      <assist>Check Pulse</assist>
+    </perform>
+    <perform>
+      <frequency>As Needed</frequency>
+      <assist>Check Respiration</assist>
+    </perform>
+    <perform>
+      <frequency>4 Time(s) Weekly</frequency>
+      <assist>Bathing: Shower (please use a shower chair)</assist>
+    </perform>
+    <perform>
+      <frequency>5 Time(s) Weekly</frequency>
+      <assist>Bathing: Tub</assist>
+    </perform>
+    <perform>
+      <frequency>678 Time(s) Weekly</frequency>
+      <assist>Bathing: Bed Partial</assist>
+    </perform>
+    <perform>
+      <frequency>67 Time(s) Weekly</frequency>
+      <assist>Bathing: Bed Complete</assist>
+    </perform>
+    <perform>
+      <frequency>66 Time(s) Weekly</frequency>
+      <assist>Appling Deodorant</assist>
+    </perform>
+    <perform>
+      <frequency>At Each Visit</frequency>
+      <assist>Grocery Shopping</assist>
+    </perform>
+    <perform>
+      <frequency>At Each Visit</frequency>
+      <assist>Self-Administaration of Medications</assist>
+    </perform>
+    <perform>
+      <frequency>6 Time(s) Weekly</frequency>
+      <assist>Cleaning Living Areas</assist>
+    </perform>
+    <perform>
+      <frequency>6 Time(s) Weekly</frequency>
+      <assist>Amb. Assist: W/C, Walker, Cane</assist>
+    </perform>
+  </performs>
+  <agency-name>GoodHealth Home Care</agency-name>
+  <private-inurance-flag>true</private-inurance-flag>
+  <ins-comp-name>medicare</ins-comp-name>
+  <visit-frequency>2wk4</visit-frequency>
+  <vital-sign-temperature>&lt;107.7F</vital-sign-temperature>
+  <vital-sign-pulse>&lt;117.77 per minute</vital-sign-pulse>
+  <vital-sign-respiration-rate>&lt;120.22 per minute</vital-sign-respiration-rate>
+  <vital-sign-systolic-bp>&lt;113.3 mmHG</vital-sign-systolic-bp>
+  <vital-sign-diastolic-bp>&lt;111.65 mmHG</vital-sign-diastolic-bp>
+  <vitals-display>&lt;b&gt;BP:&lt;/b&gt; 110/78, Right Arm, Standing &lt;b&gt;HR:&lt;/b&gt; 123 &lt;b&gt;RR:&lt;/b&gt; 234 &lt;b&gt;Temp:&lt;/b&gt; 101.0 &lt;b&gt;Blood Sugar:&lt;/b&gt;201</vitals-display>
+  <fs-signed-date-display nil="true"/>
+  <detail2-label nil="true"/>
+  <detail2-value nil="true"/>
+  <detail3-label nil="true"/>
+  <detail3-value nil="true"/>
+  <detail4-label nil="true"/>
+  <detail4-value nil="true"/>
+  <detail5-label nil="true"/>
+  <detail5-value nil="true"/>
+  <detail6-label nil="true"/>
+  <detail6-value nil="true"/>
+  <detail7-label nil="true"/>
+  <detail7-value nil="true"/>
+  <detail8-label nil="true"/>
+  <detail8-value nil="true"/>
+  <detail9-label nil="true"/>
+  <detail9-value nil="true"/>
+  <detail10-label nil="true"/>
+  <detail10-value nil="true"/>
+  <detail11-label nil="true"/>
+  <detail11-value nil="true"/>
+  <detail12-label nil="true"/>
+  <detail12-value nil="true"/>
+  <detail13-label nil="true"/>
+  <detail13-value nil="true"/>
+  <detail14-label nil="true"/>
+  <detail14-value nil="true"/>
+  <detail15-label nil="true"/>
+  <detail15-value nil="true"/>
+  <detail28-label nil="true"/>
+  <detail28-value nil="true"/>
+  <detail29-label nil="true"/>
+  <detail29-value nil="true"/>
+  <show-physician nil="true"/>
+  <field-staff-signature nil="true"/>
+  <field-staff-signed type="boolean">false</field-staff-signed>
+  <supervisor-signed type="boolean">false</supervisor-signed>
+  <visited-staff-name>chengaiah dsf, CHHA</visited-staff-name>
+  <systolic-bp type="integer">110</systolic-bp>
+  <diastolic-bp type="integer">78</diastolic-bp>
+  <bp-read-location>Right Arm</bp-read-location>
+  <bp-read-position>Standing</bp-read-position>
+  <heart-rate type="integer">123</heart-rate>
+  <respiration-rate type="integer">234</respiration-rate>
+  <temperature-in-fht type="float">101.0</temperature-in-fht>
+  <blood-sugar type="integer">201</blood-sugar>
+  <sugar-read-period nil="true"/>
+  <weight-gain-loss-in-lbs nil="true"/>
+  <oxygen-saturation nil="true"/>
+  <frequency-display>2wk4</frequency-display>
+  <supervised-user-signature nil="true"/>
+  <supervised-user-name nil="true"/>
+  <pain-section-display/>
+  <supervised-user-signed-date-display nil="true"/>
+  <pain nil="true"/>
+  <detail16-label nil="true"/>
+  <detail16-value nil="true"/>
+  <detail17-label nil="true"/>
+  <detail17-value nil="true"/>
+  <detail18-label nil="true"/>
+  <detail18-value nil="true"/>
+  <detail19-label nil="true"/>
+  <detail19-value nil="true"/>
+  <detail20-label nil="true"/>
+  <detail20-value nil="true"/>
+  <detail21-label nil="true"/>
+  <detail21-value nil="true"/>
+  <detail22-label nil="true"/>
+  <detail22-value nil="true"/>
+  <detail23-label nil="true"/>
+  <detail23-value nil="true"/>
+  <detail24-label nil="true"/>
+  <detail24-value nil="true"/>
+  <detail25-label nil="true"/>
+  <detail25-value nil="true"/>
+  <detail26-label nil="true"/>
+  <detail26-value nil="true"/>
+  <detail27-label nil="true"/>
+  <detail27-value nil="true"/>
+</chha-care-plan>

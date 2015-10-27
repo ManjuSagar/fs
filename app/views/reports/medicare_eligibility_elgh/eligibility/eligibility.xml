@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<eligibility>
+  <sub-report-url>/home/msuser1/workspace/git_repos/fasternotes/app/views/reports/medicare_eligibility/</sub-report-url>
+  <part-a-eligibilties>
+    <part-a-eligibity>
+      <effective-date>01/10/2013</effective-date>
+      <termination-date>02/20/2013</termination-date>
+    </part-a-eligibity>
+
+    <part-a-eligibity>
+      <effective-date>06/04/2013</effective-date>
+      <termination-date>05/16/2013</termination-date>
+    </part-a-eligibity>
+  </part-a-eligibilties>
+
+  <part-b-eligibilties>
+    <part-b-eligibity>
+      <effective-date>06/09/2012</effective-date>
+      <termination-date>2012-08-17</termination-date>
+    </part-b-eligibity>
+
+    <part-b-eligibity>
+      <effective-date>06/03/2011</effective-date>
+      <termination-date>11/16/2012 </termination-date>
+    </part-b-eligibity>
+  </part-b-eligibilties>
+
+  <inactive-periods>
+    <inactive-period>
+      <effective-date>01/03/2010</effective-date>
+      <termination-date>06/25/2010</termination-date>
+    </inactive-period>
+
+    <inactive-period>
+      <effective-date>02/05/2011</effective-date>
+      <termination-date>11/11/2012</termination-date>
+    </inactive-period>
+  </inactive-periods>
+
+  <beneficiary-address>
+    <address-line-1>4929 Wilshire Blvd.</address-line-1>
+    <address-line-2>suite 123</address-line-2>
+    <city>Los Angeles</city>
+    <state>CA</state>
+    <zip>90013</zip>
+  </beneficiary-address>
+
+  <end-stage-renal_diseases>
+    <end-stage-renal_disease>
+      <effective-date>12/31/2009</effective-date>
+      <service-type-code>112233BB</service-type-code>
+      <transplant-discharge-date>06/25/2014</transplant-discharge-date>
+    </end-stage-renal_disease>
+  </end-stage-renal_diseases>
+</eligibility>

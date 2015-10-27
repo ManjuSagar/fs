@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<in_patient>
+  <sub-report-url>/home/msuser1/workspace/git_repos/fasternotes/app/views/reports/medicare_eligibility/</sub-report-url>>
+  <inpatient-spell>
+    <doeba-date>12/25/2013</doeba-date>
+    <dolba-date>12/25/2013</dolba-date>
+  </inpatient-spell>
+  <hospitals>
+    <hospital>
+      <remaining-deductible-amount>10</remaining-deductible-amount>
+      <full-days-remaining>5</full-days-remaining>
+      <co-payment-days-remaining>8</co-payment-days-remaining>
+      <co-payment-amount>35</co-payment-amount>
+      <lifetime-reserve-days>60</lifetime-reserve-days>
+    </hospital>
+    <hospital>
+      <remaining-deductible-amount>20</remaining-deductible-amount>
+      <full-days-remaining>5</full-days-remaining>
+      <co-payment-days-remaining>15</co-payment-days-remaining>
+      <co-payment-amount>25</co-payment-amount>
+      <lifetime-reserve-days>50</lifetime-reserve-days>
+    </hospital>
+  </hospitals>
+  <skilled-nursing-facilities>
+    <skilled-nursing-facility>
+      <snf-days-remaining>10</snf-days-remaining>
+      <snf-co-payment-days-remaining>5</snf-co-payment-days-remaining>
+      <snf-co-payment-amount>8</snf-co-payment-amount>
+    </skilled-nursing-facility>
+    <skilled-nursing-facility>
+      <snf-days-remaining>10</snf-days-remaining>
+      <snf-co-payment-days-remaining>5</snf-co-payment-days-remaining>
+      <snf-co-payment-amount>8</snf-co-payment-amount>
+    </skilled-nursing-facility>
+  </skilled-nursing-facilities>
+</in_patient>

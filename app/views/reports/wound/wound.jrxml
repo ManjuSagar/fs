@@ -1,0 +1,1343 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="wound" language="groovy" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" isSummaryWithPageHeaderAndFooter="true" uuid="da267c14-e643-42f3-a2f0-4286595ee38b">
+	<property name="ireport.zoom" value="1.1269722013523678"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/document/wounds/wound]]>
+	</queryString>
+	<field name="pressure-ulcer-stage" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/data/pressure-ulcer-stage]]></fieldDescription>
+	</field>
+	<field name="patient-turned" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/data/patient-turned]]></fieldDescription>
+	</field>
+	<field name="pelvis-surface" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/data/pelvis-surface]]></fieldDescription>
+	</field>
+	<field name="moisture" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/data/moisture]]></fieldDescription>
+	</field>
+	<field name="pressure-gt-30-days" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/data/pressure-gt-30-days]]></fieldDescription>
+	</field>
+	<field name="arterial-ulcer" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/data/arterial-ulcer]]></fieldDescription>
+	</field>
+	<field name="diabetic-ulcer" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/data/diabetic-ulcer]]></fieldDescription>
+	</field>
+	<field name="bandages-applied" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/data/bandages-applied]]></fieldDescription>
+	</field>
+	<field name="ambulation-encouraged" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/data/ambulation-encouraged]]></fieldDescription>
+	</field>
+	<field name="surgically-created" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/data/surgically-created]]></fieldDescription>
+	</field>
+	<field name="other-wound-type" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/data/other-wound-type]]></fieldDescription>
+	</field>
+	<field name="surgical-procedure" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/data/surgical-procedure]]></fieldDescription>
+	</field>
+	<field name="surgical-procedure-date" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/data/surgical-procedure-date]]></fieldDescription>
+	</field>
+	<field name="wound-type" class="java.lang.String">
+		<fieldDescription><![CDATA[wound-type]]></fieldDescription>
+	</field>
+	<field name="wound-age" class="java.lang.String">
+		<fieldDescription><![CDATA[wound-age]]></fieldDescription>
+	</field>
+	<field name="wound-location" class="java.lang.String">
+		<fieldDescription><![CDATA[wound-location]]></fieldDescription>
+	</field>
+	<field name="wound-debridement-date" class="java.lang.String">
+		<fieldDescription><![CDATA[wound-debridement-date]]></fieldDescription>
+	</field>
+	<field name="wound-debridement-type" class="java.lang.String">
+		<fieldDescription><![CDATA[wound-debridement-type]]></fieldDescription>
+	</field>
+	<field name="wound-measurement-date" class="java.lang.String">
+		<fieldDescription><![CDATA[wound-measurement-date]]></fieldDescription>
+	</field>
+	<field name="wound-length" class="java.lang.String">
+		<fieldDescription><![CDATA[wound-length]]></fieldDescription>
+	</field>
+	<field name="wound-width" class="java.lang.String">
+		<fieldDescription><![CDATA[wound-width]]></fieldDescription>
+	</field>
+	<field name="wound-depth" class="java.lang.String">
+		<fieldDescription><![CDATA[wound-depth]]></fieldDescription>
+	</field>
+	<field name="wound-appearance-of-wound" class="java.lang.String">
+		<fieldDescription><![CDATA[wound-appearance-of-wound]]></fieldDescription>
+	</field>
+	<field name="wound-exudate" class="java.lang.String">
+		<fieldDescription><![CDATA[wound-exudate]]></fieldDescription>
+	</field>
+	<field name="wound-undermining-location1" class="java.lang.String">
+		<fieldDescription><![CDATA[wound-undermining-location1]]></fieldDescription>
+	</field>
+	<field name="wound-undermining-location2" class="java.lang.String">
+		<fieldDescription><![CDATA[wound-undermining-location2]]></fieldDescription>
+	</field>
+	<field name="wound-tunneling-location1" class="java.lang.String">
+		<fieldDescription><![CDATA[wound-tunneling-location1]]></fieldDescription>
+	</field>
+	<field name="wound-tunneling-location2" class="java.lang.String">
+		<fieldDescription><![CDATA[wound-tunneling-location2]]></fieldDescription>
+	</field>
+	<field name="wound-accident" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/data/wound-accident]]></fieldDescription>
+	</field>
+	<field name="date-of-accident" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/data/date-of-accident]]></fieldDescription>
+	</field>
+	<field name="accident-type" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/data/accident-type]]></fieldDescription>
+	</field>
+	<field name="wound-tissue-present" class="java.lang.String">
+		<fieldDescription><![CDATA[wound-tissue-present]]></fieldDescription>
+	</field>
+	<field name="wound-debridement-attempted" class="java.lang.String">
+		<fieldDescription><![CDATA[wound-debridement-attempted]]></fieldDescription>
+	</field>
+	<field name="wound-debridement-required" class="java.lang.String">
+		<fieldDescription><![CDATA[wound-debridement-required]]></fieldDescription>
+	</field>
+	<field name="wound-thickness" class="java.lang.String">
+		<fieldDescription><![CDATA[wound-thickness]]></fieldDescription>
+	</field>
+	<field name="wound-muscle" class="java.lang.String">
+		<fieldDescription><![CDATA[wound-muscle]]></fieldDescription>
+	</field>
+	<field name="wound-underminig" class="java.lang.String">
+		<fieldDescription><![CDATA[wound-underminig]]></fieldDescription>
+	</field>
+	<field name="wound-undermining-from1" class="java.lang.String">
+		<fieldDescription><![CDATA[wound-undermining-from1]]></fieldDescription>
+	</field>
+	<field name="wound-undermining-to1" class="java.lang.String">
+		<fieldDescription><![CDATA[wound-undermining-to1]]></fieldDescription>
+	</field>
+	<field name="wound-undermining-from2" class="java.lang.String">
+		<fieldDescription><![CDATA[wound-undermining-from2]]></fieldDescription>
+	</field>
+	<field name="wound-undermining-to2" class="java.lang.String">
+		<fieldDescription><![CDATA[wound-undermining-to2]]></fieldDescription>
+	</field>
+	<field name="wound-tunneling" class="java.lang.String">
+		<fieldDescription><![CDATA[wound-tunneling]]></fieldDescription>
+	</field>
+	<field name="wound-tunneling-from1" class="java.lang.String">
+		<fieldDescription><![CDATA[wound-tunneling-from1]]></fieldDescription>
+	</field>
+	<field name="wound-tunneling-to1" class="java.lang.String">
+		<fieldDescription><![CDATA[wound-tunneling-to1]]></fieldDescription>
+	</field>
+	<field name="wound-tunneling-from2" class="java.lang.String">
+		<fieldDescription><![CDATA[wound-tunneling-from2]]></fieldDescription>
+	</field>
+	<field name="wound-tunneling-to2" class="java.lang.String">
+		<fieldDescription><![CDATA[wound-tunneling-to2]]></fieldDescription>
+	</field>
+	<field name="fs-signed-date-display" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/fs-signed-date-display]]></fieldDescription>
+	</field>
+	<field name="show-physician" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/show-physician]]></fieldDescription>
+	</field>
+	<field name="field-staff-signature" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/field-staff-signature]]></fieldDescription>
+	</field>
+	<field name="visited-staff-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/visited-staff-name]]></fieldDescription>
+	</field>
+	<field name="office-staff-signature" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/office-staff-signature]]></fieldDescription>
+	</field>
+	<field name="office-staff-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/office-staff-name]]></fieldDescription>
+	</field>
+	<field name="supervised-user-signature" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/supervised-user-signature]]></fieldDescription>
+	</field>
+	<field name="supervised-user-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/supervised-user-name]]></fieldDescription>
+	</field>
+	<field name="os-signed-date-display" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/os-signed-date-display]]></fieldDescription>
+	</field>
+	<field name="supervised-user-signed-date-display" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/supervised-user-signed-date-display]]></fieldDescription>
+	</field>
+	<field name="agency-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/agency-name]]></fieldDescription>
+	</field>
+	<field name="patient-name-with-mr-display" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/patient-name-with-mr-display]]></fieldDescription>
+	</field>
+	<field name="date-time-display" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/date-time-display]]></fieldDescription>
+	</field>
+	<field name="patient-name" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/data/patient-name]]></fieldDescription>
+	</field>
+	<field name="approved-date" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/data/approved-date]]></fieldDescription>
+	</field>
+	<field name="field-staff-signed" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/field-staff-signed]]></fieldDescription>
+	</field>
+	<field name="supervisor-signed" class="java.lang.String">
+		<fieldDescription><![CDATA[/document/supervisor-signed]]></fieldDescription>
+	</field>
+	<pageHeader>
+		<band height="52">
+			<textField>
+				<reportElement uuid="6dce071a-7722-4963-866e-d78034aecc45" x="263" y="0" width="291" height="17"/>
+				<textElement textAlignment="Right">
+					<font size="14" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{agency-name}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="954a900c-4784-4ca7-8ca6-d272522a9bed" x="369" y="18" width="185" height="20"/>
+				<textElement textAlignment="Right">
+					<font size="16" isBold="true"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Wound]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="e5f3a79f-43f7-42c8-9b62-6f316f91b917" x="1" y="37" width="243" height="12"/>
+				<textElement markup="html"/>
+				<textFieldExpression><![CDATA[$F{patient-name-with-mr-display}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="56390179-8c45-41c9-8127-abf014cc29f2" x="351" y="37" width="203" height="12"/>
+				<textElement textAlignment="Right" markup="html"/>
+				<textFieldExpression><![CDATA[$F{date-time-display}]]></textFieldExpression>
+			</textField>
+			<line>
+				<reportElement uuid="b18ec450-d7ea-432b-b309-ff222edd35e8" x="0" y="50" width="555" height="1"/>
+			</line>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="356">
+			<printWhenExpression><![CDATA[$V{PAGE_NUMBER} == 1]]></printWhenExpression>
+			<staticText>
+				<reportElement uuid="ffda255b-5e7e-4e6d-9056-4a4a3e6ae80b" x="0" y="0" width="319" height="14" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[A. Patient Primary Wound Type ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="25c1abf0-cda6-4483-9f2b-189e7bbd11a3" x="19" y="14" width="105" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{pressure-ulcer-stage}!=null || $F{patient-turned}!=null ||
+$F{pelvis-surface}!=null || $F{moisture}!=null ||
+$F{pressure-gt-30-days}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[PRESSURE ULCER:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="f58e6396-03e9-4e06-95a3-ee429e27b08e" x="33" y="26" width="39" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{pressure-ulcer-stage}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Stage I]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="eb32607a-db98-41df-b578-834ad6e70118" x="25" y="26" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{pressure-ulcer-stage}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+				</box>
+				<textElement markup="none">
+					<font size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{pressure-ulcer-stage} == "1")? "X" : ""]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="f58e6396-03e9-4e06-95a3-ee429e27b08e" x="86" y="26" width="39" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{pressure-ulcer-stage}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Stage II]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="eb32607a-db98-41df-b578-834ad6e70118" x="78" y="26" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{pressure-ulcer-stage}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+				</box>
+				<textElement markup="none">
+					<font size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{pressure-ulcer-stage} == "2")? "X" : ""]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="f58e6396-03e9-4e06-95a3-ee429e27b08e" x="140" y="26" width="41" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{pressure-ulcer-stage}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Stage III]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="eb32607a-db98-41df-b578-834ad6e70118" x="132" y="26" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{pressure-ulcer-stage}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+				</box>
+				<textElement markup="none">
+					<font size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{pressure-ulcer-stage} == "3")? "X" : ""]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="f58e6396-03e9-4e06-95a3-ee429e27b08e" x="197" y="26" width="42" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{pressure-ulcer-stage}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Stage IV]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="eb32607a-db98-41df-b578-834ad6e70118" x="189" y="26" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{pressure-ulcer-stage}!=null]]></printWhenExpression>
+				</reportElement>
+				<box>
+					<topPen lineWidth="0.25"/>
+					<leftPen lineWidth="0.25"/>
+					<bottomPen lineWidth="0.25"/>
+					<rightPen lineWidth="0.25"/>
+				</box>
+				<textElement markup="none">
+					<font size="10"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[($F{pressure-ulcer-stage} == "4")? "X" : ""]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="468f1dfc-45d3-4da1-b82f-aeec53a999e7" x="25" y="38" width="384" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{patient-turned}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="false"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[1. Is the patient being turned/positioned?]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="b29927d8-5c05-4d57-8908-0748bdcafa92" x="451" y="38" width="100" height="12"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{patient-turned}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="468f1dfc-45d3-4da1-b82f-aeec53a999e7" x="25" y="50" width="384" height="24" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{pelvis-surface}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="false"/>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[2. Has a group of 2 or 3 surface been used for ulcer located on the posterior trunk or pelvis?]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="c7f65ae6-d23f-4c14-81a9-10fe1bea9fe9" x="451" y="50" width="100" height="12"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{pelvis-surface}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="c640d28a-1097-452a-b68f-43677f5bb1e4" x="25" y="74" width="384" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{moisture}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[3. Are moisture and/or incontinence being managed?]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="719b5233-8ae2-4f22-9285-a6dd0d82f83d" x="451" y="74" width="100" height="12"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{moisture}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="c71273e9-1287-4f13-bed8-6e4b230a8de0" x="25" y="86" width="384" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{pressure-gt-30-days}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[4. Is pressure ulcer greater than 30 days?]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="2aad7471-7c53-4264-b656-cb7203f1586f" x="451" y="86" width="100" height="12"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{pressure-gt-30-days}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="3fb2a081-833f-45e5-ab48-475898abe3a1" x="19" y="99" width="250" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{diabetic-ulcer}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[DIABETIC ULCER/NEUROPATHIC ULCER:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="70b489be-e41c-4ebe-9f63-c2b346887d89" x="25" y="111" width="384" height="24" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{diabetic-ulcer}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<paragraph lineSpacing="Single"/>
+				</textElement>
+				<text><![CDATA[1. Has a reduction of pressure on the foot ulcer been accomplished with appropriate modalities?]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="032c4700-c9ab-4170-a500-f4cb0299683f" x="451" y="111" width="100" height="12"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{diabetic-ulcer}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="3a331763-e882-464e-af2d-b62056c178fc" x="19" y="136" width="277" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{bandages-applied}!=null || $F{ambulation-encouraged}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[VENOUS STASIS ULCER/VENOUS INSUFFICIENCY:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="55ed36ed-ecee-4ed3-bfa3-bf78baad476e" x="25" y="148" width="384" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{bandages-applied}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[1. Are compression bandages and/or garments being consistently applied?]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="5f6fc394-3068-4372-a6df-0a26ed008609" x="451" y="148" width="100" height="12"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{bandages-applied}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="c6f6768b-2a51-4115-8c92-6040d6e8a307" x="25" y="160" width="384" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{ambulation-encouraged}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[2. Is elevation/ambulation being encouraged?]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="0a2bbf1e-f122-47a4-b708-e60370117ca8" x="451" y="160" width="100" height="12"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{ambulation-encouraged}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="403af149-dd98-4d41-819c-66e8af2a5a18" x="19" y="173" width="300" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{arterial-ulcer}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true" isItalic="false"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[ARTERIAL ULCER/ARTERIAL INSUFFICIENCY:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="18a336aa-d2a4-454b-9d13-24868538fa79" x="25" y="185" width="384" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{arterial-ulcer}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[1. Is pressure over the wound being relieved?]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="937cd4a3-cf01-45d1-b461-20a5dff89e17" x="451" y="185" width="100" height="12"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{arterial-ulcer}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="cf08aeaa-eccd-4f44-b15b-9c637e9de098" x="19" y="198" width="100" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{surgically-created}!=null || $F{surgical-procedure}!=null ||
+$F{surgical-procedure-date}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[SURGICAL:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="a1a20686-935b-456c-b47b-010d04e59a77" x="25" y="210" width="384" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{surgically-created}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[1. Wound surgically created and not represented by descriptions above?]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="cb535c96-dc59-41b0-b374-889c8bb975e2" x="451" y="210" width="100" height="12"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{surgically-created}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="9228542b-36c3-4519-bae8-97eb31cf8f41" x="25" y="222" width="384" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{surgical-procedure}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[2. Description of surgical procedure:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b8a1a587-a8ee-4521-ad41-f38cce2677c4" positionType="Float" x="19" y="259" width="300" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{other-wound-type}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true" isItalic="false"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[OTHER WOUND TYPE (describe):]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="bf401bab-53f7-42c5-a9de-9e7b53b52885" positionType="Float" x="25" y="271" width="437" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{other-wound-type}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="572227a5-2fa7-439f-a1eb-85e8fde94fa5" positionType="Float" x="19" y="284" width="100" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{wound-accident}!=null || $F{date-of-accident}!=null ||
+$F{accident-type}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Accident:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="e0c2ca62-e67f-4451-b325-e9844ac2364f" positionType="Float" x="25" y="296" width="384" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{wound-accident}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Is wound a direct result of an accident?]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="d4d28dec-44b6-4a02-87b2-85d320f9e453" positionType="Float" x="25" y="308" width="97" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{date-of-accident}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Date of accident:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="dfaabe97-4872-4d34-b320-fb0b28053389" positionType="Float" x="25" y="320" width="84" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{accident-type}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Accident Type:]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="b700d650-15a6-4fd1-ae03-afdbec29b719" positionType="Float" x="451" y="296" width="100" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{wound-accident}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="cc48faeb-2e9b-499c-b971-d20ab5222fb3" positionType="Float" x="122" y="308" width="144" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{date-of-accident}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="2e4a99d1-4ac0-4824-9e90-febe329823bd" positionType="Float" x="109" y="320" width="284" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{accident-type}]]></textFieldExpression>
+			</textField>
+			<elementGroup>
+				<textField isBlankWhenNull="true">
+					<reportElement uuid="ae87eddd-ae8d-462d-adb4-f114c6dac7bd" positionType="Float" x="289" y="247" width="193" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<textElement>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{surgical-procedure-date}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement uuid="30d1e8df-a94f-4a32-986b-ff260c52ce7a" positionType="Float" x="25" y="247" width="265" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{surgical-procedure-date}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font isBold="true"/>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<text><![CDATA[3. Date of surgical procedure involving wound:]]></text>
+				</staticText>
+			</elementGroup>
+			<elementGroup>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement uuid="81eff03a-2b67-464f-9323-6b5840757137" positionType="Float" x="40" y="234" width="422" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<textElement>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{surgical-procedure}]]></textFieldExpression>
+				</textField>
+			</elementGroup>
+			<staticText>
+				<reportElement uuid="11634d7a-b937-43cb-906d-00198c2e1593" positionType="Float" x="1" y="339" width="196" height="14" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement>
+					<font size="12" isBold="true"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[B. Wound(s) Description]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="257">
+			<printWhenExpression><![CDATA[$F{wound-type}!=null || $F{wound-age}!=null ||
+$F{wound-location}!=null ||
+$F{wound-tissue-present}!=null ||
+$F{wound-debridement-attempted}!=null ||
+$F{wound-debridement-type}!=null ||
+$F{wound-debridement-date}!=null ||
+$F{wound-debridement-required}!=null ||
+$F{wound-measurement-date}!=null||
+$F{wound-length}!=null || $F{wound-width}!=null ||
+$F{wound-depth}!=null || $F{wound-appearance-of-wound}!=null ||
+$F{wound-exudate}!=null || $F{wound-thickness}!=null ||
+$F{wound-muscle}!=null || $F{wound-underminig}!=null ||
+$F{wound-undermining-location1}!=null ||
+$F{wound-undermining-from1}!=null || $F{wound-undermining-to1}!=null ||
+$F{wound-undermining-location2}!=null ||
+$F{wound-undermining-from2}!=null ||
+$F{wound-undermining-to2}!=null||
+$F{wound-tunneling}!=null || $F{wound-tunneling-location1}!=null ||
+$F{wound-tunneling-from1}!=null || $F{wound-tunneling-to1}!=null ||
+$F{wound-tunneling-location2}!=null || $F{wound-tunneling-to2}!=null ||
+$F{wound-tunneling-from2}!=null]]></printWhenExpression>
+			<textField>
+				<reportElement uuid="ef8e241f-dfc7-4f68-a649-6d17381dd87b" x="19" y="3" width="162" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement>
+					<font isBold="true"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Wound Description " + $V{REPORT_COUNT} + ":"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="0a1bf565-2a7a-46a9-bc05-dd46d9abb181" positionType="Float" stretchType="RelativeToTallestObject" x="94" y="27" width="315" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{wound-age}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="135efbe0-039b-4b89-ad12-0ba6fc0526e3" positionType="Float" stretchType="RelativeToTallestObject" x="25" y="27" width="69" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{wound-age}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<text><![CDATA[Wound Age:]]></text>
+			</staticText>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="0f8e4a6a-423e-4893-9448-c3d1fdae90a7" positionType="Float" stretchType="RelativeToTallestObject" x="451" y="219" width="100" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{wound-tunneling}]]></textFieldExpression>
+			</textField>
+			<elementGroup>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement uuid="52e95a61-2132-4bb2-9a71-a0c39c16e426" positionType="Float" stretchType="RelativeToTallestObject" x="100" y="15" width="309" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<textElement>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{wound-type}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement uuid="135efbe0-039b-4b89-ad12-0ba6fc0526e3" positionType="Float" stretchType="RelativeToTallestObject" x="25" y="15" width="75" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{wound-type}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font isBold="true"/>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<text><![CDATA[Wound Type:]]></text>
+				</staticText>
+			</elementGroup>
+			<elementGroup>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement uuid="61fb5296-7356-4b7f-8cfa-de9d689af6f1" positionType="Float" stretchType="RelativeToTallestObject" x="120" y="39" width="289" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<textElement>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{wound-location}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement uuid="135efbe0-039b-4b89-ad12-0ba6fc0526e3" positionType="Float" stretchType="RelativeToTallestObject" x="25" y="39" width="95" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{wound-location}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font isBold="true"/>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<text><![CDATA[Wound Location:]]></text>
+				</staticText>
+			</elementGroup>
+			<elementGroup>
+				<textField isBlankWhenNull="true">
+					<reportElement uuid="e48d7f80-33c5-49ad-963a-46faad1f5238" positionType="Float" stretchType="RelativeToTallestObject" x="451" y="51" width="100" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<textElement/>
+					<textFieldExpression><![CDATA[$F{wound-tissue-present}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement uuid="085ef5e4-70a3-4323-942c-5c5b5abcd175" positionType="Float" stretchType="RelativeToTallestObject" x="25" y="51" width="384" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{wound-tissue-present}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<text><![CDATA[Is there eschar tissue present in the wound?]]></text>
+				</staticText>
+			</elementGroup>
+			<elementGroup>
+				<textField isBlankWhenNull="true">
+					<reportElement uuid="e32e26c2-53a0-402e-b81d-a3b696369162" positionType="Float" stretchType="RelativeToTallestObject" x="451" y="63" width="100" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<textElement/>
+					<textFieldExpression><![CDATA[$F{wound-debridement-attempted}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement uuid="fc222654-39bc-4fdd-98d6-2b823057e076" positionType="Float" stretchType="RelativeToTallestObject" x="25" y="63" width="384" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{wound-debridement-attempted}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<text><![CDATA[Has debridement been attempted in the last 10 days?]]></text>
+				</staticText>
+			</elementGroup>
+			<elementGroup>
+				<staticText>
+					<reportElement uuid="24c9d80c-9daa-46cd-beb8-2118546a59db" positionType="Float" stretchType="RelativeToTallestObject" x="25" y="75" width="107" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{wound-debridement-date}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font isBold="true"/>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<text><![CDATA[Debridement date:]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement uuid="8c2b0c52-bee8-411b-b54d-29d2d142be2e" positionType="Float" stretchType="RelativeToTallestObject" x="132" y="75" width="100" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<textElement>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{wound-debridement-date}]]></textFieldExpression>
+				</textField>
+			</elementGroup>
+			<elementGroup>
+				<staticText>
+					<reportElement uuid="ad9e41ca-e603-4a27-8021-22631507dcbd" positionType="Float" stretchType="RelativeToTallestObject" x="25" y="87" width="109" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{wound-debridement-type}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font isBold="true"/>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<text><![CDATA[Debridement Type:]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement uuid="374a0bc6-4046-45b8-a396-60e444e35f0b" positionType="Float" stretchType="RelativeToTallestObject" x="134" y="87" width="275" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<textElement>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{wound-debridement-type}]]></textFieldExpression>
+				</textField>
+			</elementGroup>
+			<elementGroup>
+				<textField isBlankWhenNull="true">
+					<reportElement uuid="a8844d2d-8541-4096-bb9b-8ebe0b0e1cbe" positionType="Float" stretchType="RelativeToTallestObject" x="451" y="99" width="100" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<textElement/>
+					<textFieldExpression><![CDATA[$F{wound-debridement-required}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement uuid="96a02375-1a8e-4f6d-9391-798eeb164f0c" positionType="Float" stretchType="RelativeToTallestObject" x="25" y="99" width="384" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{wound-debridement-required}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<text><![CDATA[Are serial debridements required?]]></text>
+				</staticText>
+			</elementGroup>
+			<elementGroup>
+				<staticText>
+					<reportElement uuid="160cd086-1168-4c97-a8f3-3dbcadf8dabf" positionType="Float" stretchType="RelativeToTallestObject" x="25" y="111" width="111" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{wound-measurement-date}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font isBold="true"/>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<text><![CDATA[Measurement date:]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement uuid="989e82d6-04e9-4fae-8e3a-90cdd1345884" positionType="Float" stretchType="RelativeToTallestObject" x="136" y="111" width="100" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<textElement>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{wound-measurement-date}]]></textFieldExpression>
+				</textField>
+			</elementGroup>
+			<elementGroup>
+				<textField isBlankWhenNull="true">
+					<reportElement uuid="77f88e6f-27a3-4b6f-9c2e-fc34e06ba14c" positionType="Float" stretchType="RelativeToTallestObject" x="174" y="123" width="60" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{wound-width}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{wound-width} + " cm"]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement uuid="b59fcf44-8d51-44bb-b75c-319740bf4714" positionType="Float" stretchType="RelativeToTallestObject" x="234" y="123" width="39" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{wound-depth}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font isBold="true"/>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<text><![CDATA[Depth:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="39b1655f-ae6f-4dc5-9a4d-9527180277b1" positionType="Float" stretchType="RelativeToTallestObject" x="136" y="123" width="38" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{wound-width}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font isBold="true"/>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<text><![CDATA[Width:]]></text>
+				</staticText>
+				<textField isBlankWhenNull="true">
+					<reportElement uuid="17a76a25-45bd-4bc0-98e2-696ab692d223" positionType="Float" stretchType="RelativeToTallestObject" x="69" y="123" width="67" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{wound-length}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{wound-length} + " cm"]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement uuid="f549d2de-7c32-40c5-93af-014dff149f30" positionType="Float" stretchType="RelativeToTallestObject" x="273" y="123" width="60" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{wound-depth}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{wound-depth} + " cm"]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement uuid="28052712-8d62-4cb5-bf19-eb13345b7344" positionType="Float" stretchType="RelativeToTallestObject" x="25" y="123" width="44" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{wound-length}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font isBold="true"/>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<text><![CDATA[Length:]]></text>
+				</staticText>
+			</elementGroup>
+			<elementGroup>
+				<staticText>
+					<reportElement uuid="49594fb2-1308-40ea-91dd-032e32340de7" positionType="Float" stretchType="RelativeToTallestObject" x="25" y="135" width="208" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{wound-appearance-of-wound}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font isBold="true"/>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<text><![CDATA[Appearance of wound bed and color:]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement uuid="c49b97e4-ede4-48a0-8f16-d52c624ac873" positionType="Float" stretchType="RelativeToTallestObject" x="227" y="135" width="182" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<textElement>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{wound-appearance-of-wound}]]></textFieldExpression>
+				</textField>
+			</elementGroup>
+			<elementGroup>
+				<staticText>
+					<reportElement uuid="c6ac6c79-8069-4157-9464-1773fe7cf19c" positionType="Float" stretchType="RelativeToTallestObject" x="25" y="147" width="162" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{wound-exudate}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font isBold="true"/>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<text><![CDATA[Exudate (amount and color):]]></text>
+				</staticText>
+				<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+					<reportElement uuid="46d34b7a-1737-476c-a8f5-96f5c29893d9" positionType="Float" stretchType="RelativeToTallestObject" x="187" y="147" width="222" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{wound-exudate}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{wound-exudate}]]></textFieldExpression>
+				</textField>
+			</elementGroup>
+			<elementGroup>
+				<textField isBlankWhenNull="true">
+					<reportElement uuid="c2b5af05-8dd2-4f6a-9dcd-fb95492f4670" positionType="Float" stretchType="RelativeToTallestObject" x="451" y="159" width="100" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<textElement/>
+					<textFieldExpression><![CDATA[$F{wound-thickness}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement uuid="7c959b9b-1ab1-41bf-9850-215f12bb1e3e" positionType="Float" stretchType="RelativeToTallestObject" x="25" y="159" width="384" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{wound-thickness}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<text><![CDATA[Is the wound full thickness?]]></text>
+				</staticText>
+			</elementGroup>
+			<elementGroup>
+				<textField isBlankWhenNull="true">
+					<reportElement uuid="cbbb4650-a4e0-48a3-bcc5-7eecd8fb635c" positionType="Float" stretchType="RelativeToTallestObject" x="451" y="171" width="100" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<textElement/>
+					<textFieldExpression><![CDATA[$F{wound-muscle}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement uuid="8721bc4e-4638-4ac5-af9a-95261070a912" positionType="Float" stretchType="RelativeToTallestObject" x="25" y="171" width="384" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{wound-muscle}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<text><![CDATA[Is muscle, tendon or bone exposed?]]></text>
+				</staticText>
+			</elementGroup>
+			<elementGroup>
+				<staticText>
+					<reportElement uuid="8a1622e5-f7a2-4f53-b289-6ddceccb7744" positionType="Float" stretchType="RelativeToTallestObject" x="25" y="183" width="384" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{wound-underminig}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<text><![CDATA[Is there undermining?]]></text>
+				</staticText>
+				<textField isBlankWhenNull="true">
+					<reportElement uuid="57f0eac3-e8c1-4836-9282-e082d4f60b44" positionType="Float" stretchType="RelativeToTallestObject" x="451" y="183" width="100" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<textElement/>
+					<textFieldExpression><![CDATA[$F{wound-underminig}]]></textFieldExpression>
+				</textField>
+			</elementGroup>
+			<elementGroup>
+				<textField isBlankWhenNull="true">
+					<reportElement uuid="a4266f93-23a0-4589-baa7-93a859742a88" positionType="Float" stretchType="RelativeToTallestObject" x="102" y="207" width="54" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{wound-undermining-location2}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{wound-undermining-location2} + " cm"]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement uuid="ca3e942a-0f0e-4d0b-9086-d6997e8526af" positionType="Float" stretchType="RelativeToTallestObject" x="31" y="231" width="71" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{wound-tunneling-location1}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font isBold="true"/>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<text><![CDATA[Location #1:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="3376d318-e0bc-4943-a34b-5c55ea3f1f6e" positionType="Float" stretchType="RelativeToTallestObject" x="25" y="219" width="384" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{wound-tunneling}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<text><![CDATA[Is there tunneling/sinus?]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="ca3e942a-0f0e-4d0b-9086-d6997e8526af" positionType="Float" stretchType="RelativeToTallestObject" x="239" y="195" width="18" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{wound-undermining-to1}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font isBold="true"/>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<text><![CDATA[To:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="ca3e942a-0f0e-4d0b-9086-d6997e8526af" positionType="Float" stretchType="RelativeToTallestObject" x="239" y="207" width="18" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{wound-undermining-to2}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font isBold="true"/>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<text><![CDATA[To:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="ca3e942a-0f0e-4d0b-9086-d6997e8526af" positionType="Float" stretchType="RelativeToTallestObject" x="31" y="207" width="71" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{wound-undermining-location2}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font isBold="true"/>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<text><![CDATA[Location #2:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="ca3e942a-0f0e-4d0b-9086-d6997e8526af" positionType="Float" stretchType="RelativeToTallestObject" x="31" y="195" width="71" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{wound-undermining-location1}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font isBold="true"/>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<text><![CDATA[Location #1:]]></text>
+				</staticText>
+				<textField isBlankWhenNull="true">
+					<reportElement uuid="060fdd15-81d8-4824-9c0e-3bdbd5610235" positionType="Float" stretchType="RelativeToTallestObject" x="257" y="231" width="51" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<textElement>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{wound-undermining-to1}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement uuid="ca3e942a-0f0e-4d0b-9086-d6997e8526af" positionType="Float" stretchType="RelativeToTallestObject" x="156" y="207" width="34" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{wound-undermining-from2}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font isBold="true"/>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<text><![CDATA[From:]]></text>
+				</staticText>
+				<textField isBlankWhenNull="true">
+					<reportElement uuid="a4266f93-23a0-4589-baa7-93a859742a88" positionType="Float" stretchType="RelativeToTallestObject" x="102" y="243" width="54" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{wound-tunneling-location2}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{wound-undermining-location2} + " cm"]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement uuid="ca3e942a-0f0e-4d0b-9086-d6997e8526af" positionType="Float" stretchType="RelativeToTallestObject" x="239" y="243" width="18" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{wound-tunneling-to2}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font isBold="true"/>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<text><![CDATA[To:]]></text>
+				</staticText>
+				<textField isBlankWhenNull="true">
+					<reportElement uuid="060fdd15-81d8-4824-9c0e-3bdbd5610235" positionType="Float" stretchType="RelativeToTallestObject" x="257" y="243" width="51" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<textElement>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{wound-undermining-to2}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement uuid="ca3e942a-0f0e-4d0b-9086-d6997e8526af" positionType="Float" stretchType="RelativeToTallestObject" x="156" y="243" width="34" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{wound-tunneling-from2}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font isBold="true"/>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<text><![CDATA[From:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="ca3e942a-0f0e-4d0b-9086-d6997e8526af" positionType="Float" stretchType="RelativeToTallestObject" x="239" y="231" width="18" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{wound-tunneling-to1}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font isBold="true"/>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<text><![CDATA[To:]]></text>
+				</staticText>
+				<staticText>
+					<reportElement uuid="ca3e942a-0f0e-4d0b-9086-d6997e8526af" positionType="Float" stretchType="RelativeToTallestObject" x="156" y="231" width="34" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{wound-tunneling-from1}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font isBold="true"/>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<text><![CDATA[From:]]></text>
+				</staticText>
+				<textField isBlankWhenNull="true">
+					<reportElement uuid="a4266f93-23a0-4589-baa7-93a859742a88" positionType="Float" stretchType="RelativeToTallestObject" x="102" y="231" width="54" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{wound-tunneling-location1}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{wound-undermining-location1} + " cm"]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement uuid="a4266f93-23a0-4589-baa7-93a859742a88" positionType="Float" stretchType="RelativeToTallestObject" x="102" y="195" width="54" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{wound-tunneling-location1}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{wound-undermining-location1} + " cm"]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement uuid="060fdd15-81d8-4824-9c0e-3bdbd5610235" positionType="Float" stretchType="RelativeToTallestObject" x="257" y="207" width="51" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<textElement>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{wound-undermining-to2}]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement uuid="d79a1b5d-76c9-46fc-8df0-511523cd1a8e" positionType="Float" stretchType="RelativeToTallestObject" x="190" y="195" width="49" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<textElement>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{wound-undermining-from1}]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement uuid="d79a1b5d-76c9-46fc-8df0-511523cd1a8e" positionType="Float" stretchType="RelativeToTallestObject" x="190" y="231" width="49" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<textElement>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{wound-undermining-from1}]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement uuid="060fdd15-81d8-4824-9c0e-3bdbd5610235" positionType="Float" stretchType="RelativeToTallestObject" x="257" y="195" width="51" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<textElement>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{wound-undermining-to1}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement uuid="ca3e942a-0f0e-4d0b-9086-d6997e8526af" positionType="Float" stretchType="RelativeToTallestObject" x="31" y="243" width="71" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{wound-tunneling-location2}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font isBold="true"/>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<text><![CDATA[Location #2:]]></text>
+				</staticText>
+				<textField isBlankWhenNull="true">
+					<reportElement uuid="d79a1b5d-76c9-46fc-8df0-511523cd1a8e" positionType="Float" stretchType="RelativeToTallestObject" x="190" y="243" width="49" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<textElement>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{wound-undermining-from2}]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement uuid="d79a1b5d-76c9-46fc-8df0-511523cd1a8e" positionType="Float" stretchType="RelativeToTallestObject" x="190" y="207" width="49" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+					<textElement>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{wound-undermining-from2}]]></textFieldExpression>
+				</textField>
+				<staticText>
+					<reportElement uuid="ca3e942a-0f0e-4d0b-9086-d6997e8526af" positionType="Float" stretchType="RelativeToTallestObject" x="156" y="195" width="34" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+						<printWhenExpression><![CDATA[$F{wound-undermining-from1}!=null]]></printWhenExpression>
+					</reportElement>
+					<textElement>
+						<font isBold="true"/>
+						<paragraph lineSpacing="1_1_2"/>
+					</textElement>
+					<text><![CDATA[From:]]></text>
+				</staticText>
+			</elementGroup>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="31">
+			<staticText>
+				<reportElement uuid="358efb7b-9920-46f8-a259-1f291bd32f7b" x="202" y="1" width="150" height="15"/>
+				<textElement textAlignment="Center">
+					<font isBold="false"/>
+				</textElement>
+				<text><![CDATA[Wound]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="ade13966-8111-46ec-838c-16efd2520736" x="1" y="1" width="147" height="15"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{patient-name}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="37d6fc08-054f-4d30-9a9f-8c53516873ab" x="219" y="19" width="117" height="12"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[www.fasternotes.com]]></text>
+			</staticText>
+			<textField>
+				<reportElement uuid="efdac92f-c999-40fe-9adf-5ac6f91fb284" x="472" y="18" width="69" height="12"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement uuid="54374670-daf6-4645-9c33-feb3af245deb" x="540" y="18" width="15" height="12"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA[" " + $V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="6f213e92-2805-46c6-990a-e9fb6c3ae4ee" x="455" y="1" width="99" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA[$F{approved-date}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+	<summary>
+		<band height="214">
+			<staticText>
+				<reportElement uuid="0ccb1ff2-bf0b-41b5-a401-b875320a202e" x="2" y="111" width="160" height="15">
+					<printWhenExpression><![CDATA[$F{supervised-user-name}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Supervised Staff Signature]]></text>
+			</staticText>
+			<image>
+				<reportElement uuid="9ead10f3-19b0-4c3d-8d51-c21d020f2abb" x="2" y="125" width="162" height="34"/>
+				<imageExpression><![CDATA[new File($F{supervised-user-signature})]]></imageExpression>
+			</image>
+			<staticText>
+				<reportElement uuid="2a5b3296-eb0d-4936-9117-3b7c007c0a62" x="2" y="2" width="161" height="15">
+					<printWhenExpression><![CDATA[$F{visited-staff-name}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Field Staff Signature]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="593ff768-a25f-4d98-b4ba-a4fc0d9e12eb" x="393" y="3" width="161" height="15">
+					<printWhenExpression><![CDATA[$F{office-staff-name}!=null &&
+$F{os-signed-date-display}!=null &&
+$F{office-staff-signature}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Approved By]]></text>
+			</staticText>
+			<image>
+				<reportElement uuid="9ead10f3-19b0-4c3d-8d51-c21d020f2abb" x="2" y="17" width="162" height="34"/>
+				<imageExpression><![CDATA[new File($F{field-staff-signature})]]></imageExpression>
+			</image>
+			<image>
+				<reportElement uuid="9ead10f3-19b0-4c3d-8d51-c21d020f2abb" x="392" y="19" width="162" height="34">
+					<printWhenExpression><![CDATA[$F{office-staff-signature}!=null]]></printWhenExpression>
+				</reportElement>
+				<imageExpression><![CDATA[new File($F{office-staff-signature})]]></imageExpression>
+			</image>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="1278f7e7-7700-4d2e-a0ef-46d842be788f" x="1" y="54" width="210" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{visited-staff-name}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement markup="html"/>
+				<textFieldExpression><![CDATA[($F{field-staff-signed})=="true" ? ("<b>(" + $F{visited-staff-name} + ")</b>") : ("Electronically Signed by "+ $F{visited-staff-name})]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="1278f7e7-7700-4d2e-a0ef-46d842be788f" x="1" y="167" width="210" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{supervised-user-signed-date-display}!=null &&
+$F{supervised-user-signature}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement markup="html"/>
+				<textFieldExpression><![CDATA[($F{supervisor-signed}== "true" ? ("<b>(" + $F{supervised-user-name} + ")</b>"): ("Electronically Signed by "+$F{supervised-user-name}))]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="1278f7e7-7700-4d2e-a0ef-46d842be788f" x="345" y="54" width="210" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{os-signed-date-display}!=null &&
+$F{office-staff-signature}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Left" markup="html"/>
+				<textFieldExpression><![CDATA["Electronically Signed by "+$F{office-staff-name}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="d0007b71-e020-44d7-b52e-7f2bc394c17a" x="1" y="80" width="160" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{fs-signed-date-display}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement markup="html"/>
+				<textFieldExpression><![CDATA["<b>Date: </b>"+$F{fs-signed-date-display}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="09741efc-f185-4893-b5dc-010af5625818" x="345" y="80" width="160" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{os-signed-date-display}!=null &&
+$F{office-staff-signature}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement markup="html"/>
+				<textFieldExpression><![CDATA["<b>Date: </b>"+$F{os-signed-date-display}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="0d4d3ac7-2d8f-4eca-a437-6e2c4f871e38" x="1" y="197" width="155" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true">
+					<printWhenExpression><![CDATA[$F{supervised-user-signed-date-display}!=null &&
+$F{supervised-user-signature}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement markup="html"/>
+				<textFieldExpression><![CDATA["Date: "+$F{supervised-user-signed-date-display}]]></textFieldExpression>
+			</textField>
+		</band>
+	</summary>
+</jasperReport>

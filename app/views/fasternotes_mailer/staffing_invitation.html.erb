@@ -1,0 +1,79 @@
+Hi <%= @staffing_request.staff_name %>!
+<br/>
+Can you visit the following patient?
+<br/>
+<b>Area: </b><%= @staffing_request.staffing_requirement.staffing_master.staffable.patient.location %>
+<br/>
+<% if @staffing_request.staffing_requirement.discipline.present? %>
+    <b>Discipline: </b><%= @staffing_request.staffing_requirement.discipline.to_s %>
+    <br/>
+<% end %>
+<% if @staffing_request.required_visit_types.present? %>
+    <b>Required Visit Type(s): </b><%= @staffing_request.required_visit_types %>
+    <br/>
+<% end %>
+<% if @staffing_request.languages_preferred.present? %>
+    <b>Languages Preferred: </b><%= @staffing_request.languages_preferred %>
+    <br/>
+<% end %>
+<% if @staffing_request.gender_requirements.present?%>
+    <b>Gender Requirements: </b><%= @staffing_request.gender_requirements %>
+    <br/>
+<% end %>
+<% if @staffing_request.special_instructions_required %>
+    <b>Special Instructions Required: </b><%=@staffing_request.special_instructions_required %>
+    <br/>
+<% end %>
+<br/>
+
+You can respond to this staffing request via any of the following methods:
+<br/>
+<br/>
+
+1. <b>Email us:</b> <%= @staffing_request.agency_email %>
+<br/>
+2. <b>Call us back:</b> <%= @staffing_request.agency_phone_number %>
+<br/>
+3. <a href = "www.fasternotes.com" target="_blank">Login to your account and accept or reject this request in your Staffing Requests page in the Productivity menu.</a>
+<br/>
+<br/>
+
+Thank you,
+<br/>
+<br/>
+<%= @office_staff %>
+<br/>
+<%= @staffing_request.provider_name %>
+<br/>
+<%= @staffing_request.provider_full_address %>
+<br/>
+<%= @staffing_request.provider_contact %>
+<br/>
+<br/>
+This is an automatically generated email from FasterNotes.com. Please do not reply to this message.
+<br/>
+<br/>
+FasterNotes, Inc.
+<br/>
+Because Business Should be Easy
+<br/>
+Tel: (888) 255-8508 | Fax: (888) 462-4908
+<br/>
+www.fasternotes.com
+<br/>
+<br/>
+<img  src="http://54.221.195.117/wp-content/uploads/2013/09/logo.png" alt="logo">
+<br/>
+<table>
+  <tr>
+    <a href="https://www.facebook.com/fasternotes" target="_blank">facebook</a>
+    <a href="https://twitter.com/fasternotes" target="_blank">twitter</a>
+    <a href="https://plus.google.com/105536414439978563552/posts" target="_blank">googleplus</a>
+    <a href="http://www.linkedin.com/company/fasternotes?trk=cp_followed_name_fasternotes" target="_blank">linkedin</a>
+  </tr>
+</table>
+
+
+
+
+

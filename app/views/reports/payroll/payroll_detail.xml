@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<payroll>
+  <created-at type="datetime">2013-11-22T15:23:30+05:30</created-at>
+  <id type="integer">157</id>
+  <office-staff-id type="integer">263</office-staff-id>
+  <org-id type="integer">26</org-id>
+  <paid-date type="date" nil="true"/>
+  <payee-id type="integer">60</payee-id>
+  <payee-type>Org</payee-type>
+  <payroll-amount type="decimal">95.0</payroll-amount>
+  <payroll-date type="date">2013-11-22</payroll-date>
+  <payroll-reference>146</payroll-reference>
+  <updated-at type="datetime">2013-11-22T15:23:30+05:30</updated-at>
+  <agency-name>ABC Home Health Care, Inc.</agency-name>
+  <agency-suite-number-street-address>123,1680 N. Vine St.,Los Angeles,CA,90028</agency-suite-number-street-address>
+  <agency-phone-number>Tel(323) 222-2222,Fax(323) 333-3333</agency-phone-number>
+  <office-staff-name>Larry Treystman</office-staff-name>
+  <payroll-date-display>11/22/2013</payroll-date-display>
+  <payroll-individual-print nil="true"/>
+  <fs-credentials type="array">
+    <fs-credential>
+      <field-staff>Marshall Franklin, PT</field-staff>
+      <title>PT</title>
+      <agency-name>Therapeutic Touch, Inc.</agency-name>
+      <Credential>MalPractice Insurance</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <staffing-company>Therapeutic Touch, Inc.</staffing-company>
+    </fs-credential>
+    <fs-credential>
+      <field-staff>Marshall Franklin, PT</field-staff>
+      <title>PT</title>
+      <agency-name>Therapeutic Touch, Inc.</agency-name>
+      <Credential>Physical</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <staffing-company>Therapeutic Touch, Inc.</staffing-company>
+    </fs-credential>
+    <fs-credential>
+      <field-staff>Marshall Franklin, PT</field-staff>
+      <title>PT</title>
+      <agency-name>Therapeutic Touch, Inc.</agency-name>
+      <Credential>PPD or Chest X-Ray</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Missing</status>
+      <aging>NA</aging>
+      <staffing-company>Therapeutic Touch, Inc.</staffing-company>
+    </fs-credential>
+    <fs-credential>
+      <field-staff>Marshall Franklin, PT</field-staff>
+      <title>PT</title>
+      <agency-name>Therapeutic Touch, Inc.</agency-name>
+      <Credential>Professional License</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Expired - 11/12/2013</status>
+      <aging>10 day(s)</aging>
+      <staffing-company>Therapeutic Touch, Inc.</staffing-company>
+    </fs-credential>
+    <fs-credential>
+      <field-staff>Marshall Franklin, PT</field-staff>
+      <title>PT</title>
+      <agency-name>Therapeutic Touch, Inc.</agency-name>
+      <Credential>Auto Insurance</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Expired - 11/18/2013</status>
+      <aging>4 day(s)</aging>
+      <staffing-company>Therapeutic Touch, Inc.</staffing-company>
+    </fs-credential>
+    <fs-credential>
+      <field-staff>Marshall Franklin, PT</field-staff>
+      <title>PT</title>
+      <agency-name>Therapeutic Touch, Inc.</agency-name>
+      <Credential>Driver License</Credential>
+      <user-type>LiteFieldStaff</user-type>
+      <status>Expired - 11/19/2013</status>
+      <aging>3 day(s)</aging>
+      <staffing-company>Therapeutic Touch, Inc.</staffing-company>
+    </fs-credential>
+  </fs-credentials>
+  <fs-credentials-in-payroll-sub-report-url>/home/msuser1/workspace/git_repos/fasternotes/app/views/reports/payroll/credentials_in_payroll_detail_individual_fs_subreport.jasper</fs-credentials-in-payroll-sub-report-url>
+  <actual-payrolls type="array">
+    <actual-payroll>
+      <field-staff>Marshall Franklin, PT</field-staff>
+      <title>Physical Therapist</title>
+      <number-of-visits type="integer">1</number-of-visits>
+      <org-name>Therapeutic Touch, Inc.</org-name>
+      <payroll-amount type="decimal">95.0</payroll-amount>
+    </actual-payroll>
+  </actual-payrolls>
+  <payables type="array">
+    <payable>
+      <adjusted-rate type="decimal">95.0</adjusted-rate>
+      <created-at type="datetime">2013-11-22T15:23:08+05:30</created-at>
+      <field-staff-id type="integer">2541</field-staff-id>
+      <id type="integer">350</id>
+      <org-id type="integer">26</org-id>
+      <payable-amount type="decimal">95.0</payable-amount>
+      <no-of-units>1</no-of-units>
+      <unit>H</unit>
+      <rate>90.00</rate>
+      <payable-status type="symbol">paid</payable-status>
+      <payable-type>V</payable-type>
+      <payee-id type="integer">60</payee-id>
+      <payee-type>Org</payee-type>
+      <payroll-id type="integer" nil="true"/>
+      <purpose>PT-Eval</purpose>
+      <source-id type="integer">731</source-id>
+      <source-type>TreatmentVisit</source-type>
+      <submission-date type="date" nil="true"/>
+      <treatment-id type="integer">250</treatment-id>
+      <updated-at type="datetime">2013-11-22T15:23:30+05:30</updated-at>
+      <visit-date type="date">2013-11-22</visit-date>
+      <patient-name>Nicole Bair</patient-name>
+      <visit-type>PT-Eval</visit-type>
+      <field-staff-name>Marshall Franklin, PT</field-staff-name>
+      <staffing-company>Therapeutic Touch, Inc.</staffing-company>
+      <visit-date-display>11/22/2013</visit-date-display>
+      <submission-date-display nil="true"/>
+      <units-display>Hour</units-display>
+      <no-of-units-display>1</no-of-units-display>
+    </payable>
+  </payables>
+</payroll>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="patients_and_visits_by_principal_diagnosis_table" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="9502b785-47fb-4488-8973-ed75d9917adf">
+	<property name="ireport.zoom" value="0.75"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/alirts/patient-and-visits-by-icd-codes/patient-and-visits-by-icd-code]]>
+	</queryString>
+	<field name="principal-diagnosis" class="java.lang.String">
+		<fieldDescription><![CDATA[principal-diagnosis]]></fieldDescription>
+	</field>
+	<field name="patients-count" class="java.lang.Float">
+		<fieldDescription><![CDATA[patients-count]]></fieldDescription>
+	</field>
+	<field name="icd-code-visits-count" class="java.lang.Float">
+		<fieldDescription><![CDATA[icd-code-visits-count]]></fieldDescription>
+	</field>
+	<field name="line-number" class="java.lang.String">
+		<fieldDescription><![CDATA[line-number]]></fieldDescription>
+	</field>
+	<field name="total-icd-code-visits-count" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/patient-and-visits-by-icd-codes/total-icd-code-visits-count]]></fieldDescription>
+	</field>
+	<field name="total-icd-code-patient-count" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/patient-and-visits-by-icd-codes/total-icd-code-patient-count]]></fieldDescription>
+	</field>
+	<field name="non-covered-patients-count" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/patients/non-covered-patients-count]]></fieldDescription>
+	</field>
+	<field name="non-covered-visits-count" class="java.lang.String">
+		<fieldDescription><![CDATA[/alirts/patients/non-covered-visits-count]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="60" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="8754c67d-9d80-42a8-ab3a-548ffe872505" x="5" y="18" width="465" height="15"/>
+				<textElement verticalAlignment="Middle">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[PATIENTS AND VISITS BY PRINCIPAL DIAGNOSIS FOR WHICH CARE WAS GIVEN]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="b00851d9-e0f3-4342-a466-5ae1dc7afa2c" x="1" y="33" width="39" height="27"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Line
+No.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="6fb90585-01d0-4927-a7c6-9bbd4d89be36" x="40" y="33" width="294" height="27"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Principal Diagnosis]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="2824df72-94e2-49d0-8c17-5262a9707d80" x="334" y="33" width="85" height="27"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Column 1
+Patients]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="e3d6024f-c688-4638-bb56-42b32b4b3e9d" x="419" y="33" width="125" height="27"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<text><![CDATA[Column 2
+Visits]]></text>
+			</staticText>
+			<frame>
+				<reportElement uuid="3355fb36-3ded-41e5-9d3f-5c36aa1488ad" x="1" y="18" width="543" height="15"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+			</frame>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="20" splitType="Stretch">
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="75e8d684-0267-46c0-8112-2313c47a59cf" x="1" y="0" width="39" height="20"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{line-number}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement uuid="a06324da-682f-4fa8-9020-39261370e119" x="40" y="0" width="294" height="20"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement verticalAlignment="Middle">
+					<paragraph leftIndent="4"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{principal-diagnosis}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,###" isBlankWhenNull="true">
+				<reportElement uuid="1fdf36f9-619f-4c50-8917-8bf4ad0a8baf" x="334" y="0" width="85" height="20"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<paragraph rightIndent="4"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{patients-count}]]></textFieldExpression>
+			</textField>
+			<textField pattern="#,###" isBlankWhenNull="true">
+				<reportElement uuid="fe202184-7d79-465e-a4bb-544a04c843c2" x="419" y="0" width="125" height="20"/>
+				<box>
+					<pen lineWidth="0.5"/>
+					<topPen lineWidth="0.5"/>
+					<leftPen lineWidth="0.5"/>
+					<bottomPen lineWidth="0.5"/>
+					<rightPen lineWidth="0.5"/>
+				</box>
+				<textElement textAlignment="Right" verticalAlignment="Middle">
+					<paragraph rightIndent="4"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{icd-code-visits-count}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<summary>
+		<band height="84" splitType="Stretch">
+			<staticText>
+				<reportElement uuid="740946cc-28ad-44f1-9b83-c2d6c02d1c1f" x="1" y="12" width="516" height="20"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[NOTE: Numbers are not correct unless Lines *, **, and *** are all zero.]]></text>
+			</staticText>
+		</band>
+	</summary>
+</jasperReport>

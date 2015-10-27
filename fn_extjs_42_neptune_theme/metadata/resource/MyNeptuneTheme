@@ -1,0 +1,645 @@
+{
+    "type": "neptunethemeresource",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyNeptuneTheme"
+    },
+    "designerId": "37059f41-1d5b-498a-9a57-7968eb06786a",
+    "storage": {
+        "needsCompile": false,
+        "simple": {
+            "pkgVersion": 1,
+            "pkgPath": "packages"
+        },
+        "nameIndex": 1,
+        "varData": {
+            "Ext.button.Button": {
+                "globalVars": [
+                    {
+                        "name": "button-default-background-color",
+                        "enabled": true,
+                        "value": "rgba(245,245,245,1)"
+                    },
+                    {
+                        "name": "button-default-background-color-disabled",
+                        "enabled": true,
+                        "value": "rgba(245,245,245,1)"
+                    },
+                    {
+                        "name": "button-default-background-color-focus",
+                        "enabled": true,
+                        "value": "rgba(216,216,216,1)"
+                    },
+                    {
+                        "name": "button-default-background-color-over",
+                        "enabled": true,
+                        "value": "rgba(216,216,216,1)"
+                    },
+                    {
+                        "name": "button-default-background-color-pressed",
+                        "enabled": true,
+                        "value": "rgba(176,176,176,1)"
+                    },
+                    {
+                        "name": "button-default-base-color",
+                        "enabled": true,
+                        "value": "rgba(102,102,102,1)"
+                    },
+                    {
+                        "name": "button-default-base-color-disabled",
+                        "enabled": true,
+                        "value": "rgba(102,102,102,1)"
+                    },
+                    {
+                        "name": "button-default-base-color-over",
+                        "enabled": true,
+                        "value": "rgba(102,102,102,1)"
+                    },
+                    {
+                        "name": "button-default-base-color-pressed",
+                        "enabled": true,
+                        "value": "rgba(216,216,216,1)"
+                    },
+                    {
+                        "name": "button-default-border-color",
+                        "enabled": true,
+                        "value": "rgba(216,216,216,1)"
+                    },
+                    {
+                        "name": "button-default-border-color-disabled",
+                        "enabled": true,
+                        "value": "rgba(225,225,225,1)"
+                    },
+                    {
+                        "name": "button-default-border-color-focus",
+                        "enabled": true,
+                        "value": "rgba(237,237,237,1)"
+                    },
+                    {
+                        "name": "button-default-border-color-over",
+                        "enabled": true,
+                        "value": "rgba(239,239,239,1)"
+                    },
+                    {
+                        "name": "button-default-border-color-pressed",
+                        "enabled": true,
+                        "value": "rgba(216,216,216,1)"
+                    },
+                    {
+                        "name": "button-default-color",
+                        "enabled": true,
+                        "value": "rgba(102,102,102,1)"
+                    },
+                    {
+                        "name": "button-default-color-disabled",
+                        "enabled": true,
+                        "value": "rgba(102,102,102,1)"
+                    },
+                    {
+                        "name": "button-default-color-focus",
+                        "enabled": true,
+                        "value": "rgba(102,102,102,1)"
+                    },
+                    {
+                        "name": "button-default-color-over",
+                        "enabled": true,
+                        "value": "rgba(102,102,102,1)"
+                    },
+                    {
+                        "name": "button-default-color-pressed",
+                        "enabled": true,
+                        "value": "rgba(102,102,102,1)"
+                    },
+                    {
+                        "name": "button-default-glyph-color",
+                        "enabled": true,
+                        "value": "rgba(102,102,102,1)"
+                    },
+                    {
+                        "name": "button-large-font-weight",
+                        "enabled": true,
+                        "value": "normal"
+                    },
+                    {
+                        "name": "button-medium-font-weight",
+                        "enabled": true,
+                        "value": "normal"
+                    },
+                    {
+                        "name": "button-toolbar-background-color",
+                        "enabled": true,
+                        "value": "rgba(245,245,245,1)"
+                    },
+                    {
+                        "name": "button-toolbar-background-color-disabled",
+                        "enabled": true,
+                        "value": "rgba(245,245,245,1)"
+                    },
+                    {
+                        "name": "button-toolbar-background-color-focus",
+                        "enabled": true,
+                        "value": "rgba(216,216,216,1)"
+                    },
+                    {
+                        "name": "button-toolbar-background-color-over",
+                        "enabled": true,
+                        "value": "rgba(216,216,216,1)"
+                    },
+                    {
+                        "name": "button-toolbar-background-color-pressed",
+                        "enabled": true,
+                        "value": "rgba(182,176,176,1)"
+                    },
+                    {
+                        "name": "button-toolbar-border-color-disabled",
+                        "enabled": true,
+                        "value": "rgba(225,225,225,1)"
+                    },
+                    {
+                        "name": "button-toolbar-color-disabled",
+                        "enabled": true,
+                        "value": "rgba(102,102,102,1)"
+                    },
+                    {
+                        "name": "button-toolbar-glyph-color",
+                        "enabled": true,
+                        "value": "rgba(102,102,102,1)"
+                    }
+                ]
+            },
+            "Ext.Component": {
+                "globalVars": [
+                    {
+                        "name": "base-color",
+                        "enabled": true,
+                        "value": "rgba(74,172,255,1)"
+                    },
+                    {
+                        "name": "base-dark-color",
+                        "enabled": true,
+                        "value": "rgba(74,172,255,1)"
+                    },
+                    {
+                        "name": "base-highlight-color",
+                        "enabled": true,
+                        "value": "rgba(84,166,233,1)"
+                    },
+                    {
+                        "name": "color",
+                        "enabled": true,
+                        "value": "rgba(0,0,0,1)"
+                    },
+                    {
+                        "name": "font-family",
+                        "enabled": true,
+                        "value": "Open Sans"
+                    },
+                    {
+                        "name": "font-size",
+                        "enabled": true,
+                        "value": "13.25px"
+                    }
+                ]
+            },
+            "Ext.container.ButtonGroup": {
+                "globalVars": [
+                    {
+                        "name": "btn-group-background-color",
+                        "enabled": true,
+                        "value": "#ededed"
+                    },
+                    {
+                        "name": "btn-group-border-color",
+                        "enabled": true,
+                        "value": "rgba(228,216,216,1)"
+                    },
+                    {
+                        "name": "btn-group-framed-background-color",
+                        "enabled": true,
+                        "value": "rgba(237,237,237,1)"
+                    },
+                    {
+                        "name": "btn-group-header-background-color",
+                        "enabled": false,
+                        "value": "rgba(255,255,255,1)"
+                    },
+                    {
+                        "name": "btn-group-inner-border-color",
+                        "enabled": true,
+                        "value": "#e4d8d8"
+                    }
+                ]
+            },
+            "Ext.form.field.Base": {
+                "globalVars": [
+                    {
+                        "name": "form-field-border-color",
+                        "enabled": true,
+                        "value": "rgba(171,171,171,1)"
+                    },
+                    {
+                        "name": "form-field-border-style",
+                        "enabled": true,
+                        "value": "\"\""
+                    },
+                    {
+                        "name": "form-field-color",
+                        "enabled": true,
+                        "value": "rgba(111,111,111,1)"
+                    },
+                    {
+                        "name": "form-field-focus-border-color",
+                        "enabled": true,
+                        "value": "rgba(6,6,6,1)"
+                    }
+                ]
+            },
+            "Ext.form.field.Checkbox": {
+                "globalVars": [
+                    {
+                        "name": "form-checkbox-image",
+                        "enabled": false,
+                        "value": "\"form/checkbox.png\""
+                    }
+                ]
+            },
+            "Ext.form.FieldSet": {
+                "globalVars": [
+                    {
+                        "name": "fieldset-border-color",
+                        "enabled": true,
+                        "value": "rgba(223,223,225,1)"
+                    },
+                    {
+                        "name": "fieldset-border-style",
+                        "enabled": true,
+                        "value": "\"\""
+                    },
+                    {
+                        "name": "fieldset-header-font",
+                        "enabled": true,
+                        "value": "$font-family"
+                    },
+                    {
+                        "name": "fieldset-header-font-weight",
+                        "enabled": true,
+                        "value": "none"
+                    }
+                ]
+            },
+            "Ext.grid.column.Column": {
+                "globalVars": [
+                    {
+                        "name": "grid-column-header-border-style",
+                        "enabled": true,
+                        "value": "\"\""
+                    },
+                    {
+                        "name": "grid-column-header-border-width",
+                        "enabled": true,
+                        "value": "0px"
+                    },
+                    {
+                        "name": "grid-column-header-color",
+                        "enabled": true,
+                        "value": "rgba(0,0,0,1)"
+                    },
+                    {
+                        "name": "grid-column-header-font-weight",
+                        "enabled": true,
+                        "value": "10px"
+                    },
+                    {
+                        "name": "grid-column-header-line-height",
+                        "enabled": true,
+                        "value": "10px"
+                    }
+                ]
+            },
+            "Ext.grid.header.Container": {
+                "globalVars": [
+                    {
+                        "name": "grid-header-background-color",
+                        "enabled": true,
+                        "value": "rgba(255,255,255,1)"
+                    },
+                    {
+                        "name": "grid-header-border-color",
+                        "enabled": true,
+                        "value": "rgba(127,185,233,1)"
+                    },
+                    {
+                        "name": "grid-header-border-width",
+                        "enabled": true,
+                        "value": "0px"
+                    }
+                ]
+            },
+            "Ext.layout.container.Border": {
+                "globalVars": [
+                    {
+                        "name": "border-layout-ct-background-color",
+                        "enabled": true,
+                        "value": "rgba(249,250,250,1)"
+                    }
+                ]
+            },
+            "Ext.LoadMask": {
+                "globalVars": [
+                    {
+                        "name": "loadmask-background-color",
+                        "enabled": true,
+                        "value": "#e5e5e5"
+                    },
+                    {
+                        "name": "loadmask-msg-background-color",
+                        "enabled": true,
+                        "value": "rgba(255,255,255,1)"
+                    }
+                ]
+            },
+            "Ext.menu.Menu": {
+                "globalVars": [
+                    {
+                        "name": "menu-item-active-border-color",
+                        "enabled": true,
+                        "value": "rgba(229,240,248,1)"
+                    }
+                ]
+            },
+            "Ext.panel.Panel": {
+                "globalVars": [
+                    {
+                        "name": "panel-base-color",
+                        "enabled": true,
+                        "value": "rgba(74,172,255,1)"
+                    },
+                    {
+                        "name": "panel-body-border-color",
+                        "enabled": true,
+                        "value": "rgba(74,172,255,1)"
+                    },
+                    {
+                        "name": "panel-border-color",
+                        "enabled": true,
+                        "value": "rgba(96,172,233,1)"
+                    },
+                    {
+                        "name": "panel-border-width",
+                        "enabled": true,
+                        "value": "0px"
+                    },
+                    {
+                        "name": "panel-frame-base-color",
+                        "enabled": true,
+                        "value": "rgba(70,171,254,1)"
+                    },
+                    {
+                        "name": "panel-frame-border-color",
+                        "enabled": true,
+                        "value": "rgba(126,190,242,1)"
+                    },
+                    {
+                        "name": "panel-frame-border-style",
+                        "enabled": true,
+                        "value": "normal"
+                    },
+                    {
+                        "name": "panel-frame-border-width",
+                        "enabled": true,
+                        "value": "1px"
+                    },
+                    {
+                        "name": "panel-frame-header-inner-border-color",
+                        "enabled": true,
+                        "value": "rgba(70,171,254,1)"
+                    },
+                    {
+                        "name": "panel-frame-header-padding",
+                        "enabled": true,
+                        "value": "2px"
+                    },
+                    {
+                        "name": "panel-header-background-color",
+                        "enabled": true,
+                        "value": "rgba(52,161,251,1)"
+                    },
+                    {
+                        "name": "panel-header-background-gradient",
+                        "enabled": true,
+                        "value": "\"\""
+                    },
+                    {
+                        "name": "panel-header-color",
+                        "enabled": true,
+                        "value": "rgba(242,246,249,1)"
+                    },
+                    {
+                        "name": "panel-header-font-family",
+                        "enabled": true,
+                        "value": "DejaVu Sans, arial, helvetica, verdana, sans-serif"
+                    },
+                    {
+                        "name": "panel-header-font-weight",
+                        "enabled": true,
+                        "value": "none"
+                    },
+                    {
+                        "name": "panel-header-glyph-opacity",
+                        "enabled": true,
+                        "value": "0"
+                    },
+                    {
+                        "name": "panel-header-inner-border-color",
+                        "enabled": true,
+                        "value": "rgba(211,211,211,1)"
+                    },
+                    {
+                        "name": "panel-header-padding",
+                        "enabled": true,
+                        "value": "9px 9px 10px 9px"
+                    },
+                    {
+                        "name": "panel-light-header-color",
+                        "enabled": true,
+                        "value": "rgba(255,255,255,1)"
+                    },
+                    {
+                        "name": "panel-light-header-font-weight",
+                        "enabled": true,
+                        "value": "none"
+                    },
+                    {
+                        "name": "panel-wrap-border-color",
+                        "enabled": true,
+                        "value": "rgba(209,226,241,1)"
+                    }
+                ]
+            },
+            "Ext.panel.Table": {
+                "globalVars": [
+                    {
+                        "name": "grid-body-background-color",
+                        "enabled": true,
+                        "value": "rgba(255,255,255,1)"
+                    },
+                    {
+                        "name": "grid-body-border-color",
+                        "enabled": true,
+                        "value": "rgba(101,185,255,1)"
+                    },
+                    {
+                        "name": "grid-cell-selected-background-color",
+                        "enabled": true,
+                        "value": "rgba(50,38,38,1)"
+                    },
+                    {
+                        "name": "grid-cell-selected-color",
+                        "enabled": true,
+                        "value": "rgba(50,38,38,1)"
+                    },
+                    {
+                        "name": "grid-cell-special-border-color",
+                        "enabled": true,
+                        "value": "rgba(53,53,53,1)"
+                    },
+                    {
+                        "name": "grid-empty-color",
+                        "enabled": true,
+                        "value": "rgba(244,242,242,1)"
+                    },
+                    {
+                        "name": "grid-row-cell-alt-background-color",
+                        "enabled": true,
+                        "value": "rgba(255,255,255,1)"
+                    },
+                    {
+                        "name": "grid-row-cell-border-color",
+                        "enabled": true,
+                        "value": "rgba(251,251,251,1)"
+                    },
+                    {
+                        "name": "grid-row-cell-border-style",
+                        "enabled": true,
+                        "value": "\"\""
+                    },
+                    {
+                        "name": "grid-row-cell-focus-border-style",
+                        "enabled": true,
+                        "value": "normal"
+                    },
+                    {
+                        "name": "grid-row-cell-over-border-style",
+                        "enabled": true,
+                        "value": "normal"
+                    },
+                    {
+                        "name": "grid-row-cell-over-color",
+                        "enabled": true,
+                        "value": "rgba(50,38,38,1)"
+                    },
+                    {
+                        "name": "grid-row-cell-selected-background-color",
+                        "enabled": true,
+                        "value": "rgba(228,239,248,1)"
+                    },
+                    {
+                        "name": "grid-row-cell-selected-border-color",
+                        "enabled": true,
+                        "value": "rgba(228,239,248,1)"
+                    },
+                    {
+                        "name": "grid-row-cell-selected-border-style",
+                        "enabled": true,
+                        "value": "\"\""
+                    },
+                    {
+                        "name": "grid-row-cell-selected-color",
+                        "enabled": true,
+                        "value": "rgba(50,38,38,1)"
+                    }
+                ]
+            },
+            "Ext.tab.Bar": {
+                "globalVars": [
+                    {
+                        "name": "tabbar-base-color",
+                        "enabled": true,
+                        "value": "rgba(255,255,255,1)"
+                    }
+                ]
+            },
+            "Ext.tab.Tab": {
+                "globalVars": [
+                    {
+                        "name": "tab-base-color",
+                        "enabled": true,
+                        "value": "rgba(70,171,254,1)"
+                    },
+                    {
+                        "name": "tab-base-color-active",
+                        "enabled": true,
+                        "value": "rgba(229,243,254,1)"
+                    },
+                    {
+                        "name": "tab-color",
+                        "enabled": true,
+                        "value": "rgba(255,255,255,1)"
+                    },
+                    {
+                        "name": "tab-font-size",
+                        "enabled": true,
+                        "value": "11px"
+                    },
+                    {
+                        "name": "tab-glyph-color",
+                        "enabled": true,
+                        "value": "rgba(255,255,255,1)"
+                    },
+                    {
+                        "name": "tab-padding",
+                        "enabled": true,
+                        "value": "3px 12px 7px"
+                    }
+                ]
+            },
+            "Ext.toolbar.Toolbar": {
+                "globalVars": [
+                    {
+                        "name": "toolbar-border-color",
+                        "enabled": true,
+                        "value": "rgba(255,255,255,1)"
+                    },
+                    {
+                        "name": "toolbar-border-width",
+                        "enabled": true,
+                        "value": "0px"
+                    },
+                    {
+                        "name": "toolbar-footer-background-color",
+                        "enabled": true,
+                        "value": "rgba(255,255,255,1)"
+                    }
+                ]
+            },
+            "Ext.window.Window": {
+                "globalVars": [
+                    {
+                        "name": "window-body-border-width",
+                        "enabled": true,
+                        "value": "0"
+                    },
+                    {
+                        "name": "window-header-line-height",
+                        "enabled": true,
+                        "value": "30px"
+                    }
+                ]
+            }
+        }
+    }
+}

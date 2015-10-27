@@ -1,0 +1,1254 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.1.0.final using JasperReports Library version 6.1.0  -->
+<!-- 2015-09-02T17:51:55 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="report2" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="639b2439-1207-4eee-9c04-ebbbb0606e74">
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="Super Visory Visit"/>
+	<queryString language="xPath">
+		<![CDATA[/super-visory-visit]]>
+	</queryString>
+	<field name="client-name" class="java.lang.String">
+		<fieldDescription><![CDATA[data/client-name]]></fieldDescription>
+	</field>
+	<field name="mr-number" class="java.lang.String">
+		<fieldDescription><![CDATA[data/mr-number]]></fieldDescription>
+	</field>
+	<field name="supervisory-name" class="java.lang.String">
+		<fieldDescription><![CDATA[data/supervisory-name]]></fieldDescription>
+	</field>
+	<field name="reports-for-work-assignments" class="java.lang.String">
+		<fieldDescription><![CDATA[data/reports-for-work-assignments]]></fieldDescription>
+	</field>
+	<field name="work-assignments-comments" class="java.lang.String">
+		<fieldDescription><![CDATA[data/work-assignments-comments]]></fieldDescription>
+	</field>
+	<field name="identifies-self" class="java.lang.String">
+		<fieldDescription><![CDATA[data/identifies-self]]></fieldDescription>
+	</field>
+	<field name="identifies-self-comments" class="java.lang.String">
+		<fieldDescription><![CDATA[data/identifies-self-comments]]></fieldDescription>
+	</field>
+	<field name="courteous-behaviour" class="java.lang.String">
+		<fieldDescription><![CDATA[data/courteous-behaviour]]></fieldDescription>
+	</field>
+	<field name="courteous-behaviour-comments" class="java.lang.String">
+		<fieldDescription><![CDATA[data/courteous-behaviour-comments]]></fieldDescription>
+	</field>
+	<field name="cooperative-behaviour" class="java.lang.String">
+		<fieldDescription><![CDATA[data/cooperative-behaviour]]></fieldDescription>
+	</field>
+	<field name="cooperative-behaviour-comments" class="java.lang.String">
+		<fieldDescription><![CDATA[data/cooperative-behaviour-comments]]></fieldDescription>
+	</field>
+	<field name="positive-attitude" class="java.lang.String">
+		<fieldDescription><![CDATA[data/positive-attitude]]></fieldDescription>
+	</field>
+	<field name="positive-attitude-comments" class="java.lang.String">
+		<fieldDescription><![CDATA[data/positive-attitude-comments]]></fieldDescription>
+	</field>
+	<field name="competent-skills" class="java.lang.String">
+		<fieldDescription><![CDATA[data/competent-skills]]></fieldDescription>
+	</field>
+	<field name="competent-skills-comments" class="java.lang.String">
+		<fieldDescription><![CDATA[data/competent-skills-comments]]></fieldDescription>
+	</field>
+	<field name="adequate-skills" class="java.lang.String">
+		<fieldDescription><![CDATA[data/adequate-skills]]></fieldDescription>
+	</field>
+	<field name="adequate-skills-comments" class="java.lang.String">
+		<fieldDescription><![CDATA[data/adequate-skills-comments]]></fieldDescription>
+	</field>
+	<field name="client-care-plan" class="java.lang.String">
+		<fieldDescription><![CDATA[data/client-care-plan]]></fieldDescription>
+	</field>
+	<field name="client-care-plan-comments" class="java.lang.String">
+		<fieldDescription><![CDATA[data/client-care-plan-comments]]></fieldDescription>
+	</field>
+	<field name="provided-hhc-services" class="java.lang.String">
+		<fieldDescription><![CDATA[data/provided-hhc-services]]></fieldDescription>
+	</field>
+	<field name="provided-hhc-services-comments" class="java.lang.String">
+		<fieldDescription><![CDATA[data/provided-hhc-services-comments]]></fieldDescription>
+	</field>
+	<field name="inform-client-needs" class="java.lang.String">
+		<fieldDescription><![CDATA[data/inform-client-needs]]></fieldDescription>
+	</field>
+	<field name="inform-client-needs-comments" class="java.lang.String">
+		<fieldDescription><![CDATA[data/inform-client-needs-comments]]></fieldDescription>
+	</field>
+	<field name="adheres-to-hha" class="java.lang.String">
+		<fieldDescription><![CDATA[data/adheres-to-hha]]></fieldDescription>
+	</field>
+	<field name="adheres-to-hha-comments" class="java.lang.String">
+		<fieldDescription><![CDATA[data/adheres-to-hha-comments]]></fieldDescription>
+	</field>
+	<field name="body-mechanics" class="java.lang.String">
+		<fieldDescription><![CDATA[data/body-mechanics]]></fieldDescription>
+	</field>
+	<field name="body-mechanics-comments" class="java.lang.String">
+		<fieldDescription><![CDATA[data/body-mechanics-comments]]></fieldDescription>
+	</field>
+	<field name="grooming-habits" class="java.lang.String">
+		<fieldDescription><![CDATA[data/grooming-habits]]></fieldDescription>
+	</field>
+	<field name="grooming-habits-comments" class="java.lang.String">
+		<fieldDescription><![CDATA[data/grooming-habits-comments]]></fieldDescription>
+	</field>
+	<field name="complies-with-hha" class="java.lang.String">
+		<fieldDescription><![CDATA[data/complies-with-hha]]></fieldDescription>
+	</field>
+	<field name="complies-with-hha-comments" class="java.lang.String">
+		<fieldDescription><![CDATA[data/complies-with-hha-comments]]></fieldDescription>
+	</field>
+	<field name="other" class="java.lang.String">
+		<fieldDescription><![CDATA[data/other]]></fieldDescription>
+	</field>
+	<field name="other-comments" class="java.lang.String">
+		<fieldDescription><![CDATA[data/other-comments]]></fieldDescription>
+	</field>
+	<field name="document-date" class="java.lang.String">
+		<fieldDescription><![CDATA[document-date]]></fieldDescription>
+	</field>
+	<field name="fs-sign-required" class="java.lang.String">
+		<fieldDescription><![CDATA[fs-sign-required]]></fieldDescription>
+	</field>
+	<field name="os-sign-required" class="java.lang.String">
+		<fieldDescription><![CDATA[os-sign-required]]></fieldDescription>
+	</field>
+	<field name="visited-staff-name" class="java.lang.String">
+		<fieldDescription><![CDATA[visited-staff-name]]></fieldDescription>
+	</field>
+	<field name="field-staff-signature" class="java.lang.String">
+		<fieldDescription><![CDATA[field-staff-signature]]></fieldDescription>
+	</field>
+	<field name="office-staff-signature" class="java.lang.String">
+		<fieldDescription><![CDATA[office-staff-signature]]></fieldDescription>
+	</field>
+	<field name="office-staff-name" class="java.lang.String">
+		<fieldDescription><![CDATA[office-staff-name]]></fieldDescription>
+	</field>
+	<field name="supervised-user-signature" class="java.lang.String">
+		<fieldDescription><![CDATA[supervised-user-signature]]></fieldDescription>
+	</field>
+	<field name="supervised-user-name" class="java.lang.String">
+		<fieldDescription><![CDATA[supervised-user-name]]></fieldDescription>
+	</field>
+	<field name="agency-name" class="java.lang.String">
+		<fieldDescription><![CDATA[agency-name]]></fieldDescription>
+	</field>
+	<field name="staff-member-supervised-display" class="java.lang.String">
+		<fieldDescription><![CDATA[staff-member-supervised-display]]></fieldDescription>
+	</field>
+	<field name="patient-name-with-mr-display" class="java.lang.String">
+		<fieldDescription><![CDATA[patient-name-with-mr-display]]></fieldDescription>
+	</field>
+	<field name="therapist-name-display" class="java.lang.String">
+		<fieldDescription><![CDATA[therapist-name-display]]></fieldDescription>
+	</field>
+	<field name="supervised-user-signed-date-display" class="java.lang.String">
+		<fieldDescription><![CDATA[supervised-user-signed-date-display]]></fieldDescription>
+	</field>
+	<field name="supervisor-signed" class="java.lang.String">
+		<fieldDescription><![CDATA[supervisor-signed]]></fieldDescription>
+	</field>
+	<field name="patient-name" class="java.lang.String">
+		<fieldDescription><![CDATA[patient-name]]></fieldDescription>
+	</field>
+	<field name="supervised-user-name-display" class="java.lang.String">
+		<fieldDescription><![CDATA[supervised-user-name-display]]></fieldDescription>
+	</field>
+	<field name="date-time-display" class="java.lang.String">
+		<fieldDescription><![CDATA[date-time-display]]></fieldDescription>
+	</field>
+	<field name="approved-date" class="java.lang.String">
+		<fieldDescription><![CDATA[approved-date]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="48" splitType="Stretch">
+			<textField>
+				<reportElement x="2" y="20" width="551" height="21" uuid="e0f97bcc-090b-4510-bfc3-6fe879e89c9c"/>
+				<textElement textAlignment="Center">
+					<font size="15" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["SUPERVISORY VISIT OF HOME HEALTH CARE STAFF"]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="2" y="0" width="552" height="19" uuid="15488c9d-f512-40a0-9bc9-8ee15acd28bd"/>
+				<textElement textAlignment="Center">
+					<font size="15" isBold="true"/>
+					<paragraph lineSpacing="1_1_2"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{agency-name}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageHeader>
+	<detail>
+		<band height="42" splitType="Stretch">
+			<textField>
+				<reportElement x="1" y="2" width="334" height="12" uuid="b4878d07-2638-436b-8ef7-6886d85c73ba">
+					<property name="local_mesure_unitx" value="pixel"/>
+					<property name="local_mesure_unitwidth" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="px"/>
+					<property name="local_mesure_unitheight" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="px"/>
+				</reportElement>
+				<textElement markup="html">
+					<font size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{patient-name-with-mr-display}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="2" y="27" width="278" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="c60673ff-44e4-46cc-be11-cf8aae600e58"/>
+				<textElement markup="html">
+					<font size="10"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{therapist-name-display}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="1" y="15" width="379" height="12" isRemoveLineWhenBlank="true" uuid="d970eee6-b417-490d-ae7d-149ad6918dda">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.y" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.height" value="pixel"/>
+				</reportElement>
+				<textElement markup="html"/>
+				<textFieldExpression><![CDATA[$F{supervised-user-name-display}]]></textFieldExpression>
+			</textField>
+			<textField isBlankWhenNull="true">
+				<reportElement x="332" y="2" width="222" height="12" isRemoveLineWhenBlank="true" uuid="0c4e041a-137e-4201-aba4-7b345abfb69d"/>
+				<textElement textAlignment="Right" markup="html"/>
+				<textFieldExpression><![CDATA[$F{date-time-display}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="46">
+			<printWhenExpression><![CDATA[$F{reports-for-work-assignments}!=null ||
+$F{work-assignments-comments}!=null || $F{identifies-self}!=null ||
+$F{identifies-self-comments}!=null ||
+$F{courteous-behaviour}!=null ||
+$F{courteous-behaviour-comments}!=null || $F{cooperative-behaviour}!=null ||
+$F{cooperative-behaviour-comments}!=null || $F{positive-attitude}!=null ||
+$F{positive-attitude-comments}!=null || $F{competent-skills}!=null ||
+$F{competent-skills-comments}!=null || $F{adequate-skills}!=null ||
+$F{adequate-skills-comments}!=null || $F{client-care-plan}!=null ||
+$F{client-care-plan-comments}!=null || $F{provided-hhc-services}!=null ||
+$F{provided-hhc-services-comments}!=null || $F{inform-client-needs}!=null ||
+$F{inform-client-needs-comments}!=null || $F{adheres-to-hha}!=null ||
+$F{adheres-to-hha-comments}!=null || $F{body-mechanics}!=null ||
+$F{body-mechanics-comments}!=null || $F{grooming-habits}!=null ||
+$F{grooming-habits-comments}!=null || $F{complies-with-hha}!=null ||
+$F{complies-with-hha-comments}!=null || $F{other}!=null ||
+$F{other-comments}!=null]]></printWhenExpression>
+			<staticText>
+				<reportElement x="1" y="0" width="301" height="14" uuid="a92d2fd8-eea2-4c86-a4d2-94943bdbef53"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[STAFF INFORMATION]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="1" y="15" width="179" height="14" uuid="792744d6-b4ba-4151-9143-f0d265300c84"/>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[ITEM]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="180" y="15" width="74" height="28" uuid="ba37df3c-2f22-4951-b50a-d8d6bee32de2"/>
+				<text><![CDATA[Exceeds Requirements]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="330" y="15" width="82" height="28" uuid="d73dff07-5a09-40d8-8e5f-3624b227725a"/>
+				<text><![CDATA[Does Not Meet Requirements]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="254" y="15" width="76" height="28" uuid="18b53928-56d6-4e88-a3ef-f86ed3430b6d"/>
+				<text><![CDATA[Meets Requirements]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="412" y="15" width="57" height="28" uuid="b8d1b593-027f-4972-ad47-9c78fa3210b6"/>
+				<textElement>
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Not Observed]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="471" y="15" width="83" height="14" uuid="7cd4c2be-de38-4172-aa8c-7751514f1dae"/>
+				<text><![CDATA[Comments]]></text>
+			</staticText>
+		</band>
+		<band height="31">
+			<printWhenExpression><![CDATA[$F{reports-for-work-assignments}!=null ||
+$F{work-assignments-comments}!=null]]></printWhenExpression>
+			<staticText>
+				<reportElement x="2" y="1" width="179" height="28" uuid="8a46b6be-ccc9-427b-9086-2901294a8cf7"/>
+				<text><![CDATA[Reports for work assignments as schedule]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="205" y="0" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{reports-for-work-assignments}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{reports-for-work-assignments}.equals("Exceeds Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="283" y="0" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{reports-for-work-assignments}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{reports-for-work-assignments}.equals("Meets Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="357" y="0" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{reports-for-work-assignments}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{reports-for-work-assignments}.equals("Does Not Meet Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="436" y="0" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{reports-for-work-assignments}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{reports-for-work-assignments}.equals("Not Observed") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="460" y="0" width="95" height="14" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="e808b474-2d67-4f90-9e19-73c9dfac40a2"/>
+				<textFieldExpression><![CDATA[$F{work-assignments-comments}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="34">
+			<printWhenExpression><![CDATA[$F{identifies-self}!=null ||
+$F{identifies-self-comments}!=null]]></printWhenExpression>
+			<staticText>
+				<reportElement x="2" y="1" width="179" height="28" uuid="8a46b6be-ccc9-427b-9086-2901294a8cf7"/>
+				<text><![CDATA[Identifies self by name and title to the client]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="460" y="1" width="93" height="14" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="e808b474-2d67-4f90-9e19-73c9dfac40a2"/>
+				<textFieldExpression><![CDATA[$F{identifies-self-comments}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="282" y="0" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{identifies-self}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{identifies-self}.equals("Meets Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="355" y="0" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{identifies-self}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{identifies-self}.equals("Does Not Meet Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="434" y="0" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{identifies-self}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{identifies-self}.equals("Not Observed") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="205" y="0" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="d2f71311-85c4-455e-a1a5-019c25c42718">
+					<printWhenExpression><![CDATA[$F{reports-for-work-assignments}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{identifies-self}.equals("Exceeds Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="31">
+			<printWhenExpression><![CDATA[$F{courteous-behaviour}!=null ||
+$F{courteous-behaviour-comments}!=null]]></printWhenExpression>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="204" y="1" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{courteous-behaviour}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{courteous-behaviour}.equals("Exceeds Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="2" y="1" width="178" height="28" uuid="0f352100-152f-4b41-a9c0-57e6ebbbe296"/>
+				<text><![CDATA[Demonstrates courteous behaviour toward the client and behaviour]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="460" y="0" width="94" height="14" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="e808b474-2d67-4f90-9e19-73c9dfac40a2"/>
+				<textFieldExpression><![CDATA[$F{courteous-behaviour-comments}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="356" y="1" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{courteous-behaviour}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{courteous-behaviour}.equals("Does Not Meet Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="281" y="1" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{courteous-behaviour}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{courteous-behaviour}.equals("Meets Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="434" y="1" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{cooperative-behaviour}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{courteous-behaviour}.equals("Not Observed") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="37">
+			<printWhenExpression><![CDATA[$F{cooperative-behaviour}!=null ||
+$F{cooperative-behaviour-comments}!=null]]></printWhenExpression>
+			<staticText>
+				<reportElement x="2" y="1" width="179" height="35" uuid="8a46b6be-ccc9-427b-9086-2901294a8cf7"/>
+				<text><![CDATA[Demonstrates cooperative behaviour with the client and others]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="434" y="1" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{cooperative-behaviour}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{cooperative-behaviour}.equals("Not Observed") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="281" y="1" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{cooperative-behaviour}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{cooperative-behaviour}.equals("Meets Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="356" y="1" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{cooperative-behaviour}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{cooperative-behaviour}.equals("Does Not Meet Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="460" y="0" width="94" height="14" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="e808b474-2d67-4f90-9e19-73c9dfac40a2"/>
+				<textFieldExpression><![CDATA[$F{cooperative-behaviour-comments}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="204" y="1" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{cooperative-behaviour}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{cooperative-behaviour}.equals("Exceeds Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="36">
+			<printWhenExpression><![CDATA[$F{positive-attitude}!=null ||
+$F{positive-attitude-comments}!=null]]></printWhenExpression>
+			<staticText>
+				<reportElement x="2" y="-2" width="179" height="36" uuid="8a46b6be-ccc9-427b-9086-2901294a8cf7"/>
+				<text><![CDATA[Demonstrates the positive and helpful attitude toward client and others]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="281" y="0" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{positive-attitude}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{positive-attitude}.equals("Meets Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="204" y="0" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{positive-attitude}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{positive-attitude}.equals("Exceeds Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="434" y="0" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{positive-attitude}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{positive-attitude}.equals("Not Observed") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="356" y="0" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{positive-attitude}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{positive-attitude}.equals("Does Not Meet Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="460" y="0" width="93" height="14" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="e808b474-2d67-4f90-9e19-73c9dfac40a2"/>
+				<textFieldExpression><![CDATA[$F{positive-attitude-comments}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="30">
+			<printWhenExpression><![CDATA[$F{competent-skills}!=null ||
+$F{competent-skills-comments}!=null]]></printWhenExpression>
+			<staticText>
+				<reportElement x="2" y="0" width="179" height="28" uuid="8a46b6be-ccc9-427b-9086-2901294a8cf7"/>
+				<text><![CDATA[Demonstrates competent skills and expertise]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="280" y="0" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{competent-skills}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{competent-skills}.equals("Meets Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="460" y="0" width="93" height="14" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="e808b474-2d67-4f90-9e19-73c9dfac40a2"/>
+				<textFieldExpression><![CDATA[$F{competent-skills-comments}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="433" y="0" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{competent-skills}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{competent-skills}.equals("Not Observed") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="355" y="0" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{competent-skills}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{competent-skills}.equals("Does Not Meet Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="203" y="0" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{competent-skills}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{competent-skills}.equals("Exceeds Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="34">
+			<printWhenExpression><![CDATA[$F{adequate-skills}!=null ||
+$F{adequate-skills-comments}!=null]]></printWhenExpression>
+			<staticText>
+				<reportElement x="1" y="2" width="179" height="28" uuid="8a46b6be-ccc9-427b-9086-2901294a8cf7"/>
+				<text><![CDATA[Demonstrates adqueate communication skills]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="355" y="2" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{adequate-skills}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{adequate-skills}.equals("Does Not Meet Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="280" y="2" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{adequate-skills}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{adequate-skills}.equals("Meets Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="433" y="2" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{adequate-skills}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{adequate-skills}.equals("Not Observed") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="460" y="2" width="93" height="14" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="e808b474-2d67-4f90-9e19-73c9dfac40a2"/>
+				<textFieldExpression><![CDATA[$F{adequate-skills-comments}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="203" y="2" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{adequate-skills}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{adequate-skills}.equals("Exceeds Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="18">
+			<printWhenExpression><![CDATA[$F{client-care-plan}!=null ||
+$F{client-care-plan-comments}!=null]]></printWhenExpression>
+			<staticText>
+				<reportElement x="1" y="2" width="179" height="14" uuid="8a46b6be-ccc9-427b-9086-2901294a8cf7"/>
+				<text><![CDATA[Follows client care plan]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="280" y="1" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{client-care-plan}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{client-care-plan}.equals("Meets Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="433" y="1" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{client-care-plan}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{client-care-plan}.equals("Not Observed") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="460" y="1" width="93" height="14" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="e808b474-2d67-4f90-9e19-73c9dfac40a2"/>
+				<textFieldExpression><![CDATA[$F{client-care-plan-comments}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="355" y="1" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{client-care-plan}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{client-care-plan}.equals("Does Not Meet Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="203" y="1" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{client-care-plan}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{client-care-plan}.equals("Exceeds Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="39">
+			<printWhenExpression><![CDATA[$F{provided-hhc-services}!=null ||
+$F{provided-hhc-services-comments}!=null]]></printWhenExpression>
+			<staticText>
+				<reportElement x="1" y="1" width="179" height="36" uuid="8a46b6be-ccc9-427b-9086-2901294a8cf7"/>
+				<text><![CDATA[Document provided home health care services and in appropriate manner]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="355" y="0" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{provided-hhc-services}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{provided-hhc-services}.equals("Does Not Meet Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="460" y="0" width="93" height="14" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="e808b474-2d67-4f90-9e19-73c9dfac40a2"/>
+				<textFieldExpression><![CDATA[$F{provided-hhc-services-comments}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="433" y="0" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{provided-hhc-services}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{provided-hhc-services}.equals("Not Observed") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="280" y="0" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{provided-hhc-services}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{provided-hhc-services}.equals("Meets Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="203" y="0" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{provided-hhc-services}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{provided-hhc-services}.equals("Exceeds Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="40">
+			<printWhenExpression><![CDATA[$F{inform-client-needs}!=null ||
+$F{inform-client-needs-comments}!=null]]></printWhenExpression>
+			<staticText>
+				<reportElement x="2" y="0" width="179" height="38" uuid="8a46b6be-ccc9-427b-9086-2901294a8cf7"/>
+				<text><![CDATA[Informs of client needs and condition as appropriate, in a timely manner]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="355" y="0" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{inform-client-needs}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{inform-client-needs}.equals("Does Not Meet Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="280" y="0" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{inform-client-needs}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{inform-client-needs}.equals("Meets Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="203" y="0" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{inform-client-needs}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{inform-client-needs}.equals("Exceeds Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="433" y="0" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{inform-client-needs}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{inform-client-needs}.equals("Not Observed") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="460" y="0" width="93" height="14" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="a58758c4-841e-406b-a7e9-fdb2895863e1"/>
+				<textFieldExpression><![CDATA[$F{inform-client-needs-comments}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="56">
+			<printWhenExpression><![CDATA[$F{adheres-to-hha}!=null ||
+$F{adheres-to-hha-comments}!=null]]></printWhenExpression>
+			<staticText>
+				<reportElement x="2" y="2" width="179" height="28" uuid="8a46b6be-ccc9-427b-9086-2901294a8cf7"/>
+				<text><![CDATA[Adheres to home health care agency policies and procedures]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="433" y="1" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{adheres-to-hha}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{adheres-to-hha}.equals("Not Observed") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="460" y="2" width="93" height="14" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="e808b474-2d67-4f90-9e19-73c9dfac40a2"/>
+				<textFieldExpression><![CDATA[$F{adheres-to-hha-comments}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="280" y="1" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{adheres-to-hha}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{adheres-to-hha}.equals("Meets Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="355" y="2" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{adheres-to-hha}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{adheres-to-hha}.equals("Does Not Meet Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="203" y="2" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{adheres-to-hha}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{adheres-to-hha}.equals("Exceeds Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="32">
+			<printWhenExpression><![CDATA[$F{body-mechanics}!=null ||
+$F{body-mechanics-comments}!=null]]></printWhenExpression>
+			<staticText>
+				<reportElement x="1" y="1" width="179" height="14" uuid="8a46b6be-ccc9-427b-9086-2901294a8cf7"/>
+				<text><![CDATA[Utilizes proper body mechanics]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="356" y="2" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{body-mechanics}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{body-mechanics}.equals("Does Not Meet Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="204" y="2" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{body-mechanics}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{body-mechanics}.equals("Exceeds Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="281" y="2" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{body-mechanics}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{body-mechanics}.equals("Meets Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="434" y="1" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{body-mechanics}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{body-mechanics}.equals("Not Observed") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="460" y="2" width="94" height="14" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="e808b474-2d67-4f90-9e19-73c9dfac40a2"/>
+				<textFieldExpression><![CDATA[$F{body-mechanics-comments}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="31">
+			<printWhenExpression><![CDATA[$F{grooming-habits}!=null ||
+$F{grooming-habits-comments}!=null]]></printWhenExpression>
+			<staticText>
+				<reportElement x="1" y="1" width="179" height="28" uuid="48f07486-c00f-4d13-836b-70921536b1a1"/>
+				<text><![CDATA[Utilizes good grooming habits]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="355" y="1" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{grooming-habits}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{grooming-habits}.equals("Does Not Meet Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="204" y="1" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{grooming-habits}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{grooming-habits}.equals("Exceeds Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="460" y="4" width="93" height="14" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="e808b474-2d67-4f90-9e19-73c9dfac40a2"/>
+				<textFieldExpression><![CDATA[$F{grooming-habits-comments}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="280" y="1" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{grooming-habits}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{grooming-habits}.equals("Meets Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="433" y="0" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{grooming-habits}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{grooming-habits}.equals("Not Observed") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="29">
+			<printWhenExpression><![CDATA[$F{complies-with-hha}!=null ||
+$F{complies-with-hha-comments}!=null]]></printWhenExpression>
+			<staticText>
+				<reportElement x="1" y="0" width="179" height="28" uuid="e721a9ab-457a-4e28-8fd8-9050bccd7be2"/>
+				<text><![CDATA[Complies with home health agency dress code]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="204" y="2" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{complies-with-hha}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{complies-with-hha}.equals("Exceeds Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="281" y="2" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{complies-with-hha}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{complies-with-hha}.equals("Meets Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="356" y="2" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{complies-with-hha}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{complies-with-hha}.equals("Does Not Meet Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="432" y="2" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{complies-with-hha}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{complies-with-hha}.equals("Not Observed") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="460" y="2" width="94" height="14" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="e808b474-2d67-4f90-9e19-73c9dfac40a2"/>
+				<textFieldExpression><![CDATA[$F{complies-with-hha-comments}]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="17">
+			<printWhenExpression><![CDATA[$F{other}!=null ||
+$F{other-comments}!=null]]></printWhenExpression>
+			<staticText>
+				<reportElement x="0" y="0" width="179" height="14" uuid="8a46b6be-ccc9-427b-9086-2901294a8cf7"/>
+				<text><![CDATA[Other]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="460" y="0" width="94" height="14" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="e808b474-2d67-4f90-9e19-73c9dfac40a2"/>
+				<textFieldExpression><![CDATA[$F{other-comments}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="356" y="0" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{other}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{other}.equals("Does Not Meet Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="281" y="0" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{other}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{other}.equals("Meets Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="203" y="0" width="7" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{other}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{other}.equals("Exceeds Requirements") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="431" y="0" width="6" height="12" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="8d248ebd-8621-494d-92da-d6536f36fa28">
+					<printWhenExpression><![CDATA[$F{other}!=null]]></printWhenExpression>
+				</reportElement>
+				<box leftPadding="0">
+					<topPen lineWidth="0.25" lineStyle="Solid"/>
+					<leftPen lineWidth="0.25" lineStyle="Solid"/>
+					<bottomPen lineWidth="0.25" lineStyle="Solid"/>
+					<rightPen lineWidth="0.25" lineStyle="Solid"/>
+				</box>
+				<textFieldExpression><![CDATA[( $F{other}.equals("Not Observed") ? "X" : "" )]]></textFieldExpression>
+			</textField>
+		</band>
+		<band height="115">
+			<staticText>
+				<reportElement x="2" y="13" width="160" height="15" uuid="0ccb1ff2-bf0b-41b5-a401-b875320a202e">
+					<printWhenExpression><![CDATA[$F{supervised-user-name}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Supervised Staff Signature]]></text>
+			</staticText>
+			<image>
+				<reportElement x="0" y="31" width="162" height="34" isRemoveLineWhenBlank="true" uuid="9ead10f3-19b0-4c3d-8d51-c21d020f2abb"/>
+				<imageExpression><![CDATA[new File($F{supervised-user-signature})]]></imageExpression>
+			</image>
+			<textField isBlankWhenNull="true">
+				<reportElement x="1" y="65" width="201" height="15" isRemoveLineWhenBlank="true" uuid="deede0a5-b54b-4575-aa43-6ca6b3c90315">
+					<printWhenExpression><![CDATA[$F{supervised-user-name}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement>
+					<font isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA["(" + $F{supervised-user-name} + ")"]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="2" y="81" width="352" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="157c63d9-28ba-426b-932c-29929927bdb0">
+					<printWhenExpression><![CDATA[$F{supervised-user-name}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement markup="html"/>
+				<textFieldExpression><![CDATA[($F{supervisor-signed}== "true" ? ("<b>(" + $F{supervised-user-name} + ")</b>"): ("Electronically Signed by "+$F{supervised-user-name}))]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="2" y="98" width="155" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" uuid="41c11c14-0d78-4d07-813f-993a32ef2224">
+					<printWhenExpression><![CDATA[$F{supervised-user-signed-date-display}!=null &&
+$F{supervised-user-signature}!=null]]></printWhenExpression>
+				</reportElement>
+				<textElement textAlignment="Left" markup="html"/>
+				<textFieldExpression><![CDATA["Date: "+$F{supervised-user-signed-date-display}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+	<pageFooter>
+		<band height="38">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="2" y="1" width="147" height="15" uuid="570305c2-01d6-483e-925d-739a564e963a"/>
+				<textFieldExpression><![CDATA[$F{patient-name}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="132" y="1" width="298" height="15" uuid="6fd2e33d-b655-4827-9cd4-5d4b7f0758d3">
+					<property name="com.jaspersoft.studio.unit.x" value="pixel"/>
+					<property name="com.jaspersoft.studio.unit.width" value="pixel"/>
+				</reportElement>
+				<textElement textAlignment="Center" markup="none">
+					<font size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA["Supervisory visit of Home Health Care Staff "]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="219" y="19" width="117" height="12" uuid="a6570b88-b19c-4b8a-b606-72663aabadac"/>
+				<textElement textAlignment="Center"/>
+				<text><![CDATA[www.fasternotes.com]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="471" y="18" width="81" height="12" uuid="49888470-7c0f-4552-9b75-428da5a4e58b"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA["Page "+$V{PAGE_NUMBER}+" of"+" "+$V{PAGE_NUMBER}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement x="455" y="1" width="98" height="15" isPrintInFirstWholeBand="true" isPrintWhenDetailOverflows="true" uuid="b850cb5a-cac6-4f86-9720-5b80d82da589"/>
+				<textElement textAlignment="Right"/>
+				<textFieldExpression><![CDATA[$F{approved-date}]]></textFieldExpression>
+			</textField>
+		</band>
+	</pageFooter>
+</jasperReport>

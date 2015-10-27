@@ -1,0 +1,5 @@
+1. Run the following diagram from the Rails app root directory:
+
+bundle exec erd --inheritance --polymorphism --notation=bachman --attributes=primary_keys,foreign_keys --filetype=png --orientation=horizontal --debug
+
+2. Currently we keep a copy of it in the doc directory so move the resultant diagram called erd.png to the doc directory

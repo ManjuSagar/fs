@@ -1,0 +1,54 @@
+{
+    "type": "jsonstore",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "autoLoad": true,
+        "model": "Patient",
+        "storeId": "PatientLocalStore",
+        "designer|userClassName": "PatientLocalStore"
+    },
+    "designerId": "d508986d-d306-4825-ace1-069ffbf89a4e",
+    "cn": [
+        {
+            "type": "Ext.data.proxy.Ajax",
+            "reference": {
+                "name": "proxy",
+                "type": "object"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "batchActions": false,
+                "api": [
+                    "{",
+                    "    create: '/app/Patient/create',",
+                    "    read: '/app/Patient',",
+                    "    update: '/app/Patient/update',",
+                    "    destroy: '/app/Patient/delete'",
+                    "}"
+                ],
+                "noCache": null,
+                "url": null
+            },
+            "designerId": "f260a7b4-e883-4250-9e0a-c72fe8f0506e",
+            "cn": [
+                {
+                    "type": "Ext.data.reader.Json",
+                    "reference": {
+                        "name": "reader",
+                        "type": "object"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "clientIdProperty": "id",
+                        "idProperty": "id"
+                    },
+                    "designerId": "268d1073-c73b-4e25-b814-734fa3f8962d"
+                }
+            ]
+        }
+    ]
+}

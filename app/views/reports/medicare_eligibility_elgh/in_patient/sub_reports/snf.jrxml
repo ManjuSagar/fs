@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="snf" language="groovy" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="ab0d208a-6084-4546-8b3e-46f9a165c29e">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/elgh-response/current-benefit-periods/snf-details/snf-detail]]>
+	</queryString>
+	<field name="max-allowed-days" class="java.lang.String">
+		<fieldDescription><![CDATA[max-allowed-days]]></fieldDescription>
+	</field>
+	<field name="remaining-days" class="java.lang.String">
+		<fieldDescription><![CDATA[remaining-days]]></fieldDescription>
+	</field>
+	<field name="earliest-billing-date" class="java.lang.String">
+		<fieldDescription><![CDATA[earliest-billing-date]]></fieldDescription>
+	</field>
+	<field name="latest-billing-date" class="java.lang.String">
+		<fieldDescription><![CDATA[latest-billing-date]]></fieldDescription>
+	</field>
+	<field name="calendar-year" class="java.lang.String">
+		<fieldDescription><![CDATA[calendar-year]]></fieldDescription>
+	</field>
+	<field name="co-insurance-amount" class="java.lang.Float">
+		<fieldDescription><![CDATA[co-insurance-amount]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="45" splitType="Stretch">
+			<printWhenExpression><![CDATA[$F{calendar-year}!=null ||
+$F{co-insurance-amount}!=null ||
+$F{max-allowed-days}!=null ||
+$F{remaining-days}!=null ||
+$F{earliest-billing-date}!=null ||
+$F{latest-billing-date}!=null]]></printWhenExpression>
+			<staticText>
+				<reportElement uuid="ddd03423-d752-4e1c-96bd-ca3457293f28" mode="Opaque" x="388" y="20" width="78" height="25" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" backcolor="#F0ECEC"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[DOEBA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="55448bc9-e541-400c-b0ca-012a3702e4d5" mode="Opaque" x="0" y="0" width="555" height="15" backcolor="#DFD4D4"/>
+				<textElement>
+					<font size="11" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Skilled Nursing Facility ( SNF )]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="ddd03423-d752-4e1c-96bd-ca3457293f28" mode="Opaque" x="132" y="20" width="96" height="25" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" backcolor="#F0ECEC"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[CO-Payment Amount / Day]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="ddd03423-d752-4e1c-96bd-ca3457293f28" mode="Opaque" x="465" y="20" width="78" height="25" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" backcolor="#F0ECEC"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[DOLBA]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="ddd03423-d752-4e1c-96bd-ca3457293f28" mode="Opaque" x="313" y="20" width="75" height="25" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" backcolor="#F0ECEC"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Remaining Days]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="ddd03423-d752-4e1c-96bd-ca3457293f28" mode="Opaque" x="228" y="20" width="85" height="25" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" backcolor="#F0ECEC"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Max Allowed Days]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="ddd03423-d752-4e1c-96bd-ca3457293f28" mode="Opaque" x="2" y="20" width="130" height="25" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" backcolor="#F0ECEC"/>
+				<textElement textAlignment="Left">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Year]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="16" splitType="Stretch">
+			<textField isStretchWithOverflow="true" pattern="$#,##0.00" isBlankWhenNull="true">
+				<reportElement uuid="f90c4401-455a-4fe0-a5e2-fb54fdddeefa" x="132" y="1" width="96" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{co-insurance-amount}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="10ecac71-91ce-4f62-b08b-51b4c012841f" x="388" y="1" width="78" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{earliest-billing-date}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="35639389-cf84-4f2d-8309-869462c2accb" x="228" y="1" width="85" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{max-allowed-days}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="10ecac71-91ce-4f62-b08b-51b4c012841f" x="465" y="1" width="78" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{latest-billing-date}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="0be2d5c1-ec9a-48f6-bb99-b662a940377f" x="313" y="1" width="75" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{remaining-days}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="6f84aa4e-31f3-4307-976b-993b92ea6f78" x="2" y="1" width="130" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Left" verticalAlignment="Middle"/>
+				<textFieldExpression><![CDATA[$F{calendar-year}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

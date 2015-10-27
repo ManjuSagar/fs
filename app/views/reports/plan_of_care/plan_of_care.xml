@@ -1,0 +1,529 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<plan-of-care>
+  <agency-approved-user-id type="integer">295</agency-approved-user-id>
+  <created-user-id type="integer">295</created-user-id>
+  <data>
+    <valid type="boolean">true</valid>
+    <poc-date>01/20/2014</poc-date>
+    <principal-icd1>728.87</principal-icd1>
+    <principal-date1>01/21/2014</principal-date1>
+    <principal-oe1>E</principal-oe1>
+    <principal-icd2>331.82</principal-icd2>
+    <principal-date2>01/21/2014</principal-date2>
+    <principal-oe2>E</principal-oe2>
+    <principal-icd3>311</principal-icd3>
+    <principal-date3>01/20/2014</principal-date3>
+    <principal-oe3>O</principal-oe3>
+    <principal-icd4>496</principal-icd4>
+    <principal-date4>01/21/2014</principal-date4>
+    <principal-oe4>E</principal-oe4>
+    <principal-icd5>123.6</principal-icd5>
+    <principal-date5>01/21/2014</principal-date5>
+    <principal-oe5>O</principal-oe5>
+    <principal-icd6>765.04</principal-icd6>
+    <principal-date6>01/27/2014</principal-date6>
+    <principal-oe6>O</principal-oe6>
+    <surgical-icd1>145.0</surgical-icd1>
+    <surgical-date1>01/20/2014</surgical-date1>
+    <surgical-oe1>E</surgical-oe1>
+    <surgical-icd2>134.1</surgical-icd2>
+    <surgical-date2>01/06/2014</surgical-date2>
+    <surgical-oe2>E</surgical-oe2>
+    <surgical-icd3>189.1</surgical-icd3>
+    <surgical-date3>01/22/2014</surgical-date3>
+    <surgical-oe3>O</surgical-oe3>
+    <surgical-icd4>189.1</surgical-icd4>
+    <surgical-date4>01/23/2014</surgical-date4>
+    <surgical-oe4>O</surgical-oe4>
+    <pertinent-icd1>600.00</pertinent-icd1>
+    <pertinent-date1>01/20/2014</pertinent-date1>
+    <pertinent-oe1>O</pertinent-oe1>
+    <pertinent-icd2>272.4</pertinent-icd2>
+    <pertinent-date2>01/20/2014</pertinent-date2>
+    <pertinent-oe2>E</pertinent-oe2>
+    <pertinent-icd3>123.8</pertinent-icd3>
+    <pertinent-date3>01/20/2014</pertinent-date3>
+    <pertinent-oe3>E</pertinent-oe3>
+    <pertinent-icd4>134.0</pertinent-icd4>
+    <pertinent-date4>01/20/2014</pertinent-date4>
+    <pertinent-oe4>O</pertinent-oe4>
+    <pertinent-icd5>145.9</pertinent-icd5>
+    <pertinent-date5>01/20/2014</pertinent-date5>
+    <pertinent-oe5>E</pertinent-oe5>
+    <pertinent-icd6>145.8</pertinent-icd6>
+    <pertinent-date6>01/20/2014</pertinent-date6>
+    <pertinent-oe6>O</pertinent-oe6>
+    <dme type="array">
+      <dme>None</dme>
+      <dme>Cane</dme>
+      <dme>Walker</dme>
+      <dme>Wheelchair</dme>
+      <dme>Hospital bed</dme>
+      <dme>Mobility Scooter</dme>
+      <dme>Comode</dme>
+      <dme>Splint</dme>
+      <dme>Brace</dme>
+      <dme>Crutches</dme>
+      <dme>on</dme>
+    </dme>
+    <other-dme>Other DME and Supplies</other-dme>
+    <functional-limitations type="array">
+      <functional-limitation>Amputation</functional-limitation>
+      <functional-limitation>Bowel/Bladder</functional-limitation>
+      <functional-limitation>Contracture</functional-limitation>
+      <functional-limitation>Hearing</functional-limitation>
+      <functional-limitation>Paralysis</functional-limitation>
+      <functional-limitation>Endurance</functional-limitation>
+      <functional-limitation>Ambulation</functional-limitation>
+      <functional-limitation>Speech</functional-limitation>
+      <functional-limitation>Legally blind</functional-limitation>
+      <functional-limitation>Dyspnea With Minimal Exertion</functional-limitation>
+    </functional-limitations>
+    <other-functional-limitations>other limitations in the Functional Limitations bskjdbfnlj jsdf .This is the ENd of the Fl</other-functional-limitations>
+    <activities-permitted type="array">
+      <activities-permitted>Complete Bedrest</activities-permitted>
+      <activities-permitted>Bedrest BRP</activities-permitted>
+      <activities-permitted>Up As Tolerated</activities-permitted>
+      <activities-permitted>Transfer Bed/Chair</activities-permitted>
+      <activities-permitted>Exercises Prescribed</activities-permitted>
+      <activities-permitted>Partial Weight Bearing</activities-permitted>
+      <activities-permitted>Independent At Home</activities-permitted>
+      <activities-permitted>Crutches</activities-permitted>
+      <activities-permitted>Cane</activities-permitted>
+      <activities-permitted>Wheelchair</activities-permitted>
+      <activities-permitted>Walker</activities-permitted>
+      <activities-permitted>No Restrictions</activities-permitted>
+    </activities-permitted>
+    <other-activities-permitted>Other Activities Permitted</other-activities-permitted>
+    <mental-status type="array">
+      <mental-statu>Oriented</mental-statu>
+      <mental-statu>Comatose</mental-statu>
+      <mental-statu>Forgetful</mental-statu>
+      <mental-statu>Depressed</mental-statu>
+      <mental-statu>Disoriented</mental-statu>
+      <mental-statu>Lethargic</mental-statu>
+      <mental-statu>Agitated</mental-statu>
+    </mental-status>
+    <mental-status-other1>Other Mental1</mental-status-other1>
+    <mental-status-other2>Other Mental2</mental-status-other2>
+    <prognosis>Excellent</prognosis>
+    <nutritional-req>Thsis fjsfnsd f sdlkfjlskdjflkd slkdflksjfdlksjdflsdf sldkflskdjfl sdlkfnlsdflksd f,sdnflksdflsf lksndfkjs;dfjlsdf sdknfjsd;f;sdfsd sdnflsfjslfjeprrpieryeertijp jwropwerpoepor fasj;asd wenjenljf sdlfjsfjfwe. kjsbfksjdfsdhfsdfks dksfjsldflsdflsdf sdfjsldfnlsfnlsnflnflnflsdfn ldjfnllnsdfnlnlldf ldfnldfls nlafdnlsnflsdnfsd adfjafngfgnkafng kjsdksdfkfdk kjdlnfldflnd kkjqekwjsnnvsnkvsndn dlfj;df;sd ldfflsdfnsldf sldjfnlsndfsdnf jkfkfksdfksd hbkwekjkje ksjnljsdfnlsdfnlsd sldflsndflsndfl sdfsldfnlsfnlsfdsdfn kjjfjsfkjsdf sdkfjskfskjdf sdjkfnjsfskdf sdkfsjfkjsdf sdkjfnsdfnsljdfn sdjfnsdfnslfdnlsdf sdlkfslflsfslfls fsldnflsfsdlfnlsfn sdfnlsfnlsdfnlsd lsdfnlsnls sldfnlsfsdf slkdkflsdfsdf dslfsdlfjsldfj sflklsdfjsldkflskdfsdlkf. sdjfsd ljsdnf ldf ,dfln dfnsdnf lkdfnldnf dlfnldf ldfnlkdf dlfnlakdf fdfrf sd, ,sdflirf s, sd,fni dfndlfnsfns fsflnsdfl sdflnsdfnlsf sldfn sd. This is the END of the Nutritional Requirements.</nutritional-req>
+    <allergies>A Now heard story of Lord krihshna, long ago a raja was ruling the kingdom and has as sister, raja loves sister to as much and more than him, days passed by sister grew and got married to a sage called Vasudeva. They both lead a happy life, all of sudden the king being demon in him inspite of that  he heard asharira vani stating that the 8th progeny of the Vasudeva and nandaki will kill him. Initially kamsa was not afraid and waited till 8th child of couple. But death feared him, surrendered to fear and lost emotional balances his wicked thoughts lead him to kill all the children of couple.  This is the END of tthe Allergies. And the Continuation of the allergies is  in the Bottom section for the Destiny. nsdjf sldnfl sdfnlskdnf sldkflsdnfnd sdfksdfklsmdflkms ksdmfksdmfksdmflksdf skdlfmlksdfmlksdf slkdfmlsdflsdf lskdflsdmflsd ldsflk dlfksldnfl sdflsdflsd lksdflsdfksdf sdmfsdf sfdllsdf lsdf lsd. This is the END of tthe Allergies.</allergies>
+    <safety-measures>A Now heard story of Lord krihshna, long ago a raja was ruling the kingdom and has as sister, raja loves sister to as much and more than him, days passed by sister grew and got married to a sage called Vasudeva. They both lead a happy life, all of sudden the king being demon in him inspite of that  he heard asharira vani stating that the 8th progeny of the Vasudeva and nandaki will kill him. Initially kamsa was not afraid and waited till 8th child of couple. But death feared him, surrendered to fear and lost emotio sndjfsdf lksdflskdnf ,sdfnsldnflsf ,sdnflnsdlf klgjdflgndfg. sjdfksjdf skjdfnjksdf sdfjnsdf sdjkfnsdf msdnf sdfksdf sdkfbksdfksdfks dfksdfksfdksdf sdfkdjf sfksdfkjs kdnfjksfdksdkfksjdfksdf ksdfjksdfkjs. sknbfskjdfk ksbfksfdkskfbskdf  ksdfksdfksjdfb. sfgnf glsgnsdf lksdnflknsdf slkdflksfd lksdflksdf sdfksdf skdflksdf kldfs df .This is the END of the Safety Measures.</safety-measures>
+    <orders>JasperReport is a pure Java library and not a standalone application. It cannot run on its own, hence it needs to be embedded into another client or server-side Java application. As it is Java based, it can be run on any platform that supports Java(JDK 1.3 and above). All the JasperReports functionality is gathered in a single JAR file, jasperreports-x.x.x.jar. This JAR alongwith the required and optional libraries (.ZIP file) can be downloaded from the site: JasperReport Library Link. Download the latest version. The ZIP file includes the JasperReports JAR file alongwith the JasperReports source code, dependent JARs and a lot of examples demonstrating JasperReport's functionality. This is ORders ofor Discipline asdnf sdlfnsdf ldnflsndfllsd fl dslf l lfnsldfslkdfn sdfjslfdnjlafljsdf sdfnlsdjf lsdfnlsndfl  fsrjwroituwprt dff,SDFLSJDFPIR NLSDN dlfgnlfnlskfipe ,fnlsdnlsdf sdlfsldnflkskdfnls sldfnlskdflksf sdlfklsdfnlksdfn, a;flafjerohonvkanoiwfsdofoirasdkjnsldfsdfnlsdfnwefn sdlfjnsldfn sldfnlsdnfl lsddnflsndfl sdjfnlsjdfnsdf skdfnsdfnsldfn. slnsdf sdfkn dsfl sdflsldkfsndf sdlkflsdfnsd lsdkfmlsdf sdklfmslkdf sldkfmsd fsdlkflksd fsdklfsdf sdf . This is the END of the ORders.
+</orders>
+    <goals>Basically we only use the jasperreports-x.x.x.jar under the dist and JARs under the lib directory for generating reports. As Jasper Reports being an open source tool, if any defect or bug is recognized during execution in the jasperreports-x.x.x.jar, we can fix it and build the JAR again using the build.xml file. Fsdfjbsdf jsdfsd fsdfkdsjfnsdf sdfnsjdfn sdklbsdfbsfeyrhef  skfjdsdfn ksjdfnkjsdfnjsfd kjsdnfjnsdfnsd bsdkfbksf ksjfbkjsfkjs wehrbwbhfs dksddfbksdf sdmfbkjsdfksdf ksdfbksdbfksdf kjehfkjsdsd;furbdfksdfb kjdsfnsjkdfjsdf sdfjnsjldfnsjldf sdfkjnsdfkjnsdf jkdsfnjsdfnsd ksdjfkjsdfkjsdbfksdbfksbf bfkdhsfbkshfbkheurhfksbksfks skdjfnskjdfnskjdfk wkjdfnksjdfnkjsdf dfjksnfdkjsfdn jkdfnsljfnsjdfn fsdljfnsldjfnsldf sdjfnlsdnflsf sdfodn fskdfksfdksdfksdf sdfjsdkfj ksndfnsd. sf,jbsdf sdfsdf sdkfjnsdf sdfnsdfnsndfs dflsdflsdfn sdlkfsdlkf sdlfksldkf sdlfnsldf sldfnlds dslf. This is the END of the Goals.</goals>
+    <miscellaneous>Hi everyone,
+
+I have a report which has two subreports in the detail band. I can't seem to get them to print properly. I'd like to have the first subreport print, followed by the second subreport. The problem is that the second subreport is printing over the first subreport (have a look at the attached screenshot). The first subreport is the one boxed in red (titled Vital Signs), while the second subreport is boxed in blue (titled Clinical Measurements). And this is waht caled a Rjasper reprhf nfkjsfn sdkjnf sdjn sdfjnjnsd fjnsdljflnlknsdf jksdnfjsd sdfjnjnsd jsdfnljsdfnsd sjdfnsdnfkjsdd sdjfns. s,fmsdfsmdfsdmfsmdf,  sdf, sdmfnsd fsdm,f ,msdnfms df,sd flmsdfnlsdf ,msdd flsdflsdf . sdfnj sdfdfn sdj skdjf ksdfkksf skjdfnsdfkjnsdfkjnk skjdfn dsfjnsdj fsdkjffksdfn sdkjnskdns skdnskdjfnsfdn sdfjnkdsnfj sdkjfsdkjfn skdjfkjsdfks kdjdff  sdkn  jfdnldfns lsdfnsdfn jfnsfd sdfj j dsfjnsdf djfj sdfjd sdf. skjfs fdsjdfn sdlfnsdlfn sdlfnsldfns dlsndf sdf sdnf sdfnsdl. This is the END of Miscellaneous. </miscellaneous>
+  </data>
+  <icd-type>icd 9</icd-type>
+  <document-date type="date">2014-01-20</document-date>
+  <document-definition-id type="integer">916</document-definition-id>
+  <document-form-template-id type="integer">111</document-form-template-id>
+  <field-staff-id type="integer">1682</field-staff-id>
+  <fs-sign-date type="date">2014-01-21</fs-sign-date>
+  <fs-sign-required type="boolean">false</fs-sign-required>
+  <id type="integer">686</id>
+  <lock-version type="integer">32</lock-version>
+  <os-sign-date type="date">2014-01-21</os-sign-date>
+  <os-sign-required type="boolean">true</os-sign-required>
+  <physician-id type="integer">532</physician-id>
+  <status type="symbol">pending_staff_signature</status>
+  <supervised-user-id type="integer" nil="true"/>
+  <supervised-user-sign-date type="date" nil="true"/>
+  <supervisor-sign-required type="boolean">false</supervisor-sign-required>
+  <treatment-episode-id type="integer">271</treatment-episode-id>
+  <treatment-id type="integer">262</treatment-id>
+  <visit-id type="integer" nil="true"/>
+  <functional-limitations-display>Amputation, Bowel/Bladder, Contracture, Hearing, Paralysis, Endurance, Ambulation, Speech, Legally blind, Dyspnea With Minimal Exertion, other limitations in the Functional Limitations bskjdbfnlj jsdf .This is the ENd of the Fl</functional-limitations-display>
+  <dme-display>None, Cane, Walker, Wheelchair, Hospital bed, Mobility Scooter, Comode, Splint, Brace, Crutches, on, Other DME and Supplies</dme-display>
+  <activities-permitted-display>Complete Bedrest, Bedrest BRP, Up As Tolerated, Transfer Bed/Chair, Exercises Prescribed, Partial Weight Bearing, Independent At Home, Crutches, Cane, Wheelchair, Walker, No Restrictions, Other Activities Permitted</activities-permitted-display>
+  <mental-status-display>Oriented, Comatose, Forgetful, Depressed, Disoriented, Lethargic, Agitated, Other Mental1, Other Mental2</mental-status-display>
+  <patient-hi-claim-number>263923952A</patient-hi-claim-number>
+  <start-of-care-date>10/22/2013</start-of-care-date>
+  <certification-period-from>10/22/2013</certification-period-from>
+  <certification-period-to>12/20/2013</certification-period-to>
+  <mr-number>263923952A</mr-number>
+  <provider-number>4321</provider-number>
+  <patient-address>West wood street mount colony, Suite 5416121212, Van Nuys CA 91401</patient-address>
+  <provider-address> 4929 Wilshire Blvd., Suite 98765432101 </provider-address>
+  <date-of-birth>10/01/1948</date-of-birth>
+  <gender>(Male)</gender>
+  <physician-address>300 UCLA Medical Plaza, Suite B-200, Los Angeles</physician-address>
+  <physician-signature-date>9/3/2011</physician-signature-date>
+  <date-hha-received-signed-POT>9/3/2011</date-hha-received-signed-POT>
+  <patient-name>George Alexander</patient-name>
+  <physician-name>EMAD FARAG, MD</physician-name>
+  <provider-name>METROPOLITAN HEALTHCARE, INC.</provider-name>
+  <principle-icd1-description>Muscle weakness (generalized)</principle-icd1-description>
+  <principle-icd2-description>Dementia with lewy bodies</principle-icd2-description>
+  <principle-icd3-description>Depressive disorder, not elsewhere classified</principle-icd3-description>
+  <principle-icd4-description>Chronic airway obstruction, not elsewhere classified</principle-icd4-description>
+  <principle-icd5-description>Hymenolepiasis</principle-icd5-description>
+  <principle-icd6-description>Extreme immaturity, 1,000-1,249 grams</principle-icd6-description>
+  <surgical-icd1-description>Malignant neoplasm of cheek mucosa</surgical-icd1-description>
+  <surgical-icd2-description>Other arthropod infestation</surgical-icd2-description>
+  <surgical-icd3-description>Malignant neoplasm of renal pelvis</surgical-icd3-description>
+  <surgical-icd4-description>Malignant neoplasm of renal pelvis</surgical-icd4-description>
+  <pertinent-icd1-description>Hypertrophy (benign) of prostate without urinary obstruction and other lower urinary tract symptom (LUTS)</pertinent-icd1-description>
+  <pertinent-icd2-description>Other and unspecified hyperlipidemia</pertinent-icd2-description>
+  <pertinent-icd3-description>Other specified cestode infection</pertinent-icd3-description>
+  <medications type="array">
+    <medication>
+      <name>DONEPEZIL HYDROCHLORIDE (23MG)</name>
+      <dosage-form>TABLET; ORAL</dosage-form>
+      <frequency>1 TABLET ONCE DAILY AT BEDTIME</frequency>
+      <code>C</code>
+      <start-date>10/22/2013</start-date>
+    </medication>
+    <medication>
+      <name>AMITRIPTYLINE HYDROCHLORIDE (50MG)</name>
+      <dosage-form>TABLET; ORAL</dosage-form>
+      <frequency>1 TABLET ONCE DAILY AT BEDTIME</frequency>
+      <code>C</code>
+      <start-date>10/22/2013</start-date>
+    </medication>
+    <medication>
+      <name>SIMVASTATIN (40MG)</name>
+      <dosage-form>TABLET; ORAL</dosage-form>
+      <frequency>1 TABLET ONCE DAILY </frequency>
+      <code>N</code>
+      <start-date>10/22/2013</start-date>
+    </medication>
+    <medication>
+      <name>MONTELUKAST SODIUM (EQ 10MG BASE)</name>
+      <dosage-form>TABLET; ORAL</dosage-form>
+      <frequency>1 TABLET ONCE DAILY AT BEDTIME</frequency>
+      <code>C</code>
+      <start-date>10/22/2013</start-date>
+    </medication>
+    <medication>
+      <name>MELATONIN SODIUM (10 MG)</name>
+      <dosage-form>TABLET; ORAL</dosage-form>
+      <frequency>1 TABLET ONCE DAILY AT BEDTIME</frequency>
+      <code>C</code>
+      <start-date>10/22/2013</start-date>
+    </medication>
+    <medication>
+      <name>VITAMIN D3 (2000 INTERNATIONAL UNITS)</name>
+      <dosage-form>CAPSULE; ORAL</dosage-form>
+      <frequency>1 CAPSULEONCE DAILY AT BEDTIME</frequency>
+      <code>C</code>
+      <start-date>10/22/2013</start-date>
+    </medication>
+    <medication>
+      <name>ADVAIR DISKUS (100/50 MCG)</name>
+      <dosage-form> INHALATION, ORAL </dosage-form>
+      <frequency>INHALE ONCE DAILY AT BEDTIME</frequency>
+      <code>C</code>
+      <start-date>10/22/2013</start-date>
+    </medication>
+    <medication>
+      <name>VENTOLIN HFA (EQ 0.09MG BASE/INH)</name>
+      <dosage-form>AEROSOL, METERED; INHALATION</dosage-form>
+      <frequency>INHALE ONCE DAILY AT BEDTIME</frequency>
+      <code>C</code>
+      <start-date>10/22/2013</start-date>
+    </medication>
+    <medication>
+      <name>CoQ 10</name>
+      <dosage-form>CAPSULE; ORAL</dosage-form>
+      <frequency>1 CAPSULE ONCE DAILY IN THE MORNING</frequency>
+      <start-date>10/22/2013</start-date>
+    </medication>
+    <medication>
+      <name>DORZOLAMIDE HYDROCHLORIDE AND TIMOLOL MALEATE (EQ 2% BASE;EQ 0.5% BASE)</name>
+      <dosage-form>SOLUTION/DROPS; OPHTHALMIC</dosage-form>
+      <frequency>1wk4</frequency>
+      <code>C</code>
+      <start-date>11/21/2013</start-date>
+    </medication>
+    <medication>
+      <name>SUPPLEMENT (OVER-THE-COUNTER)SUPPLEMENT (OVER-THE-COUNTER)SUPPLEMENT (OVER-THE-COUNTER)SUPPLEMENT (OVER-THE-COUNTER) SUPPLEMENT (OVER-THE-COUNTER) SUPPLEMENT (OVER-THE-COUNTER) </name>
+      <dosage-form>SUPPLEMENT (OVER-THE-COUNTER)SUPPLEMENT (OVER-THE-COUNTER)SUPPLEMENT (OVER-THE-COUNTER)SUPPLEMENT (OVER-THE-COUNTER) SUPPLEMENT (OVER-THE-COUNTER) SUPPLEMENT (OVER-THE-COUNTER)</dosage-form>
+      <frequency>1 CAPSULE ONCE DAILY A </frequency>
+      <code>C</code>
+      <start-date>10/22/2013</start-date>
+    </medication>
+    <medication>
+      <name>TAMSULOSIN HYDROCHLORIDE (0.4MG)</name>
+      <dosage-form>CAPSULE; ORAL</dosage-form>
+      <frequency>1 CAPSULE EVERY ONCE DAILY AT BEDTIME</frequency>
+      <code>C</code>
+      <start-date>10/22/2013</start-date>
+    </medication>
+  </medications>
+  <pertinent-icd4-description>Myiasis</pertinent-icd4-description>
+  <pertinent-icd5-description>Malignant neoplasm of mouth, unspecified</pertinent-icd5-description>
+  <pertinent-icd6-description>Malignant neoplasm of other specified parts of mouth</pertinent-icd6-description>
+  <patient-details>&lt;b&gt;GEORGE ALEXANDER&lt;/b&gt; (Male) &lt;b&gt;MR&lt;/b&gt; 30</patient-details>
+  <patient-contact>&lt;b&gt;DOB&lt;/b&gt; 10/01/1948  &lt;b&gt;HIC&lt;/b&gt; 263923952A  &lt;b&gt;Tel&lt;/b&gt; (818) 445-3425</patient-contact>
+  <start-of-care-date-details>&lt;b&gt;SOC&lt;/b&gt; 10/22/2013 &lt;b&gt;Episode&lt;/b&gt; 10/22/2013 12/20/2013</start-of-care-date-details>
+  <provider-contact>&lt;b&gt;Tel&lt;/b&gt; (323) 960-2533, &lt;b&gt;Fax&lt;/b&gt; (323) 421-9163</provider-contact>
+  <principal-oe1>E</principal-oe1>
+  <principal-oe2>E</principal-oe2>
+  <principal-oe3>O</principal-oe3>
+  <principal-oe4>E</principal-oe4>
+  <principal-oe5>O</principal-oe5>
+  <principal-oe6>O</principal-oe6>
+  <surgical-oe1>E</surgical-oe1>
+  <surgical-oe2>E</surgical-oe2>
+  <surgical-oe3>O</surgical-oe3>
+  <surgical-oe4>O</surgical-oe4>
+  <pertinent-oe1>O</pertinent-oe1>
+  <pertinent-oe2>E</pertinent-oe2>
+  <pertinent-oe3>E</pertinent-oe3>
+  <pertinent-oe4>O</pertinent-oe4>
+  <pertinent-oe5>E</pertinent-oe5>
+  <pertinent-oe6>O</pertinent-oe6>
+  <medication-subreport-url>/home/msuser1/workspace/fasternotes/app/views/reports/plan_of_care/medications_subreport.jasper</medication-subreport-url>
+  <physician-contact>&lt;b&gt;Tel&lt;/b&gt; (310) 794-1195, &lt;b&gt;Fax&lt;/b&gt; (310) 206-9819</physician-contact>
+  <physician-city-details>CA 90095</physician-city-details>
+  <provider-city-details>Los Angeles, CA 90010</provider-city-details>
+  <provider-full-address> 4929 Wilshire Blvd., Suite 98765432101  Los Angeles, CA 90010</provider-full-address>
+  <physician-full-address>300 UCLA Medical Plaza, Suite B-200, Los Angeles CA 90095</physician-full-address>
+  <physician-short-info>EMAD FARAG, MD &lt;b&gt;Tel&lt;/b&gt; (310) 794-1195</physician-short-info>
+  <advanced-directives-display>&lt;b&gt;Advanced Directives&lt;/b&gt; Yes</advanced-directives-display>
+  <dnr-dni-display>&lt;b&gt;DNR/DNI&lt;/b&gt; Yes/Yes</dnr-dni-display>
+  <poc-icd-diag-list type="array">
+    <poc-icd-diag-list>
+      <icd-code>728.87</icd-code>
+      <description>Muscle weakness (generalized)</description>
+      <oe>E</oe>
+      <icd-date>01/21/2014</icd-date>
+    </poc-icd-diag-list>
+    <poc-icd-diag-list>
+      <icd-code>331.82</icd-code>
+      <description>Dementia with lewy bodies</description>
+      <oe>E</oe>
+      <icd-date>01/21/2014</icd-date>
+    </poc-icd-diag-list>
+    <poc-icd-diag-list>
+      <icd-code>311</icd-code>
+      <description>Depressive disorder, not elsewhere classified</description>
+      <oe>O</oe>
+      <icd-date>01/20/2014</icd-date>
+    </poc-icd-diag-list>
+    <poc-icd-diag-list>
+      <icd-code>496</icd-code>
+      <description>Chronic airway obstruction, not elsewhere classified</description>
+      <oe>E</oe>
+      <icd-date>01/21/2014</icd-date>
+    </poc-icd-diag-list>
+    <poc-icd-diag-list>
+      <icd-code>123.6</icd-code>
+      <description>Hymenolepiasis</description>
+      <oe>O</oe>
+      <icd-date>01/21/2014</icd-date>
+    </poc-icd-diag-list>
+    <poc-icd-diag-list>
+      <icd-code>765.04</icd-code>
+      <description>Extreme immaturity, 1,000-1,249 grams</description>
+      <oe>O</oe>
+      <icd-date>01/27/2014</icd-date>
+    </poc-icd-diag-list>
+    <poc-icd-diag-list>
+      <icd-code>600.00</icd-code>
+      <description>Hypertrophy (benign) of prostate without urinary obstruction and other lower urinary tract symptom (LUTS)</description>
+      <oe>O</oe>
+      <icd-date>01/20/2014</icd-date>
+    </poc-icd-diag-list>
+    <poc-icd-diag-list>
+      <icd-code>272.4</icd-code>
+      <description>Other and unspecified hyperlipidemia</description>
+      <oe>E</oe>
+      <icd-date>01/20/2014</icd-date>
+    </poc-icd-diag-list>
+    <poc-icd-diag-list>
+      <icd-code>123.8</icd-code>
+      <description>Other specified cestode infection</description>
+      <oe>E</oe>
+      <icd-date>01/20/2014</icd-date>
+    </poc-icd-diag-list>
+    <poc-icd-diag-list>
+      <icd-code>134.0</icd-code>
+      <description>Myiasis</description>
+      <oe>O</oe>
+      <icd-date>01/20/2014</icd-date>
+    </poc-icd-diag-list>
+    <poc-icd-diag-list>
+      <icd-code>145.9</icd-code>
+      <description>Malignant neoplasm of mouth, unspecified</description>
+      <oe>E</oe>
+      <icd-date>01/20/2014</icd-date>
+    </poc-icd-diag-list>
+    <poc-icd-diag-list>
+      <icd-code>145.8</icd-code>
+      <description>Malignant neoplasm of other specified parts of mouth</description>
+      <oe>O</oe>
+      <icd-date>01/20/2014</icd-date>
+    </poc-icd-diag-list>
+  </poc-icd-diag-list>
+  <surgical-icd-codes type="array">
+    <surgical-icd-code>
+      <icd-code>145.0</icd-code>
+      <description>Malignant neoplasm of cheek mucosa</description>
+      <oe>E</oe>
+      <icd-date>01/20/2014</icd-date>
+    </surgical-icd-code>
+    <surgical-icd-code>
+      <icd-code>134.1</icd-code>
+      <description>Other arthropod infestation</description>
+      <oe>E</oe>
+      <icd-date>01/06/2014</icd-date>
+    </surgical-icd-code>
+    <surgical-icd-code>
+      <icd-code>189.1</icd-code>
+      <description>Malignant neoplasm of renal pelvis</description>
+      <oe>O</oe>
+      <icd-date>01/22/2014</icd-date>
+    </surgical-icd-code>
+    <surgical-icd-code>
+      <icd-code>189.1</icd-code>
+      <description>Malignant neoplasm of renal pelvis</description>
+      <oe>O</oe>
+      <icd-date>01/23/2014</icd-date>
+    </surgical-icd-code>
+  </surgical-icd-codes>
+  <poc-icd-diag-list-subreport-url>/home/msuser1/workspace/fasternotes/app/views/reports/plan_of_care/poc_icd_codes.jasper</poc-icd-diag-list-subreport-url>
+  <surgical-codes-subreport-url>/home/msuser1/workspace/fasternotes/app/views/reports/plan_of_care/surgical_codes.jasper</surgical-codes-subreport-url>
+  <poc-safety-dme-list type="array">
+    <poc-safety-dme-list>
+      <name>DME and Supplies</name>
+      <description>None, Cane, Walker, Wheelchair, Hospital bed, Mobility Scooter, Comode, Splint, Brace, Crutches, on, Other DME and Supplies</description>
+    </poc-safety-dme-list>
+    <poc-safety-dme-list>
+      <name>Safety Measures</name>
+      <description>A Now heard story of Lord krihshna, long ago a raja was ruling the kingdom and has as sister, raja loves sister to as much and more than him, days passed by sister grew and got married to a sage called Vasudeva. They both lead a happy life, all of sudden the king being demon in him inspite of that  he heard asharira vani stating that the 8th progeny of the Vasudeva and nandaki will kill him. Initially kamsa was not afraid and waited till 8th child of couple. But death feared him, surrendered to fear and lost emotio sndjfsdf lksdflskdnf ,sdfnsldnflsf ,sdnflnsdlf klgjdflgndfg. sjdfksjdf skjdfnjksdf sdfjnsdf sdjkfnsdf msdnf sdfksdf sdkfbksdfksdfks dfksdfksfdksdf sdfkdjf sfksdfkjs kdnfjksfdksdkfksjdfksdf ksdfjksdfkjs. sknbfskjdfk ksbfksfdkskfbskdf  ksdfksdfksjdfb. sfgnf glsgnsdf lksdnflknsdf slkdflksfd lksdflksdf sdfksdf skdflksdf kldfs df .This is the END of the Safety Measures.</description>
+    </poc-safety-dme-list>
+    <poc-safety-dme-list>
+      <name>Nutrition</name>
+      <description>Thsis fjsfnsd f sdlkfjlskdjflkd slkdflksjfdlksjdflsdf sldkflskdjfl sdlkfnlsdflksd f,sdnflksdflsf lksndfkjs;dfjlsdf sdknfjsd;f;sdfsd sdnflsfjslfjeprrpieryeertijp jwropwerpoepor fasj;asd wenjenljf sdlfjsfjfwe. kjsbfksjdfsdhfsdfks dksfjsldflsdflsdf sdfjsldfnlsfnlsnflnflnflsdfn ldjfnllnsdfnlnlldf ldfnldfls nlafdnlsnflsdnfsd adfjafngfgnkafng kjsdksdfkfdk kjdlnfldflnd kkjqekwjsnnvsnkvsndn dlfj;df;sd ldfflsdfnsldf sldjfnlsndfsdnf jkfkfksdfksd hbkwekjkje ksjnljsdfnlsdfnlsd sldflsndflsndfl sdfsldfnlsfnlsfdsdfn kjjfjsfkjsdf sdkfjskfskjdf sdjkfnjsfskdf sdkfsjfkjsdf sdkjfnsdfnsljdfn sdjfnsdfnslfdnlsdf sdlkfslflsfslfls fsldnflsfsdlfnlsfn sdfnlsfnlsdfnlsd lsdfnlsnls sldfnlsfsdf slkdkflsdfsdf dslfsdlfjsldfj sflklsdfjsldkflskdfsdlkf. sdjfsd ljsdnf ldf ,dfln dfnsdnf lkdfnldnf dlfnldf ldfnlkdf dlfnlakdf fdfrf sd, ,sdflirf s, sd,fni dfndlfnsfns fsflnsdfl sdflnsdfnlsf sldfn sd. This is the END of the Nutritional Requirements.</description>
+    </poc-safety-dme-list>
+    <poc-safety-dme-list>
+      <name>Allergies</name>
+      <description>A Now heard story of Lord krihshna, long ago a raja was ruling the kingdom and has as sister, raja loves sister to as much and more than him, days passed by sister grew and got married to a sage called Vasudeva. They both lead a happy life, all of sudden the king being demon in him inspite of that  he heard asharira vani stating that the 8th progeny of the Vasudeva and nandaki will kill him. Initially kamsa was not afraid and waited till 8th child of couple. But death feared him, surrendered to fear and lost emotional balances his wicked thoughts lead him to kill all the children of couple.  This is the END of tthe Allergies. And the Continuation of the allergies is  in the Bottom section for the Destiny. nsdjf sldnfl sdfnlskdnf sldkflsdnfnd sdfksdfklsmdflkms ksdmfksdmfksdmflksdf skdlfmlksdfmlksdf slkdfmlsdflsdf lskdflsdmflsd ldsflk dlfksldnfl sdflsdflsd lksdflsdfksdf sdmfsdf sfdllsdf lsdf lsd. This is the END of tthe Allergies.</description>
+    </poc-safety-dme-list>
+    <poc-safety-dme-list>
+      <name>Functional Limitations</name>
+      <description>Amputation, Bowel/Bladder, Contracture, Hearing, Paralysis, Endurance, Ambulation, Speech, Legally blind, Dyspnea With Minimal Exertion, other limitations in the Functional Limitations bskjdbfnlj jsdf .This is the ENd of the Fl</description>
+    </poc-safety-dme-list>
+    <poc-safety-dme-list>
+      <name>Activities Permitted</name>
+      <description>Complete Bedrest, Bedrest BRP, Up As Tolerated, Transfer Bed/Chair, Exercises Prescribed, Partial Weight Bearing, Independent At Home, Crutches, Cane, Wheelchair, Walker, No Restrictions, Other Activities Permitted</description>
+    </poc-safety-dme-list>
+    <poc-safety-dme-list>
+      <name>Mental Status</name>
+      <description>Oriented, Comatose, Forgetful, Depressed, Disoriented, Lethargic, Agitated, Other Mental1, Other Mental2</description>
+    </poc-safety-dme-list>
+    <poc-safety-dme-list>
+      <name>Prognosis</name>
+      <description>Excellent</description>
+    </poc-safety-dme-list>
+  </poc-safety-dme-list>
+  <order-goals-misc-display type="array">
+    <order-goals-misc-display>
+      <name>Orders for Discipline and Treatments (Specify Amount/Frequency/Duration)</name>
+      <description>JasperReport is a pure Java library and not a standalone application. It cannot run on its own, hence it needs to be embedded into another client or server-side Java application. As it is Java based, it can be run on any platform that supports Java(JDK 1.3 and above). All the JasperReports functionality is gathered in a single JAR file, jasperreports-x.x.x.jar. This JAR alongwith the required and optional libraries (.ZIP file) can be downloaded from the site: JasperReport Library Link. Download the latest version. The ZIP file includes the JasperReports JAR file alongwith the JasperReports source code, dependent JARs and a lot of examples demonstrating JasperReport's functionality. This is ORders ofor Discipline asdnf sdlfnsdf ldnflsndfllsd fl dslf l lfnsldfslkdfn sdfjslfdnjlafljsdf sdfnlsdjf lsdfnlsndfl  fsrjwroituwprt dff,SDFLSJDFPIR NLSDN dlfgnlfnlskfipe ,fnlsdnlsdf sdlfsldnflkskdfnls sldfnlskdflksf sdlfklsdfnlksdfn, a;flafjerohonvkanoiwfsdofoirasdkjnsldfsdfnlsdfnwefn sdlfjnsldfn sldfnlsdnfl lsddnflsndfl sdjfnlsjdfnsdf skdfnsdfnsldfn. slnsdf sdfkn dsfl sdflsldkfsndf sdlkflsdfnsd lsdkfmlsdf sdklfmslkdf sldkfmsd fsdlkflksd fsdklfsdf sdf . This is the END of the ORders.
+</description>
+    </order-goals-misc-display>
+    <order-goals-misc-display>
+      <name>Goals/Rehabilation Potential/Discharge Plans</name>
+      <description>Basically we only use the jasperreports-x.x.x.jar under the dist and JARs under the lib directory for generating reports. As Jasper Reports being an open source tool, if any defect or bug is recognized during execution in the jasperreports-x.x.x.jar, we can fix it and build the JAR again using the build.xml file. Fsdfjbsdf jsdfsd fsdfkdsjfnsdf sdfnsjdfn sdklbsdfbsfeyrhef  skfjdsdfn ksjdfnkjsdfnjsfd kjsdnfjnsdfnsd bsdkfbksf ksjfbkjsfkjs wehrbwbhfs dksddfbksdf sdmfbkjsdfksdf ksdfbksdbfksdf kjehfkjsdsd;furbdfksdfb kjdsfnsjkdfjsdf sdfjnsjldfnsjldf sdfkjnsdfkjnsdf jkdsfnjsdfnsd ksdjfkjsdfkjsdbfksdbfksbf bfkdhsfbkshfbkheurhfksbksfks skdjfnskjdfnskjdfk wkjdfnksjdfnkjsdf dfjksnfdkjsfdn jkdfnsljfnsjdfn fsdljfnsldjfnsldf sdjfnlsdnflsf sdfodn fskdfksfdksdfksdf sdfjsdkfj ksndfnsd. sf,jbsdf sdfsdf sdkfjnsdf sdfnsdfnsndfs dflsdflsdfn sdlkfsdlkf sdlfksldkf sdlfnsldf sldfnlds dslf. This is the END of the Goals.</description>
+    </order-goals-misc-display>
+    <order-goals-misc-display>
+      <name>Miscellaneous</name>
+      <description>Hi everyone,
+
+I have a report which has two subreports in the detail band. I can't seem to get them to print properly. I'd like to have the first subreport print, followed by the second subreport. The problem is that the second subreport is printing over the first subreport (have a look at the attached screenshot). The first subreport is the one boxed in red (titled Vital Signs), while the second subreport is boxed in blue (titled Clinical Measurements). And this is waht caled a Rjasper reprhf nfkjsfn sdkjnf sdjn sdfjnjnsd fjnsdljflnlknsdf jksdnfjsd sdfjnjnsd jsdfnljsdfnsd sjdfnsdnfkjsdd sdjfns. s,fmsdfsmdfsdmfsmdf,  sdf, sdmfnsd fsdm,f ,msdnfms df,sd flmsdfnlsdf ,msdd flsdflsdf . sdfnj sdfdfn sdj skdjf ksdfkksf skjdfnsdfkjnsdfkjnk skjdfn dsfjnsdj fsdkjffksdfn sdkjnskdns skdnskdjfnsfdn sdfjnkdsnfj sdkjfsdkjfn skdjfkjsdfks kdjdff  sdkn  jfdnldfns lsdfnsdfn jfnsfd sdfj j dsfjnsdf djfj sdfjd sdf. skjfs fdsjdfn sdlfnsdlfn sdlfnsldfns dlsndf sdf sdnf sdfnsdl. This is the END of Miscellaneous. </description>
+    </order-goals-misc-display>
+  </order-goals-misc-display>
+  <poc-safety-dme-list-subreport-url>/home/msuser1/workspace/fasternotes/app/views/reports/plan_of_care/dme_supplies_safety_list.jasper</poc-safety-dme-list-subreport-url>
+  <order-goals-misc-display-subreport-url>/home/msuser1/workspace/fasternotes/app/views/reports/plan_of_care/order_goals_misc.jasper</order-goals-misc-display-subreport-url>
+  <adv-dir-and-dnr-dni-display>&lt;b&gt;Advanced Directives&lt;/b&gt; Yes &lt;b&gt;DNR/DNI&lt;/b&gt; Yes/Yes</adv-dir-and-dnr-dni-display>
+  <vitals-display></vitals-display>
+  <fs-signed-date-display>01/21/2014</fs-signed-date-display>
+  <detail2-label nil="true"/>
+  <detail2-value nil="true"/>
+  <detail3-label nil="true"/>
+  <detail3-value nil="true"/>
+  <detail4-label nil="true"/>
+  <detail4-value nil="true"/>
+  <detail5-label nil="true"/>
+  <detail5-value nil="true"/>
+  <detail6-label nil="true"/>
+  <detail6-value nil="true"/>
+  <detail7-label nil="true"/>
+  <detail7-value nil="true"/>
+  <detail8-label nil="true"/>
+  <detail8-value nil="true"/>
+  <detail9-label nil="true"/>
+  <detail9-value nil="true"/>
+  <detail10-label nil="true"/>
+  <detail10-value nil="true"/>
+  <detail11-label nil="true"/>
+  <detail11-value nil="true"/>
+  <detail12-label nil="true"/>
+  <detail12-value nil="true"/>
+  <detail13-label nil="true"/>
+  <detail13-value nil="true"/>
+  <detail14-label nil="true"/>
+  <detail14-value nil="true"/>
+  <detail15-label nil="true"/>
+  <detail15-value nil="true"/>
+  <detail28-label nil="true"/>
+  <detail28-value nil="true"/>
+  <detail29-label nil="true"/>
+  <detail29-value nil="true"/>
+  <show-physician nil="true"/>
+  <field-staff-signature></field-staff-signature>
+  <field-staff-signed type="boolean">false</field-staff-signed>
+  <supervisor-signed type="boolean">false</supervisor-signed>
+  <visited-staff-name>Tamara Golovko, LVN</visited-staff-name>
+  <systolic-bp nil="true"/>
+  <diastolic-bp nil="true"/>
+  <bp-read-location nil="true"/>
+  <bp-read-position nil="true"/>
+  <heart-rate nil="true"/>
+  <respiration-rate nil="true"/>
+  <temperature-in-fht nil="true"/>
+  <blood-sugar nil="true"/>
+  <sugar-read-period nil="true"/>
+  <weight-gain-loss-in-lbs nil="true"/>
+  <oxygen-saturation nil="true"/>
+  <frequency-display nil="true"/>
+  <office-staff-signature></office-staff-signature>
+  <office-staff-name>Mariam Zakharyan</office-staff-name>
+  <supervised-user-signature nil="true"/>
+  <supervised-user-name nil="true"/>
+  <pain-section-display></pain-section-display>
+  <os-signed-date-display type="date">2014-01-21</os-signed-date-display>
+  <supervised-user-signed-date-display nil="true"/>
+  <pain nil="true"/>
+  <detail16-label nil="true"/>
+  <detail16-value nil="true"/>
+  <detail17-label nil="true"/>
+  <detail17-value nil="true"/>
+  <detail18-label nil="true"/>
+  <detail18-value nil="true"/>
+  <detail19-label nil="true"/>
+  <detail19-value nil="true"/>
+  <detail20-label nil="true"/>
+  <detail20-value nil="true"/>
+  <detail21-label nil="true"/>
+  <detail21-value nil="true"/>
+  <detail22-label nil="true"/>
+  <detail22-value nil="true"/>
+  <detail23-label nil="true"/>
+  <detail23-value nil="true"/>
+  <detail24-label nil="true"/>
+  <detail24-value nil="true"/>
+  <detail25-label nil="true"/>
+  <detail25-value nil="true"/>
+  <detail26-label nil="true"/>
+  <detail26-value nil="true"/>
+  <detail27-label nil="true"/>
+  <detail27-value nil="true"/>
+  <therapist-name-display>&lt;b&gt;Therapist Name: &lt;/b&gt; Tamara Golovko, LVN</therapist-name-display>
+</plan-of-care>

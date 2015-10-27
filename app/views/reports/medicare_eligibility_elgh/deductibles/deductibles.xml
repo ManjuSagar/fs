@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<deductibles>
+ <sub-report-url>/home/msuser1/workspace/git_repos/fasternotes/app/views/reports/medicare_eligibility/</sub-report-url>
+ <part-b-deductibles>
+  <part-b-deductible>
+     <deductible-year>01/01/2009 - 12/31/2009</deductible-year>
+     <remaining-deductible-amount>135.50</remaining-deductible-amount>
+   </part-b-deductible>
+   <part-b-deductible>
+     <deductible-year>01/01/2009 - 12/31/2009</deductible-year>
+     <remaining-deductible-amount>135.50</remaining-deductible-amount>
+   </part-b-deductible>
+ </part-b-deductibles>
+ <blood-deductibles>
+   <blood-deductible>
+     <calendar-year>01/01/2009 - 12/31/2009</calendar-year>
+     <number-of-units-remaining>3</number-of-units-remaining>
+   </blood-deductible>
+ </blood-deductibles>
+  <occupational-therapy-caps>
+    <occupational-therapy-cap>
+      <calendar-year>01/01/2009 - 12/31/2009</calendar-year>
+      <used-amount>1840.00</used-amount>
+    </occupational-therapy-cap>
+  </occupational-therapy-caps>
+  <physical-and-speech-therapy-caps>
+    <physical-and-speech-therapy-cap>
+      <calendar-year>01/01/2009 - 12/31/2009</calendar-year>
+      <used-amount>1840.00</used-amount>
+    </physical-and-speech-therapy-cap>
+  </physical-and-speech-therapy-caps>
+  <pulmonary-rehabilitations>
+    <pulmonary-rehabilitation>
+      <sessions-remaining-technical>3</sessions-remaining-technical>
+      <sessions-remaining-professional>3</sessions-remaining-professional>
+    </pulmonary-rehabilitation>
+  </pulmonary-rehabilitations>
+  <cardiac-rehabilitations>
+    <cardiac-rehabilitation>
+      <sessions-used-technical>3</sessions-used-technical>
+      <sessions-used-professional>3</sessions-used-professional>
+    </cardiac-rehabilitation>
+  </cardiac-rehabilitations>
+  <intensive-cardiac-rehabilitations>
+    <intensive-cardiac-rehabilitation>
+      <sessions-used-technical>3</sessions-used-technical>
+      <sessions-used-professional>3</sessions-used-professional>
+    </intensive-cardiac-rehabilitation>
+  </intensive-cardiac-rehabilitations>
+</deductibles>

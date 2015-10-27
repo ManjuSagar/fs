@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with Jaspersoft Studio version 6.0.1.final using JasperReports Library version 6.0.0  -->
+<!-- 2015-05-26T19:04:03 -->
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="face_to_face" pageWidth="595" pageHeight="842" columnWidth="555" leftMargin="20" rightMargin="20" topMargin="20" bottomMargin="20" uuid="54135097-baf2-4262-b1b4-f6802555c428">
+	<property name="ireport.zoom" value="2.0"/>
+	<property name="ireport.x" value="471"/>
+	<property name="ireport.y" value="27"/>
+	<property name="com.jaspersoft.studio.data.defaultdataadapter" value="face_to_face"/>
+	<queryString language="xPath">
+		<![CDATA[/medical-order]]>
+	</queryString>
+	<field name="medicare-number" class="java.lang.String">
+		<fieldDescription><![CDATA[medicare-number]]></fieldDescription>
+	</field>
+	<field name="physician-name" class="java.lang.String">
+		<fieldDescription><![CDATA[physician-name]]></fieldDescription>
+	</field>
+	<field name="patient-details" class="java.lang.String">
+		<fieldDescription><![CDATA[patient-details]]></fieldDescription>
+	</field>
+	<field name="patient-contact" class="java.lang.String">
+		<fieldDescription><![CDATA[patient-contact]]></fieldDescription>
+	</field>
+	<field name="patient-address" class="java.lang.String">
+		<fieldDescription><![CDATA[patient-address]]></fieldDescription>
+	</field>
+	<field name="provider-name" class="java.lang.String">
+		<fieldDescription><![CDATA[provider-name]]></fieldDescription>
+	</field>
+	<field name="provider-contact" class="java.lang.String">
+		<fieldDescription><![CDATA[provider-contact]]></fieldDescription>
+	</field>
+	<field name="provider-full-address" class="java.lang.String">
+		<fieldDescription><![CDATA[provider-full-address]]></fieldDescription>
+	</field>
+	<field name="physician-full-address" class="java.lang.String">
+		<fieldDescription><![CDATA[physician-full-address]]></fieldDescription>
+	</field>
+	<field name="physician-short-info" class="java.lang.String">
+		<fieldDescription><![CDATA[physician-short-info]]></fieldDescription>
+	</field>
+	<field name="physician-contact" class="java.lang.String">
+		<fieldDescription><![CDATA[physician-contact]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<pageHeader>
+		<band height="49" splitType="Stretch">
+			<textField>
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="253" y="0" width="302" height="12" uuid="d9b56435-850a-46db-abdc-b7504b90e8eb"/>
+				<textElement textAlignment="Right" markup="html"/>
+				<textFieldExpression><![CDATA[$F{patient-details}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="238" y="12" width="249" height="12" uuid="88a49a5e-262b-46a8-9746-e322d56716ab"/>
+				<textElement textAlignment="Right" markup="html">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{patient-contact}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="238" y="24" width="317" height="12" uuid="c4fb7b4a-1676-4784-b0c4-ec9e69fb2208"/>
+				<textElement textAlignment="Right" markup="html">
+					<font size="8"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{patient-address}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement x="487" y="12" width="18" height="12" uuid="20c5fdb0-dabf-4f6f-b9e7-dd22dfdc6674"/>
+				<textElement textAlignment="Right">
+					<font size="8" isBold="true"/>
+				</textElement>
+				<text><![CDATA[HIC]]></text>
+			</staticText>
+			<textField>
+				<reportElement x="501" y="12" width="54" height="12" uuid="e7f365d2-e6bb-4c30-9eda-954b228e5cc0"/>
+				<textElement textAlignment="Right">
+					<font size="8" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{medicare-number}]]></textFieldExpression>
+			</textField>
+			<frame>
+				<reportElement x="1" y="0" width="252" height="48" uuid="ac9e8594-bbdc-422c-96f0-ff774d02041a"/>
+				<textField>
+					<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="1" y="24" width="236" height="12" uuid="6609ada2-1ae1-41cc-ac67-a3379c6d0ebd"/>
+					<textElement markup="html">
+						<font size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{provider-full-address}]]></textFieldExpression>
+				</textField>
+				<textField>
+					<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="1" y="0" width="250" height="12" uuid="3a7ee936-cd45-49df-a89a-60fbc2cd0f1f"/>
+					<textElement markup="html">
+						<font isBold="true"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{provider-name}]]></textFieldExpression>
+				</textField>
+				<textField isBlankWhenNull="true">
+					<reportElement stretchType="RelativeToTallestObject" x="1" y="12" width="236" height="12" isRemoveLineWhenBlank="true" uuid="8423ab14-cc6e-4af5-9a7d-f6d103f249cb"/>
+					<textElement markup="html">
+						<font size="8"/>
+					</textElement>
+					<textFieldExpression><![CDATA[$F{provider-contact}]]></textFieldExpression>
+				</textField>
+			</frame>
+		</band>
+	</pageHeader>
+	<columnHeader>
+		<band height="34">
+			<staticText>
+				<reportElement x="0" y="6" width="555" height="12" uuid="1a672b1b-54fc-4522-a5fd-3e959d36ee3b"/>
+				<textElement textAlignment="Center" verticalAlignment="Middle">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[PHYSICIAN CERTIFICATION OF FACE-TO-FACE ENCOUNTER]]></text>
+			</staticText>
+			<textField>
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="2" y="20" width="553" height="12" uuid="3acfa8e8-016d-48de-921d-d3a5d18c60e0"/>
+				<textElement textAlignment="Center" markup="html">
+					<font size="9"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{physician-short-info}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="580" splitType="Stretch">
+			<staticText>
+				<reportElement x="2" y="0" width="540" height="20" uuid="74185b6b-2b63-4858-8e3c-36d1a91df251"/>
+				<textElement verticalAlignment="Bottom">
+					<font size="7" isBold="false"/>
+				</textElement>
+				<text><![CDATA[I certify that this patient is under my care and that I, or a nurse practitioner or physician’s assistant working with me, had a face-to-face encounter that meets the physician face-to-face encounter requirements with this patient on (insert date that visit occurred):  ______________________ (month/day/year)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2" y="55" width="553" height="12" uuid="9ce1420c-0021-4fb8-a969-93aa86569cc6"/>
+				<textElement verticalAlignment="Bottom">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Primary Reasons for Ordering Home Care:
+]]></text>
+			</staticText>
+			<line>
+				<reportElement x="2" y="66" width="190" height="1" uuid="142ca7ac-4eb8-4511-93ff-071c204ea757"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="21" y="69" width="401" height="12" uuid="b78fc471-8a3c-4414-b951-23bbc3aa812f"/>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[(Examples: Heart Disease, Osteoarthritis, DVT, CAD, DM, Spinal Stenosis, CVA)]]></text>
+			</staticText>
+			<line>
+				<reportElement x="2" y="99" width="553" height="1" uuid="07ca3a64-e51d-4249-b1b4-9d35b47dce88"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="2" y="131" width="553" height="1" uuid="a2e6ded6-ba1d-4211-8207-68657fed4dd5"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="2" y="163" width="553" height="1" uuid="40ed6202-abea-4f6a-93d6-49ffa1f2aecc"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="2" y="175" width="313" height="20" uuid="cee34818-7824-4ede-9de8-3305b2462fa3"/>
+				<textElement verticalAlignment="Bottom"/>
+				<text><![CDATA[MD's clinical findings to support the need for below services:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="2" y="195" width="265" height="1" uuid="4f106ce0-c3fe-4967-a5eb-ff0efd0b7532"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="2" y="228" width="63" height="15" uuid="0a82ae4e-11fc-4290-8810-545c499c236f"/>
+				<textElement verticalAlignment="Bottom"/>
+				<text><![CDATA[Nursing for:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="2" y="243" width="553" height="1" uuid="ffd3ddec-7e66-4efa-8f7c-09ffc44e8211"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="2" y="260" width="63" height="15" uuid="6849a288-a970-4e4e-8b60-ffd2dd82f44e"/>
+				<textElement verticalAlignment="Bottom"/>
+				<text><![CDATA[PT for:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="2" y="275" width="553" height="1" uuid="f167dc84-d490-49dd-9e8a-7b051e0bb371"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="2" y="292" width="63" height="15" uuid="8ba306ff-f8ce-4e06-82bd-f244635f2a38"/>
+				<textElement verticalAlignment="Bottom"/>
+				<text><![CDATA[ST for:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="2" y="307" width="553" height="1" uuid="b307d428-b6d6-4add-878a-866dff5e1801"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="2" y="324" width="63" height="15" uuid="b3f69e9b-bc64-4d8d-a8b5-96a71dd749d4"/>
+				<textElement verticalAlignment="Bottom"/>
+				<text><![CDATA[OT for:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="2" y="339" width="553" height="1" uuid="db8b0b9c-2319-4302-89bf-01b717fbcdad"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="2" y="356" width="63" height="15" uuid="4dd6f098-f135-491f-9d09-f368ef0a37c4"/>
+				<textElement verticalAlignment="Bottom"/>
+				<text><![CDATA[MSW for:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="2" y="371" width="553" height="1" uuid="c871d694-cc43-4612-b1a1-3b663c0bd817"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="2" y="388" width="63" height="15" uuid="ca9273f8-d114-488b-81b5-b2332c437e4f"/>
+				<textElement verticalAlignment="Bottom"/>
+				<text><![CDATA[CHHA for:]]></text>
+			</staticText>
+			<line>
+				<reportElement x="2" y="403" width="553" height="1" uuid="1e3f9a77-37da-4545-a556-02f903922c76"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="2" y="415" width="107" height="20" uuid="5b099890-f29c-4007-b01c-728fcbc1308b"/>
+				<textElement verticalAlignment="Bottom">
+					<font size="10"/>
+				</textElement>
+				<text><![CDATA[Homebound Reasons]]></text>
+			</staticText>
+			<line>
+				<reportElement mode="Transparent" x="2" y="434" width="315" height="1" uuid="d585d084-cb38-4820-8006-4de8908675dd"/>
+				<graphicElement>
+					<pen lineWidth="0.75" lineStyle="Solid"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="22" y="437" width="533" height="26" uuid="873de284-8818-4653-9449-d9ef447b3b53"/>
+				<textElement verticalAlignment="Top">
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[(Examples: leaving home is a taxing effort, Patient is unable to leave home unassisted or due to medical restriction, SOB with exertion, unsteady, gait, cognitive impairments, poor vision, subject to infection if leaves home)]]></text>
+			</staticText>
+			<line>
+				<reportElement x="2" y="481" width="553" height="1" uuid="688b9f54-8d6b-45b3-9fa5-8eb03917f025"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="2" y="513" width="553" height="1" uuid="d33b7e64-edce-4aaa-adc7-fdee14af612e"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<line>
+				<reportElement x="2" y="545" width="553" height="1" uuid="f07132fb-fa02-4ced-9804-22aed54b1a29"/>
+				<graphicElement>
+					<pen lineWidth="0.75"/>
+				</graphicElement>
+			</line>
+			<staticText>
+				<reportElement x="106" y="414" width="449" height="20" uuid="321b55d2-68cd-478e-8a50-2c44863b9553"/>
+				<textElement verticalAlignment="Bottom">
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[(Medicare requirement for home care: Patient must be home bound)]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="21" y="197" width="534" height="28" uuid="534968f9-69f4-4355-97aa-99323400a943"/>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[This must be in relation to the medical condition you saw the patient for on the above encounter. Write the reason that you feel the patient needs home care services, for example, needs assessment and monitoring of the condition, teaching/education related to the condition.]]></text>
+			</staticText>
+			<staticText>
+				<reportElement x="2" y="27" width="550" height="25" uuid="6e3bb36c-a3e8-4bae-a41d-f923b9e327af"/>
+				<textElement>
+					<font size="7"/>
+				</textElement>
+				<text><![CDATA[The following clinical findings support that the PATIENT IS HOMEBOUND (homebound means that there exists a normal inability to leave home,and consequently, leaving home requires considerable and taxing effort) and that the PATIENT NEEDS INTERMITTENT SKILLED NURSING AND/OR THERAPY]]></text>
+			</staticText>
+		</band>
+	</detail>
+	<columnFooter>
+		<band height="66">
+			<rectangle>
+				<reportElement x="0" y="1" width="553" height="64" uuid="8f37475c-ab3f-428e-9e7f-98a7fa1223ef"/>
+			</rectangle>
+			<staticText>
+				<reportElement x="4" y="3" width="168" height="12" uuid="ced95282-e674-4224-99f7-ec522556f90c"/>
+				<textElement>
+					<font size="8"/>
+				</textElement>
+				<text><![CDATA[Physician Signature and Date]]></text>
+			</staticText>
+			<textField>
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="216" y="15" width="336" height="15" uuid="37cf3e77-bbaf-45ac-ab2c-84c314355721"/>
+				<textElement textAlignment="Right">
+					<font size="11" isBold="true"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{physician-name}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement x="273" y="30" width="278" height="12" uuid="373d303b-a6ae-479c-b09d-a2c075d86e16"/>
+				<textElement textAlignment="Right" markup="html"/>
+				<textFieldExpression><![CDATA[$F{physician-contact}]]></textFieldExpression>
+			</textField>
+			<textField>
+				<reportElement positionType="Float" stretchType="RelativeToTallestObject" x="216" y="46" width="336" height="12" uuid="a4fbdf3d-8db7-4817-946d-6a9c46a07e56"/>
+				<textElement textAlignment="Right" markup="html"/>
+				<textFieldExpression><![CDATA[$F{physician-full-address}]]></textFieldExpression>
+			</textField>
+		</band>
+	</columnFooter>
+	<pageFooter>
+		<band height="50"/>
+	</pageFooter>
+</jasperReport>

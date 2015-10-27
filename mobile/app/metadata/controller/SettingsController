@@ -1,0 +1,193 @@
+{
+    "type": "Ext.app.Controller",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "SettingsController"
+    },
+    "designerId": "3b5a7ba2-bc22-4402-8e52-14ea74565dff",
+    "cn": [
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onSignIn",
+                "implHandler": [
+                    "this.routesheetStore = Ext.StoreManager.lookup(\"RoutesheetStore\");",
+                    "var data = button.getParent().getParent().down(\"#settings_form\").getValues();",
+                    "var totalRoutesheets = this.routesheetStore.getCount();",
+                    "if ( totalRoutesheets > 0) {",
+                    "    Ext.Msg.confirm(\"Warning\", ",
+                    "    \"There are \" + totalRoutesheets.toString() + \" routesheet(s) that are yet to be synced to server.<br/>Do you want to delete and continue?\", function(btn) {",
+                    "        if(btn == 'no') {",
+                    "            return;",
+                    "        } else {",
+                    "            this.routesheetStore.removeAll();",
+                    "            this.routesheetStore.sync();",
+                    "            this.saveSettings(data);",
+                    "        }",
+                    "",
+                    "    }, this);",
+                    "} else {",
+                    "    this.saveSettings(data);",
+                    "}",
+                    ""
+                ],
+                "name": "tap",
+                "designer|targetType": "Ext.Button",
+                "designer|controlQuery": "#sign_in"
+            },
+            "designerId": "dba49f2c-5b7c-4ad4-8468-a4aedb03285c"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onSaveSuccess",
+                "designer|params": [
+                    "result"
+                ],
+                "implHandler": [
+                    "Ext.Viewport.setMasked(false);",
+                    "var mainController = MyApp.app.getController(\"MainController\");",
+                    "",
+                    "var data = mainController.getMainTab().getActiveItem().down(\"#settings_form\").getValues();",
+                    "var settings = Ext.create(\"MyApp.model.Settings\");",
+                    "settings.setData(data);",
+                    "var settingsController = MyApp.app.getController(\"SettingsController\");",
+                    "settingsController.updateUserSetting(settings);",
+                    "",
+                    "//Set the data version to null so that the data refresh is enforced.",
+                    "data_version = null;",
+                    "refreshDataIfRequired();",
+                    "mainController.onSuccessLoginResponse(result);",
+                    "",
+                    "mainController.getMainTab().getTabBar().show();"
+                ]
+            },
+            "designerId": "262fb3fb-4115-427f-adba-1af51417504b"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onSaveFailure",
+                "designer|params": [
+                    "result"
+                ],
+                "implHandler": [
+                    "Ext.Viewport.setMasked(false);",
+                    "var mainController = MyApp.app.getController(\"MainController\");",
+                    "mainController.onFailureLoginResponse(result);"
+                ]
+            },
+            "designerId": "7e287cd9-c6fb-4060-85fe-b55ebb5b0fa7"
+        },
+        {
+            "type": "controlleraction",
+            "reference": {
+                "name": "listeners",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "onFormpanelPainted",
+                "implHandler": [
+                    "var settingStore = Ext.StoreManager.lookup(\"SettingStore\");",
+                    "if (settingStore.getCount() > 0) {",
+                    "    var data = settingStore.getAt(0).data;",
+                    "    component.setValues(data);",
+                    "} else {",
+                    "    this.getMainTab().getTabBar().hide();",
+                    "}"
+                ],
+                "name": "painted",
+                "designer|targetType": "Ext.form.Panel",
+                "designer|controlQuery": "#settings_form"
+            },
+            "designerId": "1e26715c-2c6b-43c8-81e0-1a14b6f83b01"
+        },
+        {
+            "type": "controllerref",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "ref": "mainTab",
+                "selector": "#main_tab",
+                "xtype": "tabpanel"
+            },
+            "designerId": "0b8fe657-d945-4283-9e91-48abec9e413d"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "updateUserSetting",
+                "designer|params": [
+                    "settingsInstance"
+                ],
+                "implHandler": [
+                    "settingsInstance.set(\"id\",1);",
+                    "var settingStore = Ext.StoreManager.lookup(\"SettingStore\");",
+                    "settingStore.removeAll();",
+                    "settingStore.add(settingsInstance);",
+                    "settingStore.sync();"
+                ]
+            },
+            "designerId": "124fcd65-4298-4619-9aed-071a6e3fe225"
+        },
+        {
+            "type": "basicfunction",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "fn": "saveSettings",
+                "designer|params": [
+                    "data"
+                ],
+                "implHandler": [
+                    "var username = data.username;",
+                    "var password = data.password;",
+                    "var store_number = data.store_number;",
+                    "var server_url = data.server_url;",
+                    "",
+                    "var mainController = MyApp.app.getController(\"MainController\");",
+                    "",
+                    "Ext.Viewport.setMasked({",
+                    "    xtype: 'loadmask',",
+                    "    message: 'Saving...'",
+                    "});",
+                    "",
+                    "mainController.signIn(username, password, server_url, this.onSaveSuccess, this.onSaveFailure);",
+                    ""
+                ]
+            },
+            "designerId": "5fc93df5-32fc-424c-90b0-6ec54b14c304"
+        }
+    ]
+}

@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="deductibles" language="groovy" pageWidth="595" pageHeight="842" columnWidth="595" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="29f9dee0-ec86-4390-9604-ae76249b652c">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<parameter name="SUBREPORT_DIR" class="java.lang.String" isForPrompting="false">
+		<defaultValueExpression><![CDATA["/home/msuser1/workspace/git_repos/fasternotes/app/views/reports/medicare_eligibility/deductibles/"]]></defaultValueExpression>
+	</parameter>
+	<queryString language="xPath">
+		<![CDATA[/elgh-response]]>
+	</queryString>
+	<field name="sub-report-url" class="java.lang.String">
+		<fieldDescription><![CDATA[sub-report-url]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<detail>
+		<band height="14" splitType="Stretch">
+			<subreport>
+				<reportElement uuid="4826b6e4-a159-4796-b468-922d72957bcf" x="0" y="0" width="590" height="14" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportExpression><![CDATA[$F{sub-report-url} + "deductibles/sub_reports/part_a_deductibles.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+		<band height="14" splitType="Stretch">
+			<subreport>
+				<reportElement uuid="3406c6e8-d8fb-416d-a119-10690804ad02" x="0" y="0" width="590" height="14" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportExpression><![CDATA[$F{sub-report-url} + "deductibles/sub_reports/part_b_deductibles.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+		<band height="14" splitType="Stretch">
+			<subreport>
+				<reportElement uuid="b7e2a95b-c1d4-4d8e-9567-3da41c497fb1" x="0" y="0" width="590" height="14"/>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportExpression><![CDATA[$F{sub-report-url} + "deductibles/sub_reports/co_insurance_details.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+		<band height="14" splitType="Stretch">
+			<subreport>
+				<reportElement uuid="419ec4bb-59b4-4de5-912e-f4e0d64e3a4e" x="0" y="0" width="590" height="14" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportExpression><![CDATA[$F{sub-report-url} + "deductibles/sub_reports/blood_deductibles.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+		<band height="14" splitType="Stretch">
+			<subreport>
+				<reportElement uuid="6be8f046-8050-44d8-a469-1ab265574bf6" x="0" y="0" width="590" height="14" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportExpression><![CDATA[$F{sub-report-url} + "deductibles/sub_reports/occupational_therapy_cap.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+		<band height="14" splitType="Stretch">
+			<subreport>
+				<reportElement uuid="973048cb-1e35-4d59-a954-1ced4efb4349" x="0" y="0" width="590" height="14" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportExpression><![CDATA[$F{sub-report-url} + "deductibles/sub_reports/physical_and_speech_therapy_cap.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+		<band height="14" splitType="Stretch">
+			<subreport>
+				<reportElement uuid="5ec988a2-0fca-4906-8e25-559f3e4904d2" x="0" y="0" width="590" height="14" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportExpression><![CDATA[$F{sub-report-url} + "deductibles/sub_reports/psychiatric_subreport.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+		<band height="14" splitType="Stretch">
+			<subreport>
+				<reportElement uuid="872f53f4-6aab-4722-b4c2-a8ae1f516f40" x="0" y="0" width="590" height="14" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportExpression><![CDATA[$F{sub-report-url} + "deductibles/sub_reports/pulmonary_rehabilitation.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+		<band height="14" splitType="Stretch">
+			<subreport>
+				<reportElement uuid="77c92e69-fb91-4d9b-9f6f-acca9c8a77a4" x="0" y="0" width="590" height="14" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportExpression><![CDATA[$F{sub-report-url} + "deductibles/sub_reports/cardiac_rehabilitation.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+		<band height="14" splitType="Stretch">
+			<subreport>
+				<reportElement uuid="eba952bd-4c61-468c-87f1-8517df08f396" x="0" y="-1" width="590" height="14" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<subreportParameter name="XML_DATA_DOCUMENT">
+					<subreportParameterExpression><![CDATA[$P{XML_DATA_DOCUMENT}]]></subreportParameterExpression>
+				</subreportParameter>
+				<subreportExpression><![CDATA[$F{sub-report-url} + "deductibles/sub_reports/intensive_cardiac_rehabilitation.jasper"]]></subreportExpression>
+			</subreport>
+		</band>
+	</detail>
+</jasperReport>

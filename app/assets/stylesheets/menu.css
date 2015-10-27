@@ -1,0 +1,73 @@
+/* ================================================================ 
+This copyright notice must be untouched at all times.
+
+The original version of this stylesheet and the associated (x)html
+is available at http://www.cssplay.co.uk/css3-cssplay29.html
+Copyright (c) 2005-2008 Stu Nicholls. All rights reserved.
+This stylesheet and the associated (x)html may be modified in any 
+way to fit your requirements.
+=================================================================== */
+/* this is a CSS answer to fix the hover tilde problem in safari and chrome */
+html {-webkit-animation: safariSelectorFix infinite 1s;}
+@-webkit-keyframes safariSelectorFix {
+    0% {zoom:1;}
+    100% {zoom:1;}
+}
+/* trigger for IE */
+#dropline li a, body {behavior:url(cssplay29/trigger.htc)}
+
+#menu_container {height: 40px;border-top:none;}
+
+
+#dropline {padding:0; margin:0; list-style:none; width:100%;
+}
+
+#dropline ul {padding:0; list-style:none;}
+
+#dropline ul {position:absolute; top:0; left:-9999px; height:0;
+}
+
+/*
+#dropline ul {background:#383838; border-bottom:10px solid #383838;}
+#dropline ul ul {background:#404040; border-bottom:10px solid #404040;}
+#dropline ul ul ul {background:#484848; border-bottom:10px solid #484848;}
+#dropline ul ul ul ul {background:#505050; border-bottom:10px solid #505050;}
+#dropline ul ul ul ul ul {background:#585858; border-bottom:10px solid #585858;}
+*/
+#dropline li {display:inline; height:40px;}
+/*#dropline li:last-child a{border-right: none;}*/
+
+#dropline li a {display:inline-block; height:20px; line-height:10px;
+    padding:0 0 0 10px; font-size:15px;
+    xtext-shadow: 1px -1px 1px #000; text-decoration:none;
+    outline:0; xtext-transform:uppercase;text-align:right;
+    -webkit-transition: 0.2s;
+    -moz-transition: 0.2s;
+    -o-transition: 0.2s;
+    transition: 0.2s;
+}
+#dropline ul li a {font-size:0; color: #A4A6A9;}
+
+#dropline li a.down, #dropline li a.mainMenu {color:black;}
+#dropline li ul li a.down {font-size:11px; color:#A4A6A9;}
+
+#dropline li ul li a.down {font-size:11px; color: #cdcfd2;}
+
+#dropline li:hover > a {color:#2A81C9;}
+
+#dropline li > a:active {color:#2A81C9; xbackground-color: #cdcfd2;}
+#dropline li > a.down:active {color:#2A81C9; xbackground-color:#cdcfd2;text-align: right;}
+
+#dropline li > a:focus {color:#2A81C9; xbackground-color: #cdcfd2;}
+#dropline li > a.down:focus {color:#2A81C9; xbackground-color:#cdcfd2;}
+
+#dropline li:hover > a.down {color:#2A81C9;}
+
+#dropline li a:active + ul {top:20px; left:0; background-color:white; border-top:0px;border-bottom: 0px;}
+#dropline li a:active + ul > li > a {font-size:12px; height: 20px;}
+
+#dropline li a:focus + ul {top:20px; left:0; height:40px;background-color:white; border-top:0px;border-bottom: 0px;}
+#dropline li a:focus + ul > li > a {font-size:12px; height: 20px;}
+
+#dropline li > ul:hover {top:20px; left:0; background-color:white; border-top: 0px;border-bottom: 0px;}
+#dropline li > ul:hover > li > a {font-size:12px; height: 20px;}

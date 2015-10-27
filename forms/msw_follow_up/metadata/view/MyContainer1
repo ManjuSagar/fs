@@ -1,0 +1,1365 @@
+{
+    "type": "container",
+    "reference": {
+        "name": "items",
+        "type": "array"
+    },
+    "codeClass": null,
+    "userConfig": {
+        "designer|userClassName": "MyContainer1",
+        "designer|initialView": true,
+        "height": 768,
+        "style": [
+            "color:green;"
+        ],
+        "width": 1024,
+        "layout": "fit"
+    },
+    "id": "ExtBox1-ext-gen2714",
+    "designerId": "564cd029-abd7-49f1-ad6d-0b75a6416005",
+    "cn": [
+        {
+            "type": "form",
+            "reference": {
+                "name": "items",
+                "type": "array"
+            },
+            "codeClass": null,
+            "userConfig": {
+                "designer|userClassName": "MyForm1",
+                "height": null,
+                "style": [
+                    "color:green;"
+                ],
+                "layout": "border",
+                "bodyPadding": 10,
+                "manageHeight": false,
+                "title": ""
+            },
+            "designerId": "e6e9a645-7851-4de3-af69-c9313b622f69",
+            "cn": [
+                {
+                    "type": "tabpanel",
+                    "reference": {
+                        "name": "items",
+                        "type": "array"
+                    },
+                    "codeClass": null,
+                    "userConfig": {
+                        "layout|region": "center",
+                        "designer|userClassName": "MyTabPanel1",
+                        "designer|displayName": "CenterPanel",
+                        "margin": "5px",
+                        "activeTab": 0,
+                        "plain": true
+                    },
+                    "designerId": "59ada299-ed06-4b84-a66c-6f84d8a9f510",
+                    "cn": [
+                        {
+                            "type": "panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "stretch",
+                                "designer|userClassName": "MyPanel64",
+                                "height": null,
+                                "width": null,
+                                "autoScroll": true,
+                                "layout": "vbox",
+                                "title": "Living Situation/Psychosocial Assessment"
+                            },
+                            "designerId": "ef969018-70cb-4ecd-a74b-3703e7a84a57",
+                            "cn": [
+                                {
+                                    "type": "tab",
+                                    "reference": {
+                                        "name": "tabConfig",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "TabConfig16"
+                                    },
+                                    "designerId": "cbfae967-72ad-4737-a516-e79700aec0b1"
+                                },
+                                {
+                                    "type": "panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|flex": null,
+                                        "container|align": "stretch",
+                                        "designer|userClassName": "MyPanel83",
+                                        "border": 0,
+                                        "height": null,
+                                        "padding": "3px",
+                                        "width": null,
+                                        "layout": "hbox",
+                                        "title": null
+                                    },
+                                    "designerId": "cf33fc0e-0f13-4b1d-941a-adfbfa50c01c",
+                                    "cn": [
+                                        {
+                                            "type": "panel",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "layout|flex": 1,
+                                                "designer|userClassName": "MyPanel11",
+                                                "height": null,
+                                                "itemId": "living_situation",
+                                                "margin": "",
+                                                "width": null,
+                                                "layout": "anchor",
+                                                "title": "Living Situation"
+                                            },
+                                            "designerId": "e69eef04-020e-4224-ad4a-580852b4fb04",
+                                            "cn": [
+                                                {
+                                                    "type": "checkboxgroup",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "container|align": "stretch",
+                                                        "designer|userClassName": "MyCheckboxGroup10",
+                                                        "layout": "vbox",
+                                                        "fieldLabel": ""
+                                                    },
+                                                    "designerId": "afe56c30-6d28-4554-ba9d-1635fcd42ce6",
+                                                    "cn": [
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox52",
+                                                                "name": "living_situation_follow_up",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Unchanged from Last Visit",
+                                                                "inputValue": "Unchanged from Last Visit"
+                                                            },
+                                                            "designerId": "6675622a-3ec7-4012-9e72-f739aecaf50a"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox52",
+                                                                "name": "living_situation_follow_up",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Update to Primary Caregiver",
+                                                                "inputValue": "Update to Primary Caregiver"
+                                                            },
+                                                            "designerId": "b5a3ca64-7b70-4cbe-8bc9-a1fdf9ad0d59"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox52",
+                                                                "name": "living_situation_follow_up",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Changes to Environmental Conditions",
+                                                                "inputValue": "Changes to Environmental Conditions"
+                                                            },
+                                                            "designerId": "b420baa4-9dca-4327-9e1c-9e3af43ca3a6"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "tool",
+                                                    "reference": {
+                                                        "name": "tools",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTool",
+                                                        "type": "pin"
+                                                    },
+                                                    "designerId": "0a6f7fd7-d48e-45f9-902c-48cce737377a"
+                                                },
+                                                {
+                                                    "type": "textfield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTextField13",
+                                                        "margin": " 0 3px 3px 3px",
+                                                        "name": "changed_living_situations",
+                                                        "fieldLabel": "Changed"
+                                                    },
+                                                    "designerId": "5095e99f-deca-448d-9056-7d707848a1a8"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "panel",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "layout|flex": 1,
+                                                "designer|userClassName": "MyPanel12",
+                                                "height": null,
+                                                "itemId": "follow_up_plan",
+                                                "margin": "3px",
+                                                "width": null,
+                                                "layout": "vbox",
+                                                "title": "Follow Up Plan"
+                                            },
+                                            "designerId": "6ad24785-3318-49da-bc47-e911c4cbc986",
+                                            "cn": [
+                                                {
+                                                    "type": "checkboxgroup",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "container|align": "stretch",
+                                                        "designer|userClassName": "MyCheckboxGroup10",
+                                                        "layout": "vbox",
+                                                        "fieldLabel": ""
+                                                    },
+                                                    "designerId": "e811f13d-83c2-45a1-bb37-547c8051c295",
+                                                    "cn": [
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox52",
+                                                                "name": "follow_up_plan",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Follow-up Visit",
+                                                                "inputValue": "Follow-up Visit"
+                                                            },
+                                                            "designerId": "a0bf2492-89f6-4096-a448-c40459d36ff5"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox52",
+                                                                "name": "follow_up_plan",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Confer with Team",
+                                                                "inputValue": "Confer with Team"
+                                                            },
+                                                            "designerId": "02be2648-601f-4004-aa75-9fdaa2130614"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox52",
+                                                                "name": "follow_up_plan",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Provide External Referral",
+                                                                "inputValue": "Provide External Referral"
+                                                            },
+                                                            "designerId": "1b522749-d4c2-4990-b3cb-7565e159102e"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox52",
+                                                                "name": "follow_up_plan",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Discharge SW Services",
+                                                                "inputValue": "Discharge SW Services"
+                                                            },
+                                                            "designerId": "14af7f03-5911-42db-9b1c-5a055db060aa"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "tool",
+                                                    "reference": {
+                                                        "name": "tools",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTool1",
+                                                        "type": "pin"
+                                                    },
+                                                    "designerId": "77b8894c-a67f-476a-8cac-2b9964552069"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|flex": null,
+                                        "container|align": "stretch",
+                                        "designer|userClassName": "MyPanel82",
+                                        "border": 0,
+                                        "height": null,
+                                        "width": null,
+                                        "layout": "hbox",
+                                        "title": null
+                                    },
+                                    "designerId": "631236b6-e452-4ffd-b812-398203e0f3c9",
+                                    "cn": [
+                                        {
+                                            "type": "panel",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "layout|flex": 1,
+                                                "designer|userClassName": "MyPanel13",
+                                                "height": null,
+                                                "itemId": "emotional_status",
+                                                "margin": "3px",
+                                                "width": null,
+                                                "layout": "anchor",
+                                                "title": "Emotional Status "
+                                            },
+                                            "designerId": "ab62b3fd-ce78-49df-982d-51f88880f473",
+                                            "cn": [
+                                                {
+                                                    "type": "checkboxgroup",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "container|align": "stretch",
+                                                        "designer|userClassName": "MyCheckboxGroup2",
+                                                        "layout": "vbox",
+                                                        "fieldLabel": ""
+                                                    },
+                                                    "designerId": "1c5e2d6d-896c-447e-a239-96ec1aa41ce5",
+                                                    "cn": [
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox19",
+                                                                "name": "emotional_status",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Stable",
+                                                                "inputValue": "Stable"
+                                                            },
+                                                            "designerId": "4f40affc-0af8-403d-821c-8d43e41178b5"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox19",
+                                                                "name": "emotional_status",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Tearful",
+                                                                "inputValue": "Tearful"
+                                                            },
+                                                            "designerId": "bcee1940-29eb-40c7-bec6-d5e37a9ed20a"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox19",
+                                                                "name": "emotional_status",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Stressed",
+                                                                "inputValue": "Stressed"
+                                                            },
+                                                            "designerId": "3e8e58dd-1d3e-4634-befa-40eca5c90340"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox19",
+                                                                "name": "emotional_status",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Angry",
+                                                                "inputValue": "Angry"
+                                                            },
+                                                            "designerId": "0847f9a7-bb69-459a-83c0-cc95df4e91f6"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox19",
+                                                                "name": "emotional_status",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Sad",
+                                                                "inputValue": "Sad"
+                                                            },
+                                                            "designerId": "3a3d9395-d355-4c87-aea3-3a3b2c7eb228"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox19",
+                                                                "name": "emotional_status",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Withdrawn",
+                                                                "inputValue": "Withdrawn"
+                                                            },
+                                                            "designerId": "1a482264-ca11-471e-9f45-f4dc1a9e804d"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox19",
+                                                                "name": "emotional_status",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Fearful",
+                                                                "inputValue": "Fearful"
+                                                            },
+                                                            "designerId": "1340f85c-23fa-4747-b57d-0244fd12ace3"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox19",
+                                                                "name": "emotional_status",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Anxious",
+                                                                "inputValue": "Anxious"
+                                                            },
+                                                            "designerId": "31399338-c288-40b1-87fe-81dfc9e3d7b2"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox19",
+                                                                "name": "emotional_status",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Flat Affect",
+                                                                "inputValue": "Flat Affect"
+                                                            },
+                                                            "designerId": "4dd59878-159c-4a6b-a742-f570ef749bfb"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "textfield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTextField36",
+                                                        "margin": "0 3px 5px 3px",
+                                                        "name": "other_emotional_status",
+                                                        "fieldLabel": "Other",
+                                                        "labelWidth": 40
+                                                    },
+                                                    "designerId": "220a82d8-a932-48b1-bbfc-73c63848750b"
+                                                },
+                                                {
+                                                    "type": "tool",
+                                                    "reference": {
+                                                        "name": "tools",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTool2",
+                                                        "type": "pin"
+                                                    },
+                                                    "designerId": "0083235a-5fc4-4226-a13c-74790be02357"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "panel",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "layout|flex": 1,
+                                                "designer|userClassName": "MyPanel14",
+                                                "height": null,
+                                                "itemId": "mental_status",
+                                                "margin": "3px",
+                                                "width": null,
+                                                "layout": "anchor",
+                                                "title": "Mental Status"
+                                            },
+                                            "designerId": "0d4504b3-2d47-480b-9a2c-95386e82b162",
+                                            "cn": [
+                                                {
+                                                    "type": "checkboxgroup",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "container|align": "stretch",
+                                                        "designer|userClassName": "MyCheckboxGroup",
+                                                        "width": null,
+                                                        "layout": "vbox",
+                                                        "fieldLabel": ""
+                                                    },
+                                                    "designerId": "10fd6166-d3f0-4983-bb39-8744ffa04a4a",
+                                                    "cn": [
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox21",
+                                                                "name": "mental_status",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Oriented",
+                                                                "inputValue": "Oriented"
+                                                            },
+                                                            "designerId": "a2eb72ae-d987-42c1-af13-d5a0674e437b"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox22",
+                                                                "name": "mental_status",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Confused",
+                                                                "inputValue": "Comatose"
+                                                            },
+                                                            "designerId": "ae639ec7-4026-4366-989b-45be0678d401"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox22",
+                                                                "name": "mental_status",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Forgetful",
+                                                                "inputValue": "Forgetful"
+                                                            },
+                                                            "designerId": "6a322220-7a43-4220-b8e2-6b31be7df29c"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox22",
+                                                                "name": "mental_status",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Depressed",
+                                                                "inputValue": "Depressed"
+                                                            },
+                                                            "designerId": "0be0fbfd-c7d2-4f36-a027-6f0db45fd265"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox22",
+                                                                "name": "mental_status",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Disoriented",
+                                                                "inputValue": "Disoriented"
+                                                            },
+                                                            "designerId": "dbe262d4-b720-4435-bde7-78ab3f877715"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox22",
+                                                                "name": "mental_status",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Lethargic",
+                                                                "inputValue": "Lethargic"
+                                                            },
+                                                            "designerId": "9cbb98a9-e4d3-4bd7-8abd-262e6191bacf"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox22",
+                                                                "name": "mental_status",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Agitated",
+                                                                "inputValue": "Agitated"
+                                                            },
+                                                            "designerId": "d7678421-f7fa-4914-8900-21f531096d07"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "textfield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTextField38",
+                                                        "margin": "3px",
+                                                        "name": "other1_mental_status",
+                                                        "fieldLabel": "Other"
+                                                    },
+                                                    "designerId": "6077e398-c6d3-4585-acc5-c5389a073069"
+                                                },
+                                                {
+                                                    "type": "textfield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTextField38",
+                                                        "margin": "3px",
+                                                        "name": "other2_mental_status",
+                                                        "fieldLabel": "Other"
+                                                    },
+                                                    "designerId": "24b23135-b74a-4557-82ca-b85e451af120"
+                                                },
+                                                {
+                                                    "type": "tool",
+                                                    "reference": {
+                                                        "name": "tools",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTool3",
+                                                        "type": "pin"
+                                                    },
+                                                    "designerId": "a6bcca83-c00b-4773-9271-e7a8e5253d1a"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "panel",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "container|align": "stretch",
+                                "designer|userClassName": "MyPanel64",
+                                "height": null,
+                                "margin": "7px",
+                                "padding": "3px",
+                                "width": null,
+                                "autoScroll": true,
+                                "layout": "vbox",
+                                "title": "Interventions/Goals"
+                            },
+                            "designerId": "69f9bce4-aaf0-49d9-9923-e295429abf05",
+                            "cn": [
+                                {
+                                    "type": "tab",
+                                    "reference": {
+                                        "name": "tabConfig",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "TabConfig16"
+                                    },
+                                    "designerId": "4ddc2670-1b0d-4ea2-99fb-9cf03af94feb"
+                                },
+                                {
+                                    "type": "panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "layout|flex": null,
+                                        "container|align": "stretch",
+                                        "designer|userClassName": "MyPanel36",
+                                        "border": 0,
+                                        "height": null,
+                                        "width": null,
+                                        "layout": "hbox",
+                                        "title": null
+                                    },
+                                    "designerId": "23e82714-f3a5-4c0c-9cfb-3a84790adff0",
+                                    "cn": [
+                                        {
+                                            "type": "panel",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "layout|flex": 1,
+                                                "designer|userClassName": "MyPanel15",
+                                                "height": null,
+                                                "itemId": "interventions",
+                                                "margin": "0 3px 0 0",
+                                                "width": null,
+                                                "layout": "anchor",
+                                                "title": "Interventions"
+                                            },
+                                            "designerId": "3990606d-8be5-4d0d-97dd-ff3f10250b30",
+                                            "cn": [
+                                                {
+                                                    "type": "checkboxgroup",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "container|align": "stretch",
+                                                        "designer|userClassName": "MyCheckboxGroup4",
+                                                        "layout": "vbox",
+                                                        "fieldLabel": ""
+                                                    },
+                                                    "designerId": "7dba4889-252d-462c-a4ed-02c5c92aa154",
+                                                    "cn": [
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox35",
+                                                                "name": "interventions",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Psychosocial Assessment",
+                                                                "inputValue": "Psychosocial Assessment"
+                                                            },
+                                                            "designerId": "79b7c07c-7760-48b9-9b2e-92448c678bd9"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox36",
+                                                                "name": "interventions",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Community Res. Planning/Outreach",
+                                                                "inputValue": "Community Res. Planning/Outreach"
+                                                            },
+                                                            "designerId": "07448042-42c4-4df9-98b9-352b00904e53"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox36",
+                                                                "name": "interventions",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Counsel re Disease Management",
+                                                                "inputValue": "Counsel re Disease Management"
+                                                            },
+                                                            "designerId": "23454cf5-252d-4368-ba81-c6ad6139e9bd"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox36",
+                                                                "name": "interventions",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Community Res. Planning/Outreach",
+                                                                "inputValue": "Community Res. Planning/Outreach"
+                                                            },
+                                                            "designerId": "d0945685-745f-4e26-b39c-0e7c0e41eaf2"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox36",
+                                                                "name": "interventions",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Counseling re Family Coping",
+                                                                "inputValue": "Counseling re Family Coping"
+                                                            },
+                                                            "designerId": "48d4ea0a-4a71-4f33-bc82-d7bf831cb9df"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox36",
+                                                                "name": "interventions",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Stabilize Current Placement",
+                                                                "inputValue": "Stabilize Current Placement"
+                                                            },
+                                                            "designerId": "bfb50987-061a-4993-a809-cde2e41b01db"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox36",
+                                                                "name": "interventions",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Crisis Intervention",
+                                                                "inputValue": "Crisis Intervention"
+                                                            },
+                                                            "designerId": "45c345b9-d57b-4861-8c01-8b115925048a"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox36",
+                                                                "name": "interventions",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Determine/Locate Alt Placement",
+                                                                "inputValue": "Determine/Locate Alt Placement"
+                                                            },
+                                                            "designerId": "72602956-65b7-476e-bde1-1e1bdc4f44a4"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox36",
+                                                                "name": "interventions",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Long-range Planning/Decision Making",
+                                                                "inputValue": "Long-range Planning/Decision Making"
+                                                            },
+                                                            "designerId": "d9c07c51-4060-43d1-98e1-466062b9560c"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox36",
+                                                                "name": "interventions",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Financial Counseling and/or Referrals",
+                                                                "inputValue": "Financial Counseling and/or Referrals"
+                                                            },
+                                                            "designerId": "aa1d826d-54c4-4cd2-8c8a-9201ba5f5628"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "textfield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTextField52",
+                                                        "margin": "0 0 5px 3px",
+                                                        "padding": "",
+                                                        "name": "other_interventions",
+                                                        "fieldLabel": "Other"
+                                                    },
+                                                    "designerId": "12a133c2-1847-41ff-9a53-c4cfa801eec8"
+                                                },
+                                                {
+                                                    "type": "tool",
+                                                    "reference": {
+                                                        "name": "tools",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTool5",
+                                                        "type": "pin"
+                                                    },
+                                                    "designerId": "738b417f-6dd0-42b3-abc5-1696fe66a4db"
+                                                }
+                                            ]
+                                        },
+                                        {
+                                            "type": "panel",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "layout|flex": 1,
+                                                "designer|userClassName": "MyPanel16",
+                                                "height": null,
+                                                "itemId": "goals",
+                                                "margin": "0 0 0 3px",
+                                                "width": null,
+                                                "layout": "vbox",
+                                                "title": "Goals"
+                                            },
+                                            "designerId": "fb88199e-92be-4b12-981c-55d6c8ee80bb",
+                                            "cn": [
+                                                {
+                                                    "type": "checkboxgroup",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "container|align": "stretch",
+                                                        "designer|userClassName": "MyCheckboxGroup4",
+                                                        "layout": "vbox",
+                                                        "fieldLabel": ""
+                                                    },
+                                                    "designerId": "5ece1d06-f6ef-424d-bfbc-db8fa5fbc487",
+                                                    "cn": [
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox35",
+                                                                "name": "goals",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Adequate Support System",
+                                                                "inputValue": "Adequate Support System"
+                                                            },
+                                                            "designerId": "2118c52a-1658-47d4-ab94-0d38d5e631cd"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox36",
+                                                                "name": "goals",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Improved Client/Family Coping",
+                                                                "inputValue": "Improved Client/Family Coping"
+                                                            },
+                                                            "designerId": "ec66ba01-9c36-4d7f-a842-b8fe68dfce28"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox36",
+                                                                "name": "goals",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Normal Grieving Process",
+                                                                "inputValue": "Normal Grieving Process"
+                                                            },
+                                                            "designerId": "809e5533-b232-46f8-92cf-e31d9dfeb158"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox36",
+                                                                "name": "goals",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Appropriate Goals set by Client/Family",
+                                                                "inputValue": "Appropriate Goals set by Client/Family"
+                                                            },
+                                                            "designerId": "8116dfbc-c269-48b9-9ba0-3036087b600e"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox36",
+                                                                "name": "goals",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Appropriate Community Res. Referrals",
+                                                                "inputValue": "Appropriate Community Res. Referrals"
+                                                            },
+                                                            "designerId": "da3167bc-4da6-4454-8e35-e14549193484"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox36",
+                                                                "name": "goals",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Stable Placement Setting",
+                                                                "inputValue": "Stable Placement Setting"
+                                                            },
+                                                            "designerId": "36cbf9d2-f5f0-4899-8cfe-ac5bd7235e65"
+                                                        },
+                                                        {
+                                                            "type": "checkboxfield",
+                                                            "reference": {
+                                                                "name": "items",
+                                                                "type": "array"
+                                                            },
+                                                            "codeClass": null,
+                                                            "userConfig": {
+                                                                "designer|userClassName": "MyCheckbox36",
+                                                                "name": "goals",
+                                                                "fieldLabel": null,
+                                                                "boxLabel": "Mobilization of Financial Resources",
+                                                                "inputValue": "Mobilization of Financial Resources"
+                                                            },
+                                                            "designerId": "ad2f77b8-6218-4e1b-8810-da3405ff638b"
+                                                        }
+                                                    ]
+                                                },
+                                                {
+                                                    "type": "textfield",
+                                                    "reference": {
+                                                        "name": "items",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTextField52",
+                                                        "margin": "0 0 0 3px",
+                                                        "name": "other_goals",
+                                                        "fieldLabel": "Other"
+                                                    },
+                                                    "designerId": "b595bfaa-66b8-45d0-b5ad-2f8c8c9c1cc3"
+                                                },
+                                                {
+                                                    "type": "tool",
+                                                    "reference": {
+                                                        "name": "tools",
+                                                        "type": "array"
+                                                    },
+                                                    "codeClass": null,
+                                                    "userConfig": {
+                                                        "designer|userClassName": "MyTool6",
+                                                        "type": "pin"
+                                                    },
+                                                    "designerId": "665090bb-34a0-4e67-a522-8b2509b65524"
+                                                }
+                                            ]
+                                        }
+                                    ]
+                                }
+                            ]
+                        },
+                        {
+                            "type": "form",
+                            "reference": {
+                                "name": "items",
+                                "type": "array"
+                            },
+                            "codeClass": null,
+                            "userConfig": {
+                                "designer|userClassName": "MyForm1",
+                                "height": null,
+                                "width": null,
+                                "layout": "fit",
+                                "title": "Strengths/Intevention Details/Plan Of Care"
+                            },
+                            "designerId": "8a530655-8fe0-4eac-861b-328069af1dc8",
+                            "cn": [
+                                {
+                                    "type": "tab",
+                                    "reference": {
+                                        "name": "tabConfig",
+                                        "type": "object"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "TabConfig16"
+                                    },
+                                    "designerId": "11e72af0-2342-46e3-9500-04d82b05f608"
+                                },
+                                {
+                                    "type": "panel",
+                                    "reference": {
+                                        "name": "items",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyPanel18",
+                                        "height": null,
+                                        "itemId": "strength_intervention_details",
+                                        "margin": "7px",
+                                        "layout": "vbox",
+                                        "title": "intervention Details/Visit Goal Details /progress Towards Goals"
+                                    },
+                                    "designerId": "e08f3c07-5aa6-4d84-9299-ab3375b4bd5c",
+                                    "cn": [
+                                        {
+                                            "type": "textareafield",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyTextArea39",
+                                                "height": null,
+                                                "margin": "0 0 0 5px",
+                                                "width": null,
+                                                "name": "intervention_details",
+                                                "fieldLabel": "Intervention Details",
+                                                "labelAlign": "top",
+                                                "cols": 100
+                                            },
+                                            "designerId": "1bb1e7c0-a784-4761-9c8a-fafb897aa574"
+                                        },
+                                        {
+                                            "type": "textareafield",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyTextArea39",
+                                                "height": null,
+                                                "margin": "3px 0 0 5px",
+                                                "width": null,
+                                                "name": "visit_goal_details",
+                                                "fieldLabel": "Visit Goal Details",
+                                                "labelAlign": "top",
+                                                "cols": 100
+                                            },
+                                            "designerId": "b4fc55ea-65cb-4641-9ef0-d48cd1d42275"
+                                        },
+                                        {
+                                            "type": "textareafield",
+                                            "reference": {
+                                                "name": "items",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyTextArea39",
+                                                "height": null,
+                                                "margin": "3px 0 5px 5px",
+                                                "width": null,
+                                                "name": "progress_towards_goals",
+                                                "fieldLabel": "Progress Towards Goals",
+                                                "labelAlign": "top",
+                                                "labelWidth": null,
+                                                "cols": 100
+                                            },
+                                            "designerId": "99dcf623-6215-43b8-96f2-fd24d048016d"
+                                        },
+                                        {
+                                            "type": "tool",
+                                            "reference": {
+                                                "name": "tools",
+                                                "type": "array"
+                                            },
+                                            "codeClass": null,
+                                            "userConfig": {
+                                                "designer|userClassName": "MyTool8",
+                                                "type": "pin"
+                                            },
+                                            "designerId": "62a2c7d8-6df1-4272-9257-548431e070aa"
+                                        }
+                                    ]
+                                },
+                                {
+                                    "type": "tool",
+                                    "reference": {
+                                        "name": "tools",
+                                        "type": "array"
+                                    },
+                                    "codeClass": null,
+                                    "userConfig": {
+                                        "designer|userClassName": "MyTool7",
+                                        "type": "pin"
+                                    },
+                                    "designerId": "a692b9a8-b6f0-4f41-ad70-bd7e6a2a48f9"
+                                }
+                            ]
+                        }
+                    ]
+                }
+            ]
+        }
+    ]
+}

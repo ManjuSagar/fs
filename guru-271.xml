@@ -1,0 +1,1083 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ediroot>
+   <interchange Standard="ANSI X.12" Date="140831" Time="0758" Version="00501" Control="111111111">
+      <sender>
+         <address Id="CMS            " Qual="ZZ" />
+      </sender>
+      <receiver>
+         <address Id="SUBMITTERID    " Qual="ZZ" />
+      </receiver>
+      <group GroupType="HB" ApplSender="CMS" ApplReceiver="SUBMITTERID" Date="20140831" Time="07580000" Control="1" StandardCode="X" StandardVersion="005010X279A1">
+         <transaction DocType="271" Control="0001">
+            <segment Id="BHT">
+               <element Id="BHT01">0022</element>
+               <element Id="BHT02">11</element>
+               <element Id="BHT03">TRANSA</element>
+               <element Id="BHT04">20140831</element>
+               <element Id="BHT05">07582355</element>
+            </segment>
+            <segment Id="HL">
+               <element Id="HL01">1</element>
+               <element Id="HL03">20</element>
+               <element Id="HL04">1</element>
+            </segment>
+            <segment Id="NM1">
+               <element Id="NM101">PR</element>
+               <element Id="NM102">2</element>
+               <element Id="NM103">CMS</element>
+               <element Id="NM108">PI</element>
+               <element Id="NM109">CMS</element>
+            </segment>
+            <segment Id="PER">
+               <element Id="PER01">IC</element>
+               <element Id="PER03">UR</element>
+               <element Id="PER04">http://www.cms.gov/HETSHelp/</element>
+               <element Id="PER05">UR</element>
+               <element Id="PER06">http://www.cms.gov/center/provider.asp</element>
+            </segment>
+            <segment Id="HL">
+               <element Id="HL01">2</element>
+               <element Id="HL02">1</element>
+               <element Id="HL03">21</element>
+               <element Id="HL04">1</element>
+            </segment>
+            <segment Id="NM1">
+               <element Id="NM101">1P</element>
+               <element Id="NM102">2</element>
+               <element Id="NM103">IRNAME</element>
+               <element Id="NM108">XX</element>
+               <element Id="NM109">1234567893</element>
+            </segment>
+            <segment Id="HL">
+               <element Id="HL01">3</element>
+               <element Id="HL02">2</element>
+               <element Id="HL03">22</element>
+               <element Id="HL04">0</element>
+            </segment>
+            <segment Id="TRN">
+               <element Id="TRN01">2</element>
+               <element Id="TRN02">TRACKNUM</element>
+               <element Id="TRN03">ABCDEFGHIJ</element>
+            </segment>
+            <segment Id="NM1">
+               <element Id="NM101">IL</element>
+               <element Id="NM102">1</element>
+               <element Id="NM103">LNAME</element>
+               <element Id="NM104">FNAME</element>
+               <element Id="NM105">M</element>
+               <element Id="NM108">MI</element>
+               <element Id="NM109">123456789A</element>
+            </segment>
+            <segment Id="N3">
+               <element Id="N301">ADDRESSLINE1</element>
+               <element Id="N302">ADDRESSLINE2</element>
+            </segment>
+            <segment Id="N4">
+               <element Id="N401">CITY</element>
+               <element Id="N402">ST</element>
+               <element Id="N403">ZIPCODE</element>
+            </segment>
+            <segment Id="DMG">
+               <element Id="DMG01">D8</element>
+               <element Id="DMG02">19400401</element>
+               <element Id="DMG03">F</element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">307</element>
+               <element Id="DTP02">RD8</element>
+               <element Id="DTP03">20140201-20141031</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">6</element>
+               <element Id="EB03">30</element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">307</element>
+               <element Id="DTP02">RD8</element>
+               <element Id="DTP03">20140301-20140503</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">I</element>
+               <element Id="EB03">41</element>
+               <element Id="EB03">54</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">1</element>
+               <element Id="EB03">88</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">1</element>
+               <element Id="EB03">30</element>
+               <element Id="EB03">10</element>
+               <element Id="EB03">42</element>
+               <element Id="EB03">45</element>
+               <element Id="EB03">48</element>
+               <element Id="EB03">49</element>
+               <element Id="EB03">69</element>
+               <element Id="EB03">76</element>
+               <element Id="EB03">83</element>
+               <element Id="EB03">A5</element>
+               <element Id="EB03">A7</element>
+               <element Id="EB03">AG</element>
+               <element Id="EB03">BT</element>
+               <element Id="EB03">BU</element>
+               <element Id="EB03">BV</element>
+               <element Id="EB04">MA</element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">291</element>
+               <element Id="DTP02">D8</element>
+               <element Id="DTP03">20050401</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">C</element>
+               <element Id="EB03">30</element>
+               <element Id="EB04">MA</element>
+               <element Id="EB06">26</element>
+               <element Id="EB07">1216</element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">291</element>
+               <element Id="DTP02">RD8</element>
+               <element Id="DTP03">20140101-20141231</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">C</element>
+               <element Id="EB03">30</element>
+               <element Id="EB04">MA</element>
+               <element Id="EB06">29</element>
+               <element Id="EB07">1216</element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">291</element>
+               <element Id="DTP02">RD8</element>
+               <element Id="DTP03">20140101-20141231</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">C</element>
+               <element Id="EB03">30</element>
+               <element Id="EB04">MA</element>
+               <element Id="EB06">29</element>
+               <element Id="EB07">0</element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">291</element>
+               <element Id="DTP02">RD8</element>
+               <element Id="DTP03">20140514-20140520</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">C</element>
+               <element Id="EB03">42</element>
+               <element Id="EB03">45</element>
+               <element Id="EB04">MA</element>
+               <element Id="EB06">26</element>
+               <element Id="EB07">0</element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">292</element>
+               <element Id="DTP02">RD8</element>
+               <element Id="DTP03">20140101-20141231</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">B</element>
+               <element Id="EB03">30</element>
+               <element Id="EB04">MA</element>
+               <element Id="EB06">7</element>
+               <element Id="EB07">0</element>
+            </segment>
+            <segment Id="HSD">
+               <element Id="HSD03">DA</element>
+               <element Id="HSD05">30</element>
+               <element Id="HSD06">0</element>
+            </segment>
+            <segment Id="HSD">
+               <element Id="HSD03">DA</element>
+               <element Id="HSD05">31</element>
+               <element Id="HSD06">60</element>
+            </segment>
+            <segment Id="HSD">
+               <element Id="HSD05">26</element>
+               <element Id="HSD06">1</element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">435</element>
+               <element Id="DTP02">RD8</element>
+               <element Id="DTP03">20140101-20141231</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">B</element>
+               <element Id="EB03">30</element>
+               <element Id="EB04">MA</element>
+               <element Id="EB06">7</element>
+               <element Id="EB07">304</element>
+            </segment>
+            <segment Id="HSD">
+               <element Id="HSD03">DA</element>
+               <element Id="HSD05">30</element>
+               <element Id="HSD06">60</element>
+            </segment>
+            <segment Id="HSD">
+               <element Id="HSD03">DA</element>
+               <element Id="HSD05">31</element>
+               <element Id="HSD06">90</element>
+            </segment>
+            <segment Id="HSD">
+               <element Id="HSD05">26</element>
+               <element Id="HSD06">1</element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">435</element>
+               <element Id="DTP02">RD8</element>
+               <element Id="DTP03">20140101-20141231</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">B</element>
+               <element Id="EB03">30</element>
+               <element Id="EB04">MA</element>
+               <element Id="EB06">7</element>
+               <element Id="EB07">0</element>
+            </segment>
+            <segment Id="HSD">
+               <element Id="HSD03">DA</element>
+               <element Id="HSD05">29</element>
+               <element Id="HSD06">60</element>
+            </segment>
+            <segment Id="HSD">
+               <element Id="HSD05">26</element>
+               <element Id="HSD06">1</element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">435</element>
+               <element Id="DTP02">RD8</element>
+               <element Id="DTP03">20140101-20141231</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">B</element>
+               <element Id="EB03">30</element>
+               <element Id="EB04">MA</element>
+               <element Id="EB06">7</element>
+               <element Id="EB07">304</element>
+            </segment>
+            <segment Id="HSD">
+               <element Id="HSD03">DA</element>
+               <element Id="HSD05">29</element>
+               <element Id="HSD06">30</element>
+            </segment>
+            <segment Id="HSD">
+               <element Id="HSD05">26</element>
+               <element Id="HSD06">1</element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">435</element>
+               <element Id="DTP02">RD8</element>
+               <element Id="DTP03">20140101-20141231</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">B</element>
+               <element Id="EB03">30</element>
+               <element Id="EB04">MA</element>
+               <element Id="EB06">7</element>
+               <element Id="EB07">0</element>
+            </segment>
+            <segment Id="HSD">
+               <element Id="HSD03">DA</element>
+               <element Id="HSD05">29</element>
+               <element Id="HSD06">56</element>
+            </segment>
+            <segment Id="HSD">
+               <element Id="HSD05">26</element>
+               <element Id="HSD06">1</element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">435</element>
+               <element Id="DTP02">RD8</element>
+               <element Id="DTP03">20140514-20140520</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">B</element>
+               <element Id="EB03">30</element>
+               <element Id="EB04">MA</element>
+               <element Id="EB06">7</element>
+               <element Id="EB07">304</element>
+            </segment>
+            <segment Id="HSD">
+               <element Id="HSD03">DA</element>
+               <element Id="HSD05">29</element>
+               <element Id="HSD06">30</element>
+            </segment>
+            <segment Id="HSD">
+               <element Id="HSD05">26</element>
+               <element Id="HSD06">1</element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">435</element>
+               <element Id="DTP02">RD8</element>
+               <element Id="DTP03">20140514-20140520</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">B</element>
+               <element Id="EB03">AG</element>
+               <element Id="EB04">MA</element>
+               <element Id="EB06">7</element>
+               <element Id="EB07">0</element>
+            </segment>
+            <segment Id="HSD">
+               <element Id="HSD03">DA</element>
+               <element Id="HSD05">30</element>
+               <element Id="HSD06">0</element>
+            </segment>
+            <segment Id="HSD">
+               <element Id="HSD03">DA</element>
+               <element Id="HSD05">31</element>
+               <element Id="HSD06">20</element>
+            </segment>
+            <segment Id="HSD">
+               <element Id="HSD05">26</element>
+               <element Id="HSD06">1</element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">435</element>
+               <element Id="DTP02">RD8</element>
+               <element Id="DTP03">20140101-20141231</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">B</element>
+               <element Id="EB03">AG</element>
+               <element Id="EB04">MA</element>
+               <element Id="EB06">7</element>
+               <element Id="EB07">152</element>
+            </segment>
+            <segment Id="HSD">
+               <element Id="HSD03">DA</element>
+               <element Id="HSD05">30</element>
+               <element Id="HSD06">20</element>
+            </segment>
+            <segment Id="HSD">
+               <element Id="HSD03">DA</element>
+               <element Id="HSD05">31</element>
+               <element Id="HSD06">100</element>
+            </segment>
+            <segment Id="HSD">
+               <element Id="HSD05">26</element>
+               <element Id="HSD06">1</element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">435</element>
+               <element Id="DTP02">RD8</element>
+               <element Id="DTP03">20140101-20141231</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">B</element>
+               <element Id="EB03">AG</element>
+               <element Id="EB04">MA</element>
+               <element Id="EB06">7</element>
+               <element Id="EB07">0</element>
+            </segment>
+            <segment Id="HSD">
+               <element Id="HSD03">DA</element>
+               <element Id="HSD05">29</element>
+               <element Id="HSD06">20</element>
+            </segment>
+            <segment Id="HSD">
+               <element Id="HSD05">26</element>
+               <element Id="HSD06">1</element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">435</element>
+               <element Id="DTP02">RD8</element>
+               <element Id="DTP03">20140101-20141231</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">B</element>
+               <element Id="EB03">AG</element>
+               <element Id="EB04">MA</element>
+               <element Id="EB06">7</element>
+               <element Id="EB07">152</element>
+            </segment>
+            <segment Id="HSD">
+               <element Id="HSD03">DA</element>
+               <element Id="HSD05">29</element>
+               <element Id="HSD06">80</element>
+            </segment>
+            <segment Id="HSD">
+               <element Id="HSD05">26</element>
+               <element Id="HSD06">1</element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">435</element>
+               <element Id="DTP02">RD8</element>
+               <element Id="DTP03">20140101-20141231</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">B</element>
+               <element Id="EB03">AG</element>
+               <element Id="EB04">MA</element>
+               <element Id="EB06">7</element>
+               <element Id="EB07">0</element>
+            </segment>
+            <segment Id="HSD">
+               <element Id="HSD03">DA</element>
+               <element Id="HSD05">29</element>
+               <element Id="HSD06">16</element>
+            </segment>
+            <segment Id="HSD">
+               <element Id="HSD05">26</element>
+               <element Id="HSD06">1</element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">435</element>
+               <element Id="DTP02">RD8</element>
+               <element Id="DTP03">20140514-20140520</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">B</element>
+               <element Id="EB03">AG</element>
+               <element Id="EB04">MA</element>
+               <element Id="EB06">7</element>
+               <element Id="EB07">152</element>
+            </segment>
+            <segment Id="HSD">
+               <element Id="HSD03">DA</element>
+               <element Id="HSD05">29</element>
+               <element Id="HSD06">80</element>
+            </segment>
+            <segment Id="HSD">
+               <element Id="HSD05">26</element>
+               <element Id="HSD06">1</element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">435</element>
+               <element Id="DTP02">RD8</element>
+               <element Id="DTP03">20140514-20140520</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">K</element>
+               <element Id="EB03">30</element>
+               <element Id="EB04">MA</element>
+               <element Id="EB06">32</element>
+               <element Id="EB09">DY</element>
+               <element Id="EB10">60</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">K</element>
+               <element Id="EB03">30</element>
+               <element Id="EB04">MA</element>
+               <element Id="EB06">33</element>
+               <element Id="EB09">DY</element>
+               <element Id="EB10">58</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">K</element>
+               <element Id="EB03">30</element>
+               <element Id="EB04">MA</element>
+               <element Id="EB06">7</element>
+               <element Id="EB07">608</element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">435</element>
+               <element Id="DTP02">RD8</element>
+               <element Id="DTP03">20140101-20141231</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">K</element>
+               <element Id="EB03">A7</element>
+               <element Id="EB04">MA</element>
+               <element Id="EB06">32</element>
+               <element Id="EB09">DY</element>
+               <element Id="EB10">190</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">K</element>
+               <element Id="EB03">A7</element>
+               <element Id="EB04">MA</element>
+               <element Id="EB06">33</element>
+               <element Id="EB09">DY</element>
+               <element Id="EB10">180</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">1</element>
+               <element Id="EB03">30</element>
+               <element Id="EB03">2</element>
+               <element Id="EB03">3</element>
+               <element Id="EB03">5</element>
+               <element Id="EB03">10</element>
+               <element Id="EB03">14</element>
+               <element Id="EB03">23</element>
+               <element Id="EB03">24</element>
+               <element Id="EB03">25</element>
+               <element Id="EB03">26</element>
+               <element Id="EB03">27</element>
+               <element Id="EB03">28</element>
+               <element Id="EB03">33</element>
+               <element Id="EB03">36</element>
+               <element Id="EB03">37</element>
+               <element Id="EB03">38</element>
+               <element Id="EB03">39</element>
+               <element Id="EB03">40</element>
+               <element Id="EB03">42</element>
+               <element Id="EB03">50</element>
+               <element Id="EB03">51</element>
+               <element Id="EB03">52</element>
+               <element Id="EB03">53</element>
+               <element Id="EB03">67</element>
+               <element Id="EB03">69</element>
+               <element Id="EB03">73</element>
+               <element Id="EB03">76</element>
+               <element Id="EB03">83</element>
+               <element Id="EB03">86</element>
+               <element Id="EB03">98</element>
+               <element Id="EB03">A4</element>
+               <element Id="EB03">A6</element>
+               <element Id="EB03">A8</element>
+               <element Id="EB03">AD</element>
+               <element Id="EB03">AE</element>
+               <element Id="EB03">AF</element>
+               <element Id="EB03">AI</element>
+               <element Id="EB03">AJ</element>
+               <element Id="EB03">AK</element>
+               <element Id="EB03">AL</element>
+               <element Id="EB03">BF</element>
+               <element Id="EB03">BG</element>
+               <element Id="EB03">BT</element>
+               <element Id="EB03">BU</element>
+               <element Id="EB03">BV</element>
+               <element Id="EB03">DM</element>
+               <element Id="EB03">UC</element>
+               <element Id="EB04">MB</element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">291</element>
+               <element Id="DTP02">D8</element>
+               <element Id="DTP03">20050401</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">C</element>
+               <element Id="EB03">30</element>
+               <element Id="EB04">MB</element>
+               <element Id="EB06">23</element>
+               <element Id="EB07">147</element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">291</element>
+               <element Id="DTP02">RD8</element>
+               <element Id="DTP03">20140101-20141231</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">C</element>
+               <element Id="EB03">30</element>
+               <element Id="EB04">MB</element>
+               <element Id="EB06">29</element>
+               <element Id="EB07">0</element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">291</element>
+               <element Id="DTP02">RD8</element>
+               <element Id="DTP03">20140101-20141231</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">A</element>
+               <element Id="EB03">30</element>
+               <element Id="EB04">MB</element>
+               <element Id="EB06">27</element>
+               <element Id="EB08">.2</element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">291</element>
+               <element Id="DTP02">RD8</element>
+               <element Id="DTP03">20140101-20141231</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">A</element>
+               <element Id="EB03">42</element>
+               <element Id="EB03">67</element>
+               <element Id="EB03">AJ</element>
+               <element Id="EB04">MB</element>
+               <element Id="EB06">27</element>
+               <element Id="EB08">0</element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">292</element>
+               <element Id="DTP02">RD8</element>
+               <element Id="DTP03">20140101-20141231</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">A</element>
+               <element Id="EB03">A4</element>
+               <element Id="EB03">A6</element>
+               <element Id="EB03">A8</element>
+               <element Id="EB03">AI</element>
+               <element Id="EB03">AK</element>
+               <element Id="EB04">MB</element>
+               <element Id="EB06">27</element>
+               <element Id="EB08">.2</element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">292</element>
+               <element Id="DTP02">RD8</element>
+               <element Id="DTP03">20140101-20141231</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">C</element>
+               <element Id="EB03">42</element>
+               <element Id="EB03">67</element>
+               <element Id="EB03">AJ</element>
+               <element Id="EB04">MB</element>
+               <element Id="EB06">23</element>
+               <element Id="EB07">0</element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">292</element>
+               <element Id="DTP02">RD8</element>
+               <element Id="DTP03">20140101-20141231</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">C</element>
+               <element Id="EB04">MB</element>
+               <element Id="EB06">23</element>
+               <element Id="EB07">0</element>
+               <element Id="EB13" Composite="yes">
+                  <subelement Sequence="1">HC</subelement>
+                  <subelement Sequence="2">80061</subelement>
+               </element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">292</element>
+               <element Id="DTP02">RD8</element>
+               <element Id="DTP03">20140101-20141231</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">C</element>
+               <element Id="EB04">MB</element>
+               <element Id="EB06">23</element>
+               <element Id="EB07">147</element>
+               <element Id="EB13" Composite="yes">
+                  <subelement Sequence="1">HC</subelement>
+                  <subelement Sequence="2">G0117</subelement>
+               </element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">292</element>
+               <element Id="DTP02">RD8</element>
+               <element Id="DTP03">20140101-20141231</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">C</element>
+               <element Id="EB04">MB</element>
+               <element Id="EB06">29</element>
+               <element Id="EB07">0</element>
+               <element Id="EB13" Composite="yes">
+                  <subelement Sequence="1">HC</subelement>
+                  <subelement Sequence="2">G0117</subelement>
+               </element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">292</element>
+               <element Id="DTP02">RD8</element>
+               <element Id="DTP03">20140101-20141231</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">A</element>
+               <element Id="EB04">MB</element>
+               <element Id="EB06">27</element>
+               <element Id="EB08">0</element>
+               <element Id="EB13" Composite="yes">
+                  <subelement Sequence="1">HC</subelement>
+                  <subelement Sequence="2">80061</subelement>
+               </element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">292</element>
+               <element Id="DTP02">RD8</element>
+               <element Id="DTP03">20140101-20141231</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">A</element>
+               <element Id="EB04">MB</element>
+               <element Id="EB06">27</element>
+               <element Id="EB08">.2</element>
+               <element Id="EB13" Composite="yes">
+                  <subelement Sequence="1">HC</subelement>
+                  <subelement Sequence="2">G0117</subelement>
+               </element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">292</element>
+               <element Id="DTP02">RD8</element>
+               <element Id="DTP03">20140101-20141231</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">D</element>
+               <element Id="EB04">MB</element>
+               <element Id="EB13" Composite="yes">
+                  <subelement Sequence="1">HC</subelement>
+                  <subelement Sequence="2">80061</subelement>
+               </element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">348</element>
+               <element Id="DTP02">D8</element>
+               <element Id="DTP03">20130105</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">D</element>
+               <element Id="EB04">MB</element>
+               <element Id="EB13" Composite="yes">
+                  <subelement Sequence="1">HC</subelement>
+                  <subelement Sequence="2">G0117</subelement>
+               </element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">348</element>
+               <element Id="DTP02">D8</element>
+               <element Id="DTP03">20120107</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">F</element>
+               <element Id="EB03">67</element>
+               <element Id="EB04">MB</element>
+               <element Id="EB06">22</element>
+               <element Id="EB09">VS</element>
+               <element Id="EB10">8</element>
+            </segment>
+            <segment Id="HSD">
+               <element Id="HSD01">VS</element>
+               <element Id="HSD02">6</element>
+               <element Id="HSD05">29</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">D</element>
+               <element Id="EB03">AD</element>
+               <element Id="EB04">MB</element>
+               <element Id="EB07">200</element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">292</element>
+               <element Id="DTP02">RD8</element>
+               <element Id="DTP03">20140101-20141231</element>
+            </segment>
+            <segment Id="MSG">
+               <element Id="MSG01">USED AMOUNT</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">D</element>
+               <element Id="EB03">AE</element>
+               <element Id="EB04">MB</element>
+               <element Id="EB07">0</element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">292</element>
+               <element Id="DTP02">RD8</element>
+               <element Id="DTP03">20140101-20141231</element>
+            </segment>
+            <segment Id="MSG">
+               <element Id="MSG01">USED AMOUNT</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">F</element>
+               <element Id="EB03">BF</element>
+               <element Id="EB04">MB</element>
+               <element Id="EB06">29</element>
+               <element Id="EB09">CA</element>
+               <element Id="EB10">72</element>
+            </segment>
+            <segment Id="MSG">
+               <element Id="MSG01">Professional</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">F</element>
+               <element Id="EB03">BF</element>
+               <element Id="EB04">MB</element>
+               <element Id="EB06">29</element>
+               <element Id="EB09">CA</element>
+               <element Id="EB10">72</element>
+            </segment>
+            <segment Id="MSG">
+               <element Id="MSG01">Technical</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">F</element>
+               <element Id="EB03">BG</element>
+               <element Id="EB04">MB</element>
+               <element Id="EB09">99</element>
+               <element Id="EB10">0</element>
+            </segment>
+            <segment Id="MSG">
+               <element Id="MSG01">Professional</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">F</element>
+               <element Id="EB03">BG</element>
+               <element Id="EB04">MB</element>
+               <element Id="EB09">99</element>
+               <element Id="EB10">0</element>
+            </segment>
+            <segment Id="MSG">
+               <element Id="MSG01">Technical</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">F</element>
+               <element Id="EB03">BG</element>
+               <element Id="EB04">MB</element>
+               <element Id="EB09">99</element>
+               <element Id="EB10">15</element>
+            </segment>
+            <segment Id="MSG">
+               <element Id="MSG01">Intensive Cardiac Rehabilitation �€“ Professional</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">F</element>
+               <element Id="EB03">BG</element>
+               <element Id="EB04">MB</element>
+               <element Id="EB09">99</element>
+               <element Id="EB10">15</element>
+            </segment>
+            <segment Id="MSG">
+               <element Id="MSG01">Intensive Cardiac Rehabilitation �€“ Technical</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">X</element>
+               <element Id="EB03">42</element>
+               <element Id="EB06">26</element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">472</element>
+               <element Id="DTP02">RD8</element>
+               <element Id="DTP03">20130522-20130729</element>
+            </segment>
+            <segment Id="LS">
+               <element Id="LS01">2120</element>
+            </segment>
+            <segment Id="NM1">
+               <element Id="NM101">PR</element>
+               <element Id="NM102">2</element>
+               <element Id="NM103">ORGNAME</element>
+               <element Id="NM108">PI</element>
+               <element Id="NM109">CONTR</element>
+            </segment>
+            <segment Id="NM1">
+               <element Id="NM101">1P</element>
+               <element Id="NM102">2</element>
+               <element Id="NM108">XX</element>
+               <element Id="NM109">1234567890</element>
+            </segment>
+            <segment Id="LE">
+               <element Id="LE01">2120</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">X</element>
+               <element Id="EB13" Composite="yes">
+                  <subelement Sequence="1">HC</subelement>
+                  <subelement Sequence="2">G0180</subelement>
+               </element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">193</element>
+               <element Id="DTP02">D8</element>
+               <element Id="DTP03">20140101</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">X</element>
+               <element Id="EB13" Composite="yes">
+                  <subelement Sequence="1">HC</subelement>
+                  <subelement Sequence="2">G0179</subelement>
+               </element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">193</element>
+               <element Id="DTP02">D8</element>
+               <element Id="DTP03">20140501</element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">193</element>
+               <element Id="DTP02">D8</element>
+               <element Id="DTP03">20140301</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">X</element>
+               <element Id="EB03">45</element>
+               <element Id="EB04">MA</element>
+               <element Id="EB06">26</element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">292</element>
+               <element Id="DTP02">RD8</element>
+               <element Id="DTP03">20140505-20140514</element>
+            </segment>
+            <segment Id="MSG">
+               <element Id="MSG01">Revocation Code �€“ 1</element>
+            </segment>
+            <segment Id="LS">
+               <element Id="LS01">2120</element>
+            </segment>
+            <segment Id="NM1">
+               <element Id="NM101">1P</element>
+               <element Id="NM102">2</element>
+               <element Id="NM108">XX</element>
+               <element Id="NM109">1234567890</element>
+            </segment>
+            <segment Id="LE">
+               <element Id="LE01">2120</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">D</element>
+               <element Id="EB03">45</element>
+               <element Id="EB04">MA</element>
+               <element Id="EB06">26</element>
+               <element Id="EB09">99</element>
+               <element Id="EB10">1</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">D</element>
+               <element Id="EB03">14</element>
+               <element Id="EB04">MB</element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">356</element>
+               <element Id="DTP02">D8</element>
+               <element Id="DTP03">20110601</element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">096</element>
+               <element Id="DTP02">D8</element>
+               <element Id="DTP03">20130105</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">E</element>
+               <element Id="EB03">10</element>
+               <element Id="EB06">23</element>
+               <element Id="EB09">DB</element>
+               <element Id="EB10">3</element>
+            </segment>
+            <segment Id="HSD">
+               <element Id="HSD01">FL</element>
+               <element Id="HSD02">2</element>
+               <element Id="HSD05">29</element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">292</element>
+               <element Id="DTP02">RD8</element>
+               <element Id="DTP03">20140101-20141231</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">R</element>
+               <element Id="EB03">88</element>
+               <element Id="EB04">OT</element>
+            </segment>
+            <segment Id="REF">
+               <element Id="REF01">18</element>
+               <element Id="REF02">S0000 999</element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">292</element>
+               <element Id="DTP02">D8</element>
+               <element Id="DTP03">20130101</element>
+            </segment>
+            <segment Id="LS">
+               <element Id="LS01">2120</element>
+            </segment>
+            <segment Id="NM1">
+               <element Id="NM101">PRP</element>
+               <element Id="NM102">2</element>
+               <element Id="NM103">ORGNAME</element>
+            </segment>
+            <segment Id="N3">
+               <element Id="N301">ADDRESSLINE1</element>
+               <element Id="N302">ADDRESSLINE2</element>
+            </segment>
+            <segment Id="N4">
+               <element Id="N401">CITY</element>
+               <element Id="N402">ST</element>
+               <element Id="N403">ZIPCODE</element>
+            </segment>
+            <segment Id="PER">
+               <element Id="PER01">IC</element>
+               <element Id="PER03">TE</element>
+               <element Id="PER04">AAABBBCCCC</element>
+               <element Id="PER05">UR</element>
+               <element Id="PER06">www.website.com</element>
+            </segment>
+            <segment Id="LE">
+               <element Id="LE01">2120</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">R</element>
+               <element Id="EB03">30</element>
+               <element Id="EB04">IN</element>
+            </segment>
+            <segment Id="REF">
+               <element Id="REF01">18</element>
+               <element Id="REF02">H0000 999</element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">290</element>
+               <element Id="DTP02">D8</element>
+               <element Id="DTP03">20090101</element>
+            </segment>
+            <segment Id="MSG">
+               <element Id="MSG01">MCO Bill Option Code- C</element>
+            </segment>
+            <segment Id="LS">
+               <element Id="LS01">2120</element>
+            </segment>
+            <segment Id="NM1">
+               <element Id="NM101">PRP</element>
+               <element Id="NM102">2</element>
+               <element Id="NM103">ORGNAME</element>
+            </segment>
+            <segment Id="N3">
+               <element Id="N301">ADDRESSLINE1</element>
+               <element Id="N302">ADDRESSLINE2</element>
+            </segment>
+            <segment Id="N4">
+               <element Id="N401">CITY</element>
+               <element Id="N402">ST</element>
+               <element Id="N403">ZIPCODE</element>
+            </segment>
+            <segment Id="PER">
+               <element Id="PER01">IC</element>
+               <element Id="PER03">TE</element>
+               <element Id="PER04">AAABBBCCCC</element>
+               <element Id="PER05">UR</element>
+               <element Id="PER06">www.website.com</element>
+            </segment>
+            <segment Id="LE">
+               <element Id="LE01">2120</element>
+            </segment>
+            <segment Id="EB">
+               <element Id="EB01">R</element>
+               <element Id="EB03">30</element>
+               <element Id="EB04">13</element>
+            </segment>
+            <segment Id="REF">
+               <element Id="REF01">IG</element>
+               <element Id="REF02">POLICYNUMBER</element>
+            </segment>
+            <segment Id="DTP">
+               <element Id="DTP01">290</element>
+               <element Id="DTP02">RD8</element>
+               <element Id="DTP03">20110601-20130601</element>
+            </segment>
+            <segment Id="LS">
+               <element Id="LS01">2120</element>
+            </segment>
+            <segment Id="NM1">
+               <element Id="NM101">PRP</element>
+               <element Id="NM102">2</element>
+               <element Id="NM103">ORGNAME</element>
+            </segment>
+            <segment Id="N3">
+               <element Id="N301">ADDRESSLINE1</element>
+               <element Id="N302">ADDRESSLINE2</element>
+            </segment>
+            <segment Id="N4">
+               <element Id="N401">CITY</element>
+               <element Id="N402">ST</element>
+               <element Id="N403">ZIPCODE</element>
+            </segment>
+            <segment Id="LE">
+               <element Id="LE01">2120</element>
+            </segment>
+         </transaction>
+      </group>
+   </interchange>
+</ediroot>

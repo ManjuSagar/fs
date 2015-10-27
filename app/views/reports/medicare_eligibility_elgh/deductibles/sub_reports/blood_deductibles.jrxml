@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="blodd_deductibles" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="83340961-fc45-4a15-aa2a-4c0c5bfc3a15">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/elgh-response/beneficiary-information/blood-deductibles/blood-deductible]]>
+	</queryString>
+	<field name="deductible-year" class="java.lang.String">
+		<fieldDescription><![CDATA[deductible-year]]></fieldDescription>
+	</field>
+	<field name="blood-deductibles-units-remaining" class="java.lang.String">
+		<fieldDescription><![CDATA[blood-deductibles-units-remaining]]></fieldDescription>
+	</field>
+	<field name="base-units-per-year" class="java.lang.String">
+		<fieldDescription><![CDATA[base-units-per-year]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="36">
+			<printWhenExpression><![CDATA[$F{deductible-year}!=null ||
+$F{blood-deductibles-units-remaining}!=null]]></printWhenExpression>
+			<staticText>
+				<reportElement uuid="5686f3fe-b2c7-4d33-b4a8-54c189e070a8" mode="Opaque" x="5" y="21" width="340" height="15" backcolor="#F0ECEC"/>
+				<textElement>
+					<font size="10" isBold="true"/>
+					<paragraph leftIndent="1"/>
+				</textElement>
+				<text><![CDATA[Calendar Year ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="af9b01a6-54f5-4a92-a78e-65d502d6b035" mode="Opaque" x="332" y="21" width="210" height="15" backcolor="#F0ECEC"/>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Number of Units Remaining]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="0242dcb1-7f8a-4ad6-bcbd-f32e17d0e734" mode="Opaque" x="1" y="2" width="555" height="15" backcolor="#DFD4D4"/>
+				<textElement>
+					<font size="10" isBold="true"/>
+					<paragraph firstLineIndent="1"/>
+				</textElement>
+				<text><![CDATA[ Blood Deductible]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="19" splitType="Stretch">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="4b6f6135-0508-47b9-afb5-f05db8e828d3" x="5" y="2" width="173" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Left">
+					<font size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{deductible-year}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="4b6f6135-0508-47b9-afb5-f05db8e828d3" x="332" y="2" width="210" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{blood-deductibles-units-remaining}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

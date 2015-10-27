@@ -1,0 +1,102 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="beneficiary_address_subreport" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="201d8967-21bb-4f19-808e-997e2e5b4520">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/elgh-response/beneficiary-information/beneficiary-address-details]]>
+	</queryString>
+	<field name="address-line-2" class="java.lang.String">
+		<fieldDescription><![CDATA[/elgh-response/beneficiary-information/beneficiary-address-details/address-line-2]]></fieldDescription>
+	</field>
+	<field name="city" class="java.lang.String">
+		<fieldDescription><![CDATA[/elgh-response/beneficiary-information/beneficiary-address-details/city]]></fieldDescription>
+	</field>
+	<field name="address-line-1" class="java.lang.String">
+		<fieldDescription><![CDATA[/elgh-response/beneficiary-information/beneficiary-address-details/address-line-1]]></fieldDescription>
+	</field>
+	<field name="state" class="java.lang.String">
+		<fieldDescription><![CDATA[/elgh-response/beneficiary-information/beneficiary-address-details/state]]></fieldDescription>
+	</field>
+	<field name="zip-code" class="java.lang.String">
+		<fieldDescription><![CDATA[/elgh-response/beneficiary-information/beneficiary-address-details/zip-code]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="24" splitType="Stretch">
+			<printWhenExpression><![CDATA[$F{address-line-1}!=null ||
+$F{address-line-2}!=null ||
+$F{city}!=null ||
+$F{state}!=null ||
+$F{zip-code}!=null]]></printWhenExpression>
+			<staticText>
+				<reportElement uuid="208b2504-c14d-42c2-a7b1-22333406a9f5" mode="Opaque" x="0" y="1" width="555" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" backcolor="#DFD4D4"/>
+				<textElement>
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Beneficiary Address]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="47" splitType="Stretch">
+			<printWhenExpression><![CDATA[$F{address-line-1}!=null ||
+$F{address-line-2}!=null ||
+$F{city}!=null ||
+$F{state}!=null ||
+$F{zip-code}!=null]]></printWhenExpression>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="19bcfa46-7990-4a87-a510-1ab7f6ac15da" x="95" y="0" width="174" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{address-line-1}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="435e00ee-183f-483b-91bd-6c44975df32f" x="5" y="0" width="78" height="15"/>
+				<textElement/>
+				<text><![CDATA[Address Line 1:]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="33993a21-80af-45c0-9809-e8ab1f827c7a" x="95" y="15" width="174" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{address-line-2}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="87e0c4c3-4ea7-4d84-8365-ca05c220bf00" x="5" y="15" width="78" height="15"/>
+				<textElement/>
+				<text><![CDATA[Address Line 2:]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="7acffae7-eca5-4751-a52f-04832bf437bc" x="345" y="0" width="30" height="15"/>
+				<textElement/>
+				<text><![CDATA[City:]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="0af8a55e-dcc7-4432-9dc3-5587e2dc2b63" x="377" y="15" width="170" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{state}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="df6f7636-af9a-4171-99e6-5ea67a9b3fd3" x="345" y="15" width="30" height="15"/>
+				<textElement/>
+				<text><![CDATA[State:]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="6c0be0d2-0903-4de5-afe1-12a5e931e3c0" x="95" y="30" width="176" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{zip-code}]]></textFieldExpression>
+			</textField>
+			<staticText>
+				<reportElement uuid="1164da40-b7d0-4e96-92fb-5a097fea7d12" x="5" y="30" width="78" height="15"/>
+				<textElement/>
+				<text><![CDATA[Zip Code:]]></text>
+			</staticText>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="38661ba9-f878-4d7c-be67-db357da6c08b" x="377" y="0" width="170" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement/>
+				<textFieldExpression><![CDATA[$F{city}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>

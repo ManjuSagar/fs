@@ -1,0 +1,329 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<chha-followup>
+  <agency-approved-user-id type="integer" nil="true"/>
+  <created-user-id type="integer">72</created-user-id>
+  <data>
+    <valid type="boolean">true</valid>
+    <patient-name>Latha b</patient-name>
+    <mr>4</mr>
+    <physician-name>Brendan Braun</physician-name>
+    <temp-done>on</temp-done>
+    <pulse-rate-done>on</pulse-rate-done>
+    <respiratory-done>on</respiratory-done>
+    <blood-pressure-done>on</blood-pressure-done>
+    <toileting-activities-done>on</toileting-activities-done>
+    <shower-done>on</shower-done>
+    <tub-bath-done>on</tub-bath-done>
+    <bed-bath-partial-done>on</bed-bath-partial-done>
+    <bed-bath-complete-done>on</bed-bath-complete-done>
+    <bed-bath-sponge-done>on</bed-bath-sponge-done>
+    <deodorant-done>on</deodorant-done>
+    <dressing-done>on</dressing-done>
+    <denture-care-done>on</denture-care-done>
+    <oral-care-done>on</oral-care-done>
+    <hair-done>on</hair-done>
+    <shave-done>on</shave-done>
+    <makeup-done>on</makeup-done>
+    <nail-done>on</nail-done>
+    <foot-care-done>on</foot-care-done>
+    <skin-care-done>on</skin-care-done>
+    <temp>Axiliary</temp>
+    <back-rub-done>on</back-rub-done>
+    <grocery-done>on</grocery-done>
+    <meal-preparation-done>on</meal-preparation-done>
+    <ast-feeding-done>on</ast-feeding-done>
+    <self-medications-done>on</self-medications-done>
+    <cha-bed-linen-done>on</cha-bed-linen-done>
+    <laundry-done>on</laundry-done>
+    <cln-liv-area-done>on</cln-liv-area-done>
+    <amb-assist-done>on</amb-assist-done>
+    <transfers-done>on</transfers-done>
+    <rom-done>on</rom-done>
+    <excercise-done>on</excercise-done>
+    <positioning-done>on</positioning-done>
+    <infection-control-done>on</infection-control-done>
+    <clr-path-done>on</clr-path-done>
+    <othr-text1-done nil="true"/>
+    <othr-text2-done nil="true"/>
+    <othr-text3-done nil="true"/>
+    <othr-text4-done nil="true"/>
+    <othr-text5-done nil="true"/>
+    <amb-assist type="array">
+      <amb-assist>W/C</amb-assist>
+      <amb-assist>Walker</amb-assist>
+    </amb-assist>
+    <rom type="array">
+      <rom>Active</rom>
+    </rom>
+    <position type="array">
+      <position>Assist</position>
+    </position>
+    <infection-control type="array">
+      <infection-control>Hand Washing</infection-control>
+      <infection-control>Gloves</infection-control>
+    </infection-control>
+    <notes-and-comments nil="true"/>
+    <other1-text nil="true"/>
+    <other2-text nil="true"/>
+    <other3-text nil="true"/>
+    <other4-text nil="true"/>
+    <other5-text nil="true"/>
+  </data>
+  <document-date type="date">2013-06-19</document-date>
+  <document-definition-id type="integer">214</document-definition-id>
+  <document-form-template-id type="integer">79</document-form-template-id>
+  <field-staff-id type="integer">107</field-staff-id>
+  <fs-sign-date type="date" nil="true"/>
+  <fs-sign-required type="boolean">true</fs-sign-required>
+  <id type="integer">268</id>
+  <lock-version type="integer">0</lock-version>
+  <os-sign-date type="date" nil="true"/>
+  <os-sign-required type="boolean">true</os-sign-required>
+  <physician-id type="integer" nil="true"/>
+  <status type="symbol">draft</status>
+  <supervised-user-id type="integer" nil="true"/>
+  <supervised-user-sign-date type="date" nil="true"/>
+  <supervisor-sign-required type="boolean">false</supervisor-sign-required>
+  <treatment-episode-id type="integer">33</treatment-episode-id>
+  <treatment-id type="integer">30</treatment-id>
+  <visit-id type="integer" nil="true"/>
+  <performs type="array">
+    <perform>
+      <done>temp_done</done>
+      <assist>Check Temperature: Axiliary</assist>
+    </perform>
+    <perform>
+      <done>back_rub_done</done>
+      <assist>Back Rub</assist>
+    </perform>
+    <perform>
+      <done>pulse_rate_done</done>
+      <assist>Check Pulse</assist>
+    </perform>
+    <perform>
+      <done>grocery_done</done>
+      <assist>Grocery Shopping</assist>
+    </perform>
+    <perform>
+      <done>respiratory_done</done>
+      <assist>Check Respiration</assist>
+    </perform>
+    <perform>
+      <done>meal_preparation_done</done>
+      <assist>Meal Preparation</assist>
+    </perform>
+    <perform>
+      <done>blood_pressure_done</done>
+      <assist>Check Blood Pressure</assist>
+    </perform>
+    <perform>
+      <done>ast_feeding_done</done>
+      <assist>Feeding</assist>
+    </perform>
+    <perform>
+      <done>toileting_activities_done</done>
+      <assist>Toileting Activities</assist>
+    </perform>
+    <perform>
+      <done>self_medications_done</done>
+      <assist>Self-Administaration of Medications</assist>
+    </perform>
+    <perform>
+      <done>shower_done</done>
+      <assist>Bathing: Shower (please use a shower chair)</assist>
+    </perform>
+    <perform>
+      <done>cha_bed_linen_done</done>
+      <assist>Changing Bed Linens</assist>
+    </perform>
+    <perform>
+      <done>tub_bath_done</done>
+      <assist>Bathing: Tub</assist>
+    </perform>
+    <perform>
+      <done>laundry_done</done>
+      <assist>Laundry</assist>
+    </perform>
+    <perform>
+      <done>bed_bath_partial_done</done>
+      <assist>Bathing: Bed Partial</assist>
+    </perform>
+    <perform>
+      <done>cln_liv_area_done</done>
+      <assist>Cleaning Living Areas</assist>
+    </perform>
+    <perform>
+      <done>bed_bath_complete_done</done>
+      <assist>Bathing: Bed Complete</assist>
+    </perform>
+    <perform>
+      <done>amb_assist_done</done>
+      <assist>Amb. Assist: W/C, Walker</assist>
+    </perform>
+    <perform>
+      <done>bed_bath_sponge_done</done>
+      <assist>Bathing: Bed Sponge</assist>
+    </perform>
+    <perform>
+      <done>transfers_done</done>
+      <assist>Transfers</assist>
+    </perform>
+    <perform>
+      <done>deodorant_done</done>
+      <assist>Appling Deodorant</assist>
+    </perform>
+    <perform>
+      <done>rom_done</done>
+      <assist>ROM: Active</assist>
+    </perform>
+    <perform>
+      <done>dressing_done</done>
+      <assist>Dressing and Undressing</assist>
+    </perform>
+    <perform>
+      <done>excercise_done</done>
+      <assist>PT/OT Ordered Exercises</assist>
+    </perform>
+    <perform>
+      <done>denture_care_done</done>
+      <assist>Denture Care</assist>
+    </perform>
+    <perform>
+      <done>positioning_done</done>
+      <assist>Positioning: Turn Each Hour: Assist</assist>
+    </perform>
+    <perform>
+      <done>oral_care_done</done>
+      <assist>Brushing Teeth</assist>
+    </perform>
+    <perform>
+      <done>infection_control_done</done>
+      <assist>Infection Control: Hand Washing, Gloves</assist>
+    </perform>
+    <perform>
+      <done>hair_done</done>
+      <assist>Brushing/Combing Hair</assist>
+    </perform>
+    <perform>
+      <done>clr_path_done</done>
+      <assist>Clear Pathways</assist>
+    </perform>
+    <perform>
+      <done>shave_done</done>
+      <assist>Shaving</assist>
+    </perform>
+    <perform>
+      <done>makeup_done</done>
+      <assist>Appling Makeup</assist>
+    </perform>
+    <perform>
+      <done>nail_done</done>
+      <assist>Nail Hygiene</assist>
+    </perform>
+    <perform>
+      <done>foot_care_done</done>
+      <assist>Foot Care</assist>
+    </perform>
+    <perform>
+      <done>skin_care_done</done>
+      <assist>Skin Care</assist>
+    </perform>
+  </performs>
+  <agency-name>GoodHealth Home Care</agency-name>
+  <print-insurance-flag>true</print-insurance-flag>
+  <ins-company-name>medicare</ins-company-name>
+  <visit-frequency nil="true"/>
+  <vital-sign-temperature>&lt;107.7F</vital-sign-temperature>
+  <vital-sign-pulse>&lt;117.77 per minute</vital-sign-pulse>
+  <vital-sign-respiration-rate>&lt;120.22 per minute</vital-sign-respiration-rate>
+  <vital-sign-systolic-bp>&lt;113.3 mmHG</vital-sign-systolic-bp>
+  <vital-sign-diastolic-bp>&lt;111.65 mmHG</vital-sign-diastolic-bp>
+  <temperature-in-fht nil="true"/>
+  <heart-rate nil="true"/>
+  <respiration-rate nil="true"/>
+  <systolic-bp-display> </systolic-bp-display>
+  <diastolic-bp nil="true"/>
+  <diastolic-bp-display> </diastolic-bp-display>
+  <heart-rate-display> </heart-rate-display>
+  <respiration-rate-display> </respiration-rate-display>
+  <temperature-in-fht-display> </temperature-in-fht-display>
+  <notes-and-comments-value nil="true"/>
+  <notes-and-comments-label>Notes and Comments</notes-and-comments-label>
+  <assist-subreport-url>/home/msuser1/workspace/git_repos/fasternotes/app/views/reports/chha_followup/assist_subreport.jasper</assist-subreport-url>
+  <vitals-display/>
+  <fs-signed-date-display nil="true"/>
+  <detail2-label nil="true"/>
+  <detail2-value nil="true"/>
+  <detail3-label nil="true"/>
+  <detail3-value nil="true"/>
+  <detail4-label nil="true"/>
+  <detail4-value nil="true"/>
+  <detail5-label nil="true"/>
+  <detail5-value nil="true"/>
+  <detail6-label nil="true"/>
+  <detail6-value nil="true"/>
+  <detail7-label nil="true"/>
+  <detail7-value nil="true"/>
+  <detail8-label nil="true"/>
+  <detail8-value nil="true"/>
+  <detail9-label nil="true"/>
+  <detail9-value nil="true"/>
+  <detail10-label nil="true"/>
+  <detail10-value nil="true"/>
+  <detail11-label nil="true"/>
+  <detail11-value nil="true"/>
+  <detail12-label nil="true"/>
+  <detail12-value nil="true"/>
+  <detail13-label nil="true"/>
+  <detail13-value nil="true"/>
+  <detail14-label nil="true"/>
+  <detail14-value nil="true"/>
+  <detail15-label nil="true"/>
+  <detail15-value nil="true"/>
+  <detail28-label nil="true"/>
+  <detail28-value nil="true"/>
+  <detail29-label nil="true"/>
+  <detail29-value nil="true"/>
+  <show-physician nil="true"/>
+  <field-staff-signature nil="true"/>
+  <field-staff-signed type="boolean">true</field-staff-signed>
+  <supervisor-signed type="boolean">false</supervisor-signed>
+  <visited-staff-name>chengaiah dsf, CHHA</visited-staff-name>
+  <systolic-bp nil="true"/>
+  <bp-read-location nil="true"/>
+  <bp-read-position nil="true"/>
+  <blood-sugar nil="true"/>
+  <sugar-read-period nil="true"/>
+  <weight-gain-loss-in-lbs nil="true"/>
+  <oxygen-saturation nil="true"/>
+  <frequency-display nil="true"/>
+  <supervised-user-signature nil="true"/>
+  <supervised-user-name nil="true"/>
+  <pain-section-display/>
+  <supervised-user-signed-date-display nil="true"/>
+  <pain nil="true"/>
+  <detail16-label nil="true"/>
+  <detail16-value nil="true"/>
+  <detail17-label nil="true"/>
+  <detail17-value nil="true"/>
+  <detail18-label nil="true"/>
+  <detail18-value nil="true"/>
+  <detail19-label nil="true"/>
+  <detail19-value nil="true"/>
+  <detail20-label nil="true"/>
+  <detail20-value nil="true"/>
+  <detail21-label nil="true"/>
+  <detail21-value nil="true"/>
+  <detail22-label nil="true"/>
+  <detail22-value nil="true"/>
+  <detail23-label nil="true"/>
+  <detail23-value nil="true"/>
+  <detail24-label nil="true"/>
+  <detail24-value nil="true"/>
+  <detail25-label nil="true"/>
+  <detail25-value nil="true"/>
+  <detail26-label nil="true"/>
+  <detail26-value nil="true"/>
+  <detail27-label nil="true"/>
+  <detail27-value nil="true"/>
+</chha-followup>

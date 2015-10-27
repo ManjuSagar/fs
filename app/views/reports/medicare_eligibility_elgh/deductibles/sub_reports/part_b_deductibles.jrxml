@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jasperReport xmlns="http://jasperreports.sourceforge.net/jasperreports" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://jasperreports.sourceforge.net/jasperreports http://jasperreports.sourceforge.net/xsd/jasperreport.xsd" name="part_b_deductibles" language="groovy" pageWidth="555" pageHeight="802" columnWidth="555" leftMargin="0" rightMargin="0" topMargin="0" bottomMargin="0" uuid="42920550-904b-4b60-a212-d4dbb6b0d3d1">
+	<property name="ireport.zoom" value="1.0"/>
+	<property name="ireport.x" value="0"/>
+	<property name="ireport.y" value="0"/>
+	<queryString language="xPath">
+		<![CDATA[/elgh-response/beneficiary-information/part-b-deductibles/part-b-deductible]]>
+	</queryString>
+	<field name="deductible-year" class="java.lang.String">
+		<fieldDescription><![CDATA[deductible-year]]></fieldDescription>
+	</field>
+	<field name="cash-deductible-remaining" class="java.lang.String">
+		<fieldDescription><![CDATA[cash-deductible-remaining]]></fieldDescription>
+	</field>
+	<field name="base-amount-deductible-for-year" class="java.lang.Float">
+		<fieldDescription><![CDATA[base-amount-deductible-for-year]]></fieldDescription>
+	</field>
+	<field name="coinsurance-amount-for-year" class="java.lang.String">
+		<fieldDescription><![CDATA[coinsurance-amount-for-year]]></fieldDescription>
+	</field>
+	<field name="plan-level-coinsurance-percentage" class="java.lang.String">
+		<fieldDescription><![CDATA[plan-level-coinsurance-percentage]]></fieldDescription>
+	</field>
+	<field name="mental-health-coinsurance-percentage" class="java.lang.String">
+		<fieldDescription><![CDATA[mental-health-coinsurance-percentage]]></fieldDescription>
+	</field>
+	<field name="hcpcs" class="java.lang.String">
+		<fieldDescription><![CDATA[hcpcs]]></fieldDescription>
+	</field>
+	<background>
+		<band splitType="Stretch"/>
+	</background>
+	<columnHeader>
+		<band height="45">
+			<printWhenExpression><![CDATA[$F{hcpcs}!=null ||
+$F{deductible-year}!=null||
+$F{cash-deductible-remaining}!=null ||
+$F{base-amount-deductible-for-year}!=null]]></printWhenExpression>
+			<staticText>
+				<reportElement uuid="5686f3fe-b2c7-4d33-b4a8-54c189e070a8" mode="Opaque" x="243" y="20" width="130" height="25" backcolor="#F0ECEC"/>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+					<paragraph leftIndent="1"/>
+				</textElement>
+				<text><![CDATA[Deductible Year ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="af9b01a6-54f5-4a92-a78e-65d502d6b035" mode="Opaque" x="454" y="20" width="100" height="25" backcolor="#F0ECEC"/>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[Remaining Deductible Amount ]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="0242dcb1-7f8a-4ad6-bcbd-f32e17d0e734" mode="Opaque" x="1" y="1" width="555" height="15" backcolor="#DFD5D5"/>
+				<textElement>
+					<font size="10" isBold="true"/>
+					<paragraph leftIndent="1"/>
+				</textElement>
+				<text><![CDATA[Part B Deductible]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="5686f3fe-b2c7-4d33-b4a8-54c189e070a8" mode="Opaque" x="5" y="20" width="238" height="25" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true" backcolor="#F0ECEC"/>
+				<textElement textAlignment="Left">
+					<font size="10" isBold="true"/>
+				</textElement>
+				<text><![CDATA[HCPCS]]></text>
+			</staticText>
+			<staticText>
+				<reportElement uuid="708021ea-176b-403d-99e2-be2132198e0c" mode="Opaque" x="372" y="20" width="83" height="25" backcolor="#F0ECEC"/>
+				<textElement textAlignment="Center">
+					<font isBold="true"/>
+				</textElement>
+				<text><![CDATA[Base Amount]]></text>
+			</staticText>
+		</band>
+	</columnHeader>
+	<detail>
+		<band height="17" splitType="Stretch">
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="4b6f6135-0508-47b9-afb5-f05db8e828d3" x="243" y="0" width="133" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{deductible-year}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="de66ca08-b454-4b45-869c-2dc2e9f19401" x="453" y="0" width="100" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Center">
+					<font size="10" isBold="false"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{cash-deductible-remaining}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" pattern="$#,##0.00" isBlankWhenNull="true">
+				<reportElement uuid="27f6d073-c76e-42ac-8633-c1da4bda1fc4" x="372" y="0" width="83" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Center"/>
+				<textFieldExpression><![CDATA[$F{base-amount-deductible-for-year}]]></textFieldExpression>
+			</textField>
+			<textField isStretchWithOverflow="true" isBlankWhenNull="true">
+				<reportElement uuid="ea309d3b-371b-4bf6-955e-2a9ab187eeb7" x="5" y="0" width="238" height="15" isRemoveLineWhenBlank="true" isPrintWhenDetailOverflows="true"/>
+				<textElement textAlignment="Left">
+					<font size="10"/>
+					<paragraph rightIndent="1"/>
+				</textElement>
+				<textFieldExpression><![CDATA[$F{hcpcs}]]></textFieldExpression>
+			</textField>
+		</band>
+	</detail>
+</jasperReport>
